@@ -44,7 +44,7 @@ a number of systems. Currently, we have trust stores from
 * Windows
 * Android 2.2 (Frozen Yogurt)
 * Android 2.3 (Gingerbread)
-* Andorid 3.x (Honeycomb)
+* Android 3.x (Honeycomb)
 * Android 4.0 (Ice Cream Sandwich)
 * Android 4.4 (KitKat)
 
