@@ -43,7 +43,7 @@
 },
 {
 	"name":"Chrome Browser M39",
-	"weight": 1,
+	"weight": 0,
 	"hash_algo": "SHA2",
 	"key_algo": "ECDSA256",
 	"hash_algo_expiry":	{
@@ -54,7 +54,7 @@
 },
 {
 	"name":"Chrome Browser M40",
-	"weight": 1,
+	"weight": 0,
 	"hash_algo": "SHA2",
 	"key_algo": "ECDSA256",
 	"hash_algo_expiry":	{
@@ -65,7 +65,7 @@
 },
 {
 	"name":"Chrome Browser M41 and later",
-	"weight": 1,
+	"weight": 0,
 	"hash_algo": "SHA2",
 	"key_algo": "ECDSA256",
 	"hash_algo_expiry":	{
