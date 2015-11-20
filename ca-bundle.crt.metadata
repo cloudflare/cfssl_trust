@@ -109,4 +109,11 @@
 	"key_algo": "ECDSA256",
 	"keystore": "trusted_roots/kitkat.pem"
 }
+{
+	"name":"Ubuntu",
+	"weight": 1,
+	"hash_algo": "SHA2",
+	"key_algo": "ECDSA256",
+	"keystore": "trusted_roots/ubuntu.pem"
+}
 ]
