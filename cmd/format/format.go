@@ -1,7 +1,7 @@
 // This script takes a file containing multiple certificates and a directory,
 // and creates all the certificates in their own files via a naming convention
 // using info from cfssl certinfo. These created files are put in the directory
-// provided. 
+// provided.
 
 // Usage: go run format.go -f int-bundle.crt -d intermediate_ca
 // This will take int-bundle.crt, a file full of certificates, and create all
@@ -76,7 +76,7 @@ func applyNamingConv(file []byte, filename string) error {
 	// If there is already a certificate of the same name, then add a count
 	// at the end AKA, "commonname_issuedate_sigalg_2.crt" if there is
 	// already a "commonname_issuedate_sigalg.crt", etc...
-	filenameCount[name] += 1
+	filenameCount[name]++
 	if filenameCount[name] > 1 {
 		name += "_" + strconv.Itoa(filenameCount[name])
 	}
@@ -108,7 +108,7 @@ func main() {
 	// Read through the file
 	for scanner.Scan() {
 		if strings.Contains(scanner.Text(), "-----BEGIN CERTIFICATE-----") {
-			count += 1
+			count++
 			strFile = ""
 			// Create the certificate file in directory
 			newfile, _ = os.Create(*directory + "/" + strconv.Itoa(count) +
