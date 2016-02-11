@@ -19,7 +19,7 @@ var packageName = "ca-certificates_20150426ubuntu1.tar.xz"
 
 // "tar xvf packageName" will create a directory without the ".tar.xz" extension
 // and will also replace all underscores "_" with dashes "-"
-var dirName string = strings.Replace(strings.TrimSuffix(packageName, ".tar.xz"), "_", "-", -1)
+var dirName = strings.Replace(strings.TrimSuffix(packageName, ".tar.xz"), "_", "-", -1)
 
 func main() {
 	// Download the package to local directory
@@ -57,7 +57,7 @@ func main() {
 			}
 			file.Close()
 			fmt.Println(f.Name())
-			count += 1
+			count++
 		}
 	}
 	fmt.Println(count)
