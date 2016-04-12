@@ -29,6 +29,9 @@ var directory = new(string)
 // map holds all of the filenames and a count to account for duplicates
 var filenameCount = make(map[string]int)
 
+// characters to strip from the output file name (these are mostly non-permitted windows chars)
+var stripChars = [9]string{"\\", "\"", "/", ":", "*", "?","<",">","|"}
+
 // Parse arguments from the command line.
 // To run the script: "go run format.go -f filename -d directory"
 func parseArgs() int {
@@ -79,6 +82,11 @@ func applyNamingConv(file []byte, filename string) error {
 	filenameCount[name]++
 	if filenameCount[name] > 1 {
 		name += "_" + strconv.Itoa(filenameCount[name])
+	}
+
+	//Strip any invalid chars from the name
+	for _,char := range stripChars {
+		name = strings.Replace(name, char, "_", -1)
 	}
 
 	// Finally, rename the file
