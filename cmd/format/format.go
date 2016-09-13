@@ -65,6 +65,10 @@ func applyNamingConv(file []byte, filename string) error {
 	name := ""
 	// If CommonName field is empty, then use the Organization name instead
 	if len(response.Subject.CommonName) == 0 {
+		if len(response.Subject.Organization) == 0 {
+			fmt.Printf("Failing to rename due to missing CN and Org fields: %s", filename)
+			return nil
+		}
 		name = strings.Replace(response.Subject.Organization[0], " ", "", -1)
 		name = strings.Replace(name, "/", "-", -1)
 	} else {
