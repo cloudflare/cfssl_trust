@@ -2,11 +2,11 @@ sudo: false
 language: go
 go:
   - tip
+  - 1.6
   - 1.5
 before_script:
   - go get -u github.com/golang/lint/golint
 script: 
-  - go get golang.org/x/tools/cmd/vet
   - go get golang.org/x/tools/cmd/cover
   - go get github.com/cloudflare/cfssl_trust/...
   - go test -cover github.com/cloudflare/cfssl_trust/...
@@ -18,5 +18,6 @@ notifications:
       - kyle@cloudflare.com
       - jacob@cloudflare.com
       - zi@cloudflare.com
+      - shiloh@cloudflare.com
     on_success: change
     on_failure: change
