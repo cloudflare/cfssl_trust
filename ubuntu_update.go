@@ -26,7 +26,11 @@ func main() {
 	output, _ := os.Create(packageName)
 	defer output.Close()
 
-	res, _ := http.Get(updateURL + packageName)
+	res, err := http.Get(updateURL + packageName)
+	if err != nil {
+		fmt.Fprintf(os.Stderr, "GET failed: %s\n", err)
+		os.Exit(1)
+	}
 	defer res.Body.Close()
 
 	n, _ := io.Copy(output, res.Body)
