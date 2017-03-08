@@ -1,0 +1,12 @@
+package: github.com/cloudflare/cfssl_trust
+import:
+- package: github.com/cloudflare/cfssl
+  subpackages:
+  - log
+- package: github.com/spf13/cobra
+- package: github.com/spf13/viper
+- package: github.com/mattes/migrate
+  version: ^1.3.0
+  subpackages:
+  - migrate
+  - driver/sqlite3

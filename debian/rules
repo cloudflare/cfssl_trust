@@ -1,0 +1,7 @@
+#!/usr/bin/make -f
+
+export DH_GOPKG := github.com/cloudflare/cfssl_trust/cmd/cfssl-trust
+
+%:
+	dh $@ --buildsystem=golang --with=golang
+

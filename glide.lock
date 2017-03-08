@@ -1,0 +1,82 @@
+hash: 7754abd2143a80b19bf4e4c8df8750ed1cf1879ae36c8af56eea60b88f8cfa0a
+updated: 2017-03-08T12:00:01.653121229-08:00
+imports:
+- name: github.com/cloudflare/cfssl
+  version: 5bbfc2558f6bdf86273af09d50b277e810233a77
+  subpackages:
+  - crypto/pkcs7
+  - errors
+  - helpers
+  - helpers/derhelpers
+  - log
+  - ubiquity
+- name: github.com/fsnotify/fsnotify
+  version: 7d7316ed6e1ed2de075aab8dfc76de5d158d66e1
+- name: github.com/hashicorp/hcl
+  version: 630949a3c5fa3c613328e1b8256052cbc2327c9b
+  subpackages:
+  - hcl/ast
+  - hcl/parser
+  - hcl/scanner
+  - hcl/strconv
+  - hcl/token
+  - json/parser
+  - json/scanner
+  - json/token
+- name: github.com/inconshreveable/mousetrap
+  version: 76626ae9c91c4f2a10f34cad8ce83ea42c93bb75
+- name: github.com/magiconair/properties
+  version: b3b15ef068fd0b17ddf408a23669f20811d194d2
+- name: github.com/mattes/migrate
+  version: ce1b59bb819416ca67422929b1cb48bb342720b6
+  subpackages:
+  - driver
+  - driver/sqlite3
+  - file
+  - migrate
+  - migrate/direction
+  - pipe
+- name: github.com/mattn/go-sqlite3
+  version: c5aee9649735e8dadac55eb968ccebd9fa29a881
+  repo: https://github.com/mattn/go-sqlite3
+- name: github.com/mitchellh/mapstructure
+  version: 53818660ed4955e899c0bcafa97299a388bd7c8e
+- name: github.com/pelletier/go-buffruneio
+  version: c37440a7cf42ac63b919c752ca73a85067e05992
+- name: github.com/pelletier/go-toml
+  version: 13d49d4606eb801b8f01ae542b4afc4c6ee3d84a
+- name: github.com/spf13/afero
+  version: 9be650865eab0c12963d8753212f4f9c66cdcf12
+  subpackages:
+  - mem
+- name: github.com/spf13/cast
+  version: ce135a4ebeee6cfe9a26c93ee0d37825f26113c7
+- name: github.com/spf13/cobra
+  version: 24bb44aac8fd4730262546161cac1cc7d2869b32
+- name: github.com/spf13/jwalterweatherman
+  version: fa7ca7e836cf3a8bb4ebf799f472c12d7e903d66
+- name: github.com/spf13/pflag
+  version: 9ff6c6923cfffbcd502984b8e0c80539a94968b7
+- name: github.com/spf13/viper
+  version: 7538d73b4eb9511d85a9f1dfef202eeb8ac260f4
+- name: golang.org/x/crypto
+  version: 9a6f0a01987842989747adff311d80750ba25530
+  repo: https://go.googlesource.com/crypto
+  subpackages:
+  - ocsp
+  - pbkdf2
+  - pkcs12
+  - pkcs12/internal/rc2
+  - scrypt
+- name: golang.org/x/sys
+  version: 99f16d856c9836c42d24e7ab64ea72916925fa97
+  subpackages:
+  - unix
+- name: golang.org/x/text
+  version: f28f36722d5ef2f9655ad3de1f248e3e52ad5ebd
+  subpackages:
+  - transform
+  - unicode/norm
+- name: gopkg.in/yaml.v2
+  version: a3f3340b5840cee44f372bddb5880fcbc419b46a
+testImports: []

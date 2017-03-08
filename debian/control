@@ -1,0 +1,16 @@
+Source: cfssl-trust
+Section: security
+Priority: optional
+Maintainer: Kyle Isom <kyle@cloudflare.com>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.5
+Homepage: https://github.com/cloudflare/cfssl_trust
+Vcs-Git: https://github.com/cloudflare/cfssl_trust
+Vcs-Browser: https://github.com/cloudflare/cfssl_trust
+
+Package: cfssl-trust
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: CFSSL's CA trust store repository Edit
+ This repository contains the trust store used by Cloudflare's CFSSL
+ trust store.
