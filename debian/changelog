@@ -1,0 +1,5 @@
+cfssl-trust (1.0.0-1) stable; urgency=low
+
+  * Initial release.
+
+ -- Kyle Isom <kyle@cloudflare.com>  Wed, 08 Mar 2017 15:17:34 -0800
