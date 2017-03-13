@@ -12,7 +12,7 @@ import (
 )
 
 var metadataFiles = []string{
-	"ca-bundle.crt.metadata",
+	"../ca-bundle.crt.metadata",
 }
 
 func TestMetadataFormat(t *testing.T) {
@@ -24,8 +24,8 @@ func TestMetadataFormat(t *testing.T) {
 }
 
 var bundleFiles = []string{
-	"ca-bundle.crt",
-	"int-bundle.crt",
+	"../ca-bundle.crt",
+	"../int-bundle.crt",
 }
 
 func TestParseBundles(t *testing.T) {
