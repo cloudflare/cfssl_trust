@@ -29,7 +29,7 @@ INSERT INTO schema_version (revision, created_at)
 CREATE TABLE IF NOT EXISTS certificates (
 	ski		TEXT NOT NULL,
 	aki		TEXT NOT NULL,
-	serial		INTEGER NOT NULL,
+	serial		BLOB NOT NULL,
 	not_before	INTEGER NOT NULL,
 	not_after	INTEGER NOT NULL,
 	raw		BLOB NOT NULL,
@@ -67,7 +67,7 @@ CREATE TABLE IF NOT EXISTS revocations (
 -- The roots table is a list of root certificates.
 CREATE TABLE IF NOT EXISTS roots (
 	ski		TEXT NOT NULL,
-	serial		INTEGER NOT NULL,
+	serial		BLOB NOT NULL,
 	release		TEXT NOT NULL,
 	UNIQUE (ski, serial, release)
 	FOREIGN KEY (ski) REFERENCES certificates(ski),
@@ -78,14 +78,14 @@ CREATE TABLE IF NOT EXISTS roots (
 -- The root_releases contains metadata about a given root bundle
 -- release, facilitating deterministic bundle rebuilds.
 CREATE TABLE IF NOT EXISTS root_releases (
-	version		TEXT NOT NULL,
-	released_at	INTEGER NOT NULL
+	version		TEXT PRIMARY KEY,
+	released_at	INTEGER UNIQUE NOT NULL
 );
 
 -- The intermediates table is a list of root intermediates.
 CREATE TABLE IF NOT EXISTS intermediates (
 	ski		TEXT NOT NULL,
-	serial		INTEGER NOT NULL,
+	serial		BLOB NOT NULL,
 	release		TEXT NOT NULL,
 	UNIQUE (ski, serial, release)
 	FOREIGN KEY (ski) REFERENCES certificates(ski),
@@ -96,6 +96,6 @@ CREATE TABLE IF NOT EXISTS intermediates (
 -- intermediate bundle release, facilitating deterministic bundle
 -- rebuilds.
 CREATE TABLE IF NOT EXISTS intermediate_releases (
-	version		TEXT NOT NULL,
-	released_at	INTEGER NOT NULL
+	version		TEXT PRIMARY KEY,
+	released_at	INTEGER UNIQUE NOT NULL
 );

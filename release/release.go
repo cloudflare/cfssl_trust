@@ -139,11 +139,15 @@ func Parse(in string) (Release, error) {
 	rel.Year, err = strconv.Atoi(parts[0])
 	if err != nil {
 		return rel, err
+	} else if rel.Year > 2038 || rel.Year < 2000 {
+		return rel, errors.New("release: " + parts[0] + " is an invalid year (2000 >= year <= 2038)")
 	}
 
 	rel.Month, err = strconv.Atoi(parts[1])
 	if err != nil {
 		return rel, err
+	} else if rel.Month < 1 || rel.Month > 12 {
+		return rel, errors.New("release: " + parts[1] + " is an invalid month (1 >= month <= 12)")
 	}
 
 	parts = strings.SplitN(parts[2], "-", 2)

@@ -1,5 +1,5 @@
-hash: 7754abd2143a80b19bf4e4c8df8750ed1cf1879ae36c8af56eea60b88f8cfa0a
-updated: 2017-03-08T12:00:01.653121229-08:00
+hash: 448dd2bd639204b1e7c7595eabdfe032bb422499b84fd939c1160925e898fc4e
+updated: 2017-03-09T12:13:01.975469572-08:00
 imports:
 - name: github.com/cloudflare/cfssl
   version: 5bbfc2558f6bdf86273af09d50b277e810233a77
@@ -68,6 +68,10 @@ imports:
   - pkcs12
   - pkcs12/internal/rc2
   - scrypt
+- name: golang.org/x/net
+  version: a6577fac2d73be281a500b310739095313165611
+  subpackages:
+  - context
 - name: golang.org/x/sys
   version: 99f16d856c9836c42d24e7ab64ea72916925fa97
   subpackages:
@@ -77,6 +81,10 @@ imports:
   subpackages:
   - transform
   - unicode/norm
+- name: golang.org/x/tools
+  version: f60b69ed8cd7a29e91f87050ae23a29581a0f367
+  subpackages:
+  - go/buildutil
 - name: gopkg.in/yaml.v2
   version: a3f3340b5840cee44f372bddb5880fcbc419b46a
 testImports: []

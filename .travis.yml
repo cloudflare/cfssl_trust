@@ -6,11 +6,8 @@ go:
   - 1.6
 before_script:
   - go get -u github.com/golang/lint/golint
-script: 
-  - go get github.com/cloudflare/cfssl_trust/...
-  - go test -cover github.com/cloudflare/cfssl_trust/...
-  - go vet github.com/cloudflare/cfssl_trust/...
-  - golint github.com/cloudflare/cfssl_trust/...
+script:
+  - ./test.sh
 notifications:
   email:
     recipients:

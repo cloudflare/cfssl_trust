@@ -10,3 +10,9 @@ import:
   subpackages:
   - migrate
   - driver/sqlite3
+- package: golang.org/x/net
+  subpackages:
+  - context
+- package: golang.org/x/tools
+  subpackages:
+  - go/buildutil

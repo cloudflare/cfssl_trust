@@ -7,13 +7,16 @@ import (
 
 	"github.com/cloudflare/cfssl/log"
 	"github.com/cloudflare/cfssl_trust/config"
+	"github.com/cloudflare/cfssl_trust/release"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 )
 
 var (
-	cfgFile string
-	dbFile  string
+	cfgFile       string
+	dbFile        string
+	bundle        string
+	bundleRelease string
 )
 
 func root(cmd *cobra.Command, args []string) {
@@ -42,8 +45,10 @@ func Execute() {
 func init() {
 	cobra.OnInitialize(initConfig)
 
+	RootCmd.PersistentFlags().StringVarP(&bundle, "bundle", "b", "int", "select a bundle (ca or int)")
 	RootCmd.PersistentFlags().StringVarP(&cfgFile, "config", "f", "", "config file (default is /etc/cfssl/cfssl.yaml)")
 	RootCmd.PersistentFlags().StringVarP(&dbFile, "db", "d", "", "path to trust database")
+	RootCmd.PersistentFlags().StringVarP(&bundleRelease, "release", "r", "", "select a release")
 
 	viper.BindPFlag("database.path", RootCmd.PersistentFlags().Lookup("db"))
 }
@@ -67,5 +72,15 @@ func initConfig() {
 	err := viper.ReadInConfig()
 	if err == nil {
 		log.Info("cfssl-trust: loading from config file ", viper.ConfigFileUsed())
+	}
+
+	if bundleRelease != "" {
+		rel, err := release.Parse(bundleRelease)
+		if err != nil {
+			fmt.Fprintf(os.Stderr, "[!] Invalid release '%s'.\n", bundleRelease)
+			fmt.Fprintf(os.Stderr, "\tReason: %s\n", err)
+			os.Exit(1)
+		}
+		fmt.Println("selected release", rel)
 	}
 }
