@@ -42,6 +42,35 @@ func Execute() {
 	}
 }
 
+// If err isn't nil, this should rollback the transaction. If err is
+// nil, it should commit the transaction. Finally, it should close the
+// database.
+func cleanup(tx *sql.TX, db *sql.DB, err error) {
+	if tx != nil {
+		if err != nil {
+			err = tx.Rollback()
+			if err != nil {
+				fmt.Fprintf(os.Stderr, "[!] error while rolling back transaction: %s\n", err)
+				os.Exit(1)
+			}
+		} else {
+			err = tx.Commit()
+			if err != nil {
+				fmt.Fprintf(os.Stderr, "[!] error while committing transaction: %s\n", err)
+				os.Exit(1)
+			}
+		}
+	}
+
+	if db != nil {
+		err = db.Close()
+		if err != nil {
+			fmt.Fprintf(os.Stderr, "[!] error while closing database: %s\n", err)
+			os.Exit(1)
+		}
+	}
+}
+
 func init() {
 	cobra.OnInitialize(initConfig)
 

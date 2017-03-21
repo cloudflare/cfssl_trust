@@ -25,17 +25,17 @@ func init() {
 	RootCmd.AddCommand(importCmd)
 }
 
-func importCertificate(db *sql.DB, cert *x509.Certificate, rel *certdb.Release) error {
+func importCertificate(tx *sql.TX, cert *x509.Certificate, rel *certdb.Release) error {
 	fmt.Printf("- importing serial %s AKI %x\n", cert.SerialNumber, cert.AuthorityKeyId)
 	c := certdb.NewCertificate(cert)
-	err := certdb.Ensure(c, db)
+	err := certdb.Ensure(c, tx)
 	if err != nil {
 		return err
 	}
 
 	aia := certdb.NewAIA(c)
 	if aia != nil {
-		err = certdb.Ensure(aia, db)
+		err = certdb.Ensure(aia, tx)
 		if err != nil {
 			return err
 		}
@@ -49,7 +49,7 @@ func importCertificate(db *sql.DB, cert *x509.Certificate, rel *certdb.Release) 
 	}
 
 	cr := certdb.NewCertificateRelease(c, rel)
-	return certdb.Ensure(cr, db)
+	return certdb.Ensure(cr, tx)
 
 }
 
@@ -59,6 +59,14 @@ func importer(cmd *cobra.Command, args []string) {
 	if err != nil {
 		fmt.Fprintf(os.Stderr, "[!] %s\n", err)
 		os.Exit(1)
+	}
+
+	tx, err := db.Begin()
+	if err != nil {
+		if err != nil {
+			fmt.Fprintf(os.Stderr, "[!] %s\n", err)
+			os.Exit(1)
+		}
 	}
 
 	var rel *certdb.Release
