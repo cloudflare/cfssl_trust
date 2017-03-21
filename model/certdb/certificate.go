@@ -29,13 +29,13 @@ type Table interface {
 	Select(db *sql.DB) error
 
 	// Not used yet, but might be useful in the future.
-	// Delete(db *sql.DB) error
-	// Update(db *sql.DB) error
+	// Delete(tx *sql.TX) error
+	// Update(tx *sql.TX) error
 }
 
 // Ensure ensures the value is present in the database. It calls
 // Select, and if no rows are returned, it calls Insert.
-func Ensure(table Table, db *sql.DB) error {
+func Ensure(table Table, tx *sql.TX) error {
 	err := table.Select(db)
 	if err == sql.ErrNoRows {
 		err = table.Insert(db)
@@ -55,13 +55,13 @@ type Certificate struct {
 } // UNIQUE(ski, serial)
 
 // Insert stores the Certificate in the database.
-func (cert *Certificate) Insert(db *sql.DB) error {
+func (cert *Certificate) Insert(tx *sql.TX) error {
 	_, err := db.Exec(`INSERT INTO certificates (ski, aki, serial, not_before, not_after, raw) values (?, ?, ?, ?, ?, ?)`, cert.SKI, cert.AKI, cert.Serial, cert.NotBefore, cert.NotAfter, cert.Raw)
 	return err
 }
 
 // Select requires the SKI and Serial fields to be filled in.
-func (cert *Certificate) Select(db *sql.DB) error {
+func (cert *Certificate) Select(tx *sql.TX) error {
 	row := db.QueryRow(`SELECT aki, not_before, not_after, raw FROM certificates WHERE ski=? and serial=?`, cert.SKI, cert.Serial)
 	err := row.Scan(&cert.AKI, &cert.NotBefore, &cert.NotAfter, &cert.Raw)
 	if err != nil {
@@ -103,13 +103,13 @@ type AIA struct {
 }
 
 // Insert stores the release in the database.
-func (aia *AIA) Insert(db *sql.DB) error {
+func (aia *AIA) Insert(tx *sql.TX) error {
 	_, err := db.Exec(`INSERT INTO aia (ski, url) values (?, ?)`, aia.SKI, aia.URL)
 	return err
 }
 
 // Select requires the SKI field to be filled in.
-func (aia *AIA) Select(db *sql.DB) error {
+func (aia *AIA) Select(tx *sql.TX) error {
 	row := db.QueryRow(`SELECT url FROM aia WHERE ski=?`, aia.SKI)
 	err := row.Scan(&aia.URL)
 	if err != nil {
@@ -188,7 +188,7 @@ func NewRelease(bundle, version string) (*Release, error) {
 }
 
 // Insert stores the Release in the database.
-func (r *Release) Insert(db *sql.DB) error {
+func (r *Release) Insert(tx *sql.TX) error {
 	if !r.validBundle() {
 		return r.errInvalidBundle()
 	}
@@ -200,7 +200,7 @@ func (r *Release) Insert(db *sql.DB) error {
 }
 
 // Select requires the Version field to have been populated.
-func (r *Release) Select(db *sql.DB) error {
+func (r *Release) Select(tx *sql.TX) error {
 	if !r.validBundle() {
 		return r.errInvalidBundle()
 	}
@@ -230,7 +230,7 @@ func NewCertificateRelease(c *Certificate, r *Release) *CertificateRelease {
 // checking to determine if the CertificateRelease is already in the
 // database, and will fail if it's already present in the database
 // (due to UNIQUE constraints).
-func (cr *CertificateRelease) Insert(db *sql.DB) error {
+func (cr *CertificateRelease) Insert(tx *sql.TX) error {
 	query := fmt.Sprintf("INSERT INTO %ss (ski, serial, release) VALUES (?, ?, ?)", cr.Release.table())
 	_, err := db.Exec(query, cr.Certificate.SKI, cr.Certificate.Serial, cr.Release.Version)
 	return err
@@ -239,7 +239,7 @@ func (cr *CertificateRelease) Insert(db *sql.DB) error {
 // Select requires the Certificate field to have the SKI and Serial
 // filled in, and the Release field to have the Version field filled
 // in.
-func (cr *CertificateRelease) Select(db *sql.DB) error {
+func (cr *CertificateRelease) Select(tx *sql.TX) error {
 	var count int
 	query := fmt.Sprintf("SELECT count(*) FROM %ss WHERE ski=? AND serial=? AND release=?", cr.Release.table())
 	row := db.QueryRow(query, cr.Certificate.SKI, cr.Certificate.Serial, cr.Release.Version)

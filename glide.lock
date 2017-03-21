@@ -1,8 +1,8 @@
-hash: 448dd2bd639204b1e7c7595eabdfe032bb422499b84fd939c1160925e898fc4e
-updated: 2017-03-09T12:13:01.975469572-08:00
+hash: ff1fe542f52c73c32ef7151b71516e5aeb2ba65c7809c499e80f57ab8662490c
+updated: 2017-03-21T15:18:40.158697717-07:00
 imports:
 - name: github.com/cloudflare/cfssl
-  version: 5bbfc2558f6bdf86273af09d50b277e810233a77
+  version: 92f8f790e399013e94433e60966f3b113be06c07
   subpackages:
   - crypto/pkcs7
   - errors
@@ -11,9 +11,9 @@ imports:
   - log
   - ubiquity
 - name: github.com/fsnotify/fsnotify
-  version: 7d7316ed6e1ed2de075aab8dfc76de5d158d66e1
+  version: bd2828f9f176e52d7222e565abb2d338d3f3c103
 - name: github.com/hashicorp/hcl
-  version: 630949a3c5fa3c613328e1b8256052cbc2327c9b
+  version: 6f5bfed9a0a22222fbe4e731ae3481730ba41e93
   subpackages:
   - hcl/ast
   - hcl/parser
@@ -25,8 +25,10 @@ imports:
   - json/token
 - name: github.com/inconshreveable/mousetrap
   version: 76626ae9c91c4f2a10f34cad8ce83ea42c93bb75
+- name: github.com/kr/fs
+  version: 2788f0dbd16903de03cb8186e5c7d97b69ad387b
 - name: github.com/magiconair/properties
-  version: b3b15ef068fd0b17ddf408a23669f20811d194d2
+  version: 0723e352fa358f9322c938cc2dadda874e9151a9
 - name: github.com/mattes/migrate
   version: ce1b59bb819416ca67422929b1cb48bb342720b6
   subpackages:
@@ -40,34 +42,41 @@ imports:
   version: c5aee9649735e8dadac55eb968ccebd9fa29a881
   repo: https://github.com/mattn/go-sqlite3
 - name: github.com/mitchellh/mapstructure
-  version: 53818660ed4955e899c0bcafa97299a388bd7c8e
+  version: a6ef2f080c66d0a2e94e97cf74f80f772855da63
 - name: github.com/pelletier/go-buffruneio
-  version: c37440a7cf42ac63b919c752ca73a85067e05992
+  version: df1e16fde7fc330a0ca68167c23bf7ed6ac31d6d
 - name: github.com/pelletier/go-toml
-  version: 13d49d4606eb801b8f01ae542b4afc4c6ee3d84a
+  version: 45932ad32dfdd20826f5671da37a5f3ce9f26a8d
+- name: github.com/pkg/errors
+  version: 839d9e913e063e28dfd0e6c7b7512793e0a48be9
+- name: github.com/pkg/sftp
+  version: 4d0e916071f68db74f8a73926335f809396d6b42
 - name: github.com/spf13/afero
-  version: 9be650865eab0c12963d8753212f4f9c66cdcf12
+  version: 52e4a6cfac46163658bd4f123c49b6ee7dc75f78
   subpackages:
   - mem
+  - sftp
 - name: github.com/spf13/cast
-  version: ce135a4ebeee6cfe9a26c93ee0d37825f26113c7
+  version: 2580bc98dc0e62908119e4737030cc2fdfc45e4c
 - name: github.com/spf13/cobra
-  version: 24bb44aac8fd4730262546161cac1cc7d2869b32
+  version: 856b96dcb49d6427babe192998a35190a12c2230
 - name: github.com/spf13/jwalterweatherman
-  version: fa7ca7e836cf3a8bb4ebf799f472c12d7e903d66
+  version: 33c24e77fb80341fe7130ee7c594256ff08ccc46
 - name: github.com/spf13/pflag
-  version: 9ff6c6923cfffbcd502984b8e0c80539a94968b7
+  version: bf8481a6aebc13a8aab52e699ffe2e79771f5a3f
 - name: github.com/spf13/viper
-  version: 7538d73b4eb9511d85a9f1dfef202eeb8ac260f4
+  version: 50515b700e02658272117a72bd641b6b7f1222e5
 - name: golang.org/x/crypto
-  version: 9a6f0a01987842989747adff311d80750ba25530
+  version: 1f22c0103821b9390939b6776727195525381532
   repo: https://go.googlesource.com/crypto
   subpackages:
+  - curve25519
   - ocsp
   - pbkdf2
   - pkcs12
   - pkcs12/internal/rc2
   - scrypt
+  - ssh
 - name: golang.org/x/net
   version: a6577fac2d73be281a500b310739095313165611
   subpackages:
@@ -85,6 +94,8 @@ imports:
   version: f60b69ed8cd7a29e91f87050ae23a29581a0f367
   subpackages:
   - go/buildutil
+- name: gopkg.in/DATA-DOG/go-sqlmock.v1
+  version: b983233bc0bbea4dc6e8ec8c8c923d935765ffec
 - name: gopkg.in/yaml.v2
-  version: a3f3340b5840cee44f372bddb5880fcbc419b46a
+  version: a5b47d31c556af34a302ce5d659e6fea44d90de0
 testImports: []
