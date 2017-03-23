@@ -1,11 +1,18 @@
 package ocsp
 
 import (
+	"encoding/hex"
+	"io/ioutil"
 	"net/http"
 	"net/http/httptest"
 	"net/url"
 	"testing"
 	"time"
+
+	"github.com/cloudflare/cfssl/certdb"
+	"github.com/cloudflare/cfssl/certdb/sql"
+	"github.com/cloudflare/cfssl/certdb/testdb"
+	"github.com/cloudflare/cfssl/helpers"
 
 	"github.com/jmhodges/clock"
 	goocsp "golang.org/x/crypto/ocsp"
@@ -156,5 +163,150 @@ func TestNewSourceFromFile(t *testing.T) {
 	_, err = NewSourceFromFile(mixResponseFile)
 	if err != nil {
 		t.Fatal(err)
+	}
+}
+
+func TestSqliteTrivial(t *testing.T) {
+	// First, read and parse certificate and issuer files needed to make
+	// an OCSP request.
+	certFile := "testdata/sqlite_ca.pem"
+	issuerFile := "testdata/ca.pem"
+	certContent, err := ioutil.ReadFile(certFile)
+	if err != nil {
+		t.Errorf("Error reading cert file: %s", err)
+	}
+	issuerContent, err := ioutil.ReadFile(issuerFile)
+	if err != nil {
+		t.Errorf("Error reading issuer file: %s", err)
+	}
+	cert, err := helpers.ParseCertificatePEM(certContent)
+	if err != nil {
+		t.Errorf("Error parsing cert file: %s", err)
+	}
+	issuer, err := helpers.ParseCertificatePEM(issuerContent)
+	if err != nil {
+		t.Errorf("Error parsing cert file: %s", err)
+	}
+
+	// Next, create the OCSP request.
+	reqByte, err := goocsp.CreateRequest(cert, issuer, nil)
+	if err != nil {
+		t.Errorf("Error creating OCSP request: %s", err)
+	}
+	req, err := goocsp.ParseRequest(reqByte)
+	if err != nil {
+		t.Errorf("Error parsing OCSP request: %s", err)
+	}
+
+	sqliteDBfile := "testdata/sqlite_test.db"
+	db := testdb.SQLiteDB(sqliteDBfile)
+	accessor := sql.NewAccessor(db)
+
+	// Populate the DB with the OCSPRecord, and check
+	// that Response() handles the request appropiately.
+	ocsp := certdb.OCSPRecord{
+		AKI:    hex.EncodeToString(req.IssuerKeyHash),
+		Body:   "Test OCSP",
+		Expiry: time.Date(2020, 1, 1, 0, 0, 0, 0, time.UTC),
+		Serial: req.SerialNumber.String(),
+	}
+	err = accessor.InsertOCSP(ocsp)
+	if err != nil {
+		t.Errorf("Error inserting OCSP record into DB: %s", err)
+	}
+
+	// Use the created Accessor to create a new DBSource.
+	src := NewDBSource(accessor)
+
+	// Call Response() method on constructed request and check the output.
+	response, present := src.Response(req)
+	if !present {
+		t.Error("No response present for given request")
+	}
+	if string(response) != "Test OCSP" {
+		t.Error("Incorrect response received from Sqlite DB")
+	}
+}
+
+func TestSqliteRealResponse(t *testing.T) {
+	sqliteDBfile := "testdata/sqlite_test.db"
+	db := testdb.SQLiteDB(sqliteDBfile)
+	accessor := sql.NewAccessor(db)
+
+	certFile := "testdata/cert.pem"
+	issuerFile := "testdata/ca.pem"
+	certContent, err := ioutil.ReadFile(certFile)
+	if err != nil {
+		t.Errorf("Error reading cert file: %s", err)
+	}
+	issuerContent, err := ioutil.ReadFile(issuerFile)
+	if err != nil {
+		t.Errorf("Error reading issuer file: %s", err)
+	}
+	cert, err := helpers.ParseCertificatePEM(certContent)
+	if err != nil {
+		t.Errorf("Error parsing cert file: %s", err)
+	}
+	issuer, err := helpers.ParseCertificatePEM(issuerContent)
+	if err != nil {
+		t.Errorf("Error parsing cert file: %s", err)
+	}
+
+	// Create an OCSP request.
+	reqByte, err := goocsp.CreateRequest(cert, issuer, nil)
+	if err != nil {
+		t.Errorf("Error creating OCSP request: %s", err)
+	}
+	req, err := goocsp.ParseRequest(reqByte)
+	if err != nil {
+		t.Errorf("Error parsing OCSP request: %s", err)
+	}
+
+	// Create the template to be used in making an OCSP response.
+	template := goocsp.Response{
+		Status:       goocsp.Good,
+		SerialNumber: req.SerialNumber,
+		ThisUpdate:   time.Now(),
+		NextUpdate:   time.Now().AddDate(0, 1, 0),
+	}
+	keyPEM, err := ioutil.ReadFile("testdata/ca-key.pem")
+	if err != nil {
+		t.Errorf("Error reading private key file: %s", err)
+	}
+	priv, err := helpers.ParsePrivateKeyPEM(keyPEM)
+	if err != nil {
+		t.Errorf("Error parsing private key: %s", err)
+	}
+
+	// Create an OCSP response to be inserted into the DB.
+	response, err := goocsp.CreateResponse(issuer, cert, template, priv)
+	if err != nil {
+		t.Errorf("Error creating OCSP response: %s", err)
+	}
+
+	// Create record for the OCSP response and add the record to the DB.
+	ocsp := certdb.OCSPRecord{
+		AKI:    hex.EncodeToString(req.IssuerKeyHash),
+		Body:   string(response),
+		Expiry: time.Date(2020, 1, 1, 0, 0, 0, 0, time.UTC),
+		Serial: req.SerialNumber.String(),
+	}
+	err = accessor.InsertOCSP(ocsp)
+	if err != nil {
+		t.Errorf("Error inserting OCSP record into DB: %s", err)
+	}
+
+	// Use the created Accessor to create new DBSource.
+	src := NewDBSource(accessor)
+
+	// Call Response() method on constructed request and check the output.
+	response, present := src.Response(req)
+	if !present {
+		t.Error("No response present for given request")
+	}
+	// Attempt to parse the returned response and make sure it is well formed.
+	_, err = goocsp.ParseResponse(response, issuer)
+	if err != nil {
+		t.Errorf("Error parsing response: %v", err)
 	}
 }

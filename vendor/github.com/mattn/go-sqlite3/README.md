@@ -35,6 +35,12 @@ FAQ
 
     Use `go build --tags "libsqlite3 linux"`
 
+* Want to build go-sqlite3 with libsqlite3 on OS X.
+
+    Install sqlite3 from homebrew: `brew install sqlite3`
+
+    Use `go build --tags "libsqlite3 darwin"`
+
 * Want to build go-sqlite3 with icu extension.
 
    Use `go build --tags "icu"`
@@ -49,7 +55,7 @@ FAQ
     > You can pass some arguments into the connection string, for example, a URI.
     > See: https://github.com/mattn/go-sqlite3/issues/39
 
-* Do you want cross compiling? mingw on Linux or Mac?
+* Do you want to cross compile? mingw on Linux or Mac?
 
     > See: https://github.com/mattn/go-sqlite3/issues/106
     > See also: http://www.limitlessfx.com/cross-compile-golang-app-for-windows-from-linux.html
@@ -57,6 +63,10 @@ FAQ
 * Want to get time.Time with current locale
 
     Use `loc=auto` in SQLite3 filename schema like `file:foo.db?loc=auto`.
+
+* Can use this in multiple routines concurrently?
+
+    Yes for readonly. But, No for writable. See #50, #51, #209.
 
 License
 -------
@@ -67,7 +77,7 @@ sqlite3-binding.c, sqlite3-binding.h, sqlite3ext.h
 
 The -binding suffix was added to avoid build failures under gccgo.
 
-In this repository, those files are amalgamation code that copied from SQLite3. The license of those codes are depend on the license of SQLite3.
+In this repository, those files are an amalgamation of code that was copied from SQLite3. The license of that code is the same as the license of SQLite3.
 
 Author
 ------

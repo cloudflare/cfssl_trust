@@ -1,20 +1,15 @@
 package: github.com/cloudflare/cfssl_trust
 import:
-- package: github.com/cloudflare/cfssl
-  subpackages:
-  - log
-- package: github.com/spf13/cobra
-- package: github.com/spf13/viper
 - package: github.com/mattes/migrate
   version: ^1.3.0
   subpackages:
-  - migrate
   - driver/sqlite3
-- package: golang.org/x/net
-  subpackages:
-  - context
-- package: golang.org/x/tools
-  subpackages:
-  - go/buildutil
-- package: gopkg.in/DATA-DOG/go-sqlmock.v1
+  - migrate
+- package: github.com/mattn/go-sqlite3
   version: ^1.2.0
+- package: github.com/spf13/cobra
+- package: github.com/spf13/viper
+- package: github.com/cloudflare/cfssl
+  subpackages:
+  - log
+  - helpers
