@@ -19,28 +19,32 @@ type Table interface {
 	// whether the value exists in the database already and isn't
 	// idempotent --- calling it twice on the same value will
 	// likely violate UNIQUE constraints.
-	Insert(db *sql.DB) error
+	Insert(tx *sql.Tx) error
 
 	// Select fills in the value given certain primary fields
 	// being filled in. The function comment for each struct's
 	// implementation should note which fields should be filled in
 	// prior to calling this. It should also return sql.ErrNoRows
 	// if the item doesn't exist in the database.
-	Select(db *sql.DB) error
+	Select(tx *sql.Tx) error
 
 	// Not used yet, but might be useful in the future.
-	// Delete(tx *sql.TX) error
-	// Update(tx *sql.TX) error
+	// Delete(tx *sql.Tx) error
+	// Update(tx *sql.Tx) error
 }
 
 // Ensure ensures the value is present in the database. It calls
-// Select, and if no rows are returned, it calls Insert.
-func Ensure(table Table, tx *sql.TX) error {
-	err := table.Select(db)
+// Select, and if no rows are returned, it calls Insert. The boolean
+// will be true if the value was inserted. This value is meaningless
+// if err is non-nil.
+func Ensure(table Table, tx *sql.Tx) (bool, error) {
+	var inserted bool
+	err := table.Select(tx)
 	if err == sql.ErrNoRows {
-		err = table.Insert(db)
+		err = table.Insert(tx)
+		inserted = true
 	}
-	return err
+	return inserted, err
 }
 
 // Certificate models the certificate table.
@@ -55,14 +59,14 @@ type Certificate struct {
 } // UNIQUE(ski, serial)
 
 // Insert stores the Certificate in the database.
-func (cert *Certificate) Insert(tx *sql.TX) error {
-	_, err := db.Exec(`INSERT INTO certificates (ski, aki, serial, not_before, not_after, raw) values (?, ?, ?, ?, ?, ?)`, cert.SKI, cert.AKI, cert.Serial, cert.NotBefore, cert.NotAfter, cert.Raw)
+func (cert *Certificate) Insert(tx *sql.Tx) error {
+	_, err := tx.Exec(`INSERT INTO certificates (ski, aki, serial, not_before, not_after, raw) values (?, ?, ?, ?, ?, ?)`, cert.SKI, cert.AKI, cert.Serial, cert.NotBefore, cert.NotAfter, cert.Raw)
 	return err
 }
 
 // Select requires the SKI and Serial fields to be filled in.
-func (cert *Certificate) Select(tx *sql.TX) error {
-	row := db.QueryRow(`SELECT aki, not_before, not_after, raw FROM certificates WHERE ski=? and serial=?`, cert.SKI, cert.Serial)
+func (cert *Certificate) Select(tx *sql.Tx) error {
+	row := tx.QueryRow(`SELECT aki, not_before, not_after, raw FROM certificates WHERE ski=? and serial=?`, cert.SKI, cert.Serial)
 	err := row.Scan(&cert.AKI, &cert.NotBefore, &cert.NotAfter, &cert.Raw)
 	if err != nil {
 		return err
@@ -103,14 +107,14 @@ type AIA struct {
 }
 
 // Insert stores the release in the database.
-func (aia *AIA) Insert(tx *sql.TX) error {
-	_, err := db.Exec(`INSERT INTO aia (ski, url) values (?, ?)`, aia.SKI, aia.URL)
+func (aia *AIA) Insert(tx *sql.Tx) error {
+	_, err := tx.Exec(`INSERT INTO aia (ski, url) values (?, ?)`, aia.SKI, aia.URL)
 	return err
 }
 
 // Select requires the SKI field to be filled in.
-func (aia *AIA) Select(tx *sql.TX) error {
-	row := db.QueryRow(`SELECT url FROM aia WHERE ski=?`, aia.SKI)
+func (aia *AIA) Select(tx *sql.Tx) error {
+	row := tx.QueryRow(`SELECT url FROM aia WHERE ski=?`, aia.SKI)
 	err := row.Scan(&aia.URL)
 	if err != nil {
 		return err
@@ -188,25 +192,25 @@ func NewRelease(bundle, version string) (*Release, error) {
 }
 
 // Insert stores the Release in the database.
-func (r *Release) Insert(tx *sql.TX) error {
+func (r *Release) Insert(tx *sql.Tx) error {
 	if !r.validBundle() {
 		return r.errInvalidBundle()
 	}
 
 	query := fmt.Sprintf("INSERT INTO %s_releases (version, released_at) VALUES (?, ?)",
 		r.table())
-	_, err := db.Exec(query, r.Version, r.ReleasedAt)
+	_, err := tx.Exec(query, r.Version, r.ReleasedAt)
 	return err
 }
 
 // Select requires the Version field to have been populated.
-func (r *Release) Select(tx *sql.TX) error {
+func (r *Release) Select(tx *sql.Tx) error {
 	if !r.validBundle() {
 		return r.errInvalidBundle()
 	}
 
 	query := fmt.Sprintf("SELECT released_at FROM %s_releases WHERE version=?", r.table())
-	row := db.QueryRow(query, r.Version)
+	row := tx.QueryRow(query, r.Version)
 	return row.Scan(&r.ReleasedAt)
 }
 
@@ -230,19 +234,19 @@ func NewCertificateRelease(c *Certificate, r *Release) *CertificateRelease {
 // checking to determine if the CertificateRelease is already in the
 // database, and will fail if it's already present in the database
 // (due to UNIQUE constraints).
-func (cr *CertificateRelease) Insert(tx *sql.TX) error {
+func (cr *CertificateRelease) Insert(tx *sql.Tx) error {
 	query := fmt.Sprintf("INSERT INTO %ss (ski, serial, release) VALUES (?, ?, ?)", cr.Release.table())
-	_, err := db.Exec(query, cr.Certificate.SKI, cr.Certificate.Serial, cr.Release.Version)
+	_, err := tx.Exec(query, cr.Certificate.SKI, cr.Certificate.Serial, cr.Release.Version)
 	return err
 }
 
 // Select requires the Certificate field to have the SKI and Serial
 // filled in, and the Release field to have the Version field filled
 // in.
-func (cr *CertificateRelease) Select(tx *sql.TX) error {
+func (cr *CertificateRelease) Select(tx *sql.Tx) error {
 	var count int
 	query := fmt.Sprintf("SELECT count(*) FROM %ss WHERE ski=? AND serial=? AND release=?", cr.Release.table())
-	row := db.QueryRow(query, cr.Certificate.SKI, cr.Certificate.Serial, cr.Release.Version)
+	row := tx.QueryRow(query, cr.Certificate.SKI, cr.Certificate.Serial, cr.Release.Version)
 	err := row.Scan(&count)
 	if err == nil && count == 0 {
 		return sql.ErrNoRows

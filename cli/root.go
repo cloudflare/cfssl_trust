@@ -1,6 +1,7 @@
 package cli
 
 import (
+	"database/sql"
 	"fmt"
 	"os"
 	"path/filepath"
@@ -45,7 +46,7 @@ func Execute() {
 // If err isn't nil, this should rollback the transaction. If err is
 // nil, it should commit the transaction. Finally, it should close the
 // database.
-func cleanup(tx *sql.TX, db *sql.DB, err error) {
+func cleanup(tx *sql.Tx, db *sql.DB, err error) {
 	if tx != nil {
 		if err != nil {
 			err = tx.Rollback()
