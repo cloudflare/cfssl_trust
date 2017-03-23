@@ -25,17 +25,17 @@ func init() {
 	RootCmd.AddCommand(importCmd)
 }
 
-func importCertificate(tx *sql.TX, cert *x509.Certificate, rel *certdb.Release) error {
+func importCertificate(tx *sql.Tx, cert *x509.Certificate, rel *certdb.Release) error {
 	fmt.Printf("- importing serial %s AKI %x\n", cert.SerialNumber, cert.AuthorityKeyId)
 	c := certdb.NewCertificate(cert)
-	err := certdb.Ensure(c, tx)
+	_, err := certdb.Ensure(c, tx)
 	if err != nil {
 		return err
 	}
 
 	aia := certdb.NewAIA(c)
 	if aia != nil {
-		err = certdb.Ensure(aia, tx)
+		_, err = certdb.Ensure(aia, tx)
 		if err != nil {
 			return err
 		}
@@ -49,7 +49,8 @@ func importCertificate(tx *sql.TX, cert *x509.Certificate, rel *certdb.Release) 
 	}
 
 	cr := certdb.NewCertificateRelease(c, rel)
-	return certdb.Ensure(cr, tx)
+	_, err = certdb.Ensure(cr, tx)
+	return err
 
 }
 
@@ -77,7 +78,7 @@ func importer(cmd *cobra.Command, args []string) {
 			os.Exit(1)
 		}
 
-		err = certdb.Ensure(rel, db)
+		_, err = certdb.Ensure(rel, tx)
 		if err != nil {
 			fmt.Fprintf(os.Stderr, "[!] %s\n", err)
 			os.Exit(1)
@@ -98,7 +99,7 @@ func importer(cmd *cobra.Command, args []string) {
 		}
 
 		for _, x509Cert := range certs {
-			err := importCertificate(db, x509Cert, rel)
+			err := importCertificate(tx, x509Cert, rel)
 			if err != nil {
 				fmt.Fprintf(os.Stderr, "[!] %s\n", err)
 				os.Exit(1)
