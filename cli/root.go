@@ -29,8 +29,8 @@ var configLocations = []string{
 }
 
 var RootCmd = &cobra.Command{
-	Use:   "certmgr",
-	Short: "Manage TLS certificates for multiple services",
+	Use:   "cfssl-trust",
+	Short: "Manage a trust database for root and intermediate bundles.",
 	Long:  ``,
 	Run:   root,
 }
@@ -46,7 +46,7 @@ func init() {
 	cobra.OnInitialize(initConfig)
 
 	RootCmd.PersistentFlags().StringVarP(&bundle, "bundle", "b", "int", "select a bundle (ca or int)")
-	RootCmd.PersistentFlags().StringVarP(&cfgFile, "config", "f", "", "config file (default is /etc/cfssl/cfssl.yaml)")
+	RootCmd.PersistentFlags().StringVarP(&cfgFile, "config", "f", "", "config file (default is /etc/cfssl/cfssl-trust.yaml)")
 	RootCmd.PersistentFlags().StringVarP(&dbFile, "db", "d", "", "path to trust database")
 	RootCmd.PersistentFlags().StringVarP(&bundleRelease, "release", "r", "", "select a release")
 
