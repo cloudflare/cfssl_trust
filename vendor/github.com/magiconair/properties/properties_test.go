@@ -719,6 +719,23 @@ func TestSet(t *testing.T) {
 	}
 }
 
+func TestSetValue(t *testing.T) {
+	tests := []interface{}{
+		true, false,
+		int8(123), int16(123), int32(123), int64(123), int(123),
+		uint8(123), uint16(123), uint32(123), uint64(123), uint(123),
+		float32(1.23), float64(1.23),
+		"abc",
+	}
+
+	for _, v := range tests {
+		p := NewProperties()
+		err := p.SetValue("x", v)
+		assert.Equal(t, err, nil)
+		assert.Equal(t, p.GetString("x", ""), fmt.Sprintf("%v", v))
+	}
+}
+
 func TestMustSet(t *testing.T) {
 	input := "key=${key}"
 	p := mustParse(t, input)
@@ -824,6 +841,23 @@ func TestMerge(t *testing.T) {
 	assert.Equal(t, len(p1.k), 3)
 	assert.Equal(t, p1.MustGet("key"), "another value")
 	assert.Equal(t, p1.GetComment("key"), "another comment")
+}
+
+func TestMap(t *testing.T) {
+	input := "key=value\nabc=def"
+	p := mustParse(t, input)
+	m := map[string]string{"key": "value", "abc": "def"}
+	assert.Equal(t, p.Map(), m)
+}
+
+func TestFilterFunc(t *testing.T) {
+	input := "key=value\nabc=def"
+	p := mustParse(t, input)
+	pp := p.FilterFunc(func(k, v string) bool {
+		return k != "abc"
+	})
+	m := map[string]string{"key": "value"}
+	assert.Equal(t, pp.Map(), m)
 }
 
 // ----------------------------------------------------------------------------

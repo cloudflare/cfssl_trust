@@ -500,7 +500,8 @@ func TestFloatsWithoutLeadingZeros(t *testing.T) {
 
 func TestMissingFile(t *testing.T) {
 	_, err := LoadFile("foo.toml")
-	if err.Error() != "open foo.toml: no such file or directory" {
+	if err.Error() != "open foo.toml: no such file or directory" &&
+		err.Error() != "open foo.toml: The system cannot find the file specified." {
 		t.Error("Bad error message:", err.Error())
 	}
 }
@@ -662,10 +663,11 @@ func TestTomlValueStringRepresentation(t *testing.T) {
 }
 
 func TestToStringMapStringString(t *testing.T) {
-	in := map[string]interface{}{"m": TreeFromMap(map[string]interface{}{
-		"v": &tomlValue{"abc", Position{0, 0}}})}
+	tree, err := TreeFromMap(map[string]interface{}{"m": map[string]interface{}{"v": "abc"}})
+	if err != nil {
+		t.Fatalf("unexpected error: %s", err)
+	}
 	want := "\n[m]\n  v = \"abc\"\n"
-	tree := TreeFromMap(in)
 	got := tree.String()
 
 	if got != want {

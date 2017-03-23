@@ -119,19 +119,6 @@ func testMaps(t *testing.T, actual, expected map[string]interface{}) {
 	}
 }
 
-func TestToTomlStringTypeConversionError(t *testing.T) {
-	tree := TomlTree{
-		values: map[string]interface{}{
-			"thing": &tomlValue{[]string{"unsupported"}, Position{}},
-		},
-	}
-	_, err := tree.ToTomlString()
-	expected := errors.New("unsupported value type []string: [unsupported]")
-	if err.Error() != expected.Error() {
-		t.Errorf("expecting error %s, but got %s instead", expected, err)
-	}
-}
-
 func TestTomlTreeWriteToMapSimple(t *testing.T) {
 	tree, _ := Load("a = 42\nb = 17")
 
@@ -146,7 +133,7 @@ func TestTomlTreeWriteToMapSimple(t *testing.T) {
 func TestTomlTreeWriteToInvalidTreeSimpleValue(t *testing.T) {
 	tree := TomlTree{values: map[string]interface{}{"foo": int8(1)}}
 	_, err := tree.ToTomlString()
-	assertErrorString(t, "invalid key type at foo: int8", err)
+	assertErrorString(t, "invalid value type at foo: int8", err)
 }
 
 func TestTomlTreeWriteToInvalidTreeTomlValue(t *testing.T) {

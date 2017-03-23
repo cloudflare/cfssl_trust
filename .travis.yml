@@ -6,6 +6,9 @@ go:
   - 1.6
 before_script:
   - go get -u github.com/golang/lint/golint
+install:
+  - go get github.com/Masterminds/glide
+  - glide install
 script:
   - ./test.sh
 notifications:
