@@ -69,6 +69,17 @@ func importer(cmd *cobra.Command, args []string) {
 			os.Exit(1)
 		}
 	}
+	defer func() {
+		if err == nil {
+			err = tx.Commit()
+			if err != nil {
+				fmt.Fprintf(os.Stderr, "[!] failed to commit transaction: %s\n", err)
+				os.Exit(1)
+			}
+		} else {
+			tx.Rollback()
+		}
+	}()
 
 	var rel *certdb.Release
 	if bundleRelease != "" {
