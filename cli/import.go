@@ -26,7 +26,7 @@ func init() {
 }
 
 func importCertificate(tx *sql.Tx, cert *x509.Certificate, rel *certdb.Release) error {
-	fmt.Printf("- importing serial %s AKI %x\n", cert.SerialNumber, cert.AuthorityKeyId)
+	fmt.Printf("- importing serial %s SKI %x\n", cert.SerialNumber, cert.SubjectKeyId)
 	c := certdb.NewCertificate(cert)
 	_, err := certdb.Ensure(c, tx)
 	if err != nil {
