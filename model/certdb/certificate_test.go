@@ -410,6 +410,23 @@ func TestCREnsure(t *testing.T) {
 		t.Fatal("certdb: certificate release shouldn't have been inserted")
 	}
 
+	cert = NewCertificate(testCert3)
+	cr = NewCertificateRelease(cert, caRelease)
+
+	inserted, err = Ensure(cr, tx)
+	if err != nil {
+		t.Fatal(err)
+	} else if !inserted {
+		t.Fatal("certdb: certificate release should have been inserted")
+	}
+
+	inserted, err = Ensure(cr, tx)
+	if err != nil {
+		t.Fatal(err)
+	} else if inserted {
+		t.Fatal("certdb: certificate release shouldn't have been inserted")
+	}
+
 	cert = NewCertificate(testCert2)
 	cr = NewCertificateRelease(cert, intRelease)
 
@@ -426,7 +443,34 @@ func TestCREnsure(t *testing.T) {
 	} else if inserted {
 		t.Fatal("certdb: certificate release shouldn't have been inserted")
 	}
+}
 
+func TestBundle(t *testing.T) {
+	tx, err := testDB.Begin()
+	if err != nil {
+		t.Fatal(err)
+	}
+
+	defer func() {
+		switch err {
+		case nil:
+			if err = tx.Commit(); err != nil {
+				t.Fatal(err)
+			}
+		default:
+			tx.Rollback()
+			t.Fatal("database was rolled back")
+		}
+	}()
+
+	certs, err := CollectRelease("ca", release, tx)
+	if err != nil {
+		t.Fatalf("%s", err)
+	}
+
+	if len(certs) != 2 {
+		t.Fatalf("unexpected number of certificates in bundle: have %d, want 2", len(certs))
+	}
 }
 
 func TestCertReleases(t *testing.T) {
