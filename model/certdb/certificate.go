@@ -11,6 +11,8 @@ import (
 	"math/big"
 	"os"
 	"time"
+
+	"github.com/bjt79/cfssl/signer"
 )
 
 // Finalize finishes a transaction, committing it if needed or rolling
@@ -191,7 +193,7 @@ func (cert *Certificate) X509() *x509.Certificate {
 var nullSerial = big.NewInt(0)
 
 // NewCertificate creates a Certificate from a crypto/x509 Certificate
-// strucutre.
+// structure.
 func NewCertificate(cert *x509.Certificate) *Certificate {
 	c := &Certificate{
 		SKI:       fmt.Sprintf("%x", cert.SubjectKeyId),
@@ -205,6 +207,18 @@ func NewCertificate(cert *x509.Certificate) *Certificate {
 	// Workaround the NOT NULL constraint.
 	if cert.SerialNumber.Cmp(nullSerial) == 0 {
 		c.Serial = []byte{0}
+	}
+
+	// Work around the fact that many early CA roots don't have an
+	// SKI. This uses the method found in RFC 5280 Section 4.2.1.2
+	// (1).
+	if c.SKI == "" {
+		ski, err := signer.ComputeSKI(cert)
+		if err != nil {
+			panic("invalid public key in root certificate")
+		}
+
+		c.SKI = fmt.Sprintf("%x", ski)
 	}
 
 	c.cert = cert
