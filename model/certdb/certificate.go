@@ -9,8 +9,64 @@ import (
 	"errors"
 	"fmt"
 	"math/big"
+	"os"
 	"time"
 )
+
+// Finalize finishes a transaction, committing it if needed or rolling
+// back on error.
+func Finalize(err *error, tx *sql.Tx) {
+	if *err == nil {
+		*err = tx.Commit()
+		if *err != nil {
+			fmt.Fprintf(os.Stderr, "[!] failed to commit transaction: %s\n", *err)
+			os.Exit(1)
+		}
+	} else {
+		tx.Rollback()
+	}
+}
+
+// FindCertificateBySKI returns all the certificates with the given
+// SKI.
+func FindCertificateBySKI(db *sql.DB, ski string) ([]*Certificate, error) {
+	tx, err := db.Begin()
+	if err != nil {
+		return nil, err
+	}
+	defer Finalize(&err, tx)
+
+	var certificates []*Certificate
+	rows, err := tx.Query(`
+SELECT aki, serial, not_before, not_after, raw
+	FROM certificates
+	WHERE ski=?`,
+		ski)
+	if err != nil {
+		return nil, err
+	}
+
+	for rows.Next() {
+		cert := &Certificate{
+			SKI: ski,
+		}
+
+		err = rows.Scan(&cert.AKI, &cert.Serial, &cert.NotBefore,
+			&cert.NotAfter, &cert.Raw)
+		if err != nil {
+			return nil, err
+		}
+
+		cert.cert, err = x509.ParseCertificate(cert.Raw)
+		if err != nil {
+			return nil, err
+		}
+
+		certificates = append(certificates, cert)
+	}
+
+	return certificates, nil
+}
 
 // Table provides an interface for mapping a struct to a table in the
 // database.
@@ -74,6 +130,62 @@ func (cert *Certificate) Select(tx *sql.Tx) error {
 
 	cert.cert, err = x509.ParseCertificate(cert.Raw)
 	return err
+}
+
+// Releases looks up all the releases for a certificate.
+func (cert *Certificate) Releases(tx *sql.Tx) ([]*Release, error) {
+	var releases []*Release
+
+	rows, err := tx.Query("SELECT release FROM roots WHERE ski=? AND serial=?", cert.SKI, cert.Serial)
+	if err != nil {
+		return nil, err
+	}
+
+	for rows.Next() {
+		rel := &Release{
+			Bundle: "ca",
+		}
+
+		err = rows.Scan(&rel.Version)
+		if err != nil {
+			return nil, err
+		}
+
+		releases = append(releases, rel)
+	}
+	rows.Close()
+
+	rows, err = tx.Query("SELECT release FROM intermediates WHERE ski=? AND serial=?", cert.SKI, cert.Serial)
+	if err != nil {
+		return nil, err
+	}
+
+	for rows.Next() {
+		rel := &Release{
+			Bundle: "int",
+		}
+
+		err = rows.Scan(&rel.Version)
+		if err != nil {
+			return nil, err
+		}
+
+		releases = append(releases, rel)
+	}
+
+	for _, rel := range releases {
+		err = rel.Select(tx)
+		if err != nil {
+			return nil, err
+		}
+	}
+
+	return releases, nil
+}
+
+// X509 returns the *crypto/x509.Certificate from the certificate.
+func (cert *Certificate) X509() *x509.Certificate {
+	return cert.cert
 }
 
 var nullSerial = big.NewInt(0)
