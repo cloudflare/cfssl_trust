@@ -6,6 +6,7 @@ import (
 	"encoding/pem"
 	"fmt"
 	"io/ioutil"
+	"math/big"
 	"strings"
 	"testing"
 
@@ -426,4 +427,67 @@ func TestCREnsure(t *testing.T) {
 		t.Fatal("certdb: certificate release shouldn't have been inserted")
 	}
 
+}
+
+func TestCertReleases(t *testing.T) {
+	tx, err := testDB.Begin()
+	if err != nil {
+		t.Fatal(err)
+	}
+
+	defer func() {
+		switch err {
+		case nil:
+			if err = tx.Commit(); err != nil {
+				t.Fatal(err)
+			}
+		default:
+			tx.Rollback()
+			t.Fatal("database wauts rolled back")
+		}
+	}()
+
+	cert := NewCertificate(testCert1)
+	releases, err := cert.Releases(tx)
+	if err != nil {
+		t.Fatal(err)
+	}
+
+	if len(releases) != 1 {
+		t.Fatal("certificate should be in a release")
+	}
+
+	rel := releases[0]
+	if rel.Bundle != "ca" {
+		t.Fatalf("certificate is in the wrong release: it should be a ca release, but it is %s", rel.Bundle)
+	}
+
+	if rel.Version != release {
+		t.Fatalf("certificate's release is the wrong version; it should be %s but is %s", release, rel.Version)
+	}
+}
+
+func TestFindCertificateBySKI(t *testing.T) {
+	ski := "383781674f6e197820d18331d53f4428a0d4fad7"
+	certs, err := FindCertificateBySKI(testDB, ski)
+	if err != nil {
+		t.Fatal(err)
+	}
+
+	if len(certs) != 1 {
+		t.Fatal("only one certificate should have been found, have ", len(certs))
+	}
+
+	serialBytes := []byte{
+		19, 207, 46, 179, 203, 107, 229, 20,
+		69, 95, 132, 101, 162, 132, 237, 12,
+		50, 154, 163, 154,
+	}
+
+	expectedSerial := big.NewInt(0).SetBytes(serialBytes)
+
+	if expectedSerial.Cmp(certs[0].cert.SerialNumber) != 0 {
+		t.Fatalf("serial numbers don't match: have %s, but want %s",
+			certs[0].cert.SerialNumber, expectedSerial)
+	}
 }
