@@ -70,6 +70,33 @@ SELECT aki, serial, not_before, not_after, raw
 	return certificates, nil
 }
 
+// AllCertificates loads all the certificates in the database.
+func AllCertificates(tx *sql.Tx) ([]*Certificate, error) {
+	rows, err := tx.Query("SELECT * FROM certificates")
+	if err != nil {
+		return nil, err
+	}
+
+	var certificates []*Certificate
+	for rows.Next() {
+		cert := &Certificate{}
+		err = rows.Scan(&cert.SKI, &cert.AKI, &cert.Serial, &cert.NotBefore,
+			&cert.NotAfter, &cert.Raw)
+		if err != nil {
+			return nil, err
+		}
+
+		cert.cert, err = x509.ParseCertificate(cert.Raw)
+		if err != nil {
+			return nil, err
+		}
+
+		certificates = append(certificates, cert)
+	}
+
+	return certificates, err
+}
+
 // Table provides an interface for mapping a struct to a table in the
 // database.
 type Table interface {

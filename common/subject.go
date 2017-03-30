@@ -1,4 +1,4 @@
-package info
+package common
 
 import (
 	"crypto/x509/pkix"
@@ -6,7 +6,9 @@ import (
 	"strings"
 )
 
-func displayName(name pkix.Name) string {
+const DateFormat = "2006-01-02T15:04:05-0700"
+
+func NameToString(name pkix.Name) string {
 	var ns []string
 
 	if name.CommonName != "" {
@@ -39,8 +41,3 @@ func displayName(name pkix.Name) string {
 
 	return "*** no subject information ***"
 }
-
-var (
-	dateFormat = "2006-01-02T15:04:05-0700"
-	showHash   bool // if true, print a SHA256 hash of the certificate's Raw field
-)
