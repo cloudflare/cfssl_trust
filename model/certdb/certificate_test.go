@@ -535,3 +535,31 @@ func TestFindCertificateBySKI(t *testing.T) {
 			certs[0].cert.SerialNumber, expectedSerial)
 	}
 }
+
+func TestAllCertificates(t *testing.T) {
+	tx, err := testDB.Begin()
+	if err != nil {
+		t.Fatal(err)
+	}
+
+	defer func() {
+		switch err {
+		case nil:
+			if err = tx.Commit(); err != nil {
+				t.Fatal(err)
+			}
+		default:
+			tx.Rollback()
+			t.Fatal("database wauts rolled back")
+		}
+	}()
+
+	certs, err := AllCertificates(tx)
+	if err != nil {
+		t.Fatal(err)
+	}
+
+	if len(certs) != 3 {
+		t.Fatal("expected 3 certificates from AllCertificates, but have", len(certs))
+	}
+}
