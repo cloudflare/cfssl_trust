@@ -291,25 +291,17 @@ func NewAIA(cert *Certificate) *AIA {
 	}
 }
 
-// Release models the root_releases and intermediate_releases tables.
-type Release struct {
-	Bundle     string // Is this a CA or intermediate release?
-	Version    string
-	ReleasedAt int64
-}
-
-func (r *Release) validBundle() bool {
-	switch r.Bundle {
+func validBundle(bundle string) bool {
+	switch bundle {
 	case "ca", "int":
 		return true
 	default:
 		return false
 	}
-
 }
 
-func (r *Release) table() string {
-	switch r.Bundle {
+func tableForBundle(bundle string) string {
+	switch bundle {
 	case "ca":
 		return "root"
 	case "int":
@@ -321,7 +313,21 @@ func (r *Release) table() string {
 		panic("certdb: bundle should have been validated before the table selection")
 		return ""
 	}
+}
 
+// Release models the root_releases and intermediate_releases tables.
+type Release struct {
+	Bundle     string // Is this a CA or intermediate release?
+	Version    string
+	ReleasedAt int64
+}
+
+func (r *Release) validBundle() bool {
+	return validBundle(r.Bundle)
+}
+
+func (r *Release) table() string {
+	return tableForBundle(r.Bundle)
 }
 
 func (r *Release) errInvalidBundle() error {
@@ -365,6 +371,121 @@ func (r *Release) Select(tx *sql.Tx) error {
 	query := fmt.Sprintf("SELECT released_at FROM %s_releases WHERE version=?", r.table())
 	row := tx.QueryRow(query, r.Version)
 	return row.Scan(&r.ReleasedAt)
+}
+
+// Count requires the Release to be Selectable, and will return the
+// number of certificates in the release.
+func (r *Release) Count(db *sql.DB) (int, error) {
+	tx, err := db.Begin()
+	if err != nil {
+		return 0, err
+	}
+	defer tx.Rollback()
+
+	err = r.Select(tx)
+	if err != nil {
+		if err == sql.ErrNoRows {
+			err = errors.New("model/certdb: release doesn't exist")
+		}
+		return 0, err
+	}
+
+	var count int
+	q := fmt.Sprintf("SELECT count(*) FROM %ss WHERE release = ?", r.table())
+	row := tx.QueryRow(q, r.Version)
+	err = row.Scan(&count)
+	if err == nil {
+		err = tx.Commit()
+	}
+	return count, err
+}
+
+func AllReleases(db *sql.DB, bundle string) ([]*Release, error) {
+	if !validBundle(bundle) {
+		return nil, errors.New("model/certdb: invalid bundle " + bundle)
+	}
+
+	tx, err := db.Begin()
+	if err != nil {
+		return nil, err
+	}
+	defer tx.Rollback() // nop if commit is called.
+
+	tbl := tableForBundle(bundle)
+	var releases []*Release
+
+	rows, err := tx.Query(fmt.Sprintf(`SELECT version,released_at FROM %s_releases ORDER BY released_at DESC`, tbl))
+	if err != nil {
+		return nil, err
+	}
+
+	for rows.Next() {
+		release := &Release{Bundle: bundle}
+		err = rows.Scan(&release.Version, &release.ReleasedAt)
+		if err != nil {
+			break
+		}
+		releases = append(releases, release)
+	}
+
+	if err == nil {
+		err = tx.Commit()
+	}
+
+	return releases, err
+}
+
+// LatestRelease returns the latest release.
+func LatestRelease(db *sql.DB, bundle string) (*Release, error) {
+	if !validBundle(bundle) {
+		return nil, errors.New("model/certdb: invalid bundle " + bundle)
+	}
+
+	tx, err := db.Begin()
+	if err != nil {
+		return nil, err
+	}
+	defer tx.Rollback() // nop if commit is called.
+
+	release := &Release{Bundle: bundle}
+	tbl := tableForBundle(bundle)
+	q := fmt.Sprintf(`SELECT version,released_at FROM %s_releases ORDER BY released_at DESC LIMIT 1`, tbl)
+
+	row := tx.QueryRow(q)
+	err = row.Scan(&release.Version, &release.ReleasedAt)
+	if err == nil {
+		err = tx.Commit()
+	}
+
+	return release, err
+}
+
+// FetchRelease looks for the specified release. It does its own
+// transaction to match the style of the other release fetching
+// functions.
+func FetchRelease(db *sql.DB, bundle, version string) (*Release, error) {
+	rel, err := NewRelease(bundle, version)
+	if err != nil {
+		return nil, err
+	}
+
+	tx, err := db.Begin()
+	if err != nil {
+		return nil, err
+	}
+	defer tx.Rollback() // nop if commit is called.
+
+	err = rel.Select(tx)
+	if err != nil {
+		return nil, err
+	}
+
+	err = tx.Commit()
+	if err != nil {
+		return nil, err
+	}
+
+	return rel, nil
 }
 
 // A CertificateRelease pairs a Certificate and Release to enable adding

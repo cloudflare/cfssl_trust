@@ -1,6 +1,7 @@
 package certdb
 
 import (
+	"crypto/x509"
 	"database/sql"
 	"errors"
 	"fmt"
@@ -41,6 +42,11 @@ SELECT certificates.ski, aki, certificates.serial, not_before, not_after, raw
 		cert := &Certificate{}
 
 		err = rows.Scan(&cert.SKI, &cert.AKI, &cert.Serial, &cert.NotBefore, &cert.NotAfter, &cert.Raw)
+		if err != nil {
+			return nil, err
+		}
+
+		cert.cert, err = x509.ParseCertificate(cert.Raw)
 		if err != nil {
 			return nil, err
 		}

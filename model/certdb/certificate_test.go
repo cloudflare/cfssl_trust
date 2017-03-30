@@ -9,7 +9,9 @@ import (
 	"math/big"
 	"strings"
 	"testing"
+	"time"
 
+	"github.com/cloudflare/cfssl_trust/release"
 	_ "github.com/mattes/migrate/driver/sqlite3"
 )
 
@@ -17,10 +19,7 @@ var sourceFiles = []string{
 	"1485991500_revision_1.up.sql",
 }
 
-const (
-	latestRevision = 1
-	release        = "2017.3.1"
-)
+const latestRevision = 1
 
 var (
 	testCert1PEM = `-----BEGIN CERTIFICATE-----
@@ -108,10 +107,11 @@ PWnfrp07jugIsv2nFlYZjBaa1p1lWgabAaGHG47V0HRTFvKdtaxXCTMKofc3g0he
 vxbpF0Bdu5S04wN5Qzc5sIQWCyPwtUsiq7A+xqqOCU9770bqraG3T7aBM7VuUm6O
 huB5zfRBKm6VY4UQEj7kHjQO8nxW
 -----END CERTIFICATE-----`
-	testCert1 *x509.Certificate
-	testCert2 *x509.Certificate
-	testCert3 *x509.Certificate
-	testDB    *sql.DB
+	testCert1  *x509.Certificate
+	testCert2  *x509.Certificate
+	testCert3  *x509.Certificate
+	testDB     *sql.DB
+	curRelease = release.New()
 )
 
 func mustParseCertificate(in string) *x509.Certificate {
@@ -319,7 +319,7 @@ func TestReleaseEnsure(t *testing.T) {
 		}
 	}()
 
-	caRelease, err := NewRelease("ca", release)
+	caRelease, err := NewRelease("ca", curRelease.String())
 	if err != nil {
 		t.Fatal(err)
 	}
@@ -338,7 +338,7 @@ func TestReleaseEnsure(t *testing.T) {
 		t.Fatal("certdb: release shouldn't have been inserted")
 	}
 
-	intRelease, err := NewRelease("int", release)
+	intRelease, err := NewRelease("int", curRelease.String())
 	if err != nil {
 		t.Fatal(err)
 	}
@@ -357,7 +357,7 @@ func TestReleaseEnsure(t *testing.T) {
 		t.Fatal("certdb: release shouldn't have been inserted")
 	}
 
-	_, err = NewRelease("something", release)
+	_, err = NewRelease("something", curRelease.String())
 	if err == nil {
 		t.Fatal("certdb: 'something' shouldn't be a valid release name")
 	}
@@ -383,12 +383,12 @@ func TestCREnsure(t *testing.T) {
 		}
 	}()
 
-	caRelease, err := NewRelease("ca", release)
+	caRelease, err := NewRelease("ca", curRelease.String())
 	if err != nil {
 		t.Fatal(err)
 	}
 
-	intRelease, err := NewRelease("int", release)
+	intRelease, err := NewRelease("int", curRelease.String())
 	if err != nil {
 		t.Fatal(err)
 	}
@@ -463,7 +463,7 @@ func TestBundle(t *testing.T) {
 		}
 	}()
 
-	certs, err := CollectRelease("ca", release, tx)
+	certs, err := CollectRelease("ca", curRelease.String(), tx)
 	if err != nil {
 		t.Fatalf("%s", err)
 	}
@@ -487,7 +487,7 @@ func TestCertReleases(t *testing.T) {
 			}
 		default:
 			tx.Rollback()
-			t.Fatal("database wauts rolled back")
+			t.Fatal("database was rolled back")
 		}
 	}()
 
@@ -503,11 +503,11 @@ func TestCertReleases(t *testing.T) {
 
 	rel := releases[0]
 	if rel.Bundle != "ca" {
-		t.Fatalf("certificate is in the wrong release: it should be a ca release, but it is %s", rel.Bundle)
+		t.Fatalf("certificate is in the wrong release: it should be a ca curRelease.String(), but it is %s", rel.Bundle)
 	}
 
-	if rel.Version != release {
-		t.Fatalf("certificate's release is the wrong version; it should be %s but is %s", release, rel.Version)
+	if rel.Version != curRelease.String() {
+		t.Fatalf("certificate's release is the wrong version; it should be %s but is %s", curRelease.String(), rel.Version)
 	}
 }
 
@@ -541,18 +541,7 @@ func TestAllCertificates(t *testing.T) {
 	if err != nil {
 		t.Fatal(err)
 	}
-
-	defer func() {
-		switch err {
-		case nil:
-			if err = tx.Commit(); err != nil {
-				t.Fatal(err)
-			}
-		default:
-			tx.Rollback()
-			t.Fatal("database wauts rolled back")
-		}
-	}()
+	defer tx.Rollback()
 
 	certs, err := AllCertificates(tx)
 	if err != nil {
@@ -561,5 +550,107 @@ func TestAllCertificates(t *testing.T) {
 
 	if len(certs) != 3 {
 		t.Fatal("expected 3 certificates from AllCertificates, but have", len(certs))
+	}
+}
+func TestAllReleases(t *testing.T) {
+	tx, err := testDB.Begin()
+	if err != nil {
+		t.Fatal(err)
+	}
+	defer tx.Rollback()
+
+	nextRelease, err := curRelease.Inc()
+	if err != nil {
+		t.Fatal(err)
+	}
+
+	anotherRelease, err := nextRelease.Inc()
+	if err != nil {
+		t.Fatal(err)
+	}
+
+	time.Sleep(time.Second) // Ensure the released_at timestamp is bumped.
+	rel, err := NewRelease("ca", nextRelease.String())
+	if err != nil {
+		t.Fatal(err)
+	}
+
+	ok, err := Ensure(rel, tx)
+	if err != nil {
+		t.Fatal(err)
+	} else if !ok {
+		t.Fatal("release wasn't entered into database")
+	}
+
+	time.Sleep(time.Second) // Ensure the released_at timestamp is bumped.
+	rel, err = NewRelease("ca", anotherRelease.String())
+	if err != nil {
+		t.Fatal(err)
+	}
+
+	ok, err = Ensure(rel, tx)
+	if err != nil {
+		t.Fatal(err)
+	} else if !ok {
+		t.Fatal("release wasn't entered into database")
+	}
+
+	err = tx.Commit()
+	if err != nil {
+		t.Fatal(err)
+	}
+
+	releases, err := AllReleases(testDB, "ca")
+	if err != nil {
+		t.Fatal(err)
+	}
+
+	if len(releases) != 3 {
+		t.Fatalf("expected 3 releases, but have %d", len(releases))
+	}
+
+	// Verify that the releases are properly ordered.
+	if releases[0].Version != anotherRelease.String() {
+		t.Fatalf("expected release[0] to be %s, but have %s", anotherRelease.String(), releases[0].Version)
+	}
+	if releases[1].Version != nextRelease.String() {
+		t.Fatalf("expected release[1] to be %s, but have %s", nextRelease.String(), releases[1].Version)
+	}
+	if releases[2].Version != curRelease.String() {
+		t.Fatalf("expected release[2] to be %s, but have %s", curRelease.String(), releases[2].Version)
+	}
+
+	tx, err = testDB.Begin()
+	if err != nil {
+		t.Fatal(err)
+	}
+
+	rel = &Release{Bundle: "ca", Version: curRelease.String()}
+	err = rel.Select(tx)
+	if err != nil {
+		t.Fatal(err)
+	}
+
+	err = tx.Commit()
+	if err != nil {
+		t.Fatal(err)
+	}
+
+	n, err := rel.Count(testDB)
+	if err != nil {
+		t.Fatal(err)
+	}
+
+	if n != 2 {
+		t.Fatalf("expected 2 certificates in the %s release, but have %d", rel.Version, n)
+	}
+
+	rel, err = LatestRelease(testDB, "ca")
+	if err != nil {
+		t.Fatal(err)
+	}
+
+	if rel.Version != anotherRelease.String() {
+		t.Fatalf("expected the latest release to be %s, but it's %s", anotherRelease.String(), rel.Version)
 	}
 }
