@@ -21,6 +21,10 @@ var (
 )
 
 func root(cmd *cobra.Command, args []string) {
+	err := cmd.Help()
+	if err != nil {
+		os.Exit(1)
+	}
 }
 
 var configLocations = []string{
