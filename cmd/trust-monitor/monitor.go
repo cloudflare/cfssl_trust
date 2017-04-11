@@ -160,5 +160,5 @@ Flags:
 			reported. This defaults to 720h, which is 30 days
 			(currently %s).
 `,
-		prometheusHost, interval, prometheusPort, runBookURL, trustBaseURL, window)
+		prometheusHost, interval, prometheusPort, trustBaseURL, window)
 }
