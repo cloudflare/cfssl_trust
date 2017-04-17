@@ -654,3 +654,65 @@ func TestAllReleases(t *testing.T) {
 		t.Fatalf("expected the latest release to be %s, but it's %s", anotherRelease.String(), rel.Version)
 	}
 }
+
+func TestCertificateRevoked(t *testing.T) {
+	tx, err := testDB.Begin()
+	if err != nil {
+		t.Fatal(err)
+	}
+	defer tx.Rollback()
+
+	cert := NewCertificate(testCert1)
+	revoked, err := cert.Revoked(tx, time.Now().Unix())
+	if err != nil {
+		t.Fatal(err)
+	}
+
+	if revoked {
+		t.Fatal("certificate should not be revoked, but has been revoked")
+	}
+
+	err = tx.Commit()
+	if err != nil {
+		t.Fatal(err)
+	}
+
+	tx, err = testDB.Begin()
+	if err != nil {
+		t.Fatal(err)
+	}
+
+	err = cert.Revoke(tx, "test", "test", time.Now().Unix())
+	if err != nil {
+		t.Fatal(err)
+	}
+
+	err = tx.Commit()
+	if err != nil {
+		t.Fatal(err)
+	}
+
+	tx, err = testDB.Begin()
+	if err != nil {
+		t.Fatal(err)
+	}
+
+	revoked, err = cert.Revoked(tx, time.Now().Unix())
+	if err != nil {
+		t.Fatal(err)
+	}
+
+	if !revoked {
+		t.Fatal("certificate not be revoked, but has not been revoked")
+	}
+
+	_, err = tx.Exec(`DELETE FROM revocations WHERE ski=?`, cert.SKI)
+	if err != nil {
+		t.Fatal(err)
+	}
+
+	err = tx.Commit()
+	if err != nil {
+		t.Fatal(err)
+	}
+}
