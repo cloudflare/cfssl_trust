@@ -212,6 +212,42 @@ func (cert *Certificate) Releases(tx *sql.Tx) ([]*Release, error) {
 	return releases, nil
 }
 
+// Revoked returns true if the certificate was revoked before the
+// timestamp passed in.
+func (cert *Certificate) Revoked(tx *sql.Tx, when int64) (bool, error) {
+	if err := cert.Select(tx); err != nil {
+		return true, err
+	}
+
+	var count int
+	row := tx.QueryRow(`SELECT count(*) FROM revocations WHERE ski=? AND revoked_at <= ?`, cert.SKI, when)
+	err := row.Scan(&count)
+	if err != nil {
+		return true, err
+	}
+
+	return count > 0, nil
+}
+
+// Revoke marks the certificate as revoked.
+func (cert *Certificate) Revoke(tx *sql.Tx, mechanism, reason string, when int64) error {
+	if err := cert.Select(tx); err != nil {
+		return err
+	}
+
+	rev := &Revocation{
+		SKI:       cert.SKI,
+		RevokedAt: when,
+		Mechanism: mechanism,
+		Reason:    reason,
+	}
+
+	// We ignore the inserted value because if it returns false, that means
+	// the certificate has already been revoked.
+	_, err := Ensure(rev, tx)
+	return err
+}
+
 // X509 returns the *crypto/x509.Certificate from the certificate.
 func (cert *Certificate) X509() *x509.Certificate {
 	return cert.cert
@@ -525,5 +561,32 @@ func (cr *CertificateRelease) Select(tx *sql.Tx) error {
 	if err == nil && count == 0 {
 		return sql.ErrNoRows
 	}
+	return err
+}
+
+// Revocation models the revocations table.
+type Revocation struct {
+	SKI       string
+	RevokedAt int64
+	Mechanism string
+	Reason    string
+}
+
+// Select requires the SKI field to be filled in. Note that only one
+// revocation per SKI should exist.
+func (rev *Revocation) Select(tx *sql.Tx) error {
+	row := tx.QueryRow(`SELECT revoked_at, mechanism, reason FROM revocations WHERE ski=?`, rev.SKI)
+	err := row.Scan(&rev.RevokedAt, &rev.Mechanism, &rev.Reason)
+	if err != nil {
+		return err
+	}
+
+	return nil
+}
+
+// Insert adds the revocation to the database if no revocation exists
+// yet.
+func (rev *Revocation) Insert(tx *sql.Tx) error {
+	_, err := tx.Exec(`INSERT INTO revocations (ski, revoked_at, mechanism, reason) VALUES (?, ?, ?, ?)`, rev.SKI, rev.RevokedAt, rev.Mechanism, rev.Reason)
 	return err
 }
