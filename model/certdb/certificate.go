@@ -436,6 +436,24 @@ func (r *Release) Count(db *sql.DB) (int, error) {
 	return count, err
 }
 
+// Previous returns the previous release. The Release must fully filled out.
+func (r *Release) Previous(db *sql.DB) (*Release, error) {
+	tx, err := db.Begin()
+	if err != nil {
+		return nil, err
+	}
+	defer tx.Rollback()
+
+	var prev = &Release{Bundle: r.Bundle}
+	query := fmt.Sprintf(`SELECT version, released_at FROM %s_releases WHERE released_at < ? ORDER BY released_at DESC LIMIT 1`, r.table())
+	row := tx.QueryRow(query, r.ReleasedAt)
+	err = row.Scan(&prev.Version, &prev.ReleasedAt)
+	if err == nil {
+		err = tx.Commit()
+	}
+	return prev, err
+}
+
 func AllReleases(db *sql.DB, bundle string) ([]*Release, error) {
 	if !validBundle(bundle) {
 		return nil, errors.New("model/certdb: invalid bundle " + bundle)
