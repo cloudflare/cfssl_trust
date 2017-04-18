@@ -716,3 +716,56 @@ func TestCertificateRevoked(t *testing.T) {
 		t.Fatal(err)
 	}
 }
+
+func TestPreviousRelease(t *testing.T) {
+	tx, err := testDB.Begin()
+	if err != nil {
+		t.Fatal(err)
+	}
+	defer tx.Rollback()
+
+	nextRelease, err := curRelease.Inc()
+	if err != nil {
+		t.Fatal(err)
+	}
+
+	next := &Release{
+		Bundle:  "ca",
+		Version: nextRelease.String(),
+	}
+
+	cur := &Release{
+		Bundle:  "ca",
+		Version: curRelease.String(),
+	}
+
+	err = next.Select(tx)
+	if err != nil {
+		t.Fatal(err)
+	}
+
+	err = cur.Select(tx)
+	if err != nil {
+		t.Fatal(err)
+	}
+
+	err = tx.Commit()
+	if err != nil {
+		t.Fatal(err)
+	}
+
+	prev, err := next.Previous(testDB)
+	if err != nil {
+		t.Fatal(err)
+	}
+
+	if prev.Version != curRelease.String() {
+		t.Fatalf("the call to Previous() should return %s, but returned %s",
+			curRelease.String(), prev.Version)
+	}
+
+	_, err = cur.Previous(testDB)
+	if err != sql.ErrNoRows {
+		t.Fatal("there shouldn't be a release prior to the current release, but there is")
+	}
+}
