@@ -114,7 +114,7 @@ func newExpiringMetric(store string) *expiringMetric {
 	}
 
 	em.desc = prometheus.NewDesc(
-		"expiring_"+em.store,
+		"trustmonitor_expiring_"+em.store,
 		"An expiring certificate from the "+em.store+" trust store.",
 		emLabels,
 		nil,
