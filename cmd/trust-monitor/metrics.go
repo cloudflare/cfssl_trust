@@ -13,39 +13,39 @@ import (
 var (
 	lastRootScan = prometheus.NewGauge(
 		prometheus.GaugeOpts{
-			Name: "trust-monitor_last_root_scan",
+			Name: "trustmonitor_last_root_scan",
 			Help: "timestamp of the last time the root store was scanned",
 		},
 	)
 	lastIntermediateScan = prometheus.NewGauge(
 		prometheus.GaugeOpts{
-			Name: "trust-monitor_last_intermediate_scan",
+			Name: "trustmonitor_last_intermediate_scan",
 			Help: "timestamp of the last time the intermediate store was scanned",
 		},
 	)
 	expiringRoots      = newExpiringMetric("roots")
 	expiringRootsCount = prometheus.NewGauge(
 		prometheus.GaugeOpts{
-			Name: "trust-monitor_expiring_roots_count",
+			Name: "trustmonitor_expiring_roots_count",
 			Help: "number of root certificates expiring soon",
 		},
 	)
 	nextExpiringRoot = prometheus.NewGauge(
 		prometheus.GaugeOpts{
-			Name: "trust-monitor_next_expiring_root",
+			Name: "trustmonitor_next_expiring_root",
 			Help: "timestamp for the next expiring root",
 		},
 	)
 	expiringIntermediates      = newExpiringMetric("intermediates")
 	expiringIntermediatesCount = prometheus.NewGauge(
 		prometheus.GaugeOpts{
-			Name: "trust-monitor_expiring_intermediates_count",
+			Name: "trustmonitor_expiring_intermediates_count",
 			Help: "number of intermediate certificates expiring soon",
 		},
 	)
 	nextExpiringIntermediate = prometheus.NewGauge(
 		prometheus.GaugeOpts{
-			Name: "trust-monitor_next_expiring_intermediate",
+			Name: "trustmonitor_next_expiring_intermediate",
 			Help: "timestamp for the next expiring intermediate",
 		},
 	)
