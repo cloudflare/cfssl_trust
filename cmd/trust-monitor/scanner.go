@@ -84,6 +84,7 @@ func scanTrustStores() {
 		expiringRootsCount.Set(float64(len(expiring)))
 		expiringRoots.Set(expiring)
 		nextExpiringRoot.Set(float64(next))
+		lastRootScan.Set(float64(time.Now().Unix()))
 		break
 	}
 
@@ -99,6 +100,7 @@ func scanTrustStores() {
 		expiringIntermediatesCount.Set(float64(len(expiring)))
 		expiringIntermediates.Set(expiring)
 		nextExpiringIntermediate.Set(float64(next))
+		lastIntermediateScan.Set(float64(time.Now().Unix()))
 		break
 	}
 }
