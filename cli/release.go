@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"math/big"
 	"os"
+	"time"
 
 	"github.com/cloudflare/cfssl_trust/common"
 	"github.com/cloudflare/cfssl_trust/model/certdb"
@@ -123,7 +124,7 @@ func showSkippedCert(cert *certdb.Certificate, reason string) {
 	fmt.Printf("skipping %s (SKI=%s, serial=%s, subject='%s')\n", reason, cert.SKI, serial, common.NameToString(cert.X509().Subject))
 }
 
-func copyCertificates(db *sql.DB, from, to *certdb.Release) error {
+func copyCertificates(db *sql.DB, from, to *certdb.Release, window time.Duration) error {
 	tx, err := db.Begin()
 	if err != nil {
 		return err
@@ -136,8 +137,9 @@ func copyCertificates(db *sql.DB, from, to *certdb.Release) error {
 	}
 
 	var skipped, included int
+	releaseWindow := to.ReleasedAt + int64(window.Seconds())
 	for _, cert := range certs {
-		if isRevoked, err := cert.Revoked(tx, to.ReleasedAt); err != nil {
+		if isRevoked, err := cert.Revoked(tx, releaseWindow); err != nil {
 			return err
 		} else if isRevoked {
 			showSkippedCert(cert, "revoked certificate")
@@ -145,7 +147,7 @@ func copyCertificates(db *sql.DB, from, to *certdb.Release) error {
 			continue
 		}
 
-		if cert.NotAfter <= to.ReleasedAt {
+		if cert.NotAfter <= releaseWindow {
 			showSkippedCert(cert, "expired certificate")
 			skipped++
 			continue
@@ -182,13 +184,22 @@ func rollRelease(cmd *cobra.Command, args []string) {
 		os.Exit(1)
 	}
 
+	var window time.Duration
+	if len(args) > 0 {
+		window, err = time.ParseDuration(args[0])
+		if err != nil {
+			fmt.Fprintf(os.Stderr, "[!] %s\n", err)
+			os.Exit(1)
+		}
+	}
+
 	from, to, err := getReleaseForRoll(db, bundleRelease)
 	if err != nil {
 		fmt.Fprintf(os.Stderr, "[!] %s\n", err)
 		os.Exit(1)
 	}
 
-	err = copyCertificates(db, from, to)
+	err = copyCertificates(db, from, to, window)
 	if err != nil {
 		fmt.Fprintf(os.Stderr, "[!] %s\n", err)
 		os.Exit(1)
