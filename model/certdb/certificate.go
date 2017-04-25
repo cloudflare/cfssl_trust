@@ -12,7 +12,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/bjt79/cfssl/signer"
+	"github.com/cloudflare/cfssl/signer"
 )
 
 // Finalize finishes a transaction, committing it if needed or rolling
