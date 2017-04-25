@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"math/big"
 	"os"
+	"time"
 
 	"github.com/cloudflare/cfssl_trust/common"
 	"github.com/cloudflare/cfssl_trust/model/certdb"
@@ -30,7 +31,7 @@ func showExpiredCert(cert *certdb.Certificate, reason string) {
 	fmt.Printf("%s (SKI=%s, serial=%s, subject='%s')\n", reason, cert.SKI, serial, common.NameToString(cert.X509().Subject))
 }
 
-func scanBundleForExpirations(db *sql.DB) (expired int, revoked int, err error) {
+func scanBundleForExpirations(db *sql.DB, window time.Duration) (expired int, revoked int, err error) {
 	tx, err := db.Begin()
 	if err != nil {
 		return expired, revoked, err
@@ -52,6 +53,7 @@ func scanBundleForExpirations(db *sql.DB) (expired int, revoked int, err error) 
 		return expired, revoked, err
 	}
 
+	expiresAt := time.Now().Add(window)
 	for _, cert := range certs {
 		if isRevoked, err := cert.Revoked(tx, rel.ReleasedAt); err != nil {
 			return expired, revoked, err
@@ -61,7 +63,7 @@ func scanBundleForExpirations(db *sql.DB) (expired int, revoked int, err error) 
 			continue
 		}
 
-		if cert.NotAfter <= rel.ReleasedAt {
+		if cert.NotAfter <= expiresAt.Unix() {
 			showExpiredCert(cert, "expired certificate")
 			expired++
 			continue
@@ -99,12 +101,22 @@ func expiring(cmd *cobra.Command, args []string) {
 		bundleRelease = latest.Version
 	}
 
-	expired, revoked, err := scanBundleForExpirations(db)
+	window := 30 * 24 * time.Hour
+	if len(args) > 0 {
+		window, err = time.ParseDuration(args[0])
+		if err != nil {
+			fmt.Fprintf(os.Stderr, "[!] %s\n", err)
+			os.Exit(1)
+		}
+	}
+
+	expired, revoked, err := scanBundleForExpirations(db, window)
 	if err != nil {
 		fmt.Fprintf(os.Stderr, "[!] %s\n", err)
 		os.Exit(1)
 	}
 
-	fmt.Printf("%d certificates expired.\n%d certificates revoked.\n",
+	fmt.Println("Release:", bundle, bundleRelease)
+	fmt.Printf("%d certificates expiring.\n%d certificates revoked.\n",
 		expired, revoked)
 }
