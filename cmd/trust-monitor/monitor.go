@@ -64,6 +64,7 @@ func monitor() {
 		time.Sleep(time.Second)
 		if time.Now().After(checkAt) {
 			go scanTrustStores()
+			checkAt = time.Now().Add(interval)
 		}
 	}
 }
