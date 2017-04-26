@@ -8,7 +8,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/cloudflare.com/cfssl/helpers"
+	"github.com/cloudflare/cfssl/helpers"
 )
 
 var trustStores = map[string]string{

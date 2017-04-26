@@ -13,3 +13,8 @@ import:
   subpackages:
   - log
   - helpers
+- package: github.com/getsentry/raven-go
+- package: github.com/prometheus/client_golang
+  version: ^0.8.0
+  subpackages:
+  - prometheus
