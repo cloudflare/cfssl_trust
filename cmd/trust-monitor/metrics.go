@@ -13,13 +13,13 @@ import (
 var (
 	lastRootScan = prometheus.NewGauge(
 		prometheus.GaugeOpts{
-			Name: "trustmonitor_last_root_scan",
+			Name: "trustmonitor_last_root_scan_unix_epoch_seconds",
 			Help: "timestamp of the last time the root store was scanned",
 		},
 	)
 	lastIntermediateScan = prometheus.NewGauge(
 		prometheus.GaugeOpts{
-			Name: "trustmonitor_last_intermediate_scan",
+			Name: "trustmonitor_last_intermediate_scan_unix_epoch_seconds",
 			Help: "timestamp of the last time the intermediate store was scanned",
 		},
 	)
@@ -32,7 +32,7 @@ var (
 	)
 	nextExpiringRoot = prometheus.NewGauge(
 		prometheus.GaugeOpts{
-			Name: "trustmonitor_next_expiring_root",
+			Name: "trustmonitor_next_expiring_root_unix_epoch_seconds",
 			Help: "timestamp for the next expiring root",
 		},
 	)
@@ -45,7 +45,7 @@ var (
 	)
 	nextExpiringIntermediate = prometheus.NewGauge(
 		prometheus.GaugeOpts{
-			Name: "trustmonitor_next_expiring_intermediate",
+			Name: "trustmonitor_next_expiring_intermediate_unix_epoch_seconds",
 			Help: "timestamp for the next expiring intermediate",
 		},
 	)
