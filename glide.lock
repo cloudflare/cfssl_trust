@@ -1,19 +1,47 @@
-hash: ac118d3167467dfffd75ca96ba84bcd8496944c5ab2e6b2ba3feb3ce24f2e0cc
-updated: 2017-03-23T11:11:01.881218944-07:00
+hash: 2f8b8a2991e084697f090fe8ed728c2b72881e828c0f434c03922b151ba94f46
+updated: 2017-04-26T10:23:44.90557127-07:00
 imports:
-- name: github.com/cloudflare/cfssl
-  version: 1a5ac2e68991e01380068b96f50f5ff982d9bb14
+- name: github.com/beorn7/perks
+  version: 4c0e84591b9aa9e6dcfdf3e020114cd81f89d5f9
   subpackages:
+  - quantile
+- name: github.com/certifi/gocertifi
+  version: a9c833d2837d3b16888d55d5aafa9ffe9afb22b0
+- name: github.com/cloudflare/cfssl
+  version: 851e4b77bb0e13a97e7d836a2f069d17ed5478c1
+  subpackages:
+  - auth
+  - certdb
+  - config
   - crypto/pkcs7
+  - csr
   - errors
   - helpers
   - helpers/derhelpers
+  - info
   - log
+  - ocsp/config
+  - signer
   - ubiquity
 - name: github.com/fsnotify/fsnotify
-  version: ff7bc41d4007f67e5456703c34342df4e0113f64
+  version: 4da3e2cfbabc9f751898f250b49f2439785783a1
+- name: github.com/getsentry/raven-go
+  version: b68337dbf03e7fbb53d9fd9b63fd09b28e8f13f7
+- name: github.com/golang/protobuf
+  version: 2bba0603135d7d7f5cb73b2125beeda19c09f4ef
+  subpackages:
+  - proto
+- name: github.com/google/certificate-transparency
+  version: 32acc4216ea1f20eca97a1cdbc72b73af9e27d20
+  repo: https://github.com/google/certificate-transparency
+  subpackages:
+  - go
+  - go/asn1
+  - go/tls
+  - go/x509
+  - go/x509/pkix
 - name: github.com/hashicorp/hcl
-  version: 630949a3c5fa3c613328e1b8256052cbc2327c9b
+  version: 7fa7fff964d035e8a162cce3a164b3ad02ad651b
   subpackages:
   - hcl/ast
   - hcl/parser
@@ -28,7 +56,7 @@ imports:
 - name: github.com/magiconair/properties
   version: 51463bfca2576e06c62a8504b5c0f06d61312647
 - name: github.com/mattes/migrate
-  version: ce1b59bb819416ca67422929b1cb48bb342720b6
+  version: 7dde43471463c0ee6a4183e1b5a8239ae2aa3122
   subpackages:
   - driver
   - driver/sqlite3
@@ -38,26 +66,48 @@ imports:
   - pipe
 - name: github.com/mattn/go-sqlite3
   version: ca5e3819723d8eeaf170ad510e7da1d6d2e94a08
+- name: github.com/matttproud/golang_protobuf_extensions
+  version: c12348ce28de40eed0136aa2b644d0ee0650e56c
+  subpackages:
+  - pbutil
 - name: github.com/mitchellh/mapstructure
-  version: 53818660ed4955e899c0bcafa97299a388bd7c8e
+  version: cc8532a8e9a55ea36402aa21efdf403a60d34096
 - name: github.com/pelletier/go-buffruneio
   version: c37440a7cf42ac63b919c752ca73a85067e05992
 - name: github.com/pelletier/go-toml
-  version: f6e7596e8daafd44dc9e5c208dc73035020c8481
+  version: fe206efb84b2bc8e8cfafe6b4c1826622be969e3
+- name: github.com/prometheus/client_golang
+  version: c5b7fccd204277076155f10851dad72b76a49317
+  subpackages:
+  - prometheus
+- name: github.com/prometheus/client_model
+  version: 6f3806018612930941127f2a7c6c453ba2c527d2
+  subpackages:
+  - go
+- name: github.com/prometheus/common
+  version: 9e0844febd9e2856f839c9cb974fbd676d1755a8
+  subpackages:
+  - expfmt
+  - internal/bitbucket.org/ww/goautoneg
+  - model
+- name: github.com/prometheus/procfs
+  version: 6ac8c5d890d415025dd5aae7595bcb2a6e7e2fad
+  subpackages:
+  - xfs
 - name: github.com/spf13/afero
   version: 9be650865eab0c12963d8753212f4f9c66cdcf12
   subpackages:
   - mem
 - name: github.com/spf13/cast
-  version: ce135a4ebeee6cfe9a26c93ee0d37825f26113c7
+  version: acbeb36b902d72a7a4c18e8f3241075e7ab763e4
 - name: github.com/spf13/cobra
-  version: 7be4beda01ec05d0b93d80b3facd2b6f44080d94
+  version: 6ed17b5128e8932c9ecd4c3970e8ea5e60a418ac
 - name: github.com/spf13/jwalterweatherman
   version: fa7ca7e836cf3a8bb4ebf799f472c12d7e903d66
 - name: github.com/spf13/pflag
-  version: 9ff6c6923cfffbcd502984b8e0c80539a94968b7
+  version: 2300d0f8576fe575f71aaa5b9bbe4e1b0dc2eb51
 - name: github.com/spf13/viper
-  version: 84f94806c67f59dd7ae87bc5351f7a9c94a4558d
+  version: 0967fc9aceab2ce9da34061253ac10fb99bba5b2
 - name: golang.org/x/crypto
   version: 9a6f0a01987842989747adff311d80750ba25530
   repo: https://go.googlesource.com/crypto
@@ -73,14 +123,16 @@ imports:
   subpackages:
   - context
 - name: golang.org/x/sys
-  version: 8fd966b47dbdd4faa03de0d06e3d733baeb9a1a9
+  version: 9f30dcbe5be197894515a338a9bda9253567ea8f
   subpackages:
   - unix
 - name: golang.org/x/text
-  version: 08e2be0e61b04895bf20488c7b26d146fe8a1be9
+  version: a9a820217f98f7c8a207ec1e45a874e1fe12c478
   subpackages:
   - transform
   - unicode/norm
 - name: gopkg.in/yaml.v2
-  version: a3f3340b5840cee44f372bddb5880fcbc419b46a
-testImports: []
+  version: cd8b52f8269e0feb286dfeef29f8fe4d5b397e0b
+testImports:
+- name: gopkg.in/DATA-DOG/go-sqlmock.v1
+  version: b983233bc0bbea4dc6e8ec8c8c923d935765ffec
