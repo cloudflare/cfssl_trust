@@ -30,7 +30,7 @@ Details:
 	SKI: 75:71:A7:19:48:19:BC:9D:9D:EA:41:47:DF:94:C4:48:77:99:D3:79
 	Valid from: 2000-05-30T10:48:38+0000
 	     until: 2020-05-30T10:48:38+0000
-	Key usages: digital signature, cert sign, crl sign
+	Key usages: cert sign, crl sign, digital signature
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 	OCSP server:
@@ -69,7 +69,7 @@ Details:
 	SKI: BB:AF:7E:02:3D:FA:A6:F1:3C:84:8E:AD:EE:38:98:EC:D9:32:32:D4
 	Valid from: 2000-05-30T10:48:38+0000
 	     until: 2020-05-30T10:48:38+0000
-	Key usages: digital signature, cert sign, crl sign
+	Key usages: digital signature, crl sign, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 	OCSP server:
@@ -87,7 +87,7 @@ Details:
 	SKI: 53:79:BF:5A:AA:2B:4A:CF:54:80:E1:D8:9B:C0:9D:F2:B2:03:66:CB
 	Valid from: 2000-05-30T10:48:38+0000
 	     until: 2020-05-30T10:48:38+0000
-	Key usages: cert sign, crl sign, digital signature
+	Key usages: digital signature, crl sign, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 	OCSP server:
@@ -121,7 +121,7 @@ Details:
 	SKI: C0:7A:98:68:8D:89:FB:AB:05:64:0C:11:7D:AA:7D:65:B8:CA:CC:4E
 	Valid from: 2002-05-21T04:00:00+0000
 	     until: 2018-08-21T04:00:00+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -141,7 +141,7 @@ Details:
 	SKI: 4C:EC:8D:49:D4:2B:02:03:9A:D0:48:30:0A:4B:6B:BD:31:7A:A6:34
 	Valid from: 2003-01-08T16:11:18+0000
 	     until: 2019-01-07T22:59:59+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -192,7 +192,7 @@ Details:
 	SKI: 48:9F:8D:86:D1:CB:F1:D6:8A:52:7B:7F:15:A2:0A:51:F8:97:FE:0B
 	Valid from: 2003-12-17T12:19:51+0000
 	     until: 2019-12-16T22:59:59+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (1): email:ec_ur@catcert.net
 CERTIFICATE
@@ -225,7 +225,7 @@ Details:
 	SKI: 0D:7C:28:69:52:9F:18:AF:C7:4D:9C:2E:4C:72:05:52:56:D1:B7:A5
 	Valid from: 2004-04-20T17:05:58+0000
 	     until: 2034-04-21T17:05:58+0000
-	Key usages: digital signature, cert sign, crl sign
+	Key usages: cert sign, digital signature, crl sign
 	Basic constraints: valid, is a CA certificate, max path length 11
 	SANs (0):
 CERTIFICATE
@@ -240,7 +240,7 @@ Details:
 	SKI: D2:C4:B0:D2:91:D4:4C:11:71:B3:61:CB:3D:A1:FE:DD:A8:6A:D4:E3
 	Valid from: 2004-06-29T17:06:20+0000
 	     until: 2024-06-29T17:06:20+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 	OCSP server:
@@ -273,7 +273,7 @@ Details:
 	SKI: A4:66:21:0E:01:41:B8:F5:E9:F1:71:C6:D0:38:D2:05:35:69:AA:13
 	Valid from: 2004-11-17T15:25:00+0000
 	     until: 2018-08-13T23:59:00+0000
-	Key usages: crl sign, digital signature, cert sign, content committment, key encipherment
+	Key usages: content committment, key encipherment, cert sign, digital signature, crl sign
 	Basic constraints: valid, is a CA certificate, max path length 1
 	SANs (0):
 CERTIFICATE
@@ -305,7 +305,7 @@ Details:
 	SKI: A1:72:5F:26:1B:28:98:43:95:5D:07:37:D5:85:96:9D:4B:D2:C3:45
 	Valid from: 2005-06-07T08:09:10+0000
 	     until: 2020-05-30T10:48:38+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -321,7 +321,7 @@ Details:
 	SKI: A1:72:5F:26:1B:28:98:43:95:5D:07:37:D5:85:96:9D:4B:D2:C3:45
 	Valid from: 2005-06-07T08:09:10+0000
 	     until: 2020-05-30T10:48:38+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -336,7 +336,7 @@ Details:
 	SKI: B8:CA:11:E9:06:31:79:DB:C3:94:C6:E8:19:2A:BC:BB:35:16:31:A4
 	Valid from: 2005-07-14T00:00:00+0000
 	     until: 2019-07-09T18:19:22+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate, max path length 1
 	SANs (0):
 	2 AIAs:
@@ -395,7 +395,7 @@ Details:
 	SKI: 50:1F:30:C0:93:92:8D:71:23:38:34:5C:B9:0A:F6:D3:2B:EB:81:45
 	Valid from: 2005-12-11T17:50:47+0000
 	     until: 2020-12-11T18:00:47+0000
-	Key usages: digital signature, cert sign, crl sign
+	Key usages: digital signature, crl sign, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 	1 AIA:
@@ -413,7 +413,7 @@ Details:
 	SKI: FA:D8:71:32:3C:DC:EA:D2:35:7E:5F:D8:64:E2:F1:FF:1C:66:AB:6D
 	Valid from: 2005-12-23T10:45:32+0000
 	     until: 2020-12-23T10:55:32+0000
-	Key usages: cert sign, crl sign, digital signature
+	Key usages: digital signature, crl sign, cert sign
 	Basic constraints: valid, is a CA certificate, max path length 1
 	SANs (0):
 	1 AIA:
@@ -429,7 +429,7 @@ Details:
 	SKI: 38:96:5A:28:2D:5F:43:24:97:F5:D4:F9:8F:3B:87:25:D0:C9:AF:B6
 	Valid from: 2006-01-19T00:00:00+0000
 	     until: 2019-07-09T18:19:22+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
 	2 AIAs:
@@ -446,7 +446,7 @@ Details:
 	SKI: 56:FB:DB:24:A8:5A:C1:B6:8A:3E:44:73:3D:D1:2A:43:23:15:06:B6
 	Valid from: 2006-03-01T00:00:00+0000
 	     until: 2019-07-09T18:19:22+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate, max path length 3
 	SANs (0):
 	2 AIAs:
@@ -482,7 +482,7 @@ Details:
 	SKI: 93:64:8A:13:3F:56:E9:60:96:DE:AB:F3:7B:B1:1B:1E:7B:D6:5E:4B
 	Valid from: 2006-06-22T00:00:00+0000
 	     until: 2020-05-30T10:48:38+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
 	2 AIAs:
@@ -518,7 +518,7 @@ Details:
 	SKI: E0:4D:BF:DC:9B:41:5D:13:E8:64:F0:A7:E9:15:A4:E1:81:C1:BA:31
 	Valid from: 2006-09-17T22:46:36+0000
 	     until: 2019-12-31T23:59:59+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate, max path length 2
 	SANs (0):
 	1 AIA:
@@ -537,7 +537,7 @@ Details:
 	SKI: E1:66:CF:0E:D1:F1:B3:4B:B7:06:20:14:FE:87:12:D5:F6:FE:FB:3E
 	Valid from: 2006-09-17T22:46:36+0000
 	     until: 2019-12-31T23:59:59+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate, max path length 2
 	SANs (0):
 	1 AIA:
@@ -576,7 +576,7 @@ Details:
 	SKI: B8:B5:F8:53:D2:72:3D:73:F6:BB:64:67:A7:E5:64:EB:12:EA:73:62
 	Valid from: 2006-10-17T15:48:05+0000
 	     until: 2021-10-17T15:58:05+0000
-	Key usages: digital signature, cert sign, crl sign
+	Key usages: cert sign, crl sign, digital signature
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 	1 AIA:
@@ -611,7 +611,7 @@ Details:
 	SKI: 49:36:4C:AF:E8:1B:72:BF:2B:FB:7C:7C:68:01:E7:32:9B:73:EB:F2
 	Valid from: 2006-10-23T00:00:00+0000
 	     until: 2020-05-30T10:48:38+0000
-	Key usages: crl sign, cert sign
+	Key usages: cert sign, crl sign
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
 	2 AIAs:
@@ -628,7 +628,7 @@ Details:
 	SKI: 5B:25:7B:96:A4:65:51:7E:B8:39:F3:C0:78:66:5E:E8:3A:E7:F0:EE
 	Valid from: 2006-10-25T08:30:35+0000
 	     until: 2036-10-25T08:30:35+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -644,7 +644,7 @@ Details:
 	SKI: 7F:D3:65:A7:C2:DD:EC:BB:F0:30:09:F3:43:39:FA:02:AF:33:31:33
 	Valid from: 2006-11-08T00:00:00+0000
 	     until: 2021-11-07T23:59:59+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Extended usages: server auth, client auth, code signing, netscape sgc
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
@@ -680,7 +680,7 @@ Details:
 	SKI: 15:00:12:2B:13:98:B2:99:07:ED:1E:DF:A2:BE:57:0D:2B:67:02:CD
 	Valid from: 2006-11-10T00:00:00+0000
 	     until: 2021-11-10T00:00:00+0000
-	Key usages: digital signature, cert sign, crl sign
+	Key usages: digital signature, crl sign, cert sign
 	Extended usages: server auth, client auth, code signing, s/mime, timestamping
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
@@ -699,7 +699,7 @@ Details:
 	SKI: 1E:1C:88:15:AA:F2:46:D0:05:DA:E9:1E:DC:22:BD:A8:97:DE:0F:B2
 	Valid from: 2006-11-10T00:00:00+0000
 	     until: 2021-11-10T00:00:00+0000
-	Key usages: digital signature, cert sign, crl sign
+	Key usages: cert sign, digital signature, crl sign
 	Extended usages: server auth, client auth, code signing, s/mime, timestamping
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
@@ -739,7 +739,7 @@ Details:
 	SKI: FD:AC:61:32:93:6C:45:D6:E2:EE:85:5F:9A:BA:E7:76:99:68:CC:E7
 	Valid from: 2006-11-16T01:54:37+0000
 	     until: 2026-11-16T01:54:37+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
 	OCSP server:
@@ -756,7 +756,7 @@ Details:
 	SKI: 7B:5B:45:CF:AF:CE:CB:7A:FD:31:92:1A:6A:B6:F3:46:EB:57:48:50
 	Valid from: 2006-11-17T00:00:00+0000
 	     until: 2020-12-30T23:59:59+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -786,7 +786,7 @@ Details:
 	SKI: 2C:D5:50:41:97:15:8B:F0:8F:36:61:5B:4A:FB:6B:D9:99:C9:33:92
 	Valid from: 2006-11-27T00:00:00+0000
 	     until: 2018-08-21T16:15:00+0000
-	Key usages: crl sign, cert sign
+	Key usages: cert sign, crl sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -816,7 +816,7 @@ Details:
 	SKI: 0B:58:E5:8B:C6:4C:15:37:A4:40:A9:30:A9:21:BE:47:36:5A:56:FF
 	Valid from: 2006-12-01T00:00:00+0000
 	     until: 2020-05-30T10:48:38+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Extended usages: microsoft sgc, netscape sgc
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
@@ -850,7 +850,7 @@ Details:
 	SKI: 69:16:49:EC:B6:75:64:5A:E9:03:23:60:2F:54:62:A5:34:5C:3E:E2
 	Valid from: 2006-12-01T00:00:00+0000
 	     until: 2019-12-31T23:59:59+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
 CERTIFICATE
@@ -866,7 +866,7 @@ Details:
 	SKI: 60:59:CD:80:C7:C5:E3:AB:8C:2F:FC:6B:E5:5B:0A:F5:0F:DE:4B:FF
 	Valid from: 2006-12-01T00:00:00+0000
 	     until: 2019-12-31T23:59:59+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Extended usages: microsoft sgc, netscape sgc
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
@@ -927,7 +927,7 @@ Details:
 	SKI: 21:30:C9:FB:00:D7:4E:98:DA:87:AA:2A:D0:A7:2E:B1:40:31:A7:4C
 	Valid from: 2006-12-01T00:00:00+0000
 	     until: 2020-05-30T10:48:38+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -987,7 +987,7 @@ Details:
 	SKI: 1D:A9:F1:86:26:76:4D:CF:5D:FD:50:A3:6E:EB:F1:BC:22:75:6D:EB
 	Valid from: 2007-01-03T15:37:21+0000
 	     until: 2019-01-02T15:37:21+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 	2 AIAs:
@@ -1023,7 +1023,7 @@ Details:
 	SKI: A7:2A:4C:AF:9E:86:45:6A:D8:21:1B:03:39:B7:93:93:A7:D0:15:57
 	Valid from: 2007-01-16T00:00:00+0000
 	     until: 2020-05-30T10:48:38+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Extended usages: server auth, client auth, microsoft sgc, netscape sgc
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
@@ -1078,7 +1078,7 @@ Details:
 	SKI: E8:DA:B8:F2:47:DE:99:24:7D:67:40:89:27:67:71:0D:63:D8:A3:8E
 	Valid from: 2007-01-25T08:57:12+0000
 	     until: 2019-01-15T00:00:00+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (1): email:ca@tu-chemnitz.de
 	2 AIAs:
@@ -1132,7 +1132,7 @@ Details:
 	SKI: 9D:9F:23:F0:19:1B:7E:C7:23:5D:27:2A:CC:A5:36:3A:A6:69:E5:89
 	Valid from: 2007-02-13T10:03:01+0000
 	     until: 2019-02-12T00:00:00+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 	2 AIAs:
@@ -1149,7 +1149,7 @@ Details:
 	SKI: 33:67:A9:D6:F1:93:55:36:AC:A1:32:BD:C1:E4:96:39:FF:4C:70:31
 	Valid from: 2007-03-06T09:27:17+0000
 	     until: 2019-03-05T00:00:00+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (1): email:pki@rz.uni-freiburg.de
 	2 AIAs:
@@ -1166,7 +1166,7 @@ Details:
 	SKI: 8F:06:FF:ED:BE:EE:64:7D:53:53:2A:CE:19:60:8C:74:99:53:F5:16
 	Valid from: 2007-03-28T10:47:32+0000
 	     until: 2019-03-27T00:00:00+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (1): email:ca@dv.fh-frankfurt.de
 	2 AIAs:
@@ -1184,7 +1184,7 @@ Details:
 	SKI: D9:AD:AC:9C:5E:AB:97:FB:B4:C6:BB:11:34:A9:FB:FE:F2:AF:7D:E8
 	Valid from: 2007-04-25T00:00:00+0000
 	     until: 2019-07-09T18:19:22+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Extended usages: server auth, client auth
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
@@ -1200,7 +1200,7 @@ Details:
 	SKI: D0:4A:B5:27:93:1B:46:EB:AB:38:46:7C:90:55:E1:16:61:1F:6F:D5
 	Valid from: 2007-04-25T00:00:00+0000
 	     until: 2019-07-09T18:19:22+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Extended usages: server auth, client auth
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
@@ -1221,37 +1221,6 @@ Details:
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
 CERTIFICATE
-Subject: /VeriSign Class 3 Secure Server 1024-bit CA/C=US/O=VeriSign,
-    Inc./OU=VeriSign Trust Network/OU=Terms of use at
-    https://www.verisign.com/rpa (c)07
-Issuer: /C=US/O=VeriSign, Inc./OU=Class 3 Public Primary Certification
-    Authority
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-1024
-	Serial number: 63686090278961843922911797730874644256
-	SKI: 14:E0:D2:6F:F7:DC:A4:B7:89:06:24:14:F7:F7:29:21:B6:77:ED:79
-	Valid from: 2007-04-27T00:00:00+0000
-	     until: 2017-04-26T23:59:59+0000
-	Key usages: crl sign, cert sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-CERTIFICATE
-Subject: /GlobalSign Domain Validation CA/C=BE/O=GlobalSign nv-sa/OU=Domain
-    Validation CA
-Issuer: /GlobalSign Root CA/C=BE/O=GlobalSign nv-sa/OU=Root CA
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 4835703278459746211199532
-	AKI: 60:7B:66:1A:45:0D:97:CA:89:50:2F:7D:04:CD:34:A8:FF:FC:FD:4B
-	SKI: 36:12:4E:9E:71:C4:26:41:F1:FA:F1:29:4C:BF:17:A4:53:28:B6:EB
-	Valid from: 2007-05-04T10:00:00+0000
-	     until: 2017-05-04T12:00:00+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-CERTIFICATE
 Subject: /C=TW/O=Chunghwa Telecom Co., Ltd./OU=Public Certification Authority
 Issuer: /C=TW/O=Chunghwa Telecom Co., Ltd./OU=ePKI Root Certification
     Authority
@@ -1263,7 +1232,7 @@ Details:
 	SKI: 71:B3:50:31:A0:1B:5B:7B:B2:A6:59:7C:FD:10:8C:3C:AD:3A:3D:7A
 	Valid from: 2007-05-16T10:13:55+0000
 	     until: 2027-05-16T10:13:55+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
 	1 AIA:
@@ -1279,30 +1248,12 @@ Details:
 	SKI: 06:23:10:BD:8A:02:85:AB:62:AC:AA:87:55:24:D7:DC:C9:92:17:E2
 	Valid from: 2007-05-22T13:40:26+0000
 	     until: 2019-05-21T00:00:00+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate, max path length 1
 	SANs (1): email:baw-ca@baw.de
 	2 AIAs:
 		http://cdp1.pca.dfn.de/global-root-ca/pub/cacert/cacert.crt
 		http://cdp2.pca.dfn.de/global-root-ca/pub/cacert/cacert.crt
-CERTIFICATE
-Subject: /VeriSign Class 3 Extended Validation 1024-bit SSL SGC
-    CA/C=US/O=VeriSign, Inc./OU=VeriSign Trust Network/OU=Terms of use at
-    https://www.verisign.com/rpa (c)07
-Issuer: /C=US/O=VeriSign, Inc./OU=Class 3 Public Primary Certification
-    Authority
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-1024
-	Serial number: 27558377766510664745202122547793385215
-	AKI: 00:D8:5A:4C:25:C1:22:E5:8B:31:EF:6D:BA:F3:CC:5F:29:F1:0D:61
-	SKI: ED:77:35:0A:00:28:D5:2A:54:5E:1E:4E:9A:67:D5:4B:8B:34:13:C4
-	Valid from: 2007-05-24T00:00:00+0000
-	     until: 2017-05-23T23:59:59+0000
-	Key usages: cert sign, crl sign
-	Extended usages: server auth, client auth, netscape sgc
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
 CERTIFICATE
 Subject: /Uni-Osnabrueck RZ-CA G-002/C=DE/O=Universitaet
     Osnabrueck/OU=Rechenzentrum
@@ -1353,7 +1304,7 @@ Details:
 	SKI: E3:FC:C2:45:E9:81:9B:AC:CC:A1:FB:36:A3:79:B4:FA:D7:93:D8:3E
 	Valid from: 2007-06-25T00:00:00+0000
 	     until: 2020-05-30T10:48:38+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate, max path length 2
 	SANs (0):
 	2 AIAs:
@@ -1409,7 +1360,7 @@ Details:
 	SKI: 45:A4:5C:1B:96:07:1F:00:CE:AF:E5:4C:D6:66:6E:19:57:D2:43:76
 	Valid from: 2007-07-12T12:16:40+0000
 	     until: 2019-06-30T00:00:00+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate, max path length 1
 	SANs (1): email:pki-ca@fv-berlin.de
 	2 AIAs:
@@ -1444,7 +1395,7 @@ Details:
 	SKI: 75:90:6E:F2:6A:80:CB:75:32:D9:E4:8D:D6:5D:D6:8F:1C:AF:7D:E1
 	Valid from: 2007-10-04T00:00:00+0000
 	     until: 2020-05-30T10:48:38+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
 	2 AIAs:
@@ -1481,7 +1432,7 @@ Details:
 	SKI: EB:42:34:D0:98:B0:AB:9F:F4:1B:6B:08:F7:CC:64:2E:EF:0E:2C:45
 	Valid from: 2007-10-14T20:54:17+0000
 	     until: 2022-10-14T20:54:17+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
 	1 AIA:
@@ -1661,7 +1612,7 @@ Details:
 	SKI: 4C:58:CB:25:F0:41:4F:52:F4:28:C8:81:43:9B:A6:A8:A0:E6:92:E5
 	Valid from: 2007-11-09T12:00:00+0000
 	     until: 2021-11-10T00:00:00+0000
-	Key usages: digital signature, cert sign, crl sign
+	Key usages: crl sign, digital signature, cert sign
 	Extended usages: server auth, client auth, code signing, s/mime, timestamping
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
@@ -1681,7 +1632,7 @@ Details:
 	SKI: 50:EA:73:89:DB:29:FB:10:8F:9E:E5:01:20:D4:DE:79:99:48:83:F7
 	Valid from: 2008-04-02T12:00:00+0000
 	     until: 2022-04-03T00:00:00+0000
-	Key usages: digital signature, cert sign, crl sign
+	Key usages: digital signature, crl sign, cert sign
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
 	OCSP server:
@@ -1730,7 +1681,7 @@ Details:
 	SKI: 96:36:9B:F8:D6:E5:B3:68:4A:70:7A:7A:72:8D:D3:6E:2C:0B:B9:31
 	Valid from: 2008-07-10T00:00:00+0000
 	     until: 2020-05-30T10:48:38+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
 	1 AIA:
@@ -1749,7 +1700,7 @@ Details:
 	SKI: 57:3E:7F:39:7D:6E:CD:F1:1B:AC:34:A4:30:16:82:C4:66:CA:8C:B8
 	Valid from: 2008-07-10T00:00:00+0000
 	     until: 2020-05-30T10:48:38+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
 	1 AIA:
@@ -1787,7 +1738,7 @@ Details:
 	SKI: 33:ED:19:23:30:A8:D4:7F:CB:1A:69:36:79:EF:CF:5D:28:BD:31:4D
 	Valid from: 2008-07-18T00:00:00+0000
 	     until: 2020-05-30T10:48:38+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
 	1 AIA:
@@ -1806,7 +1757,7 @@ Details:
 	SKI: F4:F9:3D:5E:53:11:7B:9C:69:65:28:3E:8C:6F:2F:00:78:7E:E5:73
 	Valid from: 2008-07-18T11:39:10+0000
 	     until: 2025-12-31T22:59:59+0000
-	Key usages: digital signature, cert sign, crl sign
+	Key usages: digital signature, crl sign, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 	1 AIA:
@@ -1825,7 +1776,7 @@ Details:
 	SKI: 58:57:E2:FC:9A:3B:14:F8:B0:EF:A6:22:94:9E:DE:5D:A4:B2:87:A4
 	Valid from: 2008-07-18T11:39:21+0000
 	     until: 2025-12-31T22:59:59+0000
-	Key usages: digital signature, cert sign, crl sign
+	Key usages: cert sign, crl sign, digital signature
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 	1 AIA:
@@ -1843,7 +1794,7 @@ Details:
 	SKI: B3:C8:56:72:68:C6:85:22:0B:A9:79:BC:1D:10:3F:76:71:B1:94:D0
 	Valid from: 2008-08-18T09:11:46+0000
 	     until: 2028-08-18T09:11:46+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
 	1 AIA:
@@ -1864,7 +1815,7 @@ Details:
 	SKI: F5:F2:96:88:7D:0D:F3:2A:F9:4E:E7:34:A0:BD:46:7E:13:D6:16:C8
 	Valid from: 2008-08-25T18:14:26+0000
 	     until: 2018-08-25T18:44:26+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 	OCSP server:
@@ -1880,7 +1831,7 @@ Details:
 	SKI: 08:76:CD:CB:07:FF:24:F6:C5:CD:ED:BB:90:BC:E2:84:37:46:75:F7
 	Valid from: 2008-10-22T12:07:37+0000
 	     until: 2027-06-10T10:46:39+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 	1 AIA:
@@ -1899,7 +1850,7 @@ Details:
 	SKI: C1:B1:32:80:F1:13:92:14:2F:6D:67:30:92:18:AA:7C:39:55:14:3E
 	Valid from: 2008-10-23T00:00:00+0000
 	     until: 2020-05-30T10:48:38+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
 	1 AIA:
@@ -1918,7 +1869,7 @@ Details:
 	SKI: 8E:E7:CD:0D:2E:B5:8F:D2:B7:40:21:B4:2E:4A:24:FD:66:73:88:4A
 	Valid from: 2008-10-23T00:00:00+0000
 	     until: 2020-05-30T10:48:38+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Extended usages: server auth, client auth, microsoft sgc, netscape sgc
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
@@ -1938,7 +1889,7 @@ Details:
 	SKI: B6:A8:FF:A2:A8:2F:D0:A6:CD:4B:B1:68:F3:E7:50:10:31:A7:79:21
 	Valid from: 2008-10-23T00:00:00+0000
 	     until: 2020-05-30T10:48:38+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
 	1 AIA:
@@ -1989,7 +1940,7 @@ Details:
 	SKI: A1:E1:9E:45:25:79:4D:06:D9:02:17:92:82:D5:30:89:72:25:14:A0
 	Valid from: 2009-01-01T06:00:00+0000
 	     until: 2019-01-01T06:00:00+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
 	1 AIA:
@@ -2009,7 +1960,7 @@ Details:
 	SKI: A1:E1:9E:45:25:79:4D:06:D9:02:17:92:82:D5:30:89:72:25:14:A0
 	Valid from: 2009-01-01T06:00:01+0000
 	     until: 2019-01-01T06:00:01+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
 	1 AIA:
@@ -2027,7 +1978,7 @@ Details:
 	SKI: 06:15:9F:E9:5D:6B:CC:BE:E9:68:46:30:A5:39:C9:98:BA:CF:5D:2C
 	Valid from: 2009-01-09T10:30:29+0000
 	     until: 2019-06-30T00:00:00+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate, max path length 1
 	SANs (1): email:pki@hmt-hannover.de
 	2 AIAs:
@@ -2045,7 +1996,7 @@ Details:
 	SKI: 1F:C3:EC:1D:AF:C0:2B:0C:DE:09:6C:5E:E1:3D:7E:8D:6D:AD:F9:5C
 	Valid from: 2009-02-23T00:00:00+0000
 	     until: 2020-05-30T10:48:38+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Extended usages: server auth, client auth, microsoft sgc, netscape sgc
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
@@ -2065,7 +2016,7 @@ Details:
 	SKI: 40:4B:91:15:C3:38:DD:A0:19:86:5F:2F:9B:52:8D:C7:48:CC:24:09
 	Valid from: 2009-02-23T00:00:00+0000
 	     until: 2020-05-30T10:48:38+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
 	1 AIA:
@@ -2145,7 +2096,7 @@ Details:
 	SKI: 45:C5:B2:86:4E:CC:DD:29:97:E4:DD:14:C4:6E:AE:4D:B8:C1:77:F8
 	Valid from: 2009-03-03T13:06:12+0000
 	     until: 2024-03-03T13:06:12+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 	1 AIA:
@@ -2202,7 +2153,7 @@ Details:
 	SKI: 0C:BD:93:68:0C:F3:DE:AB:A3:49:6B:2B:37:57:47:EA:90:E3:B9:ED
 	Valid from: 2009-05-18T00:00:00+0000
 	     until: 2020-05-30T10:48:38+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
 	1 AIA:
@@ -2240,7 +2191,7 @@ Details:
 	SKI: BF:17:1C:C3:18:10:17:07:A2:D5:02:4E:F4:AE:2C:6C:0A:55:F0:F8
 	Valid from: 2009-06-10T00:00:00+0000
 	     until: 2020-05-30T10:48:38+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Extended usages: server auth, client auth, microsoft sgc, netscape sgc
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
@@ -2259,7 +2210,7 @@ Details:
 	SKI: 88:74:46:6D:C7:7C:B5:FA:72:71:19:DE:BF:27:5E:0D:68:E0:F7:27
 	Valid from: 2009-06-10T09:29:39+0000
 	     until: 2024-06-06T09:29:39+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
 	1 AIA:
@@ -2368,7 +2319,7 @@ Details:
 	SKI: B5:4A:A2:34:C9:19:AE:E3:9D:7D:5A:6C:C1:61:75:C2:F8:A6:BD:F5
 	Valid from: 2009-11-04T00:00:00+0000
 	     until: 2020-05-30T10:48:38+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Extended usages: server auth, client auth
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
@@ -2389,7 +2340,7 @@ Details:
 	SKI: C0:3B:0A:FA:0F:D9:FE:0F:4E:02:98:65:14:0C:8A:1E:2E:00:8C:03
 	Valid from: 2009-12-03T12:30:51+0000
 	     until: 2024-12-03T12:30:51+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
 	1 AIA:
@@ -2406,7 +2357,7 @@ Details:
 	SKI: A7:A2:83:BB:34:45:40:3D:FC:D5:30:4F:12:B9:3E:A1:01:9F:F6:DB
 	Valid from: 2010-02-08T00:00:00+0000
 	     until: 2020-02-07T23:59:59+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
 	OCSP server:
@@ -2465,7 +2416,7 @@ Details:
 	SKI: 0B:58:E5:8B:C6:4C:15:37:A4:40:A9:30:A9:21:BE:47:36:5A:56:FF
 	Valid from: 2010-02-11T00:00:00+0000
 	     until: 2020-05-30T10:48:38+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 	2 AIAs:
@@ -2501,7 +2452,7 @@ Details:
 	SKI: 42:79:54:1B:61:CD:55:2B:3E:63:D5:3C:48:57:F5:9F:FB:45:CE:4A
 	Valid from: 2010-02-19T22:39:26+0000
 	     until: 2020-02-18T22:39:26+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
 	OCSP server:
@@ -2572,7 +2523,7 @@ Details:
 	SKI: 88:44:51:FF:50:2A:69:5E:2D:88:F4:21:BA:D9:0C:F2:CE:CB:EA:7C
 	Valid from: 2010-05-24T00:00:00+0000
 	     until: 2020-05-30T10:48:38+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
 	1 AIA:
@@ -2612,7 +2563,7 @@ Details:
 	SKI: 1B:BF:C6:BC:7F:6D:4F:E3:7C:6A:06:DF:A7:45:F4:57:84:9E:72:A8
 	Valid from: 2010-05-28T00:00:00+0000
 	     until: 2020-05-30T10:48:38+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
 	2 AIAs:
@@ -2654,7 +2605,7 @@ Details:
 	SKI: 24:C0:C0:A4:49:3C:52:0B:12:D8:92:0C:51:D1:87:A7:4D:54:75:2C
 	Valid from: 2010-07-29T00:00:00+0000
 	     until: 2020-07-28T23:59:59+0000
-	Key usages: crl sign, cert sign
+	Key usages: cert sign, crl sign
 	Extended usages: server auth, client auth, netscape sgc
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
@@ -2671,7 +2622,7 @@ Details:
 	SKI: 04:98:60:DF:80:1B:96:49:5D:65:56:2D:A5:2C:09:24:0A:EC:DC:B9
 	Valid from: 2010-09-08T17:35:16+0000
 	     until: 2020-09-08T17:34:08+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
 CERTIFICATE
@@ -2685,7 +2636,7 @@ Details:
 	SKI: 22:30:2E:D2:FB:F6:4B:CA:C0:B8:3B:D2:04:C4:E9:72:E6:97:9B:0C
 	Valid from: 2010-10-26T09:16:17+0000
 	     until: 2030-10-26T09:16:17+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 	OCSP server:
@@ -2702,7 +2653,7 @@ Details:
 	SKI: 8A:35:E4:35:3A:BC:11:A1:9E:FB:F5:4F:34:66:D5:4B:AC:4C:62:68
 	Valid from: 2010-11-26T00:00:00+0000
 	     until: 2020-05-30T10:48:38+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
 	1 AIA:
@@ -2721,7 +2672,7 @@ Details:
 	SKI: 48:4F:5A:FA:2F:4A:9A:5E:E0:50:F3:6B:7B:55:A5:DE:F5:BE:34:5D
 	Valid from: 2010-12-07T00:00:00+0000
 	     until: 2020-05-30T10:48:38+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
 	2 AIAs:
@@ -2742,7 +2693,7 @@ Details:
 	SKI: 21:30:C9:FB:00:D7:4E:98:DA:87:AA:2A:D0:A7:2E:B1:40:31:A7:4C
 	Valid from: 2010-12-31T00:00:00+0000
 	     until: 2020-05-30T10:48:38+0000
-	Key usages: digital signature, cert sign, crl sign
+	Key usages: crl sign, digital signature, cert sign
 	Extended usages: server auth, client auth
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
@@ -2761,7 +2712,7 @@ Details:
 	SKI: D7:2F:2F:F3:09:F1:56:21:53:1D:E7:4C:2E:48:44:4A:DA:86:FD:98
 	Valid from: 2011-02-09T15:37:32+0000
 	     until: 2020-12-11T18:00:47+0000
-	Key usages: cert sign, crl sign, digital signature
+	Key usages: cert sign, digital signature, crl sign
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
 	1 AIA:
@@ -2778,7 +2729,7 @@ Details:
 	SKI: 7B:68:CE:29:AA:C0:17:BE:49:7A:E1:E5:3F:D6:A7:F7:45:8F:35:32
 	Valid from: 2011-02-11T12:00:00+0000
 	     until: 2026-02-10T12:00:00+0000
-	Key usages: digital signature, cert sign, crl sign
+	Key usages: cert sign, crl sign, digital signature
 	Extended usages: code signing
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
@@ -2799,7 +2750,7 @@ Details:
 	SKI: 97:48:03:EB:15:08:6B:B9:B2:58:23:CC:94:2E:F1:C6:65:D2:64:8E
 	Valid from: 2011-02-11T12:00:00+0000
 	     until: 2026-02-10T12:00:00+0000
-	Key usages: digital signature, cert sign, crl sign
+	Key usages: cert sign, digital signature, crl sign
 	Extended usages: code signing
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
@@ -2818,7 +2769,7 @@ Details:
 	SKI: 14:EA:19:55:F0:0E:0D:32:C6:1F:74:33:B7:8E:66:1A:4C:12:31:1E
 	Valid from: 2011-04-13T10:00:00+0000
 	     until: 2022-04-13T10:00:00+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
 	OCSP server:
@@ -2834,7 +2785,7 @@ Details:
 	SKI: 96:AD:FA:B0:5B:B9:83:64:2A:76:C2:1C:8A:69:DA:42:DC:FE:FD:28
 	Valid from: 2011-04-13T10:00:00+0000
 	     until: 2022-04-13T10:00:00+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Extended usages: server auth, client auth, microsoft sgc
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
@@ -2851,7 +2802,7 @@ Details:
 	SKI: B0:B0:4A:FD:1C:75:28:F8:1C:61:AA:13:F6:FA:C1:90:3D:6B:16:A3
 	Valid from: 2011-04-13T10:00:00+0000
 	     until: 2022-04-13T10:00:00+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
 	OCSP server:
@@ -2884,7 +2835,7 @@ Details:
 	SKI: 5D:46:B2:8D:C4:4B:74:1C:BB:ED:F5:73:B6:3A:B7:38:8F:75:9E:7E
 	Valid from: 2011-04-13T10:00:00+0000
 	     until: 2022-04-13T10:00:00+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
 	OCSP server:
@@ -2902,7 +2853,7 @@ Details:
 	SKI: 40:C2:BD:27:8E:CC:34:83:30:A2:33:D7:FB:6C:B3:F0:B4:2C:80:CE
 	Valid from: 2011-05-03T07:00:00+0000
 	     until: 2031-05-03T07:00:00+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 	OCSP server:
@@ -2920,7 +2871,7 @@ Details:
 	SKI: 3A:9A:85:07:10:67:28:B6:EF:F6:BD:05:41:6E:20:C1:94:DA:0F:DE
 	Valid from: 2011-05-03T07:00:00+0000
 	     until: 2031-05-03T07:00:00+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 	OCSP server:
@@ -2939,7 +2890,7 @@ Details:
 	SKI: 25:45:81:68:50:26:38:3D:3B:2D:2C:BE:CD:6A:D9:B6:3D:B3:66:63
 	Valid from: 2011-05-03T07:00:00+0000
 	     until: 2031-05-03T07:00:00+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 	OCSP server:
@@ -2956,7 +2907,7 @@ Details:
 	SKI: 90:95:74:54:9C:15:FF:04:28:BE:3E:0B:53:F6:12:36:90:86:B2:BA
 	Valid from: 2011-06-14T16:54:06+0000
 	     until: 2018-06-14T16:53:14+0000
-	Key usages: cert sign, crl sign, digital signature
+	Key usages: crl sign, digital signature, cert sign
 	Basic constraints: valid, is a CA certificate, max path length 1
 	SANs (0):
 CERTIFICATE
@@ -2973,7 +2924,7 @@ Details:
 	SKI: 1A:09:04:CC:F9:09:8F:BB:1E:A0:CE:D4:A4:14:7F:4B:D5:23:58:CD
 	Valid from: 2011-06-21T00:00:00+0000
 	     until: 2020-05-30T10:48:38+0000
-	Key usages: crl sign, cert sign
+	Key usages: cert sign, crl sign
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
 	2 AIAs:
@@ -3028,7 +2979,7 @@ Details:
 	SKI: 1B:6B:BD:1F:8A:49:18:94:54:37:55:B4:20:17:ED:37:B9:77:18:7D
 	Valid from: 2011-08-23T00:00:00+0000
 	     until: 2020-05-30T10:48:38+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
 	2 AIAs:
@@ -3067,7 +3018,7 @@ Details:
 	SKI: 5B:41:8A:B2:C4:43:C1:BD:BF:C8:54:41:55:9D:E0:96:AD:FF:B9:A1
 	Valid from: 2011-11-11T14:57:22+0000
 	     until: 2021-11-12T08:12:31+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
 	OCSP server:
@@ -3087,7 +3038,7 @@ Details:
 	SKI: 1E:F1:AB:89:06:F8:49:0F:01:33:77:EE:14:7A:EE:19:7C:93:28:4D
 	Valid from: 2011-11-11T15:26:22+0000
 	     until: 2021-11-11T17:45:09+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
 	OCSP server:
@@ -3107,7 +3058,7 @@ Details:
 	SKI: 1E:F1:AB:89:06:F8:49:0F:01:33:77:EE:14:7A:EE:19:7C:93:28:4D
 	Valid from: 2011-11-11T15:40:40+0000
 	     until: 2021-11-12T02:51:17+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
 	OCSP server:
@@ -3146,7 +3097,7 @@ Details:
 	SKI: BF:02:5A:AC:61:62:4E:84:36:DD:CF:32:EE:62:48:EE:4E:C3:75:1F
 	Valid from: 2011-11-15T00:00:00+0000
 	     until: 2020-05-30T10:48:38+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
 	2 AIAs:
@@ -3167,7 +3118,7 @@ Details:
 	SKI: 76:4E:DA:35:C1:F5:07:D4:C6:67:43:8A:56:38:EF:6A:29:19:CA:A3
 	Valid from: 2011-11-15T00:00:00+0000
 	     until: 2020-05-30T10:48:38+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
 	2 AIAs:
@@ -3208,7 +3159,7 @@ Details:
 	SKI: 39:DA:FF:CA:28:14:8A:A8:74:13:08:B9:E4:0E:A9:D2:FA:7E:9D:69
 	Valid from: 2012-02-12T00:00:00+0000
 	     until: 2027-02-11T23:59:59+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
 	1 AIA:
@@ -3270,7 +3221,7 @@ Details:
 	SKI: 0F:B2:BD:5D:53:56:6A:2E:82:0C:93:1F:B5:F1:2B:24:AC:CF:9F:BC
 	Valid from: 2012-05-31T00:00:00+0000
 	     until: 2020-05-30T10:48:38+0000
-	Key usages: digital signature, cert sign, crl sign
+	Key usages: digital signature, crl sign, cert sign
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
 	2 AIAs:
@@ -3290,7 +3241,7 @@ Details:
 	SKI: 9D:CE:F0:5A:B4:CB:25:CF:36:A5:82:5D:8F:F7:7F:98:46:19:37:2E
 	Valid from: 2012-07-06T10:31:40+0000
 	     until: 2022-07-04T10:31:40+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
 	1 AIA:
@@ -3307,7 +3258,7 @@ Details:
 	SKI: B1:3E:C3:69:03:F8:BF:47:01:D4:98:26:1A:08:02:EF:63:64:2B:C3
 	Valid from: 2012-07-25T17:58:28+0000
 	     until: 2019-07-25T17:57:44+0000
-	Key usages: crl sign, cert sign
+	Key usages: cert sign, crl sign
 	Basic constraints: valid, is a CA certificate, max path length 1
 	SANs (0):
 CERTIFICATE
@@ -3321,7 +3272,7 @@ Details:
 	SKI: 6F:26:56:D9:5C:E7:F7:C9:04:20:F8:1E:BA:7C:91:27:2F:8C:FA:07
 	Valid from: 2012-08-23T00:00:00+0000
 	     until: 2022-08-22T23:59:59+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
 	OCSP server:
@@ -3337,7 +3288,7 @@ Details:
 	SKI: 11:4A:D0:73:39:D5:5B:69:08:5C:BA:3D:BF:64:9A:A8:8B:1C:55:BC
 	Valid from: 2012-08-27T20:40:40+0000
 	     until: 2022-05-20T20:40:40+0000
-	Key usages: crl sign, cert sign
+	Key usages: cert sign, crl sign
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
 	OCSP server:
@@ -3354,7 +3305,7 @@ Details:
 	SKI: 6E:17:E0:AE:9B:63:26:A9:D7:4F:B1:C3:B9:78:0C:81:E6:CB:FF:8B
 	Valid from: 2012-09-27T18:42:19+0000
 	     until: 2027-09-24T18:42:19+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 	OCSP server:
@@ -3370,7 +3321,7 @@ Details:
 	SKI: B3:12:89:B5:A9:4B:35:BC:15:00:F0:80:E9:D8:78:87:F1:13:7C:76
 	Valid from: 2012-11-06T14:50:18+0000
 	     until: 2022-11-06T14:50:18+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate, max path length 1
 	SANs (0):
 	OCSP server:
@@ -3405,7 +3356,7 @@ Details:
 	SKI: A3:9D:E6:1F:F9:DA:39:4F:C0:6E:E8:91:CB:95:A5:DA:31:E2:0A:9F
 	Valid from: 2013-03-08T12:00:00+0000
 	     until: 2023-03-08T12:00:00+0000
-	Key usages: digital signature, cert sign, crl sign
+	Key usages: cert sign, crl sign, digital signature
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
 	OCSP server:
@@ -3421,7 +3372,7 @@ Details:
 	SKI: 90:71:DB:37:EB:73:C8:EF:DC:D5:1E:12:B6:34:BA:2B:5A:A0:A6:92
 	Valid from: 2013-03-08T12:00:00+0000
 	     until: 2023-03-08T12:00:00+0000
-	Key usages: cert sign, crl sign, digital signature
+	Key usages: cert sign, digital signature, crl sign
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
 	OCSP server:
@@ -3437,7 +3388,7 @@ Details:
 	SKI: 0F:80:61:1C:82:31:61:D5:2F:28:E7:8D:46:38:B4:2C:E1:C6:D9:E2
 	Valid from: 2013-03-08T12:00:00+0000
 	     until: 2023-03-08T12:00:00+0000
-	Key usages: crl sign, digital signature, cert sign
+	Key usages: digital signature, crl sign, cert sign
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
 	OCSP server:
@@ -3473,7 +3424,7 @@ Details:
 	SKI: B2:6D:E3:E4:14:0F:8C:3C:73:42:A6:5A:99:1A:D3:14:75:B6:86:DB
 	Valid from: 2013-04-09T00:00:00+0000
 	     until: 2023-04-08T23:59:59+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
 	OCSP server:
@@ -3492,7 +3443,7 @@ Details:
 	SKI: DB:62:20:FB:7D:02:89:7C:D2:3B:6F:C7:E4:32:6C:05:52:1D:AD:B1
 	Valid from: 2013-04-09T00:00:00+0000
 	     until: 2023-04-08T23:59:59+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
 	OCSP server:
@@ -3527,7 +3478,7 @@ Details:
 	SKI: D3:4E:C3:19:BA:58:59:D1:1C:60:B7:61:53:47:3B:A7:77:8F:F8:8A
 	Valid from: 2013-04-15T00:00:00+0000
 	     until: 2028-04-14T23:59:59+0000
-	Key usages: digital signature, cert sign, crl sign
+	Key usages: cert sign, crl sign, digital signature
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
 	1 AIA:
@@ -3563,7 +3514,7 @@ Details:
 	SKI: 2B:9A:35:AE:01:18:38:30:E1:70:7A:05:E0:11:76:A3:CE:BD:90:14
 	Valid from: 2013-05-23T00:00:00+0000
 	     until: 2023-05-22T23:59:59+0000
-	Key usages: crl sign, cert sign
+	Key usages: cert sign, crl sign
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
 	OCSP server:
@@ -3579,7 +3530,7 @@ Details:
 	SKI: 91:19:62:AD:5B:17:A7:30:FB:F0:DE:39:25:B1:BD:8C:B9:B8:51:27
 	Valid from: 2013-06-01T13:35:05+0000
 	     until: 2023-06-01T13:35:05+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
 	1 AIA:
@@ -3599,7 +3550,7 @@ Details:
 	SKI: 3D:D3:50:A5:D6:A0:AD:EE:F3:4A:60:0A:65:D3:21:D4:F8:F8:D6:0F
 	Valid from: 2013-10-22T12:00:00+0000
 	     until: 2028-10-22T12:00:00+0000
-	Key usages: crl sign, digital signature, cert sign
+	Key usages: digital signature, crl sign, cert sign
 	Extended usages: server auth, client auth
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
@@ -3618,7 +3569,7 @@ Details:
 	SKI: 51:68:FF:90:AF:02:07:75:3C:CC:D9:65:64:62:A2:12:B8:59:72:3B
 	Valid from: 2013-10-22T12:00:00+0000
 	     until: 2028-10-22T12:00:00+0000
-	Key usages: digital signature, cert sign, crl sign
+	Key usages: digital signature, crl sign, cert sign
 	Extended usages: server auth, client auth
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
@@ -3635,7 +3586,7 @@ Details:
 	SKI: DE:CF:5C:50:B7:AE:02:1F:15:17:AA:16:E8:0D:B5:28:9D:6A:5A:F3
 	Valid from: 2013-10-31T00:00:00+0000
 	     until: 2023-10-30T23:59:59+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
 	OCSP server:
@@ -3654,7 +3605,7 @@ Details:
 	SKI: 01:59:AB:E7:DD:3A:0B:59:A6:64:63:D6:CF:20:07:57:D5:91:E7:6A
 	Valid from: 2013-10-31T00:00:00+0000
 	     until: 2023-10-30T23:59:59+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
 	OCSP server:
@@ -3673,7 +3624,7 @@ Details:
 	SKI: 4B:FA:2D:E4:EE:33:32:E2:DF:0D:01:A1:86:D3:A0:3B:3A:B9:AC:AE
 	Valid from: 2013-10-31T00:00:00+0000
 	     until: 2023-10-30T23:59:59+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
 	OCSP server:
@@ -3709,7 +3660,7 @@ Details:
 	SKI: F0:70:51:DA:D3:2A:91:4F:52:77:D7:86:77:74:0F:CE:71:1A:6C:22
 	Valid from: 2013-10-31T00:00:00+0000
 	     until: 2023-10-30T23:59:59+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
 	OCSP server:
@@ -3726,7 +3677,7 @@ Details:
 	SKI: 2E:34:23:0D:5F:C1:7A:B2:DF:40:2F:5E:E5:56:30:E4:9A:A4:6C:84
 	Valid from: 2013-10-31T00:00:00+0000
 	     until: 2023-10-30T23:59:59+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
 	OCSP server:
@@ -3743,7 +3694,7 @@ Details:
 	SKI: C2:4F:48:57:FC:D1:4F:9A:C0:5D:38:7D:0E:05:DB:D9:2E:B5:52:60
 	Valid from: 2013-10-31T00:00:00+0000
 	     until: 2023-10-30T23:59:59+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
 	OCSP server:
@@ -3759,7 +3710,7 @@ Details:
 	SKI: D2:6F:F7:96:F4:85:3F:72:3C:30:7D:23:DA:85:78:9B:A3:7C:5A:7C
 	Valid from: 2013-11-05T21:36:50+0000
 	     until: 2022-05-20T21:36:50+0000
-	Key usages: crl sign, cert sign
+	Key usages: cert sign, crl sign
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
 	OCSP server:
@@ -3775,7 +3726,7 @@ Details:
 	SKI: 97:C2:27:50:9E:C2:C9:EC:0C:88:32:C8:7C:AD:E2:A6:01:4F:DA:6F
 	Valid from: 2013-12-11T23:45:51+0000
 	     until: 2022-05-20T23:45:51+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
 	OCSP server:
@@ -3791,7 +3742,7 @@ Details:
 	SKI: 98:6A:B6:2D:2E:BF:A7:AA:9F:F6:F7:D6:09:AF:D5:8B:57:F9:8A:B7
 	Valid from: 2013-12-17T14:25:10+0000
 	     until: 2023-12-17T14:25:10+0000
-	Key usages: crl sign, cert sign
+	Key usages: cert sign, crl sign
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
 	1 AIA:
@@ -3811,7 +3762,7 @@ Details:
 	SKI: 3A:9A:85:07:10:67:28:B6:EF:F6:BD:05:41:6E:20:C1:94:DA:0F:DE
 	Valid from: 2014-01-01T07:00:00+0000
 	     until: 2031-05-30T07:00:00+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 	OCSP server:
@@ -3829,7 +3780,7 @@ Details:
 	SKI: 7C:0C:32:1F:A7:D9:30:7F:C4:7D:68:A3:62:A8:A1:CE:AB:07:5B:27
 	Valid from: 2014-01-01T07:00:00+0000
 	     until: 2031-05-30T07:00:00+0000
-	Key usages: crl sign, cert sign
+	Key usages: cert sign, crl sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 	OCSP server:
@@ -3868,7 +3819,7 @@ Details:
 	SKI: 9A:F3:2B:DA:CF:AD:4F:B6:2F:BB:2A:48:48:2A:12:B7:1B:42:C1:24
 	Valid from: 2014-02-12T00:00:00+0000
 	     until: 2029-02-11T23:59:59+0000
-	Key usages: cert sign, crl sign, digital signature
+	Key usages: digital signature, crl sign, cert sign
 	Extended usages: server auth, client auth
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
@@ -3905,7 +3856,7 @@ Details:
 	SKI: F5:CD:D5:3C:08:50:F9:6A:4F:3A:B7:97:DA:56:83:E6:69:D2:68:F7
 	Valid from: 2014-02-20T10:00:00+0000
 	     until: 2024-02-20T10:00:00+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
 	OCSP server:
@@ -3922,7 +3873,7 @@ Details:
 	SKI: EA:4E:7C:D4:80:2D:E5:15:81:86:26:8C:82:6D:C0:98:A4:CF:97:0F
 	Valid from: 2014-02-20T10:00:00+0000
 	     until: 2024-02-20T10:00:00+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
 	OCSP server:
@@ -3956,7 +3907,7 @@ Details:
 	SKI: 96:DE:61:F1:BD:1C:16:29:53:1C:C0:CC:7D:3B:83:00:40:E6:1A:7C
 	Valid from: 2014-02-20T10:00:00+0000
 	     until: 2024-02-20T10:00:00+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
 	OCSP server:
@@ -3972,7 +3923,7 @@ Details:
 	SKI: 73:A8:08:53:29:B8:15:FB:99:80:E5:C5:37:D8:F8:39:7B:A4:13:06
 	Valid from: 2014-02-27T18:09:27+0000
 	     until: 2020-06-09T17:07:29+0000
-	Key usages: crl sign, cert sign
+	Key usages: cert sign, crl sign
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
 	OCSP server:
@@ -4008,7 +3959,7 @@ Details:
 	SKI: BB:FA:08:E0:BF:54:EE:5A:FD:16:A4:35:02:09:A9:A4:C8:EC:FD:4B
 	Valid from: 2014-03-13T00:00:00+0000
 	     until: 2029-03-12T23:59:59+0000
-	Key usages: crl sign, digital signature, cert sign
+	Key usages: digital signature, crl sign, cert sign
 	Extended usages: server auth, client auth
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
@@ -4029,7 +3980,7 @@ Details:
 	SKI: 76:BE:22:48:EE:3F:3E:F6:46:03:D9:87:18:D0:65:7E:22:9C:0B:E1
 	Valid from: 2014-03-13T00:00:00+0000
 	     until: 2029-03-12T23:59:59+0000
-	Key usages: cert sign, crl sign, digital signature
+	Key usages: cert sign, digital signature, crl sign
 	Extended usages: server auth, client auth
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
@@ -4049,7 +4000,7 @@ Details:
 	SKI: E4:2D:BB:91:01:65:26:1F:B4:7A:3F:A3:15:25:A4:CE:8C:44:33:3B
 	Valid from: 2014-04-09T16:03:06+0000
 	     until: 2021-04-09T16:02:10+0000
-	Key usages: digital signature, cert sign, crl sign, content committment
+	Key usages: crl sign, digital signature, cert sign, content committment
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
 	2 AIAs:
@@ -4089,7 +4040,7 @@ Details:
 	SKI: 49:EC:A7:C8:A9:F7:C5:BB:2C:AA:24:E7:F4:43:B3:B1:3C:E8:54:F8
 	Valid from: 2014-06-10T00:00:00+0000
 	     until: 2024-06-09T23:59:59+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
 	OCSP server:
@@ -4106,7 +4057,7 @@ Details:
 	SKI: 4C:F4:BF:E8:3B:BE:C2:24:F3:1B:47:3B:B5:6E:48:8E:16:AB:AF:12
 	Valid from: 2014-06-10T00:00:00+0000
 	     until: 2024-06-09T23:59:59+0000
-	Key usages: crl sign, cert sign
+	Key usages: cert sign, crl sign
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
 	OCSP server:
@@ -4123,7 +4074,7 @@ Details:
 	SKI: 9F:B8:C1:A9:6C:F2:F5:C0:22:2A:94:ED:5C:99:AC:D4:EC:D7:C6:07
 	Valid from: 2014-06-10T00:00:00+0000
 	     until: 2024-06-09T23:59:59+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
 	OCSP server:
@@ -4156,7 +4107,7 @@ Details:
 	SKI: AD:65:22:85:90:D0:3B:E3:A1:49:8B:37:F9:F1:0B:1D:5F:17:A0:77
 	Valid from: 2014-06-11T22:02:59+0000
 	     until: 2022-05-20T22:02:59+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
 	OCSP server:
@@ -4173,7 +4124,7 @@ Details:
 	SKI: 46:9A:FD:FC:51:5E:7C:54:53:52:E2:99:E3:B3:32:EF:93:1A:7F:56
 	Valid from: 2014-07-04T00:00:00+0000
 	     until: 2024-07-03T23:59:59+0000
-	Key usages: cert sign, crl sign, digital signature
+	Key usages: digital signature, crl sign, cert sign
 	Extended usages: server auth, client auth
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
@@ -4194,7 +4145,7 @@ Details:
 	SKI: 7D:55:04:D1:F7:35:7C:22:71:3F:4B:E6:57:12:C3:8B:9A:A5:74:6B
 	Valid from: 2014-07-04T00:00:00+0000
 	     until: 2024-07-03T23:59:59+0000
-	Key usages: cert sign, crl sign, digital signature
+	Key usages: crl sign, digital signature, cert sign
 	Extended usages: server auth, client auth
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
@@ -4215,7 +4166,7 @@ Details:
 	SKI: A6:C1:E7:E1:F4:F6:47:63:D7:2F:7D:8D:90:F8:BA:23:4F:60:AC:9E
 	Valid from: 2014-08-22T00:00:00+0000
 	     until: 2029-08-21T23:59:59+0000
-	Key usages: digital signature, cert sign, crl sign
+	Key usages: cert sign, digital signature, crl sign
 	Extended usages: server auth, client auth
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
@@ -4236,7 +4187,7 @@ Details:
 	SKI: 83:01:56:47:A6:4E:30:11:2E:6D:0C:05:A2:42:93:72:D2:43:4D:73
 	Valid from: 2014-08-22T00:00:00+0000
 	     until: 2029-08-21T23:59:59+0000
-	Key usages: digital signature, cert sign, crl sign
+	Key usages: cert sign, crl sign, digital signature
 	Extended usages: server auth, client auth
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
@@ -4305,7 +4256,7 @@ Details:
 	SKI: 21:16:FA:AE:18:E7:96:73:C5:94:F2:7F:2A:96:A0:19:80:C0:10:6F
 	Valid from: 2014-09-09T00:00:00+0000
 	     until: 2024-09-08T23:59:59+0000
-	Key usages: cert sign, crl sign, digital signature
+	Key usages: cert sign, digital signature, crl sign
 	Extended usages: server auth, client auth
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
@@ -4327,7 +4278,7 @@ Details:
 	SKI: 03:35:DE:0E:79:01:9D:A1:31:41:86:F8:F2:6D:EB:49:C8:B3:C6:85
 	Valid from: 2014-09-09T00:00:00+0000
 	     until: 2024-09-08T23:59:59+0000
-	Key usages: digital signature, cert sign, crl sign
+	Key usages: cert sign, digital signature, crl sign
 	Extended usages: server auth, client auth
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
@@ -4348,7 +4299,7 @@ Details:
 	SKI: C6:AC:37:CB:91:AF:CA:A4:B7:2F:36:0F:F0:CB:61:54:F7:71:37:ED
 	Valid from: 2014-09-10T00:00:00+0000
 	     until: 2024-09-09T23:59:59+0000
-	Key usages: crl sign, digital signature, cert sign
+	Key usages: cert sign, digital signature, crl sign
 	Extended usages: server auth, client auth
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
@@ -4369,7 +4320,7 @@ Details:
 	SKI: F2:BB:55:EE:FC:8F:CF:D0:3F:14:68:1A:95:7E:79:0E:AB:17:30:F4
 	Valid from: 2014-09-10T00:00:00+0000
 	     until: 2024-09-09T23:59:59+0000
-	Key usages: digital signature, cert sign, crl sign
+	Key usages: cert sign, crl sign, digital signature
 	Extended usages: server auth, client auth
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
@@ -4390,7 +4341,7 @@ Details:
 	SKI: E5:31:AD:BF:3A:11:96:F4:83:BC:50:3C:D4:B7:90:9B:90:EE:DE:25
 	Valid from: 2014-09-11T12:00:00+0000
 	     until: 2027-06-09T10:46:39+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 	1 AIA:
@@ -4430,7 +4381,7 @@ Details:
 	SKI: 54:99:DD:9B:FF:E8:A7:0E:A3:19:9D:5B:BE:42:57:DF:30:FC:8F:32
 	Valid from: 2014-09-11T12:00:00+0000
 	     until: 2027-06-09T10:46:39+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 	1 AIA:
@@ -4469,7 +4420,7 @@ Details:
 	SKI: 80:CD:49:6C:B4:53:84:04:E2:CA:F6:8D:B1:48:DA:D8:0D:95:4B:4E
 	Valid from: 2014-09-12T00:00:00+0000
 	     until: 2024-09-11T23:59:59+0000
-	Key usages: digital signature, cert sign, crl sign
+	Key usages: cert sign, digital signature, crl sign
 	Extended usages: server auth, client auth
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
@@ -4489,7 +4440,7 @@ Details:
 	SKI: B3:90:A7:D8:C9:AF:4E:CD:61:3C:9F:7C:AD:5D:7F:41:FD:69:30:EA
 	Valid from: 2014-09-12T00:00:00+0000
 	     until: 2024-09-11T23:59:59+0000
-	Key usages: digital signature, cert sign, crl sign
+	Key usages: cert sign, digital signature, crl sign
 	Extended usages: server auth, client auth
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
@@ -4508,7 +4459,7 @@ Details:
 	SKI: EE:FD:46:CA:F7:27:5E:91:BC:5A:B6:E7:87:CD:0A:FA:55:0A:26:42
 	Valid from: 2014-09-15T16:16:37+0000
 	     until: 2035-03-04T16:16:37+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
 	1 AIA:
@@ -4549,7 +4500,7 @@ Details:
 	SKI: 51:CE:DF:54:1D:B7:2C:57:AB:68:61:48:02:1A:D3:B2:85:EC:40:AA
 	Valid from: 2014-09-24T00:00:00+0000
 	     until: 2024-09-23T23:59:59+0000
-	Key usages: digital signature, cert sign, crl sign
+	Key usages: cert sign, crl sign, digital signature
 	Extended usages: server auth, client auth
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
@@ -4570,7 +4521,7 @@ Details:
 	SKI: 8F:37:4A:84:9C:F4:8E:C7:66:96:90:B4:AE:8F:BA:5E:A2:16:AA:C4
 	Valid from: 2014-09-24T00:00:00+0000
 	     until: 2029-12-31T23:59:59+0000
-	Key usages: digital signature, cert sign, crl sign
+	Key usages: digital signature, crl sign, cert sign
 	Extended usages: server auth, client auth
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
@@ -4591,7 +4542,7 @@ Details:
 	SKI: 20:33:CD:B7:61:F6:A5:86:4F:DC:C9:D7:73:6A:BC:0A:51:65:98:EC
 	Valid from: 2014-09-24T00:00:00+0000
 	     until: 2024-09-23T23:59:59+0000
-	Key usages: digital signature, cert sign, crl sign
+	Key usages: cert sign, digital signature, crl sign
 	Extended usages: server auth, client auth
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
@@ -4612,7 +4563,7 @@ Details:
 	SKI: 40:09:61:67:F0:BC:83:71:4F:DE:12:08:2C:6F:D4:D4:2B:76:3D:96
 	Valid from: 2014-09-25T00:00:00+0000
 	     until: 2029-09-24T23:59:59+0000
-	Key usages: digital signature, cert sign, crl sign
+	Key usages: cert sign, digital signature, crl sign
 	Extended usages: server auth, client auth
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
@@ -4633,7 +4584,7 @@ Details:
 	SKI: D4:B0:F4:FD:4F:9C:42:A4:6C:DC:3D:2E:EE:5B:41:18:C9:AD:03:F6
 	Valid from: 2014-09-25T00:00:00+0000
 	     until: 2029-09-24T23:59:59+0000
-	Key usages: digital signature, cert sign, crl sign
+	Key usages: digital signature, crl sign, cert sign
 	Extended usages: server auth, client auth
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
@@ -4653,7 +4604,7 @@ Details:
 	SKI: B2:61:76:82:95:5A:01:37:17:97:C2:77:21:B5:ED:8B:FC:29:F7:67
 	Valid from: 2014-09-30T11:54:18+0000
 	     until: 2024-09-27T11:54:18+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
 	1 AIA:
@@ -4673,7 +4624,7 @@ Details:
 	SKI: 9B:D2:02:D8:92:16:22:C2:68:DC:65:8A:E1:DB:B4:7D:CB:4B:CD:D0
 	Valid from: 2014-09-30T11:55:21+0000
 	     until: 2024-09-27T11:55:21+0000
-	Key usages: crl sign, cert sign
+	Key usages: cert sign, crl sign
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
 	1 AIA:
@@ -4692,7 +4643,7 @@ Details:
 	SKI: F4:1C:E2:3A:AF:B6:A4:E4:D9:E9:9D:FE:EF:1C:77:A5:63:3D:EF:88
 	Valid from: 2014-10-01T19:22:32+0000
 	     until: 2024-09-28T19:22:32+0000
-	Key usages: digital signature, cert sign, crl sign
+	Key usages: digital signature, crl sign, cert sign
 	Extended usages: server auth
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
@@ -4712,7 +4663,7 @@ Details:
 	SKI: CA:CE:1D:18:03:77:1E:1C:F3:7C:58:B2:9A:70:A8:08:80:16:F4:AE
 	Valid from: 2014-10-01T19:22:36+0000
 	     until: 2024-09-28T19:22:36+0000
-	Key usages: digital signature, cert sign, crl sign
+	Key usages: cert sign, digital signature, crl sign
 	Extended usages: client auth, server auth
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
@@ -4733,7 +4684,7 @@ Details:
 	SKI: 1E:05:A3:77:8F:6C:96:E2:5B:87:4B:A6:B4:86:AC:71:00:0C:E7:38
 	Valid from: 2014-10-06T00:00:00+0000
 	     until: 2024-10-05T23:59:59+0000
-	Key usages: digital signature, cert sign, crl sign
+	Key usages: crl sign, digital signature, cert sign
 	Extended usages: server auth, client auth
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
@@ -4753,7 +4704,7 @@ Details:
 	SKI: 5B:D0:8A:1C:9A:32:5B:E0:B5:DD:96:54:1B:E1:86:28:B0:FD:B6:BD
 	Valid from: 2014-10-09T00:00:00+0000
 	     until: 2024-10-08T23:59:59+0000
-	Key usages: digital signature, cert sign, crl sign
+	Key usages: cert sign, digital signature, crl sign
 	Extended usages: server auth, client auth
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
@@ -4776,7 +4727,7 @@ Details:
 	SKI: 82:A2:70:74:DD:BC:53:3F:CF:7B:D4:F7:CD:7F:A7:60:C6:0A:4C:BF
 	Valid from: 2014-10-10T15:23:17+0000
 	     until: 2024-10-11T06:22:47+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
 	OCSP server:
@@ -4793,7 +4744,7 @@ Details:
 	SKI: E5:E4:24:59:15:32:27:C9:20:B3:42:02:6C:B0:EF:32:DE:9B:20:5A
 	Valid from: 2014-10-13T18:17:39+0000
 	     until: 2024-10-10T18:17:39+0000
-	Key usages: cert sign, crl sign, digital signature
+	Key usages: cert sign, digital signature, crl sign
 	Extended usages: client auth, server auth
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
@@ -4832,7 +4783,7 @@ Details:
 	SKI: 30:DA:74:86:F3:28:90:56:9E:D7:31:31:C2:BD:59:CD:93:12:39:1D
 	Valid from: 2014-11-08T00:58:58+0000
 	     until: 2029-11-08T00:58:58+0000
-	Key usages: crl sign, cert sign
+	Key usages: cert sign, crl sign
 	Extended usages: client auth, server auth
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
@@ -4851,7 +4802,7 @@ Details:
 	SKI: D2:A7:16:20:7C:AF:D9:95:9E:EB:43:0A:19:F2:E0:B9:74:0E:A8:C7
 	Valid from: 2014-11-08T00:58:58+0000
 	     until: 2029-11-08T00:58:58+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Extended usages: client auth, server auth
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
@@ -4889,7 +4840,7 @@ Details:
 	SKI: 67:FD:88:20:14:27:98:C7:09:D2:25:19:BB:E9:51:11:63:75:50:62
 	Valid from: 2014-11-18T12:00:00+0000
 	     until: 2024-11-18T12:00:00+0000
-	Key usages: cert sign, crl sign, digital signature
+	Key usages: cert sign, digital signature, crl sign
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
 	1 AIA:
@@ -4909,7 +4860,7 @@ Details:
 	SKI: C2:B8:85:D7:E1:B9:13:BD:D1:48:BC:FD:5E:DC:7D:90:42:7A:8A:A9
 	Valid from: 2014-11-18T12:00:00+0000
 	     until: 2024-11-18T12:00:00+0000
-	Key usages: digital signature, cert sign, crl sign
+	Key usages: cert sign, digital signature, crl sign
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
 	1 AIA:
@@ -4929,7 +4880,7 @@ Details:
 	SKI: 56:34:05:BF:44:72:56:3D:96:29:D3:FF:31:7B:EF:9D:45:49:39:A9
 	Valid from: 2014-12-02T00:00:00+0000
 	     until: 2024-12-01T23:59:59+0000
-	Key usages: cert sign, crl sign, digital signature
+	Key usages: cert sign, digital signature, crl sign
 	Extended usages: server auth, client auth
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
@@ -4991,7 +4942,7 @@ Details:
 	SKI: 1E:AC:3F:FC:0F:E1:27:F5:3A:9C:05:96:E8:8B:33:79:F7:75:79:F1
 	Valid from: 2014-12-22T00:00:00+0000
 	     until: 2020-05-30T10:48:38+0000
-	Key usages: digital signature, cert sign, crl sign
+	Key usages: cert sign, digital signature, crl sign
 	Extended usages: server auth, client auth
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
@@ -5013,7 +4964,7 @@ Details:
 	SKI: 2E:AE:EE:2F:72:45:7D:E3:9A:64:8A:8C:75:B5:C0:33:8A:64:7C:05
 	Valid from: 2014-12-22T00:00:00+0000
 	     until: 2020-05-30T10:48:38+0000
-	Key usages: digital signature, cert sign, crl sign
+	Key usages: cert sign, digital signature, crl sign
 	Extended usages: server auth, client auth
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
@@ -5053,7 +5004,7 @@ Details:
 	SKI: 55:58:86:CE:BA:7C:76:4E:99:13:A9:0F:D3:6C:9F:C2:F5:D3:3C:E3
 	Valid from: 2015-01-13T16:42:15+0000
 	     until: 2025-01-13T16:42:15+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Extended usages: server auth, client auth, ocsp signing
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
@@ -5075,7 +5026,7 @@ Details:
 	SKI: 5A:AC:C2:E1:9F:8E:44:14:9C:09:AA:A7:F6:BB:94:F7:E0:87:DF:45
 	Valid from: 2015-01-21T00:00:00+0000
 	     until: 2025-01-20T23:59:59+0000
-	Key usages: digital signature, cert sign, crl sign
+	Key usages: cert sign, digital signature, crl sign
 	Extended usages: server auth, client auth
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
@@ -5097,7 +5048,7 @@ Details:
 	SKI: 72:72:36:C6:A7:31:9E:87:89:C7:32:7D:EC:3A:F5:A2:64:3F:78:7A
 	Valid from: 2015-05-12T00:00:00+0000
 	     until: 2025-05-11T23:59:59+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
 	OCSP server:
@@ -5115,7 +5066,7 @@ Details:
 	SKI: 7E:03:5A:65:41:6B:A7:7E:0A:E1:B8:9D:08:EA:1D:8E:1D:6A:C7:65
 	Valid from: 2015-05-18T00:00:00+0000
 	     until: 2025-05-17T23:59:59+0000
-	Key usages: cert sign, crl sign, digital signature
+	Key usages: cert sign, digital signature, crl sign
 	Extended usages: server auth, client auth
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
@@ -5134,7 +5085,7 @@ Details:
 	AKI: F0:70:51:DA:D3:2A:91:4F:52:77:D7:86:77:74:0F:CE:71:1A:6C:22
 	Valid from: 2015-05-20T00:00:00+0000
 	     until: 2017-07-18T23:59:59+0000
-	Key usages: key encipherment, digital signature
+	Key usages: digital signature, key encipherment
 	Extended usages: server auth, client auth
 	Basic constraints: valid
 	SANs (1): dns:secure.takealot.com
@@ -5154,7 +5105,7 @@ Details:
 	SKI: 5D:75:14:11:8C:F4:A5:8E:42:8F:7B:B2:40:44:A3:EE:D6:7A:3B:72
 	Valid from: 2015-06-04T13:50:21+0000
 	     until: 2024-03-17T22:00:00+0000
-	Key usages: crl sign, digital signature, cert sign, content committment
+	Key usages: digital signature, crl sign, content committment, cert sign
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
 	1 AIA:
@@ -5228,7 +5179,7 @@ Details:
 	SKI: 4C:EF:77:AD:23:4A:D6:45:48:28:D7:98:2C:FE:21:1A:65:F4:4A:1D
 	Valid from: 2015-07-04T02:53:48+0000
 	     until: 2023-05-15T04:52:29+0000
-	Key usages: crl sign, digital signature, cert sign, content committment
+	Key usages: content committment, cert sign, digital signature, crl sign
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
 	1 AIA:
@@ -5287,7 +5238,7 @@ Details:
 	SKI: 97:49:C5:F6:84:14:73:DF:73:BA:CC:A9:66:BA:F9:A6:3C:59:C6:AE
 	Valid from: 2015-10-14T12:00:00+0000
 	     until: 2018-08-10T12:00:00+0000
-	Key usages: crl sign, digital signature, cert sign
+	Key usages: digital signature, crl sign, cert sign
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
 	OCSP server:
@@ -5304,7 +5255,7 @@ Details:
 	SKI: 3E:74:2D:1F:CF:45:75:04:7E:3F:C0:A2:87:3E:4C:43:83:51:13:C6
 	Valid from: 2015-10-14T12:00:00+0000
 	     until: 2020-10-09T12:00:00+0000
-	Key usages: digital signature, cert sign, crl sign
+	Key usages: digital signature, crl sign, cert sign
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
 	OCSP server:
@@ -5321,7 +5272,7 @@ Details:
 	SKI: 91:05:8A:DF:4C:22:C6:6D:8B:94:4C:16:45:7E:EE:6F:02:FB:B7:C0
 	Valid from: 2015-10-14T12:00:00+0000
 	     until: 2020-10-14T12:00:00+0000
-	Key usages: digital signature, cert sign, crl sign
+	Key usages: digital signature, crl sign, cert sign
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
 	OCSP server:
@@ -5337,7 +5288,7 @@ Details:
 	SKI: 4C:00:08:10:4E:32:C9:17:36:D8:FF:98:87:97:7B:98:13:8F:08:75
 	Valid from: 2015-10-14T12:00:00+0000
 	     until: 2018-08-10T12:00:00+0000
-	Key usages: digital signature, cert sign, crl sign
+	Key usages: crl sign, digital signature, cert sign
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
 	OCSP server:
@@ -5353,7 +5304,7 @@ Details:
 	SKI: A8:4A:6A:63:04:7D:DD:BA:E6:D1:39:B7:A6:45:65:EF:F3:A8:EC:A1
 	Valid from: 2015-10-19T22:33:36+0000
 	     until: 2020-10-19T22:33:36+0000
-	Key usages: digital signature, cert sign, crl sign
+	Key usages: cert sign, digital signature, crl sign
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
 	1 AIA:
@@ -5373,7 +5324,7 @@ Details:
 	SKI: 6A:63:C6:17:5A:0B:30:68:55:5E:5A:7B:E4:C3:E2:1E:D3:E0:58:D3
 	Valid from: 2015-10-30T00:00:00+0000
 	     until: 2018-10-29T23:59:59+0000
-	Key usages: digital signature, key encipherment
+	Key usages: key encipherment, digital signature
 	Extended usages: server auth, client auth
 	Basic constraints: valid
 	SANs (2): dns:*.000webhost.com, dns:000webhost.com
@@ -5393,7 +5344,7 @@ Details:
 	SKI: 99:39:FF:5F:A4:B3:59:5F:81:C0:57:99:D1:A3:A4:47:AC:60:63:4D
 	Valid from: 2015-11-11T12:00:00+0000
 	     until: 2030-11-11T12:00:00+0000
-	Key usages: cert sign, crl sign, digital signature
+	Key usages: digital signature, crl sign, cert sign
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
 	OCSP server:
@@ -5412,7 +5363,7 @@ Details:
 	SKI: 6F:EA:D9:0E:C8:4E:CC:36:31:67:01:9E:AB:86:DA:55:03:C2:E4:7B
 	Valid from: 2015-12-04T00:00:00+0000
 	     until: 2018-12-13T23:59:59+0000
-	Key usages: digital signature, key encipherment
+	Key usages: key encipherment, digital signature
 	Extended usages: server auth, client auth
 	Basic constraints: valid
 	SANs (2): dns:*.crazydomains.co.uk, dns:crazydomains.co.uk
@@ -5433,7 +5384,7 @@ Details:
 	SKI: 99:8E:02:95:C5:1E:55:22:7B:87:70:8B:5E:1C:01:C2:76:C4:AE:E8
 	Valid from: 2015-12-14T00:00:00+0000
 	     until: 2019-06-24T19:06:30+0000
-	Key usages: cert sign, crl sign, digital signature
+	Key usages: crl sign, digital signature, cert sign
 	Extended usages: server auth, client auth, microsoft sgc, netscape sgc
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
@@ -5451,7 +5402,7 @@ Details:
 	SKI: B1:3F:1C:92:7B:92:B0:5A:25:B3:38:FB:9C:07:A4:26:50:32:E3:51
 	Valid from: 2015-12-16T01:00:01+0000
 	     until: 2030-12-16T01:00:01+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Extended usages: client auth, server auth
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
@@ -5555,7 +5506,7 @@ Details:
 	SKI: 54:DC:90:BB:9D:47:19:51:C3:79:68:2C:84:ED:2E:DF:5F:46:BA:C7
 	Valid from: 2015-12-31T10:05:42+0000
 	     until: 2025-12-28T10:05:42+0000
-	Key usages: crl sign, cert sign
+	Key usages: cert sign, crl sign
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
 	1 AIA:
@@ -5631,7 +5582,7 @@ Details:
 	AKI: 97:C2:27:50:9E:C2:C9:EC:0C:88:32:C8:7C:AD:E2:A6:01:4F:DA:6F
 	Valid from: 2016-03-13T00:00:00+0000
 	     until: 2018-03-13T23:59:59+0000
-	Key usages: key encipherment, digital signature
+	Key usages: digital signature, key encipherment
 	Extended usages: server auth, client auth
 	Basic constraints: valid
 	SANs (2): dns:*.eventer.co.il, dns:eventer.co.il
@@ -5650,7 +5601,7 @@ Details:
 	SKI: A8:4A:6A:63:04:7D:DD:BA:E6:D1:39:B7:A6:45:65:EF:F3:A8:EC:A1
 	Valid from: 2016-03-17T16:40:46+0000
 	     until: 2021-03-17T16:40:46+0000
-	Key usages: digital signature, cert sign, crl sign
+	Key usages: cert sign, crl sign, digital signature
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
 	1 AIA:
@@ -5697,66 +5648,6 @@ Details:
 	OCSP server:
 		- http://ocsp.godaddy.com/
 CERTIFICATE
-Subject: /*.budgetvm.com
-Issuer: /RapidSSL SHA256 CA/C=US/O=GeoTrust Inc.
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-4096
-	Serial number: 131935708681148131159508801204220253193
-	AKI: 97:C2:27:50:9E:C2:C9:EC:0C:88:32:C8:7C:AD:E2:A6:01:4F:DA:6F
-	Valid from: 2016-04-01T00:00:00+0000
-	     until: 2017-05-01T23:59:59+0000
-	Key usages: digital signature, key encipherment
-	Extended usages: server auth, client auth
-	Basic constraints: valid
-	SANs (2): dns:*.budgetvm.com, dns:budgetvm.com
-	1 AIA:
-		http://gp.symcb.com/gp.crt
-	OCSP server:
-		- http://gp.symcd.com
-CERTIFICATE
-Subject: /*.oddconcepts.kr/C=KR/O=Odd Concepts Inc./OU=Odd Concepts
-    Security/OU=PremiumSSL Wildcard/L=Seoul/ST=Seoul
-Issuer: /COMODO RSA Organization Validation Secure Server CA/C=GB/O=COMODO CA
-    Limited/L=Salford/ST=Greater Manchester
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 97101309572966992685486517833791124708
-	AKI: 9A:F3:2B:DA:CF:AD:4F:B6:2F:BB:2A:48:48:2A:12:B7:1B:42:C1:24
-	SKI: 23:0F:D3:38:AD:09:A5:C6:51:CE:32:A6:17:40:E4:79:50:AE:F0:39
-	Valid from: 2016-04-07T00:00:00+0000
-	     until: 2017-05-07T23:59:59+0000
-	Key usages: digital signature, key encipherment
-	Extended usages: server auth, client auth
-	Basic constraints: valid
-	SANs (2): dns:*.oddconcepts.kr, dns:oddconcepts.kr
-	1 AIA:
-		http://crt.comodoca.com/COMODORSAOrganizationValidationSecureServerCA.crt
-	OCSP server:
-		- http://ocsp.comodoca.com
-CERTIFICATE
-Subject: /*.bkdelivers.com.sg/C=US/O=Burger King
-    Corporation/OU=IT/OU=Enterprise SSL Wildcard/L=Miami/ST=FL
-Issuer: /Trusted Secure Certificate Authority 5/C=US/O=Corporation Service
-    Company/L=Wilmington/ST=DE
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 171614378555850328819631215477636046972
-	AKI: F2:BB:55:EE:FC:8F:CF:D0:3F:14:68:1A:95:7E:79:0E:AB:17:30:F4
-	SKI: 75:6C:AB:70:3C:72:EE:72:C4:18:CF:24:2D:38:FE:42:78:BF:79:49
-	Valid from: 2016-04-26T00:00:00+0000
-	     until: 2017-04-26T23:59:59+0000
-	Key usages: key encipherment, digital signature
-	Extended usages: server auth, client auth
-	Basic constraints: valid
-	SANs (2): dns:*.bkdelivers.com.sg, dns:bkdelivers.com.sg
-	1 AIA:
-		http://crt.usertrust.com/TrustedSecureCertificateAuthority5.crt
-	OCSP server:
-		- http://ocsp.usertrust.com
-CERTIFICATE
 Subject: /*.centro.net/OU=Domain Control Validated/OU=PositiveSSL Wildcard
 Issuer: /COMODO RSA Domain Validation Secure Server CA/C=GB/O=COMODO CA
     Limited/L=Salford/ST=Greater Manchester
@@ -5768,7 +5659,7 @@ Details:
 	SKI: 3B:4E:25:5D:E3:9B:1D:2B:80:ED:86:01:A0:28:42:38:7E:B5:14:36
 	Valid from: 2016-04-27T00:00:00+0000
 	     until: 2017-05-27T23:59:59+0000
-	Key usages: digital signature, key encipherment
+	Key usages: key encipherment, digital signature
 	Extended usages: server auth, client auth
 	Basic constraints: valid
 	SANs (2): dns:*.centro.net, dns:centro.net
@@ -5788,52 +5679,10 @@ Details:
 	SKI: B8:DB:1C:15:D6:91:D0:9C:6D:07:1E:F6:A6:72:27:76:F3:1E:32:10
 	Valid from: 2016-04-29T00:00:00+0000
 	     until: 2019-04-30T23:59:59+0000
-	Key usages: key encipherment, digital signature
-	Extended usages: server auth, client auth
-	Basic constraints: valid
-	SANs (2): dns:*.realm.io, dns:realm.io
-	1 AIA:
-		http://crt.comodoca.com/COMODORSADomainValidationSecureServerCA.crt
-	OCSP server:
-		- http://ocsp.comodoca.com
-CERTIFICATE
-Subject: /www.flyedge.com.br/C=BR/O=Edge Aviação Executiva LTDA/L=São
-    Paulo/ST=São Paulo
-Issuer: /Go Daddy Secure Certificate Authority - G2/C=US/O=GoDaddy.com,
-    Inc./OU=http://certs.godaddy.com/repository//L=Scottsdale/ST=Arizona
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 1341858978025896669
-	AKI: 40:C2:BD:27:8E:CC:34:83:30:A2:33:D7:FB:6C:B3:F0:B4:2C:80:CE
-	SKI: 66:4A:25:93:C9:86:E2:3E:7F:69:C2:F0:20:52:06:65:43:C2:A3:9D
-	Valid from: 2016-05-02T18:52:38+0000
-	     until: 2017-05-02T18:52:38+0000
-	Key usages: key encipherment, digital signature
-	Extended usages: server auth, client auth
-	Basic constraints: valid
-	SANs (2): dns:www.flyedge.com.br, dns:flyedge.com.br
-	1 AIA:
-		http://certificates.godaddy.com/repository/gdig2.crt
-	OCSP server:
-		- http://ocsp.godaddy.com/
-CERTIFICATE
-Subject: /www.beterwin.com/OU=Domain Control Validated/OU=Hosted by
-    IsimTescil/OU=PositiveSSL
-Issuer: /COMODO RSA Domain Validation Secure Server CA/C=GB/O=COMODO CA
-    Limited/L=Salford/ST=Greater Manchester
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 185302393023915608666363562704138950330
-	AKI: 90:AF:6A:3A:94:5A:0B:D8:90:EA:12:56:73:DF:43:B4:3A:28:DA:E7
-	SKI: A7:D9:B0:16:5F:5E:4C:D9:E1:AE:78:BD:51:35:D3:8E:BD:57:75:74
-	Valid from: 2016-05-18T00:00:00+0000
-	     until: 2017-05-18T23:59:59+0000
 	Key usages: digital signature, key encipherment
 	Extended usages: server auth, client auth
 	Basic constraints: valid
-	SANs (2): dns:www.beterwin.com, dns:beterwin.com
+	SANs (2): dns:*.realm.io, dns:realm.io
 	1 AIA:
 		http://crt.comodoca.com/COMODORSADomainValidationSecureServerCA.crt
 	OCSP server:
@@ -5870,7 +5719,7 @@ Details:
 	SKI: A6:6B:67:CF:4C:74:47:38:2A:87:BA:A0:65:35:9B:F3:3E:80:B9:AE
 	Valid from: 2016-05-23T00:00:00+0000
 	     until: 2017-05-31T23:59:59+0000
-	Key usages: key encipherment, digital signature
+	Key usages: digital signature, key encipherment
 	Extended usages: server auth, client auth
 	Basic constraints: valid
 	SANs (2): dns:*.discord.co, dns:discord.co
@@ -5949,7 +5798,7 @@ Details:
 	SKI: 68:44:EA:F0:E8:2B:40:35:0C:AB:68:F2:60:7B:DF:96:50:5E:F7:64
 	Valid from: 2016-05-31T00:00:00+0000
 	     until: 2017-06-05T23:59:59+0000
-	Key usages: digital signature, key encipherment
+	Key usages: key encipherment, digital signature
 	Extended usages: server auth, client auth
 	Basic constraints: valid
 	SANs (2): dns:portal.homebargains.co.uk, dns:www.portal.homebargains.co.uk
@@ -5969,7 +5818,7 @@ Details:
 	SKI: BB:C5:CD:ED:C6:25:C5:47:82:BC:BF:EA:50:F8:17:E8:23:DA:1B:94
 	Valid from: 2016-06-07T04:13:38+0000
 	     until: 2018-08-09T11:30:35+0000
-	Key usages: digital signature, key encipherment
+	Key usages: key encipherment, digital signature
 	Extended usages: server auth, client auth
 	Basic constraints: valid
 	SANs (2): dns:*.sandiego.gov, dns:sandiego.gov
@@ -6027,7 +5876,7 @@ Details:
 	SKI: 2C:56:6A:CF:6F:7E:D5:43:FC:3C:DE:72:F8:6C:C9:FD:9D:9C:0F:E8
 	Valid from: 2016-06-15T00:00:00+0000
 	     until: 2018-06-15T23:59:59+0000
-	Key usages: key encipherment, digital signature
+	Key usages: digital signature, key encipherment
 	Extended usages: server auth, client auth
 	Basic constraints: valid
 	SANs (2): dns:*.aleaengine.com, dns:aleaengine.com
@@ -6048,7 +5897,7 @@ Details:
 	SKI: 8B:49:C2:DC:02:22:5C:14:79:CE:CE:19:84:D7:08:E0:C0:69:4D:3F
 	Valid from: 2016-06-15T00:00:00+0000
 	     until: 2017-06-15T23:59:59+0000
-	Key usages: digital signature, key encipherment
+	Key usages: key encipherment, digital signature
 	Extended usages: server auth, client auth
 	Basic constraints: valid
 	SANs (3): dns:massagio.de, dns:app.massagio.de, dns:www.massagio.de
@@ -6107,7 +5956,7 @@ Details:
 	SKI: F8:25:D9:A6:39:C7:C3:81:87:25:3E:30:54:91:18:21:40:9B:17:9D
 	Valid from: 2016-06-21T12:54:27+0000
 	     until: 2031-06-21T12:54:27+0000
-	Key usages: crl sign, digital signature, cert sign
+	Key usages: cert sign, digital signature, crl sign
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
 	OCSP server:
@@ -6167,7 +6016,7 @@ Details:
 	SKI: 70:EB:B0:01:9D:A5:C5:AE:91:61:0B:61:75:3D:B1:29:AD:DA:45:89
 	Valid from: 2016-07-08T12:07:38+0000
 	     until: 2017-07-10T11:00:38+0000
-	Key usages: digital signature, key encipherment
+	Key usages: key encipherment, digital signature
 	Extended usages: server auth, client auth
 	Basic constraints: valid
 	SANs (2): dns:*.meritnation.com, dns:meritnation.com
@@ -6187,7 +6036,7 @@ Details:
 	SKI: DD:5B:3F:D5:C4:1E:8F:C2:FE:C8:F8:04:9B:66:F8:7C:B9:8B:A5:26
 	Valid from: 2016-07-13T20:59:38+0000
 	     until: 2017-07-13T20:59:38+0000
-	Key usages: digital signature, key encipherment
+	Key usages: key encipherment, digital signature
 	Extended usages: server auth, client auth
 	Basic constraints: valid
 	SANs (2): dns:*.solitairearena.com, dns:solitairearena.com
@@ -6228,7 +6077,7 @@ Details:
 	SKI: 6D:3C:26:99:EA:2A:FD:67:81:48:D1:13:28:F5:78:0E:CB:E7:3E:D7
 	Valid from: 2016-07-19T13:00:39+0000
 	     until: 2017-08-12T07:26:38+0000
-	Key usages: key encipherment, digital signature
+	Key usages: digital signature, key encipherment
 	Extended usages: server auth, client auth
 	Basic constraints: valid
 	SANs (2): dns:*.flightradar24.com, dns:flightradar24.com
@@ -6268,7 +6117,7 @@ Details:
 	SKI: E5:8B:5B:BD:E7:F6:2D:1F:D2:4A:11:75:81:87:4D:12:67:74:08:BA
 	Valid from: 2016-08-04T00:00:00+0000
 	     until: 2019-09-17T23:59:59+0000
-	Key usages: digital signature, key encipherment
+	Key usages: key encipherment, digital signature
 	Extended usages: server auth, client auth
 	Basic constraints: valid
 	SANs (2): dns:*.embedly.com, dns:embedly.com
@@ -6289,7 +6138,7 @@ Details:
 	SKI: 68:F1:84:12:BD:45:08:B9:0E:9D:86:C3:AE:17:82:A2:C0:F4:05:0B
 	Valid from: 2016-08-08T23:21:38+0000
 	     until: 2018-08-08T23:21:38+0000
-	Key usages: key encipherment, digital signature
+	Key usages: digital signature, key encipherment
 	Extended usages: server auth, client auth
 	Basic constraints: valid
 	SANs (6): dns:www.spotcap.com, dns:spotcap.com, dns:www.spotcap.nl,
@@ -6312,7 +6161,7 @@ Details:
 	SKI: 6D:58:C7:7F:1A:E7:E1:3F:2E:A6:8C:97:35:42:BB:F4:D3:38:AC:3F
 	Valid from: 2016-08-11T00:00:00+0000
 	     until: 2026-08-10T23:59:59+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Extended usages: server auth, client auth
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
@@ -6348,7 +6197,7 @@ Details:
 	SKI: A1:60:B1:0F:61:0C:B4:15:D6:23:57:B7:E6:5D:58:91:60:4B:5D:FF
 	Valid from: 2016-08-16T13:07:39+0000
 	     until: 2017-09-16T21:13:38+0000
-	Key usages: digital signature, key encipherment
+	Key usages: key encipherment, digital signature
 	Extended usages: server auth, client auth
 	Basic constraints: valid
 	SANs (2): dns:*.wegolook.com, dns:wegolook.com
@@ -6388,7 +6237,7 @@ Details:
 	SKI: E5:E4:24:59:15:32:27:C9:20:B3:42:02:6C:B0:EF:32:DE:9B:20:5A
 	Valid from: 2016-09-01T14:35:34+0000
 	     until: 2024-09-29T14:35:34+0000
-	Key usages: digital signature, cert sign, crl sign
+	Key usages: digital signature, crl sign, cert sign
 	Extended usages: client auth, server auth
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (1): email:ca@trustwave.com
@@ -6408,7 +6257,7 @@ Details:
 	SKI: CA:CE:1D:18:03:77:1E:1C:F3:7C:58:B2:9A:70:A8:08:80:16:F4:AE
 	Valid from: 2016-09-01T14:35:35+0000
 	     until: 2024-09-29T14:35:35+0000
-	Key usages: crl sign, digital signature, cert sign
+	Key usages: cert sign, digital signature, crl sign
 	Extended usages: client auth, server auth
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (1): email:ca@trustwave.com
@@ -6509,7 +6358,7 @@ Details:
 	AKI: 97:C2:27:50:9E:C2:C9:EC:0C:88:32:C8:7C:AD:E2:A6:01:4F:DA:6F
 	Valid from: 2016-09-15T00:00:00+0000
 	     until: 2017-11-15T23:59:59+0000
-	Key usages: digital signature, key encipherment
+	Key usages: key encipherment, digital signature
 	Extended usages: server auth, client auth
 	Basic constraints: valid
 	SANs (2): dns:*.n2uitive.com, dns:n2uitive.com
@@ -6549,7 +6398,7 @@ Details:
 	SKI: DD:B3:E7:6D:A8:2E:E8:C5:4E:6E:CF:74:E6:75:3C:94:15:CE:E8:1D
 	Valid from: 2016-09-21T00:00:00+0000
 	     until: 2026-09-21T00:00:00+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
 	OCSP server:
@@ -6605,7 +6454,7 @@ Details:
 	SKI: 91:F7:DF:18:D5:8F:83:43:4E:18:DD:EF:EA:C0:B7:01:F8:97:C8:98
 	Valid from: 2016-10-02T07:50:38+0000
 	     until: 2017-10-27T07:56:38+0000
-	Key usages: key encipherment, digital signature
+	Key usages: digital signature, key encipherment
 	Extended usages: server auth, client auth
 	Basic constraints: valid
 	SANs (2): dns:*.24fx.com, dns:24fx.com
@@ -6625,7 +6474,7 @@ Details:
 	SKI: 63:4A:8F:C9:17:53:75:09:FF:CB:E8:C3:7B:C2:E2:51:25:7A:14:27
 	Valid from: 2016-10-07T00:00:00+0000
 	     until: 2017-10-24T23:59:59+0000
-	Key usages: key encipherment, digital signature
+	Key usages: digital signature, key encipherment
 	Extended usages: server auth, client auth
 	Basic constraints: valid
 	SANs (2): dns:*.zitrogames.com, dns:zitrogames.com
@@ -6721,7 +6570,7 @@ Details:
 	SKI: B9:94:F9:35:D2:84:E2:D7:60:BF:1E:FB:35:3D:72:90:91:F1:2F:5E
 	Valid from: 2016-10-21T00:00:00+0000
 	     until: 2017-12-16T23:59:59+0000
-	Key usages: key encipherment, digital signature
+	Key usages: digital signature, key encipherment
 	Extended usages: server auth, client auth
 	Basic constraints: valid
 	SANs (2): dns:*.bestdebtcompanys.com, dns:bestdebtcompanys.com
@@ -6791,7 +6640,7 @@ Details:
 	SKI: 51:4F:5A:E5:C3:95:3A:9C:63:D7:E4:48:58:AC:FC:7E:3C:E0:3D:A6
 	Valid from: 2016-10-26T00:00:00+0000
 	     until: 2019-10-26T23:59:59+0000
-	Key usages: digital signature, key encipherment
+	Key usages: key encipherment, digital signature
 	Extended usages: server auth, client auth
 	Basic constraints: valid
 	SANs (3): dns:www.thalesgroup.com, dns:customeronline.thalesgroup.com,
@@ -6811,7 +6660,7 @@ Details:
 	AKI: DE:CF:5C:50:B7:AE:02:1F:15:17:AA:16:E8:0D:B5:28:9D:6A:5A:F3
 	Valid from: 2016-11-02T00:00:00+0000
 	     until: 2017-12-02T23:59:59+0000
-	Key usages: key encipherment, digital signature
+	Key usages: digital signature, key encipherment
 	Extended usages: server auth, client auth
 	Basic constraints: valid
 	SANs (2): dns:obria.org, dns:www.obria.org
@@ -6832,7 +6681,7 @@ Details:
 	SKI: A5:2B:A1:5B:EB:10:F8:3E:2B:F5:82:97:E5:F1:C3:34:2D:91:7E:B4
 	Valid from: 2016-11-02T00:00:00+0000
 	     until: 2017-11-02T23:59:59+0000
-	Key usages: digital signature, key encipherment
+	Key usages: key encipherment, digital signature
 	Extended usages: server auth, client auth
 	Basic constraints: valid
 	SANs (2): dns:*.worldwidebookies.com, dns:worldwidebookies.com
@@ -6853,7 +6702,7 @@ Details:
 	SKI: 66:BD:C8:0C:54:E4:6B:8D:A9:E8:47:80:72:22:AA:82:37:DA:3C:18
 	Valid from: 2016-11-11T00:00:00+0000
 	     until: 2018-11-11T23:59:59+0000
-	Key usages: digital signature, key encipherment
+	Key usages: key encipherment, digital signature
 	Extended usages: server auth, client auth
 	Basic constraints: valid
 	SANs (3): dns:sofadoc.com, dns:coach.sofadoc.com, dns:www.sofadoc.com
@@ -6871,7 +6720,7 @@ Details:
 	AKI: AD:65:22:85:90:D0:3B:E3:A1:49:8B:37:F9:F1:0B:1D:5F:17:A0:77
 	Valid from: 2016-11-15T00:00:00+0000
 	     until: 2018-12-15T23:59:59+0000
-	Key usages: digital signature, key encipherment
+	Key usages: key encipherment, digital signature
 	Extended usages: server auth, client auth
 	Basic constraints: valid
 	SANs (1): dns:mobile.am4u.gov.sg
@@ -6910,7 +6759,7 @@ Details:
 	AKI: DE:CF:5C:50:B7:AE:02:1F:15:17:AA:16:E8:0D:B5:28:9D:6A:5A:F3
 	Valid from: 2016-11-25T00:00:00+0000
 	     until: 2017-11-25T23:59:59+0000
-	Key usages: digital signature, key encipherment
+	Key usages: key encipherment, digital signature
 	Extended usages: server auth, client auth
 	Basic constraints: valid
 	SANs (2): dns:www.exodustravels.com, dns:exodustravels.com
@@ -6928,7 +6777,7 @@ Details:
 	AKI: D2:6F:F7:96:F4:85:3F:72:3C:30:7D:23:DA:85:78:9B:A3:7C:5A:7C
 	Valid from: 2016-12-11T00:00:00+0000
 	     until: 2017-12-11T23:59:59+0000
-	Key usages: key encipherment, digital signature
+	Key usages: digital signature, key encipherment
 	Extended usages: server auth, client auth
 	Basic constraints: valid
 	SANs (5): dns:www.clarisonic.co.kr, dns:www.lancome.co.kr,
@@ -6949,7 +6798,7 @@ Details:
 	SKI: 6F:64:0B:60:7C:82:C1:3C:B1:C9:48:C3:ED:4B:D1:B7:11:F9:0B:3B
 	Valid from: 2016-12-12T00:00:00+0000
 	     until: 2017-12-12T23:59:59+0000
-	Key usages: key encipherment, digital signature
+	Key usages: digital signature, key encipherment
 	Extended usages: server auth, client auth
 	Basic constraints: valid
 	SANs (2): dns:*.binbahis2.com, dns:binbahis2.com
@@ -6969,7 +6818,7 @@ Details:
 	SKI: 76:CC:9F:E9:01:35:BD:85:40:E6:16:6A:A2:38:4C:C5:54:D0:6B:E8
 	Valid from: 2016-12-13T17:45:00+0000
 	     until: 2019-12-13T17:45:00+0000
-	Key usages: key encipherment, digital signature
+	Key usages: digital signature, key encipherment
 	Extended usages: server auth, client auth
 	Basic constraints: valid
 	SANs (2): dns:development.heruniverse.com, dns:www.development.heruniverse.com
