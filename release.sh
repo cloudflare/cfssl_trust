@@ -21,9 +21,16 @@
 # at every step.
 set -eux
 
+die () {
+    echo "$@" > /dev/stderr
+    exit 1
+}
+
 ##########################
 # PROLOGUE: release prep #
 ##########################
+
+# Make sure we're in the git toplevel.
 
 # If the path to a config file or certificate database are present as
 # environment variables, then use those as flags to the cfssl-trust
@@ -35,7 +42,7 @@ then
 	CONFIG_PATH="-f ${CONFIG_PATH}"
 fi
 
-DATABASE_PATH="${TRUST_DATABASE_PATH:-}"
+DATABASE_PATH="${TRUST_DATABASE_PATH:-.}"
 if [ -n "${DATABASE_PATH}" ]
 then
 	DATABASE_PATH="-d ${DATABASE_PATH}"
@@ -52,16 +59,15 @@ check_for_tool () {
 	if [ $? -ne 0 ]
 	then
 		echo "Required tool $1 wasn't found." > /dev/stderr
-		echo "Path is ${PATH}." > /dev/stderr
-		exit 1
+		die "Path is ${PATH}."
 	fi
 }
 
 prologue () {
 	check_for_tool cfssl-trust
-	check_for_tool certdump 
+	check_for_tool certdump
 	check_for_tool mktemp
-	
+
 	# This release script expects to be run from the repo's top level.
 	cd "$(git rev-parse --show-toplevel)" || exit 1
 }
@@ -71,6 +77,13 @@ prologue () {
 ###########
 
 release () {
+	if [ "$(basename $(pwd))" != "cfssl_trust" ]
+		die "release.sh should be called from the cfssl_trust repository."
+	then
+	elif [ "$(pwd)" != "$(git rev-parse --show-toplevel)" ]
+		die "release.sh should be called from the git toplevel ($(git rev-parse --show-toplevel), cwd=$(pwd))."
+	fi
+
 	echo "Rolling trust store release at $(date +'%FT%T%z')."
 
 	## Step 1: roll the intermediate store.
@@ -81,13 +94,13 @@ release () {
 	# Go's time.ParseDuration function can't handle empty strings.
 	echo "$ cfssl-trust ${DATABASE_PATH} ${CONFIG_PATH} -b int release ${EXPIRATION_WINDOW}"
 	cfssl-trust ${DATABASE_PATH} ${CONFIG_PATH} -b int release ${EXPIRATION_WINDOW}
-	
+
 	# After the intermediate store is rolled, we'll need to collect the
 	# new version number. cfssl-trust reports these in reverse
 	# chronological order, so we can grab the first one and remove the
 	# leading dash. This will serve as our release branch in git.
 	LATEST_RELEASE="$(cfssl-trust ${DATABASE_PATH} ${CONFIG_PATH} releases | awk ' NR==1 { print $2 }')"
-	
+
 	## Step 2: roll the root store.
 	#
 	# The same caveats from step 1 apply
@@ -96,7 +109,7 @@ release () {
 
 	# Add the database changes to the release git branch.
 	git add cert.db
-	
+
 	## Step 3: write the trust stores to disk.
 	#
 	# They also should be added to the release git branch.
@@ -105,7 +118,7 @@ release () {
 	echo "$ cfssl-trust ${DATABASE_PATH} ${CONFIG_PATH} -r ${LATEST_RELEASE} -b ca  bundle ca-bundle.crt"
 	cfssl-trust ${DATABASE_PATH} ${CONFIG_PATH} -r "${LATEST_RELEASE}" -b ca  bundle ca-bundle.crt
 	git add int-bundle.crt ca-bundle.crt
-	
+
 	## Step 4: update the human-readable trust store lists.
 	#
 	# These lists should also be added to git.
@@ -125,19 +138,19 @@ release () {
 execute () {
 	TEMPFILE="$(mktemp)" || exit
 	release | tee "$TEMPFILE"
-	
+
 	LATEST_RELEASE="$(cfssl-trust ${DATABASE_PATH} ${CONFIG_PATH} releases | awk ' NR==1 { print $2 }')"
 	git checkout -b release/${LATEST_RELEASE}
 	printf "Trust store release ${LATEST_RELEASE}\n\n$(cat ${TEMPFILE})" | git commit -F-
 	rm ${TEMPFILE}
-	
+
 	git tag trust-store-${LATEST_RELEASE}
-	
+
 	if [ -n "${NOPUSH:-}" ]
 	then
 		exit 0
 	fi
-	
+
 	git push --set-upstream origin release/${LATEST_RELEASE}
 	git push origin trust-store-${LATEST_RELEASE}
 }
