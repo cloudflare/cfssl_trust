@@ -42,7 +42,7 @@ then
 	CONFIG_PATH="-f ${CONFIG_PATH}"
 fi
 
-DATABASE_PATH="${TRUST_DATABASE_PATH:-.}"
+DATABASE_PATH="${TRUST_DATABASE_PATH:-./cert.db}"
 if [ -n "${DATABASE_PATH}" ]
 then
 	DATABASE_PATH="-d ${DATABASE_PATH}"
@@ -78,9 +78,10 @@ prologue () {
 
 release () {
 	if [ "$(basename $(pwd))" != "cfssl_trust" ]
-		die "release.sh should be called from the cfssl_trust repository."
 	then
+		die "release.sh should be called from the cfssl_trust repository."
 	elif [ "$(pwd)" != "$(git rev-parse --show-toplevel)" ]
+	then
 		die "release.sh should be called from the git toplevel ($(git rev-parse --show-toplevel), cwd=$(pwd))."
 	fi
 
