@@ -432,7 +432,7 @@ Details:
 	SKI: 48:E6:68:F9:2B:D2:B2:95:D7:47:D8:23:20:10:4F:33:98:90:9F:D4
 	Valid from: 1998-08-22T16:41:51+0000
 	     until: 2018-08-22T16:41:51+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -499,7 +499,7 @@ Details:
 	SKI: 1E:82:4D:28:65:80:3C:C9:41:6E:AC:35:2E:5A:CB:DE:EE:F8:39:5B
 	Valid from: 1998-12-09T19:17:26+0000
 	     until: 2018-12-09T19:47:26+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -513,7 +513,7 @@ Details:
 	SKI: 6A:79:7E:91:69:46:18:13:0A:02:77:A5:59:5B:60:98:25:0E:A2:F8
 	Valid from: 1998-12-10T18:10:23+0000
 	     until: 2018-12-10T18:40:23+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -527,7 +527,7 @@ Details:
 	Serial number: 259
 	Valid from: 1999-02-24T23:14:47+0000
 	     until: 2019-02-19T23:14:47+0000
-	Key usages: crl sign, cert sign
+	Key usages: cert sign, crl sign
 	Basic constraints: valid, is a CA certificate, max path length 4
 	SANs (0):
 CERTIFICATE
@@ -587,7 +587,7 @@ Details:
 	SKI: F0:17:62:13:55:3D:B3:FF:0A:00:6B:FB:50:84:97:F3:ED:62:D0:1A
 	Valid from: 1999-05-25T16:09:40+0000
 	     until: 2019-05-25T16:39:40+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -629,7 +629,7 @@ Details:
 	SKI: 50:9E:0B:EA:AF:5E:B9:20:48:A6:50:6A:CB:FD:D8:20:7A:A7:82:76
 	Valid from: 1999-06-23T12:14:45+0000
 	     until: 2019-06-23T12:14:45+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -644,7 +644,7 @@ Details:
 	SKI: 53:32:D1:B3:CF:7F:FA:E0:F1:A0:5D:85:4E:92:D2:9E:45:1D:B4:4F
 	Valid from: 1999-06-24T18:57:21+0000
 	     until: 2019-06-24T19:06:30+0000
-	Key usages: content committment, cert sign, crl sign, digital signature
+	Key usages: crl sign, digital signature, content committment, cert sign
 	Extended usages: server auth, microsoft sgc, netscape sgc
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
@@ -755,7 +755,7 @@ Details:
 	SKI: E3:73:2D:DF:CB:0E:28:0C:DE:DD:B3:A4:CA:79:B8:8E:BB:E8:30:89
 	Valid from: 1999-07-07T17:05:00+0000
 	     until: 2019-07-06T23:59:59+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate, max path length 10
 	SANs (0):
 CERTIFICATE
@@ -785,7 +785,7 @@ Details:
 	SKI: 89:82:67:7D:C4:9D:26:70:00:4B:B4:50:48:7C:DE:3D:AE:04:6E:7D
 	Valid from: 1999-07-09T17:28:50+0000
 	     until: 2019-07-09T17:36:58+0000
-	Key usages: content committment, cert sign, crl sign, digital signature
+	Key usages: cert sign, content committment, crl sign, digital signature
 	Extended usages: client auth, s/mime
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
@@ -801,7 +801,7 @@ Details:
 	SKI: A1:72:5F:26:1B:28:98:43:95:5D:07:37:D5:85:96:9D:4B:D2:C3:45
 	Valid from: 1999-07-09T18:10:42+0000
 	     until: 2019-07-09T18:19:22+0000
-	Key usages: content committment, cert sign, crl sign, digital signature
+	Key usages: crl sign, digital signature, content committment, cert sign
 	Extended usages: server auth, ipsec end system, ipsec tunnel, ipsec user
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
@@ -817,7 +817,7 @@ Details:
 	SKI: DA:ED:64:74:14:9C:14:3C:AB:DD:99:A9:BD:5B:28:4D:8B:3C:C9:D8
 	Valid from: 1999-07-09T18:31:20+0000
 	     until: 2019-07-09T18:40:36+0000
-	Key usages: content committment, cert sign, crl sign, digital signature
+	Key usages: crl sign, digital signature, content committment, cert sign
 	Extended usages: code signing, timestamping
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
@@ -967,7 +967,7 @@ Details:
 	SKI: 55:E4:81:D1:11:80:BE:D8:89:B9:08:A3:31:F9:A1:24:09:16:B9:70
 	Valid from: 1999-12-24T17:50:51+0000
 	     until: 2029-07-24T14:15:12+0000
-	Key usages: crl sign, cert sign
+	Key usages: cert sign, crl sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -1007,7 +1007,7 @@ Details:
 	SKI: 95:B1:B4:F0:94:B6:BD:C7:DA:D1:11:09:21:BE:C1:AF:49:FD:10:7B
 	Valid from: 2000-05-30T10:38:31+0000
 	     until: 2020-05-30T10:38:31+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -1052,7 +1052,7 @@ Details:
 	SKI: AD:BD:98:7A:34:B4:26:F7:FA:C4:26:54:EF:03:BD:E0:24:CB:54:1A
 	Valid from: 2000-05-30T10:48:38+0000
 	     until: 2020-05-30T10:48:38+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -1105,7 +1105,7 @@ Details:
 	SKI: 96:D7:71:CD:39:2A:D4:FC:88:B1:8A:AB:53:78:69:EF:8F:47:7E:16
 	Valid from: 2000-11-26T23:27:41+0000
 	     until: 2031-11-26T23:27:41+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -1119,7 +1119,7 @@ Details:
 	SKI: 1E:F8:D4:53:6B:B3:83:06:E9:04:06:57:02:F9:A5:BF:C6:58:3C:72
 	Valid from: 2001-01-10T13:52:52+0000
 	     until: 2021-01-10T14:22:52+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -1133,7 +1133,7 @@ Details:
 	SKI: 07:C3:51:30:A4:AA:E9:45:AE:35:24:FA:FF:24:2C:33:D0:B1:9D:8C
 	Valid from: 2001-02-22T20:39:23+0000
 	     until: 2026-02-22T20:39:23+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -1165,7 +1165,7 @@ Details:
 	SKI: 1D:44:89:B2:45:26:7F:6F:6B:92:C5:3A:7B:72:63:CA:D2:70:2A:DD
 	Valid from: 2001-03-30T02:27:45+0000
 	     until: 2021-03-30T02:57:45+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -1218,7 +1218,7 @@ Details:
 	SKI: 0E:AC:82:60:40:56:27:97:E5:25:13:FC:2A:E1:0A:53:95:59:E4:A4
 	Valid from: 2001-05-09T23:19:22+0000
 	     until: 2021-05-09T23:28:13+0000
-	Key usages: cert sign, crl sign, content committment, digital signature
+	Key usages: cert sign, digital signature, content committment, crl sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -1232,7 +1232,7 @@ Details:
 	SKI: 71:7B:8A:06:1F:31:05:55:AB:60:12:77:47:20:1E:03:88:18:EC:89
 	Valid from: 2001-06-29T21:27:46+0000
 	     until: 2021-06-29T21:57:46+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -1294,7 +1294,7 @@ Details:
 	SKI: 00:AD:D9:A3:F6:79:F6:6E:74:A9:7F:33:3D:81:17:D7:4C:CF:33:DE
 	Valid from: 2002-05-28T06:00:00+0000
 	     until: 2037-11-19T20:43:00+0000
-	Key usages: cert sign, crl sign, digital signature
+	Key usages: cert sign, digital signature, crl sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -1310,7 +1310,7 @@ Details:
 	SKI: 4D:45:C1:68:38:BB:73:A9:69:A1:20:E7:ED:F5:22:A1:23:14:D7:9E
 	Valid from: 2002-05-28T06:00:00+0000
 	     until: 2037-09-29T14:08:00+0000
-	Key usages: digital signature, cert sign, crl sign
+	Key usages: crl sign, digital signature, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -1326,7 +1326,7 @@ Details:
 	SKI: A1:36:30:16:CB:86:90:00:45:80:53:B1:8F:C8:D8:3D:7C:BE:5F:12
 	Valid from: 2002-05-29T06:00:00+0000
 	     until: 2037-11-20T15:03:00+0000
-	Key usages: cert sign, crl sign, digital signature
+	Key usages: crl sign, digital signature, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -1342,7 +1342,7 @@ Details:
 	SKI: 4F:69:6D:03:7E:9D:9F:07:18:43:BC:B7:10:4E:D5:BF:A9:C4:20:28
 	Valid from: 2002-05-29T06:00:00+0000
 	     until: 2037-09-28T23:43:00+0000
-	Key usages: digital signature, cert sign, crl sign
+	Key usages: cert sign, crl sign, digital signature
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -1369,7 +1369,7 @@ Details:
 	SKI: 15:38:83:0F:3F:2C:3F:70:33:1E:CD:46:FE:07:8C:20:E0:D7:C3:B7
 	Valid from: 2002-06-26T02:18:36+0000
 	     until: 2022-06-24T00:16:12+0000
-	Key usages: crl sign, cert sign
+	Key usages: cert sign, crl sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -1396,7 +1396,7 @@ Details:
 	SKI: A3:05:2F:18:60:50:C2:89:0A:DD:2B:21:4F:FF:8E:4E:A8:30:31:36
 	Valid from: 2002-12-13T14:29:23+0000
 	     until: 2020-10-17T14:29:22+0000
-	Key usages: content committment, cert sign, crl sign
+	Key usages: cert sign, content committment, crl sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -1411,7 +1411,7 @@ Details:
 	SKI: DB:E9:E1:9B:D2:D1:24:0B:FC:AB:E3:A0:67:EA:AE:9C:4B:77:F4:B0
 	Valid from: 2002-12-18T13:53:00+0000
 	     until: 2023-12-18T13:51:08+0000
-	Key usages: digital signature, content committment, cert sign, crl sign
+	Key usages: cert sign, digital signature, content committment, crl sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -1430,7 +1430,7 @@ Details:
 	SKI: A0:C3:8B:44:AA:37:A5:45:BF:97:80:5A:D1:F1:78:A2:9B:E9:5D:8D
 	Valid from: 2003-01-07T23:00:00+0000
 	     until: 2031-01-07T22:59:59+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (1): email:ec_acc@catcert.net
 CERTIFICATE
@@ -1459,7 +1459,7 @@ Details:
 	SKI: 3F:BD:CD:8E:DF:BE:D1:6B:65:44:3F:60:EC:EA:42:2E:30:70:1F:68
 	Valid from: 2003-02-07T10:36:58+0000
 	     until: 2023-02-07T11:06:58+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -1490,7 +1490,7 @@ Details:
 	SKI: 09:6A:62:16:92:B0:5A:BB:55:0E:CB:75:32:3A:32:E5:B2:21:C9:28
 	Valid from: 2003-03-30T01:47:11+0000
 	     until: 2022-12-15T01:47:11+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate, max path length 4
 	SANs (0):
 CERTIFICATE
@@ -1502,7 +1502,7 @@ Details:
 	Serial number: 1000
 	Valid from: 2003-05-15T05:13:14+0000
 	     until: 2023-05-15T04:52:29+0000
-	Key usages: digital signature, cert sign, crl sign, content committment
+	Key usages: crl sign, digital signature, content committment, cert sign
 	Basic constraints: valid, is a CA certificate, max path length 3
 	SANs (0):
 CERTIFICATE
@@ -1516,7 +1516,7 @@ Details:
 	SKI: CC:BB:BB:86:D6:6F:F8:BE:B4:47:22:77:B3:B6:AD:D7:01:59:96:4D
 	Valid from: 2003-05-15T11:52:45+0000
 	     until: 2023-05-15T12:22:45+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -1529,7 +1529,7 @@ Details:
 	SKI: A0:73:49:99:68:DC:85:5B:65:E3:9B:28:2F:57:9F:BD:33:BC:07:48
 	Valid from: 2003-09-30T04:20:49+0000
 	     until: 2023-09-30T04:20:49+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -1544,7 +1544,7 @@ Details:
 	SKI: E3:94:F5:B1:4D:E9:DB:A1:29:5B:57:8B:4D:76:06:76:E1:D1:A2:8A
 	Valid from: 2003-09-30T16:13:43+0000
 	     until: 2037-09-30T16:13:44+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate, max path length 12
 	SANs (1): email:chambersroot@chambersign.org
 CERTIFICATE
@@ -1562,19 +1562,6 @@ Details:
 	Key usages: cert sign, crl sign
 	Basic constraints: valid, is a CA certificate, max path length 12
 	SANs (1): email:chambersignroot@chambersign.org
-CERTIFICATE
-Subject: /DST ACES CA X6/C=US/O=Digital Signature Trust/OU=DST ACES
-Issuer: /DST ACES CA X6/C=US/O=Digital Signature Trust/OU=DST ACES
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 17771143917277623872238992636097467865
-	SKI: 09:72:06:4E:18:43:0F:E5:D6:CC:C3:6A:8B:31:7B:78:8F:A8:83:B8
-	Valid from: 2003-11-20T21:19:58+0000
-	     until: 2017-11-20T21:19:58+0000
-	Key usages: content committment, cert sign, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate
-	SANs (1): email:pki-ops@trustdst.com
 CERTIFICATE
 Subject: /C=GB/O=Trustis Limited/OU=Trustis FPS Root CA
 Issuer: /C=GB/O=Trustis Limited/OU=Trustis FPS Root CA
@@ -1631,7 +1618,7 @@ Details:
 	SKI: C5:7B:58:BD:ED:DA:25:69:D2:F7:59:16:A8:B3:32:C0:7B:27:5B:F4
 	Valid from: 2004-01-01T00:00:00+0000
 	     until: 2028-12-31T23:59:59+0000
-	Key usages: crl sign, cert sign
+	Key usages: cert sign, crl sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -1674,7 +1661,7 @@ Details:
 	SKI: 84:F7:FA:72:5E:88:64:66:1D:28:8C:B0:77:BD:0C:6A:9F:4C:4D:62
 	Valid from: 2004-02-11T15:58:30+0000
 	     until: 2024-02-11T15:58:26+0000
-	Key usages: digital signature, cert sign, crl sign
+	Key usages: cert sign, digital signature, crl sign
 	Basic constraints: valid, is a CA certificate
 	SANs (1): email:ancert@ancert.com
 CERTIFICATE
@@ -1690,7 +1677,7 @@ Details:
 	SKI: 8C:4C:1E:37:0C:B1:9F:D2:AC:44:0B:3A:BE:02:CF:F4:8D:2D:66:95
 	Valid from: 2004-02-11T17:22:45+0000
 	     until: 2024-02-11T17:22:45+0000
-	Key usages: cert sign, crl sign, digital signature
+	Key usages: digital signature, crl sign, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (1): email:ancert@ancert.com
 CERTIFICATE
@@ -1706,7 +1693,7 @@ Details:
 	SKI: EC:57:9F:C8:76:22:6F:CC:3A:AE:5B:F0:2D:A1:62:58:D1:8D:02:CC
 	Valid from: 2004-02-11T17:27:12+0000
 	     until: 2024-02-11T17:27:12+0000
-	Key usages: crl sign, cert sign, digital signature
+	Key usages: cert sign, digital signature, crl sign
 	Basic constraints: valid, is a CA certificate
 	SANs (1): email:ancert@ancert.com
 CERTIFICATE
@@ -1720,7 +1707,7 @@ Details:
 	SKI: 71:38:36:F2:02:31:53:47:2B:6E:BA:65:46:A9:10:15:58:20:05:09
 	Valid from: 2004-03-04T05:00:00+0000
 	     until: 2019-03-04T05:00:00+0000
-	Key usages: cert sign, crl sign, digital signature
+	Key usages: cert sign, digital signature, crl sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -1734,7 +1721,7 @@ Details:
 	SKI: DA:BB:2E:AA:B0:0C:B8:88:26:51:74:5C:6D:03:D3:C0:D8:8F:7A:D6
 	Valid from: 2004-03-04T05:00:00+0000
 	     until: 2029-03-04T05:00:00+0000
-	Key usages: digital signature, cert sign, crl sign
+	Key usages: crl sign, digital signature, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -1748,7 +1735,7 @@ Details:
 	SKI: 76:F3:55:E1:FA:A4:36:FB:F0:9F:5C:62:71:ED:3C:F4:47:38:10:2B
 	Valid from: 2004-03-04T05:00:00+0000
 	     until: 2029-03-04T05:00:00+0000
-	Key usages: digital signature, cert sign, crl sign
+	Key usages: digital signature, crl sign, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -1776,7 +1763,7 @@ Details:
 	SKI: C1:4B:ED:70:B6:F7:3E:7C:00:3B:00:8F:C7:3E:0E:45:9F:1E:5D:EC
 	Valid from: 2004-03-24T11:37:20+0000
 	     until: 2029-03-16T15:04:56+0000
-	Key usages: cert sign, crl sign, digital signature
+	Key usages: crl sign, digital signature, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -1850,7 +1837,7 @@ Details:
 	SKI: C6:4F:A2:3D:06:63:84:09:9C:CE:62:E4:04:AC:8D:5C:B5:E9:B6:1B
 	Valid from: 2004-11-01T17:14:04+0000
 	     until: 2035-01-01T05:37:19+0000
-	Key usages: cert sign, crl sign, digital signature
+	Key usages: cert sign, digital signature, crl sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -1863,7 +1850,7 @@ Details:
 	SKI: 9E:EC:99:10:00:49:6B:CC:8A:3F:DB:6F:06:E5:CA:14:18:72:93:83
 	Valid from: 2004-11-26T12:34:48+0000
 	     until: 2024-11-21T12:44:48+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Extended usages: server auth, code signing, timestamping
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
@@ -1905,7 +1892,7 @@ Details:
 	SKI: 49:74:BB:0C:5E:BA:7A:FE:02:54:EF:7B:A0:C6:95:C6:09:80:70:96
 	Valid from: 2004-12-13T15:00:10+0000
 	     until: 2029-12-05T15:00:10+0000
-	Key usages: cert sign, crl sign, digital signature
+	Key usages: crl sign, digital signature, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -1951,7 +1938,7 @@ Details:
 	SKI: 48:20:1C:62:0D:58:52:25
 	Valid from: 2005-06-05T10:33:31+0000
 	     until: 2020-06-05T10:33:31+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -1966,7 +1953,7 @@ Details:
 	SKI: FC:88:4C:8E:6D:04:A1:20:90:D3:F8:1C:9A:B3:67:04:5F:79:80:C6
 	Valid from: 2005-06-13T22:00:00+0000
 	     until: 2030-06-13T22:00:00+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (1): email:ac@acabogacia.org
 CERTIFICATE
@@ -1999,7 +1986,7 @@ Details:
 	SKI: 4F:8A:DA:76:FF:67:77:23:9A:A6:80:7D:7D:DB:88:75:85:F7:81:7A
 	Valid from: 2005-06-27T17:42:42+0000
 	     until: 2025-06-29T17:42:42+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -2038,7 +2025,7 @@ Details:
 	SKI: 11:F2:0B:96:D2:33:38:81:57:58:13:FD:40:A4:11:6F:4E:99:FA:67
 	Valid from: 2005-07-26T10:00:00+0000
 	     until: 2020-07-26T10:00:00+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -2052,7 +2039,7 @@ Details:
 	SKI: 03:25:2F:DE:6F:82:01:3A:5C:2C:DC:2B:A1:69:B5:67:D4:8C:D3:FD
 	Valid from: 2005-08-18T12:06:20+0000
 	     until: 2025-08-18T22:06:20+0000
-	Key usages: cert sign, crl sign, digital signature
+	Key usages: digital signature, crl sign, cert sign
 	Basic constraints: valid, is a CA certificate, max path length 7
 	SANs (0):
 CERTIFICATE
@@ -2081,7 +2068,7 @@ Details:
 	SKI: 3B:E1:81:1B:A0:AB:3F:3B:21:82:D5:E2:12:AE:AE:50:AB:14:A5:13
 	Valid from: 2005-10-06T10:49:13+0000
 	     until: 2030-10-07T10:49:13+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -2096,7 +2083,7 @@ Details:
 	SKI: B3:03:7E:AE:36:BC:B0:79:D1:DC:94:26:B6:11:BE:21:B2:69:86:94
 	Valid from: 2005-12-11T16:03:44+0000
 	     until: 2037-12-11T16:09:51+0000
-	Key usages: digital signature, cert sign, crl sign
+	Key usages: cert sign, crl sign, digital signature
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -2139,7 +2126,7 @@ Details:
 	SKI: 8E:45:F4:9F:73:C5:FF:2F:1B:05:DB:01:47:60:1B:03:8A:81:B7:BA
 	Valid from: 2006-02-16T10:37:25+0000
 	     until: 2036-02-08T22:59:59+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -2152,7 +2139,7 @@ Details:
 	SKI: DD:D4:4E:67:43:3F:D3:EA:62:E8:DA:89:6E:8E:3B:6E:0B:BB:95:9F
 	Valid from: 2006-03-06T17:33:05+0000
 	     until: 2026-03-06T17:33:05+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 	OCSP server:
@@ -2170,7 +2157,7 @@ Details:
 	SKI: 92:A4:75:2C:A4:9E:BE:81:44:EB:79:FC:8A:C5:95:A5:EB:10:75:73
 	Valid from: 2006-03-22T15:54:28+0000
 	     until: 2025-12-31T22:59:59+0000
-	Key usages: crl sign, cert sign, digital signature
+	Key usages: cert sign, crl sign, digital signature
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -2186,7 +2173,7 @@ Details:
 	SKI: CD:D7:90:A1:6E:A3:BF:DB:30:D6:DA:32:25:90:0C:E6:39:1E:80:65
 	Valid from: 2006-03-22T15:58:34+0000
 	     until: 2030-12-31T22:59:59+0000
-	Key usages: cert sign, crl sign, digital signature
+	Key usages: crl sign, digital signature, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -2215,7 +2202,7 @@ Details:
 	SKI: 2B:D0:69:47:94:76:09:FE:F4:6B:8D:2E:40:A6:F7:47:4D:7F:08:5E
 	Valid from: 2006-04-25T21:40:36+0000
 	     until: 2035-02-09T21:40:36+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -2228,7 +2215,7 @@ Details:
 	SKI: 71:7F:35:DE:F5:77:71:6D:1D:12:9C:E1:90:A4:BA:F0:A9:83:8F:80
 	Valid from: 2006-06-23T13:41:27+0000
 	     until: 2030-06-23T13:41:27+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -2241,7 +2228,7 @@ Details:
 	SKI: E0:8C:9B:DB:25:49:B3:F1:7C:86:D6:B2:42:87:0B:D0:6B:A0:D9:E4
 	Valid from: 2006-07-04T17:20:04+0000
 	     until: 2031-07-04T17:20:04+0000
-	Key usages: content committment, cert sign, crl sign, digital signature
+	Key usages: cert sign, content committment, crl sign, digital signature
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -2257,7 +2244,7 @@ Details:
 	SKI: C0:01:D5:E0:78:1F:2F:74:3A:E3:EB:C0:21:52:A6:04:EE:26:CB:A4
 	Valid from: 2006-08-07T14:12:35+0000
 	     until: 2036-09-18T14:12:35+0000
-	Key usages: content committment, cert sign, crl sign, digital signature
+	Key usages: cert sign, crl sign, digital signature, content committment
 	Basic constraints: valid, is a CA certificate
 	SANs (1): email:info@globaltrust.info
 CERTIFICATE
@@ -2302,7 +2289,7 @@ Details:
 	SKI: 5B:25:7B:96:A4:65:51:7E:B8:39:F3:C0:78:66:5E:E8:3A:E7:F0:EE
 	Valid from: 2006-10-25T08:30:35+0000
 	     until: 2036-10-25T08:30:35+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -2343,7 +2330,7 @@ Details:
 	SKI: 42:32:B6:16:FA:04:FD:FE:5D:4B:7A:C3:FD:F7:4C:40:1D:5A:43:AF
 	Valid from: 2006-11-07T19:31:18+0000
 	     until: 2029-12-31T19:40:55+0000
-	Key usages: digital signature, cert sign, crl sign
+	Key usages: crl sign, digital signature, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -2356,7 +2343,7 @@ Details:
 	SKI: AF:44:04:C2:41:7E:48:83:DB:4E:39:02:EC:EC:84:7A:E6:CE:C9:A4
 	Valid from: 2006-11-07T19:42:28+0000
 	     until: 2029-12-31T19:52:06+0000
-	Key usages: digital signature, cert sign, crl sign
+	Key usages: digital signature, crl sign, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -2387,7 +2374,7 @@ Details:
 	SKI: 45:EB:A2:AF:F4:92:CB:82:31:2D:51:8B:A7:A7:21:9D:F3:6D:C8:0F
 	Valid from: 2006-11-10T00:00:00+0000
 	     until: 2031-11-10T00:00:00+0000
-	Key usages: digital signature, cert sign, crl sign
+	Key usages: crl sign, digital signature, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -2401,7 +2388,7 @@ Details:
 	SKI: 03:DE:50:35:56:D1:4C:BB:66:F0:A3:E2:1B:1B:C3:97:B2:3D:D1:55
 	Valid from: 2006-11-10T00:00:00+0000
 	     until: 2031-11-10T00:00:00+0000
-	Key usages: digital signature, cert sign, crl sign
+	Key usages: cert sign, crl sign, digital signature
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -2417,7 +2404,7 @@ Details:
 	SKI: B1:3E:C3:69:03:F8:BF:47:01:D4:98:26:1A:08:02:EF:63:64:2B:C3
 	Valid from: 2006-11-10T00:00:00+0000
 	     until: 2031-11-10T00:00:00+0000
-	Key usages: cert sign, crl sign, digital signature
+	Key usages: crl sign, digital signature, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -2473,7 +2460,7 @@ Details:
 	SKI: 2C:D5:50:41:97:15:8B:F0:8F:36:61:5B:4A:FB:6B:D9:99:C9:33:92
 	Valid from: 2006-11-27T00:00:00+0000
 	     until: 2036-07-16T23:59:59+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -2491,7 +2478,7 @@ Details:
 	SKI: 68:90:E4:67:A4:A6:53:80:C7:86:66:A4:F1:F7:4B:43:FB:84:BD:6D
 	Valid from: 2006-11-27T20:23:42+0000
 	     until: 2026-11-27T20:53:42+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -2521,7 +2508,7 @@ Details:
 	SKI: 0B:58:E5:8B:C6:4C:15:37:A4:40:A9:30:A9:21:BE:47:36:5A:56:FF
 	Valid from: 2006-12-01T00:00:00+0000
 	     until: 2029-12-31T23:59:59+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -2536,7 +2523,7 @@ Details:
 	SKI: 21:30:C9:FB:00:D7:4E:98:DA:87:AA:2A:D0:A7:2E:B1:40:31:A7:4C
 	Valid from: 2006-12-01T00:00:00+0000
 	     until: 2029-12-31T23:59:59+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -2550,7 +2537,7 @@ Details:
 	SKI: 9B:E2:07:57:67:1C:1E:C0:6A:06:DE:59:B4:9A:2D:DF:DC:19:86:2E
 	Valid from: 2006-12-15T08:00:00+0000
 	     until: 2021-12-15T08:00:00+0000
-	Key usages: crl sign, cert sign
+	Key usages: cert sign, crl sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -2579,7 +2566,7 @@ Details:
 	SKI: CC:BF:DE:A7:90:77:62:6A:1D:78:69:2E:0A:38:9B:77:51:53:03:F0
 	Valid from: 2006-12-27T12:18:52+0000
 	     until: 2026-12-28T12:05:04+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -2609,7 +2596,7 @@ Details:
 	SKI: 88:07:73:F6:F1:BC:52:1A:5A:1D:3D:91:62:ED:5D:AC:9D:0B:E5:B7
 	Valid from: 2006-12-27T12:26:30+0000
 	     until: 2026-12-22T12:11:30+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -2623,7 +2610,7 @@ Details:
 	SKI: 79:2D:73:96:CE:B2:7D:5A:73:0E:87:56:29:31:C5:28:F2:ED:A5:5F
 	Valid from: 2007-01-09T12:00:01+0000
 	     until: 2027-01-09T11:56:00+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -2638,7 +2625,7 @@ Details:
 	SKI: 1B:8D:59:1C:B3:B7:58:62:64:66:AC:E2:E4:A4:F6:A2:19:12:F6:E5
 	Valid from: 2007-01-09T17:00:39+0000
 	     until: 2031-01-09T17:00:39+0000
-	Key usages: crl sign, cert sign
+	Key usages: cert sign, crl sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -2651,7 +2638,7 @@ Details:
 	SKI: 4B:C9:4E:B9:67:B1:98:35
 	Valid from: 2007-03-27T22:00:00+0000
 	     until: 2037-03-27T23:00:00+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -2665,7 +2652,7 @@ Details:
 	SKI: 65:F2:31:AD:2A:F7:F7:DD:52:96:0A:C7:02:C1:0E:EF:A6:D5:3B:11
 	Valid from: 2007-04-16T07:09:14+0000
 	     until: 2027-04-16T07:09:14+0000
-	Key usages: content committment, key encipherment, data encipherment, cert sign, crl sign, digital signature, key agreement
+	Key usages: data encipherment, crl sign, digital signature, content committment, key encipherment, key agreement, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -2708,7 +2695,7 @@ Details:
 	SKI: 88:68:BF:E0:8E:35:C4:3B:38:6B:62:F7:28:3B:84:81:C8:0C:D7:4D
 	Valid from: 2007-05-16T17:19:36+0000
 	     until: 2025-03-31T18:19:21+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -2723,7 +2710,7 @@ Details:
 	SKI: 35:4A:F5:4D:AF:3F:D7:82:38:AC:AB:71:65:17:75:8C:9D:55:93:E6
 	Valid from: 2007-06-06T02:12:32+0000
 	     until: 2037-06-06T02:12:32+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -2751,7 +2738,7 @@ Details:
 	SKI: 8E:A1:73:F9:3A:03:21:F0:2C:57:8B:0E:02:0B:E3:9E:0B:B3:9D:97
 	Valid from: 2007-07-05T09:14:08+0000
 	     until: 2022-07-05T09:12:33+0000
-	Key usages: cert sign, crl sign, content committment, digital signature
+	Key usages: crl sign, digital signature, content committment, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -2808,7 +2795,7 @@ Details:
 	SKI: B3:16:91:FD:EE:A6:6E:E4:B5:2E:49:8F:87:78:81:80:EC:E5:B1:B5
 	Valid from: 2007-11-05T00:00:00+0000
 	     until: 2038-01-18T23:59:59+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -2877,7 +2864,7 @@ Details:
 	SKI: 1D:1C:65:0E:A8:F2:25:7B:B4:91:CF:E4:B1:B1:E6:BD:55:74:6C:05
 	Valid from: 2007-12-13T13:08:28+0000
 	     until: 2037-12-13T08:27:25+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (1): email:info@izenpe.com
 CERTIFICATE
@@ -2893,7 +2880,7 @@ Details:
 	SKI: 26:95:19:10:D9:E8:A1:97:91:FF:DC:19:D9:B5:04:3E:D2:73:0A:6A
 	Valid from: 2007-12-13T17:07:54+0000
 	     until: 2022-12-14T00:07:54+0000
-	Key usages: digital signature, content committment, cert sign, crl sign
+	Key usages: digital signature, content committment, crl sign, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -2910,7 +2897,7 @@ Details:
 	SKI: 29:C5:90:AB:25:AF:11:E4:61:BF:A3:FF:88:61:91:E6:0E:FE:9C:81
 	Valid from: 2007-12-25T18:37:19+0000
 	     until: 2017-12-22T18:37:19+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -2923,7 +2910,7 @@ Details:
 	SKI: D9:C3:D3:F8:80:92:67:CC:5D:D2:3A:A2:D7:71:A2:B4:C4:38:80:2D
 	Valid from: 2008-01-01T00:00:00+0000
 	     until: 2037-12-31T00:00:00+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Extended usages: server auth, client auth, code signing, s/mime, ipsec end system, ipsec tunnel, ipsec user, timestamping, ocsp signing
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
@@ -2982,7 +2969,7 @@ Details:
 	SKI: 68:9D:7E:D6:C4:25:39:FB:3B:A0:37:D6:4F:DC:8C:D1:7A:F0:56:59
 	Valid from: 2008-04-01T00:00:00+0000
 	     until: 2018-04-01T00:00:00+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -3014,7 +3001,7 @@ Details:
 	SKI: B6:77:FA:69:48:47:9F:53:12:D5:C2:EA:07:32:76:07:D1:97:07:19
 	Valid from: 2008-04-02T00:00:00+0000
 	     until: 2037-12-01T23:59:59+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -3029,7 +3016,7 @@ Details:
 	SKI: C4:79:CA:8E:A1:4E:03:1D:1C:DC:6B:DB:31:5B:94:3E:3F:30:7F:2D
 	Valid from: 2008-04-02T00:00:00+0000
 	     until: 2037-12-01T23:59:59+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -3076,7 +3063,7 @@ Details:
 	SKI: B4:C6:7F:1A:43:CC:9B:75:5D:2F:C4:4B:F2:8B:98:10:E9:F1:51:10
 	Valid from: 2008-06-02T00:00:00+0000
 	     until: 2029-12-31T23:59:59+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -3091,7 +3078,7 @@ Details:
 	SKI: E5:0D:64:71:9D:C9:52:E9:C0:9B:2A:69:33:C0:93:7C:F3:81:F5:DF
 	Valid from: 2008-06-03T19:28:31+0000
 	     until: 2038-06-03T19:36:00+0000
-	Key usages: content committment, cert sign, crl sign
+	Key usages: cert sign, content committment, crl sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 	2 AIAs:
@@ -3109,7 +3096,7 @@ Details:
 	SKI: 7D:BB:69:EB:88:61:E1:40:CF:47:23:64:00:86:A2:66:6B:DC:84:95
 	Valid from: 2008-07-14T16:52:15+0000
 	     until: 2030-12-31T02:59:59+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -3124,7 +3111,7 @@ Details:
 	SKI: BC:73:3E:2F:9C:91:0C:BB:8F:CD:77:99:3E:CC:85:E4:CC:58:68:11
 	Valid from: 2008-07-21T11:47:46+0000
 	     until: 2024-07-21T11:47:46+0000
-	Key usages: crl sign, cert sign
+	Key usages: cert sign, crl sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -3243,7 +3230,7 @@ Details:
 	SKI: B5:03:F7:76:3B:61:82:6A:12:AA:18:53:EB:03:21:94:BF:FE:CE:CA
 	Valid from: 2008-10-01T10:29:56+0000
 	     until: 2033-10-01T23:59:59+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -3258,7 +3245,7 @@ Details:
 	SKI: BF:59:20:36:00:79:A0:A0:22:6B:8C:D5:F2:61:D2:B8:2C:CB:82:4A
 	Valid from: 2008-10-01T10:40:14+0000
 	     until: 2033-10-01T23:59:59+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -3272,7 +3259,7 @@ Details:
 	SKI: F2:CB:8D:E2:35:EF:10:43:C4:DA:7B:CA:FA:EB:89:03:A1:22:AF:B8
 	Valid from: 2008-10-20T12:22:08+0000
 	     until: 2028-10-20T12:52:08+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -3300,7 +3287,7 @@ Details:
 	SKI: F7:7D:C5:FD:C4:E8:9A:1B:77:64:A7:F5:1D:A0:CC:BF:87:60:9A:6D
 	Valid from: 2008-10-29T15:59:55+0000
 	     until: 2030-01-01T00:00:00+0000
-	Key usages: crl sign, cert sign
+	Key usages: cert sign, crl sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -3330,7 +3317,7 @@ Details:
 	SKI: E6:A1:13:83:FE:97:4B:F2:D8:FF:31:A1:A7:74:33:89:CE:5E:7F:A4
 	Valid from: 2008-12-11T15:12:44+0000
 	     until: 2028-12-06T15:12:44+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate, max path length 4
 	SANs (0):
 CERTIFICATE
@@ -3344,7 +3331,7 @@ Details:
 	SKI: 70:38:9E:CA:B0:0D:EA:C8:CF:25:53:80:24:1A:E3:26:CE:84:FF:22
 	Valid from: 2009-01-30T14:19:31+0000
 	     until: 2019-01-30T14:19:31+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -3357,7 +3344,7 @@ Details:
 	SKI: 8F:F0:4B:7F:A8:2E:45:24:AE:4D:50:FA:63:9A:8B:DE:E2:DD:1B:BC
 	Valid from: 2009-03-18T10:00:00+0000
 	     until: 2029-03-18T10:00:00+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -3370,7 +3357,7 @@ Details:
 	SKI: 5B:F8:4D:4F:B2:A5:86:D4:3A:D2:F1:63:9A:A0:BE:09:F6:57:B7:DE
 	Valid from: 2009-04-08T04:56:47+0000
 	     until: 2029-04-08T04:56:47+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -3383,7 +3370,7 @@ Details:
 	SKI: 3B:26:03:BA:CF:E3:59:46:42:50:AD:14:9C:BF:03:3B:EF:D6:3E:31
 	Valid from: 2009-05-19T08:45:56+0000
 	     until: 2027-05-19T08:48:15+0000
-	Key usages: crl sign, cert sign
+	Key usages: cert sign, crl sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -3438,7 +3425,7 @@ Details:
 	SKI: CB:0F:C6:DF:42:43:CC:3D:CB:B5:48:23:A1:1A:7A:A6:2A:BB:34:68
 	Valid from: 2009-06-16T11:30:18+0000
 	     until: 2029-12-30T11:30:18+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (1): email:info@e-szigno.hu
 CERTIFICATE
@@ -3511,7 +3498,7 @@ Details:
 	SKI: 5C:97:06:46:34:AB:DF:30:C5:7C:C5:0D:55:71:66:30:B5:60:8F:9E
 	Valid from: 2009-08-04T13:31:47+0000
 	     until: 2037-08-04T13:31:47+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -3551,7 +3538,7 @@ Details:
 	SKI: E0:4D:BF:DC:9B:41:5D:13:E8:64:F0:A7:E9:15:A4:E1:81:C1:BA:31
 	Valid from: 2009-08-08T01:00:01+0000
 	     until: 2039-08-08T01:00:01+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -3596,7 +3583,7 @@ Details:
 	SKI: 7C:0C:32:1F:A7:D9:30:7F:C4:7D:68:A3:62:A8:A1:CE:AB:07:5B:27
 	Valid from: 2009-09-01T00:00:00+0000
 	     until: 2037-12-31T23:59:59+0000
-	Key usages: crl sign, cert sign
+	Key usages: cert sign, crl sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -3670,7 +3657,7 @@ Details:
 	SKI: D3:94:8A:4C:62:13:2A:19:2E:CC:AF:72:8A:7D:36:D7:9A:1C:DC:67
 	Valid from: 2009-11-05T08:50:46+0000
 	     until: 2029-11-05T08:50:46+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -3727,7 +3714,7 @@ Details:
 	SKI: 15:29:8C:C5:45:69:AB:B8:B3:C3:EA:FE:4B:B8:31:D8:DC:F0:E7:76
 	Valid from: 2010-01-19T08:04:31+0000
 	     until: 2025-01-19T08:04:31+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate, max path length 1
 	SANs (0):
 CERTIFICATE
@@ -3740,7 +3727,7 @@ Details:
 	SKI: 9D:93:C6:53:8B:5E:CA:AF:3F:9F:1E:0F:E5:99:95:BC:24:F6:94:8F
 	Valid from: 2010-01-29T14:06:06+0000
 	     until: 2030-12-31T14:06:06+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -3823,7 +3810,7 @@ Details:
 	SKI: F6:6D:F8:B1:48:B3:41:43:01:DB:86:44:E5:18:05:B7:5E:CC:06:37
 	Valid from: 2010-03-03T12:41:34+0000
 	     until: 2037-12-03T13:11:34+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -3838,7 +3825,7 @@ Details:
 	SKI: 5D:07:BA:F7:8D:5D:49:F0:5C:95:90:09:F3:5E:EA:AC:D0:F6:43:B6
 	Valid from: 2010-04-14T13:33:23+0000
 	     until: 2030-04-14T13:43:19+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate, max path length 1
 	SANs (0):
 CERTIFICATE
@@ -3854,7 +3841,7 @@ Details:
 	SKI: 05:6E:E1:A1:9A:EE:07:AF:CE:F5:B4:D3:65:3D:04:50:E2:D0:9B:44
 	Valid from: 2010-05-25T16:31:22+0000
 	     until: 2030-05-25T16:31:23+0000
-	Key usages: digital signature, cert sign, crl sign
+	Key usages: cert sign, crl sign, digital signature
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -3870,7 +3857,7 @@ Details:
 	SKI: F6:12:3A:AB:7B:58:C1:8D:43:6F:76:81:D2:F2:B8:D3:EF:17:EA:0B
 	Valid from: 2010-05-25T16:56:14+0000
 	     until: 2030-05-25T16:56:14+0000
-	Key usages: digital signature, cert sign, crl sign
+	Key usages: crl sign, digital signature, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -3903,7 +3890,7 @@ Details:
 	SKI: D5:F6:56:CB:8F:E8:A2:5C:62:68:D1:3D:94:90:5B:D7:CE:9A:18:C4
 	Valid from: 2010-06-23T21:57:24+0000
 	     until: 2035-06-23T22:04:01+0000
-	Key usages: digital signature, cert sign, crl sign
+	Key usages: cert sign, crl sign, digital signature
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -3919,7 +3906,7 @@ Details:
 	SKI: 7C:72:4B:39:C7:C0:DB:62:A5:4F:9B:AA:18:34:92:A2:CA:83:82:59
 	Valid from: 2010-08-31T07:11:25+0000
 	     until: 2030-08-31T07:11:25+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -3935,7 +3922,7 @@ Details:
 	SKI: 29:20:CB:F1:C3:0F:DA:06:8E:13:93:87:FE:5F:60:1A:29:BB:F3:B6
 	Valid from: 2010-09-06T12:53:42+0000
 	     until: 2030-09-05T12:53:42+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -3949,7 +3936,7 @@ Details:
 	Serial number: 3
 	Valid from: 2010-09-15T00:00:00+0000
 	     until: 2030-09-14T00:00:00+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -4029,7 +4016,7 @@ Details:
 	SKI: 12:F2:5A:3E:EA:56:1C:BF:CD:06:AC:F1:F1:25:C9:A9:4B:D4:14:99
 	Valid from: 2010-10-30T10:10:30+0000
 	     until: 2030-12-17T23:59:59+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Extended usages: client auth, server auth, code signing, s/mime, timestamping, ocsp signing
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
@@ -4086,7 +4073,7 @@ Details:
 	SKI: 0B:58:E5:8B:C6:4C:15:37:A4:40:A9:30:A9:21:BE:47:36:5A:56:FF
 	Valid from: 2011-01-01T00:00:00+0000
 	     until: 2030-12-31T23:59:59+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -4102,7 +4089,7 @@ Details:
 	SKI: B5:1B:83:BB:3B:4F:B2:D2:FB:E5:03:8E:D4:61:5D:D1:1A:8E:B0:A2
 	Valid from: 2011-02-15T09:00:00+0000
 	     until: 2035-02-15T08:59:59+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -4132,7 +4119,7 @@ Details:
 	SKI: 17:15:85:89:09:2F:24:87:6F:3F:1D:1B:E4:F2:96:79:83:48:13:CE
 	Valid from: 2011-03-17T09:51:37+0000
 	     until: 2021-03-17T09:51:37+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -4147,7 +4134,7 @@ Details:
 	SKI: 72:2D:3A:02:31:90:43:B9:14:05:4E:E1:EA:A7:C7:31:D1:23:89:34
 	Valid from: 2011-03-22T22:05:28+0000
 	     until: 2036-03-22T22:13:04+0000
-	Key usages: digital signature, crl sign, cert sign
+	Key usages: crl sign, digital signature, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -4160,7 +4147,7 @@ Details:
 	SKI: 2B:23:20:60:BD:2D:8A:88:47:AC:AD:2B:BE:02:39:BA:98:D4:EC:98
 	Valid from: 2011-04-29T10:44:19+0000
 	     until: 2031-11-10T10:44:19+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -4174,7 +4161,7 @@ Details:
 	SKI: 8C:76:50:CE:25:D3:79:2B:3C:F4:6D:9D:9A:E1:9E:05:4F:E8:3D:25
 	Valid from: 2011-06-13T08:15:09+0000
 	     until: 2026-06-09T08:15:09+0000
-	Key usages: digital signature, content committment, cert sign, crl sign
+	Key usages: cert sign, crl sign, digital signature, content committment
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -4203,7 +4190,7 @@ Details:
 	SKI: 45:D9:A5:81:6E:3D:88:4D:8D:71:D2:46:C1:6E:45:1E:F3:C4:80:9D
 	Valid from: 2011-06-24T09:45:08+0000
 	     until: 2031-06-25T08:45:08+0000
-	Key usages: cert sign, crl sign, digital signature
+	Key usages: crl sign, digital signature, cert sign
 	Basic constraints: valid, is a CA certificate, max path length 3
 	SANs (0):
 CERTIFICATE
@@ -4217,7 +4204,7 @@ Details:
 	SKI: A7:A5:06:B1:2C:A6:09:60:EE:D1:97:E9:70:AE:BC:3B:19:6C:DB:21
 	Valid from: 2011-07-07T14:58:30+0000
 	     until: 2030-12-31T23:59:59+0000
-	Key usages: cert sign, crl sign, digital signature
+	Key usages: digital signature, crl sign, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -4245,7 +4232,7 @@ Details:
 	SKI: 02:45:93:D8:0D:48:62:AC:69:BA:AE:06:5B:3E:FB:AA:26:91:50:B1
 	Valid from: 2011-07-18T10:24:54+0000
 	     until: 2036-07-16T10:24:55+0000
-	Key usages: digital signature, cert sign, crl sign
+	Key usages: cert sign, crl sign, digital signature
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -4259,7 +4246,7 @@ Details:
 	SKI: A8:1B:83:46:D7:F8:4B:7B:AF:CE:B9:B7:2A:A6:05:9E:0E:FE:0D:96
 	Valid from: 2011-08-02T06:59:44+0000
 	     until: 2019-08-02T08:59:44+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
 CERTIFICATE
@@ -4273,7 +4260,7 @@ Details:
 	SKI: 57:95:23:B3:86:4B:FA:69:77:41:06:79:EC:10:7C:2C:02:E8:08:D4
 	Valid from: 2011-08-02T06:59:44+0000
 	     until: 2019-08-02T08:59:44+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
 CERTIFICATE
@@ -4287,7 +4274,7 @@ Details:
 	SKI: 29:75:91:76:52:09:C4:D6:08:EC:C5:25:73:E9:32:DB:02:53:C3:5B
 	Valid from: 2011-08-02T06:59:44+0000
 	     until: 2019-08-02T08:59:44+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
 CERTIFICATE
@@ -4314,7 +4301,7 @@ Details:
 	SKI: E9:E7:9D:EB:35:BD:B8:B2:2B:49:58:F4:BC:92:7D:8B:71:8A:11:5A
 	Valid from: 2011-09-01T04:26:07+0000
 	     until: 2019-01-27T02:31:24+0000
-	Key usages: content committment, cert sign, crl sign, digital signature
+	Key usages: crl sign, digital signature, content committment, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -4329,7 +4316,7 @@ Details:
 	SKI: C7:7F:0B:C8:2F:57:8E:29:F2:F6:01:8B:EB:27:A5:56:8E:FD:A4:1E
 	Valid from: 2011-09-01T08:35:21+0000
 	     until: 2041-09-01T08:45:16+0000
-	Key usages: digital signature, cert sign, crl sign
+	Key usages: crl sign, digital signature, cert sign
 	Basic constraints: valid, is a CA certificate, max path length 2
 	SANs (0):
 CERTIFICATE
@@ -4360,7 +4347,7 @@ Details:
 	SKI: 65:C0:8D:25:F5:0C:BA:97:77:90:3F:9E:2E:E0:5A:F5:CE:D5:E1:E4
 	Valid from: 2011-10-05T00:00:00+0000
 	     until: 2038-01-18T23:59:59+0000
-	Key usages: crl sign, cert sign
+	Key usages: cert sign, crl sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -4375,7 +4362,7 @@ Details:
 	SKI: 3D:32:F3:3A:A9:0C:90:84:F9:A2:8C:69:06:61:54:2F:87:72:FE:05
 	Valid from: 2011-10-05T00:00:00+0000
 	     until: 2038-01-18T23:59:59+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -4421,7 +4408,7 @@ Details:
 	SKI: 33:41:E8:C8:39:12:15:93:48:F2:96:32:2E:5A:F5:DA:94:5F:53:60
 	Valid from: 2011-10-18T00:00:00+0000
 	     until: 2037-12-01T23:59:59+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -4436,7 +4423,7 @@ Details:
 	SKI: 87:8C:20:95:C8:98:4A:D1:D6:80:06:4A:90:34:44:DF:1C:4D:BF:B0
 	Valid from: 2011-10-18T00:00:00+0000
 	     until: 2037-12-01T23:59:59+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -4449,7 +4436,7 @@ Details:
 	SKI: 53:92:A3:7D:FF:82:76:F0:33:D4:EB:92:67:47:61:33:1B:68:3B:2A
 	Valid from: 2011-12-06T11:10:57+0000
 	     until: 2031-12-06T11:10:57+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -4464,7 +4451,7 @@ Details:
 	SKI: A6:91:42:FD:13:61:4A:23:9E:08:A4:29:E5:D8:13:04:23:EE:41:25
 	Valid from: 2011-12-06T13:49:52+0000
 	     until: 2031-12-01T13:49:52+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -4503,7 +4490,7 @@ Details:
 	SKI: C6:17:D0:BC:A8:EA:02:43:F2:1B:06:99:5D:2B:90:20:B9:D7:9C:E4
 	Valid from: 2012-01-12T20:26:32+0000
 	     until: 2042-01-12T20:26:32+0000
-	Key usages: crl sign, cert sign
+	Key usages: cert sign, crl sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -4518,7 +4505,7 @@ Details:
 	SKI: 57:17:ED:A2:CF:DC:7C:98:A1:10:E0:FC:BE:87:2D:2C:F2:E3:17:54
 	Valid from: 2012-02-01T22:12:15+0000
 	     until: 2027-02-01T22:12:15+0000
-	Key usages: cert sign, crl sign, digital signature
+	Key usages: cert sign, digital signature, crl sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -4612,7 +4599,7 @@ Details:
 	SKI: E3:FE:2D:FD:28:D0:0B:B5:BA:B6:A2:C4:BF:06:AA:05:8C:93:FB:2F
 	Valid from: 2012-08-08T03:07:01+0000
 	     until: 2029-12-31T03:07:01+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -4627,7 +4614,7 @@ Details:
 	SKI: 21:C9:25:D3:6A:FE:A4:12:FF:E6:DD:57:57:CF:8F:3E:72:84:08:CD
 	Valid from: 2012-08-09T16:36:45+0000
 	     until: 2030-12-26T16:46:33+0000
-	Key usages: digital signature, cert sign, crl sign
+	Key usages: cert sign, crl sign, digital signature
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -4640,7 +4627,7 @@ Details:
 	SKI: D5:67:1D:E0:9C:7A:2C:9C:CB:C5:98:E7:1D:07:26:2A:86:EC:74:CD
 	Valid from: 2012-09-28T08:58:51+0000
 	     until: 2037-12-31T15:59:59+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -4655,7 +4642,7 @@ Details:
 	SKI: 24:9D:BC:D2:71:F7:1D:C2:25:BE:22:F1:89:A5:2C:15:3B:34:1E:5E
 	Valid from: 2012-10-18T00:00:00+0000
 	     until: 2037-12-01T23:59:59+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -4670,7 +4657,7 @@ Details:
 	SKI: 39:71:08:00:3E:DE:C8:86:E7:90:FF:E4:FD:21:0F:CE:24:19:16:F6
 	Valid from: 2012-10-18T00:00:00+0000
 	     until: 2037-12-01T23:59:59+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -4696,7 +4683,7 @@ Details:
 	SKI: 3D:E6:29:48:9B:EA:07:CA:21:44:4A:26:DE:6E:DE:D2:83:D0:9F:59
 	Valid from: 2012-11-13T00:00:00+0000
 	     until: 2038-01-19T03:14:07+0000
-	Key usages: crl sign, cert sign
+	Key usages: cert sign, crl sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -4731,7 +4718,7 @@ Details:
 	SKI: 2E:E3:DB:B2:49:D0:9C:54:79:5C:FA:27:2A:FE:CC:4E:D2:E8:4E:54
 	Valid from: 2013-03-05T12:09:48+0000
 	     until: 2023-03-03T12:09:48+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -4774,7 +4761,7 @@ Details:
 	SKI: 56:A7:AC:AA:02:1D:B2:AC:3D:90:0E:A0:6F:2E:41:C6:76:E7:7B:DA
 	Valid from: 2013-03-12T15:00:00+0000
 	     until: 2033-03-12T15:00:00+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -4803,7 +4790,7 @@ Details:
 	SKI: CE:C3:4A:B9:99:55:F2:B8:DB:60:BF:A9:7E:BD:56:B5:97:36:A7:D6
 	Valid from: 2013-08-01T12:00:00+0000
 	     until: 2038-01-15T12:00:00+0000
-	Key usages: digital signature, cert sign, crl sign
+	Key usages: cert sign, crl sign, digital signature
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -4816,7 +4803,7 @@ Details:
 	SKI: CB:D0:BD:A9:E1:98:05:51:A1:4D:37:A2:83:79:CE:8D:1D:2A:E4:84
 	Valid from: 2013-08-01T12:00:00+0000
 	     until: 2038-01-15T12:00:00+0000
-	Key usages: cert sign, crl sign, digital signature
+	Key usages: crl sign, digital signature, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -4829,7 +4816,7 @@ Details:
 	SKI: 4E:22:54:20:18:95:E6:E3:6E:E6:0F:FA:FA:B9:12:ED:06:17:8F:39
 	Valid from: 2013-08-01T12:00:00+0000
 	     until: 2038-01-15T12:00:00+0000
-	Key usages: digital signature, cert sign, crl sign
+	Key usages: cert sign, crl sign, digital signature
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -4842,7 +4829,7 @@ Details:
 	SKI: B3:DB:48:A4:F9:A1:C5:D8:AE:36:41:CC:11:63:69:62:29:BC:4B:C6
 	Valid from: 2013-08-01T12:00:00+0000
 	     until: 2038-01-15T12:00:00+0000
-	Key usages: digital signature, cert sign, crl sign
+	Key usages: crl sign, digital signature, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -4869,7 +4856,7 @@ Details:
 	SKI: EF:91:4C:F5:A5:C3:30:E8:2F:08:EA:D3:71:22:A4:92:68:78:74:D9
 	Valid from: 2013-10-21T09:17:18+0000
 	     until: 2033-10-21T09:17:18+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -4884,7 +4871,7 @@ Details:
 	SKI: 9A:7D:D7:EB:EB:7F:54:98:45:29:B4:20:AB:6D:0B:96:23:19:A4:C2
 	Valid from: 2013-10-22T00:00:00+0000
 	     until: 2038-10-21T23:59:59+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -4897,7 +4884,7 @@ Details:
 	SKI: 54:AD:FA:C7:92:57:AE:CA:35:9C:2E:12:FB:E4:BA:5D:20:DC:94:57
 	Valid from: 2013-11-14T11:28:42+0000
 	     until: 2028-11-13T23:00:00+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -4951,6 +4938,6 @@ Details:
 	SKI: BB:B0:DE:A1:58:33:88:9A:A4:8A:99:DE:BE:BD:EB:AF:DA:CB:24:AB
 	Valid from: 2014-04-30T18:19:06+0000
 	     until: 2039-04-30T18:19:06+0000
-	Key usages: cert sign, crl sign
+	Key usages: crl sign, cert sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
