@@ -112,15 +112,15 @@ release () {
 	if [ -n "${NEW_ROOTS:-}" ]
 	then
 		echo "Adding new roots:"
-		certdump "${NEW_ROOTS}"
-		cfssl-trust ${DATABASE_PATH} ${CONFIG_PATH} -b ca -r ${LATEST_RELEASE} import "${NEW_ROOTS}"
+		certdump ${NEW_ROOTS}
+		cfssl-trust ${DATABASE_PATH} ${CONFIG_PATH} -b ca -r ${LATEST_RELEASE} import ${NEW_ROOTS}
 	fi
 
 	if [ -n "${NEW_INTERMEDIATES:-}" ]
 	then
 		echo "Adding new intermediates:"
-		certdump "${NEW_INTERMEDIATES}"
-		cfssl-trust ${DATABASE_PATH} ${CONFIG_PATH} -b int -r ${LATEST_RELEASE} import "${NEW_INTERMEDIATES}"
+		certdump ${NEW_INTERMEDIATES}
+		cfssl-trust ${DATABASE_PATH} ${CONFIG_PATH} -b int -r ${LATEST_RELEASE} import ${NEW_INTERMEDIATES}
 	fi
 
 	# Add the database changes to the release git branch.
@@ -130,9 +130,9 @@ release () {
 	#
 	# They also should be added to the release git branch.
 	echo "$ cfssl-trust ${DATABASE_PATH} ${CONFIG_PATH} -r ${LATEST_RELEASE} -b int bundle int-bundle.crt"
-	cfssl-trust ${DATABASE_PATH} ${CONFIG_PATH} -r "${LATEST_RELEASE}" -b int bundle int-bundle.crt
-	echo "$ cfssl-trust ${DATABASE_PATH} ${CONFIG_PATH} -r ${LATEST_RELEASE} -b ca  bundle ca-bundle.crt"
-	cfssl-trust ${DATABASE_PATH} ${CONFIG_PATH} -r "${LATEST_RELEASE}" -b ca  bundle ca-bundle.crt
+	cfssl-trust ${DATABASE_PATH} ${CONFIG_PATH} -r ${LATEST_RELEASE} -b int bundle int-bundle.crt
+	echo "$ cfssl-trust ${DATABASE_PATH} ${CONFIG_PATH} -r ${LATEST_RELEASE} -b ca bundle ca-bundle.crt"
+	cfssl-trust ${DATABASE_PATH} ${CONFIG_PATH} -r ${LATEST_RELEASE} -b ca  bundle ca-bundle.crt
 	git add int-bundle.crt ca-bundle.crt
 
 	## Step 5: update the human-readable trust store lists.
