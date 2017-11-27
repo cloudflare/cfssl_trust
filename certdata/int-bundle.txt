@@ -6191,26 +6191,6 @@ Details:
 	OCSP server:
 		- http://ocsp.godaddy.com/
 CERTIFICATE
-Subject: /*.dx.com/OU=Domain Control Validated
-Issuer: /Go Daddy Secure Certificate Authority - G2/C=US/O=GoDaddy.com,
-    Inc./OU=http://certs.godaddy.com/repository//L=Scottsdale/ST=Arizona
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 14710396780592282842
-	AKI: 40:C2:BD:27:8E:CC:34:83:30:A2:33:D7:FB:6C:B3:F0:B4:2C:80:CE
-	SKI: 91:80:B4:A8:16:20:B0:E0:BA:2C:A3:F8:58:0B:BC:21:E8:9A:99:14
-	Valid from: 2016-10-08T01:37:38+0000
-	     until: 2017-12-27T09:22:18+0000
-	Key usages: digital signature, key encipherment
-	Extended usages: client auth, server auth
-	Basic constraints: valid
-	SANs (2): dns:*.dx.com, dns:dx.com
-	1 AIA:
-		http://certificates.godaddy.com/repository/gdig2.crt
-	OCSP server:
-		- http://ocsp.godaddy.com/
-CERTIFICATE
 Subject: /AlphaSSL CA - SHA256 - G2/C=BE/O=GlobalSign nv-sa
 Issuer: /GlobalSign/O=GlobalSign/OU=GlobalSign Root CA - R3
 	Signature algorithm: RSA / SHA256
@@ -6388,3 +6368,55 @@ Details:
 		http://crt.usertrust.com/USERTrustRSAAddTrustCA.crt
 	OCSP server:
 		- http://ocsp.usertrust.com
+CERTIFICATE
+Subject: /GeoTrust TLS RSA CA G1/C=US/O=DigiCert Inc/OU=www.digicert.com
+Issuer: /DigiCert Global Root G2/C=US/O=DigiCert Inc/OU=www.digicert.com
+	Signature algorithm: RSA / SHA256
+Details:
+	Public key: RSA-2048
+	Serial number: 17318747245906231087668175401711030649
+	AKI: 4E:22:54:20:18:95:E6:E3:6E:E6:0F:FA:FA:B9:12:ED:06:17:8F:39
+	SKI: 94:4F:D4:5D:8B:E4:A4:E2:A6:80:FE:FD:D8:F9:00:EF:A3:BE:02:57
+	Valid from: 2017-11-02T12:23:37+0000
+	     until: 2027-11-02T12:23:37+0000
+	Key usages: cert sign, crl sign, digital signature
+	Extended usages: client auth, server auth
+	Basic constraints: valid, is a CA certificate, max path length 0
+	SANs (0):
+	OCSP server:
+		- http://ocsp.digicert.com
+CERTIFICATE
+Subject: /GeoTrust EV RSA CA 2018/C=US/O=DigiCert Inc/OU=www.digicert.com
+Issuer: /DigiCert High Assurance EV Root CA/C=US/O=DigiCert
+    Inc/OU=www.digicert.com
+	Signature algorithm: RSA / SHA256
+Details:
+	Public key: RSA-2048
+	Serial number: 5311377080715406728283424638638659411
+	AKI: B1:3E:C3:69:03:F8:BF:47:01:D4:98:26:1A:08:02:EF:63:64:2B:C3
+	SKI: CA:92:67:52:61:DE:AE:FC:BA:22:2B:7F:1C:87:4C:25:FB:6F:99:58
+	Valid from: 2017-11-06T12:22:46+0000
+	     until: 2027-11-06T12:22:46+0000
+	Key usages: cert sign, crl sign, digital signature
+	Extended usages: client auth, server auth
+	Basic constraints: valid, is a CA certificate, max path length 0
+	SANs (0):
+	OCSP server:
+		- http://ocsp.digicert.com
+CERTIFICATE
+Subject: /GeoTrust RSA CA 2018/C=US/O=DigiCert Inc/OU=www.digicert.com
+Issuer: /DigiCert Global Root CA/C=US/O=DigiCert Inc/OU=www.digicert.com
+	Signature algorithm: RSA / SHA256
+Details:
+	Public key: RSA-2048
+	Serial number: 7014754403668890451052340637799309683
+	AKI: 03:DE:50:35:56:D1:4C:BB:66:F0:A3:E2:1B:1B:C3:97:B2:3D:D1:55
+	SKI: 90:58:FF:B0:9C:75:A8:51:54:77:B1:ED:F2:A3:43:16:38:9E:6C:C5
+	Valid from: 2017-11-06T12:23:45+0000
+	     until: 2027-11-06T12:23:45+0000
+	Key usages: cert sign, crl sign, digital signature
+	Extended usages: client auth, server auth
+	Basic constraints: valid, is a CA certificate, max path length 0
+	SANs (0):
+	OCSP server:
+		- http://ocsp.digicert.com
