@@ -2871,23 +2871,6 @@ Details:
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
-Subject: /TÜRKTRUST Elektronik Sertifika Hizmet
-    Sağlayıcısı/C=TR/O=TÜRKTRUST Bilgi İletişim ve Bilişim Güvenliği
-    Hizmetleri A.Ş. (c) Aralık 2007/L=Ankara
-Issuer: /TÜRKTRUST Elektronik Sertifika Hizmet
-    Sağlayıcısı/C=TR/O=TÜRKTRUST Bilgi İletişim ve Bilişim Güvenliği
-    Hizmetleri A.Ş. (c) Aralık 2007/L=Ankara
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 1
-	SKI: 29:C5:90:AB:25:AF:11:E4:61:BF:A3:FF:88:61:91:E6:0E:FE:9C:81
-	Valid from: 2007-12-25T18:37:19+0000
-	     until: 2017-12-22T18:37:19+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
 Subject: /UCA Global Root/C=CN/O=UniTrust
 Issuer: /UCA Global Root/C=CN/O=UniTrust
 	Signature algorithm: RSA / SHA1
