@@ -1,4 +1,4 @@
-// Package cert contains Go definitions for the database
+// Package certdb contains Go definitions for the database
 // representation of certificates, as well as associated code for
 // putting it into the database.
 package certdb
@@ -312,7 +312,7 @@ func (aia *AIA) Select(tx *sql.Tx) error {
 	return nil
 }
 
-// AIA populates an AIA structure from a Certificate.
+// NewAIA populates an AIA structure from a Certificate.
 func NewAIA(cert *Certificate) *AIA {
 	if len(cert.cert.IssuingCertificateURL) == 0 {
 		return nil
@@ -453,6 +453,8 @@ func (r *Release) Previous(db *sql.DB) (*Release, error) {
 	return prev, err
 }
 
+// AllReleases returns the list of all releases, sorted in reverse chronological
+// order.
 func AllReleases(db *sql.DB, bundle string) ([]*Release, error) {
 	if !validBundle(bundle) {
 		return nil, errors.New("model/certdb: invalid bundle " + bundle)

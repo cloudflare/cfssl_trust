@@ -49,6 +49,8 @@ func writeCertificateReleases(w io.Writer, tx *sql.Tx, cert *certdb.Certificate)
 	return err
 }
 
+// WriteCertificateInformation pretty prints details about the given certificate
+// to the given io.Writer.
 func WriteCertificateInformation(w io.Writer, db *sql.DB, cert *certdb.Certificate) error {
 	tx, err := db.Begin()
 	if err != nil {
@@ -81,6 +83,7 @@ type CertificateMetadata struct {
 	cert     *certdb.Certificate
 }
 
+// LoadCertificateMetadata returns the metadata for a given certificate.
 func LoadCertificateMetadata(tx *sql.Tx, cert *certdb.Certificate) (*CertificateMetadata, error) {
 	x509Cert := cert.X509()
 	cm := &CertificateMetadata{

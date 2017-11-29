@@ -39,7 +39,7 @@ programming language described at https://golang.org/s/re2syntax.
 }
 
 func init() {
-	RootCmd.AddCommand(searchCmd)
+	rootCmd.AddCommand(searchCmd)
 }
 
 func search(cmd *cobra.Command, args []string) {

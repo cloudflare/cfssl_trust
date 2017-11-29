@@ -6,8 +6,10 @@ import (
 	"strings"
 )
 
+// DateFormat defines the format for printing time.Time values
 const DateFormat = "2006-01-02T15:04:05-0700"
 
+// NameToString stringifies a X.509 distinguished name.
 func NameToString(name pkix.Name) string {
 	var ns []string
 

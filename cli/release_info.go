@@ -20,7 +20,7 @@ var releaseInfoCmd = &cobra.Command{
 }
 
 func init() {
-	RootCmd.AddCommand(releaseInfoCmd)
+	rootCmd.AddCommand(releaseInfoCmd)
 }
 
 func releaseInfo(cmd *cobra.Command, args []string) {

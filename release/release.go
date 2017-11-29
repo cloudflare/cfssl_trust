@@ -20,9 +20,9 @@ func New() Release {
 	}
 }
 
-// Releases use a YYYY-MM-IT form, where IT is the current iteration
-// of the package this month. Extra allows for additional information
-// (such as "-dirty") in the release.
+// Release represents a release tag. They use a YYYY-MM-IT form, where
+// IT is the current iteration of the package this month. Extra allows
+// for additional information (such as "-dirty") in the release.
 type Release struct {
 	Year      int
 	Month     int

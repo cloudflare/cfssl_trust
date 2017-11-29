@@ -53,7 +53,7 @@ certificates included and skipped.
  `, Run: rollRelease}
 
 func init() {
-	RootCmd.AddCommand(releaseCmd)
+	rootCmd.AddCommand(releaseCmd)
 }
 
 func getReleaseForRoll(db *sql.DB, releaseName string) (from, to *certdb.Release, err error) {

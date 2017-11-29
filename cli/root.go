@@ -33,15 +33,16 @@ var configLocations = []string{
 	filepath.Join(config.GoPath(), "src", "github.com", "cloudflare", "cfssl_trust"),
 }
 
-var RootCmd = &cobra.Command{
+var rootCmd = &cobra.Command{
 	Use:   "cfssl-trust",
 	Short: "Manage a trust database for root and intermediate bundles.",
 	Long:  ``,
 	Run:   root,
 }
 
+// Execute runs the cfssl-trust binary
 func Execute() {
-	if err := RootCmd.Execute(); err != nil {
+	if err := rootCmd.Execute(); err != nil {
 		fmt.Println(err)
 		os.Exit(-1)
 	}
@@ -79,12 +80,12 @@ func cleanup(tx *sql.Tx, db *sql.DB, err error) {
 func init() {
 	cobra.OnInitialize(initConfig)
 
-	RootCmd.PersistentFlags().StringVarP(&bundle, "bundle", "b", "int", "select a bundle (ca or int)")
-	RootCmd.PersistentFlags().StringVarP(&cfgFile, "config", "f", "", "config file (default is /etc/cfssl/cfssl-trust.yaml)")
-	RootCmd.PersistentFlags().StringVarP(&dbFile, "db", "d", "", "path to trust database")
-	RootCmd.PersistentFlags().StringVarP(&bundleRelease, "release", "r", "", "select a release")
+	rootCmd.PersistentFlags().StringVarP(&bundle, "bundle", "b", "int", "select a bundle (ca or int)")
+	rootCmd.PersistentFlags().StringVarP(&cfgFile, "config", "f", "", "config file (default is /etc/cfssl/cfssl-trust.yaml)")
+	rootCmd.PersistentFlags().StringVarP(&dbFile, "db", "d", "", "path to trust database")
+	rootCmd.PersistentFlags().StringVarP(&bundleRelease, "release", "r", "", "select a release")
 
-	viper.BindPFlag("database.path", RootCmd.PersistentFlags().Lookup("db"))
+	viper.BindPFlag("database.path", rootCmd.PersistentFlags().Lookup("db"))
 }
 
 // initConfig reads in config file and ENV variables if set.
