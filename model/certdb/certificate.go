@@ -347,7 +347,6 @@ func tableForBundle(bundle string) string {
 		// to panic and stop the world (generating a stack trace)
 		// than to continue.
 		panic("certdb: bundle should have been validated before the table selection")
-		return ""
 	}
 }
 
