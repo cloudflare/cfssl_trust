@@ -1,8 +1,6 @@
 package main
 
 import (
-	"fmt"
-	"io/ioutil"
 	"os"
 	"path/filepath"
 	"testing"
@@ -36,26 +34,21 @@ func TestParseBundles(t *testing.T) {
 	}
 }
 
-var certDirs = []string{
-	"ca-bundle",
-	"intermediate_ca",
+var trustedRootDirs = []string{
+	"trusted_roots",
 }
 
-func TestParseCertDirs(t *testing.T) {
-	for _, dir := range certDirs {
+func TestParseTrustedRoots(t *testing.T) {
+	for _, dir := range trustedRootDirs {
 		err := filepath.Walk(dir, func(path string, info os.FileInfo, err error) error {
 			if err != nil || info.IsDir() {
 				return err
 			}
 
-			certPEM, err := ioutil.ReadFile(path)
-			if err != nil {
-				return fmt.Errorf("%s: %v", path, err)
+			if _, err := helpers.LoadPEMCertPool(path); err != nil {
+				t.Fatal(err)
 			}
 
-			if _, err = helpers.ParseCertificatePEM(certPEM); err != nil {
-				return fmt.Errorf("%s: %v", path, err)
-			}
 			return nil
 		})
 		if err != nil {
