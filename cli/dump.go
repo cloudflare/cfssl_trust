@@ -18,7 +18,7 @@ var dumpCmd = &cobra.Command{
 }
 
 func init() {
-	RootCmd.AddCommand(dumpCmd)
+	rootCmd.AddCommand(dumpCmd)
 }
 
 func dumper(cmd *cobra.Command, args []string) {

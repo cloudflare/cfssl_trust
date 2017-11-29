@@ -9,7 +9,7 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	_ "github.com/mattes/migrate/driver/sqlite3"
+	_ "github.com/mattes/migrate/driver/sqlite3" // load sql driver
 	"github.com/mattes/migrate/migrate"
 )
 
@@ -53,5 +53,5 @@ func setup(cmd *cobra.Command, args []string) {
 }
 
 func init() {
-	RootCmd.AddCommand(setupCmd)
+	rootCmd.AddCommand(setupCmd)
 }

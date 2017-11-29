@@ -22,7 +22,7 @@ due to certificate expiry or revocation.`,
 }
 
 func init() {
-	RootCmd.AddCommand(expiringCmd)
+	rootCmd.AddCommand(expiringCmd)
 }
 
 func showExpiredCert(cert *certdb.Certificate, reason string) {

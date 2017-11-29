@@ -9,7 +9,7 @@ import (
 
 	"github.com/cloudflare/cfssl/helpers"
 	"github.com/cloudflare/cfssl_trust/model/certdb"
-	_ "github.com/mattn/go-sqlite3"
+	_ "github.com/mattn/go-sqlite3" // load sql driver
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 )
@@ -22,7 +22,7 @@ var importCmd = &cobra.Command{
 }
 
 func init() {
-	RootCmd.AddCommand(importCmd)
+	rootCmd.AddCommand(importCmd)
 }
 
 func importCertificate(tx *sql.Tx, cert *x509.Certificate, rel *certdb.Release) error {

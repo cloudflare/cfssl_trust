@@ -19,7 +19,7 @@ var infoCmd = &cobra.Command{
 }
 
 func init() {
-	RootCmd.AddCommand(infoCmd)
+	rootCmd.AddCommand(infoCmd)
 }
 
 func showInfoForCertificates(db *sql.DB, certs []*certdb.Certificate) error {

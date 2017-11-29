@@ -22,7 +22,7 @@ filename, the bundle will be written to that file.`,
 }
 
 func init() {
-	RootCmd.AddCommand(bundleCmd)
+	rootCmd.AddCommand(bundleCmd)
 }
 
 func encodeBundle(certs []*certdb.Certificate) string {
