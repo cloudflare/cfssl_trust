@@ -51,7 +51,7 @@ func TestString(t *testing.T) {
 
 	for _, br := range badReleases {
 		if _, err := Parse(br); err == nil {
-			t.Fatalf("release: %s should be a bad release")
+			t.Fatalf("release: %s should be a bad release", br)
 		}
 	}
 }
@@ -144,7 +144,7 @@ func TestIncrement(t *testing.T) {
 
 		cmp := rel.Cmp(tc.a)
 		if cmp != 1 {
-			t.Log("release: Cmp() returned %d, but it should have returned 1", cmp)
+			t.Logf("release: Cmp() returned %d, but it should have returned 1", cmp)
 			t.Error("release: this indicates that the incremented release does not represent a later release.")
 		}
 	}
