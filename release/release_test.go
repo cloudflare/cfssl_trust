@@ -45,7 +45,7 @@ func TestString(t *testing.T) {
 		if cmp != 0 {
 			t.Logf("release: Cmp() should return 0, but returned %d", cmp)
 			t.Logf("release: test case was '%#v', parsed was '%#v'", tc.r, rel)
-			t.Error()
+			t.Error("release: failed")
 		}
 	}
 
