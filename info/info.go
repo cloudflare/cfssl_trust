@@ -20,8 +20,8 @@ Issuer: %s
 	Not After: %s
 `, common.NameToString(cert.Subject),
 		common.NameToString(cert.Issuer),
-		cert.NotBefore.Format(common.DateFormat),
-		cert.NotAfter.Format(common.DateFormat),
+		cert.NotBefore.UTC().Format(common.DateFormat),
+		cert.NotAfter.UTC().Format(common.DateFormat),
 	)
 	return err
 }
@@ -40,7 +40,7 @@ func writeCertificateReleases(w io.Writer, tx *sql.Tx, cert *certdb.Certificate)
 	for _, rel := range releases {
 		_, err = fmt.Fprintf(w, "\t- %s %s (%s)\n",
 			rel.Version, rel.Bundle,
-			time.Unix(rel.ReleasedAt, 0).Format(common.DateFormat))
+			time.Unix(rel.ReleasedAt, 0).UTC().Format(common.DateFormat))
 		if err != nil {
 			break
 		}
@@ -107,8 +107,8 @@ Issuer: %s
 	Not After: %s
 `, (cert.Subject),
 		(cert.Issuer),
-		x509Cert.NotBefore.Format(common.DateFormat),
-		x509Cert.NotAfter.Format(common.DateFormat),
+		x509Cert.NotBefore.UTC().Format(common.DateFormat),
+		x509Cert.NotAfter.UTC().Format(common.DateFormat),
 	)
 	if err != nil {
 		return err
@@ -122,7 +122,7 @@ Issuer: %s
 	for _, rel := range cert.Releases {
 		_, err = fmt.Fprintf(w, "\t\t- %s %s (%s)\n",
 			rel.Version, rel.Bundle,
-			time.Unix(rel.ReleasedAt, 0).Format(common.DateFormat))
+			time.Unix(rel.ReleasedAt, 0).UTC().Format(common.DateFormat))
 		if err != nil {
 			break
 		}

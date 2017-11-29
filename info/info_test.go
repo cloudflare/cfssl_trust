@@ -108,7 +108,7 @@ Issuer: /C=US/OU=Dropsonde Certificate Authority/L=San Francisco/ST=California
 	Not Before: 2017-03-22T21:24:00+0000
 	Not After: 2018-03-22T21:24:00+0000
 Releases:
-	- 2017.3.0 ca (2017-03-29T15:47:36-0700)`
+	- 2017.3.0 ca (2017-03-29T22:47:36+0000)`
 	out := strings.TrimSpace(buf.String())
 
 	if out != expected {
