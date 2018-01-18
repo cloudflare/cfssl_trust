@@ -65,8 +65,12 @@ check_for_tool () {
 
 prologue () {
 	check_for_tool cfssl-trust
-	check_for_tool certdump
 	check_for_tool mktemp
+
+	# install the vendored certdump. fallback to $HOME/go if $GOPATH is not set.
+	cd "${GOPATH:-${HOME}/go}/src/github.com/cloudflare/cfssl_trust/vendor/kisom/goutils/cmd/certdump"
+	go install
+	cd -
 
 	# This release script expects to be run from the repo's top level.
 	cd "$(git rev-parse --show-toplevel)" || exit 1

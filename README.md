@@ -50,14 +50,6 @@ systems. Currently, we have trust stores from
 
 ### Release
 
-#### Prerequisites
-
-```
-$ go get -u github.com/kisom/goutils/cmd/certdump
-$ go get -u github.com/cloudflare/cfssl/cmd/...
-$ go get -u github.com/cloudflare/cfssl_trust/...
-```
-
 #### Build
 
 The final bundles (i.e. `ca-bundle.crt` and `int-bundle.crt`) may be

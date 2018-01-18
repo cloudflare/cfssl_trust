@@ -1,14 +1,15 @@
 sudo: false
 language: go
 go:
-  - tip
+  - master
+  - 1.9
+  - 1.8
   - 1.7
-  - 1.6
+install: true # don't try to install missing deps. everything is in vendor/
 before_script:
-  - go get -u github.com/golang/lint/golint
-install:
-  - go get github.com/Masterminds/glide
-  - glide install
+  - cd vendor/github.com/golang/lint/golint
+  - go install
+  - cd -
 script:
   - ./test.sh
 notifications:

@@ -1,0 +1,25 @@
+required = [
+	"github.com/golang/lint/golint",
+	"github.com/kisom/goutils/cmd/certdump"
+]
+
+[[constraint]]
+  name = "github.com/mattes/migrate"
+  version = "1.3.0"
+
+[[constraint]]
+  name = "github.com/mattn/go-sqlite3"
+  version = "1.2.0"
+
+[[constraint]]
+  name = "github.com/prometheus/client_golang"
+  version = "0.8.0"
+
+[[constraint]]
+  name = "gopkg.in/DATA-DOG/go-sqlmock.v1"
+  version = "1.2.0"
+
+[prune]
+  go-tests = true
+  non-go = true
+  unused-packages = true
