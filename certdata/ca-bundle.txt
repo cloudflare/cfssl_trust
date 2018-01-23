@@ -1434,21 +1434,6 @@ Details:
 	Basic constraints: valid, is a CA certificate
 	SANs (1): email:ec_acc@catcert.net
 CERTIFICATE
-Subject: /Izenpe.com/C=ES/O=IZENPE S.A. - CIF A-01337260-RMerc.Vitoria-Gasteiz
-    T1055 F62 S8/L=Avda del Mediterraneo Etorbidea 3 - 01010 Vitoria-Gasteiz
-Issuer: /Izenpe.com/C=ES/O=IZENPE S.A. - CIF A-01337260-RMerc.Vitoria-Gasteiz
-    T1055 F62 S8/L=Avda del Mediterraneo Etorbidea 3 - 01010 Vitoria-Gasteiz
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 1
-	SKI: EA:56:4F:EC:3C:83:A1:14:88:78:81:B2:2B:05:22:C0:07:41:5B:42
-	Valid from: 2003-01-30T23:00:00+0000
-	     until: 2018-01-30T23:00:00+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
 Subject: /C=SI/O=POSTA/OU=POSTArCA
 Issuer: /C=SI/O=POSTA/OU=POSTArCA
 	Signature algorithm: RSA / SHA1
