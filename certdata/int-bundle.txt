@@ -5584,24 +5584,6 @@ Details:
 	OCSP server:
 		- http://ocsp.godaddy.com/
 CERTIFICATE
-Subject: /*.eventer.co.il
-Issuer: /RapidSSL SHA256 CA/C=US/O=GeoTrust Inc.
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 100598742577238107852985828629506272700
-	AKI: 97:C2:27:50:9E:C2:C9:EC:0C:88:32:C8:7C:AD:E2:A6:01:4F:DA:6F
-	Valid from: 2016-03-13T00:00:00+0000
-	     until: 2018-03-13T23:59:59+0000
-	Key usages: digital signature, key encipherment
-	Extended usages: client auth, server auth
-	Basic constraints: valid
-	SANs (2): dns:*.eventer.co.il, dns:eventer.co.il
-	1 AIA:
-		http://gp.symcb.com/gp.crt
-	OCSP server:
-		- http://gp.symcd.com
-CERTIFICATE
 Subject: /Let's Encrypt Authority X3/C=US/O=Let's Encrypt
 Issuer: /DST Root CA X3/O=Digital Signature Trust Co.
 	Signature algorithm: RSA / SHA256
