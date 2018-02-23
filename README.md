@@ -82,3 +82,26 @@ providing values for the `NEW_ROOTS` and `NEW_INTERMEDIATES` variables:
 ```
 $ NEW_ROOTS="/path/to/root1 /path/to/root2" NEW_INTERMEDIATES="/path/to/int1 /path/to/int22" ./release.sh
 ```
+
+#### Check for expiring roots or intermediates
+
+To verify that an intermediate or root certificate is expiring or revoked without creating a release, the `expiring` command can be used from the project root directory.
+
+To check for expiring or revoked intermediate certificates in the database provided in this repo:
+```
+$ cfssl-trust -d ./cert.db -b int expiring
+```
+To check for expiring or revoked root certificates:
+```
+$ cfssl-trust -d ./cert.db -b ca expiring
+```
+
+`./cert.db` which is specified as the database using the `-d` flag, contains both intermediate and root certificates.
+Any certificate database can be used here in place of `./cert.db`
+
+These calls to the `expiring` command will provide an output showing if there are any expiring or revoked certificates.
+```
+...
+1 certificates expiring.
+0 certificates revoked.
+```
