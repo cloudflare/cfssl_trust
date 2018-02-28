@@ -5602,25 +5602,6 @@ Details:
 	OCSP server:
 		- http://isrg.trustid.ocsp.identrust.com
 CERTIFICATE
-Subject: /www.digicoin.com/C=PA/O=Digicoin, Inc./L=Panama City/ST=Panama City
-Issuer: /GeoTrust EV SSL CA - G4/C=US/O=GeoTrust Inc.
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 15529893862172317456960345419418811930
-	AKI: DE:CF:5C:50:B7:AE:02:1F:15:17:AA:16:E8:0D:B5:28:9D:6A:5A:F3
-	Valid from: 2016-03-23T00:00:00+0000
-	     until: 2018-03-23T23:59:59+0000
-	Key usages: digital signature, key encipherment
-	Extended usages: client auth, server auth
-	Basic constraints: valid
-	SANs (5): dns:developer.digicoin.com, dns:demo.digicoin.com,
-            dns:secure.digicoin.com, dns:www.digicoin.com, dns:digicoin.com
-	1 AIA:
-		http://gm.symcb.com/gm.crt
-	OCSP server:
-		- http://gm.symcd.com
-CERTIFICATE
 Subject: /UbiquiTLS™ DV RSA Server CA/C=GB/O=COMODO CA
     Limited/L=Salford/ST=Greater Manchester
 Issuer: /COMODO RSA Certification Authority/C=GB/O=COMODO CA
