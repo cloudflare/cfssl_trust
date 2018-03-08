@@ -2898,36 +2898,6 @@ Details:
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
-Subject: /I.CA - Standard root certificate/C=CZ/O=Prvni certifikacni autorita
-    a.s.
-Issuer: /I.CA - Standard root certificate/C=CZ/O=Prvni certifikacni autorita
-    a.s.
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 1300000
-	SKI: EB:37:A4:BE:B9:6F:60:17:FB:D3:FF:2D:60:E1:04:1E:AF:CF:C6:D3
-	Valid from: 2008-04-01T00:00:00+0000
-	     until: 2018-04-01T00:00:00+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
-Subject: /I.CA - Qualified root certificate/C=CZ/O=První certifikační
-    autorita, a.s.
-Issuer: /I.CA - Qualified root certificate/C=CZ/O=První certifikační
-    autorita, a.s.
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 10300000
-	SKI: 68:9D:7E:D6:C4:25:39:FB:3B:A0:37:D6:4F:DC:8C:D1:7A:F0:56:59
-	Valid from: 2008-04-01T00:00:00+0000
-	     until: 2018-04-01T00:00:00+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
 Subject: /thawte Primary Root CA - G3/C=US/O=thawte, Inc./OU=Certification
     Services Division/OU=(c) 2008 thawte, Inc. - For authorized use only
 Issuer: /thawte Primary Root CA - G3/C=US/O=thawte, Inc./OU=Certification
