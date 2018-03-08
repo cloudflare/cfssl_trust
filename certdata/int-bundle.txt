@@ -5623,26 +5623,6 @@ Details:
 	OCSP server:
 		- http://ocsp.comodoca.com
 CERTIFICATE
-Subject: /*.blomming.com/OU=Domain Control Validated
-Issuer: /Go Daddy Secure Certificate Authority - G2/C=US/O=GoDaddy.com,
-    Inc./OU=http://certs.godaddy.com/repository//L=Scottsdale/ST=Arizona
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 1729323792481620927
-	AKI: 40:C2:BD:27:8E:CC:34:83:30:A2:33:D7:FB:6C:B3:F0:B4:2C:80:CE
-	SKI: CC:68:22:8F:FA:E1:4A:3E:A8:F4:DD:CD:86:F6:99:13:B9:F1:EE:1D
-	Valid from: 2016-03-31T17:00:38+0000
-	     until: 2018-03-31T17:00:38+0000
-	Key usages: digital signature, key encipherment
-	Extended usages: client auth, server auth
-	Basic constraints: valid
-	SANs (2): dns:*.blomming.com, dns:blomming.com
-	1 AIA:
-		http://certificates.godaddy.com/repository/gdig2.crt
-	OCSP server:
-		- http://ocsp.godaddy.com/
-CERTIFICATE
 Subject: /*.realm.io/OU=Domain Control Validated/OU=PositiveSSL Wildcard
 Issuer: /COMODO RSA Domain Validation Secure Server CA/C=GB/O=COMODO CA
     Limited/L=Salford/ST=Greater Manchester
