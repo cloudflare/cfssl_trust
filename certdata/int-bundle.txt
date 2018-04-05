@@ -5508,25 +5508,6 @@ Details:
 	OCSP server:
 		- http://subca.ocsp-certum.com
 CERTIFICATE
-Subject: /*.adcocktail.com/C=DE/O=SX-WebSolutions und Marketing
-    GmbH/L=Cottbus/ST=Brandenburg
-Issuer: /thawte SHA256 SSL CA/C=US/O=thawte, Inc.
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 129706145867471066917532551257054132208
-	AKI: 2B:9A:35:AE:01:18:38:30:E1:70:7A:05:E0:11:76:A3:CE:BD:90:14
-	Valid from: 2016-02-09T00:00:00+0000
-	     until: 2018-04-09T23:59:59+0000
-	Key usages: digital signature, key encipherment
-	Extended usages: client auth, server auth
-	Basic constraints: valid
-	SANs (2): dns:*.adcocktail.com, dns:adcocktail.com
-	1 AIA:
-		http://tg.symcb.com/tg.crt
-	OCSP server:
-		- http://tg.symcd.com
-CERTIFICATE
 Subject: /Siemens Internet CA V1.0/C=DE/O=Siemens/OU=Copyright (C) Siemens AG
     2011 All Rights Reserved
 Issuer: /Baltimore CyberTrust Root/C=IE/O=Baltimore/OU=CyberTrust
