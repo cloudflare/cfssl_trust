@@ -1,7 +1,8 @@
 #!/bin/sh
+
 set -e
 
-go test -cover $(glide nv)
-go vet $(glide nv)
-golint $(glide nv)
-
+PKGS=$(go list ./... | grep -v /vendor/)
+go test -cover $PKGS
+go vet $PKGS
+golint $PKGS

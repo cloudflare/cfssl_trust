@@ -4,7 +4,5 @@ export DH_OPTIONS
 export DH_GOPKG := github.com/cloudflare/cfssl_trust/cmd/cfssl-trust
 
 %:
-	# go get github.com/Masterminds/glide
-	# glide i
 	dh $@ --buildsystem=golang --with=golang
 
