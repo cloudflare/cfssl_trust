@@ -5661,27 +5661,6 @@ Details:
 	OCSP server:
 		- http://ocsp.cloudflare.com/origin_ca
 CERTIFICATE
-Subject: /clubs.moneysavingexpert.com/C=GB/O=MoneySavingExpert.com
-    Limited/L=London/ST=London
-Issuer: /GlobalSign Extended Validation CA - SHA256 - G2/C=BE/O=GlobalSign
-    nv-sa
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 26956057425309652613226571625
-	AKI: DA:40:77:43:65:1C:F8:FE:A7:E3:F4:64:82:3E:4D:43:13:22:31:02
-	SKI: E4:BE:E8:DA:7B:E9:95:A4:3C:1E:9C:8C:76:B7:65:4D:27:E2:DF:B7
-	Valid from: 2016-05-27T10:26:01+0000
-	     until: 2018-05-28T10:26:01+0000
-	Key usages: digital signature, key encipherment
-	Extended usages: client auth, server auth
-	Basic constraints: valid
-	SANs (2): dns:clubs.moneysavingexpert.com, dns:moneysavingexpert.com
-	1 AIA:
-		http://secure.globalsign.com/cacert/gsextendvalsha2g2r2.crt
-	OCSP server:
-		- http://ocsp2.globalsign.com/gsextendvalsha2g2
-CERTIFICATE
 Subject: /QuoVadis Enterprise Trust CA 2 G3/C=BM/O=QuoVadis Limited
 Issuer: /QuoVadis Root CA 2 G3/C=BM/O=QuoVadis Limited
 	Signature algorithm: RSA / SHA256
