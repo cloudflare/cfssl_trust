@@ -1,20 +1,18 @@
 sudo: false
 language: go
 go:
-  - tip
-  - 1.7
-  - 1.6
+  - master
+  - 1.10.x
+  - 1.9.x
+
 before_script:
-  - go get -u github.com/golang/lint/golint
-install:
-  - go get github.com/Masterminds/glide
-  - glide install
+  - go build ./vendor/github.com/golang/lint/golint
 script:
   - ./test.sh
 notifications:
   email:
     recipients:
       - kyle@cloudflare.com
-      - zi@cloudflare.com
+      - cbroglie@cloudflare.com
     on_success: change
     on_failure: change
