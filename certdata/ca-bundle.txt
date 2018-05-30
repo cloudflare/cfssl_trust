@@ -627,48 +627,6 @@ Details:
 	Basic constraints: invalid
 	SANs (0):
 CERTIFICATE
-Subject: /C=BR/O=Certisign Certificadora Digital Ltda./OU=Certisign -
-    Autoridade Certificadora - AC4
-Issuer: /C=BR/O=Certisign Certificadora Digital Ltda./OU=Certisign -
-    Autoridade Certificadora - AC4
-	Signature algorithm: RSA / MD5
-Details:
-	Public key: RSA-1024
-	Serial number: 0
-	Valid from: 1999-06-27T00:00:00+0000
-	     until: 2018-06-27T00:00:00+0000
-	Key usages: 
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
-Subject: /C=BR/O=Certisign Certificadora Digital Ltda./OU=Certisign -
-    Autoridade Certificadora - AC2
-Issuer: /C=BR/O=Certisign Certificadora Digital Ltda./OU=Certisign -
-    Autoridade Certificadora - AC2
-	Signature algorithm: RSA / MD5
-Details:
-	Public key: RSA-1024
-	Serial number: 0
-	Valid from: 1999-06-27T00:00:00+0000
-	     until: 2018-06-27T00:00:00+0000
-	Key usages: 
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
-Subject: /C=BR/O=Certisign Certificadora Digital Ltda./OU=Certisign Autoridade
-    Certificadora AC1S
-Issuer: /C=BR/O=Certisign Certificadora Digital Ltda./OU=Certisign Autoridade
-    Certificadora AC1S
-	Signature algorithm: RSA / MD5
-Details:
-	Public key: RSA-1024
-	Serial number: 5
-	Valid from: 1999-06-27T00:00:00+0000
-	     until: 2018-06-27T00:00:00+0000
-	Key usages: 
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
 Subject: /Class 1 Primary CA/C=FR/O=Certplus
 Issuer: /Class 1 Primary CA/C=FR/O=Certplus
 	Signature algorithm: RSA / SHA1
