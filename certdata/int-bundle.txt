@@ -5590,24 +5590,6 @@ Details:
 	OCSP server:
 		- http://ocsp.comodoca.com
 CERTIFICATE
-Subject: /*.americanapparel.com.au
-Issuer: /RapidSSL SHA256 CA/C=US/O=GeoTrust Inc.
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-4096
-	Serial number: 158299233391692174570972794922146632137
-	AKI: 97:C2:27:50:9E:C2:C9:EC:0C:88:32:C8:7C:AD:E2:A6:01:4F:DA:6F
-	Valid from: 2016-05-25T00:00:00+0000
-	     until: 2018-07-24T23:59:59+0000
-	Key usages: digital signature, key encipherment
-	Extended usages: client auth, server auth
-	Basic constraints: valid
-	SANs (2): dns:*.americanapparel.com.au, dns:americanapparel.com.au
-	1 AIA:
-		http://gp.symcb.com/gp.crt
-	OCSP server:
-		- http://gp.symcd.com
-CERTIFICATE
 Subject: /CloudFlare Origin Certificate/O=CloudFlare, Inc./OU=CloudFlare
     Origin CA
 Issuer: /C=US/O=CloudFlare, Inc./OU=CloudFlare Origin SSL Certificate
@@ -5703,25 +5685,6 @@ Details:
 		http://repository.certum.pl/gscasha2.cer
 	OCSP server:
 		- http://subca.ocsp-certum.com
-CERTIFICATE
-Subject: /www.webafrica.co.za/C=ZA/O=Web Africa Networks (Pty)
-    Ltd/OU=DevOps/L=Cape Town/ST=Western Cape
-Issuer: /thawte EV SSL CA - G3/C=US/O=thawte, Inc.
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 160382158928302748732545479897749019960
-	AKI: F0:70:51:DA:D3:2A:91:4F:52:77:D7:86:77:74:0F:CE:71:1A:6C:22
-	Valid from: 2016-06-09T00:00:00+0000
-	     until: 2018-07-26T23:59:59+0000
-	Key usages: digital signature, key encipherment
-	Extended usages: client auth, server auth
-	Basic constraints: valid
-	SANs (2): dns:www.webafrica.co.za, dns:webafrica.co.za
-	1 AIA:
-		http://ti.symcb.com/ti.crt
-	OCSP server:
-		- http://ti.symcd.com
 CERTIFICATE
 Subject: /DigiCert ECC Extended Validation Server CA/C=US/O=DigiCert
     Inc/OU=www.digicert.com

@@ -716,20 +716,6 @@ Details:
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
-Subject: /C=BR/O=Certisign Certificadora Digital Ltda./OU=Certisign Autoridade
-    Certificadora AC3S/L=Rio de Janeiro/ST=Rio de Janeiro
-Issuer: /C=BR/O=Certisign Certificadora Digital Ltda./OU=Certisign Autoridade
-    Certificadora AC3S/L=Rio de Janeiro/ST=Rio de Janeiro
-	Signature algorithm: RSA / MD5
-Details:
-	Public key: RSA-1024
-	Serial number: 0
-	Valid from: 1999-07-09T20:56:32+0000
-	     until: 2018-07-09T20:56:32+0000
-	Key usages: 
-	Basic constraints: invalid
-	SANs (0):
-CERTIFICATE
 Subject: /SecureSign RootCA1/C=JP/O=Japan Certification Services, Inc.
 Issuer: /SecureSign RootCA1/C=JP/O=Japan Certification Services, Inc.
 	Signature algorithm: RSA / SHA1
