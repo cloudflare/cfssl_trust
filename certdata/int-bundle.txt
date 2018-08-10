@@ -111,20 +111,6 @@ Details:
 	OCSP server:
 		- https://ocsp.quovadisoffshore.com
 CERTIFICATE
-Subject: /GeoTrust Global CA/C=US/O=GeoTrust Inc.
-Issuer: /C=US/O=Equifax/OU=Equifax Secure Certificate Authority
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 1227750
-	AKI: 48:E6:68:F9:2B:D2:B2:95:D7:47:D8:23:20:10:4F:33:98:90:9F:D4
-	SKI: C0:7A:98:68:8D:89:FB:AB:05:64:0C:11:7D:AA:7D:65:B8:CA:CC:4E
-	Valid from: 2002-05-21T04:00:00+0000
-	     until: 2018-08-21T04:00:00+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
 Subject: /EC-AL/C=ES/O=Agencia Catalana de Certificacio (NIF
     Q-0801176-I)/OU=Serveis Publics de Certificacio ECV-2/OU=Vegeu
     https://www.catcert.net/verCIC-2  (c)03/OU=Administracions Locals de
@@ -262,20 +248,6 @@ Details:
 	SANs (0):
 	OCSP server:
 		- http://ocsp.starfieldtech.com
-CERTIFICATE
-Subject: /Dell Inc. Enterprise CA/O=Dell Inc.
-Issuer: /GTE CyberTrust Global Root/C=US/O=GTE Corporation/OU=GTE CyberTrust
-    Solutions, Inc.
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 67109806
-	SKI: A4:66:21:0E:01:41:B8:F5:E9:F1:71:C6:D0:38:D2:05:35:69:AA:13
-	Valid from: 2004-11-17T15:25:00+0000
-	     until: 2018-08-13T23:59:00+0000
-	Key usages: cert sign, content committment, crl sign, digital signature, key encipherment
-	Basic constraints: valid, is a CA certificate, max path length 1
-	SANs (0):
 CERTIFICATE
 Subject: /AddTrust External CA Root/C=SE/O=AddTrust AB/OU=AddTrust External
     TTP Network
@@ -773,34 +745,6 @@ Details:
 	     until: 2020-12-30T23:59:59+0000
 	Key usages: cert sign, crl sign
 	Extended usages: netscape sgc
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
-Subject: /GeoTrust Primary Certification Authority/C=US/O=GeoTrust Inc.
-Issuer: /C=US/O=Equifax/OU=Equifax Secure Certificate Authority
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 880226
-	AKI: 48:E6:68:F9:2B:D2:B2:95:D7:47:D8:23:20:10:4F:33:98:90:9F:D4
-	SKI: 2C:D5:50:41:97:15:8B:F0:8F:36:61:5B:4A:FB:6B:D9:99:C9:33:92
-	Valid from: 2006-11-27T00:00:00+0000
-	     until: 2018-08-21T16:15:00+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
-Subject: /GeoTrust Primary Certification Authority/C=US/O=GeoTrust Inc.
-Issuer: /C=US/O=Equifax/OU=Equifax Secure Certificate Authority
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 429597
-	AKI: 48:E6:68:F9:2B:D2:B2:95:D7:47:D8:23:20:10:4F:33:98:90:9F:D4
-	SKI: 2C:D5:50:41:97:15:8B:F0:8F:36:61:5B:4A:FB:6B:D9:99:C9:33:92
-	Valid from: 2006-11-28T16:08:31+0000
-	     until: 2018-08-21T15:08:31+0000
-	Key usages: cert sign, crl sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -1679,27 +1623,6 @@ Details:
 	SANs (0):
 	1 AIA:
 		http://grca.nat.gov.tw/repository/Certs/IssuedToThisCA.p7b
-CERTIFICATE
-Subject: /Entrust Certification Authority - L1B/C=US/O=Entrust, Inc./OU=AND
-    ADDITIONAL TERMS GOVERNING USE AND RELIANCE/OU=CPS CONTAINS IMPORTANT
-    LIMITATIONS OF WARRANTIES AND LIABILITY/OU=www.entrust.net/CPS is
-    incorporated by reference/OU=(c) 2008 Entrust, Inc.
-Issuer: /Entrust.net Certification Authority
-    (2048)/O=Entrust.net/OU=www.entrust.net/CPS_2048 incorp. by ref. (limits
-    liab.)/OU=(c) 1999 Entrust.net Limited
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 946062766
-	AKI: 55:E4:81:D1:11:80:BE:D8:89:B9:08:A3:31:F9:A1:24:09:16:B9:70
-	SKI: F5:F2:96:88:7D:0D:F3:2A:F9:4E:E7:34:A0:BD:46:7E:13:D6:16:C8
-	Valid from: 2008-08-25T18:14:26+0000
-	     until: 2018-08-25T18:44:26+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-	OCSP server:
-		- http://ocsp.entrust.net
 CERTIFICATE
 Subject: /Certum Trusted Network CA/C=PL/O=Unizeto Technologies S.A./OU=Certum
     Certification Authority
@@ -5147,23 +5070,6 @@ Details:
 	OCSP server:
 		- http://ocsp.entrust.net
 CERTIFICATE
-Subject: /CloudFlare Inc Compatibility CA-3/C=US/O=CloudFlare, Inc./L=San
-    Francisco/ST=CA
-Issuer: /GTE CyberTrust Global Root/C=US/O=GTE Corporation/OU=GTE CyberTrust
-    Solutions, Inc.
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 19425957203842367854555908577281122574
-	SKI: 97:49:C5:F6:84:14:73:DF:73:BA:CC:A9:66:BA:F9:A6:3C:59:C6:AE
-	Valid from: 2015-10-14T12:00:00+0000
-	     until: 2018-08-10T12:00:00+0000
-	Key usages: cert sign, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://ocsp.digicert.com
-CERTIFICATE
 Subject: /CloudFlare Inc ECC CA-2/C=US/O=CloudFlare, Inc./L=San
     Francisco/ST=CA
 Issuer: /Baltimore CyberTrust Root/C=IE/O=Baltimore/OU=CyberTrust
@@ -5192,22 +5098,6 @@ Details:
 	SKI: 91:05:8A:DF:4C:22:C6:6D:8B:94:4C:16:45:7E:EE:6F:02:FB:B7:C0
 	Valid from: 2015-10-14T12:00:00+0000
 	     until: 2020-10-14T12:00:00+0000
-	Key usages: cert sign, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://ocsp.digicert.com
-CERTIFICATE
-Subject: /Compatibility Intermediate CA/C=US/O=PKI Services/ST=UT
-Issuer: /GTE CyberTrust Global Root/C=US/O=GTE Corporation/OU=GTE CyberTrust
-    Solutions, Inc.
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 19774379431224385300257684906677115264
-	SKI: 4C:00:08:10:4E:32:C9:17:36:D8:FF:98:87:97:7B:98:13:8F:08:75
-	Valid from: 2015-10-14T12:00:00+0000
-	     until: 2018-08-10T12:00:00+0000
 	Key usages: cert sign, crl sign, digital signature
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
@@ -5647,26 +5537,6 @@ Details:
 	OCSP server:
 		- http://s.symcd.com
 CERTIFICATE
-Subject: /*.sandiego.gov/OU=Domain Control Validated
-Issuer: /Go Daddy Secure Certificate Authority - G2/C=US/O=GoDaddy.com,
-    Inc./OU=http://certs.godaddy.com/repository//L=Scottsdale/ST=Arizona
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 880714672641496103
-	AKI: 40:C2:BD:27:8E:CC:34:83:30:A2:33:D7:FB:6C:B3:F0:B4:2C:80:CE
-	SKI: BB:C5:CD:ED:C6:25:C5:47:82:BC:BF:EA:50:F8:17:E8:23:DA:1B:94
-	Valid from: 2016-06-07T04:13:38+0000
-	     until: 2018-08-09T11:30:35+0000
-	Key usages: digital signature, key encipherment
-	Extended usages: client auth, server auth
-	Basic constraints: valid
-	SANs (2): dns:*.sandiego.gov, dns:sandiego.gov
-	1 AIA:
-		http://certificates.godaddy.com/repository/gdig2.crt
-	OCSP server:
-		- http://ocsp.godaddy.com/
-CERTIFICATE
 Subject: /Certyfikat SSL/C=PL/O=home.pl S.A.
 Issuer: /Certum Global Services CA SHA2/C=PL/O=Unizeto Technologies
     S.A./OU=Certum Certification Authority
@@ -5765,28 +5635,6 @@ Details:
 		http://trust.quovadisglobal.com/qventca2g3.crt
 	OCSP server:
 		- http://qventca2g3.ocsp.quovadisglobal.com
-CERTIFICATE
-Subject: /www.spotcap.com/C=DE/O=Spotcap Global Services
-    GmbH/L=Berlin/ST=Berlin
-Issuer: /Go Daddy Secure Certificate Authority - G2/C=US/O=GoDaddy.com,
-    Inc./OU=http://certs.godaddy.com/repository//L=Scottsdale/ST=Arizona
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-4096
-	Serial number: 411513247436629940
-	AKI: 40:C2:BD:27:8E:CC:34:83:30:A2:33:D7:FB:6C:B3:F0:B4:2C:80:CE
-	SKI: 68:F1:84:12:BD:45:08:B9:0E:9D:86:C3:AE:17:82:A2:C0:F4:05:0B
-	Valid from: 2016-08-08T23:21:38+0000
-	     until: 2018-08-08T23:21:38+0000
-	Key usages: digital signature, key encipherment
-	Extended usages: client auth, server auth
-	Basic constraints: valid
-	SANs (6): dns:www.spotcap.com, dns:spotcap.com, dns:www.spotcap.nl,
-            dns:www.spotcap.es, dns:www.spotcap.co.uk, dns:www.spotcap.com.au
-	1 AIA:
-		http://certificates.godaddy.com/repository/gdig2.crt
-	OCSP server:
-		- http://ocsp.godaddy.com/
 CERTIFICATE
 Subject: /TrustAsia DV SSL CA - G5/C=CN/O=TrustAsia Technologies,
     Inc./OU=Symantec Trust Network/OU=Domain Validated SSL
