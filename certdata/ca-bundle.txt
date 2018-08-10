@@ -344,34 +344,6 @@ Details:
 	Basic constraints: invalid
 	SANs (0):
 CERTIFICATE
-Subject: /GTE CyberTrust Global Root/C=US/O=GTE Corporation/OU=GTE CyberTrust
-    Solutions, Inc.
-Issuer: /GTE CyberTrust Global Root/C=US/O=GTE Corporation/OU=GTE CyberTrust
-    Solutions, Inc.
-	Signature algorithm: RSA / MD5
-Details:
-	Public key: RSA-1024
-	Serial number: 421
-	Valid from: 1998-08-13T00:29:00+0000
-	     until: 2018-08-13T23:59:00+0000
-	Key usages: 
-	Basic constraints: invalid
-	SANs (0):
-CERTIFICATE
-Subject: /C=US/O=Equifax/OU=Equifax Secure Certificate Authority
-Issuer: /C=US/O=Equifax/OU=Equifax Secure Certificate Authority
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-1024
-	Serial number: 903804111
-	AKI: 48:E6:68:F9:2B:D2:B2:95:D7:47:D8:23:20:10:4F:33:98:90:9F:D4
-	SKI: 48:E6:68:F9:2B:D2:B2:95:D7:47:D8:23:20:10:4F:33:98:90:9F:D4
-	Valid from: 1998-08-22T16:41:51+0000
-	     until: 2018-08-22T16:41:51+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
 Subject: /GlobalSign Root CA/C=BE/O=GlobalSign nv-sa/OU=Root CA
 Issuer: /GlobalSign Root CA/C=BE/O=GlobalSign nv-sa/OU=Root CA
 	Signature algorithm: RSA / SHA1
