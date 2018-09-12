@@ -5574,28 +5574,6 @@ Details:
 	OCSP server:
 		- http://ocsp.digicert.com
 CERTIFICATE
-Subject: /crt.sh/C=GB/O=COMODO CA Limited/OU=COMODO EV Multi-Domain
-    SSL/L=Salford/ST=Greater Manchester
-Issuer: /COMODO RSA Extended Validation Secure Server CA/C=GB/O=COMODO CA
-    Limited/L=Salford/ST=Greater Manchester
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 36167599702100461674932154998650993682
-	AKI: 39:DA:FF:CA:28:14:8A:A8:74:13:08:B9:E4:0E:A9:D2:FA:7E:9D:69
-	SKI: AC:9F:C4:92:99:DE:8F:BC:A3:83:66:13:EB:35:5E:09:C1:07:27:02
-	Valid from: 2016-07-01T00:00:00+0000
-	     until: 2018-09-30T23:59:59+0000
-	Key usages: digital signature, key encipherment
-	Extended usages: client auth, server auth
-	Basic constraints: valid
-	SANs (6): dns:crt.sh, dns:certsear.ch, dns:certwat.ch,
-            dns:certwatch.comodo.com, dns:www.cert-watch.com, dns:www.crt.sh
-	1 AIA:
-		http://crt.comodoca.com/COMODORSAExtendedValidationSecureServerCA.crt
-	OCSP server:
-		- http://ocsp.comodoca.com
-CERTIFICATE
 Subject: /*.embedly.com/OU=Domain Control Validated/OU=EssentialSSL Wildcard
 Issuer: /COMODO RSA Domain Validation Secure Server CA/C=GB/O=COMODO CA
     Limited/L=Salford/ST=Greater Manchester
@@ -5655,24 +5633,6 @@ Details:
 	SANs (0):
 	OCSP server:
 		- http://s.symcd.com
-CERTIFICATE
-Subject: /www.steroid.com/C=US/O=Domain Holding, LLC/L=Humble/ST=Texas
-Issuer: /GeoTrust EV SSL CA - G4/C=US/O=GeoTrust Inc.
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 58544264928951026321009725395596746483
-	AKI: DE:CF:5C:50:B7:AE:02:1F:15:17:AA:16:E8:0D:B5:28:9D:6A:5A:F3
-	Valid from: 2016-08-11T00:00:00+0000
-	     until: 2018-10-10T23:59:59+0000
-	Key usages: digital signature, key encipherment
-	Extended usages: client auth, server auth
-	Basic constraints: valid
-	SANs (2): dns:www.steroid.com, dns:steroid.com
-	1 AIA:
-		http://gm.symcb.com/gm.crt
-	OCSP server:
-		- http://gm.symcd.com
 CERTIFICATE
 Subject: /*.austrian.com/C=AT/O=Austrian Airlines AG/L=Vienna/ST=Vienna
 Issuer: /GlobalSign Organization Validation CA - SHA256 - G2/C=BE/O=GlobalSign
@@ -5755,28 +5715,6 @@ Details:
 	OCSP server:
 		- http://ocsp.usertrust.com
 CERTIFICATE
-Subject: /console.pool.bitcoin.com/OU=Domain Control Validated/OU=PositiveSSL
-    Multi-Domain
-Issuer: /COMODO RSA Domain Validation Secure Server CA/C=GB/O=COMODO CA
-    Limited/L=Salford/ST=Greater Manchester
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-4096
-	Serial number: 62772219212030279178926820290939151852
-	AKI: 90:AF:6A:3A:94:5A:0B:D8:90:EA:12:56:73:DF:43:B4:3A:28:DA:E7
-	SKI: 83:25:A4:43:82:25:87:3D:EA:2D:F9:B5:E2:30:74:C3:B2:AC:13:3A
-	Valid from: 2016-09-12T00:00:00+0000
-	     until: 2018-09-12T23:59:59+0000
-	Key usages: digital signature, key encipherment
-	Extended usages: client auth, server auth
-	Basic constraints: valid
-	SANs (3): dns:console.pool.bitcoin.com, dns:api.pool.bitcoin.com,
-            dns:test.pool.bitcoin.com
-	1 AIA:
-		http://crt.comodoca.com/COMODORSADomainValidationSecureServerCA.crt
-	OCSP server:
-		- http://ocsp.comodoca.com
-CERTIFICATE
 Subject: /GlobalSign Extended Validation CA - SHA256 - G3/C=BE/O=GlobalSign
     nv-sa
 Issuer: /GlobalSign/O=GlobalSign/OU=GlobalSign Root CA - R3
@@ -5812,26 +5750,6 @@ Details:
 		http://cacerts.digicert.com/DigiCertSHA2SecureServerCA.crt
 	OCSP server:
 		- http://ocsp.digicert.com
-CERTIFICATE
-Subject: /mygravity.co/C=GB/O=MyGravity Ltd/L=London/ST=Greater London
-Issuer: /Go Daddy Secure Certificate Authority - G2/C=US/O=GoDaddy.com,
-    Inc./OU=http://certs.godaddy.com/repository//L=Scottsdale/ST=Arizona
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-4096
-	Serial number: 18439909612582750844
-	AKI: 40:C2:BD:27:8E:CC:34:83:30:A2:33:D7:FB:6C:B3:F0:B4:2C:80:CE
-	SKI: E5:C6:8E:F0:5B:A9:42:53:B7:CD:8C:1A:2C:8E:59:BD:DD:88:8A:B3
-	Valid from: 2016-09-27T16:27:38+0000
-	     until: 2018-09-26T17:52:41+0000
-	Key usages: digital signature, key encipherment
-	Extended usages: client auth, server auth
-	Basic constraints: valid
-	SANs (2): dns:mygravity.co, dns:www.mygravity.co
-	1 AIA:
-		http://certificates.godaddy.com/repository/gdig2.crt
-	OCSP server:
-		- http://ocsp.godaddy.com/
 CERTIFICATE
 Subject: /AlphaSSL CA - SHA256 - G2/C=BE/O=GlobalSign nv-sa
 Issuer: /GlobalSign/O=GlobalSign/OU=GlobalSign Root CA - R3
