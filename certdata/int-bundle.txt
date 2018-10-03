@@ -5162,27 +5162,6 @@ Details:
 	OCSP server:
 		- http://ocsp.pki-services.siemens.com
 CERTIFICATE
-Subject: /*.000webhost.com/OU=Domain Control Validated/OU=EssentialSSL
-    Wildcard
-Issuer: /COMODO RSA Domain Validation Secure Server CA/C=GB/O=COMODO CA
-    Limited/L=Salford/ST=Greater Manchester
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 77157254139559494853406835832381236733
-	AKI: 90:AF:6A:3A:94:5A:0B:D8:90:EA:12:56:73:DF:43:B4:3A:28:DA:E7
-	SKI: 6A:63:C6:17:5A:0B:30:68:55:5E:5A:7B:E4:C3:E2:1E:D3:E0:58:D3
-	Valid from: 2015-10-30T00:00:00+0000
-	     until: 2018-10-29T23:59:59+0000
-	Key usages: digital signature, key encipherment
-	Extended usages: client auth, server auth
-	Basic constraints: valid
-	SANs (2): dns:*.000webhost.com, dns:000webhost.com
-	1 AIA:
-		http://crt.comodoca.com/COMODORSADomainValidationSecureServerCA.crt
-	OCSP server:
-		- http://ocsp.comodoca.com
-CERTIFICATE
 Subject: /DigiCert Extended Validation CA G3/C=US/O=DigiCert
     Inc/OU=www.digicert.com
 Issuer: /DigiCert Global Root G3/C=US/O=DigiCert Inc/OU=www.digicert.com
