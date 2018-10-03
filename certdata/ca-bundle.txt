@@ -357,18 +357,6 @@ Details:
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
-Subject: /KMD-CA Server/C=DK/O=KMD/OU=KMD-CA
-Issuer: /KMD-CA Server/C=DK/O=KMD/OU=KMD-CA
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 1003145554
-	Valid from: 1998-10-16T19:19:21+0000
-	     until: 2018-10-12T19:19:21+0000
-	Key usages: 
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
 Subject: /C=US/O=Digital Signature Trust Co./OU=DST-Entrust GTI CA
 Issuer: /C=US/O=Digital Signature Trust Co./OU=DST-Entrust GTI CA
 	Signature algorithm: RSA / SHA1
