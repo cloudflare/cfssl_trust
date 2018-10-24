@@ -6,7 +6,7 @@ go:
   - 1.9.x
 
 before_script:
-  - go build ./vendor/github.com/golang/lint/golint
+  - go build ./vendor/golang.org/x/lint/golint
 script:
   - ./test.sh
 notifications:
