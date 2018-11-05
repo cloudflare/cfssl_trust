@@ -5789,27 +5789,6 @@ Details:
 	OCSP server:
 		- http://domorganisatieservicesocsp-g3.pkioverheid.nl
 CERTIFICATE
-Subject: /sofadoc.com/C=DE/O=SofaDoc GmbH/OU=IT/OU=COMODO EV Multi-Domain
-    SSL/L=Munich/ST=Bayern
-Issuer: /COMODO RSA Extended Validation Secure Server CA/C=GB/O=COMODO CA
-    Limited/L=Salford/ST=Greater Manchester
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 165676580559763052309018021344185040225
-	AKI: 39:DA:FF:CA:28:14:8A:A8:74:13:08:B9:E4:0E:A9:D2:FA:7E:9D:69
-	SKI: 66:BD:C8:0C:54:E4:6B:8D:A9:E8:47:80:72:22:AA:82:37:DA:3C:18
-	Valid from: 2016-11-11T00:00:00+0000
-	     until: 2018-11-11T23:59:59+0000
-	Key usages: digital signature, key encipherment
-	Extended usages: client auth, server auth
-	Basic constraints: valid
-	SANs (3): dns:sofadoc.com, dns:coach.sofadoc.com, dns:www.sofadoc.com
-	1 AIA:
-		http://crt.comodoca.com/COMODORSAExtendedValidationSecureServerCA.crt
-	OCSP server:
-		- http://ocsp.comodoca.com
-CERTIFICATE
 Subject: /mobile.am4u.gov.sg
 Issuer: /GeoTrust DV SSL CA - G3/C=US/O=GeoTrust Inc./OU=Domain Validated SSL
 	Signature algorithm: RSA / SHA256
