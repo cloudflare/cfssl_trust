@@ -5179,28 +5179,6 @@ Details:
 	OCSP server:
 		- http://ocsp.digicert.com
 CERTIFICATE
-Subject: /*.crazydomains.co.uk/C=AE/O=Dreamscape Networks FZ-LLC/OU=Provided
-    by Crazy Domains FZ-LLC/OU=Aust Secure - Wildcard SSL/L=Dubai Internet
-    City/ST=Dubai
-Issuer: /USERTrust RSA Organization Validation Secure Server CA/C=US/O=The
-    USERTRUST Network/L=Jersey City/ST=New Jersey
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-4096
-	Serial number: 306021503794504341668780805780144459398
-	AKI: 83:01:56:47:A6:4E:30:11:2E:6D:0C:05:A2:42:93:72:D2:43:4D:73
-	SKI: 6F:EA:D9:0E:C8:4E:CC:36:31:67:01:9E:AB:86:DA:55:03:C2:E4:7B
-	Valid from: 2015-12-04T00:00:00+0000
-	     until: 2018-12-13T23:59:59+0000
-	Key usages: digital signature, key encipherment
-	Extended usages: client auth, server auth
-	Basic constraints: valid
-	SANs (2): dns:*.crazydomains.co.uk, dns:crazydomains.co.uk
-	1 AIA:
-		http://crt.usertrust.com/USERTrustRSAOrganizationValidationSecureServerCA.crt
-	OCSP server:
-		- http://ocsp.usertrust.com
-CERTIFICATE
 Subject: /COMODO Domain Validation Legacy Server CA 2/C=GB/O=COMODO CA
     Limited/L=Salford/ST=Greater Manchester
 Issuer: /UTN - DATACorp SGC/C=US/O=The USERTRUST
@@ -5788,24 +5766,6 @@ Details:
 		http://cert.pkioverheid.nl/DomOrganisatieServicesCA-G3.cer
 	OCSP server:
 		- http://domorganisatieservicesocsp-g3.pkioverheid.nl
-CERTIFICATE
-Subject: /mobile.am4u.gov.sg
-Issuer: /GeoTrust DV SSL CA - G3/C=US/O=GeoTrust Inc./OU=Domain Validated SSL
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 11025483542801255800817282638315195044
-	AKI: AD:65:22:85:90:D0:3B:E3:A1:49:8B:37:F9:F1:0B:1D:5F:17:A0:77
-	Valid from: 2016-11-15T00:00:00+0000
-	     until: 2018-12-15T23:59:59+0000
-	Key usages: digital signature, key encipherment
-	Extended usages: client auth, server auth
-	Basic constraints: valid
-	SANs (1): dns:mobile.am4u.gov.sg
-	1 AIA:
-		http://gt.symcb.com/gt.crt
-	OCSP server:
-		- http://gt.symcd.com
 CERTIFICATE
 Subject: /Cybertrust Japan Extended Validation Server CA/C=JP/O=Cybertrust
     Japan Co., Ltd.

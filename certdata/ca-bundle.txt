@@ -357,62 +357,6 @@ Details:
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
-Subject: /C=US/O=Digital Signature Trust Co./OU=DST-Entrust GTI CA
-Issuer: /C=US/O=Digital Signature Trust Co./OU=DST-Entrust GTI CA
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-1024
-	Serial number: 913163544
-	AKI: 93:9A:44:CA:D0:78:53:80:29:49:04:DF:C7:AF:33:3F:99:75:5F:AE
-	SKI: 93:9A:44:CA:D0:78:53:80:29:49:04:DF:C7:AF:33:3F:99:75:5F:AE
-	Valid from: 1998-12-09T00:02:24+0000
-	     until: 2018-12-09T00:32:24+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
-Subject: /C=US/O=Digital Signature Trust Co./OU=DST (ANX Network) CA
-Issuer: /C=US/O=Digital Signature Trust Co./OU=DST (ANX Network) CA
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-1024
-	Serial number: 913220207
-	AKI: 8C:16:55:70:CC:16:0A:53:64:C2:A5:84:AA:B3:64:17:43:3F:82:36
-	SKI: 8C:16:55:70:CC:16:0A:53:64:C2:A5:84:AA:B3:64:17:43:3F:82:36
-	Valid from: 1998-12-09T15:46:48+0000
-	     until: 2018-12-09T16:16:48+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
-Subject: /C=US/O=Digital Signature Trust Co./OU=DSTCA E2
-Issuer: /C=US/O=Digital Signature Trust Co./OU=DSTCA E2
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-1024
-	Serial number: 913232846
-	AKI: 1E:82:4D:28:65:80:3C:C9:41:6E:AC:35:2E:5A:CB:DE:EE:F8:39:5B
-	SKI: 1E:82:4D:28:65:80:3C:C9:41:6E:AC:35:2E:5A:CB:DE:EE:F8:39:5B
-	Valid from: 1998-12-09T19:17:26+0000
-	     until: 2018-12-09T19:47:26+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
-Subject: /C=US/O=Digital Signature Trust Co./OU=DSTCA E1
-Issuer: /C=US/O=Digital Signature Trust Co./OU=DSTCA E1
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-1024
-	Serial number: 913315222
-	AKI: 6A:79:7E:91:69:46:18:13:0A:02:77:A5:59:5B:60:98:25:0E:A2:F8
-	SKI: 6A:79:7E:91:69:46:18:13:0A:02:77:A5:59:5B:60:98:25:0E:A2:F8
-	Valid from: 1998-12-10T18:10:23+0000
-	     until: 2018-12-10T18:40:23+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
 Subject: /NetLock Kozjegyzoi (Class A) Tanusitvanykiado/C=HU/O=NetLock
     Halozatbiztonsagi Kft./OU=Tanusitvanykiadok/L=Budapest/ST=Hungary
 Issuer: /NetLock Kozjegyzoi (Class A) Tanusitvanykiado/C=HU/O=NetLock
