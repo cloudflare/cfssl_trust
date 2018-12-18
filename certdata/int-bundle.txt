@@ -111,26 +111,6 @@ Details:
 	OCSP server:
 		- https://ocsp.quovadisoffshore.com
 CERTIFICATE
-Subject: /EC-AL/C=ES/O=Agencia Catalana de Certificacio (NIF
-    Q-0801176-I)/OU=Serveis Publics de Certificacio ECV-2/OU=Vegeu
-    https://www.catcert.net/verCIC-2  (c)03/OU=Administracions Locals de
-    Catalunya/L=Passatge de la Concepcio 11 08008 Barcelona
-Issuer: /EC-ACC/C=ES/O=Agencia Catalana de Certificacio (NIF
-    Q-0801176-I)/OU=Serveis Publics de Certificacio/OU=Vegeu
-    https://www.catcert.net/verarrel (c)03/OU=Jerarquia Entitats de
-    Certificacio Catalanes
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 81871235804792199700514938710945526542
-	AKI: A0:C3:8B:44:AA:37:A5:45:BF:97:80:5A:D1:F1:78:A2:9B:E9:5D:8D
-	SKI: 4C:EC:8D:49:D4:2B:02:03:9A:D0:48:30:0A:4B:6B:BD:31:7A:A6:34
-	Valid from: 2003-01-08T16:11:18+0000
-	     until: 2019-01-07T22:59:59+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
 Subject: /C=TW/O=行政院/OU=政府憑證管理中心
 Issuer: /C=TW/O=Government Root Certification Authority
 	Signature algorithm: RSA / SHA1
@@ -921,23 +901,6 @@ Details:
 	Basic constraints: valid, is a CA certificate, max path length 2
 	SANs (0):
 CERTIFICATE
-Subject: /DFN-Verein CA Services/C=DE/O=DFN-Verein/OU=DFN-PKI
-Issuer: /DFN-Verein PCA Global - G01/C=DE/O=DFN-Verein/OU=DFN-PKI
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 163269440
-	AKI: 49:B7:C6:CF:E8:3D:1F:7F:EA:44:7B:13:29:F7:F1:0A:70:3E:DE:64
-	SKI: 1D:A9:F1:86:26:76:4D:CF:5D:FD:50:A3:6E:EB:F1:BC:22:75:6D:EB
-	Valid from: 2007-01-03T15:37:21+0000
-	     until: 2019-01-02T15:37:21+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-	2 AIAs:
-		http://cdp1.pca.dfn.de/global-root-ca/pub/cacert/cacert.crt
-		http://cdp2.pca.dfn.de/global-root-ca/pub/cacert/cacert.crt
-CERTIFICATE
 Subject: /eBiz Networks Certificate Services/C=KR/O=eBiz Networks Ltd
 Issuer: /UTN-USERFirst-Hardware/C=US/O=The USERTRUST
     Network/OU=http://www.usertrust.com/L=Salt Lake City/ST=UT
@@ -992,42 +955,6 @@ Details:
 	2 AIAs:
 		http://crt.comodoca.com/UTNAddTrustServerCA.crt
 		http://crt.comodo.net/UTNAddTrustServerCA.crt
-CERTIFICATE
-Subject: /Freie Universitaet Berlin - FU-CA - G01/C=DE/O=Freie Universitaet
-    Berlin/OU=ZEDAT/L=Berlin/ST=Berlin
-Issuer: /DFN-Verein PCA Global - G01/C=DE/O=DFN-Verein/OU=DFN-PKI
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 164472104
-	AKI: 49:B7:C6:CF:E8:3D:1F:7F:EA:44:7B:13:29:F7:F1:0A:70:3E:DE:64
-	SKI: 06:E1:3D:F4:6F:F4:30:B7:7A:3B:57:B0:31:05:89:7B:0D:58:5A:6C
-	Valid from: 2007-01-17T13:41:46+0000
-	     until: 2019-01-15T00:00:00+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (1): email:ca@FU-Berlin.DE
-	2 AIAs:
-		http://cdp1.pca.dfn.de/global-root-ca/pub/cacert/cacert.crt
-		http://cdp2.pca.dfn.de/global-root-ca/pub/cacert/cacert.crt
-CERTIFICATE
-Subject: /TU Chemnitz Certification Authority - TUC/URZ CA
-    G3/C=DE/O=Technische Universitaet Chemnitz/OU=Universitaetsrechenzentrum
-Issuer: /DFN-Verein PCA Global - G01/C=DE/O=DFN-Verein/OU=DFN-PKI
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 165146231
-	AKI: 49:B7:C6:CF:E8:3D:1F:7F:EA:44:7B:13:29:F7:F1:0A:70:3E:DE:64
-	SKI: E8:DA:B8:F2:47:DE:99:24:7D:67:40:89:27:67:71:0D:63:D8:A3:8E
-	Valid from: 2007-01-25T08:57:12+0000
-	     until: 2019-01-15T00:00:00+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (1): email:ca@tu-chemnitz.de
-	2 AIAs:
-		http://cdp1.pca.dfn.de/global-root-ca/pub/cacert/cacert.crt
-		http://cdp2.pca.dfn.de/global-root-ca/pub/cacert/cacert.crt
 CERTIFICATE
 Subject: /OptimumSSL CA/C=US/O=OptimumSSL CA/L=Jersey City/ST=New Jersey
 Issuer: /UTN-USERFirst-Hardware/C=US/O=The USERTRUST
@@ -1730,46 +1657,6 @@ Details:
 	Key usages: cert sign, crl sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
-CERTIFICATE
-Subject: /StartCom Extended Validation Server CA/C=IL/O=StartCom
-    Ltd./OU=StartCom Certification Authority
-Issuer: /StartCom Certification Authority/C=IL/O=StartCom Ltd./OU=Secure
-    Digital Certificate Signing
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 53
-	AKI: 4E:0B:EF:1A:A4:40:5B:A5:17:69:87:30:CA:34:68:43:D0:41:AE:F2
-	SKI: A1:E1:9E:45:25:79:4D:06:D9:02:17:92:82:D5:30:89:72:25:14:A0
-	Valid from: 2009-01-01T06:00:00+0000
-	     until: 2019-01-01T06:00:00+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://aia.startssl.com/certs/ca.crt
-	OCSP server:
-		- http://ocsp.startssl.com/ca
-CERTIFICATE
-Subject: /StartCom Extended Validation Server CA/C=IL/O=StartCom
-    Ltd./OU=StartCom Certification Authority
-Issuer: /StartCom Certification Authority/C=IL/O=StartCom Ltd./OU=Secure
-    Digital Certificate Signing
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 42
-	AKI: 4E:0B:EF:1A:A4:40:5B:A5:17:69:87:30:CA:34:68:43:D0:41:AE:F2
-	SKI: A1:E1:9E:45:25:79:4D:06:D9:02:17:92:82:D5:30:89:72:25:14:A0
-	Valid from: 2009-01-01T06:00:01+0000
-	     until: 2019-01-01T06:00:01+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://www.startssl.com/sfsca.crt
-	OCSP server:
-		- http://ocsp.startssl.com/ca
 CERTIFICATE
 Subject: /HMT Hannover CA/C=DE/O=Hochschule fuer Musik und Theater Hannover
 Issuer: /DFN-Verein PCA Global - G01/C=DE/O=DFN-Verein/OU=DFN-PKI
