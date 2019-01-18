@@ -1405,19 +1405,6 @@ Details:
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
-Subject: /Halcom CA PO 2/C=SI/O=Halcom
-Issuer: /Halcom CA PO 2/C=SI/O=Halcom
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-1024
-	Serial number: 79074
-	SKI: 48:AF:57:66:BF:D2:C0:02
-	Valid from: 2004-02-07T18:33:31+0000
-	     until: 2019-02-07T18:33:31+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
 Subject: /ANCERT Certificados Notariales/C=ES/O=Agencia Notarial de
     Certificacion S.L. Unipersonal - CIF B83395988
 Issuer: /ANCERT Certificados Notariales/C=ES/O=Agencia Notarial de
@@ -3015,20 +3002,6 @@ Details:
 	Basic constraints: valid, is a CA certificate, max path length 4
 	SANs (0):
 CERTIFICATE
-Subject: /CESAM/C=FR/O=NATIXIS/OU=0002 542044524
-Issuer: /CESAM/C=FR/O=NATIXIS/OU=0002 542044524
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 1
-	AKI: 70:38:9E:CA:B0:0D:EA:C8:CF:25:53:80:24:1A:E3:26:CE:84:FF:22
-	SKI: 70:38:9E:CA:B0:0D:EA:C8:CF:25:53:80:24:1A:E3:26:CE:84:FF:22
-	Valid from: 2009-01-30T14:19:31+0000
-	     until: 2019-01-30T14:19:31+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
 Subject: /GlobalSign/O=GlobalSign/OU=GlobalSign Root CA - R3
 Issuer: /GlobalSign/O=GlobalSign/OU=GlobalSign Root CA - R3
 	Signature algorithm: RSA / SHA256
@@ -4000,20 +3973,6 @@ Details:
 	Valid from: 2011-08-03T06:52:30+0000
 	     until: 2031-08-03T06:52:30+0000
 	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
-Subject: /ADOCA02/C=AU/O=GOV/OU=DoD/OU=PKI/OU=CAs
-Issuer: /ADOCA02/C=AU/O=GOV/OU=DoD/OU=PKI/OU=CAs
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 1813
-	AKI: E9:E7:9D:EB:35:BD:B8:B2:2B:49:58:F4:BC:92:7D:8B:71:8A:11:5A
-	SKI: E9:E7:9D:EB:35:BD:B8:B2:2B:49:58:F4:BC:92:7D:8B:71:8A:11:5A
-	Valid from: 2011-09-01T04:26:07+0000
-	     until: 2019-01-27T02:31:24+0000
-	Key usages: cert sign, content committment, crl sign, digital signature
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
