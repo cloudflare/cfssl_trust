@@ -974,42 +974,6 @@ Details:
 		http://crt.comodoca.com/UTNAddTrustServerCA.crt
 		http://crt.comodo.net/UTNAddTrustServerCA.crt
 CERTIFICATE
-Subject: /ZIVIT CA - G01/C=DE/O=Zentrum fuer Informationsverarbeitung und
-    Informationstechnik/OU=Betrieb
-Issuer: /DFN-Verein PCA Global - G01/C=DE/O=DFN-Verein/OU=DFN-PKI
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 166114704
-	AKI: 49:B7:C6:CF:E8:3D:1F:7F:EA:44:7B:13:29:F7:F1:0A:70:3E:DE:64
-	SKI: 7E:E2:36:30:AB:42:39:C0:9A:1B:85:C2:72:0D:AB:7C:0B:E1:B2:6A
-	Valid from: 2007-02-05T13:58:26+0000
-	     until: 2019-02-04T00:00:00+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (1): email:ca@zivit.de
-	2 AIAs:
-		http://cdp1.pca.dfn.de/global-root-ca/pub/cacert/cacert.crt
-		http://cdp2.pca.dfn.de/global-root-ca/pub/cacert/cacert.crt
-CERTIFICATE
-Subject: /Zertifizierungsstelle der TUM/C=DE/O=Technische Universitaet
-    Muenchen
-Issuer: /DFN-Verein PCA Global - G01/C=DE/O=DFN-Verein/OU=DFN-PKI
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 166791779
-	AKI: 49:B7:C6:CF:E8:3D:1F:7F:EA:44:7B:13:29:F7:F1:0A:70:3E:DE:64
-	SKI: 9D:9F:23:F0:19:1B:7E:C7:23:5D:27:2A:CC:A5:36:3A:A6:69:E5:89
-	Valid from: 2007-02-13T10:03:01+0000
-	     until: 2019-02-12T00:00:00+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-	2 AIAs:
-		http://cdp1.pca.dfn.de/global-root-ca/pub/cacert/cacert.crt
-		http://cdp2.pca.dfn.de/global-root-ca/pub/cacert/cacert.crt
-CERTIFICATE
 Subject: /Uni-FR CA - G02/C=DE/O=Universitaet Freiburg/OU=Rechenzentrum
 Issuer: /DFN-Verein PCA Global - G01/C=DE/O=DFN-Verein/OU=DFN-PKI
 	Signature algorithm: RSA / SHA1
