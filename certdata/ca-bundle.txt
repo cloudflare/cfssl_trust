@@ -357,48 +357,6 @@ Details:
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
-Subject: /NetLock Kozjegyzoi (Class A) Tanusitvanykiado/C=HU/O=NetLock
-    Halozatbiztonsagi Kft./OU=Tanusitvanykiadok/L=Budapest/ST=Hungary
-Issuer: /NetLock Kozjegyzoi (Class A) Tanusitvanykiado/C=HU/O=NetLock
-    Halozatbiztonsagi Kft./OU=Tanusitvanykiadok/L=Budapest/ST=Hungary
-	Signature algorithm: RSA / MD5
-Details:
-	Public key: RSA-2048
-	Serial number: 259
-	Valid from: 1999-02-24T23:14:47+0000
-	     until: 2019-02-19T23:14:47+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 4
-	SANs (0):
-CERTIFICATE
-Subject: /NetLock Expressz (Class C) Tanusitvanykiado/C=HU/O=NetLock
-    Halozatbiztonsagi Kft./OU=Tanusitvanykiadok/L=Budapest
-Issuer: /NetLock Expressz (Class C) Tanusitvanykiado/C=HU/O=NetLock
-    Halozatbiztonsagi Kft./OU=Tanusitvanykiadok/L=Budapest
-	Signature algorithm: RSA / MD5
-Details:
-	Public key: RSA-1024
-	Serial number: 104
-	Valid from: 1999-02-25T14:08:11+0000
-	     until: 2019-02-20T14:08:11+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 4
-	SANs (0):
-CERTIFICATE
-Subject: /NetLock Uzleti (Class B) Tanusitvanykiado/C=HU/O=NetLock
-    Halozatbiztonsagi Kft./OU=Tanusitvanykiadok/L=Budapest
-Issuer: /NetLock Uzleti (Class B) Tanusitvanykiado/C=HU/O=NetLock
-    Halozatbiztonsagi Kft./OU=Tanusitvanykiadok/L=Budapest
-	Signature algorithm: RSA / MD5
-Details:
-	Public key: RSA-1024
-	Serial number: 105
-	Valid from: 1999-02-25T14:10:22+0000
-	     until: 2019-02-20T14:10:22+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 4
-	SANs (0):
-CERTIFICATE
 Subject: /C=ES/O=FNMT/OU=FNMT Clase 2 CA
 Issuer: /C=ES/O=FNMT/OU=FNMT Clase 2 CA
 	Signature algorithm: RSA / SHA1
@@ -1452,20 +1410,6 @@ Details:
 	Key usages: cert sign, crl sign, digital signature
 	Basic constraints: valid, is a CA certificate
 	SANs (1): email:ancert@ancert.com
-CERTIFICATE
-Subject: /GeoTrust Global CA 2/C=US/O=GeoTrust Inc.
-Issuer: /GeoTrust Global CA 2/C=US/O=GeoTrust Inc.
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 1
-	AKI: 71:38:36:F2:02:31:53:47:2B:6E:BA:65:46:A9:10:15:58:20:05:09
-	SKI: 71:38:36:F2:02:31:53:47:2B:6E:BA:65:46:A9:10:15:58:20:05:09
-	Valid from: 2004-03-04T05:00:00+0000
-	     until: 2019-03-04T05:00:00+0000
-	Key usages: cert sign, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
 CERTIFICATE
 Subject: /GeoTrust Universal CA/C=US/O=GeoTrust Inc.
 Issuer: /GeoTrust Universal CA/C=US/O=GeoTrust Inc.
