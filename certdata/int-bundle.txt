@@ -974,23 +974,6 @@ Details:
 		http://crt.comodoca.com/UTNAddTrustServerCA.crt
 		http://crt.comodo.net/UTNAddTrustServerCA.crt
 CERTIFICATE
-Subject: /Uni-FR CA - G02/C=DE/O=Universitaet Freiburg/OU=Rechenzentrum
-Issuer: /DFN-Verein PCA Global - G01/C=DE/O=DFN-Verein/OU=DFN-PKI
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 168604035
-	AKI: 49:B7:C6:CF:E8:3D:1F:7F:EA:44:7B:13:29:F7:F1:0A:70:3E:DE:64
-	SKI: 33:67:A9:D6:F1:93:55:36:AC:A1:32:BD:C1:E4:96:39:FF:4C:70:31
-	Valid from: 2007-03-06T09:27:17+0000
-	     until: 2019-03-05T00:00:00+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (1): email:pki@rz.uni-freiburg.de
-	2 AIAs:
-		http://cdp1.pca.dfn.de/global-root-ca/pub/cacert/cacert.crt
-		http://cdp2.pca.dfn.de/global-root-ca/pub/cacert/cacert.crt
-CERTIFICATE
 Subject: /FH-Frankfurt a.M. - CA/C=DE/O=Fachhochschule Frankfurt am Main
 Issuer: /DFN-Verein PCA Global - G01/C=DE/O=DFN-Verein/OU=DFN-PKI
 	Signature algorithm: RSA / SHA1
