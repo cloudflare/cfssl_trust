@@ -974,23 +974,6 @@ Details:
 		http://crt.comodoca.com/UTNAddTrustServerCA.crt
 		http://crt.comodo.net/UTNAddTrustServerCA.crt
 CERTIFICATE
-Subject: /FH-Frankfurt a.M. - CA/C=DE/O=Fachhochschule Frankfurt am Main
-Issuer: /DFN-Verein PCA Global - G01/C=DE/O=DFN-Verein/OU=DFN-PKI
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 170509650
-	AKI: 49:B7:C6:CF:E8:3D:1F:7F:EA:44:7B:13:29:F7:F1:0A:70:3E:DE:64
-	SKI: 8F:06:FF:ED:BE:EE:64:7D:53:53:2A:CE:19:60:8C:74:99:53:F5:16
-	Valid from: 2007-03-28T10:47:32+0000
-	     until: 2019-03-27T00:00:00+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (1): email:ca@dv.fh-frankfurt.de
-	2 AIAs:
-		http://cdp1.pca.dfn.de/global-root-ca/pub/cacert/cacert.crt
-		http://cdp2.pca.dfn.de/global-root-ca/pub/cacert/cacert.crt
-CERTIFICATE
 Subject: /WoSign Premium Server Authority/C=US/O=WoSign, Inc.
 Issuer: /UTN-USERFirst-Hardware/C=US/O=The USERTRUST
     Network/OU=http://www.usertrust.com/L=Salt Lake City/ST=UT
@@ -1740,44 +1723,6 @@ Details:
 		http://repository.certum.pl/ca.cer
 	OCSP server:
 		- http://subca.ocsp-certum.com
-CERTIFICATE
-Subject: /VeriSign Class 3 Secure Server CA - G2/C=US/O=VeriSign,
-    Inc./OU=VeriSign Trust Network/OU=Terms of use at
-    https://www.verisign.com/rpa (c)09
-Issuer: /C=US/O=VeriSign, Inc./OU=Class 3 Public Primary Certification
-    Authority - G2/OU=(c) 1998 VeriSign, Inc. - For authorized use
-    only/OU=VeriSign Trust Network
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 146630355833654099725443235615133423812
-	SKI: A5:EF:0B:11:CE:C0:41:03:A3:4A:65:90:48:B2:1C:E0:57:2D:7D:47
-	Valid from: 2009-03-25T00:00:00+0000
-	     until: 2019-03-24T23:59:59+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://ocsp.verisign.com
-CERTIFICATE
-Subject: /VeriSign Class 3 Secure OFX CA - G3/C=US/O=VeriSign,
-    Inc./OU=VeriSign Trust Network/OU=Terms of use at
-    https://www.verisign.com/rpa (c)09
-Issuer: /C=US/O=VeriSign, Inc./OU=Class 3 Public Primary Certification
-    Authority - G2/OU=(c) 1998 VeriSign, Inc. - For authorized use
-    only/OU=VeriSign Trust Network
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 78944370615824586355877221030964955929
-	SKI: C4:3E:C0:3B:0C:F9:07:1C:F3:BF:43:AB:26:96:A2:55:B4:EF:23:88
-	Valid from: 2009-04-01T00:00:00+0000
-	     until: 2019-03-31T23:59:59+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://ocsp.verisign.com
 CERTIFICATE
 Subject: /TERENA SSL CA/C=NL/O=TERENA
 Issuer: /UTN-USERFirst-Hardware/C=US/O=The USERTRUST
@@ -5191,26 +5136,6 @@ Details:
 		http://secure.globalsign.com/cacert/gsorganizationvalsha2g2r1.crt
 	OCSP server:
 		- http://ocsp2.globalsign.com/gsorganizationvalsha2g2
-CERTIFICATE
-Subject: /*.assembla.com/OU=Domain Control Validated
-Issuer: /Go Daddy Secure Certificate Authority - G2/C=US/O=GoDaddy.com,
-    Inc./OU=http://certs.godaddy.com/repository//L=Scottsdale/ST=Arizona
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 5861825744456647340
-	AKI: 40:C2:BD:27:8E:CC:34:83:30:A2:33:D7:FB:6C:B3:F0:B4:2C:80:CE
-	SKI: 5F:EE:24:1B:24:F0:20:58:11:65:4E:39:79:CA:3C:22:16:AC:0C:66
-	Valid from: 2016-03-10T20:41:39+0000
-	     until: 2019-03-24T19:30:40+0000
-	Key usages: digital signature, key encipherment
-	Extended usages: client auth, server auth
-	Basic constraints: valid
-	SANs (2): dns:*.assembla.com, dns:assembla.com
-	1 AIA:
-		http://certificates.godaddy.com/repository/gdig2.crt
-	OCSP server:
-		- http://ocsp.godaddy.com/
 CERTIFICATE
 Subject: /Let's Encrypt Authority X3/C=US/O=Let's Encrypt
 Issuer: /DST Root CA X3/O=Digital Signature Trust Co.

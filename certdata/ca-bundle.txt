@@ -357,20 +357,6 @@ Details:
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
-Subject: /C=ES/O=FNMT/OU=FNMT Clase 2 CA
-Issuer: /C=ES/O=FNMT/OU=FNMT Clase 2 CA
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-1024
-	Serial number: 921770777
-	AKI: 40:9A:76:44:97:74:07:C4:AC:14:CB:1E:8D:4F:3A:45:7C:30:D7:61
-	SKI: 40:9A:76:44:97:74:07:C4:AC:14:CB:1E:8D:4F:3A:45:7C:30:D7:61
-	Valid from: 1999-03-18T14:56:19+0000
-	     until: 2019-03-18T15:26:19+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
 Subject: /Entrust.net Secure Server Certification
     Authority/C=US/O=Entrust.net/OU=www.entrust.net/CPS incorp. by ref.
     (limits liab.)/OU=(c) 1999 Entrust.net Limited
