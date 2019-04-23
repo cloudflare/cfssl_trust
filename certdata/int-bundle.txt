@@ -1039,23 +1039,6 @@ Details:
 	1 AIA:
 		http://epki.com.tw/repository/Certs/IssuedToThisCA.p7b
 CERTIFICATE
-Subject: /BAW CA/C=DE/O=Bundesanstalt fuer Wasserbau
-Issuer: /DFN-Verein PCA Global - G01/C=DE/O=DFN-Verein/OU=DFN-PKI
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 175272024
-	AKI: 49:B7:C6:CF:E8:3D:1F:7F:EA:44:7B:13:29:F7:F1:0A:70:3E:DE:64
-	SKI: 06:23:10:BD:8A:02:85:AB:62:AC:AA:87:55:24:D7:DC:C9:92:17:E2
-	Valid from: 2007-05-22T13:40:26+0000
-	     until: 2019-05-21T00:00:00+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 1
-	SANs (1): email:baw-ca@baw.de
-	2 AIAs:
-		http://cdp1.pca.dfn.de/global-root-ca/pub/cacert/cacert.crt
-		http://cdp2.pca.dfn.de/global-root-ca/pub/cacert/cacert.crt
-CERTIFICATE
 Subject: /Uni-Osnabrueck RZ-CA G-002/C=DE/O=Universitaet
     Osnabrueck/OU=Rechenzentrum
 Issuer: /DFN-Verein PCA Global - G01/C=DE/O=DFN-Verein/OU=DFN-PKI
@@ -5117,26 +5100,6 @@ Details:
 	OCSP server:
 		- http://ocsp.digicert.com
 CERTIFICATE
-Subject: /*.senioradvisor.com/C=US/O=SeniorAdvisor.com LLC/L=Austin/ST=Texas
-Issuer: /GlobalSign Organization Validation CA - SHA256 - G2/C=BE/O=GlobalSign
-    nv-sa
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 1492416200808084338900120561819410615529455
-	AKI: 96:DE:61:F1:BD:1C:16:29:53:1C:C0:CC:7D:3B:83:00:40:E6:1A:7C
-	SKI: 96:25:F2:9A:A3:74:07:A4:4E:FE:C0:78:93:AE:AF:5C:62:A6:9F:CD
-	Valid from: 2016-03-08T19:44:44+0000
-	     until: 2019-05-12T17:54:21+0000
-	Key usages: digital signature, key encipherment
-	Extended usages: client auth, server auth
-	Basic constraints: valid
-	SANs (2): dns:*.senioradvisor.com, dns:senioradvisor.com
-	1 AIA:
-		http://secure.globalsign.com/cacert/gsorganizationvalsha2g2r1.crt
-	OCSP server:
-		- http://ocsp2.globalsign.com/gsorganizationvalsha2g2
-CERTIFICATE
 Subject: /Let's Encrypt Authority X3/C=US/O=Let's Encrypt
 Issuer: /DST Root CA X3/O=Digital Signature Trust Co.
 	Signature algorithm: RSA / SHA256
@@ -5173,26 +5136,6 @@ Details:
 	SANs (0):
 	1 AIA:
 		http://crt.comodoca.com/COMODORSAAddTrustCA.crt
-	OCSP server:
-		- http://ocsp.comodoca.com
-CERTIFICATE
-Subject: /*.realm.io/OU=Domain Control Validated/OU=PositiveSSL Wildcard
-Issuer: /COMODO RSA Domain Validation Secure Server CA/C=GB/O=COMODO CA
-    Limited/L=Salford/ST=Greater Manchester
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 177250019535444255879648010998742435239
-	AKI: 90:AF:6A:3A:94:5A:0B:D8:90:EA:12:56:73:DF:43:B4:3A:28:DA:E7
-	SKI: B8:DB:1C:15:D6:91:D0:9C:6D:07:1E:F6:A6:72:27:76:F3:1E:32:10
-	Valid from: 2016-04-29T00:00:00+0000
-	     until: 2019-04-30T23:59:59+0000
-	Key usages: digital signature, key encipherment
-	Extended usages: client auth, server auth
-	Basic constraints: valid
-	SANs (2): dns:*.realm.io, dns:realm.io
-	1 AIA:
-		http://crt.comodoca.com/COMODORSADomainValidationSecureServerCA.crt
 	OCSP server:
 		- http://ocsp.comodoca.com
 CERTIFICATE
