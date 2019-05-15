@@ -357,24 +357,6 @@ Details:
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
-Subject: /Entrust.net Secure Server Certification
-    Authority/C=US/O=Entrust.net/OU=www.entrust.net/CPS incorp. by ref.
-    (limits liab.)/OU=(c) 1999 Entrust.net Limited
-Issuer: /Entrust.net Secure Server Certification
-    Authority/C=US/O=Entrust.net/OU=www.entrust.net/CPS incorp. by ref.
-    (limits liab.)/OU=(c) 1999 Entrust.net Limited
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-1024
-	Serial number: 927650371
-	AKI: F0:17:62:13:55:3D:B3:FF:0A:00:6B:FB:50:84:97:F3:ED:62:D0:1A
-	SKI: F0:17:62:13:55:3D:B3:FF:0A:00:6B:FB:50:84:97:F3:ED:62:D0:1A
-	Valid from: 1999-05-25T16:09:40+0000
-	     until: 2019-05-25T16:39:40+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
 Subject: /Equifax Secure Global eBusiness CA-1/C=US/O=Equifax Secure Inc.
 Issuer: /Equifax Secure Global eBusiness CA-1/C=US/O=Equifax Secure Inc.
 	Signature algorithm: RSA / MD5
