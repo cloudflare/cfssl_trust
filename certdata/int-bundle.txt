@@ -1,23 +1,5 @@
 --int-bundle.crt ---
 CERTIFICATE
-Subject: /AddTrust External CA Root/C=SE/O=AddTrust AB/OU=AddTrust External
-    TTP Network
-Issuer: /UTN - DATACorp SGC/C=US/O=The USERTRUST
-    Network/OU=http://www.usertrust.com/L=Salt Lake City/ST=UT
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 168571358846649089547607717019433064179
-	AKI: 53:32:D1:B3:CF:7F:FA:E0:F1:A0:5D:85:4E:92:D2:9E:45:1D:B4:4F
-	SKI: AD:BD:98:7A:34:B4:26:F7:FA:C4:26:54:EF:03:BD:E0:24:CB:54:1A
-	Valid from: 1999-06-24T18:57:21+0000
-	     until: 2019-06-24T19:06:30+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-	OCSP server:
-		- http://ocsp.usertrust.com
-CERTIFICATE
 Subject: /COMODO ECC Certification Authority/C=GB/O=COMODO CA
     Limited/L=Salford/ST=Greater Manchester
 Issuer: /AddTrust External CA Root/C=SE/O=AddTrust AB/OU=AddTrust External TTP
@@ -294,46 +276,6 @@ Details:
 	2 AIAs:
 		http://crt.comodoca.com/AddTrustUTNServerCA.crt
 		http://crt.comodo.net/AddTrustUTNServerCA.crt
-CERTIFICATE
-Subject: /TBS X509 CA pro hosting/C=FR/O=TBS INTERNET/OU=Terms and
-    Conditions: http://www.tbs-internet.com/CA/repository/OU=TBS INTERNET
-    CA/L=Caen/ST=Calvados
-Issuer: /AddTrust External CA Root/C=SE/O=AddTrust AB/OU=AddTrust External TTP
-    Network
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 94171340778662126658063256181608837259
-	SKI: D4:34:88:42:2C:9B:C2:A0:9E:5D:F6:19:59:8D:F4:12:01:1A:3B:5C
-	Valid from: 2005-12-01T00:00:00+0000
-	     until: 2019-06-24T19:06:30+0000
-	Key usages: cert sign, crl sign
-	Extended usages: microsoft sgc, netscape sgc
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	2 AIAs:
-		http://crt.comodoca.com/AddTrustUTNSGCCA.crt
-		http://crt.comodo.net/AddTrustUTNSGCCA.crt
-CERTIFICATE
-Subject: /TBS X509 CA SGC/C=FR/O=TBS INTERNET/OU=Terms and
-    Conditions: http://www.tbs-internet.com/CA/repository/OU=TBS INTERNET
-    CA/L=Caen/ST=Calvados
-Issuer: /AddTrust External CA Root/C=SE/O=AddTrust AB/OU=AddTrust External TTP
-    Network
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 125699540135041110483945563586632999301
-	SKI: 07:44:76:85:93:28:BC:7F:6D:78:D2:0A:EB:FA:4C:4B:DF:D9:82:1F
-	Valid from: 2005-12-01T00:00:00+0000
-	     until: 2019-06-24T19:06:30+0000
-	Key usages: cert sign, crl sign
-	Extended usages: microsoft sgc, netscape sgc
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	2 AIAs:
-		http://crt.comodoca.com/AddTrustUTNSGCCA.crt
-		http://crt.comodo.net/AddTrustUTNSGCCA.crt
 CERTIFICATE
 Subject: /WISeKey CertifyID Advanced G1 CA/C=CH/O=WISeKey/OU=Copyright (c)
     2005 WISeKey SA/OU=International
@@ -1006,22 +948,6 @@ Details:
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
 CERTIFICATE
-Subject: /WoSign SGC Server Authority/C=US/O=WoSign, Inc.
-Issuer: /UTN - DATACorp SGC/C=US/O=The USERTRUST
-    Network/OU=http://www.usertrust.com/L=Salt Lake City/ST=UT
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 111670760524663160153885929281097069230
-	AKI: 53:32:D1:B3:CF:7F:FA:E0:F1:A0:5D:85:4E:92:D2:9E:45:1D:B4:4F
-	SKI: CA:34:B5:12:B9:BA:8C:45:B1:F9:AC:FD:E7:B4:A4:86:B2:EC:CA:21
-	Valid from: 2007-04-25T00:00:00+0000
-	     until: 2019-06-24T19:06:30+0000
-	Key usages: cert sign, crl sign
-	Extended usages: client auth, microsoft sgc, netscape sgc, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-CERTIFICATE
 Subject: /C=TW/O=Chunghwa Telecom Co., Ltd./OU=Public Certification Authority
 Issuer: /C=TW/O=Chunghwa Telecom Co., Ltd./OU=ePKI Root Certification
     Authority
@@ -1038,24 +964,6 @@ Details:
 	SANs (0):
 	1 AIA:
 		http://epki.com.tw/repository/Certs/IssuedToThisCA.p7b
-CERTIFICATE
-Subject: /Uni-Osnabrueck RZ-CA G-002/C=DE/O=Universitaet
-    Osnabrueck/OU=Rechenzentrum
-Issuer: /DFN-Verein PCA Global - G01/C=DE/O=DFN-Verein/OU=DFN-PKI
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 177677394
-	AKI: 49:B7:C6:CF:E8:3D:1F:7F:EA:44:7B:13:29:F7:F1:0A:70:3E:DE:64
-	SKI: AA:1F:D8:77:15:6E:99:E4:5F:90:D6:EC:63:26:4E:19:EA:67:14:50
-	Valid from: 2007-06-19T09:49:55+0000
-	     until: 2019-06-18T00:00:00+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 1
-	SANs (1): email:ca@uni-osnabrueck.de
-	2 AIAs:
-		http://cdp1.pca.dfn.de/global-root-ca/pub/cacert/cacert.crt
-		http://cdp2.pca.dfn.de/global-root-ca/pub/cacert/cacert.crt
 CERTIFICATE
 Subject: /Flash
     SSLGenie/C=IN/O=MindGenies/OU=http://www.sslgenie.com/L=Noida/ST=UP
@@ -4940,25 +4848,6 @@ Details:
 	SANs (0):
 	OCSP server:
 		- http://ocsp.digicert.com
-CERTIFICATE
-Subject: /COMODO Domain Validation Legacy Server CA 2/C=GB/O=COMODO CA
-    Limited/L=Salford/ST=Greater Manchester
-Issuer: /UTN - DATACorp SGC/C=US/O=The USERTRUST
-    Network/OU=http://www.usertrust.com/L=Salt Lake City/ST=UT
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 153999906353765291703542347600427355305
-	AKI: 53:32:D1:B3:CF:7F:FA:E0:F1:A0:5D:85:4E:92:D2:9E:45:1D:B4:4F
-	SKI: 99:8E:02:95:C5:1E:55:22:7B:87:70:8B:5E:1C:01:C2:76:C4:AE:E8
-	Valid from: 2015-12-14T00:00:00+0000
-	     until: 2019-06-24T19:06:30+0000
-	Key usages: cert sign, crl sign, digital signature
-	Extended usages: client auth, microsoft sgc, netscape sgc, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://ocsp.comodoca4.com
 CERTIFICATE
 Subject: /StartCom Class 3 OV Server CA/C=IL/O=StartCom Ltd./OU=StartCom
     Certification Authority
