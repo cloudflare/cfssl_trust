@@ -1003,24 +1003,6 @@ Details:
 		http://crt.comodoca.com/UTNAddTrustServerCA.crt
 		http://crt.comodo.net/UTNAddTrustServerCA.crt
 CERTIFICATE
-Subject: /TUD CA G01/C=DE/O=Technische Universitaet
-    Darmstadt/L=Darmstadt/ST=Hessen
-Issuer: /DFN-Verein PCA Global - G01/C=DE/O=DFN-Verein/OU=DFN-PKI
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 178903838
-	AKI: 49:B7:C6:CF:E8:3D:1F:7F:EA:44:7B:13:29:F7:F1:0A:70:3E:DE:64
-	SKI: BA:37:C8:A4:74:C6:34:3E:91:27:9F:55:1B:5E:F8:1B:D9:A8:E4:41
-	Valid from: 2007-07-03T14:30:40+0000
-	     until: 2019-06-30T00:00:00+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 1
-	SANs (1): email:tud-ca@hrz.tu-darmstadt.de
-	2 AIAs:
-		http://cdp1.pca.dfn.de/global-root-ca/pub/cacert/cacert.crt
-		http://cdp2.pca.dfn.de/global-root-ca/pub/cacert/cacert.crt
-CERTIFICATE
 Subject: /Premium SSLGenie
     SGC/C=IN/O=MindGenies/OU=http://www.sslgenie.com/L=Noida/ST=UP
 Issuer: /UTN - DATACorp SGC/C=US/O=The USERTRUST
@@ -1040,41 +1022,6 @@ Details:
 	2 AIAs:
 		http://crt.comodoca.com/UTNAddTrustSGCCA.crt
 		http://crt.comodo.net/UTNAddTrustSGCCA.crt
-CERTIFICATE
-Subject: /FV Berlin - PKI CA/C=DE/O=Forschungsverbund Berlin e.V./OU=Corporate
-    Network
-Issuer: /DFN-Verein PCA Global - G01/C=DE/O=DFN-Verein/OU=DFN-PKI
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 179673398
-	AKI: 49:B7:C6:CF:E8:3D:1F:7F:EA:44:7B:13:29:F7:F1:0A:70:3E:DE:64
-	SKI: 45:A4:5C:1B:96:07:1F:00:CE:AF:E5:4C:D6:66:6E:19:57:D2:43:76
-	Valid from: 2007-07-12T12:16:40+0000
-	     until: 2019-06-30T00:00:00+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 1
-	SANs (1): email:pki-ca@fv-berlin.de
-	2 AIAs:
-		http://cdp1.pca.dfn.de/global-root-ca/pub/cacert/cacert.crt
-		http://cdp2.pca.dfn.de/global-root-ca/pub/cacert/cacert.crt
-CERTIFICATE
-Subject: /BfR CA/C=DE/O=Bundesinstitut fuer Risikobewertung
-Issuer: /DFN-Verein PCA Global - G01/C=DE/O=DFN-Verein/OU=DFN-PKI
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 182706802
-	AKI: 49:B7:C6:CF:E8:3D:1F:7F:EA:44:7B:13:29:F7:F1:0A:70:3E:DE:64
-	SKI: 16:BD:F8:18:6C:0F:D5:0B:40:23:D5:7D:DC:76:52:27:55:A6:B1:01
-	Valid from: 2007-08-16T14:53:24+0000
-	     until: 2019-06-30T00:00:00+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 1
-	SANs (1): email:ca@bfr.bund.de
-	2 AIAs:
-		http://cdp1.pca.dfn.de/global-root-ca/pub/cacert/cacert.crt
-		http://cdp2.pca.dfn.de/global-root-ca/pub/cacert/cacert.crt
 CERTIFICATE
 Subject: /OVH Secure Certification Authority/C=FR/O=OVH SAS/OU=Low Assurance
 Issuer: /UTN-USERFirst-Hardware/C=US/O=The USERTRUST
@@ -1479,23 +1426,6 @@ Details:
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
-Subject: /HMT Hannover CA/C=DE/O=Hochschule fuer Musik und Theater Hannover
-Issuer: /DFN-Verein PCA Global - G01/C=DE/O=DFN-Verein/OU=DFN-PKI
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 226927828
-	AKI: 49:B7:C6:CF:E8:3D:1F:7F:EA:44:7B:13:29:F7:F1:0A:70:3E:DE:64
-	SKI: 06:15:9F:E9:5D:6B:CC:BE:E9:68:46:30:A5:39:C9:98:BA:CF:5D:2C
-	Valid from: 2009-01-09T10:30:29+0000
-	     until: 2019-06-30T00:00:00+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 1
-	SANs (1): email:pki@hmt-hannover.de
-	2 AIAs:
-		http://cdp1.pca.dfn.de/global-root-ca/pub/cacert/cacert.crt
-		http://cdp2.pca.dfn.de/global-root-ca/pub/cacert/cacert.crt
-CERTIFICATE
 Subject: /GLOBE SGC SSL CA/C=RO/O=GLOBE HOSTING CERTIFICATION AUTHORITY
 Issuer: /UTN - DATACorp SGC/C=US/O=The USERTRUST
     Network/OU=http://www.usertrust.com/L=Salt Lake City/ST=UT
@@ -1710,42 +1640,6 @@ Details:
 		http://crt.usertrust.com/UTNAddTrustSGC_CA.crt
 	OCSP server:
 		- http://ocsp.usertrust.com
-CERTIFICATE
-Subject: /Sachsen Global CA/C=DE/O=Freistaat Sachsen/OU=Saechsisches
-    Staatsministerium des Innern/L=Dresden/ST=Sachsen
-Issuer: /DFN-Verein PCA Global - G01/C=DE/O=DFN-Verein/OU=DFN-PKI
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 243607669
-	AKI: 49:B7:C6:CF:E8:3D:1F:7F:EA:44:7B:13:29:F7:F1:0A:70:3E:DE:64
-	SKI: CD:CE:FE:B1:FF:F9:2E:E4:96:A9:FF:2B:E3:2D:80:1D:8E:4A:98:F5
-	Valid from: 2009-07-21T11:47:49+0000
-	     until: 2019-06-30T00:00:00+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 1
-	SANs (1): email:pki@smi.sachsen.de
-	2 AIAs:
-		http://cdp1.pca.dfn.de/global-root-ca/pub/cacert/cacert.crt
-		http://cdp2.pca.dfn.de/global-root-ca/pub/cacert/cacert.crt
-CERTIFICATE
-Subject: /LSKN CA/C=DE/O=Land Niedersachsen/OU=Landesbetrieb fuer Statistik
-    und Kommunikationstechnologie/L=Hannover/ST=Niedersachsen
-Issuer: /DFN-Verein PCA Global - G01/C=DE/O=DFN-Verein/OU=DFN-PKI
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 244305373
-	AKI: 49:B7:C6:CF:E8:3D:1F:7F:EA:44:7B:13:29:F7:F1:0A:70:3E:DE:64
-	SKI: F1:8A:5B:EA:18:94:9C:66:41:DA:1C:A1:8A:76:DF:D7:22:2E:03:F9
-	Valid from: 2009-07-29T13:36:13+0000
-	     until: 2019-06-30T00:00:00+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 1
-	SANs (1): email:ca@lskn.niedersachsen.de
-	2 AIAs:
-		http://cdp1.pca.dfn.de/global-root-ca/pub/cacert/cacert.crt
-		http://cdp2.pca.dfn.de/global-root-ca/pub/cacert/cacert.crt
 CERTIFICATE
 Subject: /Starfield Services Root Certificate Authority - G2/C=US/O=Starfield
     Technologies, Inc./L=Scottsdale/ST=Arizona
