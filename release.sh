@@ -8,8 +8,9 @@
 # Environment variables used by this script (note that sensible defaults
 # will be used where applicable).
 # - EXPIRATION_WINDOW: the minimum time certificates must be valid for
-#   in order to be included in the new release. The default is 720h, or
-#   30 days. This must be parsable by Go's time package.
+#   in order to be included in the new release. The default is 0h, which
+#   includes all currently validate certificates. This must be parsable by
+#   Go's time package.
 # - NOPUSH: do not push the release branch upstream.
 # - TRUST_CONFIG_PATH: the path to a cfssl-trust configuration file. The
 #   default is to not specify a configuration file; the cfssl-trust program
@@ -48,8 +49,9 @@ then
 	DATABASE_PATH="-d ${DATABASE_PATH}"
 fi
 
-# The expiration window defaults to 30 days.
-EXPIRATION_WINDOW="${EXPIRATION_WINDOW:-720h}"
+# The expiration window defaults to including all currently
+# valid certificates.
+EXPIRATION_WINDOW="${EXPIRATION_WINDOW:-0h}"
 
 # We need to verify that we have the right tooling in place:
 # cfssl-trust to perform the release, and certdump to produce
