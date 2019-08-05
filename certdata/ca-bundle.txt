@@ -398,82 +398,6 @@ Details:
 	Basic constraints: valid, is a CA certificate, max path length 10
 	SANs (0):
 CERTIFICATE
-Subject: /Class 2 Primary CA/C=FR/O=Certplus
-Issuer: /Class 2 Primary CA/C=FR/O=Certplus
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 177770208045934040241468760488327595043
-	SKI: E3:73:2D:DF:CB:0E:28:0C:DE:DD:B3:A4:CA:79:B8:8E:BB:E8:30:89
-	Valid from: 1999-07-07T17:05:00+0000
-	     until: 2019-07-06T23:59:59+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 10
-	SANs (0):
-CERTIFICATE
-Subject: /Deutsche Telekom Root CA 2/C=DE/O=Deutsche Telekom AG/OU=T-TeleSec
-    Trust Center
-Issuer: /Deutsche Telekom Root CA 2/C=DE/O=Deutsche Telekom AG/OU=T-TeleSec
-    Trust Center
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 38
-	SKI: 31:C3:79:1B:BA:F5:53:D7:17:E0:89:7A:2D:17:6C:0A:B3:2B:9D:33
-	Valid from: 1999-07-09T12:11:00+0000
-	     until: 2019-07-09T23:59:00+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 5
-	SANs (0):
-CERTIFICATE
-Subject: /UTN-USERFirst-Client Authentication and Email/C=US/O=The USERTRUST
-    Network/OU=http://www.usertrust.com/L=Salt Lake City/ST=UT
-Issuer: /UTN-USERFirst-Client Authentication and Email/C=US/O=The USERTRUST
-    Network/OU=http://www.usertrust.com/L=Salt Lake City/ST=UT
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 91374294542884704022267039196069218697
-	SKI: 89:82:67:7D:C4:9D:26:70:00:4B:B4:50:48:7C:DE:3D:AE:04:6E:7D
-	Valid from: 1999-07-09T17:28:50+0000
-	     until: 2019-07-09T17:36:58+0000
-	Key usages: cert sign, content committment, crl sign, digital signature
-	Extended usages: client auth, s/mime
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
-Subject: /UTN-USERFirst-Hardware/C=US/O=The USERTRUST
-    Network/OU=http://www.usertrust.com/L=Salt Lake City/ST=UT
-Issuer: /UTN-USERFirst-Hardware/C=US/O=The USERTRUST
-    Network/OU=http://www.usertrust.com/L=Salt Lake City/ST=UT
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 91374294542884704022267039221184531197
-	SKI: A1:72:5F:26:1B:28:98:43:95:5D:07:37:D5:85:96:9D:4B:D2:C3:45
-	Valid from: 1999-07-09T18:10:42+0000
-	     until: 2019-07-09T18:19:22+0000
-	Key usages: cert sign, content committment, crl sign, digital signature
-	Extended usages: ipsec end system, ipsec tunnel, ipsec user, server auth
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
-Subject: /UTN-USERFirst-Object/C=US/O=The USERTRUST
-    Network/OU=http://www.usertrust.com/L=Salt Lake City/ST=UT
-Issuer: /UTN-USERFirst-Object/C=US/O=The USERTRUST
-    Network/OU=http://www.usertrust.com/L=Salt Lake City/ST=UT
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 91374294542884704022267039233571249947
-	SKI: DA:ED:64:74:14:9C:14:3C:AB:DD:99:A9:BD:5B:28:4D:8B:3C:C9:D8
-	Valid from: 1999-07-09T18:31:20+0000
-	     until: 2019-07-09T18:40:36+0000
-	Key usages: cert sign, content committment, crl sign, digital signature
-	Extended usages: code signing, timestamping
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
 Subject: /SecureSign RootCA1/C=JP/O=Japan Certification Services, Inc.
 Issuer: /SecureSign RootCA1/C=JP/O=Japan Certification Services, Inc.
 	Signature algorithm: RSA / SHA1
@@ -3759,48 +3683,6 @@ Details:
 	     until: 2036-07-16T10:24:55+0000
 	Key usages: cert sign, crl sign, digital signature
 	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
-Subject: /CA DATEV BT 02/C=DE/O=DATEV eG
-Issuer: /CA DATEV BT 02/C=DE/O=DATEV eG
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 105514854973912580309111981924202850293
-	AKI: A8:1B:83:46:D7:F8:4B:7B:AF:CE:B9:B7:2A:A6:05:9E:0E:FE:0D:96
-	SKI: A8:1B:83:46:D7:F8:4B:7B:AF:CE:B9:B7:2A:A6:05:9E:0E:FE:0D:96
-	Valid from: 2011-08-02T06:59:44+0000
-	     until: 2019-08-02T08:59:44+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-CERTIFICATE
-Subject: /CA DATEV STD 02/C=DE/O=DATEV eG
-Issuer: /CA DATEV STD 02/C=DE/O=DATEV eG
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 112500939987788825872391527463173070757
-	AKI: 57:95:23:B3:86:4B:FA:69:77:41:06:79:EC:10:7C:2C:02:E8:08:D4
-	SKI: 57:95:23:B3:86:4B:FA:69:77:41:06:79:EC:10:7C:2C:02:E8:08:D4
-	Valid from: 2011-08-02T06:59:44+0000
-	     until: 2019-08-02T08:59:44+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-CERTIFICATE
-Subject: /CA DATEV INT 02/C=DE/O=DATEV eG
-Issuer: /CA DATEV INT 02/C=DE/O=DATEV eG
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 141261841610785919334202133373192713049
-	AKI: 29:75:91:76:52:09:C4:D6:08:EC:C5:25:73:E9:32:DB:02:53:C3:5B
-	SKI: 29:75:91:76:52:09:C4:D6:08:EC:C5:25:73:E9:32:DB:02:53:C3:5B
-	Valid from: 2011-08-02T06:59:44+0000
-	     until: 2019-08-02T08:59:44+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
 CERTIFICATE
 Subject: /GPKIRootCA1/C=KR/O=Government of Korea/OU=GPKI
