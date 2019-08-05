@@ -211,22 +211,6 @@ Details:
 	OCSP server:
 		- http://ocsp.starfieldtech.com
 CERTIFICATE
-Subject: /AddTrust External CA Root/C=SE/O=AddTrust AB/OU=AddTrust External
-    TTP Network
-Issuer: /UTN-USERFirst-Hardware/C=US/O=The USERTRUST
-    Network/OU=http://www.usertrust.com/L=Salt Lake City/ST=UT
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 38289384049192862285155360726760142488
-	AKI: A1:72:5F:26:1B:28:98:43:95:5D:07:37:D5:85:96:9D:4B:D2:C3:45
-	SKI: AD:BD:98:7A:34:B4:26:F7:FA:C4:26:54:EF:03:BD:E0:24:CB:54:1A
-	Valid from: 2005-06-07T08:09:10+0000
-	     until: 2019-07-09T18:19:22+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
 Subject: /UTN-USERFirst-Hardware/C=US/O=The USERTRUST
     Network/OU=http://www.usertrust.com/L=Salt Lake City/ST=UT
 Issuer: /AddTrust External CA Root/C=SE/O=AddTrust AB/OU=AddTrust External TTP
@@ -258,24 +242,6 @@ Details:
 	Key usages: cert sign, crl sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
-CERTIFICATE
-Subject: /LiteSSL CA/C=US/O=Positive Software Corporation/L=Jersey City/ST=New
-    Jersey
-Issuer: /AddTrust External CA Root/C=SE/O=AddTrust AB/OU=AddTrust External TTP
-    Network
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 64673270684699015318615015289161343957
-	SKI: B8:CA:11:E9:06:31:79:DB:C3:94:C6:E8:19:2A:BC:BB:35:16:31:A4
-	Valid from: 2005-07-14T00:00:00+0000
-	     until: 2019-07-09T18:19:22+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 1
-	SANs (0):
-	2 AIAs:
-		http://crt.comodoca.com/AddTrustUTNServerCA.crt
-		http://crt.comodo.net/AddTrustUTNServerCA.crt
 CERTIFICATE
 Subject: /WISeKey CertifyID Advanced G1 CA/C=CH/O=WISeKey/OU=Copyright (c)
     2005 WISeKey SA/OU=International
@@ -312,40 +278,6 @@ Details:
 	SANs (0):
 	1 AIA:
 		http://public.wisekey.com/crt/owgrgaca.crt
-CERTIFICATE
-Subject: /Secure Business Services CA/C=US/O=Secure Business Services, Inc.
-Issuer: /AddTrust External CA Root/C=SE/O=AddTrust AB/OU=AddTrust External TTP
-    Network
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 14787117359334436608473536180625630343
-	SKI: 38:96:5A:28:2D:5F:43:24:97:F5:D4:F9:8F:3B:87:25:D0:C9:AF:B6
-	Valid from: 2006-01-19T00:00:00+0000
-	     until: 2019-07-09T18:19:22+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	2 AIAs:
-		http://crt.comodoca.com/AddTrustUTNServerCA.crt
-		http://crt.comodo.net/AddTrustUTNServerCA.crt
-CERTIFICATE
-Subject: /GlobalTrust Certification Authority/C=IT/O=GlobalTrust
-Issuer: /AddTrust External CA Root/C=SE/O=AddTrust AB/OU=AddTrust External TTP
-    Network
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 93043873564762596527943999499862174120
-	SKI: 56:FB:DB:24:A8:5A:C1:B6:8A:3E:44:73:3D:D1:2A:43:23:15:06:B6
-	Valid from: 2006-03-01T00:00:00+0000
-	     until: 2019-07-09T18:19:22+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 3
-	SANs (0):
-	2 AIAs:
-		http://crt.comodoca.com/AddTrustUTNServerCA.crt
-		http://crt.comodo.net/AddTrustUTNServerCA.crt
 CERTIFICATE
 Subject: /Network Solutions Certificate Authority/C=US/O=Network Solutions
     L.L.C.
@@ -900,38 +832,6 @@ Details:
 	2 AIAs:
 		http://crt.comodoca.com/UTNAddTrustServerCA.crt
 		http://crt.comodo.net/UTNAddTrustServerCA.crt
-CERTIFICATE
-Subject: /WoSign Premium Server Authority/C=US/O=WoSign, Inc.
-Issuer: /UTN-USERFirst-Hardware/C=US/O=The USERTRUST
-    Network/OU=http://www.usertrust.com/L=Salt Lake City/ST=UT
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 134011741654532561763525956199892558564
-	AKI: A1:72:5F:26:1B:28:98:43:95:5D:07:37:D5:85:96:9D:4B:D2:C3:45
-	SKI: D9:AD:AC:9C:5E:AB:97:FB:B4:C6:BB:11:34:A9:FB:FE:F2:AF:7D:E8
-	Valid from: 2007-04-25T00:00:00+0000
-	     until: 2019-07-09T18:19:22+0000
-	Key usages: cert sign, crl sign
-	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-CERTIFICATE
-Subject: /WoSign Server Authority/C=US/O=WoSign, Inc.
-Issuer: /UTN-USERFirst-Hardware/C=US/O=The USERTRUST
-    Network/OU=http://www.usertrust.com/L=Salt Lake City/ST=UT
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 60850528605544770809450722896958514544
-	AKI: A1:72:5F:26:1B:28:98:43:95:5D:07:37:D5:85:96:9D:4B:D2:C3:45
-	SKI: D0:4A:B5:27:93:1B:46:EB:AB:38:46:7C:90:55:E1:16:61:1F:6F:D5
-	Valid from: 2007-04-25T00:00:00+0000
-	     until: 2019-07-09T18:19:22+0000
-	Key usages: cert sign, crl sign
-	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
 CERTIFICATE
 Subject: /C=TW/O=Chunghwa Telecom Co., Ltd./OU=Public Certification Authority
 Issuer: /C=TW/O=Chunghwa Telecom Co., Ltd./OU=ePKI Root Certification
@@ -2362,22 +2262,6 @@ Details:
 	OCSP server:
 		- http://ocsp.usertrust.com
 CERTIFICATE
-Subject: /CLASS 2 KEYNECTIS CA/C=FR/O=KEYNECTIS
-Issuer: /Class 2 Primary CA/C=FR/O=Certplus
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 1492544930483030040997469253203207837132345
-	AKI: E3:73:2D:DF:CB:0E:28:0C:DE:DD:B3:A4:CA:79:B8:8E:BB:E8:30:89
-	SKI: 00:11:41:DF:3B:9D:3B:CB:B8:A2:C1:33:92:A8:81:CC:E5:7D:E7:99
-	Valid from: 2011-10-17T00:00:00+0000
-	     until: 2019-07-06T00:00:00+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://ocsp-ssl.certificat2.com/class2primaryca
-CERTIFICATE
 Subject: /Entrust Certification Authority - L1E/C=US/O=Entrust,
     Inc./OU=www.entrust.net/rpa is incorporated by reference/OU=(c) 2009
     Entrust, Inc.
@@ -2620,21 +2504,6 @@ Details:
 	SANs (0):
 	1 AIA:
 		http://repository.certum.pl/gsca.cer
-CERTIFICATE
-Subject: /DigiCert High Assurance EV Root CA/C=US/O=DigiCert
-    Inc/OU=www.digicert.com
-Issuer: /Baltimore CyberTrust Root/C=IE/O=Baltimore/OU=CyberTrust
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 120026506
-	AKI: E5:9D:59:30:82:47:58:CC:AC:FA:08:54:36:86:7B:3A:B5:04:4D:F0
-	SKI: B1:3E:C3:69:03:F8:BF:47:01:D4:98:26:1A:08:02:EF:63:64:2B:C3
-	Valid from: 2012-07-25T17:58:28+0000
-	     until: 2019-07-25T17:57:44+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 1
-	SANs (0):
 CERTIFICATE
 Subject: /GeoTrust Extended Validation SSL CA - G2/C=US/O=GeoTrust Inc.
 Issuer: /GeoTrust Primary Certification Authority/C=US/O=GeoTrust Inc.
