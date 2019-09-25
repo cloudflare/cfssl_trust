@@ -3018,38 +3018,6 @@ Details:
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
-Subject: /I.CA - Qualified Certification Authority, 09/2009/C=CZ/O=První
-    certifikační autorita, a.s./OU=I.CA - Accredited Provider of
-    Certification Services
-Issuer: /I.CA - Qualified Certification Authority, 09/2009/C=CZ/O=První
-    certifikační autorita, a.s./OU=I.CA - Accredited Provider of
-    Certification Services
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 10500000
-	SKI: 79:CB:D0:23:E9:3A:67:70:91:74:4F:D3:51:E2:E0:20:FD:E1:28:FB
-	Valid from: 2009-09-01T00:00:00+0000
-	     until: 2019-09-01T00:00:00+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
-Subject: /I.CA - Standard Certification Authority, 09/2009/C=CZ/O=První
-    certifikační autorita, a.s./OU=I.CA - Provider of Certification Services
-Issuer: /I.CA - Standard Certification Authority, 09/2009/C=CZ/O=První
-    certifikační autorita, a.s./OU=I.CA - Provider of Certification Services
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 1500000
-	SKI: C1:4C:38:94:D5:80:86:48:D9:22:90:2C:D3:EE:19:10:DB:67:47:87
-	Valid from: 2009-09-01T00:00:00+0000
-	     until: 2019-09-01T00:00:00+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
 Subject: /TC TrustCenter Universal CA III/C=DE/O=TC TrustCenter GmbH/OU=TC
     TrustCenter Universal CA
 Issuer: /TC TrustCenter Universal CA III/C=DE/O=TC TrustCenter GmbH/OU=TC
