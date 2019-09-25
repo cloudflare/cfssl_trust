@@ -4870,26 +4870,6 @@ Details:
 	OCSP server:
 		- http://ocsp.digicert.com
 CERTIFICATE
-Subject: /*.embedly.com/OU=Domain Control Validated/OU=EssentialSSL Wildcard
-Issuer: /COMODO RSA Domain Validation Secure Server CA/C=GB/O=COMODO CA
-    Limited/L=Salford/ST=Greater Manchester
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 42463288777003568946646196709577338190
-	AKI: 90:AF:6A:3A:94:5A:0B:D8:90:EA:12:56:73:DF:43:B4:3A:28:DA:E7
-	SKI: E5:8B:5B:BD:E7:F6:2D:1F:D2:4A:11:75:81:87:4D:12:67:74:08:BA
-	Valid from: 2016-08-04T00:00:00+0000
-	     until: 2019-09-17T23:59:59+0000
-	Key usages: digital signature, key encipherment
-	Extended usages: client auth, server auth
-	Basic constraints: valid
-	SANs (2): dns:*.embedly.com, dns:embedly.com
-	1 AIA:
-		http://crt.comodoca.com/COMODORSADomainValidationSecureServerCA.crt
-	OCSP server:
-		- http://ocsp.comodoca.com
-CERTIFICATE
 Subject: /Siemens Issuing CA Internet Server 2016/C=DE/O=Siemens/OU=Siemens
     Trust Center/L=Muenchen/ST=Bayern
 Issuer: /QuoVadis Enterprise Trust CA 2 G3/C=BM/O=QuoVadis Limited
@@ -4989,27 +4969,6 @@ Details:
 		http://ssl.trustwave.com/issuers/STCA.crt
 	OCSP server:
 		- http://ocsp.trustwave.com
-CERTIFICATE
-Subject: /*.tvp.pl/OU=Domain Control Validated/OU=Provided by DOMENY.PL sp. z
-    o.o./OU=Domeny.pl SuperFAST Wildcard SSL
-Issuer: /DOMENY SSL DV Certification Authority/C=PL/O=DOMENY.PL sp. z
-    o.o/L=Kraków/ST=Małopolskie
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 144687963048105378093014032975872751047
-	AKI: 56:34:05:BF:44:72:56:3D:96:29:D3:FF:31:7B:EF:9D:45:49:39:A9
-	SKI: 4C:40:89:DD:47:9F:E0:A1:D8:CA:95:4E:F6:98:8D:86:45:28:DF:A7
-	Valid from: 2016-09-05T00:00:00+0000
-	     until: 2019-09-05T23:59:59+0000
-	Key usages: digital signature, key encipherment
-	Extended usages: client auth, server auth
-	Basic constraints: valid
-	SANs (2): dns:*.tvp.pl, dns:tvp.pl
-	1 AIA:
-		http://crt.usertrust.com/DOMENYSSLDVCertificationAuthority.crt
-	OCSP server:
-		- http://ocsp.usertrust.com
 CERTIFICATE
 Subject: /GlobalSign Extended Validation CA - SHA256 - G3/C=BE/O=GlobalSign
     nv-sa
