@@ -4910,26 +4910,6 @@ Details:
 	OCSP server:
 		- http://s.symcd.com
 CERTIFICATE
-Subject: /*.austrian.com/C=AT/O=Austrian Airlines AG/L=Vienna/ST=Vienna
-Issuer: /GlobalSign Organization Validation CA - SHA256 - G2/C=BE/O=GlobalSign
-    nv-sa
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 17886055037178420061899729398
-	AKI: 96:DE:61:F1:BD:1C:16:29:53:1C:C0:CC:7D:3B:83:00:40:E6:1A:7C
-	SKI: 46:61:6E:A9:A2:C1:C6:30:82:44:76:61:8E:24:BA:FE:76:44:CA:C0
-	Valid from: 2016-08-22T12:16:04+0000
-	     until: 2019-10-17T13:31:02+0000
-	Key usages: digital signature, key encipherment
-	Extended usages: client auth, server auth
-	Basic constraints: valid
-	SANs (2): dns:*.austrian.com, dns:austrian.com
-	1 AIA:
-		http://secure.globalsign.com/cacert/gsorganizationvalsha2g2r1.crt
-	OCSP server:
-		- http://ocsp2.globalsign.com/gsorganizationvalsha2g2
-CERTIFICATE
 Subject: /Trustwave Extended Validation SHA256 CA, Level 1/C=US/O=Trustwave
     Holdings, Inc./L=Chicago/ST=Illinois
 Issuer: /SecureTrust CA/C=US/O=SecureTrust Corporation
@@ -4986,25 +4966,6 @@ Details:
 	SANs (0):
 	OCSP server:
 		- http://ocsp2.globalsign.com/rootr3
-CERTIFICATE
-Subject: /cacerts.digicert.com/C=US/O=DigiCert, Inc./L=Lehi/ST=Utah
-Issuer: /DigiCert SHA2 Secure Server CA/C=US/O=DigiCert Inc
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 5143380072184565362602974553471722389
-	AKI: 0F:80:61:1C:82:31:61:D5:2F:28:E7:8D:46:38:B4:2C:E1:C6:D9:E2
-	SKI: 14:64:E6:4C:71:35:D7:AE:E6:1C:44:C9:40:F6:5F:1B:5C:3F:57:FC
-	Valid from: 2016-09-22T00:00:00+0000
-	     until: 2019-09-27T12:00:00+0000
-	Key usages: digital signature, key encipherment
-	Extended usages: client auth, server auth
-	Basic constraints: valid
-	SANs (1): dns:cacerts.digicert.com
-	1 AIA:
-		http://cacerts.digicert.com/DigiCertSHA2SecureServerCA.crt
-	OCSP server:
-		- http://ocsp.digicert.com
 CERTIFICATE
 Subject: /AlphaSSL CA - SHA256 - G2/C=BE/O=GlobalSign nv-sa
 Issuer: /GlobalSign/O=GlobalSign/OU=GlobalSign Root CA - R3
