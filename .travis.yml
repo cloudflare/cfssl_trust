@@ -2,18 +2,12 @@ sudo: false
 language: go
 go:
   - master
-  - 1.11.x
-  - 1.10.x
-  - 1.9.x
-
+  - 1.13.x
+env:
+  - GOFLAGS=-mod=vendor GOPROXY=off
+install: skip # explicitly disable the go get since we vendor deps
 before_script:
-  - go build ./vendor/github.com/golang/lint/golint
+  - go build ./vendor/golang.org/x/lint/golint
 script:
   - ./test.sh
-notifications:
-  email:
-    recipients:
-      - kyle@cloudflare.com
-      - cbroglie@cloudflare.com
-    on_success: change
-    on_failure: change
+
