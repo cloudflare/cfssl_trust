@@ -4983,28 +4983,6 @@ Details:
 	OCSP server:
 		- http://ocsp2.globalsign.com/rootr3
 CERTIFICATE
-Subject: /www.thalesgroup.com/C=FR/O=THALES GLOBAL SERVICES/OU=Unified
-    Communications/L=VELIZY VILLACOUBLAY/ST=Ile-de-France
-Issuer: /Trusted Secure Certificate Authority 5/C=US/O=Corporation Service
-    Company/L=Wilmington/ST=DE
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 29800840917513907863772439678249747463
-	AKI: F2:BB:55:EE:FC:8F:CF:D0:3F:14:68:1A:95:7E:79:0E:AB:17:30:F4
-	SKI: 51:4F:5A:E5:C3:95:3A:9C:63:D7:E4:48:58:AC:FC:7E:3C:E0:3D:A6
-	Valid from: 2016-10-26T00:00:00+0000
-	     until: 2019-10-26T23:59:59+0000
-	Key usages: digital signature, key encipherment
-	Extended usages: client auth, server auth
-	Basic constraints: valid
-	SANs (3): dns:www.thalesgroup.com, dns:customeronline.thalesgroup.com,
-            dns:spplieronline.thalesgroup.com
-	1 AIA:
-		http://crt.usertrust.com/TrustedSecureCertificateAuthority5.crt
-	OCSP server:
-		- http://ocsp.usertrust.com
-CERTIFICATE
 Subject: /QuoVadis PKIoverheid Organisatie Server CA - G3/C=NL/O=QuoVadis
     Trustlink B.V.
 Issuer: /Staat der Nederlanden Organisatie Services CA - G3/C=NL/O=Staat der
