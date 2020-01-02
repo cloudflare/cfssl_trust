@@ -507,24 +507,6 @@ Issuer: /Entrust.net Certification Authority
 	Signature algorithm: RSA / SHA1
 Details:
 	Public key: RSA-2048
-	Serial number: 946059622
-	AKI: 55:E4:81:D1:11:80:BE:D8:89:B9:08:A3:31:F9:A1:24:09:16:B9:70
-	SKI: 55:E4:81:D1:11:80:BE:D8:89:B9:08:A3:31:F9:A1:24:09:16:B9:70
-	Valid from: 1999-12-24T17:50:51+0000
-	     until: 2019-12-24T18:20:51+0000
-	Key usages: 
-	Basic constraints: invalid
-	SANs (0):
-CERTIFICATE
-Subject: /Entrust.net Certification Authority
-    (2048)/O=Entrust.net/OU=www.entrust.net/CPS_2048 incorp. by ref. (limits
-    liab.)/OU=(c) 1999 Entrust.net Limited
-Issuer: /Entrust.net Certification Authority
-    (2048)/O=Entrust.net/OU=www.entrust.net/CPS_2048 incorp. by ref. (limits
-    liab.)/OU=(c) 1999 Entrust.net Limited
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
 	Serial number: 946069240
 	SKI: 55:E4:81:D1:11:80:BE:D8:89:B9:08:A3:31:F9:A1:24:09:16:B9:70
 	Valid from: 1999-12-24T17:50:51+0000
