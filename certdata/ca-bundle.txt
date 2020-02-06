@@ -168,20 +168,6 @@ Details:
 	Basic constraints: invalid
 	SANs (0):
 CERTIFICATE
-Subject: /C=US/O=VeriSign, Inc./OU=Class 1 Public Primary Certification
-    Authority
-Issuer: /C=US/O=VeriSign, Inc./OU=Class 1 Public Primary Certification
-    Authority
-	Signature algorithm: RSA / MD2
-Details:
-	Public key: RSA-1024
-	Serial number: 66877834366059883438131495164510717989
-	Valid from: 1996-01-29T00:00:00+0000
-	     until: 2020-01-07T23:59:59+0000
-	Key usages: 
-	Basic constraints: invalid
-	SANs (0):
-CERTIFICATE
 Subject: /Thawte Server CA/C=ZA/O=Thawte Consulting cc/OU=Certification
     Services Division/L=Cape Town/ST=Western Cape
 Issuer: /Thawte Server CA/C=ZA/O=Thawte Consulting cc/OU=Certification
@@ -3051,21 +3037,6 @@ Details:
 	SKI: 4B:C5:B4:40:6B:AD:1C:B3:A5:1C:65:6E:46:36:89:87:05:0C:0E:B6
 	Valid from: 2010-01-01T01:00:01+0000
 	     until: 2039-12-31T23:59:01+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
-Subject: /Macao Post eSignTrust Root Certification Authority
-    (G02)/C=MO/O=Macao Post
-Issuer: /Macao Post eSignTrust Root Certification Authority (G02)/C=MO/O=Macao
-    Post
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-4096
-	Serial number: 109893624931803136628412822328738037668
-	SKI: 02:81:B7:B6:66:F8:92:45:6D:C2:71:D2:9F:EC:2F:D3:BA:1F:B9:FF
-	Valid from: 2010-01-06T00:00:00+0000
-	     until: 2020-01-05T23:59:59+0000
 	Key usages: cert sign, crl sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
