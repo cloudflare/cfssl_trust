@@ -2388,19 +2388,6 @@ Details:
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
-Subject: /Staat der Nederlanden Root CA - G2/C=NL/O=Staat der Nederlanden
-Issuer: /Staat der Nederlanden Root CA - G2/C=NL/O=Staat der Nederlanden
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-4096
-	Serial number: 10000012
-	SKI: 91:68:32:87:15:1D:89:E2:B5:F1:AC:36:28:34:8D:0B:7C:62:88:EB
-	Valid from: 2008-03-26T11:18:17+0000
-	     until: 2020-03-25T11:03:10+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
 Subject: /thawte Primary Root CA - G3/C=US/O=thawte, Inc./OU=Certification
     Services Division/OU=(c) 2008 thawte, Inc. - For authorized use only
 Issuer: /thawte Primary Root CA - G3/C=US/O=thawte, Inc./OU=Certification
