@@ -514,78 +514,6 @@ Details:
 	Basic constraints: valid, is a CA certificate, max path length 3
 	SANs (0):
 CERTIFICATE
-Subject: /DoD CLASS 3 Root CA/C=US/O=U.S. Government/OU=DoD/OU=PKI
-Issuer: /DoD CLASS 3 Root CA/C=US/O=U.S. Government/OU=DoD/OU=PKI
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-1024
-	Serial number: 4
-	SKI: 6C:9C:A5:F0:5C:8F:6D:41:8D:C4:17:3B:90:57:C2:0F:A3:CD:6D:FE
-	Valid from: 2000-05-19T13:13:00+0000
-	     until: 2020-05-14T13:13:00+0000
-	Key usages: 
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
-Subject: /AddTrust Class 1 CA Root/C=SE/O=AddTrust AB/OU=AddTrust TTP Network
-Issuer: /AddTrust Class 1 CA Root/C=SE/O=AddTrust AB/OU=AddTrust TTP Network
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 1
-	AKI: 95:B1:B4:F0:94:B6:BD:C7:DA:D1:11:09:21:BE:C1:AF:49:FD:10:7B
-	SKI: 95:B1:B4:F0:94:B6:BD:C7:DA:D1:11:09:21:BE:C1:AF:49:FD:10:7B
-	Valid from: 2000-05-30T10:38:31+0000
-	     until: 2020-05-30T10:38:31+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
-Subject: /AddTrust Public CA Root/C=SE/O=AddTrust AB/OU=AddTrust TTP Network
-Issuer: /AddTrust Public CA Root/C=SE/O=AddTrust AB/OU=AddTrust TTP Network
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 1
-	AKI: 81:3E:37:D8:92:B0:1F:77:9F:5C:B4:AB:73:AA:E7:F6:34:60:2F:FA
-	SKI: 81:3E:37:D8:92:B0:1F:77:9F:5C:B4:AB:73:AA:E7:F6:34:60:2F:FA
-	Valid from: 2000-05-30T10:41:50+0000
-	     until: 2020-05-30T10:41:50+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
-Subject: /AddTrust Qualified CA Root/C=SE/O=AddTrust AB/OU=AddTrust TTP
-    Network
-Issuer: /AddTrust Qualified CA Root/C=SE/O=AddTrust AB/OU=AddTrust TTP Network
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 1
-	AKI: 39:95:8B:62:8B:5C:C9:D4:80:BA:58:0F:97:3F:15:08:43:CC:98:A7
-	SKI: 39:95:8B:62:8B:5C:C9:D4:80:BA:58:0F:97:3F:15:08:43:CC:98:A7
-	Valid from: 2000-05-30T10:44:50+0000
-	     until: 2020-05-30T10:44:50+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
-Subject: /AddTrust External CA Root/C=SE/O=AddTrust AB/OU=AddTrust External
-    TTP Network
-Issuer: /AddTrust External CA Root/C=SE/O=AddTrust AB/OU=AddTrust External TTP
-    Network
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 1
-	AKI: AD:BD:98:7A:34:B4:26:F7:FA:C4:26:54:EF:03:BD:E0:24:CB:54:1A
-	SKI: AD:BD:98:7A:34:B4:26:F7:FA:C4:26:54:EF:03:BD:E0:24:CB:54:1A
-	Valid from: 2000-05-30T10:48:38+0000
-	     until: 2020-05-30T10:48:38+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
 Subject: /DST Root CA X4/O=Digital Signature Trust Co.
 Issuer: /DST Root CA X4/O=Digital Signature Trust Co.
 	Signature algorithm: RSA / SHA1
@@ -2771,20 +2699,6 @@ Details:
 	     until: 2030-12-31T08:38:15+0000
 	Key usages: cert sign, crl sign
 	Basic constraints: valid, is a CA certificate, max path length 1
-	SANs (0):
-CERTIFICATE
-Subject: /KEYNECTIS ROOT CA/C=FR/O=KEYNECTIS/OU=ROOT
-Issuer: /KEYNECTIS ROOT CA/C=FR/O=KEYNECTIS/OU=ROOT
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 1492388278508357025752114082742100028465797
-	AKI: EF:B7:23:97:D0:A8:91:7F:A6:CF:A6:21:C0:34:9F:CC:77:41:E1:D0
-	SKI: EF:B7:23:97:D0:A8:91:7F:A6:CF:A6:21:C0:34:9F:CC:77:41:E1:D0
-	Valid from: 2009-05-26T00:00:00+0000
-	     until: 2020-05-26T00:00:00+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 4
 	SANs (0):
 CERTIFICATE
 Subject: /C=JP/O=SECOM Trust Systems CO.,LTD./OU=Security Communication
