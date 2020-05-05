@@ -1,80 +1,5 @@
 --int-bundle.crt ---
 CERTIFICATE
-Subject: /COMODO ECC Certification Authority/C=GB/O=COMODO CA
-    Limited/L=Salford/ST=Greater Manchester
-Issuer: /AddTrust External CA Root/C=SE/O=AddTrust AB/OU=AddTrust External TTP
-    Network
-	Signature algorithm: RSA / SHA384
-Details:
-	Public key: ECDSA-secp384r1
-	Serial number: 89484089693757697639156913870987150414
-	AKI: AD:BD:98:7A:34:B4:26:F7:FA:C4:26:54:EF:03:BD:E0:24:CB:54:1A
-	SKI: 75:71:A7:19:48:19:BC:9D:9D:EA:41:47:DF:94:C4:48:77:99:D3:79
-	Valid from: 2000-05-30T10:48:38+0000
-	     until: 2020-05-30T10:48:38+0000
-	Key usages: cert sign, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-	OCSP server:
-		- http://ocsp.trust-provider.com
-CERTIFICATE
-Subject: /COMODO Certification Authority/C=GB/O=COMODO CA
-    Limited/L=Salford/ST=Greater Manchester
-Issuer: /AddTrust External CA Root/C=SE/O=AddTrust AB/OU=AddTrust External TTP
-    Network
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 147740886364225580768001374059003627512
-	AKI: AD:BD:98:7A:34:B4:26:F7:FA:C4:26:54:EF:03:BD:E0:24:CB:54:1A
-	SKI: 0B:58:E5:8B:C6:4C:15:37:A4:40:A9:30:A9:21:BE:47:36:5A:56:FF
-	Valid from: 2000-05-30T10:48:38+0000
-	     until: 2020-05-30T10:48:38+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-	2 AIAs:
-		http://crt.usertrust.com/AddTrustExternalCARoot.p7c
-		http://crt.usertrust.com/AddTrustUTNSGCCA.crt
-	OCSP server:
-		- http://ocsp.usertrust.com
-CERTIFICATE
-Subject: /COMODO RSA Certification Authority/C=GB/O=COMODO CA
-    Limited/L=Salford/ST=Greater Manchester
-Issuer: /AddTrust External CA Root/C=SE/O=AddTrust AB/OU=AddTrust External TTP
-    Network
-	Signature algorithm: RSA / SHA384
-Details:
-	Public key: RSA-4096
-	Serial number: 52374340215108295845375962883522092578
-	AKI: AD:BD:98:7A:34:B4:26:F7:FA:C4:26:54:EF:03:BD:E0:24:CB:54:1A
-	SKI: BB:AF:7E:02:3D:FA:A6:F1:3C:84:8E:AD:EE:38:98:EC:D9:32:32:D4
-	Valid from: 2000-05-30T10:48:38+0000
-	     until: 2020-05-30T10:48:38+0000
-	Key usages: cert sign, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-	OCSP server:
-		- http://ocsp.usertrust.com
-CERTIFICATE
-Subject: /USERTrust RSA Certification Authority/C=US/O=The USERTRUST
-    Network/L=Jersey City/ST=New Jersey
-Issuer: /AddTrust External CA Root/C=SE/O=AddTrust AB/OU=AddTrust External TTP
-    Network
-	Signature algorithm: RSA / SHA384
-Details:
-	Public key: RSA-4096
-	Serial number: 26471149583208131559647911801012699958
-	AKI: AD:BD:98:7A:34:B4:26:F7:FA:C4:26:54:EF:03:BD:E0:24:CB:54:1A
-	SKI: 53:79:BF:5A:AA:2B:4A:CF:54:80:E1:D8:9B:C0:9D:F2:B2:03:66:CB
-	Valid from: 2000-05-30T10:48:38+0000
-	     until: 2020-05-30T10:48:38+0000
-	Key usages: cert sign, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-	OCSP server:
-		- http://ocsp.usertrust.com
-CERTIFICATE
 Subject: /QuoVadis Root Certification Authority/C=BM/O=QuoVadis
     Limited/OU=Root Certification Authority
 Issuer: /QuoVadis Root Certification Authority/C=BM/O=QuoVadis Limited/OU=Root
@@ -123,6 +48,42 @@ Details:
 	Key usages: cert sign, crl sign
 	Basic constraints: valid, is a CA certificate, max path length 12
 	SANs (1): email:chambersroot@chambersign.org
+CERTIFICATE
+Subject: /COMODO RSA Certification Authority/C=GB/O=COMODO CA
+    Limited/L=Salford/ST=Greater Manchester
+Issuer: /AAA Certificate Services/C=GB/O=Comodo CA
+    Limited/L=Salford/ST=Greater Manchester
+	Signature algorithm: RSA / SHA384
+Details:
+	Public key: RSA-4096
+	Serial number: 138068127363266052427974132567073013892
+	AKI: A0:11:0A:23:3E:96:F1:07:EC:E2:AF:29:EF:82:A5:7F:D0:30:A4:B4
+	SKI: BB:AF:7E:02:3D:FA:A6:F1:3C:84:8E:AD:EE:38:98:EC:D9:32:32:D4
+	Valid from: 2004-01-01T00:00:00+0000
+	     until: 2028-12-31T23:59:59+0000
+	Key usages: cert sign, crl sign, digital signature
+	Basic constraints: valid, is a CA certificate
+	SANs (0):
+	OCSP server:
+		- http://ocsp.comodoca.com
+CERTIFICATE
+Subject: /COMODO ECC Certification Authority/C=GB/O=COMODO CA
+    Limited/L=Salford/ST=Greater Manchester
+Issuer: /AAA Certificate Services/C=GB/O=Comodo CA
+    Limited/L=Salford/ST=Greater Manchester
+	Signature algorithm: RSA / SHA384
+Details:
+	Public key: ECDSA-secp384r1
+	Serial number: 30434779307599757625323899518303222751
+	AKI: A0:11:0A:23:3E:96:F1:07:EC:E2:AF:29:EF:82:A5:7F:D0:30:A4:B4
+	SKI: 75:71:A7:19:48:19:BC:9D:9D:EA:41:47:DF:94:C4:48:77:99:D3:79
+	Valid from: 2004-01-01T00:00:00+0000
+	     until: 2028-12-31T23:59:59+0000
+	Key usages: cert sign, crl sign, digital signature
+	Basic constraints: valid, is a CA certificate
+	SANs (0):
+	OCSP server:
+		- http://ocsp.comodoca.com
 CERTIFICATE
 Subject: /Starfield Secure Certification
     Authority/C=US/O=Starfield Technologies,
@@ -191,38 +152,6 @@ Details:
 	OCSP server:
 		- http://ocsp.starfieldtech.com
 CERTIFICATE
-Subject: /UTN-USERFirst-Hardware/C=US/O=The USERTRUST
-    Network/OU=http://www.usertrust.com/L=Salt Lake City/ST=UT
-Issuer: /AddTrust External CA Root/C=SE/O=AddTrust AB/OU=AddTrust External TTP
-    Network
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 109339514828885055587748732527481675047
-	AKI: AD:BD:98:7A:34:B4:26:F7:FA:C4:26:54:EF:03:BD:E0:24:CB:54:1A
-	SKI: A1:72:5F:26:1B:28:98:43:95:5D:07:37:D5:85:96:9D:4B:D2:C3:45
-	Valid from: 2005-06-07T08:09:10+0000
-	     until: 2020-05-30T10:48:38+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
-Subject: /UTN-USERFirst-Hardware/C=US/O=The USERTRUST
-    Network/OU=http://www.usertrust.com/L=Salt Lake City/ST=UT
-Issuer: /AddTrust External CA Root/C=SE/O=AddTrust AB/OU=AddTrust External TTP
-    Network
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 96097345682197092518132967490038896421
-	AKI: AD:BD:98:7A:34:B4:26:F7:FA:C4:26:54:EF:03:BD:E0:24:CB:54:1A
-	SKI: A1:72:5F:26:1B:28:98:43:95:5D:07:37:D5:85:96:9D:4B:D2:C3:45
-	Valid from: 2005-06-07T08:09:10+0000
-	     until: 2020-05-30T10:48:38+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
 Subject: /WISeKey CertifyID Advanced G1 CA/C=CH/O=WISeKey/OU=Copyright (c)
     2005 WISeKey SA/OU=International
 Issuer: /OISTE WISeKey Global Root GA CA/C=CH/O=WISeKey/OU=Copyright (c)
@@ -259,79 +188,6 @@ Details:
 	1 AIA:
 		http://public.wisekey.com/crt/owgrgaca.crt
 CERTIFICATE
-Subject: /Network Solutions Certificate Authority/C=US/O=Network Solutions
-    L.L.C.
-Issuer: /UTN-USERFirst-Hardware/C=US/O=The USERTRUST
-    Network/OU=http://www.usertrust.com/L=Salt Lake City/ST=UT
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 22469480263630968793161110394947511786
-	AKI: A1:72:5F:26:1B:28:98:43:95:5D:07:37:D5:85:96:9D:4B:D2:C3:45
-	SKI: 3C:41:E2:8F:08:08:A9:4C:25:89:8D:6D:C5:38:D0:FC:85:8C:62:17
-	Valid from: 2006-04-10T00:00:00+0000
-	     until: 2020-05-30T10:48:38+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://www.usertrust.com/cacerts/UTNAddTrustServer_CA.crt
-CERTIFICATE
-Subject: /Secure Business Services CA/C=US/O=Secure Business Services, Inc.
-Issuer: /UTN-USERFirst-Hardware/C=US/O=The USERTRUST
-    Network/OU=http://www.usertrust.com/L=Salt Lake City/ST=UT
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 78874930728179096818881264931709719108
-	AKI: A1:72:5F:26:1B:28:98:43:95:5D:07:37:D5:85:96:9D:4B:D2:C3:45
-	SKI: 93:64:8A:13:3F:56:E9:60:96:DE:AB:F3:7B:B1:1B:1E:7B:D6:5E:4B
-	Valid from: 2006-06-22T00:00:00+0000
-	     until: 2020-05-30T10:48:38+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	2 AIAs:
-		http://crt.comodoca.com/UTNAddTrustServerCA.crt
-		http://crt.comodo.net/UTNAddTrustServerCA.crt
-CERTIFICATE
-Subject: /WebSpace-Forum Server CA/C=DE/O=WebSpace-Forum, Thomas Wendt
-Issuer: /UTN-USERFirst-Hardware/C=US/O=The USERTRUST
-    Network/OU=http://www.usertrust.com/L=Salt Lake City/ST=UT
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 101297547752654813759375878835746629668
-	AKI: A1:72:5F:26:1B:28:98:43:95:5D:07:37:D5:85:96:9D:4B:D2:C3:45
-	SKI: 20:92:05:E2:39:04:65:87:AB:B0:14:14:0E:F2:0C:F4:8C:59:AC:15
-	Valid from: 2006-08-08T00:00:00+0000
-	     until: 2020-05-30T10:48:38+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	2 AIAs:
-		http://crt.comodoca.com/UTNAddTrustServerCA.crt
-		http://crt.comodo.net/UTNAddTrustServerCA.crt
-CERTIFICATE
-Subject: /PositiveSSL CA/C=GB/O=Comodo CA Limited/L=Salford/ST=Greater
-    Manchester
-Issuer: /UTN-USERFirst-Hardware/C=US/O=The USERTRUST
-    Network/OU=http://www.usertrust.com/L=Salt Lake City/ST=UT
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 102087261663347585544005476473205641585
-	AKI: A1:72:5F:26:1B:28:98:43:95:5D:07:37:D5:85:96:9D:4B:D2:C3:45
-	SKI: B8:CA:11:E9:06:31:79:DB:C3:94:C6:E8:19:2A:BC:BB:35:16:31:A4
-	Valid from: 2006-09-18T00:00:00+0000
-	     until: 2020-05-30T10:48:38+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 1
-	SANs (0):
-	2 AIAs:
-		http://crt.comodoca.com/UTNAddTrustServerCA.crt
-		http://crt.comodo.net/UTNAddTrustServerCA.crt
-CERTIFICATE
 Subject: /WISeKey CertifyID Qualified G1 CA/C=CH/O=WISeKey/OU=Copyright (c)
     2006 WISeKey SA/OU=International
 Issuer: /OISTE WISeKey Global Root GA CA/C=CH/O=WISeKey/OU=Copyright (c)
@@ -349,42 +205,6 @@ Details:
 	SANs (0):
 	1 AIA:
 		http://public.wisekey.com/crt/owgrgaca.crt
-CERTIFICATE
-Subject: /CSP SSL Service CA/C=JP/O=CENTRAL SECURITY PATROLS CO., LTD.
-Issuer: /UTN-USERFirst-Hardware/C=US/O=The USERTRUST
-    Network/OU=http://www.usertrust.com/L=Salt Lake City/ST=UT
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 58166520544749997530758265037207793275
-	AKI: A1:72:5F:26:1B:28:98:43:95:5D:07:37:D5:85:96:9D:4B:D2:C3:45
-	SKI: 57:8C:69:BB:98:C2:23:8D:53:25:76:2A:2A:92:3D:26:58:2C:4E:3D
-	Valid from: 2006-10-23T00:00:00+0000
-	     until: 2020-05-30T10:48:38+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	2 AIAs:
-		http://crt.comodoca.com/UTNAddTrustServerCA.crt
-		http://crt.comodo.net/UTNAddTrustServerCA.crt
-CERTIFICATE
-Subject: /CSP SSL Service CA/C=JP/O=CENTRAL SECURITY PATROLS CO., LTD.
-Issuer: /UTN-USERFirst-Hardware/C=US/O=The USERTRUST
-    Network/OU=http://www.usertrust.com/L=Salt Lake City/ST=UT
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 26443596925503972282843171054174806805
-	AKI: A1:72:5F:26:1B:28:98:43:95:5D:07:37:D5:85:96:9D:4B:D2:C3:45
-	SKI: 49:36:4C:AF:E8:1B:72:BF:2B:FB:7C:7C:68:01:E7:32:9B:73:EB:F2
-	Valid from: 2006-10-23T00:00:00+0000
-	     until: 2020-05-30T10:48:38+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	2 AIAs:
-		http://crt.comodoca.com/UTNAddTrustServerCA.crt
-		http://crt.comodo.net/UTNAddTrustServerCA.crt
 CERTIFICATE
 Subject: /SwissSign Gold CA - G2/C=CH/O=SwissSign AG
 Issuer: /SwissSign Gold CA - G2/C=CH/O=SwissSign AG
@@ -544,39 +364,6 @@ Details:
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
-Subject: /COMODO Certification Authority/C=GB/O=COMODO CA
-    Limited/L=Salford/ST=Greater Manchester
-Issuer: /UTN - DATACorp SGC/C=US/O=The USERTRUST
-    Network/OU=http://www.usertrust.com/L=Salt Lake City/ST=UT
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 61775416410873295493423203648759298628
-	AKI: 53:32:D1:B3:CF:7F:FA:E0:F1:A0:5D:85:4E:92:D2:9E:45:1D:B4:4F
-	SKI: 0B:58:E5:8B:C6:4C:15:37:A4:40:A9:30:A9:21:BE:47:36:5A:56:FF
-	Valid from: 2006-12-01T00:00:00+0000
-	     until: 2020-05-30T10:48:38+0000
-	Key usages: cert sign, crl sign
-	Extended usages: microsoft sgc, netscape sgc
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
-Subject: /Network Solutions Certificate Authority/C=US/O=Network Solutions
-    L.L.C.
-Issuer: /UTN-USERFirst-Hardware/C=US/O=The USERTRUST
-    Network/OU=http://www.usertrust.com/L=Salt Lake City/ST=UT
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 112336526359569255695912742010264283625
-	AKI: A1:72:5F:26:1B:28:98:43:95:5D:07:37:D5:85:96:9D:4B:D2:C3:45
-	SKI: 21:30:C9:FB:00:D7:4E:98:DA:87:AA:2A:D0:A7:2E:B1:40:31:A7:4C
-	Valid from: 2006-12-01T00:00:00+0000
-	     until: 2020-05-30T10:48:38+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
 Subject: /GlobalSign/O=GlobalSign/OU=GlobalSign Root CA - R2
 Issuer: /GlobalSign Root CA/C=BE/O=GlobalSign nv-sa/OU=Root CA
 	Signature algorithm: RSA / SHA1
@@ -592,79 +379,6 @@ Details:
 	SANs (0):
 	OCSP server:
 		- http://ocsp.globalsign.com/rootr1
-CERTIFICATE
-Subject: /eBiz Networks Certificate Services/C=KR/O=eBiz Networks Ltd
-Issuer: /UTN-USERFirst-Hardware/C=US/O=The USERTRUST
-    Network/OU=http://www.usertrust.com/L=Salt Lake City/ST=UT
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 77210250520861730899523781065269913078
-	AKI: A1:72:5F:26:1B:28:98:43:95:5D:07:37:D5:85:96:9D:4B:D2:C3:45
-	SKI: 8A:D4:EB:34:C7:4B:7D:A4:DF:45:B9:3D:52:2F:38:C5:48:ED:2C:CD
-	Valid from: 2007-01-16T00:00:00+0000
-	     until: 2020-05-30T10:48:38+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	2 AIAs:
-		http://crt.comodoca.com/UTNAddTrustServerCA.crt
-		http://crt.comodo.net/UTNAddTrustServerCA.crt
-CERTIFICATE
-Subject: /eBiz Networks Certificate Services/C=KR/O=eBiz Networks Ltd
-Issuer: /UTN - DATACorp SGC/C=US/O=The USERTRUST
-    Network/OU=http://www.usertrust.com/L=Salt Lake City/ST=UT
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 91648970675394149069565754632712927045
-	AKI: 53:32:D1:B3:CF:7F:FA:E0:F1:A0:5D:85:4E:92:D2:9E:45:1D:B4:4F
-	SKI: A7:2A:4C:AF:9E:86:45:6A:D8:21:1B:03:39:B7:93:93:A7:D0:15:57
-	Valid from: 2007-01-16T00:00:00+0000
-	     until: 2020-05-30T10:48:38+0000
-	Key usages: cert sign, crl sign
-	Extended usages: client auth, microsoft sgc, netscape sgc, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	2 AIAs:
-		http://crt.comodoca.com/UTNAddTrustSGCCA.crt
-		http://crt.comodo.net/UTNAddTrustSGCCA.crt
-CERTIFICATE
-Subject: /RBC HC High Assurance Services CA/C=RU/O=RBC Hosting Center
-Issuer: /UTN-USERFirst-Hardware/C=US/O=The USERTRUST
-    Network/OU=http://www.usertrust.com/L=Salt Lake City/ST=UT
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 43299919465900671616257656604154151564
-	AKI: A1:72:5F:26:1B:28:98:43:95:5D:07:37:D5:85:96:9D:4B:D2:C3:45
-	SKI: 66:8F:F1:9F:4D:DB:8E:DD:FA:EC:1B:99:13:6A:B8:82:68:85:06:ED
-	Valid from: 2007-01-17T00:00:00+0000
-	     until: 2020-05-30T10:48:38+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	2 AIAs:
-		http://crt.comodoca.com/UTNAddTrustServerCA.crt
-		http://crt.comodo.net/UTNAddTrustServerCA.crt
-CERTIFICATE
-Subject: /OptimumSSL CA/C=US/O=OptimumSSL CA/L=Jersey City/ST=New Jersey
-Issuer: /UTN-USERFirst-Hardware/C=US/O=The USERTRUST
-    Network/OU=http://www.usertrust.com/L=Salt Lake City/ST=UT
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 43862457321608110593189002749289623262
-	AKI: A1:72:5F:26:1B:28:98:43:95:5D:07:37:D5:85:96:9D:4B:D2:C3:45
-	SKI: 8B:0F:35:AB:5F:46:DB:CD:40:9D:DF:C8:C7:5D:83:5B:48:A3:AB:5D
-	Valid from: 2007-01-31T00:00:00+0000
-	     until: 2020-05-30T10:48:38+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 1
-	SANs (0):
-	2 AIAs:
-		http://crt.comodoca.com/UTNAddTrustServerCA.crt
-		http://crt.comodo.net/UTNAddTrustServerCA.crt
 CERTIFICATE
 Subject: /C=TW/O=Chunghwa Telecom Co., Ltd./OU=Public Certification Authority
 Issuer: /C=TW/O=Chunghwa Telecom Co., Ltd./OU=ePKI Root Certification
@@ -682,100 +396,6 @@ Details:
 	SANs (0):
 	1 AIA:
 		http://epki.com.tw/repository/Certs/IssuedToThisCA.p7b
-CERTIFICATE
-Subject: /Flash
-    SSLGenie/C=IN/O=MindGenies/OU=http://www.sslgenie.com/L=Noida/ST=UP
-Issuer: /UTN-USERFirst-Hardware/C=US/O=The USERTRUST
-    Network/OU=http://www.usertrust.com/L=Salt Lake City/ST=UT
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 33120432289273864756800828823655109894
-	AKI: A1:72:5F:26:1B:28:98:43:95:5D:07:37:D5:85:96:9D:4B:D2:C3:45
-	SKI: 97:22:66:63:43:12:E7:A3:53:3B:61:89:7C:97:AD:49:4A:E6:E2:19
-	Valid from: 2007-06-25T00:00:00+0000
-	     until: 2020-05-30T10:48:38+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 2
-	SANs (0):
-	2 AIAs:
-		http://crt.comodoca.com/UTNAddTrustServerCA.crt
-		http://crt.comodo.net/UTNAddTrustServerCA.crt
-CERTIFICATE
-Subject: /Premium
-    SSLGenie/C=IN/O=MindGenies/OU=http://www.sslgenie.com/L=Noida/ST=UP
-Issuer: /UTN-USERFirst-Hardware/C=US/O=The USERTRUST
-    Network/OU=http://www.usertrust.com/L=Salt Lake City/ST=UT
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 64398597989315098821371780526336519579
-	AKI: A1:72:5F:26:1B:28:98:43:95:5D:07:37:D5:85:96:9D:4B:D2:C3:45
-	SKI: E3:FC:C2:45:E9:81:9B:AC:CC:A1:FB:36:A3:79:B4:FA:D7:93:D8:3E
-	Valid from: 2007-06-25T00:00:00+0000
-	     until: 2020-05-30T10:48:38+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 2
-	SANs (0):
-	2 AIAs:
-		http://crt.comodoca.com/UTNAddTrustServerCA.crt
-		http://crt.comodo.net/UTNAddTrustServerCA.crt
-CERTIFICATE
-Subject: /Premium SSLGenie
-    SGC/C=IN/O=MindGenies/OU=http://www.sslgenie.com/L=Noida/ST=UP
-Issuer: /UTN - DATACorp SGC/C=US/O=The USERTRUST
-    Network/OU=http://www.usertrust.com/L=Salt Lake City/ST=UT
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 140892351815820230163983264418761891206
-	AKI: 53:32:D1:B3:CF:7F:FA:E0:F1:A0:5D:85:4E:92:D2:9E:45:1D:B4:4F
-	SKI: 92:30:92:82:00:CD:C2:DB:7C:F8:0A:5E:23:4F:B2:B8:D0:A2:68:62
-	Valid from: 2007-07-11T00:00:00+0000
-	     until: 2020-05-30T10:48:38+0000
-	Key usages: cert sign, crl sign
-	Extended usages: client auth, microsoft sgc, netscape sgc, server auth
-	Basic constraints: valid, is a CA certificate, max path length 2
-	SANs (0):
-	2 AIAs:
-		http://crt.comodoca.com/UTNAddTrustSGCCA.crt
-		http://crt.comodo.net/UTNAddTrustSGCCA.crt
-CERTIFICATE
-Subject: /OVH Secure Certification Authority/C=FR/O=OVH SAS/OU=Low Assurance
-Issuer: /UTN-USERFirst-Hardware/C=US/O=The USERTRUST
-    Network/OU=http://www.usertrust.com/L=Salt Lake City/ST=UT
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 24686922447739375042962287296794594821
-	AKI: A1:72:5F:26:1B:28:98:43:95:5D:07:37:D5:85:96:9D:4B:D2:C3:45
-	SKI: 75:90:6E:F2:6A:80:CB:75:32:D9:E4:8D:D6:5D:D6:8F:1C:AF:7D:E1
-	Valid from: 2007-10-04T00:00:00+0000
-	     until: 2020-05-30T10:48:38+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	2 AIAs:
-		http://crt.comodoca.com/UTNAddTrustServerCA.crt
-		http://crt.comodo.net/UTNAddTrustServerCA.crt
-CERTIFICATE
-Subject: /OVH Secure Certification Authority/C=FR/O=OVH SAS/OU=High Assurance
-Issuer: /UTN-USERFirst-Hardware/C=US/O=The USERTRUST
-    Network/OU=http://www.usertrust.com/L=Salt Lake City/ST=UT
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 34195620130935405021699141794126038502
-	AKI: A1:72:5F:26:1B:28:98:43:95:5D:07:37:D5:85:96:9D:4B:D2:C3:45
-	SKI: 87:14:62:54:91:91:7F:D4:0E:E3:58:14:D4:D5:53:EC:18:35:2D:CB
-	Valid from: 2007-10-04T00:00:00+0000
-	     until: 2020-05-30T10:48:38+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	2 AIAs:
-		http://crt.comodoca.com/UTNAddTrustServerCA.crt
-		http://crt.comodo.net/UTNAddTrustServerCA.crt
 CERTIFICATE
 Subject: /StartCom Class 1 Primary Intermediate Server CA/C=IL/O=StartCom
     Ltd./OU=Secure Digital Certificate Signing
@@ -907,82 +527,6 @@ Details:
 	1 AIA:
 		http://swisssign.net/cgi-bin/authority/download/17A0CDC1E441B63A5B3BCB459DBD1CC298FA8658
 CERTIFICATE
-Subject: /Register.com CA SSL Services (DV)/C=US/O=Register.com
-Issuer: /UTN-USERFirst-Hardware/C=US/O=The USERTRUST
-    Network/OU=http://www.usertrust.com/L=Salt Lake City/ST=UT
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 117393174777678597439066227566220792292
-	AKI: A1:72:5F:26:1B:28:98:43:95:5D:07:37:D5:85:96:9D:4B:D2:C3:45
-	SKI: 96:36:9B:F8:D6:E5:B3:68:4A:70:7A:7A:72:8D:D3:6E:2C:0B:B9:31
-	Valid from: 2008-07-10T00:00:00+0000
-	     until: 2020-05-30T10:48:38+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://crt.usertrust.com/UTNAddTrustServer_CA.crt
-	OCSP server:
-		- http://ocsp.usertrust.com
-CERTIFICATE
-Subject: /Register.com CA SSL Services (OV)/C=US/O=Register.com
-Issuer: /UTN-USERFirst-Hardware/C=US/O=The USERTRUST
-    Network/OU=http://www.usertrust.com/L=Salt Lake City/ST=UT
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 11253019376819671892188011429833289049
-	AKI: A1:72:5F:26:1B:28:98:43:95:5D:07:37:D5:85:96:9D:4B:D2:C3:45
-	SKI: 57:3E:7F:39:7D:6E:CD:F1:1B:AC:34:A4:30:16:82:C4:66:CA:8C:B8
-	Valid from: 2008-07-10T00:00:00+0000
-	     until: 2020-05-30T10:48:38+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://crt.usertrust.com/UTNAddTrustServer_CA.crt
-	OCSP server:
-		- http://ocsp.usertrust.com
-CERTIFICATE
-Subject: /EuropeanSSL High Assurance Server CA/C=DE/O=EUNETIC GmbH
-Issuer: /UTN-USERFirst-Hardware/C=US/O=The USERTRUST
-    Network/OU=http://www.usertrust.com/L=Salt Lake City/ST=UT
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 50652273044882899358189582958331517047
-	AKI: A1:72:5F:26:1B:28:98:43:95:5D:07:37:D5:85:96:9D:4B:D2:C3:45
-	SKI: C5:F9:77:9C:71:27:1B:3A:52:5B:3A:73:8F:48:B9:F6:08:C4:78:20
-	Valid from: 2008-07-18T00:00:00+0000
-	     until: 2020-05-30T10:48:38+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://crt.usertrust.com/UTNAddTrustServer_CA.crt
-	OCSP server:
-		- http://ocsp.usertrust.com
-CERTIFICATE
-Subject: /EuropeanSSL Server CA/C=DE/O=EUNETIC GmbH
-Issuer: /UTN-USERFirst-Hardware/C=US/O=The USERTRUST
-    Network/OU=http://www.usertrust.com/L=Salt Lake City/ST=UT
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 76430246943807005252879042882664228269
-	AKI: A1:72:5F:26:1B:28:98:43:95:5D:07:37:D5:85:96:9D:4B:D2:C3:45
-	SKI: 33:ED:19:23:30:A8:D4:7F:CB:1A:69:36:79:EF:CF:5D:28:BD:31:4D
-	Valid from: 2008-07-18T00:00:00+0000
-	     until: 2020-05-30T10:48:38+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://crt.usertrust.com/UTNAddTrustServer_CA.crt
-	OCSP server:
-		- http://ocsp.usertrust.com
-CERTIFICATE
 Subject: /TC TrustCenter Class 1 L1 CA VII/C=DE/O=TC TrustCenter GmbH/OU=TC
     TrustCenter Class 1 L1 CA
 Issuer: /C=DE/O=TC TrustCenter for Security in Data Networks GmbH/OU=TC
@@ -1055,64 +599,6 @@ Details:
 	OCSP server:
 		- http://subca.ocsp-certum.com
 CERTIFICATE
-Subject: /Gandi Pro SSL CA/C=FR/O=GANDI SAS
-Issuer: /UTN-USERFirst-Hardware/C=US/O=The USERTRUST
-    Network/OU=http://www.usertrust.com/L=Salt Lake City/ST=UT
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 79883826584010796924206854336023540500
-	AKI: A1:72:5F:26:1B:28:98:43:95:5D:07:37:D5:85:96:9D:4B:D2:C3:45
-	SKI: C1:B1:32:80:F1:13:92:14:2F:6D:67:30:92:18:AA:7C:39:55:14:3E
-	Valid from: 2008-10-23T00:00:00+0000
-	     until: 2020-05-30T10:48:38+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://crt.usertrust.com/UTNAddTrustServer_CA.crt
-	OCSP server:
-		- http://ocsp.usertrust.com
-CERTIFICATE
-Subject: /Gandi SGC SSL CA/C=FR/O=GANDI SAS
-Issuer: /UTN - DATACorp SGC/C=US/O=The USERTRUST
-    Network/OU=http://www.usertrust.com/L=Salt Lake City/ST=UT
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 188120189074165050845152041474733144247
-	AKI: 53:32:D1:B3:CF:7F:FA:E0:F1:A0:5D:85:4E:92:D2:9E:45:1D:B4:4F
-	SKI: 8E:E7:CD:0D:2E:B5:8F:D2:B7:40:21:B4:2E:4A:24:FD:66:73:88:4A
-	Valid from: 2008-10-23T00:00:00+0000
-	     until: 2020-05-30T10:48:38+0000
-	Key usages: cert sign, crl sign
-	Extended usages: client auth, microsoft sgc, netscape sgc, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://crt.usertrust.com/UTNAddTrustSGC_CA.crt
-	OCSP server:
-		- http://ocsp.usertrust.com
-CERTIFICATE
-Subject: /Gandi Standard SSL CA/C=FR/O=GANDI SAS
-Issuer: /UTN-USERFirst-Hardware/C=US/O=The USERTRUST
-    Network/OU=http://www.usertrust.com/L=Salt Lake City/ST=UT
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 120576119475396628259942173272613434076
-	AKI: A1:72:5F:26:1B:28:98:43:95:5D:07:37:D5:85:96:9D:4B:D2:C3:45
-	SKI: B6:A8:FF:A2:A8:2F:D0:A6:CD:4B:B1:68:F3:E7:50:10:31:A7:79:21
-	Valid from: 2008-10-23T00:00:00+0000
-	     until: 2020-05-30T10:48:38+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://crt.usertrust.com/UTNAddTrustServer_CA.crt
-	OCSP server:
-		- http://ocsp.usertrust.com
-CERTIFICATE
 Subject: /SwissSign EV Gold CA 2008 - G2/C=CH/O=SwissSign AG
 Issuer: /SwissSign Gold CA - G2/C=CH/O=SwissSign AG
 	Signature algorithm: RSA / SHA1
@@ -1143,65 +629,6 @@ Details:
 	Key usages: cert sign, crl sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
-CERTIFICATE
-Subject: /GLOBE SGC SSL CA/C=RO/O=GLOBE HOSTING CERTIFICATION AUTHORITY
-Issuer: /UTN - DATACorp SGC/C=US/O=The USERTRUST
-    Network/OU=http://www.usertrust.com/L=Salt Lake City/ST=UT
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 81068391925185503065226529422543059456
-	AKI: 53:32:D1:B3:CF:7F:FA:E0:F1:A0:5D:85:4E:92:D2:9E:45:1D:B4:4F
-	SKI: 1F:C3:EC:1D:AF:C0:2B:0C:DE:09:6C:5E:E1:3D:7E:8D:6D:AD:F9:5C
-	Valid from: 2009-02-23T00:00:00+0000
-	     until: 2020-05-30T10:48:38+0000
-	Key usages: cert sign, crl sign
-	Extended usages: client auth, microsoft sgc, netscape sgc, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://crt.usertrust.com/UTNAddTrustSGC_CA.crt
-	OCSP server:
-		- http://ocsp.usertrust.com
-CERTIFICATE
-Subject: /GLOBE SSL CA/C=RO/O=GLOBE HOSTING CERTIFICATION AUTHORITY
-Issuer: /UTN-USERFirst-Hardware/C=US/O=The USERTRUST
-    Network/OU=http://www.usertrust.com/L=Salt Lake City/ST=UT
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 56999851414321993076385022263264733555
-	AKI: A1:72:5F:26:1B:28:98:43:95:5D:07:37:D5:85:96:9D:4B:D2:C3:45
-	SKI: 40:4B:91:15:C3:38:DD:A0:19:86:5F:2F:9B:52:8D:C7:48:CC:24:09
-	Valid from: 2009-02-23T00:00:00+0000
-	     until: 2020-05-30T10:48:38+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://crt.usertrust.com/UTNAddTrustServer_CA.crt
-	OCSP server:
-		- http://ocsp.usertrust.com
-CERTIFICATE
-Subject: /GLOBE SSL Domain Validated CA/C=RO/O=GLOBE HOSTING CERTIFICATION
-    AUTHORITY
-Issuer: /UTN-USERFirst-Hardware/C=US/O=The USERTRUST
-    Network/OU=http://www.usertrust.com/L=Salt Lake City/ST=UT
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 20515106676832217810748044885482216918
-	AKI: A1:72:5F:26:1B:28:98:43:95:5D:07:37:D5:85:96:9D:4B:D2:C3:45
-	SKI: 1F:54:96:72:AD:3D:40:E7:96:59:F7:49:31:53:09:66:F9:0D:6B:72
-	Valid from: 2009-02-23T00:00:00+0000
-	     until: 2020-05-30T10:48:38+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://crt.usertrust.com/UTNAddTrustServer_CA.crt
-	OCSP server:
-		- http://ocsp.usertrust.com
 CERTIFICATE
 Subject: /Certum Level II CA/C=PL/O=Unizeto Technologies S.A./OU=Certum
     Certification Authority
@@ -1263,64 +690,6 @@ Details:
 	OCSP server:
 		- http://subca.ocsp-certum.com
 CERTIFICATE
-Subject: /TERENA SSL CA/C=NL/O=TERENA
-Issuer: /UTN-USERFirst-Hardware/C=US/O=The USERTRUST
-    Network/OU=http://www.usertrust.com/L=Salt Lake City/ST=UT
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 100730964956007657070894469661337942458
-	AKI: A1:72:5F:26:1B:28:98:43:95:5D:07:37:D5:85:96:9D:4B:D2:C3:45
-	SKI: 0C:BD:93:68:0C:F3:DE:AB:A3:49:6B:2B:37:57:47:EA:90:E3:B9:ED
-	Valid from: 2009-05-18T00:00:00+0000
-	     until: 2020-05-30T10:48:38+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://crt.usertrust.com/UTNAddTrustServer_CA.crt
-	OCSP server:
-		- http://ocsp.usertrust.com
-CERTIFICATE
-Subject: /WebSpace-Forum Essential CA/C=DE/O=WebSpace-Forum e.K.
-Issuer: /UTN-USERFirst-Hardware/C=US/O=The USERTRUST
-    Network/OU=http://www.usertrust.com/L=Salt Lake City/ST=UT
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 28833298610764836505989556495780388894
-	AKI: A1:72:5F:26:1B:28:98:43:95:5D:07:37:D5:85:96:9D:4B:D2:C3:45
-	SKI: CC:B3:74:AA:8C:4A:A8:BD:CB:2C:2B:0F:86:60:81:73:B0:FB:C2:CD
-	Valid from: 2009-06-10T00:00:00+0000
-	     until: 2020-05-30T10:48:38+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://crt.usertrust.com/UTNAddTrustServer_CA.crt
-	OCSP server:
-		- http://ocsp.usertrust.com
-CERTIFICATE
-Subject: /WebSpace-Forum SGC CA/C=DE/O=WebSpace-Forum e.K.
-Issuer: /UTN - DATACorp SGC/C=US/O=The USERTRUST
-    Network/OU=http://www.usertrust.com/L=Salt Lake City/ST=UT
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 40378472570466344889363909097612945017
-	AKI: 53:32:D1:B3:CF:7F:FA:E0:F1:A0:5D:85:4E:92:D2:9E:45:1D:B4:4F
-	SKI: BF:17:1C:C3:18:10:17:07:A2:D5:02:4E:F4:AE:2C:6C:0A:55:F0:F8
-	Valid from: 2009-06-10T00:00:00+0000
-	     until: 2020-05-30T10:48:38+0000
-	Key usages: cert sign, crl sign
-	Extended usages: client auth, microsoft sgc, netscape sgc, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://crt.usertrust.com/UTNAddTrustSGC_CA.crt
-	OCSP server:
-		- http://ocsp.usertrust.com
-CERTIFICATE
 Subject: /SwissSign EV Gold CA 2009 - G2/C=CH/O=SwissSign AG
 Issuer: /SwissSign Gold CA - G2/C=CH/O=SwissSign AG
 	Signature algorithm: RSA / SHA1
@@ -1338,26 +707,6 @@ Details:
 		http://swisssign.net/cgi-bin/authority/download/5B257B96A465517EB839F3C078665EE83AE7F0EE
 	OCSP server:
 		- http://ocsp.swisssign.net/5B257B96A465517EB839F3C078665EE83AE7F0EE
-CERTIFICATE
-Subject: /SGTRUST SGC CERTIFICATION AUTHORITY/C=KR/O=SGssl
-Issuer: /UTN - DATACorp SGC/C=US/O=The USERTRUST
-    Network/OU=http://www.usertrust.com/L=Salt Lake City/ST=UT
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 100915088790753508643757534691543789747
-	AKI: 53:32:D1:B3:CF:7F:FA:E0:F1:A0:5D:85:4E:92:D2:9E:45:1D:B4:4F
-	SKI: D3:5F:97:D2:6B:D1:A3:79:2E:1B:6E:B6:CE:8A:7C:DA:17:0E:E0:36
-	Valid from: 2009-07-03T00:00:00+0000
-	     until: 2020-05-30T10:48:38+0000
-	Key usages: cert sign, crl sign
-	Extended usages: client auth, microsoft sgc, netscape sgc, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://crt.usertrust.com/UTNAddTrustSGC_CA.crt
-	OCSP server:
-		- http://ocsp.usertrust.com
 CERTIFICATE
 Subject: /Starfield Services Root Certificate Authority - G2/C=US/O=Starfield
     Technologies, Inc./L=Scottsdale/ST=Arizona
@@ -1394,45 +743,6 @@ Details:
 	OCSP server:
 		- http://o.ss2.us/
 CERTIFICATE
-Subject: /AusCERT Server CA/C=AU/O=AusCERT/OU=Certificate Services
-Issuer: /UTN-USERFirst-Hardware/C=US/O=The USERTRUST
-    Network/OU=http://www.usertrust.com/L=Salt Lake City/ST=UT
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 130224603352612829961712371899153649817
-	AKI: A1:72:5F:26:1B:28:98:43:95:5D:07:37:D5:85:96:9D:4B:D2:C3:45
-	SKI: 94:6B:23:B9:26:EA:82:B4:53:60:9D:89:5D:F7:02:C4:D9:29:5D:E9
-	Valid from: 2009-10-08T00:00:00+0000
-	     until: 2020-05-30T10:48:38+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://crt.usertrust.com/UTNAddTrustServer_CA.crt
-	OCSP server:
-		- http://ocsp.usertrust.com
-CERTIFICATE
-Subject: /SGTRUST CERTIFICATION AUTHORITY/C=KR/O=SGssl
-Issuer: /UTN-USERFirst-Hardware/C=US/O=The USERTRUST
-    Network/OU=http://www.usertrust.com/L=Salt Lake City/ST=UT
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 67955383931622627384074643464137141712
-	AKI: A1:72:5F:26:1B:28:98:43:95:5D:07:37:D5:85:96:9D:4B:D2:C3:45
-	SKI: B5:4A:A2:34:C9:19:AE:E3:9D:7D:5A:6C:C1:61:75:C2:F8:A6:BD:F5
-	Valid from: 2009-11-04T00:00:00+0000
-	     until: 2020-05-30T10:48:38+0000
-	Key usages: cert sign, crl sign
-	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://crt.usertrust.com/UTNAddTrustServer_CA.crt
-	OCSP server:
-		- http://ocsp.usertrust.com
-CERTIFICATE
 Subject: /Certum Extended Validation CA/C=PL/O=Unizeto Technologies
     S.A./OU=Certum Certification Authority
 Issuer: /Certum Trusted Network CA/C=PL/O=Unizeto Technologies S.A./OU=Certum
@@ -1450,130 +760,6 @@ Details:
 	SANs (0):
 	1 AIA:
 		http://repository.certum.pl/ctnca.cer
-CERTIFICATE
-Subject: /COMODO Certification Authority/C=GB/O=COMODO CA
-    Limited/L=Salford/ST=Greater Manchester
-Issuer: /AddTrust External CA Root/C=SE/O=AddTrust AB/OU=AddTrust External TTP
-    Network
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 100301373318178804196987084079840990302
-	AKI: AD:BD:98:7A:34:B4:26:F7:FA:C4:26:54:EF:03:BD:E0:24:CB:54:1A
-	SKI: 0B:58:E5:8B:C6:4C:15:37:A4:40:A9:30:A9:21:BE:47:36:5A:56:FF
-	Valid from: 2010-02-11T00:00:00+0000
-	     until: 2020-05-30T10:48:38+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-	2 AIAs:
-		http://crt.usertrust.com/AddTrustExternalCARoot.p7c
-		http://crt.usertrust.com/AddTrustUTNSGCCA.crt
-	OCSP server:
-		- http://ocsp.usertrust.com
-CERTIFICATE
-Subject: /COMODO High-Assurance Secure Server CA/C=GB/O=COMODO CA
-    Limited/L=Salford/ST=Greater Manchester
-Issuer: /AddTrust External CA Root/C=SE/O=AddTrust AB/OU=AddTrust External TTP
-    Network
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 29994665029595910897972718685290776267
-	AKI: AD:BD:98:7A:34:B4:26:F7:FA:C4:26:54:EF:03:BD:E0:24:CB:54:1A
-	SKI: 3F:D5:B5:D0:D6:44:79:50:4A:17:A3:9B:8C:4A:DC:B8:B0:22:64:6B
-	Valid from: 2010-04-16T00:00:00+0000
-	     until: 2020-05-30T10:48:38+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	2 AIAs:
-		http://crt.usertrust.com/AddTrustExternalCARoot.p7c
-		http://crt.usertrust.com/AddTrustUTNSGCCA.crt
-	OCSP server:
-		- http://ocsp.usertrust.com
-CERTIFICATE
-Subject: /COMODO Extended Validation Secure Server CA/C=GB/O=COMODO CA
-    Limited/L=Salford/ST=Greater Manchester
-Issuer: /COMODO Certification Authority/C=GB/O=COMODO CA
-    Limited/L=Salford/ST=Greater Manchester
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 23446887702680994416037986387975286594
-	AKI: 0B:58:E5:8B:C6:4C:15:37:A4:40:A9:30:A9:21:BE:47:36:5A:56:FF
-	SKI: 88:44:51:FF:50:2A:69:5E:2D:88:F4:21:BA:D9:0C:F2:CE:CB:EA:7C
-	Valid from: 2010-05-24T00:00:00+0000
-	     until: 2020-05-30T10:48:38+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://crt.comodoca.com/COMODOAddTrustServerCA.crt
-	OCSP server:
-		- http://ocsp.comodoca.com
-CERTIFICATE
-Subject: /Trusted Secure Certificate Authority/C=US/O=Trusted Secure
-    Certificate Authority
-Issuer: /AddTrust External CA Root/C=SE/O=AddTrust AB/OU=AddTrust External TTP
-    Network
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 106192254890732874973078744998769251010
-	AKI: AD:BD:98:7A:34:B4:26:F7:FA:C4:26:54:EF:03:BD:E0:24:CB:54:1A
-	SKI: CC:03:5B:96:5A:9E:16:CC:26:1E:BD:A3:70:FB:E3:CB:79:19:FC:4D
-	Valid from: 2010-05-25T00:00:00+0000
-	     until: 2020-05-30T10:48:38+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	2 AIAs:
-		http://crt.usertrust.com/AddTrustExternalCARoot.p7c
-		http://crt.usertrust.com/AddTrustUTNSGCCA.crt
-	OCSP server:
-		- http://ocsp.usertrust.com
-CERTIFICATE
-Subject: /MarketWare Server CA/C=PT/O=MarketWare/OU=Certificate Services
-Issuer: /AddTrust External CA Root/C=SE/O=AddTrust AB/OU=AddTrust External TTP
-    Network
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 120480707250254138623533793348892605863
-	AKI: AD:BD:98:7A:34:B4:26:F7:FA:C4:26:54:EF:03:BD:E0:24:CB:54:1A
-	SKI: 1B:BF:C6:BC:7F:6D:4F:E3:7C:6A:06:DF:A7:45:F4:57:84:9E:72:A8
-	Valid from: 2010-05-28T00:00:00+0000
-	     until: 2020-05-30T10:48:38+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	2 AIAs:
-		http://crt.usertrust.com/AddTrustExternalCARoot.p7c
-		http://crt.usertrust.com/AddTrustUTNSGCCA.crt
-	OCSP server:
-		- http://ocsp.usertrust.com
-CERTIFICATE
-Subject: /GlobeSSL CA/C=US/O=Globe Hosting, Inc./OU=GlobeSSL DV Certification
-    Authority
-Issuer: /AddTrust External CA Root/C=SE/O=AddTrust AB/OU=AddTrust External TTP
-    Network
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 154886896539968765035062960308467804460
-	AKI: AD:BD:98:7A:34:B4:26:F7:FA:C4:26:54:EF:03:BD:E0:24:CB:54:1A
-	SKI: C3:AB:A0:02:F0:9B:F5:66:7F:28:15:92:22:95:DB:B8:4E:D3:93:08
-	Valid from: 2010-06-22T00:00:00+0000
-	     until: 2020-05-30T10:48:38+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	2 AIAs:
-		http://crt.usertrust.com/AddTrustExternalCARoot.p7c
-		http://crt.usertrust.com/AddTrustUTNSGCCA.crt
-	OCSP server:
-		- http://ocsp.usertrust.com
 CERTIFICATE
 Subject: /Thawte SGC CA - G2/C=US/O=Thawte, Inc.
 Issuer: /VeriSign Class 3 Public Primary Certification Authority -
@@ -1640,64 +826,6 @@ Details:
 	SANs (0):
 	OCSP server:
 		- http://ocsp.buypass.no/ocsp/BPOcsp
-CERTIFICATE
-Subject: /Network Solutions EV Server CA/C=US/O=Network Solutions L.L.C.
-Issuer: /Network Solutions Certificate Authority/C=US/O=Network Solutions
-    L.L.C.
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 163062178619277384497595345862051363050
-	AKI: 21:30:C9:FB:00:D7:4E:98:DA:87:AA:2A:D0:A7:2E:B1:40:31:A7:4C
-	SKI: 8A:35:E4:35:3A:BC:11:A1:9E:FB:F5:4F:34:66:D5:4B:AC:4C:62:68
-	Valid from: 2010-11-26T00:00:00+0000
-	     until: 2020-05-30T10:48:38+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://crt.usertrust.com/NetworkSolutionsAddTrustEVServerCA.crt
-	OCSP server:
-		- http://ocsp.netsolssl.com
-CERTIFICATE
-Subject: /InCommon Server CA/C=US/O=Internet2/OU=InCommon
-Issuer: /AddTrust External CA Root/C=SE/O=AddTrust AB/OU=AddTrust External TTP
-    Network
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 169402616282077892458254804717303981118
-	AKI: AD:BD:98:7A:34:B4:26:F7:FA:C4:26:54:EF:03:BD:E0:24:CB:54:1A
-	SKI: 48:4F:5A:FA:2F:4A:9A:5E:E0:50:F3:6B:7B:55:A5:DE:F5:BE:34:5D
-	Valid from: 2010-12-07T00:00:00+0000
-	     until: 2020-05-30T10:48:38+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	2 AIAs:
-		http://crt.usertrust.com/AddTrustExternalCARoot.p7c
-		http://crt.usertrust.com/AddTrustUTNSGCCA.crt
-	OCSP server:
-		- http://ocsp.usertrust.com
-CERTIFICATE
-Subject: /Network Solutions Certificate Authority/C=US/O=Network Solutions
-    L.L.C.
-Issuer: /AddTrust External CA Root/C=SE/O=AddTrust AB/OU=AddTrust External TTP
-    Network
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 246645864450323841671356710714674932079
-	AKI: AD:BD:98:7A:34:B4:26:F7:FA:C4:26:54:EF:03:BD:E0:24:CB:54:1A
-	SKI: 21:30:C9:FB:00:D7:4E:98:DA:87:AA:2A:D0:A7:2E:B1:40:31:A7:4C
-	Valid from: 2010-12-31T00:00:00+0000
-	     until: 2020-05-30T10:48:38+0000
-	Key usages: cert sign, crl sign, digital signature
-	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-	OCSP server:
-		- http://ocsp.usertrust.com
 CERTIFICATE
 Subject: /WISeKey CertifyID Advanced Services CA 2/C=CH/O=WISeKey/OU=Copyright
     2011 WISeKey SA/OU=International
@@ -1895,28 +1023,6 @@ Details:
 	OCSP server:
 		- http://ocsp.starfieldtech.com/
 CERTIFICATE
-Subject: /TBS X509 CA business/C=FR/O=TBS INTERNET/OU=Terms and
-    Conditions: http://www.tbs-internet.com/CA/repository/OU=TBS INTERNET
-    CA/L=Caen/ST=Calvados
-Issuer: /AddTrust External CA Root/C=SE/O=AddTrust AB/OU=AddTrust External TTP
-    Network
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 164433197023069186812933829579964075569
-	AKI: AD:BD:98:7A:34:B4:26:F7:FA:C4:26:54:EF:03:BD:E0:24:CB:54:1A
-	SKI: 1A:09:04:CC:F9:09:8F:BB:1E:A0:CE:D4:A4:14:7F:4B:D5:23:58:CD
-	Valid from: 2011-06-21T00:00:00+0000
-	     until: 2020-05-30T10:48:38+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	2 AIAs:
-		http://crt.usertrust.com/AddTrustExternalCARoot.p7c
-		http://crt.usertrust.com/AddTrustUTNSGCCA.crt
-	OCSP server:
-		- http://ocsp.usertrust.com
-CERTIFICATE
 Subject: /GlobalSign Domain Validation CA - SHA256 - G2/C=BE/O=GlobalSign
     nv-sa
 Issuer: /GlobalSign/O=GlobalSign/OU=GlobalSign Root CA - R3
@@ -1950,27 +1056,6 @@ Details:
 	SANs (0):
 	OCSP server:
 		- http://ocsp2.globalsign.com/rootr3
-CERTIFICATE
-Subject: /COMODO SSL CA/C=GB/O=COMODO CA Limited/L=Salford/ST=Greater
-    Manchester
-Issuer: /AddTrust External CA Root/C=SE/O=AddTrust AB/OU=AddTrust External TTP
-    Network
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 147185725897567578873802462785113594047
-	AKI: AD:BD:98:7A:34:B4:26:F7:FA:C4:26:54:EF:03:BD:E0:24:CB:54:1A
-	SKI: 1B:6B:BD:1F:8A:49:18:94:54:37:55:B4:20:17:ED:37:B9:77:18:7D
-	Valid from: 2011-08-23T00:00:00+0000
-	     until: 2020-05-30T10:48:38+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	2 AIAs:
-		http://crt.usertrust.com/AddTrustExternalCARoot.p7c
-		http://crt.usertrust.com/AddTrustUTNSGCCA.crt
-	OCSP server:
-		- http://ocsp.usertrust.com
 CERTIFICATE
 Subject: /Entrust Certification Authority - L1E/C=US/O=Entrust,
     Inc./OU=www.entrust.net/rpa is incorporated by reference/OU=(c) 2009
@@ -2032,89 +1117,6 @@ Details:
 	OCSP server:
 		- http://ocsp.entrust.net
 CERTIFICATE
-Subject: /DOMENY.PL EV Certification Authority/C=PL/O=DOMENY.PL
-    Ltd./OU=Controlled by COMODO exclusively for DOMENY.PL
-    Ltd./OU=CertyfikatySSL.pl Security Dept.
-Issuer: /COMODO Certification Authority/C=GB/O=COMODO CA
-    Limited/L=Salford/ST=Greater Manchester
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 30692611132187264609773213041519576615
-	AKI: 0B:58:E5:8B:C6:4C:15:37:A4:40:A9:30:A9:21:BE:47:36:5A:56:FF
-	SKI: 9D:E7:11:AE:CE:E3:4A:D6:FC:31:E6:D1:CF:6A:3A:CB:8B:24:EE:4E
-	Valid from: 2011-11-15T00:00:00+0000
-	     until: 2020-05-30T10:48:38+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://crt.comodoca.com/COMODOAddTrustServerCA.crt
-	OCSP server:
-		- http://ocsp.comodoca.com
-CERTIFICATE
-Subject: /DOMENY.PL DV Certification Authority/C=PL/O=DOMENY.PL
-    Ltd./OU=CertyfikatySSL.pl Security Dept.
-Issuer: /AddTrust External CA Root/C=SE/O=AddTrust AB/OU=AddTrust External TTP
-    Network
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 135550489211543245763222245064875119894
-	AKI: AD:BD:98:7A:34:B4:26:F7:FA:C4:26:54:EF:03:BD:E0:24:CB:54:1A
-	SKI: BF:02:5A:AC:61:62:4E:84:36:DD:CF:32:EE:62:48:EE:4E:C3:75:1F
-	Valid from: 2011-11-15T00:00:00+0000
-	     until: 2020-05-30T10:48:38+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	2 AIAs:
-		http://crt.usertrust.com/AddTrustExternalCARoot.p7c
-		http://crt.usertrust.com/AddTrustUTNSGCCA.crt
-	OCSP server:
-		- http://ocsp.usertrust.com
-CERTIFICATE
-Subject: /DOMENY.PL OV Certification Authority/C=PL/O=DOMENY.PL
-    Ltd./OU=CertyfikatySSL.pl Security Dept.
-Issuer: /AddTrust External CA Root/C=SE/O=AddTrust AB/OU=AddTrust External TTP
-    Network
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 47539455734501680237791097875033045273
-	AKI: AD:BD:98:7A:34:B4:26:F7:FA:C4:26:54:EF:03:BD:E0:24:CB:54:1A
-	SKI: 76:4E:DA:35:C1:F5:07:D4:C6:67:43:8A:56:38:EF:6A:29:19:CA:A3
-	Valid from: 2011-11-15T00:00:00+0000
-	     until: 2020-05-30T10:48:38+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	2 AIAs:
-		http://crt.usertrust.com/AddTrustExternalCARoot.p7c
-		http://crt.usertrust.com/AddTrustUTNSGCCA.crt
-	OCSP server:
-		- http://ocsp.usertrust.com
-CERTIFICATE
-Subject: /SSL.com Free SSL CA/C=US/O=SSL.com
-Issuer: /AddTrust External CA Root/C=SE/O=AddTrust AB/OU=AddTrust External TTP
-    Network
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 103608685398087129513051533432093589109
-	AKI: AD:BD:98:7A:34:B4:26:F7:FA:C4:26:54:EF:03:BD:E0:24:CB:54:1A
-	SKI: 4E:59:66:BF:F3:25:08:01:B2:8A:C2:B1:33:E1:3E:01:51:7B:82:29
-	Valid from: 2011-12-02T00:00:00+0000
-	     until: 2020-05-30T10:48:38+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	2 AIAs:
-		http://crt.usertrust.com/AddTrustExternalCARoot.p7c
-		http://crt.usertrust.com/AddTrustUTNSGCCA.crt
-	OCSP server:
-		- http://ocsp.usertrust.com
-CERTIFICATE
 Subject: /COMODO RSA Extended Validation Secure Server CA/C=GB/O=COMODO CA
     Limited/L=Salford/ST=Greater Manchester
 Issuer: /COMODO RSA Certification Authority/C=GB/O=COMODO CA
@@ -2134,69 +1136,6 @@ Details:
 		http://crt.comodoca.com/COMODORSAAddTrustCA.crt
 	OCSP server:
 		- http://ocsp.comodoca.com
-CERTIFICATE
-Subject: /PositiveSSL CA 2/C=GB/O=COMODO CA Limited/L=Salford/ST=Greater
-    Manchester
-Issuer: /AddTrust External CA Root/C=SE/O=AddTrust AB/OU=AddTrust External TTP
-    Network
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 9881311591143738296581580680411873307
-	AKI: AD:BD:98:7A:34:B4:26:F7:FA:C4:26:54:EF:03:BD:E0:24:CB:54:1A
-	SKI: 99:E4:40:5F:6B:14:5E:3E:05:D9:DD:D3:63:54:FC:62:B8:F7:00:AC
-	Valid from: 2012-02-16T00:00:00+0000
-	     until: 2020-05-30T10:48:38+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	2 AIAs:
-		http://crt.usertrust.com/AddTrustExternalCARoot.p7c
-		http://crt.usertrust.com/AddTrustUTNSGCCA.crt
-	OCSP server:
-		- http://ocsp.usertrust.com
-CERTIFICATE
-Subject: /SSL Blindado/C=BR/O=Site Blindado S.A./OU=Certificação
-    Digital/L=Sao Paulo/ST=SP
-Issuer: /AddTrust External CA Root/C=SE/O=AddTrust AB/OU=AddTrust External TTP
-    Network
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 93523990834303074028127556284030554839
-	AKI: AD:BD:98:7A:34:B4:26:F7:FA:C4:26:54:EF:03:BD:E0:24:CB:54:1A
-	SKI: 2A:B5:E9:79:88:0C:71:A6:BE:94:2C:7F:E6:36:97:B5:2A:F4:3A:42
-	Valid from: 2012-03-26T00:00:00+0000
-	     until: 2020-05-30T10:48:38+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	2 AIAs:
-		http://crt.usertrust.com/AddTrustExternalCARoot.p7c
-		http://crt.usertrust.com/AddTrustUTNSGCCA.crt
-	OCSP server:
-		- http://ocsp.usertrust.com
-CERTIFICATE
-Subject: /Crazy Domains (OV) Certification Authority/C=AE/O=DREAMSCAPE
-    NETWORKS FZ-LLC/OU=Security Dept.
-Issuer: /AddTrust External CA Root/C=SE/O=AddTrust AB/OU=AddTrust External TTP
-    Network
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 166021451825503630904090086125211323497
-	AKI: AD:BD:98:7A:34:B4:26:F7:FA:C4:26:54:EF:03:BD:E0:24:CB:54:1A
-	SKI: 0F:B2:BD:5D:53:56:6A:2E:82:0C:93:1F:B5:F1:2B:24:AC:CF:9F:BC
-	Valid from: 2012-05-31T00:00:00+0000
-	     until: 2020-05-30T10:48:38+0000
-	Key usages: cert sign, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	2 AIAs:
-		http://crt.usertrust.com/AddTrustExternalCARoot.p7c
-		http://crt.usertrust.com/AddTrustUTNSGCCA.crt
-	OCSP server:
-		- http://ocsp.usertrust.com
 CERTIFICATE
 Subject: /nazwaSSL/C=PL/O=NetArt Spółka Akcyjna S.K.A./OU=http://nazwa.pl
 Issuer: /Certum Global Services CA/C=PL/O=Unizeto Technologies S.A./OU=Certum
@@ -3917,50 +2856,6 @@ Details:
 	SANs (0):
 	OCSP server:
 		- http://ocsp.entrust.net
-CERTIFICATE
-Subject: /COMODO SHA-256 Domain Validation Secure Server CA/C=GB/O=COMODO CA
-    Limited/L=Salford/ST=Greater Manchester
-Issuer: /AddTrust External CA Root/C=SE/O=AddTrust AB/OU=AddTrust External TTP
-    Network
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 116414000275274822916997019421396200927
-	AKI: AD:BD:98:7A:34:B4:26:F7:FA:C4:26:54:EF:03:BD:E0:24:CB:54:1A
-	SKI: 1E:AC:3F:FC:0F:E1:27:F5:3A:9C:05:96:E8:8B:33:79:F7:75:79:F1
-	Valid from: 2014-12-22T00:00:00+0000
-	     until: 2020-05-30T10:48:38+0000
-	Key usages: cert sign, crl sign, digital signature
-	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	2 AIAs:
-		http://crt.usertrust.com/AddTrustExternalCARoot.p7c
-		http://crt.usertrust.com/AddTrustUTNSGCCA.crt
-	OCSP server:
-		- http://ocsp.usertrust.com
-CERTIFICATE
-Subject: /COMODO SHA-256 Extended Validation Secure Server CA/C=GB/O=COMODO CA
-    Limited/L=Salford/ST=Greater Manchester
-Issuer: /AddTrust External CA Root/C=SE/O=AddTrust AB/OU=AddTrust External TTP
-    Network
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 183792791643006205696474152836579627997
-	AKI: AD:BD:98:7A:34:B4:26:F7:FA:C4:26:54:EF:03:BD:E0:24:CB:54:1A
-	SKI: 2E:AE:EE:2F:72:45:7D:E3:9A:64:8A:8C:75:B5:C0:33:8A:64:7C:05
-	Valid from: 2014-12-22T00:00:00+0000
-	     until: 2020-05-30T10:48:38+0000
-	Key usages: cert sign, crl sign, digital signature
-	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	2 AIAs:
-		http://crt.usertrust.com/AddTrustExternalCARoot.p7c
-		http://crt.usertrust.com/AddTrustUTNSGCCA.crt
-	OCSP server:
-		- http://ocsp.usertrust.com
 CERTIFICATE
 Subject: /HydrantID EV SSL ICA G1/C=US/O=HydrantID (Avalanche Cloud
     Corporation)
