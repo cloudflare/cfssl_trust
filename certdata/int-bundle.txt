@@ -1842,22 +1842,6 @@ Details:
 	OCSP server:
 		- http://ocsp.globalsign.com/rootr1
 CERTIFICATE
-Subject: /Cybertrust Japan Public CA G3/C=JP/O=Cybertrust Japan Co., Ltd.
-Issuer: /Baltimore CyberTrust Root/C=IE/O=Baltimore/OU=CyberTrust
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 120038006
-	AKI: E5:9D:59:30:82:47:58:CC:AC:FA:08:54:36:86:7B:3A:B5:04:4D:F0
-	SKI: 73:A8:08:53:29:B8:15:FB:99:80:E5:C5:37:D8:F8:39:7B:A4:13:06
-	Valid from: 2014-02-27T18:09:27+0000
-	     until: 2020-06-09T17:07:29+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://ocsp.omniroot.com/baltimoreroot
-CERTIFICATE
 Subject: /Trend Micro S2 CA/C=US/O=Trend Micro Inc
 Issuer: /AffirmTrust Commercial/C=US/O=AffirmTrust
 	Signature algorithm: RSA / SHA256
