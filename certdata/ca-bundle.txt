@@ -343,34 +343,6 @@ Details:
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
-Subject: /Equifax Secure Global eBusiness CA-1/C=US/O=Equifax Secure Inc.
-Issuer: /Equifax Secure Global eBusiness CA-1/C=US/O=Equifax Secure Inc.
-	Signature algorithm: RSA / MD5
-Details:
-	Public key: RSA-1024
-	Serial number: 1
-	AKI: BE:A8:A0:74:72:50:6B:44:B7:C9:23:D8:FB:A8:FF:B3:57:6B:68:6C
-	SKI: BE:A8:A0:74:72:50:6B:44:B7:C9:23:D8:FB:A8:FF:B3:57:6B:68:6C
-	Valid from: 1999-06-21T04:00:00+0000
-	     until: 2020-06-21T04:00:00+0000
-	Key usages: 
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
-Subject: /Equifax Secure eBusiness CA-1/C=US/O=Equifax Secure Inc.
-Issuer: /Equifax Secure eBusiness CA-1/C=US/O=Equifax Secure Inc.
-	Signature algorithm: RSA / MD5
-Details:
-	Public key: RSA-1024
-	Serial number: 4
-	AKI: 4A:78:32:52:11:DB:59:16:36:5E:DF:C1:14:36:40:6A:47:7C:4C:A1
-	SKI: 4A:78:32:52:11:DB:59:16:36:5E:DF:C1:14:36:40:6A:47:7C:4C:A1
-	Valid from: 1999-06-21T04:00:00+0000
-	     until: 2020-06-21T04:00:00+0000
-	Key usages: 
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
 Subject: /Class 1 Primary CA/C=FR/O=Certplus
 Issuer: /Class 1 Primary CA/C=FR/O=Certplus
 	Signature algorithm: RSA / SHA1
@@ -1344,19 +1316,6 @@ Details:
 	SANs (0):
 	1 AIA:
 		https://www.apple.com/certificateauthority/casigners.html
-CERTIFICATE
-Subject: /Halcom CA FO/C=SI/O=Halcom
-Issuer: /Halcom CA FO/C=SI/O=Halcom
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 113253
-	SKI: 48:20:1C:62:0D:58:52:25
-	Valid from: 2005-06-05T10:33:31+0000
-	     until: 2020-06-05T10:33:31+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
 CERTIFICATE
 Subject: /Autoridad de Certificacion de la Abogacia/C=ES/O=Consejo General de
     la Abogacia NIF:Q-2863006I
