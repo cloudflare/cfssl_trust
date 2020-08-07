@@ -761,25 +761,6 @@ Details:
 	1 AIA:
 		http://repository.certum.pl/ctnca.cer
 CERTIFICATE
-Subject: /Thawte SGC CA - G2/C=US/O=Thawte, Inc.
-Issuer: /VeriSign Class 3 Public Primary Certification Authority -
-    G5/C=US/O=VeriSign, Inc./OU=VeriSign Trust Network/OU=(c) 2006 VeriSign,
-    Inc. - For authorized use only
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 32743342497485668866873372693735866349
-	AKI: 7F:D3:65:A7:C2:DD:EC:BB:F0:30:09:F3:43:39:FA:02:AF:33:31:33
-	SKI: 24:C0:C0:A4:49:3C:52:0B:12:D8:92:0C:51:D1:87:A7:4D:54:75:2C
-	Valid from: 2010-07-29T00:00:00+0000
-	     until: 2020-07-28T23:59:59+0000
-	Key usages: cert sign, crl sign
-	Extended usages: client auth, netscape sgc, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://ocsp.thawte.com
-CERTIFICATE
 Subject: /Cybertrust Public SureServer SV CA/O=Cybertrust Inc
 Issuer: /Baltimore CyberTrust Root/C=IE/O=Baltimore/OU=CyberTrust
 	Signature algorithm: RSA / SHA1
