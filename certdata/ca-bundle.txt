@@ -343,19 +343,6 @@ Details:
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
-Subject: /Class 1 Primary CA/C=FR/O=Certplus
-Issuer: /Class 1 Primary CA/C=FR/O=Certplus
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 179435990614307218758317201289301556023
-	SKI: 23:2E:DF:E9:81:B4:D0:84:FD:8E:BB:A9:DD:F9:0C:A3:E3:F3:49:53
-	Valid from: 1999-07-07T17:01:00+0000
-	     until: 2020-07-06T23:59:59+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 10
-	SANs (0):
-CERTIFICATE
 Subject: /SecureSign RootCA1/C=JP/O=Japan Certification Services, Inc.
 Issuer: /SecureSign RootCA1/C=JP/O=Japan Certification Services, Inc.
 	Signature algorithm: RSA / SHA1
@@ -1374,32 +1361,6 @@ Details:
 	SKI: 4B:DE:BE:05:31:2E:F3:35:C8:D8:CA:A7:56:C5:94:0D:B4:5A:65:C5
 	Valid from: 2005-07-26T10:00:00+0000
 	     until: 2025-07-26T10:00:00+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
-Subject: /Certipost E-Trust Primary Qualified CA/C=BE/O=Certipost s.a./n.v.
-Issuer: /Certipost E-Trust Primary Qualified CA/C=BE/O=Certipost s.a./n.v.
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 4835703278459639067624485
-	SKI: F0:78:F9:07:77:10:BB:DC:1E:A1:AE:79:FB:30:10:DB:C6:34:F8:17
-	Valid from: 2005-07-26T10:00:00+0000
-	     until: 2020-07-26T10:00:00+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
-Subject: /Certipost E-Trust Primary Normalised CA/C=BE/O=Certipost s.a./n.v.
-Issuer: /Certipost E-Trust Primary Normalised CA/C=BE/O=Certipost s.a./n.v.
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 4835703278459639067625313
-	SKI: 11:F2:0B:96:D2:33:38:81:57:58:13:FD:40:A4:11:6F:4E:99:FA:67
-	Valid from: 2005-07-26T10:00:00+0000
-	     until: 2020-07-26T10:00:00+0000
 	Key usages: cert sign, crl sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
