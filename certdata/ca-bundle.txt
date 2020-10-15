@@ -343,42 +343,6 @@ Details:
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
-Subject: /SecureSign RootCA1/C=JP/O=Japan Certification Services, Inc.
-Issuer: /SecureSign RootCA1/C=JP/O=Japan Certification Services, Inc.
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 6872590196412514304
-	Valid from: 1999-09-15T15:00:01+0000
-	     until: 2020-09-15T14:59:59+0000
-	Key usages: 
-	Basic constraints: invalid
-	SANs (0):
-CERTIFICATE
-Subject: /SecureSign RootCA3/C=JP/O=Japan Certification Services, Inc.
-Issuer: /SecureSign RootCA3/C=JP/O=Japan Certification Services, Inc.
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 6872590196412514304
-	Valid from: 1999-09-15T15:00:01+0000
-	     until: 2020-09-15T14:59:59+0000
-	Key usages: 
-	Basic constraints: invalid
-	SANs (0):
-CERTIFICATE
-Subject: /SecureSign RootCA2/C=JP/O=Japan Certification Services, Inc.
-Issuer: /SecureSign RootCA2/C=JP/O=Japan Certification Services, Inc.
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 6872590196412514304
-	Valid from: 1999-09-15T15:00:01+0000
-	     until: 2020-09-15T14:59:59+0000
-	Key usages: 
-	Basic constraints: invalid
-	SANs (0):
-CERTIFICATE
 Subject: /VeriSign Class 4 Public Primary Certification Authority -
     G3/C=US/O=VeriSign, Inc./OU=VeriSign Trust Network/OU=(c) 1999 VeriSign,
     Inc. - For authorized use only
@@ -471,19 +435,6 @@ Details:
 	     until: 2025-05-12T23:59:00+0000
 	Key usages: cert sign, crl sign
 	Basic constraints: valid, is a CA certificate, max path length 3
-	SANs (0):
-CERTIFICATE
-Subject: /DST Root CA X4/O=Digital Signature Trust Co.
-Issuer: /DST Root CA X4/O=Digital Signature Trust Co.
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 276636618135943999350494435202675245058
-	SKI: F0:83:EA:73:C8:3F:5B:9B:5B:37:5F:F5:4C:8F:5A:F7:F4:86:48:BD
-	Valid from: 2000-09-13T06:22:50+0000
-	     until: 2020-09-13T06:22:50+0000
-	Key usages: 
-	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
 Subject: /DST Root CA X3/O=Digital Signature Trust Co.
