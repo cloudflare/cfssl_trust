@@ -761,20 +761,6 @@ Details:
 	1 AIA:
 		http://repository.certum.pl/ctnca.cer
 CERTIFICATE
-Subject: /Cybertrust Public SureServer SV CA/O=Cybertrust Inc
-Issuer: /Baltimore CyberTrust Root/C=IE/O=Baltimore/OU=CyberTrust
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 120010508
-	AKI: E5:9D:59:30:82:47:58:CC:AC:FA:08:54:36:86:7B:3A:B5:04:4D:F0
-	SKI: 04:98:60:DF:80:1B:96:49:5D:65:56:2D:A5:2C:09:24:0A:EC:DC:B9
-	Valid from: 2010-09-08T17:35:16+0000
-	     until: 2020-09-08T17:34:08+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-CERTIFICATE
 Subject: /CA de Certificados SSL EV/C=ES/O=IZENPE S.A./OU=BZ Ziurtagiri
     publikoa - Certificado publico EV
 Issuer: /Izenpe.com/C=ES/O=IZENPE S.A.
@@ -3057,40 +3043,6 @@ Details:
 	SANs (0):
 	OCSP server:
 		- http://ocsp.entrust.net
-CERTIFICATE
-Subject: /CloudFlare Inc ECC CA-2/C=US/O=CloudFlare, Inc./L=San
-    Francisco/ST=CA
-Issuer: /Baltimore CyberTrust Root/C=IE/O=Baltimore/OU=CyberTrust
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: ECDSA-prime256v1
-	Serial number: 21204814788472567899750642361434432950
-	AKI: E5:9D:59:30:82:47:58:CC:AC:FA:08:54:36:86:7B:3A:B5:04:4D:F0
-	SKI: 3E:74:2D:1F:CF:45:75:04:7E:3F:C0:A2:87:3E:4C:43:83:51:13:C6
-	Valid from: 2015-10-14T12:00:00+0000
-	     until: 2020-10-09T12:00:00+0000
-	Key usages: cert sign, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://ocsp.digicert.com
-CERTIFICATE
-Subject: /CloudFlare Inc RSA CA-1/C=US/O=CloudFlare, Inc./L=San
-    Francisco/ST=CA
-Issuer: /Baltimore CyberTrust Root/C=IE/O=Baltimore/OU=CyberTrust
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 8047223625059076634263372045410513207
-	AKI: E5:9D:59:30:82:47:58:CC:AC:FA:08:54:36:86:7B:3A:B5:04:4D:F0
-	SKI: 91:05:8A:DF:4C:22:C6:6D:8B:94:4C:16:45:7E:EE:6F:02:FB:B7:C0
-	Valid from: 2015-10-14T12:00:00+0000
-	     until: 2020-10-14T12:00:00+0000
-	Key usages: cert sign, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://ocsp.digicert.com
 CERTIFICATE
 Subject: /Let's Encrypt Authority X1/C=US/O=Let's Encrypt
 Issuer: /DST Root CA X3/O=Digital Signature Trust Co.
