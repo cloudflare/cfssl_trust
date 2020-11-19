@@ -754,20 +754,6 @@ Details:
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
-Subject: /IGC/A/C=FR/O=PM/SGDN/OU=DCSSI/L=Paris/ST=France
-Issuer: /IGC/A/C=FR/O=PM/SGDN/OU=DCSSI/L=Paris/ST=France
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 245102874772
-	AKI: A3:05:2F:18:60:50:C2:89:0A:DD:2B:21:4F:FF:8E:4E:A8:30:31:36
-	SKI: A3:05:2F:18:60:50:C2:89:0A:DD:2B:21:4F:FF:8E:4E:A8:30:31:36
-	Valid from: 2002-12-13T14:29:23+0000
-	     until: 2020-10-17T14:29:22+0000
-	Key usages: cert sign, content committment, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
 Subject: /VRK Gov. Root CA/C=FI/O=Vaestorekisterikeskus CA/OU=Certification
     Authority Services/OU=Varmennepalvelut/ST=Finland
 Issuer: /VRK Gov. Root CA/C=FI/O=Vaestorekisterikeskus CA/OU=Certification

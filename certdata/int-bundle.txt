@@ -761,23 +761,6 @@ Details:
 	1 AIA:
 		http://repository.certum.pl/ctnca.cer
 CERTIFICATE
-Subject: /CA de Certificados SSL EV/C=ES/O=IZENPE S.A./OU=BZ Ziurtagiri
-    publikoa - Certificado publico EV
-Issuer: /Izenpe.com/C=ES/O=IZENPE S.A.
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-4096
-	Serial number: 145477172158191020923658859389206702465
-	AKI: 1D:1C:65:0E:A8:F2:25:7B:B4:91:CF:E4:B1:B1:E6:BD:55:74:6C:05
-	SKI: A6:CE:69:69:2E:A6:21:35:3B:3A:CF:0A:F1:2E:3F:15:AC:19:90:27
-	Valid from: 2010-10-20T08:28:56+0000
-	     until: 2020-10-20T08:28:56+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (1): email:info@izenpe.com
-	OCSP server:
-		- http://ocsp.izenpe.com
-CERTIFICATE
 Subject: /Buypass Class 3 CA 2/C=NO/O=Buypass AS-983163327
 Issuer: /Buypass Class 3 Root CA/C=NO/O=Buypass AS-983163327
 	Signature algorithm: RSA / SHA256
@@ -3043,24 +3026,6 @@ Details:
 	SANs (0):
 	OCSP server:
 		- http://ocsp.entrust.net
-CERTIFICATE
-Subject: /Let's Encrypt Authority X1/C=US/O=Let's Encrypt
-Issuer: /DST Root CA X3/O=Digital Signature Trust Co.
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 202146267183415291506814634431721915581
-	AKI: C4:A7:B1:A4:7B:2C:71:FA:DB:E1:4B:90:75:FF:C4:15:60:85:89:10
-	SKI: A8:4A:6A:63:04:7D:DD:BA:E6:D1:39:B7:A6:45:65:EF:F3:A8:EC:A1
-	Valid from: 2015-10-19T22:33:36+0000
-	     until: 2020-10-19T22:33:36+0000
-	Key usages: cert sign, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://apps.identrust.com/roots/dstrootcax3.p7c
-	OCSP server:
-		- http://isrg.trustid.ocsp.identrust.com
 CERTIFICATE
 Subject: /Amazon/C=US/O=Amazon/OU=Server CA 1B
 Issuer: /Amazon Root CA 1/C=US/O=Amazon
