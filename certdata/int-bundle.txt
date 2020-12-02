@@ -3580,3 +3580,37 @@ Details:
 	SANs (0):
 	OCSP server:
 		- http://ocsp.digicert.com
+CERTIFICATE
+Subject: /R3/C=US/O=Let's Encrypt
+Issuer: /DST Root CA X3/O=Digital Signature Trust Co.
+	Signature algorithm: RSA / SHA256
+Details:
+	Public key: RSA-2048
+	Serial number: 85078157426496920958827089468591623647
+	AKI: C4:A7:B1:A4:7B:2C:71:FA:DB:E1:4B:90:75:FF:C4:15:60:85:89:10
+	SKI: 14:2E:B3:17:B7:58:56:CB:AE:50:09:40:E6:1F:AF:9D:8B:14:C2:C6
+	Valid from: 2020-10-07T19:21:40+0000
+	     until: 2021-09-29T19:21:40+0000
+	Key usages: cert sign, crl sign, digital signature
+	Extended usages: client auth, server auth
+	Basic constraints: valid, is a CA certificate, max path length 0
+	SANs (0):
+	1 AIA:
+		http://apps.identrust.com/roots/dstrootcax3.p7c
+CERTIFICATE
+Subject: /R4/C=US/O=Let's Encrypt
+Issuer: /DST Root CA X3/O=Digital Signature Trust Co.
+	Signature algorithm: RSA / SHA256
+Details:
+	Public key: RSA-2048
+	Serial number: 85078157426516977370628618881327991426
+	AKI: C4:A7:B1:A4:7B:2C:71:FA:DB:E1:4B:90:75:FF:C4:15:60:85:89:10
+	SKI: 36:9D:3E:E0:B1:40:F6:27:2C:7C:BF:8D:9D:31:8A:F6:54:A6:46:26
+	Valid from: 2020-10-07T19:21:45+0000
+	     until: 2021-09-29T19:21:45+0000
+	Key usages: cert sign, crl sign, digital signature
+	Extended usages: client auth, server auth
+	Basic constraints: valid, is a CA certificate, max path length 0
+	SANs (0):
+	1 AIA:
+		http://apps.identrust.com/roots/dstrootcax3.p7c
