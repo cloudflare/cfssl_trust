@@ -3581,6 +3581,173 @@ Details:
 	OCSP server:
 		- http://ocsp.digicert.com
 CERTIFICATE
+Subject: /GeoTrust TLS DV RSA Mixed SHA256 2020 CA-1/C=US/O=DigiCert Inc
+Issuer: /DigiCert Global Root CA/C=US/O=DigiCert Inc/OU=www.digicert.com
+	Signature algorithm: RSA / SHA256
+Details:
+	Public key: RSA-2048
+	Serial number: 15995324704398902386293046919426293948
+	AKI: 03:DE:50:35:56:D1:4C:BB:66:F0:A3:E2:1B:1B:C3:97:B2:3D:D1:55
+	SKI: 12:C9:88:9B:2F:C9:44:7A:7D:12:F1:DF:40:03:42:98:92:C7:24:D6
+	Valid from: 2020-07-16T12:21:44+0000
+	     until: 2023-05-31T23:59:59+0000
+	Key usages: cert sign, crl sign, digital signature
+	Extended usages: client auth, server auth
+	Basic constraints: valid, is a CA certificate, max path length 0
+	SANs (0):
+	OCSP server:
+		- http://ocsp.digicert.com
+CERTIFICATE
+Subject: /RapidSSL TLS DV RSA Mixed SHA256 2020 CA-1/C=US/O=DigiCert Inc
+Issuer: /DigiCert Global Root CA/C=US/O=DigiCert Inc/OU=www.digicert.com
+	Signature algorithm: RSA / SHA256
+Details:
+	Public key: RSA-2048
+	Serial number: 10094920634610845175072226827329899116
+	AKI: 03:DE:50:35:56:D1:4C:BB:66:F0:A3:E2:1B:1B:C3:97:B2:3D:D1:55
+	SKI: A4:8D:E5:BE:7C:79:E4:70:23:6D:2E:29:34:AD:23:58:DC:F5:31:7F
+	Valid from: 2020-07-16T12:25:27+0000
+	     until: 2023-05-31T23:59:59+0000
+	Key usages: cert sign, crl sign, digital signature
+	Extended usages: client auth, server auth
+	Basic constraints: valid, is a CA certificate, max path length 0
+	SANs (0):
+	OCSP server:
+		- http://ocsp.digicert.com
+CERTIFICATE
+Subject: /DigiCert SHA2 Secure Server CA/C=US/O=DigiCert Inc
+Issuer: /DigiCert Global Root CA/C=US/O=DigiCert Inc/OU=www.digicert.com
+	Signature algorithm: RSA / SHA256
+Details:
+	Public key: RSA-2048
+	Serial number: 3261708894152296593076398650851921056
+	AKI: 03:DE:50:35:56:D1:4C:BB:66:F0:A3:E2:1B:1B:C3:97:B2:3D:D1:55
+	SKI: 0F:80:61:1C:82:31:61:D5:2F:28:E7:8D:46:38:B4:2C:E1:C6:D9:E2
+	Valid from: 2020-09-23T00:00:00+0000
+	     until: 2030-09-22T23:59:59+0000
+	Key usages: cert sign, crl sign, digital signature
+	Extended usages: client auth, server auth
+	Basic constraints: valid, is a CA certificate, max path length 0
+	SANs (0):
+	1 AIA:
+		http://cacerts.digicert.com/DigiCertGlobalRootCA.crt
+	OCSP server:
+		- http://ocsp.digicert.com
+CERTIFICATE
+Subject: /DigiCert TLS Hybrid ECC SHA384 2020 CA1/C=US/O=DigiCert Inc
+Issuer: /DigiCert Global Root CA/C=US/O=DigiCert Inc/OU=www.digicert.com
+	Signature algorithm: RSA / SHA384
+Details:
+	Public key: ECDSA-secp384r1
+	Serial number: 13496724667447682545480095667406392836
+	AKI: 03:DE:50:35:56:D1:4C:BB:66:F0:A3:E2:1B:1B:C3:97:B2:3D:D1:55
+	SKI: 0A:BC:08:29:17:8C:A5:39:6D:7A:0E:CE:33:C7:2E:B3:ED:FB:C3:7A
+	Valid from: 2020-09-23T00:00:00+0000
+	     until: 2030-09-22T23:59:59+0000
+	Key usages: cert sign, crl sign, digital signature
+	Extended usages: client auth, server auth
+	Basic constraints: valid, is a CA certificate, max path length 0
+	SANs (0):
+	1 AIA:
+		http://cacerts.digicert.com/DigiCertGlobalRootCA.crt
+	OCSP server:
+		- http://ocsp.digicert.com
+CERTIFICATE
+Subject: /DigiCert Baltimore TLS RSA SHA256 2020 CA1/C=US/O=DigiCert Inc
+Issuer: /Baltimore CyberTrust Root/C=IE/O=Baltimore/OU=CyberTrust
+	Signature algorithm: RSA / SHA256
+Details:
+	Public key: RSA-2048
+	Serial number: 13967229389238126287638511701440740160
+	AKI: E5:9D:59:30:82:47:58:CC:AC:FA:08:54:36:86:7B:3A:B5:04:4D:F0
+	SKI: F2:56:9B:07:86:07:99:53:7E:12:2C:F8:7D:2F:E6:D5:26:D8:93:54
+	Valid from: 2020-09-24T00:00:00+0000
+	     until: 2025-05-11T23:59:59+0000
+	Key usages: cert sign, crl sign, digital signature
+	Extended usages: client auth, server auth
+	Basic constraints: valid, is a CA certificate, max path length 0
+	SANs (0):
+	1 AIA:
+		http://cacerts.digicert.com/BaltimoreCyberTrustRoot.crt
+	OCSP server:
+		- http://ocsp.digicert.com
+CERTIFICATE
+Subject: /DigiCert Global G2 TLS RSA SHA256 2020 CA1/C=US/O=DigiCert Inc
+Issuer: /DigiCert Global Root G2/C=US/O=DigiCert Inc/OU=www.digicert.com
+	Signature algorithm: RSA / SHA256
+Details:
+	Public key: RSA-2048
+	Serial number: 11130109190356876515313367046181502506
+	AKI: 4E:22:54:20:18:95:E6:E3:6E:E6:0F:FA:FA:B9:12:ED:06:17:8F:39
+	SKI: 74:85:80:C0:66:C7:DF:37:DE:CF:BD:29:37:AA:03:1D:BE:ED:CD:17
+	Valid from: 2020-09-24T00:00:00+0000
+	     until: 2030-09-23T23:59:59+0000
+	Key usages: cert sign, crl sign, digital signature
+	Extended usages: client auth, server auth
+	Basic constraints: valid, is a CA certificate, max path length 0
+	SANs (0):
+	1 AIA:
+		http://cacerts.digicert.com/DigiCertGlobalRootG2.crt
+	OCSP server:
+		- http://ocsp.digicert.com
+CERTIFICATE
+Subject: /DigiCert Global G3 TLS ECC SHA384 2020 CA1/C=US/O=DigiCert Inc
+Issuer: /DigiCert Global Root G3/C=US/O=DigiCert Inc/OU=www.digicert.com
+	Signature algorithm: ECDSA / SHA384
+Details:
+	Public key: ECDSA-secp384r1
+	Serial number: 17560596793023370858630914980245971165
+	AKI: B3:DB:48:A4:F9:A1:C5:D8:AE:36:41:CC:11:63:69:62:29:BC:4B:C6
+	SKI: 8A:23:EB:9E:6B:D7:F9:37:5D:F9:6D:21:39:76:9A:A1:67:DE:10:A8
+	Valid from: 2020-09-24T00:00:00+0000
+	     until: 2030-09-23T23:59:59+0000
+	Key usages: cert sign, crl sign, digital signature
+	Extended usages: client auth, server auth
+	Basic constraints: valid, is a CA certificate, max path length 0
+	SANs (0):
+	1 AIA:
+		http://cacerts.digicert.com/DigiCertGlobalRootG3.crt
+	OCSP server:
+		- http://ocsp.digicert.com
+CERTIFICATE
+Subject: /DigiCert TLS RSA SHA256 2020 CA1/C=US/O=DigiCert Inc
+Issuer: /DigiCert Global Root CA/C=US/O=DigiCert Inc/OU=www.digicert.com
+	Signature algorithm: RSA / SHA256
+Details:
+	Public key: RSA-2048
+	Serial number: 13567650854749339296468135199911180260
+	AKI: 03:DE:50:35:56:D1:4C:BB:66:F0:A3:E2:1B:1B:C3:97:B2:3D:D1:55
+	SKI: B7:6B:A2:EA:A8:AA:84:8C:79:EA:B4:DA:0F:98:B2:C5:95:76:B9:F4
+	Valid from: 2020-09-24T00:00:00+0000
+	     until: 2030-09-23T23:59:59+0000
+	Key usages: cert sign, crl sign, digital signature
+	Extended usages: client auth, server auth
+	Basic constraints: valid, is a CA certificate, max path length 0
+	SANs (0):
+	1 AIA:
+		http://cacerts.digicert.com/DigiCertGlobalRootCA.crt
+	OCSP server:
+		- http://ocsp.digicert.com
+CERTIFICATE
+Subject: /DigiCert Trusted G4 TLS RSA SHA384 2020 CA1/C=US/O=DigiCert Inc
+Issuer: /DigiCert Trusted Root G4/C=US/O=DigiCert Inc/OU=www.digicert.com
+	Signature algorithm: RSA / SHA384
+Details:
+	Public key: RSA-4096
+	Serial number: 19965351672229448804524541129940216490
+	AKI: EC:D7:E3:82:D2:71:5D:64:4C:DF:2E:67:3F:E7:BA:98:AE:1C:0F:4F
+	SKI: B6:6C:39:27:56:CE:97:5A:7E:18:9C:0A:13:B2:C1:A1:6C:B8:1A:BB
+	Valid from: 2020-09-24T00:00:00+0000
+	     until: 2030-09-23T23:59:59+0000
+	Key usages: cert sign, crl sign, digital signature
+	Extended usages: client auth, server auth
+	Basic constraints: valid, is a CA certificate, max path length 0
+	SANs (0):
+	1 AIA:
+		http://cacerts.digicert.com/DigiCertTrustedRootG4.crt
+	OCSP server:
+		- http://ocsp.digicert.com
+CERTIFICATE
 Subject: /R3/C=US/O=Let's Encrypt
 Issuer: /DST Root CA X3/O=Digital Signature Trust Co.
 	Signature algorithm: RSA / SHA256
