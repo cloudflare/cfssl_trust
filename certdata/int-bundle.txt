@@ -152,24 +152,6 @@ Details:
 	OCSP server:
 		- http://ocsp.starfieldtech.com
 CERTIFICATE
-Subject: /WISeKey CertifyID Advanced G1 CA/C=CH/O=WISeKey/OU=Copyright (c)
-    2005 WISeKey SA/OU=International
-Issuer: /OISTE WISeKey Global Root GA CA/C=CH/O=WISeKey/OU=Copyright (c)
-    2005/OU=OISTE Foundation Endorsed
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 460760152659609027346434
-	AKI: B3:03:7E:AE:36:BC:B0:79:D1:DC:94:26:B6:11:BE:21:B2:69:86:94
-	SKI: 50:1F:30:C0:93:92:8D:71:23:38:34:5C:B9:0A:F6:D3:2B:EB:81:45
-	Valid from: 2005-12-11T17:50:47+0000
-	     until: 2020-12-11T18:00:47+0000
-	Key usages: cert sign, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-	1 AIA:
-		http://public.wisekey.com/crt/owgrgaca.crt
-CERTIFICATE
 Subject: /WISeKey CertifyID Standard G1 CA/C=CH/O=WISeKey/OU=Copyright (c)
     2005 WISeKey SA/OU=International
 Issuer: /OISTE WISeKey Global Root GA CA/C=CH/O=WISeKey/OU=Copyright (c)
@@ -776,24 +758,6 @@ Details:
 	SANs (0):
 	OCSP server:
 		- http://ocsp.buypass.no/ocsp/BPOcsp
-CERTIFICATE
-Subject: /WISeKey CertifyID Advanced Services CA 2/C=CH/O=WISeKey/OU=Copyright
-    2011 WISeKey SA/OU=International
-Issuer: /WISeKey CertifyID Advanced G1 CA/C=CH/O=WISeKey/OU=Copyright (c) 2005
-    WISeKey SA/OU=International
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 246007577873566738153498
-	AKI: 50:1F:30:C0:93:92:8D:71:23:38:34:5C:B9:0A:F6:D3:2B:EB:81:45
-	SKI: D7:2F:2F:F3:09:F1:56:21:53:1D:E7:4C:2E:48:44:4A:DA:86:FD:98
-	Valid from: 2011-02-09T15:37:32+0000
-	     until: 2020-12-11T18:00:47+0000
-	Key usages: cert sign, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://public.wisekey.com/crt/wcidag1ca.crt
 CERTIFICATE
 Subject: /DigiCert Assured ID Code Signing CA-1/C=US/O=DigiCert
     Inc/OU=www.digicert.com
