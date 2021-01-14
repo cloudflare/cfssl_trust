@@ -1,89 +1,5 @@
 --ca-bundle.crt ---
 CERTIFICATE
-Subject: /Thawte Personal Basic CA/C=ZA/O=Thawte Consulting/OU=Certification
-    Services Division/L=Cape Town/ST=Western Cape
-Issuer: /Thawte Personal Basic CA/C=ZA/O=Thawte Consulting/OU=Certification
-    Services Division/L=Cape Town/ST=Western Cape
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-1024
-	Serial number: 18017697525667401551485133020231119090
-	Valid from: 1996-01-01T00:00:00+0000
-	     until: 2021-01-01T23:59:59+0000
-	Key usages: 
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
-Subject: /Thawte Personal Basic CA/C=ZA/O=Thawte Consulting/OU=Certification
-    Services Division/L=Cape Town/ST=Western Cape
-Issuer: /Thawte Personal Basic CA/C=ZA/O=Thawte Consulting/OU=Certification
-    Services Division/L=Cape Town/ST=Western Cape
-	Signature algorithm: RSA / MD5
-Details:
-	Public key: RSA-1024
-	Serial number: 0
-	Valid from: 1996-01-01T00:00:00+0000
-	     until: 2020-12-31T23:59:59+0000
-	Key usages: 
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
-Subject: /Thawte Personal Freemail CA/C=ZA/O=Thawte
-    Consulting/OU=Certification Services Division/L=Cape Town/ST=Western Cape
-Issuer: /Thawte Personal Freemail CA/C=ZA/O=Thawte Consulting/OU=Certification
-    Services Division/L=Cape Town/ST=Western Cape
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-1024
-	Serial number: 24247720180028196301062264637157722471
-	Valid from: 1996-01-01T00:00:00+0000
-	     until: 2021-01-01T23:59:59+0000
-	Key usages: 
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
-Subject: /Thawte Personal Freemail CA/C=ZA/O=Thawte
-    Consulting/OU=Certification Services Division/L=Cape Town/ST=Western Cape
-Issuer: /Thawte Personal Freemail CA/C=ZA/O=Thawte Consulting/OU=Certification
-    Services Division/L=Cape Town/ST=Western Cape
-	Signature algorithm: RSA / MD5
-Details:
-	Public key: RSA-1024
-	Serial number: 0
-	Valid from: 1996-01-01T00:00:00+0000
-	     until: 2020-12-31T23:59:59+0000
-	Key usages: 
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
-Subject: /Thawte Personal Premium CA/C=ZA/O=Thawte Consulting/OU=Certification
-    Services Division/L=Cape Town/ST=Western Cape
-Issuer: /Thawte Personal Premium CA/C=ZA/O=Thawte Consulting/OU=Certification
-    Services Division/L=Cape Town/ST=Western Cape
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-1024
-	Serial number: 85100170108923594135339915631985194732
-	Valid from: 1996-01-01T00:00:00+0000
-	     until: 2021-01-01T23:59:59+0000
-	Key usages: 
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
-Subject: /Thawte Personal Premium CA/C=ZA/O=Thawte Consulting/OU=Certification
-    Services Division/L=Cape Town/ST=Western Cape
-Issuer: /Thawte Personal Premium CA/C=ZA/O=Thawte Consulting/OU=Certification
-    Services Division/L=Cape Town/ST=Western Cape
-	Signature algorithm: RSA / MD5
-Details:
-	Public key: RSA-1024
-	Serial number: 0
-	Valid from: 1996-01-01T00:00:00+0000
-	     until: 2020-12-31T23:59:59+0000
-	Key usages: 
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
 Subject: /C=US/O=VeriSign, Inc./OU=Class 3 Public Primary Certification
     Authority
 Issuer: /C=US/O=VeriSign, Inc./OU=Class 3 Public Primary Certification
@@ -164,104 +80,6 @@ Details:
 	Serial number: 80507572722862485515306429940691309246
 	Valid from: 1996-01-29T00:00:00+0000
 	     until: 2028-08-02T23:59:59+0000
-	Key usages: 
-	Basic constraints: invalid
-	SANs (0):
-CERTIFICATE
-Subject: /Thawte Server CA/C=ZA/O=Thawte Consulting cc/OU=Certification
-    Services Division/L=Cape Town/ST=Western Cape
-Issuer: /Thawte Server CA/C=ZA/O=Thawte Consulting cc/OU=Certification
-    Services Division/L=Cape Town/ST=Western Cape
-	Signature algorithm: RSA / MD5
-Details:
-	Public key: RSA-1024
-	Serial number: 1
-	Valid from: 1996-08-01T00:00:00+0000
-	     until: 2020-12-31T23:59:59+0000
-	Key usages: 
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
-Subject: /Thawte Premium Server CA/C=ZA/O=Thawte Consulting
-    cc/OU=Certification Services Division/L=Cape Town/ST=Western Cape
-Issuer: /Thawte Premium Server CA/C=ZA/O=Thawte Consulting cc/OU=Certification
-    Services Division/L=Cape Town/ST=Western Cape
-	Signature algorithm: RSA / MD5
-Details:
-	Public key: RSA-1024
-	Serial number: 1
-	Valid from: 1996-08-01T00:00:00+0000
-	     until: 2020-12-31T23:59:59+0000
-	Key usages: 
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
-Subject: /Thawte Premium Server CA/C=ZA/O=Thawte Consulting
-    cc/OU=Certification Services Division/L=Cape Town/ST=Western Cape
-Issuer: /Thawte Premium Server CA/C=ZA/O=Thawte Consulting cc/OU=Certification
-    Services Division/L=Cape Town/ST=Western Cape
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-1024
-	Serial number: 71872474663233225925008887438065994068
-	Valid from: 1996-08-01T00:00:00+0000
-	     until: 2021-01-01T23:59:59+0000
-	Key usages: 
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
-Subject: /Thawte Server CA/C=ZA/O=Thawte Consulting cc/OU=Certification
-    Services Division/L=Cape Town/ST=Western Cape
-Issuer: /Thawte Server CA/C=ZA/O=Thawte Consulting cc/OU=Certification
-    Services Division/L=Cape Town/ST=Western Cape
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-1024
-	Serial number: 69976583985259451244822553193969116789
-	Valid from: 1996-08-01T00:00:00+0000
-	     until: 2021-01-01T23:59:59+0000
-	Key usages: 
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
-Subject: /Thawte Timestamping CA/C=ZA/O=Thawte/OU=Thawte
-    Certification/L=Durbanville/ST=Western Cape
-Issuer: /Thawte Timestamping CA/C=ZA/O=Thawte/OU=Thawte
-    Certification/L=Durbanville/ST=Western Cape
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-1024
-	Serial number: 137953524931130754236037589786385680201
-	Valid from: 1997-01-01T00:00:00+0000
-	     until: 2021-01-01T23:59:59+0000
-	Key usages: 
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
-Subject: /Thawte Timestamping CA/C=ZA/O=Thawte/OU=Thawte
-    Certification/L=Durbanville/ST=Western Cape
-Issuer: /Thawte Timestamping CA/C=ZA/O=Thawte/OU=Thawte
-    Certification/L=Durbanville/ST=Western Cape
-	Signature algorithm: RSA / MD5
-Details:
-	Public key: RSA-1024
-	Serial number: 0
-	Valid from: 1997-01-01T00:00:00+0000
-	     until: 2020-12-31T23:59:59+0000
-	Key usages: 
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
-Subject: /Microsoft Root Authority/OU=Copyright (c) 1997 Microsoft
-    Corp./OU=Microsoft Corporation
-Issuer: /Microsoft Root Authority/OU=Copyright (c) 1997 Microsoft
-    Corp./OU=Microsoft Corporation
-	Signature algorithm: RSA / MD5
-Details:
-	Public key: RSA-2048
-	Serial number: 3914548144742538765706922673626944
-	Valid from: 1997-01-10T07:00:00+0000
-	     until: 2020-12-31T07:00:00+0000
 	Key usages: 
 	Basic constraints: invalid
 	SANs (0):
@@ -450,20 +268,6 @@ Details:
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
-Subject: /Wells Fargo Root Certificate Authority/C=US/O=Wells Fargo/OU=Wells
-    Fargo Certification Authority
-Issuer: /Wells Fargo Root Certificate Authority/C=US/O=Wells Fargo/OU=Wells
-    Fargo Certification Authority
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 971282334
-	Valid from: 2000-10-11T16:41:28+0000
-	     until: 2021-01-14T16:41:28+0000
-	Key usages: 
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
 Subject: /SwissSign CA (RSA IK May 6 1999 18:00:58)/C=CH/O=SwissSign
 Issuer: /SwissSign CA (RSA IK May 6 1999 18:00:58)/C=CH/O=SwissSign
 	Signature algorithm: RSA / SHA1
@@ -473,20 +277,6 @@ Details:
 	SKI: 96:D7:71:CD:39:2A:D4:FC:88:B1:8A:AB:53:78:69:EF:8F:47:7E:16
 	Valid from: 2000-11-26T23:27:41+0000
 	     until: 2031-11-26T23:27:41+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
-Subject: /C=si/O=state-institutions/OU=sigov-ca
-Issuer: /C=si/O=state-institutions/OU=sigov-ca
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 979136538
-	AKI: 1E:F8:D4:53:6B:B3:83:06:E9:04:06:57:02:F9:A5:BF:C6:58:3C:72
-	SKI: 1E:F8:D4:53:6B:B3:83:06:E9:04:06:57:02:F9:A5:BF:C6:58:3C:72
-	Valid from: 2001-01-10T13:52:52+0000
-	     until: 2021-01-10T14:22:52+0000
 	Key usages: cert sign, crl sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
@@ -4635,6 +4425,19 @@ Details:
 	SKI: 76:B9:03:48:FB:D5:18:A1:A1:37:A0:ED:CC:68:82:4C:52:34:36:0D
 	Valid from: 2015-05-27T12:20:00+0000
 	     until: 2040-05-27T12:20:00+0000
+	Key usages: cert sign, crl sign
+	Basic constraints: valid, is a CA certificate
+	SANs (0):
+CERTIFICATE
+Subject: /ISRG Root X1/C=US/O=Internet Security Research Group
+Issuer: /ISRG Root X1/C=US/O=Internet Security Research Group
+	Signature algorithm: RSA / SHA256
+Details:
+	Public key: RSA-4096
+	Serial number: 172886928669790476064670243504169061120
+	SKI: 79:B4:59:E6:7B:B6:E5:E4:01:73:80:08:88:C8:1A:58:F6:E9:9B:6E
+	Valid from: 2015-06-04T11:04:38+0000
+	     until: 2035-06-04T11:04:38+0000
 	Key usages: cert sign, crl sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):

@@ -152,24 +152,6 @@ Details:
 	OCSP server:
 		- http://ocsp.starfieldtech.com
 CERTIFICATE
-Subject: /WISeKey CertifyID Standard G1 CA/C=CH/O=WISeKey/OU=Copyright (c)
-    2005 WISeKey SA/OU=International
-Issuer: /OISTE WISeKey Global Root GA CA/C=CH/O=WISeKey/OU=Copyright (c)
-    2005/OU=OISTE Foundation Endorsed
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 458320269859110835453955
-	AKI: B3:03:7E:AE:36:BC:B0:79:D1:DC:94:26:B6:11:BE:21:B2:69:86:94
-	SKI: FA:D8:71:32:3C:DC:EA:D2:35:7E:5F:D8:64:E2:F1:FF:1C:66:AB:6D
-	Valid from: 2005-12-23T10:45:32+0000
-	     until: 2020-12-23T10:55:32+0000
-	Key usages: cert sign, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate, max path length 1
-	SANs (0):
-	1 AIA:
-		http://public.wisekey.com/crt/owgrgaca.crt
-CERTIFICATE
 Subject: /WISeKey CertifyID Qualified G1 CA/C=CH/O=WISeKey/OU=Copyright (c)
     2006 WISeKey SA/OU=International
 Issuer: /OISTE WISeKey Global Root GA CA/C=CH/O=WISeKey/OU=Copyright (c)
@@ -314,37 +296,6 @@ Details:
 	SANs (0):
 	OCSP server:
 		- http://ocsp.godaddy.com
-CERTIFICATE
-Subject: /thawte Primary Root CA/C=US/O=thawte, Inc./OU=Certification Services
-    Division/OU=(c) 2006 thawte, Inc. - For authorized use only
-Issuer: /Thawte Premium Server CA/C=ZA/O=Thawte Consulting cc/OU=Certification
-    Services Division/L=Cape Town/ST=Western Cape
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 68316673031993696956121215362381360273
-	SKI: 7B:5B:45:CF:AF:CE:CB:7A:FD:31:92:1A:6A:B6:F3:46:EB:57:48:50
-	Valid from: 2006-11-17T00:00:00+0000
-	     until: 2020-12-30T23:59:59+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
-Subject: /thawte Primary Root CA/C=US/O=thawte, Inc./OU=Certification Services
-    Division/OU=(c) 2006 thawte, Inc. - For authorized use only
-Issuer: /Thawte Premium Server CA/C=ZA/O=Thawte Consulting cc/OU=Certification
-    Services Division/L=Cape Town/ST=Western Cape
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 127142444733602488698426018635152007429
-	SKI: 7B:5B:45:CF:AF:CE:CB:7A:FD:31:92:1A:6A:B6:F3:46:EB:57:48:50
-	Valid from: 2006-11-17T00:00:00+0000
-	     until: 2020-12-30T23:59:59+0000
-	Key usages: cert sign, crl sign
-	Extended usages: netscape sgc
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
 CERTIFICATE
 Subject: /GlobalSign/O=GlobalSign/OU=GlobalSign Root CA - R2
 Issuer: /GlobalSign Root CA/C=BE/O=GlobalSign nv-sa/OU=Root CA
