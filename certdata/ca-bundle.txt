@@ -2317,6 +2317,19 @@ Details:
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
+Subject: /C=ES/O=FNMT-RCM/OU=AC RAIZ FNMT-RCM
+Issuer: /C=ES/O=FNMT-RCM/OU=AC RAIZ FNMT-RCM
+	Signature algorithm: RSA / SHA256
+Details:
+	Public key: RSA-4096
+	Serial number: 485876308206448804701554682760554759
+	SKI: F7:7D:C5:FD:C4:E8:9A:1B:77:64:A7:F5:1D:A0:CC:BF:87:60:9A:6D
+	Valid from: 2008-10-29T15:59:56+0000
+	     until: 2030-01-01T00:00:00+0000
+	Key usages: cert sign, crl sign
+	Basic constraints: valid, is a CA certificate
+	SANs (0):
+CERTIFICATE
 Subject: /NetLock Arany (Class Gold) Főtanúsítvány/C=HU/O=NetLock
     Kft./OU=Tanúsítványkiadók (Certification Services)/L=Budapest
 Issuer: /NetLock Arany (Class Gold) Főtanúsítvány/C=HU/O=NetLock
@@ -4505,6 +4518,19 @@ Details:
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
+Subject: /SZAFIR ROOT CA2/C=PL/O=Krajowa Izba Rozliczeniowa S.A.
+Issuer: /SZAFIR ROOT CA2/C=PL/O=Krajowa Izba Rozliczeniowa S.A.
+	Signature algorithm: RSA / SHA256
+Details:
+	Public key: RSA-2048
+	Serial number: 357043034767186914217277344587386743377558296292
+	SKI: 2E:16:A9:4A:18:B5:CB:CC:F5:6F:50:F3:23:5F:F8:5D:E7:AC:F0:C8
+	Valid from: 2015-10-19T07:43:30+0000
+	     until: 2035-10-19T07:43:30+0000
+	Key usages: cert sign, crl sign
+	Basic constraints: valid, is a CA certificate
+	SANs (0):
+CERTIFICATE
 Subject: /Network Solutions ECC Certificate Authority/C=US/O=Network Solutions
     L.L.C./L=Jacksonville/ST=FL
 Issuer: /Network Solutions ECC Certificate Authority/C=US/O=Network Solutions
@@ -4568,6 +4594,22 @@ Details:
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
+Subject: /SSL.com Root Certification Authority RSA/C=US/O=SSL
+    Corporation/L=Houston/ST=Texas
+Issuer: /SSL.com Root Certification Authority RSA/C=US/O=SSL
+    Corporation/L=Houston/ST=Texas
+	Signature algorithm: RSA / SHA256
+Details:
+	Public key: RSA-4096
+	Serial number: 8875640296558310041
+	AKI: DD:04:09:07:A2:F5:7A:7D:52:53:12:92:95:EE:38:80:25:0D:A6:59
+	SKI: DD:04:09:07:A2:F5:7A:7D:52:53:12:92:95:EE:38:80:25:0D:A6:59
+	Valid from: 2016-02-12T17:39:39+0000
+	     until: 2041-02-12T17:39:39+0000
+	Key usages: cert sign, crl sign, digital signature
+	Basic constraints: valid, is a CA certificate
+	SANs (0):
+CERTIFICATE
 Subject: /SSL.com Root Certification Authority ECC/C=US/O=SSL
     Corporation/L=Houston/ST=Texas
 Issuer: /SSL.com Root Certification Authority ECC/C=US/O=SSL
@@ -4597,6 +4639,19 @@ Details:
 	Valid from: 2016-02-12T18:15:23+0000
 	     until: 2041-02-12T18:15:23+0000
 	Key usages: cert sign, crl sign, digital signature
+	Basic constraints: valid, is a CA certificate
+	SANs (0):
+CERTIFICATE
+Subject: /UCA Global G2 Root/C=CN/O=UniTrust
+Issuer: /UCA Global G2 Root/C=CN/O=UniTrust
+	Signature algorithm: RSA / SHA256
+Details:
+	Public key: RSA-4096
+	Serial number: 124779693093741543919145257850076631279
+	SKI: 81:C4:8C:CC:F5:E4:30:FF:A5:0C:08:5F:8C:15:67:21:74:01:DF:DF
+	Valid from: 2016-03-11T00:00:00+0000
+	     until: 2040-12-31T00:00:00+0000
+	Key usages: cert sign, crl sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -4682,6 +4737,19 @@ Details:
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
+Subject: /GTS Root R3/C=US/O=Google Trust Services LLC
+Issuer: /GTS Root R3/C=US/O=Google Trust Services LLC
+	Signature algorithm: ECDSA / SHA384
+Details:
+	Public key: ECDSA-secp384r1
+	Serial number: 146587176140553309517047991083707763997
+	SKI: C1:F1:26:BA:A0:2D:AE:85:81:CF:D3:F1:2A:12:BD:B8:0A:67:FD:BC
+	Valid from: 2016-06-22T00:00:00+0000
+	     until: 2036-06-22T00:00:00+0000
+	Key usages: cert sign, crl sign
+	Basic constraints: valid, is a CA certificate
+	SANs (0):
+CERTIFICATE
 Subject: /Netrust Root CA 2/C=SG/O=Netrust Pte Ltd/OU=Netrust Certificate
     Authority
 Issuer: /Netrust Root CA 2/C=SG/O=Netrust Pte Ltd/OU=Netrust Certificate
@@ -4711,6 +4779,19 @@ Details:
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
+Subject: /C=RO/O=CERTSIGN SA/OU=certSIGN ROOT CA G2
+Issuer: /C=RO/O=CERTSIGN SA/OU=certSIGN ROOT CA G2
+	Signature algorithm: RSA / SHA256
+Details:
+	Public key: RSA-4096
+	Serial number: 313609486401300475190
+	SKI: 82:21:2D:66:C6:D7:A0:E0:15:EB:CE:4C:09:77:C4:60:9E:54:6E:03
+	Valid from: 2017-02-06T09:27:35+0000
+	     until: 2042-02-06T09:27:35+0000
+	Key usages: cert sign, crl sign
+	Basic constraints: valid, is a CA certificate
+	SANs (0):
+CERTIFICATE
 Subject: /Application CA G4 Root/C=JP/O=LGPKI
 Issuer: /Application CA G4 Root/C=JP/O=LGPKI
 	Signature algorithm: RSA / SHA256
@@ -4721,6 +4802,21 @@ Details:
 	SKI: 6E:DC:0A:35:1F:20:C2:E8:A1:D3:7D:05:4E:4F:4C:60:E5:A4:C4:67
 	Valid from: 2017-02-15T15:00:00+0000
 	     until: 2037-02-15T14:59:59+0000
+	Key usages: cert sign, crl sign
+	Basic constraints: valid, is a CA certificate
+	SANs (0):
+CERTIFICATE
+Subject: /OISTE WISeKey Global Root GC CA/C=CH/O=WISeKey/OU=OISTE Foundation
+    Endorsed
+Issuer: /OISTE WISeKey Global Root GC CA/C=CH/O=WISeKey/OU=OISTE Foundation
+    Endorsed
+	Signature algorithm: ECDSA / SHA384
+Details:
+	Public key: ECDSA-secp384r1
+	Serial number: 44084345621038548146064804565436152554
+	SKI: 48:87:14:AC:E3:C3:9E:90:60:3A:D7:CA:89:EE:D3:AD:8C:B4:50:66
+	Valid from: 2017-05-09T09:48:34+0000
+	     until: 2042-05-09T09:58:33+0000
 	Key usages: cert sign, crl sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
@@ -4738,6 +4834,21 @@ Details:
 	Valid from: 2017-05-31T18:14:37+0000
 	     until: 2042-05-30T18:14:37+0000
 	Key usages: cert sign, crl sign, digital signature
+	Basic constraints: valid, is a CA certificate
+	SANs (0):
+CERTIFICATE
+Subject: /Hongkong Post Root CA 3/C=HK/O=Hongkong Post/L=Hong Kong/ST=Hong
+    Kong
+Issuer: /Hongkong Post Root CA 3/C=HK/O=Hongkong Post/L=Hong Kong/ST=Hong Kong
+	Signature algorithm: RSA / SHA256
+Details:
+	Public key: RSA-4096
+	Serial number: 46170865288971385588281144162979347873371282084
+	AKI: 17:9D:CD:1E:8B:D6:39:2B:70:D3:5C:D4:A0:B8:1F:B0:00:FC:C5:61
+	SKI: 17:9D:CD:1E:8B:D6:39:2B:70:D3:5C:D4:A0:B8:1F:B0:00:FC:C5:61
+	Valid from: 2017-06-03T02:29:46+0000
+	     until: 2042-06-03T02:29:46+0000
+	Key usages: cert sign, crl sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -4770,6 +4881,21 @@ Details:
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
+Subject: /Trustwave Global Certification Authority/C=US/O=Trustwave Holdings,
+    Inc./L=Chicago/ST=Illinois
+Issuer: /Trustwave Global Certification Authority/C=US/O=Trustwave Holdings,
+    Inc./L=Chicago/ST=Illinois
+	Signature algorithm: RSA / SHA256
+Details:
+	Public key: RSA-4096
+	Serial number: 1846098327275375458322922162
+	SKI: 99:E0:19:67:0D:62:DB:76:B3:DA:3D:B8:5B:E8:FD:42:D2:31:0E:87
+	Valid from: 2017-08-23T19:34:12+0000
+	     until: 2042-08-23T19:34:12+0000
+	Key usages: cert sign, crl sign
+	Basic constraints: valid, is a CA certificate
+	SANs (0):
+CERTIFICATE
 Subject: /Trustwave Global ECC P256 Certification Authority/C=US/O=Trustwave
     Holdings, Inc./L=Chicago/ST=Illinois
 Issuer: /Trustwave Global ECC P256 Certification Authority/C=US/O=Trustwave
@@ -4781,6 +4907,21 @@ Details:
 	SKI: A3:41:06:AC:90:6D:D1:4A:EB:75:A5:4A:10:99:B3:B1:A1:8B:4A:F7
 	Valid from: 2017-08-23T19:35:10+0000
 	     until: 2042-08-23T19:35:10+0000
+	Key usages: cert sign, crl sign
+	Basic constraints: valid, is a CA certificate
+	SANs (0):
+CERTIFICATE
+Subject: /Trustwave Global ECC P384 Certification Authority/C=US/O=Trustwave
+    Holdings, Inc./L=Chicago/ST=Illinois
+Issuer: /Trustwave Global ECC P384 Certification Authority/C=US/O=Trustwave
+    Holdings, Inc./L=Chicago/ST=Illinois
+	Signature algorithm: ECDSA / SHA384
+Details:
+	Public key: ECDSA-secp384r1
+	Serial number: 2704997926503831671788816187
+	SKI: 55:A9:84:89:D2:C1:32:BD:18:CB:6C:A6:07:4E:C8:E7:9D:BE:82:90
+	Valid from: 2017-08-23T19:36:43+0000
+	     until: 2042-08-23T19:36:43+0000
 	Key usages: cert sign, crl sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
@@ -4871,6 +5012,35 @@ Details:
 	Public key: ECDSA-secp384r1
 	Serial number: 582948710642506000014504
 	SKI: FB:5A:48:D0:80:20:40:F2:A8:E9:00:07:69:19:77:A7:E6:C3:F4:CF
+	Valid from: 2018-02-18T18:30:00+0000
+	     until: 2043-02-18T18:30:00+0000
+	Key usages: cert sign, crl sign
+	Basic constraints: valid, is a CA certificate
+	SANs (0):
+CERTIFICATE
+Subject: /emSign Root CA - G1/C=IN/O=eMudhra Technologies Limited/OU=emSign
+    PKI
+Issuer: /emSign Root CA - G1/C=IN/O=eMudhra Technologies Limited/OU=emSign PKI
+	Signature algorithm: RSA / SHA256
+Details:
+	Public key: RSA-2048
+	Serial number: 235931866688319308814040
+	SKI: FB:EF:0D:86:9E:B0:E3:DD:A9:B9:F1:21:17:7F:3E:FC:F0:77:2B:1A
+	Valid from: 2018-02-18T18:30:00+0000
+	     until: 2043-02-18T18:30:00+0000
+	Key usages: cert sign, crl sign
+	Basic constraints: valid, is a CA certificate
+	SANs (0):
+CERTIFICATE
+Subject: /emSign ECC Root CA - G3/C=IN/O=eMudhra Technologies
+    Limited/OU=emSign PKI
+Issuer: /emSign ECC Root CA - G3/C=IN/O=eMudhra Technologies Limited/OU=emSign
+    PKI
+	Signature algorithm: ECDSA / SHA384
+Details:
+	Public key: ECDSA-secp384r1
+	Serial number: 287880440101571086945156
+	SKI: 7C:5D:02:84:13:D4:CC:8A:9B:81:CE:17:1C:2E:29:1E:9C:48:63:42
 	Valid from: 2018-02-18T18:30:00+0000
 	     until: 2043-02-18T18:30:00+0000
 	Key usages: cert sign, crl sign
