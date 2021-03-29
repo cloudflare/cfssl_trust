@@ -1,23 +1,5 @@
 --int-bundle.crt ---
 CERTIFICATE
-Subject: /QuoVadis Root Certification Authority/C=BM/O=QuoVadis
-    Limited/OU=Root Certification Authority
-Issuer: /QuoVadis Root Certification Authority/C=BM/O=QuoVadis Limited/OU=Root
-    Certification Authority
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 985026699
-	AKI: 8B:4B:6D:ED:D3:29:B9:06:19:EC:39:39:A9:F0:97:84:6A:CB:EF:DF
-	SKI: 8B:4B:6D:ED:D3:29:B9:06:19:EC:39:39:A9:F0:97:84:6A:CB:EF:DF
-	Valid from: 2001-03-19T18:33:33+0000
-	     until: 2021-03-17T18:33:33+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-	OCSP server:
-		- https://ocsp.quovadisoffshore.com
-CERTIFICATE
 Subject: /EC-GENCAT/C=ES/O=Agencia Catalana de Certificacio (NIF
     Q-0801176-I)/OU=Serveis Publics de Certificacio ECV-1/OU=Vegeu
     https://www.catcert.net/verCIC-1  (c)03/OU=Generalitat de Catalunya
@@ -1837,20 +1819,6 @@ Details:
 		http://cacerts.digicert.com/DigiCertHighAssuranceEVRootCA.crt
 	OCSP server:
 		- http://ocsp.digicert.com
-CERTIFICATE
-Subject: /CrossTrust DV CA1/C=JP/O=CrossTrust
-Issuer: /C=JP/O=SECOM Trust.net/OU=Security Communication RootCA1
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 314159317
-	AKI: A0:73:49:99:68:DC:85:5B:65:E3:9B:28:2F:57:9F:BD:33:BC:07:48
-	SKI: A6:F4:30:94:2F:42:CD:D9:C3:29:87:A2:AB:3F:67:B7:B9:9F:1D:1A
-	Valid from: 2011-02-24T07:11:37+0000
-	     until: 2021-02-24T07:11:37+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
 CERTIFICATE
 Subject: /Fuji Xerox Certification Authority 2/C=JP/O=Fuji Xerox
 Issuer: /C=JP/O=SECOM Trust.net/OU=Security Communication RootCA1
@@ -5053,25 +5021,6 @@ Details:
 	OCSP server:
 		- http://ocsp.affirmtrust.com/comm
 CERTIFICATE
-Subject: /ICPEdu/C=BR/O=Rede Nacional de Ensino e Pesquisa - RNP/OU=Gerencia
-    de Servicos (GSer)/L=Rio de Janeiro/ST=Rio de Janeiro
-Issuer: /Trusted Root CA SHA256 G2/C=BE/O=GlobalSign nv-sa/OU=Trusted Root
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 29839335287491102746784958055497514377622
-	AKI: C8:63:9B:08:69:54:C2:98:C8:D9:CD:E3:33:B7:50:5E:F8:C9:01:9B
-	SKI: 95:F0:A4:84:1A:A7:5C:20:36:A6:C5:08:D7:65:42:02:E5:77:68:E3
-	Valid from: 2014-03-04T00:00:00+0000
-	     until: 2021-03-04T00:00:00+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://secure.globalsign.com/cacert/trustrootsha2g2.crt
-	OCSP server:
-		- http://ocsp2.globalsign.com/trustrootsha2g2
-CERTIFICATE
 Subject: /Greenville Health System CA/C=US/O=Greenville Health System/OU=Orion
     Health Direct Secure Messaging
 Issuer: /Orion Health Direct Secure Messaging CA/C=US/O=Orion Health
@@ -5497,25 +5446,6 @@ Details:
 		https://cacert.omniroot.com/baltimoreroot.der
 	OCSP server:
 		- http://ocsp.omniroot.com/baltimoreroot
-CERTIFICATE
-Subject: /QuoVadis Issuing CA G4/C=BM/O=QuoVadis Limited
-Issuer: /QuoVadis Root Certification Authority/C=BM/O=QuoVadis Limited/OU=Root
-    Certification Authority
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-4096
-	Serial number: 603431839786458421900162810978511880630753580991
-	AKI: 8B:4B:6D:ED:D3:29:B9:06:19:EC:39:39:A9:F0:97:84:6A:CB:EF:DF
-	SKI: F3:34:12:11:F1:8C:C6:F6:B2:A7:B4:99:4B:70:8A:CA:60:A1:CB:45
-	Valid from: 2014-05-30T16:35:55+0000
-	     until: 2021-03-17T18:33:33+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://trust.quovadisglobal.com/qvrca.crt
-	OCSP server:
-		- http://ocsp.quovadisglobal.com
 CERTIFICATE
 Subject: /DigiCert Provisional Direct Med CA/C=US/O=DigiCert
     Inc/OU=www.digicert.com
@@ -11919,23 +11849,6 @@ Details:
 	OCSP server:
 		- http://ocsp.digicert.com
 CERTIFICATE
-Subject: /Siemens Internet CA V1.0/C=DE/O=Siemens/OU=Copyright (C) Siemens AG
-    2011 All Rights Reserved
-Issuer: /Baltimore CyberTrust Root/C=IE/O=Baltimore/OU=CyberTrust
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 16932181471727374406612011277107354248
-	AKI: E5:9D:59:30:82:47:58:CC:AC:FA:08:54:36:86:7B:3A:B5:04:4D:F0
-	SKI: 11:AA:4E:9C:0A:4D:4E:17:56:1B:94:57:38:01:F2:B7:35:A4:49:65
-	Valid from: 2016-03-01T12:43:38+0000
-	     until: 2021-03-01T12:43:38+0000
-	Key usages: cert sign, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate, max path length 1
-	SANs (0):
-	OCSP server:
-		- http://ocsp.digicert.com
-CERTIFICATE
 Subject: /SHECA Global G3 SSL/C=CN/O=UniTrust/ST=Shanghai
 Issuer: /UCA Global G2 Root/C=CN/O=UniTrust
 	Signature algorithm: RSA / SHA256
@@ -11953,42 +11866,6 @@ Details:
 		http://ldap2.sheca.com/root/ucaglobalg2root.der
 	OCSP server:
 		- http://ocsp3.sheca.com/ucaglobalg2root/ucaglobalg2root.ocsp
-CERTIFICATE
-Subject: /Let's Encrypt Authority X3/C=US/O=Let's Encrypt
-Issuer: /DST Root CA X3/O=Digital Signature Trust Co.
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 13298795840390663119752826058995181320
-	AKI: C4:A7:B1:A4:7B:2C:71:FA:DB:E1:4B:90:75:FF:C4:15:60:85:89:10
-	SKI: A8:4A:6A:63:04:7D:DD:BA:E6:D1:39:B7:A6:45:65:EF:F3:A8:EC:A1
-	Valid from: 2016-03-17T16:40:46+0000
-	     until: 2021-03-17T16:40:46+0000
-	Key usages: cert sign, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://apps.identrust.com/roots/dstrootcax3.p7c
-	OCSP server:
-		- http://isrg.trustid.ocsp.identrust.com
-CERTIFICATE
-Subject: /Let's Encrypt Authority X4/C=US/O=Let's Encrypt
-Issuer: /DST Root CA X3/O=Digital Signature Trust Co.
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 13298795840390663119752892852379787147
-	AKI: C4:A7:B1:A4:7B:2C:71:FA:DB:E1:4B:90:75:FF:C4:15:60:85:89:10
-	SKI: C5:B1:AB:4E:4C:B1:CD:64:30:93:7E:C1:84:99:05:AB:E6:03:E2:25
-	Valid from: 2016-03-17T16:41:02+0000
-	     until: 2021-03-17T16:41:02+0000
-	Key usages: cert sign, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://apps.identrust.com/roots/dstrootcax3.p7c
-	OCSP server:
-		- http://isrg.trustid.ocsp.identrust.com
 CERTIFICATE
 Subject: /International Hellenic University CA R1/C=GR/O=Hellenic Academic and
     Research Institutions Cert. Authority
@@ -29998,25 +29875,6 @@ Details:
 	OCSP server:
 		- http://ocsp.globalsign.com/trustroottlssha2g3
 CERTIFICATE
-Subject: /ICPEdu/C=BR/O=Rede Nacional de Ensino e Pesquisa - RNP
-Issuer: /Trusted Root TLS CA SHA256 G3/C=BE/O=GlobalSign nv-sa
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 159159752674960580492255562693983031869
-	AKI: DE:4F:D7:DD:27:AE:D5:7F:58:81:E1:2C:47:AC:23:B7:C6:7B:57:EF
-	SKI: 95:F0:A4:84:1A:A7:5C:20:36:A6:C5:08:D7:65:42:02:E5:77:68:E3
-	Valid from: 2020-07-05T00:00:00+0000
-	     until: 2021-03-04T00:00:00+0000
-	Key usages: cert sign, crl sign
-	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://secure.globalsign.com/cacert/trustroottlssha2g3.crt
-	OCSP server:
-		- http://ocsp.globalsign.com/trustroottlssha2g3
-CERTIFICATE
 Subject: /Valid Certificadora Digital SSL DV CA 2018/C=BR/O=VALID
     CERTIFICADORA DIGITAL
 Issuer: /Trusted Root TLS CA SHA256 G3/C=BE/O=GlobalSign nv-sa
@@ -32137,25 +31995,6 @@ Details:
 	OCSP server:
 		- http://ocsp.globalsign.com/rootr3
 CERTIFICATE
-Subject: /QuoVadis Global SSL ICA G3/C=BM/O=QuoVadis Limited
-Issuer: /QuoVadis Root CA 2 G3/C=BM/O=QuoVadis Limited
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-4096
-	Serial number: 257896978770297725529430899754356702901944437907
-	AKI: ED:E7:6F:76:5A:BF:60:EC:49:5B:C6:A5:77:BB:72:16:71:9B:C4:3D
-	SKI: B3:12:89:B5:A9:4B:35:BC:15:00:F0:80:E9:D8:78:87:F1:13:7C:76
-	Valid from: 2020-09-22T19:09:23+0000
-	     until: 2022-11-06T14:50:18+0000
-	Key usages: cert sign, crl sign
-	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate, max path length 1
-	SANs (0):
-	1 AIA:
-		http://trust.quovadisglobal.com/qvrca2g3.crt
-	OCSP server:
-		- http://ocsp.quovadisglobal.com
-CERTIFICATE
 Subject: /QuoVadis Global SSL ICA G2/C=BM/O=QuoVadis Limited
 Issuer: /QuoVadis Root CA 2/C=BM/O=QuoVadis Limited
 	Signature algorithm: RSA / SHA256
@@ -33231,26 +33070,6 @@ Details:
 	OCSP server:
 		- http://ocsp.digicert.com
 CERTIFICATE
-Subject: /QuoVadis RCA1G1 TLS CA/C=BM/O=QuoVadis Limited
-Issuer: /QuoVadis Root Certification Authority/C=BM/O=QuoVadis Limited/OU=Root
-    Certification Authority
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-4096
-	Serial number: 291824290291320939865824953939375496060014456452
-	AKI: 8B:4B:6D:ED:D3:29:B9:06:19:EC:39:39:A9:F0:97:84:6A:CB:EF:DF
-	SKI: 71:A0:E2:D6:7F:D0:14:23:24:81:93:1F:12:87:44:70:A1:1F:7B:50
-	Valid from: 2020-10-21T18:44:03+0000
-	     until: 2021-03-17T18:33:33+0000
-	Key usages: cert sign, crl sign
-	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://trust.quovadisglobal.com/qvrca.crt
-	OCSP server:
-		- http://ocsp.quovadisglobal.com
-CERTIFICATE
 Subject: /QuoVadis RCA1G3 TLS CA/C=BM/O=QuoVadis Limited
 Issuer: /QuoVadis Root CA 1 G3/C=BM/O=QuoVadis Limited
 	Signature algorithm: RSA / SHA256
@@ -33779,26 +33598,6 @@ Details:
 	SANs (0):
 	OCSP server:
 		- http://ocsp.digicert.com
-CERTIFICATE
-Subject: /DigiCert QuoVadis TLS ICA QuoVadis RCA/C=US/O=DigiCert, Inc
-Issuer: /QuoVadis Root Certification Authority/C=BM/O=QuoVadis Limited/OU=Root
-    Certification Authority
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 486433288194289671275524717241902919232869701206
-	AKI: 8B:4B:6D:ED:D3:29:B9:06:19:EC:39:39:A9:F0:97:84:6A:CB:EF:DF
-	SKI: 9C:95:21:DD:61:36:E0:EE:F2:1B:F6:F5:BB:7F:D7:CC:BB:B5:7C:EC
-	Valid from: 2021-01-06T20:48:28+0000
-	     until: 2021-03-17T18:33:33+0000
-	Key usages: cert sign, crl sign, digital signature
-	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://trust.quovadisglobal.com/qvrca.crt
-	OCSP server:
-		- http://ocsp.quovadisglobal.com
 CERTIFICATE
 Subject: /DigiCert QuoVadis TLS ICA QV Root CA 1 G3/C=US/O=DigiCert, Inc
 Issuer: /QuoVadis Root CA 1 G3/C=BM/O=QuoVadis Limited
