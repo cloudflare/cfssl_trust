@@ -161,53 +161,6 @@ Details:
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
-Subject: /Deutsche Telekom Root CA 2/C=DE/O=Deutsche Telekom AG/OU=T-TeleSec
-    Trust Center
-Issuer: /Deutsche Telekom Root CA 2/C=DE/O=Deutsche Telekom AG/OU=T-TeleSec
-    Trust Center
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 38
-	SKI: 31:C3:79:1B:BA:F5:53:D7:17:E0:89:7A:2D:17:6C:0A:B3:2B:9D:33
-	Valid from: 1999-07-09T12:11:00+0000
-	     until: 2019-07-09T23:59:00+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 5
-	SANs (0):
-CERTIFICATE
-Subject: /UTN-USERFirst-Client Authentication and Email/C=US/O=The USERTRUST
-    Network/OU=http://www.usertrust.com/L=Salt Lake City/ST=UT
-Issuer: /UTN-USERFirst-Client Authentication and Email/C=US/O=The USERTRUST
-    Network/OU=http://www.usertrust.com/L=Salt Lake City/ST=UT
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 91374294542884704022267039196069218697
-	SKI: 89:82:67:7D:C4:9D:26:70:00:4B:B4:50:48:7C:DE:3D:AE:04:6E:7D
-	Valid from: 1999-07-09T17:28:50+0000
-	     until: 2019-07-09T17:36:58+0000
-	Key usages: cert sign, content committment, crl sign, digital signature
-	Extended usages: client auth, s/mime
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
-Subject: /UTN-USERFirst-Object/C=US/O=The USERTRUST
-    Network/OU=http://www.usertrust.com/L=Salt Lake City/ST=UT
-Issuer: /UTN-USERFirst-Object/C=US/O=The USERTRUST
-    Network/OU=http://www.usertrust.com/L=Salt Lake City/ST=UT
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 91374294542884704022267039233571249947
-	SKI: DA:ED:64:74:14:9C:14:3C:AB:DD:99:A9:BD:5B:28:4D:8B:3C:C9:D8
-	Valid from: 1999-07-09T18:31:20+0000
-	     until: 2019-07-09T18:40:36+0000
-	Key usages: cert sign, content committment, crl sign, digital signature
-	Extended usages: code signing, timestamping
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
 Subject: /VeriSign Class 4 Public Primary Certification Authority -
     G3/C=US/O=VeriSign, Inc./OU=VeriSign Trust Network/OU=(c) 1999 VeriSign,
     Inc. - For authorized use only
@@ -300,22 +253,6 @@ Details:
 	     until: 2025-05-12T23:59:00+0000
 	Key usages: cert sign, crl sign
 	Basic constraints: valid, is a CA certificate, max path length 3
-	SANs (0):
-CERTIFICATE
-Subject: /AddTrust External CA Root/C=SE/O=AddTrust AB/OU=AddTrust External
-    TTP Network
-Issuer: /AddTrust External CA Root/C=SE/O=AddTrust AB/OU=AddTrust External TTP
-    Network
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 1
-	AKI: AD:BD:98:7A:34:B4:26:F7:FA:C4:26:54:EF:03:BD:E0:24:CB:54:1A
-	SKI: AD:BD:98:7A:34:B4:26:F7:FA:C4:26:54:EF:03:BD:E0:24:CB:54:1A
-	Valid from: 2000-05-30T10:48:38+0000
-	     until: 2020-05-30T10:48:38+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
 Subject: /DST Root CA X3/O=Digital Signature Trust Co.
@@ -2059,19 +1996,6 @@ Details:
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
-Subject: /Staat der Nederlanden Root CA - G2/C=NL/O=Staat der Nederlanden
-Issuer: /Staat der Nederlanden Root CA - G2/C=NL/O=Staat der Nederlanden
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-4096
-	Serial number: 10000012
-	SKI: 91:68:32:87:15:1D:89:E2:B5:F1:AC:36:28:34:8D:0B:7C:62:88:EB
-	Valid from: 2008-03-26T11:18:17+0000
-	     until: 2020-03-25T11:03:10+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
 Subject: /thawte Primary Root CA - G3/C=US/O=thawte, Inc./OU=Certification
     Services Division/OU=(c) 2008 thawte, Inc. - For authorized use only
 Issuer: /thawte Primary Root CA - G3/C=US/O=thawte, Inc./OU=Certification
@@ -2698,26 +2622,6 @@ Details:
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
-Subject: /AC1 RAIZ MTIN/C=ES/O=MINISTERIO DE TRABAJO E
-    INMIGRACION/OU=PRESTADOR DE SERVICIOS DE CERTIFICACION
-    MTIN/OU=SUBDIRECCION GENERAL DE PROCESO DE DATOS/L=MADRID
-Issuer: /AC1 RAIZ MTIN/C=ES/O=MINISTERIO DE TRABAJO E INMIGRACION/OU=PRESTADOR
-    DE SERVICIOS DE CERTIFICACION MTIN/OU=SUBDIRECCION GENERAL DE PROCESO DE
-    DATOS/L=MADRID
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-4096
-	Serial number: 5545899491963
-	AKI: 33:43:18:B3:C4:4B:1D:CB:1F:F9:F0:4E:FC:DF:4A:E4:15:60:C8:83
-	SKI: 33:43:18:B3:C4:4B:1D:CB:1F:F9:F0:4E:FC:DF:4A:E4:15:60:C8:83
-	Valid from: 2009-11-05T16:17:45+0000
-	     until: 2019-11-03T16:17:45+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (1): email:admin_ca@mtin.es
-	OCSP server:
-		- http://ca.mtin.es/mtin/ocsp
-CERTIFICATE
 Subject: /StartCom Certification Authority G2/C=IL/O=StartCom Ltd.
 Issuer: /StartCom Certification Authority G2/C=IL/O=StartCom Ltd.
 	Signature algorithm: RSA / SHA256
@@ -2727,21 +2631,6 @@ Details:
 	SKI: 4B:C5:B4:40:6B:AD:1C:B3:A5:1C:65:6E:46:36:89:87:05:0C:0E:B6
 	Valid from: 2010-01-01T01:00:01+0000
 	     until: 2039-12-31T23:59:01+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
-Subject: /Macao Post eSignTrust Root Certification Authority
-    (G02)/C=MO/O=Macao Post
-Issuer: /Macao Post eSignTrust Root Certification Authority (G02)/C=MO/O=Macao
-    Post
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-4096
-	Serial number: 109893624931803136628412822328738037668
-	SKI: 02:81:B7:B6:66:F8:92:45:6D:C2:71:D2:9F:EC:2F:D3:BA:1F:B9:FF
-	Valid from: 2010-01-06T00:00:00+0000
-	     until: 2020-01-05T23:59:59+0000
 	Key usages: cert sign, crl sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
@@ -3360,48 +3249,6 @@ Details:
 	     until: 2036-07-16T10:24:55+0000
 	Key usages: cert sign, crl sign, digital signature
 	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
-Subject: /CA DATEV STD 02/C=DE/O=DATEV eG
-Issuer: /CA DATEV STD 02/C=DE/O=DATEV eG
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 112500939987788825872391527463173070757
-	AKI: 57:95:23:B3:86:4B:FA:69:77:41:06:79:EC:10:7C:2C:02:E8:08:D4
-	SKI: 57:95:23:B3:86:4B:FA:69:77:41:06:79:EC:10:7C:2C:02:E8:08:D4
-	Valid from: 2011-08-02T06:59:44+0000
-	     until: 2019-08-02T08:59:44+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-CERTIFICATE
-Subject: /CA DATEV BT 02/C=DE/O=DATEV eG
-Issuer: /CA DATEV BT 02/C=DE/O=DATEV eG
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 105514854973912580309111981924202850293
-	AKI: A8:1B:83:46:D7:F8:4B:7B:AF:CE:B9:B7:2A:A6:05:9E:0E:FE:0D:96
-	SKI: A8:1B:83:46:D7:F8:4B:7B:AF:CE:B9:B7:2A:A6:05:9E:0E:FE:0D:96
-	Valid from: 2011-08-02T06:59:44+0000
-	     until: 2019-08-02T08:59:44+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-CERTIFICATE
-Subject: /CA DATEV INT 02/C=DE/O=DATEV eG
-Issuer: /CA DATEV INT 02/C=DE/O=DATEV eG
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 141261841610785919334202133373192713049
-	AKI: 29:75:91:76:52:09:C4:D6:08:EC:C5:25:73:E9:32:DB:02:53:C3:5B
-	SKI: 29:75:91:76:52:09:C4:D6:08:EC:C5:25:73:E9:32:DB:02:53:C3:5B
-	Valid from: 2011-08-02T06:59:44+0000
-	     until: 2019-08-02T08:59:44+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
 CERTIFICATE
 Subject: /GPKIRootCA1/C=KR/O=Government of Korea/OU=GPKI
