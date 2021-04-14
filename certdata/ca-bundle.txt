@@ -295,60 +295,6 @@ Details:
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
-Subject: /C=SG/O=Netrust Certificate Authority 1/OU=Netrust CA1
-Issuer: /C=SG/O=Netrust Certificate Authority 1/OU=Netrust CA1
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 985921055
-	AKI: 1D:44:89:B2:45:26:7F:6F:6B:92:C5:3A:7B:72:63:CA:D2:70:2A:DD
-	SKI: 1D:44:89:B2:45:26:7F:6F:6B:92:C5:3A:7B:72:63:CA:D2:70:2A:DD
-	Valid from: 2001-03-30T02:27:45+0000
-	     until: 2021-03-30T02:57:45+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
-Subject: /C=DK/O=TDC Internet/OU=TDC Internet Root CA
-Issuer: /C=DK/O=TDC Internet/OU=TDC Internet Root CA
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 986490188
-	AKI: 6C:64:01:C7:FD:85:6D:AC:C8:DA:9E:50:08:85:08:B5:3C:56:A8:50
-	SKI: 6C:64:01:C7:FD:85:6D:AC:C8:DA:9E:50:08:85:08:B5:3C:56:A8:50
-	Valid from: 2001-04-05T16:33:17+0000
-	     until: 2021-04-05T17:03:17+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
-Subject: /Sonera Class2 CA/C=FI/O=Sonera
-Issuer: /Sonera Class2 CA/C=FI/O=Sonera
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 29
-	SKI: 4A:A0:AA:58:84:D3:5E:3C
-	Valid from: 2001-04-06T07:29:40+0000
-	     until: 2021-04-06T07:29:40+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
-Subject: /Sonera Class1 CA/C=FI/O=Sonera
-Issuer: /Sonera Class1 CA/C=FI/O=Sonera
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 36
-	SKI: 47:E2:0C:8B:F6:53:88:52
-	Valid from: 2001-04-06T10:49:13+0000
-	     until: 2021-04-06T10:49:13+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
 Subject: /Microsoft Root Certificate Authority
 Issuer: /Microsoft Root Certificate Authority
 	Signature algorithm: RSA / SHA1
