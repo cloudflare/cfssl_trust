@@ -295,19 +295,6 @@ Details:
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
-Subject: /Microsoft Root Certificate Authority
-Issuer: /Microsoft Root Certificate Authority
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-4096
-	Serial number: 161735313838342892179587228130098753125
-	SKI: 0E:AC:82:60:40:56:27:97:E5:25:13:FC:2A:E1:0A:53:95:59:E4:A4
-	Valid from: 2001-05-09T23:19:22+0000
-	     until: 2021-05-09T23:28:13+0000
-	Key usages: cert sign, content committment, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
 Subject: /C=si/O=state-institutions/OU=sigen-ca
 Issuer: /C=si/O=state-institutions/OU=sigen-ca
 	Signature algorithm: RSA / SHA1
