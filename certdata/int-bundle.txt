@@ -5406,24 +5406,6 @@ Details:
 	OCSP server:
 		- http://g.symcd.com
 CERTIFICATE
-Subject: /DigiCert High Assurance EV Root CA/C=US/O=DigiCert
-    Inc/OU=www.digicert.com
-Issuer: /Baltimore CyberTrust Root/C=IE/O=Baltimore/OU=CyberTrust
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 120041506
-	AKI: E5:9D:59:30:82:47:58:CC:AC:FA:08:54:36:86:7B:3A:B5:04:4D:F0
-	SKI: B1:3E:C3:69:03:F8:BF:47:01:D4:98:26:1A:08:02:EF:63:64:2B:C3
-	Valid from: 2014-06-18T18:20:56+0000
-	     until: 2021-06-18T18:19:57+0000
-	Key usages: cert sign, crl sign
-	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate, max path length 1
-	SANs (0):
-	OCSP server:
-		- http://ocsp.omniroot.com/baltimoreroot
-CERTIFICATE
 Subject: /SSL.com DV CA/C=US/O=SSL.com/OU=www.ssl.com
 Issuer: /USERTrust RSA Certification Authority/C=US/O=The USERTRUST
     Network/L=Jersey City/ST=New Jersey
