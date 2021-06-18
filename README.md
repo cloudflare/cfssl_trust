@@ -1,6 +1,6 @@
 ## CFSSL TRUST
 
-This is the trust stores CloudFlare uses for
+This is the trust stores Cloudflare uses for
 [CFSSL](https://github.com/cloudflare/cfssl). It also includes the
 sources of the trust chain that can be built using the `mkbundle`
 utility from CFSSL.
