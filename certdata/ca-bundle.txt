@@ -295,38 +295,6 @@ Details:
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
-Subject: /C=si/O=state-institutions/OU=sigen-ca
-Issuer: /C=si/O=state-institutions/OU=sigen-ca
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 993851849
-	AKI: 71:7B:8A:06:1F:31:05:55:AB:60:12:77:47:20:1E:03:88:18:EC:89
-	SKI: 71:7B:8A:06:1F:31:05:55:AB:60:12:77:47:20:1E:03:88:18:EC:89
-	Valid from: 2001-06-29T21:27:46+0000
-	     until: 2021-06-29T21:57:46+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
-Subject: /Root CA Generalitat Valenciana/C=ES/O=Generalitat
-    Valenciana/OU=PKIGVA
-Issuer: /Root CA Generalitat Valenciana/C=ES/O=Generalitat
-    Valenciana/OU=PKIGVA
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 994436456
-	AKI: 7B:35:D3:40:D2:1C:78:19:66:EF:74:10:28:DC:3E:4F:B2:78:04:FC
-	SKI: 7B:35:D3:40:D2:1C:78:19:66:EF:74:10:28:DC:3E:4F:B2:78:04:FC
-	Valid from: 2001-07-06T16:22:47+0000
-	     until: 2021-07-01T15:22:47+0000
-	Key usages: 
-	Basic constraints: valid, is a CA certificate, max path length 2
-	SANs (0):
-	OCSP server:
-		- http://ocsp.pki.gva.es
-CERTIFICATE
 Subject: /Admin-Root-CA/C=ch/O=admin/OU=Services/OU=Certification Authorities
 Issuer: /Admin-Root-CA/C=ch/O=admin/OU=Services/OU=Certification Authorities
 	Signature algorithm: RSA / SHA1
@@ -2052,23 +2020,6 @@ Details:
 	SKI: BC:73:3E:2F:9C:91:0C:BB:8F:CD:77:99:3E:CC:85:E4:CC:58:68:11
 	Valid from: 2008-07-21T11:47:46+0000
 	     until: 2024-07-21T11:47:46+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
-Subject: /Autoridade Certificadora Raiz Brasileira
-    v1/C=BR/O=ICP-Brasil/OU=Instituto Nacional de Tecnologia da Informacao -
-    ITI
-Issuer: /Autoridade Certificadora Raiz Brasileira
-    v1/C=BR/O=ICP-Brasil/OU=Instituto Nacional de Tecnologia da Informacao -
-    ITI
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 1
-	SKI: 42:B2:2C:5C:74:01:07:BE:9B:FF:55:33:3B:EE:29:BB:5D:91:BF:06
-	Valid from: 2008-07-29T19:17:10+0000
-	     until: 2021-07-29T19:17:10+0000
 	Key usages: cert sign, crl sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
@@ -5667,5 +5618,18 @@ Details:
 	Valid from: 2020-03-18T00:00:00+0000
 	     until: 2045-03-18T00:00:00+0000
 	Key usages: cert sign, crl sign, digital signature
+	Basic constraints: valid, is a CA certificate
+	SANs (0):
+CERTIFICATE
+Subject: /ISRG Root X2/C=US/O=Internet Security Research Group
+Issuer: /ISRG Root X2/C=US/O=Internet Security Research Group
+	Signature algorithm: ECDSA / SHA384
+Details:
+	Public key: ECDSA-secp384r1
+	Serial number: 87493402998870891108772069816698636114
+	SKI: 7C:42:96:AE:DE:4B:48:3B:FA:92:F8:9E:8C:CF:6D:8B:A9:72:37:95
+	Valid from: 2020-09-04T00:00:00+0000
+	     until: 2040-09-17T16:00:00+0000
+	Key usages: cert sign, crl sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
