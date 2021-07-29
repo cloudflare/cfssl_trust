@@ -12717,25 +12717,6 @@ Details:
 	OCSP server:
 		- http://ocsp.harica.gr
 CERTIFICATE
-Subject: /Beame.io CA 1/C=IL/O=Beame.io Ltd/L=Tel Aviv-Jaffa/ST=Tel Aviv
-Issuer: /Trusted Root CA SHA256 G2/C=BE/O=GlobalSign nv-sa/OU=Trusted Root
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 1465789327579389433252406923817571
-	AKI: C8:63:9B:08:69:54:C2:98:C8:D9:CD:E3:33:B7:50:5E:F8:C9:01:9B
-	SKI: E6:1F:AD:7D:15:31:0E:D4:96:5A:11:54:27:1E:16:10:E8:B5:39:37
-	Valid from: 2016-07-20T00:00:00+0000
-	     until: 2021-07-20T00:00:00+0000
-	Key usages: cert sign, crl sign
-	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://secure.globalsign.com/cacert/trustrootsha2g2.crt
-	OCSP server:
-		- http://ocsp2.globalsign.com/trustrootsha2g2
-CERTIFICATE
 Subject: /Siemens Issuing CA Internet Server 2016/C=DE/O=Siemens/OU=Siemens
     Trust Center/L=Muenchen/ST=Bayern
 Issuer: /QuoVadis Enterprise Trust CA 2 G3/C=BM/O=QuoVadis Limited
@@ -18446,25 +18427,6 @@ Details:
 	SANs (0):
 	OCSP server:
 		- http://ocsp.digicert.com
-CERTIFICATE
-Subject: /UIS-IntB-CA
-Issuer: /Entrust Root Certification Authority/C=US/O=Entrust,
-    Inc./OU=www.entrust.net/CPS is incorporated by reference/OU=(c) 2006
-    Entrust, Inc.
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 280941211448105126842080889242530306108
-	AKI: 68:90:E4:67:A4:A6:53:80:C7:86:66:A4:F1:F7:4B:43:FB:84:BD:6D
-	SKI: 72:37:01:36:3D:F8:66:D6:03:98:4E:F5:F8:00:2E:A4:24:AA:76:20
-	Valid from: 2018-07-19T19:12:42+0000
-	     until: 2021-07-19T19:42:42+0000
-	Key usages: cert sign, crl sign
-	Extended usages: client auth, s/mime
-	Basic constraints: valid, is a CA certificate, max path length 1
-	SANs (0):
-	OCSP server:
-		- http://ocsp.entrust.net
 CERTIFICATE
 Subject: /SECOM Passport for Web MH CA/C=JP/O=SECOM Trust Systems CO.,LTD.
 Issuer: /C=JP/O=SECOM Trust Systems CO.,LTD./OU=Security Communication RootCA2
@@ -29416,25 +29378,6 @@ Details:
 	OCSP server:
 		- http://ocsp.globalsign.com/trustroottlssha2g3
 CERTIFICATE
-Subject: /Beame.io CA 1/C=IL/O=Beame.io Ltd
-Issuer: /Trusted Root TLS CA SHA256 G3/C=BE/O=GlobalSign nv-sa
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 159159748958320016222629458367165142585
-	AKI: DE:4F:D7:DD:27:AE:D5:7F:58:81:E1:2C:47:AC:23:B7:C6:7B:57:EF
-	SKI: E6:1F:AD:7D:15:31:0E:D4:96:5A:11:54:27:1E:16:10:E8:B5:39:37
-	Valid from: 2020-07-05T00:00:00+0000
-	     until: 2021-07-20T00:00:00+0000
-	Key usages: cert sign, crl sign
-	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://secure.globalsign.com/cacert/trustroottlssha2g3.crt
-	OCSP server:
-		- http://ocsp.globalsign.com/trustroottlssha2g3
-CERTIFICATE
 Subject: /Soluti CA - EV/C=BR/O=SOLUTI - SOLUCOES EM NEGOCIOS INTELIGENTES S/A
 Issuer: /Trusted Root TLS CA SHA256 G3/C=BE/O=GlobalSign nv-sa
 	Signature algorithm: RSA / SHA256
@@ -31674,6 +31617,40 @@ Details:
 	1 AIA:
 		http://x2.i.lencr.org/
 CERTIFICATE
+Subject: /R3/C=US/O=Let's Encrypt
+Issuer: /ISRG Root X1/C=US/O=Internet Security Research Group
+	Signature algorithm: RSA / SHA256
+Details:
+	Public key: RSA-2048
+	Serial number: 192961496339968674994309121183282847578
+	AKI: 79:B4:59:E6:7B:B6:E5:E4:01:73:80:08:88:C8:1A:58:F6:E9:9B:6E
+	SKI: 14:2E:B3:17:B7:58:56:CB:AE:50:09:40:E6:1F:AF:9D:8B:14:C2:C6
+	Valid from: 2020-09-04T00:00:00+0000
+	     until: 2025-09-15T16:00:00+0000
+	Key usages: cert sign, crl sign, digital signature
+	Extended usages: client auth, server auth
+	Basic constraints: valid, is a CA certificate, max path length 0
+	SANs (0):
+	1 AIA:
+		http://x1.i.lencr.org/
+CERTIFICATE
+Subject: /R4/C=US/O=Let's Encrypt
+Issuer: /ISRG Root X1/C=US/O=Internet Security Research Group
+	Signature algorithm: RSA / SHA256
+Details:
+	Public key: RSA-2048
+	Serial number: 184062427331579619898468442554398596450
+	AKI: 79:B4:59:E6:7B:B6:E5:E4:01:73:80:08:88:C8:1A:58:F6:E9:9B:6E
+	SKI: 36:9D:3E:E0:B1:40:F6:27:2C:7C:BF:8D:9D:31:8A:F6:54:A6:46:26
+	Valid from: 2020-09-04T00:00:00+0000
+	     until: 2025-09-15T16:00:00+0000
+	Key usages: cert sign, crl sign, digital signature
+	Extended usages: client auth, server auth
+	Basic constraints: valid, is a CA certificate, max path length 0
+	SANs (0):
+	1 AIA:
+		http://x1.i.lencr.org/
+CERTIFICATE
 Subject: /Root CA - G3/C=US/O=Root Networks, LLC
 Issuer: /Certum Trusted Network CA/C=PL/O=Unizeto Technologies S.A./OU=Certum
     Certification Authority
@@ -33410,6 +33387,22 @@ Details:
 		http://trust.quovadisglobal.com/qvrca2.crt
 	OCSP server:
 		- http://ocsp.quovadisglobal.com
+CERTIFICATE
+Subject: /ISRG Root X1/C=US/O=Internet Security Research Group
+Issuer: /DST Root CA X3/O=Digital Signature Trust Co.
+	Signature algorithm: RSA / SHA256
+Details:
+	Public key: RSA-4096
+	Serial number: 85078200265644417569109389142156118711
+	AKI: C4:A7:B1:A4:7B:2C:71:FA:DB:E1:4B:90:75:FF:C4:15:60:85:89:10
+	SKI: 79:B4:59:E6:7B:B6:E5:E4:01:73:80:08:88:C8:1A:58:F6:E9:9B:6E
+	Valid from: 2021-01-20T19:14:03+0000
+	     until: 2024-09-30T18:14:03+0000
+	Key usages: cert sign, crl sign
+	Basic constraints: valid, is a CA certificate
+	SANs (0):
+	1 AIA:
+		http://apps.identrust.com/roots/dstrootcax3.p7c
 CERTIFICATE
 Subject: /DigiCert G5 TLS ECC SHA384 2021 CA1/C=US/O=DigiCert, Inc.
 Issuer: /DigiCert TLS ECC P384 Root G5/C=US/O=DigiCert, Inc.
