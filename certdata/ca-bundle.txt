@@ -255,19 +255,6 @@ Details:
 	Basic constraints: valid, is a CA certificate, max path length 3
 	SANs (0):
 CERTIFICATE
-Subject: /DST Root CA X3/O=Digital Signature Trust Co.
-Issuer: /DST Root CA X3/O=Digital Signature Trust Co.
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 91299735575339953335919266965803778155
-	SKI: C4:A7:B1:A4:7B:2C:71:FA:DB:E1:4B:90:75:FF:C4:15:60:85:89:10
-	Valid from: 2000-09-30T21:12:19+0000
-	     until: 2021-09-30T14:01:15+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
 Subject: /SwissSign CA (RSA IK May 6 1999 18:00:58)/C=CH/O=SwissSign
 Issuer: /SwissSign CA (RSA IK May 6 1999 18:00:58)/C=CH/O=SwissSign
 	Signature algorithm: RSA / SHA1
