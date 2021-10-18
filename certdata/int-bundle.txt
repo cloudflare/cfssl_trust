@@ -220,24 +220,6 @@ Details:
 	OCSP server:
 		- http://ocsp.starfieldtech.com
 CERTIFICATE
-Subject: /WISeKey CertifyID Qualified G1 CA/C=CH/O=WISeKey/OU=Copyright (c)
-    2006 WISeKey SA/OU=International
-Issuer: /OISTE WISeKey Global Root GA CA/C=CH/O=WISeKey/OU=Copyright (c)
-    2005/OU=OISTE Foundation Endorsed
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 458196403417909590753284
-	AKI: B3:03:7E:AE:36:BC:B0:79:D1:DC:94:26:B6:11:BE:21:B2:69:86:94
-	SKI: B8:B5:F8:53:D2:72:3D:73:F6:BB:64:67:A7:E5:64:EB:12:EA:73:62
-	Valid from: 2006-10-17T15:48:05+0000
-	     until: 2021-10-17T15:58:05+0000
-	Key usages: cert sign, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-	1 AIA:
-		http://public.wisekey.com/crt/owgrgaca.crt
-CERTIFICATE
 Subject: /SwissSign Gold CA - G2/C=CH/O=SwissSign AG
 Issuer: /SwissSign Gold CA - G2/C=CH/O=SwissSign AG
 	Signature algorithm: RSA / SHA1
@@ -10107,25 +10089,6 @@ Details:
 	OCSP server:
 		- http://ocsp.digicert.com
 CERTIFICATE
-Subject: /UIS-IsuB1-CA
-Issuer: /UIS-IntB-CA
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 76893065047765040496664
-	AKI: 72:37:01:36:3D:F8:66:D6:03:98:4E:F5:F8:00:2E:A4:24:AA:76:20
-	SKI: 5E:47:C8:30:F1:43:BF:01:CF:3A:23:03:C0:9E:01:02:03:58:7E:61
-	Valid from: 2015-10-19T17:55:32+0000
-	     until: 2021-10-19T18:05:32+0000
-	Key usages: cert sign, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	2 AIAs:
-		http://uispki.unisys.com/rep/UIS-IntB-CA(6).crt
-		http://pkirep.unisys.com/rep/UIS-IntB-CA(6).crt
-	OCSP server:
-		- http://pecs1.unisys.com/ocsp/
-CERTIFICATE
 Subject: /Amazon Root CA 1/C=US/O=Amazon
 Issuer: /Starfield Services Root Certificate Authority - G2/C=US/O=Starfield
     Technologies, Inc./L=Scottsdale/ST=Arizona
@@ -13151,42 +13114,6 @@ Details:
 	SANs (0):
 	OCSP server:
 		- http://ocsp05.actalis.it/VA/AUTH-ROOT
-CERTIFICATE
-Subject: /Let's Encrypt Authority X3/C=US/O=Let's Encrypt
-Issuer: /ISRG Root X1/C=US/O=Internet Security Research Group
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 281388458876078678614014146053122333802
-	AKI: 79:B4:59:E6:7B:B6:E5:E4:01:73:80:08:88:C8:1A:58:F6:E9:9B:6E
-	SKI: A8:4A:6A:63:04:7D:DD:BA:E6:D1:39:B7:A6:45:65:EF:F3:A8:EC:A1
-	Valid from: 2016-10-06T15:43:55+0000
-	     until: 2021-10-06T15:43:55+0000
-	Key usages: cert sign, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://cert.root-x1.letsencrypt.org/
-	OCSP server:
-		- http://ocsp.root-x1.letsencrypt.org/
-CERTIFICATE
-Subject: /Let's Encrypt Authority X4/C=US/O=Let's Encrypt
-Issuer: /ISRG Root X1/C=US/O=Internet Security Research Group
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 196204437171101880774154150242290766810
-	AKI: 79:B4:59:E6:7B:B6:E5:E4:01:73:80:08:88:C8:1A:58:F6:E9:9B:6E
-	SKI: C5:B1:AB:4E:4C:B1:CD:64:30:93:7E:C1:84:99:05:AB:E6:03:E2:25
-	Valid from: 2016-10-06T15:44:34+0000
-	     until: 2021-10-06T15:44:34+0000
-	Key usages: cert sign, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://cert.root-x1.letsencrypt.org/
-	OCSP server:
-		- http://ocsp.root-x1.letsencrypt.org/
 CERTIFICATE
 Subject: /AlphaSSL CA - SHA256 - G2/C=BE/O=GlobalSign nv-sa
 Issuer: /GlobalSign/O=GlobalSign/OU=GlobalSign Root CA - R3
