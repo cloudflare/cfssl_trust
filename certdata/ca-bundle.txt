@@ -282,20 +282,6 @@ Details:
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
-Subject: /Admin-Root-CA/C=ch/O=admin/OU=Services/OU=Certification Authorities
-Issuer: /Admin-Root-CA/C=ch/O=admin/OU=Services/OU=Certification Authorities
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 1005814224
-	AKI: 82:9F:FA:23:73:20:F1:97:8B:B2:4C:4D:BE:42:C5:7F:66:CD:64:E8
-	SKI: 82:9F:FA:23:73:20:F1:97:8B:B2:4C:4D:BE:42:C5:7F:66:CD:64:E8
-	Valid from: 2001-11-15T08:51:07+0000
-	     until: 2021-11-10T07:51:07+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
 Subject: /GeoTrust Global CA/C=US/O=GeoTrust Inc.
 Issuer: /GeoTrust Global CA/C=US/O=GeoTrust Inc.
 	Signature algorithm: RSA / SHA1
