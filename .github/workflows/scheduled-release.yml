@@ -1,0 +1,32 @@
+name: Scheduled Release
+on:
+  push:
+    branches: [ leland/testing ]
+  workflow_dispatch:
+jobs:
+  create_release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v2
+      - name: Set up Go
+        uses: actions/setup-go@v2
+        with:
+          go-version: '1.17'
+      - run: go version
+      - name: go get
+        run: |
+          go install github.com/kisom/goutils/cmd/certdump@latest
+          go install github.com/cloudflare/cfssl/cmd/...@latest
+          go install github.com/cloudflare/cfssl_trust/...@latest
+      - name: Setup git user
+        run: |
+          git config --global user.name "$(git --no-pager log --format=format:'%an' -n 1)"
+          git config --global user.email "$(git --no-pager log --format=format:'%ae' -n 1)"
+      - name: Check repo
+        run: |
+          ./release.sh
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v3
+        with:
+          branch: release/$LATEST_RELEASE

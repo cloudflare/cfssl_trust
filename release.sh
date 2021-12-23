@@ -158,18 +158,12 @@ execute () {
 	release | tee "$TEMPFILE"
 
 	LATEST_RELEASE="$(cfssl-trust ${DATABASE_PATH} ${CONFIG_PATH} releases | awk ' NR==1 { print $2 }')"
-	git checkout -b release/${LATEST_RELEASE}
-	printf "Trust store release ${LATEST_RELEASE}\n\n$(cat ${TEMPFILE})" | git commit -F-
-	rm ${TEMPFILE}
-
-	git tag trust-store-${LATEST_RELEASE}
 
 	if [ -n "${NOPUSH:-}" ]
 	then
 		exit 0
 	fi
-
-	git push --set-upstream origin release/${LATEST_RELEASE}
+    git tag trust-store-${LATEST_RELEASE}
 	git push origin trust-store-${LATEST_RELEASE}
 }
 
