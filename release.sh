@@ -154,8 +154,13 @@ release () {
 # execute: does the actual release #
 ####################################
 execute () {
-	TEMPFILE="$(mktemp)" || exit
-	release | tee "$TEMPFILE"
+	if [ -n "${AUTOMATED_RELEASE:-}" ]
+    then
+        release | tee "$TEMPFILE"
+    	exit 0
+    fi
+    TEMPFILE="$(mktemp)" || exit
+    release | tee "$TEMPFILE"
 
 	LATEST_RELEASE="$(cfssl-trust ${DATABASE_PATH} ${CONFIG_PATH} releases | awk ' NR==1 { print $2 }')"
 	git checkout -b release/${LATEST_RELEASE}
