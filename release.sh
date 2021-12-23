@@ -158,6 +158,12 @@ execute () {
 	release | tee "$TEMPFILE"
 
 	LATEST_RELEASE="$(cfssl-trust ${DATABASE_PATH} ${CONFIG_PATH} releases | awk ' NR==1 { print $2 }')"
+
+	if [ -n "${AUTOMATED_RELEASE:-}" ]
+    then
+    	exit 0
+    fi
+
 	git checkout -b release/${LATEST_RELEASE}
 	printf "Trust store release ${LATEST_RELEASE}\n\n$(cat ${TEMPFILE})" | git commit -F-
 	rm ${TEMPFILE}
