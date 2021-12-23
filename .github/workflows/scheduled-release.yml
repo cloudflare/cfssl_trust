@@ -1,0 +1,39 @@
+name: Scheduled Release
+on:
+  push:
+    branches: [ leland/testing ]
+  workflow_dispatch:
+jobs:
+  create_release:
+    runs-on: ubuntu-latest
+    env:
+      LATEST_RELEASE: replace
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v2
+      - name: Set up Go
+        uses: actions/setup-go@v2
+        with:
+          go-version: '1.17'
+      - run: go version
+      - name: go get
+        run: |
+          go install github.com/kisom/goutils/cmd/certdump@latest
+          go install github.com/cloudflare/cfssl/cmd/...@latest
+          go install github.com/cloudflare/cfssl_trust/...@latest
+      - name: Setup git user
+        run: |
+          git config --global user.name "$(git --no-pager log --format=format:'%an' -n 1)"
+          git config --global user.email "$(git --no-pager log --format=format:'%ae' -n 1)"
+      - name: Run release
+        run: |
+          AUTOMATED_RELEASE=true ./release.sh
+      - name: Set env
+        run: |
+          echo "LATEST_RELEASE=$(cfssl-trust -d cert.db releases | awk ' NR==1 { print $2 }')" >> $GITHUB_ENV
+      - name: pull-request
+        uses: repo-sync/pull-request@v2
+        with:
+          source_branch: "release/${{ env.LATEST_RELEASE }}"
+          destination_branch: "master"
+          github_token: ${{ secrets.GITHUB_TOKEN }}

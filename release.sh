@@ -154,8 +154,8 @@ release () {
 # execute: does the actual release #
 ####################################
 execute () {
-	TEMPFILE="$(mktemp)" || exit
-	release | tee "$TEMPFILE"
+    TEMPFILE="$(mktemp)" || exit
+    release | tee "$TEMPFILE"
 
 	LATEST_RELEASE="$(cfssl-trust ${DATABASE_PATH} ${CONFIG_PATH} releases | awk ' NR==1 { print $2 }')"
 	git checkout -b release/${LATEST_RELEASE}
@@ -171,6 +171,11 @@ execute () {
 
 	git push --set-upstream origin release/${LATEST_RELEASE}
 	git push origin trust-store-${LATEST_RELEASE}
+
+		if [ -n "${AUTOMATED_RELEASE:-}" ]
+        then
+            exit 0
+        fi
 }
 
 prologue
