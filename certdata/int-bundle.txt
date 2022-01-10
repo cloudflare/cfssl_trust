@@ -287,20 +287,6 @@ Details:
 	OCSP server:
 		- http://ocsp.globalsign.com/rootr1
 CERTIFICATE
-Subject: /GlobalSign/O=GlobalSign/OU=GlobalSign Root CA - R2
-Issuer: /GlobalSign/O=GlobalSign/OU=GlobalSign Root CA - R2
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 159661569208669738563629664890
-	AKI: 9B:E2:07:57:67:1C:1E:C0:6A:06:DE:59:B4:9A:2D:DF:DC:19:86:2E
-	SKI: 9B:E2:07:57:67:1C:1E:C0:6A:06:DE:59:B4:9A:2D:DF:DC:19:86:2E
-	Valid from: 2006-12-15T08:00:00+0000
-	     until: 2021-12-15T08:00:00+0000
-	Key usages: cert sign, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
 Subject: /DigiCert High Assurance EV CA-2/C=US/O=DigiCert
     Inc/OU=www.digicert.com
 Issuer: /DigiCert High Assurance EV Root CA/C=US/O=DigiCert
@@ -371,20 +357,6 @@ Details:
 		http://eca.hinet.net/repository/Certs/IssuedToThisCA.p7b
 	OCSP server:
 		- http://ocsp.eca.hinet.net/OCSP/ocspG1sha1
-CERTIFICATE
-Subject: /Belgium Root CA2/C=BE
-Issuer: /Belgium Root CA2/C=BE
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 3098404661496965511
-	AKI: 85:8A:EB:F4:C5:BB:BE:0E:59:03:94:DE:D6:80:01:15:E3:10:9C:39
-	SKI: 85:8A:EB:F4:C5:BB:BE:0E:59:03:94:DE:D6:80:01:15:E3:10:9C:39
-	Valid from: 2007-10-04T10:00:00+0000
-	     until: 2021-12-15T08:00:00+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
 CERTIFICATE
 Subject: /StartCom Class 1 Primary Intermediate Server CA/C=IL/O=StartCom
     Ltd./OU=Secure Digital Certificate Signing
@@ -4477,23 +4449,6 @@ Details:
 	SANs (0):
 	OCSP server:
 		- http://ocsp.globalsign.com/rootr1
-CERTIFICATE
-Subject: /GlobalSign Extended Validation CA - SHA256 - G2/C=BE/O=GlobalSign
-    nv-sa
-Issuer: /GlobalSign/O=GlobalSign/OU=GlobalSign Root CA - R2
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 4835703278459909592599125
-	AKI: 9B:E2:07:57:67:1C:1E:C0:6A:06:DE:59:B4:9A:2D:DF:DC:19:86:2E
-	SKI: DA:40:77:43:65:1C:F8:FE:A7:E3:F4:64:82:3E:4D:43:13:22:31:02
-	Valid from: 2014-02-20T10:00:00+0000
-	     until: 2021-12-15T08:00:00+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://ocsp.globalsign.com/rootr2
 CERTIFICATE
 Subject: /GlobalSign Organization Validation CA - SHA256 -
     G2/C=BE/O=GlobalSign nv-sa
@@ -14314,40 +14269,6 @@ Details:
 	OCSP server:
 		- http://ocsp.comodoca.com
 CERTIFICATE
-Subject: /GTS CA 1O1/C=US/O=Google Trust Services
-Issuer: /GlobalSign/O=GlobalSign/OU=GlobalSign Root CA - R2
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 149699596615803609916394524856
-	AKI: 9B:E2:07:57:67:1C:1E:C0:6A:06:DE:59:B4:9A:2D:DF:DC:19:86:2E
-	SKI: 98:D1:F8:6E:10:EB:CF:9B:EC:60:9F:18:90:1B:A0:EB:7D:09:FD:2B
-	Valid from: 2017-06-15T00:00:42+0000
-	     until: 2021-12-15T00:00:42+0000
-	Key usages: cert sign, crl sign, digital signature
-	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://ocsp.pki.goog/gsr2
-CERTIFICATE
-Subject: /GTS CA 1D2/C=US/O=Google Trust Services
-Issuer: /GlobalSign/O=GlobalSign/OU=GlobalSign Root CA - R2
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 149699610012781156643674437347
-	AKI: 9B:E2:07:57:67:1C:1E:C0:6A:06:DE:59:B4:9A:2D:DF:DC:19:86:2E
-	SKI: B1:DD:32:5D:E8:B7:37:72:D2:CE:5C:CE:26:FE:47:79:E2:01:08:E9
-	Valid from: 2017-06-15T00:00:42+0000
-	     until: 2021-12-15T00:00:42+0000
-	Key usages: cert sign, crl sign, digital signature
-	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://ocsp.pki.goog/gsr2
-CERTIFICATE
 Subject: /Entrust Class 1 Client CA/C=US/O=Entrust,
     Inc./OU=www.entrust.net/CPS is incorporated by reference/OU=(c) 2010
     Entrust, Inc.
@@ -14537,23 +14458,6 @@ Details:
 	SKI: 6D:F1:39:49:99:73:0E:93:A3:76:87:18:56:C1:EF:BF:8A:EB:31:37
 	Valid from: 2017-07-13T12:11:38+0000
 	     until: 2032-07-13T12:11:38+0000
-	Key usages: cert sign, crl sign, digital signature
-	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://ocsp.digicert.com
-CERTIFICATE
-Subject: /Cybertrust Japan EV CA G2/C=JP/O=Cybertrust Japan Co., Ltd.
-Issuer: /Cybertrust Global Root/O=Cybertrust, Inc
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 14130036539351800347179400999324594100
-	AKI: B6:08:7B:0D:7A:CC:AC:20:4C:86:56:32:5E:CF:AB:6E:85:2D:70:57
-	SKI: 91:43:05:EC:B4:6A:15:4F:DC:E1:EE:86:56:5C:11:D0:2A:2B:8D:5F
-	Valid from: 2017-07-13T12:19:28+0000
-	     until: 2021-12-14T12:00:00+0000
 	Key usages: cert sign, crl sign, digital signature
 	Extended usages: client auth, server auth
 	Basic constraints: valid, is a CA certificate, max path length 0
@@ -18601,24 +18505,6 @@ Details:
 	OCSP server:
 		- http://ocsp2.globalsign.com/trustrootsha2g2
 CERTIFICATE
-Subject: /DigiCert Extended Validation CG CA/C=US/O=DigiCert
-    Inc/OU=www.digicert.com
-Issuer: /Cybertrust Global Root/O=Cybertrust, Inc
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 9679972878507529398515903802842786642
-	AKI: B6:08:7B:0D:7A:CC:AC:20:4C:86:56:32:5E:CF:AB:6E:85:2D:70:57
-	SKI: F2:2E:E7:8A:8A:7D:5E:44:4D:27:E1:D5:02:4A:BA:B7:93:4C:0F:64
-	Valid from: 2018-09-24T12:29:56+0000
-	     until: 2021-12-14T12:00:00+0000
-	Key usages: cert sign, crl sign, digital signature
-	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://ocsp.digicert.com
-CERTIFICATE
 Subject: /SECOM Passport for Member PUB CA4/C=JP/O=SECOM Trust Systems
     CO.,LTD./OU=SECOM Passport for Member 2.0 PUB
 Issuer: /C=JP/O=SECOM Trust Systems CO.,LTD./OU=Security Communication RootCA2
@@ -19157,25 +19043,6 @@ Details:
 		http://certs.eid.belgium.be/belgiumrs4.crt
 	OCSP server:
 		- http://ocsp.eid.belgium.be/2
-CERTIFICATE
-Subject: /GIAG4/C=US/O=Google Trust Services LLC
-Issuer: /GlobalSign/O=GlobalSign/OU=GlobalSign Root CA - R2
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 153693569700969167625947718771
-	AKI: 9B:E2:07:57:67:1C:1E:C0:6A:06:DE:59:B4:9A:2D:DF:DC:19:86:2E
-	SKI: EE:0A:93:CE:D9:D4:F7:9A:A9:97:44:50:35:66:D8:CD:7D:6F:5A:10
-	Valid from: 2018-11-01T00:00:42+0000
-	     until: 2021-12-15T00:00:42+0000
-	Key usages: cert sign, crl sign, digital signature
-	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://pki.goog/gsr2/gsr2.crt
-	OCSP server:
-		- http://ocsp.pki.goog/gsr2
 CERTIFICATE
 Subject: /GTS Y1/C=US/O=Google Trust Services LLC
 Issuer: /GTS Root R1/C=US/O=Google Trust Services LLC
