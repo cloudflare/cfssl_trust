@@ -1,0 +1,34 @@
+Rolling trust store release at 2022-01-11T16:13:15+0000.
+$ cfssl-trust -d ./cert.db  -b int release 0h
+skipping expired certificate (SKI=9be20757671c1ec06a06de59b49a2ddfdc19862e, serial=159661569208669738563629664890, subject='/GlobalSign/O=GlobalSign/OU=GlobalSign Root CA - R2')
+skipping expired certificate (SKI=858aebf4c5bbbe0e590394ded6800115e3109c39, serial=3098404661496965511, subject='/Belgium Root CA2/C=BE')
+skipping expired certificate (SKI=da407743651cf8fea7e3f464823e4d4313223102, serial=4835703278459909592599125, subject='/GlobalSign Extended Validation CA - SHA256 - G2/C=BE/O=GlobalSign nv-sa')
+skipping expired certificate (SKI=98d1f86e10ebcf9bec609f18901ba0eb7d09fd2b, serial=149699596615803609916394524856, subject='/GTS CA 1O1/C=US/O=Google Trust Services')
+skipping expired certificate (SKI=b1dd325de8b73772d2ce5cce26fe4779e20108e9, serial=149699610012781156643674437347, subject='/GTS CA 1D2/C=US/O=Google Trust Services')
+skipping expired certificate (SKI=914305ecb46a154fdce1ee86565c11d02a2b8d5f, serial=14130036539351800347179400999324594100, subject='/Cybertrust Japan EV CA G2/C=JP/O=Cybertrust Japan Co., Ltd.')
+skipping expired certificate (SKI=f22ee78a8a7d5e444d27e1d5024abab7934c0f64, serial=9679972878507529398515903802842786642, subject='/DigiCert Extended Validation CG CA/C=US/O=DigiCert Inc/OU=www.digicert.com')
+skipping expired certificate (SKI=ee0a93ced9d4f79aa99744503566d8cd7d6f5a10, serial=153693569700969167625947718771, subject='/GIAG4/C=US/O=Google Trust Services LLC')
+1753 certificates rolled
+8 certificates skipped
+Successfully rolled new int release 2022.1.0
+$ cfssl-trust -d ./cert.db  -b ca release 0h
+skipping expired certificate (SKI=9be20757671c1ec06a06de59b49a2ddfdc19862e, serial=4835703278459682885658125, subject='/GlobalSign/O=GlobalSign/OU=GlobalSign Root CA - R2')
+skipping expired certificate (SKI=b6087b0d7accac204c8656325ecfab6e852d7057, serial=4835703278459682877484360, subject='/Cybertrust Global Root/O=Cybertrust, Inc')
+skipping expired certificate (SKI=858aebf4c5bbbe0e590394ded6800115e3109c39, serial=3098404661496965511, subject='/Belgium Root CA2/C=BE')
+382 certificates rolled
+3 certificates skipped
+Successfully rolled new ca release 2022.1.0
+$ cfssl-trust -d ./cert.db  -r 2022.1.0 -b int bundle int-bundle.crt
+selected release 2022.1.0
+Selected 1753 certificates for this release.
+$ cfssl-trust -d ./cert.db  -r 2022.1.0 -b ca bundle ca-bundle.crt
+selected release 2022.1.0
+Selected 382 certificates for this release.
+$ certdump ca-bundle.crt  > certdata/ca-bundle.txt
+$ certdump int-bundle.crt > certdata/int-bundle.txt
+$ git status --porcelain -uno
+M  ca-bundle.crt
+M  cert.db
+M  certdata/ca-bundle.txt
+M  certdata/int-bundle.txt
+M  int-bundle.crt
