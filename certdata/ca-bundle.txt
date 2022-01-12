@@ -1477,34 +1477,6 @@ Details:
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
-Subject: /GlobalSign/O=GlobalSign/OU=GlobalSign Root CA - R2
-Issuer: /GlobalSign/O=GlobalSign/OU=GlobalSign Root CA - R2
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 4835703278459682885658125
-	AKI: 9B:E2:07:57:67:1C:1E:C0:6A:06:DE:59:B4:9A:2D:DF:DC:19:86:2E
-	SKI: 9B:E2:07:57:67:1C:1E:C0:6A:06:DE:59:B4:9A:2D:DF:DC:19:86:2E
-	Valid from: 2006-12-15T08:00:00+0000
-	     until: 2021-12-15T08:00:00+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
-Subject: /Cybertrust Global Root/O=Cybertrust, Inc
-Issuer: /Cybertrust Global Root/O=Cybertrust, Inc
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 4835703278459682877484360
-	AKI: B6:08:7B:0D:7A:CC:AC:20:4C:86:56:32:5E:CF:AB:6E:85:2D:70:57
-	SKI: B6:08:7B:0D:7A:CC:AC:20:4C:86:56:32:5E:CF:AB:6E:85:2D:70:57
-	Valid from: 2006-12-15T08:00:00+0000
-	     until: 2021-12-15T08:00:00+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
 Subject: /SSC Root CA A/C=LT/O=Skaitmeninio sertifikavimo
     centras/OU=Certification Authority
 Issuer: /SSC Root CA A/C=LT/O=Skaitmeninio sertifikavimo
@@ -1709,20 +1681,6 @@ Details:
 	Valid from: 2007-07-05T09:14:08+0000
 	     until: 2022-07-05T09:12:33+0000
 	Key usages: cert sign, content committment, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
-Subject: /Belgium Root CA2/C=BE
-Issuer: /Belgium Root CA2/C=BE
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 3098404661496965511
-	AKI: 85:8A:EB:F4:C5:BB:BE:0E:59:03:94:DE:D6:80:01:15:E3:10:9C:39
-	SKI: 85:8A:EB:F4:C5:BB:BE:0E:59:03:94:DE:D6:80:01:15:E3:10:9C:39
-	Valid from: 2007-10-04T10:00:00+0000
-	     until: 2021-12-15T08:00:00+0000
-	Key usages: cert sign, crl sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
