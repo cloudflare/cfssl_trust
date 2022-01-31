@@ -1214,26 +1214,6 @@ Details:
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
 CERTIFICATE
-Subject: /AC CAMERFIRMA AAPP/C=ES/O=AC CAMERFIRMA S.A./OU=AC
-    CAMERFIRMA/L=MADRID (Ver en https://www.camerfirma.com/address)
-Issuer: /Chambers of Commerce Root/C=EU/O=AC Camerfirma SA CIF
-    A82743287/OU=http://www.chambersign.org
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 13
-	AKI: E3:94:F5:B1:4D:E9:DB:A1:29:5B:57:8B:4D:76:06:76:E1:D1:A2:8A
-	SKI: E5:46:50:E8:43:A0:B2:F7:1C:E4:B6:FF:D8:00:04:20:F7:1F:A4:0B
-	Valid from: 2010-02-23T08:46:37+0000
-	     until: 2022-02-20T08:46:37+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 2
-	SANs (0):
-	1 AIA:
-		http://www.camerfirma.com/certs/ROOT-CHAMBERS.crt
-	OCSP server:
-		- http://ocsp.camerfirma.com
-CERTIFICATE
 Subject: /SwissSign SuisseID Platinum CA 2010 - G2/C=CH/O=SwissSign AG
 Issuer: /SwissSign Platinum CA - G2/C=CH/O=SwissSign AG
 	Signature algorithm: RSA / SHA1
@@ -2105,20 +2085,6 @@ Details:
 		http://crt.comodoca.com/COMODORSAAddTrustCA.crt
 	OCSP server:
 		- http://ocsp.comodoca.com
-CERTIFICATE
-Subject: /SECOM Passport for Web SR 2.0 CA/C=JP/O=SECOM Trust Systems CO.,LTD.
-Issuer: /C=JP/O=SECOM Trust.net/OU=Security Communication RootCA1
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 314159330
-	AKI: A0:73:49:99:68:DC:85:5B:65:E3:9B:28:2F:57:9F:BD:33:BC:07:48
-	SKI: 30:9A:00:57:99:44:63:6B:C9:B2:F2:3D:8D:83:6B:3B:D7:9D:EF:64
-	Valid from: 2012-02-17T04:49:28+0000
-	     until: 2022-02-17T04:49:28+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
 CERTIFICATE
 Subject: /Qualified e-Szigno QCP CA 2012/C=HU/O=Microsec Ltd./L=Budapest
 Issuer: /Microsec e-Szigno Root CA 2009/C=HU/O=Microsec Ltd./L=Budapest
