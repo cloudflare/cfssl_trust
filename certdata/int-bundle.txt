@@ -32354,24 +32354,6 @@ Details:
 	OCSP server:
 		- http://ocsp2.globalsign.com/rootr5
 CERTIFICATE
-Subject: /GlobalSign Atlas R6 AATL CA 2020/C=BE/O=GlobalSign nv-sa
-Issuer: /GlobalSign CA for AATL - SHA384 - G4/C=BE/O=GlobalSign nv-sa
-	Signature algorithm: RSA / SHA384
-Details:
-	Public key: RSA-2048
-	Serial number: 159895048501310533282908919173639881362
-	AKI: 89:EF:75:71:7A:5F:47:1B:97:23:DC:90:4A:CB:FF:C0:26:36:08:D5
-	SKI: E0:62:03:47:13:7C:3A:2B:54:B4:16:44:44:25:65:8E:F5:44:82:ED
-	Valid from: 2020-12-09T00:00:00+0000
-	     until: 2022-03-09T00:00:00+0000
-	Key usages: cert sign, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://secure.globalsign.com/cacert/gsaatlsha2g4.crt
-	OCSP server:
-		- http://ocsp.globalsign.com/ca/gsaatlsha2g4
-CERTIFICATE
 Subject: /GlobalSign Atlas R3 OV TLS CA 2020-12/C=BE/O=GlobalSign nv-sa
 Issuer: /GlobalSign/O=GlobalSign/OU=GlobalSign Root CA - R3
 	Signature algorithm: RSA / SHA256
