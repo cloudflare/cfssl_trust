@@ -287,41 +287,6 @@ Details:
 	OCSP server:
 		- http://ocsp.globalsign.com/rootr1
 CERTIFICATE
-Subject: /DigiCert High Assurance EV CA-2/C=US/O=DigiCert
-    Inc/OU=www.digicert.com
-Issuer: /DigiCert High Assurance EV Root CA/C=US/O=DigiCert
-    Inc/OU=www.digicert.com
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 7717951762462267094438395584159047327
-	AKI: B1:3E:C3:69:03:F8:BF:47:01:D4:98:26:1A:08:02:EF:63:64:2B:C3
-	SKI: 92:4D:68:8E:D9:B0:42:F1:C9:2C:A2:EF:B7:07:AD:57:92:CC:85:11
-	Valid from: 2007-03-23T00:00:00+0000
-	     until: 2022-03-23T00:00:00+0000
-	Key usages: cert sign, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-	OCSP server:
-		- http://ocsp.digicert.com
-CERTIFICATE
-Subject: /DigiCert High Assurance CA-3/C=US/O=DigiCert Inc/OU=www.digicert.com
-Issuer: /DigiCert High Assurance EV Root CA/C=US/O=DigiCert
-    Inc/OU=www.digicert.com
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 11059457423120897085043097253941199374
-	AKI: B1:3E:C3:69:03:F8:BF:47:01:D4:98:26:1A:08:02:EF:63:64:2B:C3
-	SKI: 50:EA:73:89:DB:29:FB:10:8F:9E:E5:01:20:D4:DE:79:99:48:83:F7
-	Valid from: 2007-04-03T00:00:00+0000
-	     until: 2022-04-03T00:00:00+0000
-	Key usages: cert sign, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-	OCSP server:
-		- http://ocsp.digicert.com
-CERTIFICATE
 Subject: /C=TW/O=Chunghwa Telecom Co., Ltd./OU=Public Certification Authority
 Issuer: /C=TW/O=Chunghwa Telecom Co., Ltd./OU=ePKI Root Certification
     Authority
@@ -433,41 +398,6 @@ Details:
 	Key usages: cert sign, crl sign, digital signature
 	Basic constraints: valid, is a CA certificate, max path length 11
 	SANs (1): email:cmfecs2@camerfirma.com
-CERTIFICATE
-Subject: /DigiCert High Assurance CA-3/C=US/O=DigiCert Inc/OU=www.digicert.com
-Issuer: /DigiCert High Assurance EV Root CA/C=US/O=DigiCert
-    Inc/OU=www.digicert.com
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 13785899061980321600472330812886105915
-	AKI: B1:3E:C3:69:03:F8:BF:47:01:D4:98:26:1A:08:02:EF:63:64:2B:C3
-	SKI: 50:EA:73:89:DB:29:FB:10:8F:9E:E5:01:20:D4:DE:79:99:48:83:F7
-	Valid from: 2008-04-02T12:00:00+0000
-	     until: 2022-04-03T00:00:00+0000
-	Key usages: cert sign, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://ocsp.digicert.com
-CERTIFICATE
-Subject: /DigiCert High Assurance CA-3/C=US/O=DigiCert Inc/OU=www.digicert.com
-Issuer: /DigiCert High Assurance EV Root CA/C=US/O=DigiCert
-    Inc/OU=www.digicert.com
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 3897888824745244785070717763906044118
-	AKI: B1:3E:C3:69:03:F8:BF:47:01:D4:98:26:1A:08:02:EF:63:64:2B:C3
-	SKI: 50:EA:73:89:DB:29:FB:10:8F:9E:E5:01:20:D4:DE:79:99:48:83:F7
-	Valid from: 2008-04-03T12:00:00+0000
-	     until: 2022-04-03T00:00:00+0000
-	Key usages: cert sign, crl sign, digital signature
-	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://cacerts.digicert.com/DigiCertHighAssuranceEVRootCA.crt
 CERTIFICATE
 Subject: /SwissSign Server Gold CA 2008 - G2/C=CH/O=SwissSign AG
 Issuer: /SwissSign Gold CA - G2/C=CH/O=SwissSign AG
@@ -1874,23 +1804,6 @@ Details:
 	Key usages: cert sign, crl sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
-CERTIFICATE
-Subject: /DigiCert High Assurance CA-3/C=US/O=DigiCert Inc/OU=www.digicert.com
-Issuer: /DigiCert High Assurance EV Root CA/C=US/O=DigiCert
-    Inc/OU=www.digicert.com
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 7590422764709621926064891016953956954
-	AKI: B1:3E:C3:69:03:F8:BF:47:01:D4:98:26:1A:08:02:EF:63:64:2B:C3
-	SKI: 50:EA:73:89:DB:29:FB:10:8F:9E:E5:01:20:D4:DE:79:99:48:83:F7
-	Valid from: 2011-10-12T12:00:00+0000
-	     until: 2022-04-03T00:00:00+0000
-	Key usages: cert sign, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://ocsp.digicert.com
 CERTIFICATE
 Subject: /ACCVCA-110/C=ES/O=ACCV/OU=PKIACCV
 Issuer: /ACCVRAIZ1/C=ES/O=ACCV/OU=PKIACCV
@@ -4642,25 +4555,6 @@ Details:
 		http://crt.comodoca.com/COMODOECCAddTrustCA.crt
 	OCSP server:
 		- http://ocsp.comodoca.com
-CERTIFICATE
-Subject: /TrustID Server CA A52/C=US/O=IdenTrust/OU=TrustID Server
-Issuer: /IdenTrust Commercial Root CA 1/C=US/O=IdenTrust
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 809935105971050509717729013272419191
-	AKI: ED:44:19:C0:D3:F0:06:8B:EE:A4:7B:BE:42:E7:26:54:C8:8E:36:76
-	SKI: A2:56:24:3C:D0:D4:15:B9:E8:BF:78:A3:13:10:58:48:2E:16:54:E1
-	Valid from: 2014-03-20T18:05:38+0000
-	     until: 2022-03-20T18:05:38+0000
-	Key usages: cert sign, crl sign, digital signature
-	Extended usages: client auth, ipsec end system, ipsec tunnel, ipsec user, server auth
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-	1 AIA:
-		http://validation.identrust.com/roots/commercialrootca1.p7c
-	OCSP server:
-		- http://commercial.ocsp.identrust.com
 CERTIFICATE
 Subject: /RelayHealth Direct CA/C=US/O=RelayHealth
 Issuer: /DigiCert Federated Trust CA/C=US/O=DigiCert Inc/OU=www.digicert.com
