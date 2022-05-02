@@ -32683,3 +32683,18 @@ Details:
 		http://cacerts.digicert.com/DigiCertRSA4096RootG5.crt
 	OCSP server:
 		- http://ocsp.digicert.com
+CERTIFICATE
+Subject: /cloudflare.com
+Issuer: /C=US/O=Cloudflare, Inc./OU=Gateway Intermediate ECC Certificate
+    Authority/L=San Francisco/ST=California
+	Signature algorithm: ECDSA / SHA256
+Details:
+	Public key: ECDSA-secp384r1
+	Serial number: 368412682
+	AKI: 24:1F:8D:0A:1A:34:A9:29:B0:99:9D:66:74:72:A2:8D:E2:CA:A1:D8
+	Valid from: 2022-04-28T07:16:00+0000
+	     until: 2022-06-29T18:04:42+0000
+	Key usages: 
+	Extended usages: server auth
+	Basic constraints: invalid
+	SANs (1): dns:cloudflare.com
