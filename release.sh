@@ -137,6 +137,11 @@ release () {
 	cfssl-trust ${DATABASE_PATH} ${CONFIG_PATH} -r ${LATEST_RELEASE} -b ca  bundle ca-bundle.crt
 	git add int-bundle.crt ca-bundle.crt
 
+  if [ -z "`git diff int-bundle.crt ca-bundle.crt | cat`" ]
+  then
+    die "No changes, exiting"
+  fi
+
 	## Step 5: update the human-readable trust store lists.
 	#
 	# These lists should also be added to git.
