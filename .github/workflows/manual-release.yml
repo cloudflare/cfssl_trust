@@ -14,10 +14,15 @@ on:
         description: 'Adds certificates to the roots bundle'
         default: ''
         required: false
+      allowSkipPR:
+        description: 'Skips the creation of a release if there are no changes. Boolean: true or false'
+        default: 'true'
+        required: false
 jobs:
   create_release:
     env:
       LATEST_RELEASE: replace
+      CREATE_PR: false
     runs-on: ubuntu-latest
     steps:
       - name: Check out code
@@ -46,9 +51,11 @@ jobs:
           echo ${{ github.event.inputs.addRoots }} | base64 --decode >> ${{ runner.temp }}/new_roots.txt
       - name: Run release
         run: |
-          EXPIRATION_WINDOW=${{ github.event.inputs.expirationWindow }} NEW_INTERMEDIATES=${{ runner.temp }}/new_intermediates.txt NEW_ROOTS=${{ runner.temp }}/new_roots.txt ./release.sh
+          EXPIRATION_WINDOW=${{ github.event.inputs.expirationWindow }} ALLOW_SKIP_PR=${{ github.event.inputs.allowSkipPR }}  NEW_INTERMEDIATES=${{ runner.temp }}/new_intermediates.txt NEW_ROOTS=${{ runner.temp }}/new_roots.txt ./release.sh
           echo "LATEST_RELEASE=$(cfssl-trust -d cert.db releases | awk ' NR==1 { print $2 }')" >> $GITHUB_ENV
+          echo "CREATE_PR=$(git branch --show-current | grep -q release && echo true)" >> $GITHUB_ENV
       - name: Create pull request
+        if: env.CREATE_PR == true
         uses: repo-sync/pull-request@v2
         with:
           source_branch: "release/${{ env.LATEST_RELEASE }}"
@@ -56,4 +63,3 @@ jobs:
           pr_reviewer: "lgarofalo,maxnystrom,mihirjham,mitalirawat,nickysemenza"
           pr_assignee: "lgarofalo,maxnystrom,mihirjham,mitalirawat,nickysemenza"
           github_token: ${{ secrets.GITHUB_TOKEN }}
-      
