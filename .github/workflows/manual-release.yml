@@ -56,4 +56,3 @@ jobs:
           pr_reviewer: "lgarofalo,maxnystrom,mihirjham,mitalirawat,nickysemenza"
           pr_assignee: "lgarofalo,maxnystrom,mihirjham,mitalirawat,nickysemenza"
           github_token: ${{ secrets.GITHUB_TOKEN }}
-      
