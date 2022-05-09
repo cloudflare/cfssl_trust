@@ -12,6 +12,10 @@
 #   includes all currently validate certificates. This must be parsable by
 #   Go's time package.
 # - NOPUSH: do not push the release branch upstream.
+# - ALLOW_SKIP_PR: allows the script to complete successfully without
+#   creating a release if there are no changes to the bundles.  The
+#   intended use for this is the scheduled cronjob, we only want to
+#   create a release and PR if there are changes
 # - TRUST_CONFIG_PATH: the path to a cfssl-trust configuration file. The
 #   default is to not specify a configuration file; the cfssl-trust program
 #   will check for one in the standard places.
@@ -137,7 +141,17 @@ release () {
 	cfssl-trust ${DATABASE_PATH} ${CONFIG_PATH} -r ${LATEST_RELEASE} -b ca  bundle ca-bundle.crt
 	git add int-bundle.crt ca-bundle.crt
 
-	## Step 5: update the human-readable trust store lists.
+  	## Step 5: Silent early exit if no changes
+  	#
+  	# if we are allowing the script to silently complete without a release, we want see
+  	# any changes to bundles and if not, exit with the "No_Changes" code for the caller
+  	if [ -n "${ALLOW_SKIP_PR:-}" ] && [ -z "`git diff int-bundle.crt ca-bundle.crt | cat`" ]
+  	then
+    	   echo "No_Changes"
+    	   exit 0
+  	fi
+	
+	## Step 6: update the human-readable trust store lists.
 	#
 	# These lists should also be added to git.
 	echo "$ certdump ca-bundle.crt  > certdata/ca-bundle.txt"
@@ -156,6 +170,12 @@ release () {
 execute () {
 	TEMPFILE="$(mktemp)" || exit
 	release | tee "$TEMPFILE"
+
+	# If we note that there are no changes from the release command, exit early
+	if grep -q No_Changes "$TEMPFILE";
+	then
+	   exit 0
+	fi
 
 	LATEST_RELEASE="$(cfssl-trust ${DATABASE_PATH} ${CONFIG_PATH} releases | awk ' NR==1 { print $2 }')"
 	git checkout -b release/${LATEST_RELEASE}
