@@ -2208,22 +2208,6 @@ Details:
 	OCSP server:
 		- http://RootOcsp.twca.com.tw/
 CERTIFICATE
-Subject: /GeoTrust SSL CA - G2/C=US/O=GeoTrust Inc.
-Issuer: /GeoTrust Global CA/C=US/O=GeoTrust Inc.
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 146019
-	AKI: C0:7A:98:68:8D:89:FB:AB:05:64:0C:11:7D:AA:7D:65:B8:CA:CC:4E
-	SKI: 11:4A:D0:73:39:D5:5B:69:08:5C:BA:3D:BF:64:9A:A8:8B:1C:55:BC
-	Valid from: 2012-08-27T20:40:40+0000
-	     until: 2022-05-20T20:40:40+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://ocsp.geotrust.com
-CERTIFICATE
 Subject: /Buypass Class 3 CA 3/C=NO/O=Buypass AS-983163327
 Issuer: /Buypass Class 3 Root CA/C=NO/O=Buypass AS-983163327
 	Signature algorithm: RSA / SHA256
@@ -3582,22 +3566,6 @@ Details:
 	OCSP server:
 		- http://ocsp.digicert.com
 CERTIFICATE
-Subject: /GeoTrust SSL CA - G3/C=US/O=GeoTrust Inc.
-Issuer: /GeoTrust Global CA/C=US/O=GeoTrust Inc.
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 146031
-	AKI: C0:7A:98:68:8D:89:FB:AB:05:64:0C:11:7D:AA:7D:65:B8:CA:CC:4E
-	SKI: D2:6F:F7:96:F4:85:3F:72:3C:30:7D:23:DA:85:78:9B:A3:7C:5A:7C
-	Valid from: 2013-11-05T21:36:50+0000
-	     until: 2022-05-20T21:36:50+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://g2.symcb.com
-CERTIFICATE
 Subject: /Staat der Nederlanden Organisatie Services CA - G3/C=NL/O=Staat der
     Nederlanden
 Issuer: /Staat der Nederlanden Root CA - G3/C=NL/O=Staat der Nederlanden
@@ -4751,22 +4719,6 @@ Details:
 	OCSP server:
 		- http://t.symcd.com
 CERTIFICATE
-Subject: /GeoTrust DV SSL CA - G3/C=US/O=GeoTrust Inc./OU=Domain Validated SSL
-Issuer: /GeoTrust Global CA/C=US/O=GeoTrust Inc.
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 146035
-	AKI: C0:7A:98:68:8D:89:FB:AB:05:64:0C:11:7D:AA:7D:65:B8:CA:CC:4E
-	SKI: AD:65:22:85:90:D0:3B:E3:A1:49:8B:37:F9:F1:0B:1D:5F:17:A0:77
-	Valid from: 2014-06-11T22:02:59+0000
-	     until: 2022-05-20T22:02:59+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://g.symcd.com
-CERTIFICATE
 Subject: /SSL.com DV CA/C=US/O=SSL.com/OU=www.ssl.com
 Issuer: /USERTrust RSA Certification Authority/C=US/O=The USERTRUST
     Network/L=Jersey City/ST=New Jersey
@@ -5039,38 +4991,6 @@ Details:
 	OCSP server:
 		- http://ocsp.entrust.net
 CERTIFICATE
-Subject: /RapidSSL SHA256 CA - G3/C=US/O=GeoTrust Inc.
-Issuer: /GeoTrust Global CA/C=US/O=GeoTrust Inc.
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 146039
-	AKI: C0:7A:98:68:8D:89:FB:AB:05:64:0C:11:7D:AA:7D:65:B8:CA:CC:4E
-	SKI: C3:9C:F3:FC:D3:46:08:34:BB:CE:46:7F:A0:7C:5B:F3:E2:08:CB:59
-	Valid from: 2014-08-29T21:39:32+0000
-	     until: 2022-05-20T21:39:32+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://g.symcd.com
-CERTIFICATE
-Subject: /GeoTrust DV SSL CA - G4/C=US/O=GeoTrust Inc./OU=Domain Validated SSL
-Issuer: /GeoTrust Global CA/C=US/O=GeoTrust Inc.
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 146040
-	AKI: C0:7A:98:68:8D:89:FB:AB:05:64:0C:11:7D:AA:7D:65:B8:CA:CC:4E
-	SKI: 0B:50:EC:77:EF:2A:9B:FF:EC:03:A1:0A:FF:AD:C6:E4:2A:18:C7:3E
-	Valid from: 2014-08-29T22:24:58+0000
-	     until: 2022-05-20T22:24:58+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://g.symcd.com
-CERTIFICATE
 Subject: /SECOM Passport for Web EV 2.0 CA/C=JP/O=SECOM Trust Systems CO.,LTD.
 Issuer: /C=JP/O=SECOM Trust Systems CO.,LTD./OU=Security Communication RootCA2
 	Signature algorithm: RSA / SHA256
@@ -5102,22 +5022,6 @@ Details:
 	SANs (0):
 	OCSP server:
 		- http://scrootca2.ocsp.secomtrust.net
-CERTIFICATE
-Subject: /GeoTrust SSL CA - G4/C=US/O=GeoTrust Inc.
-Issuer: /GeoTrust Global CA/C=US/O=GeoTrust Inc.
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 146041
-	AKI: C0:7A:98:68:8D:89:FB:AB:05:64:0C:11:7D:AA:7D:65:B8:CA:CC:4E
-	SKI: AC:32:ED:5A:C9:E0:DE:30:9C:90:58:55:26:63:F6:72:A6:54:5F:E3
-	Valid from: 2014-09-08T20:41:10+0000
-	     until: 2022-05-20T20:41:10+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://g.symcd.com
 CERTIFICATE
 Subject: /SSL Blindado 2/C=BR/O=Site Blindado S.A./OU=Certificação
     Digital/L=São Paulo/ST=SP
