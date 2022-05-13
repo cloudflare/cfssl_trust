@@ -139,18 +139,19 @@ release () {
 	cfssl-trust ${DATABASE_PATH} ${CONFIG_PATH} -r ${LATEST_RELEASE} -b int bundle int-bundle.crt
 	echo "$ cfssl-trust ${DATABASE_PATH} ${CONFIG_PATH} -r ${LATEST_RELEASE} -b ca bundle ca-bundle.crt"
 	cfssl-trust ${DATABASE_PATH} ${CONFIG_PATH} -r ${LATEST_RELEASE} -b ca  bundle ca-bundle.crt
-	git add int-bundle.crt ca-bundle.crt
 
   	## Step 5: Silent early exit if no changes
   	#
   	# if we are allowing the script to silently complete without a release, we want see
   	# any changes to bundles and if not, exit with the "No_Changes" code for the caller
-  	if [ -n "${ALLOW_SKIP_PR:-}" ] && [ -z "`git diff int-bundle.crt ca-bundle.crt | cat`" ]
+  	if [ "${ALLOW_SKIP_PR}" = "true" ] && [ -z "`git diff int-bundle.crt ca-bundle.crt | cat`" ]
   	then
     	   echo "No_Changes"
     	   exit 0
   	fi
 	
+	git add int-bundle.crt ca-bundle.crt
+
 	## Step 6: update the human-readable trust store lists.
 	#
 	# These lists should also be added to git.
