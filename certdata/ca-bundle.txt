@@ -282,20 +282,6 @@ Details:
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
-Subject: /GeoTrust Global CA/C=US/O=GeoTrust Inc.
-Issuer: /GeoTrust Global CA/C=US/O=GeoTrust Inc.
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 144470
-	AKI: C0:7A:98:68:8D:89:FB:AB:05:64:0C:11:7D:AA:7D:65:B8:CA:CC:4E
-	SKI: C0:7A:98:68:8D:89:FB:AB:05:64:0C:11:7D:AA:7D:65:B8:CA:CC:4E
-	Valid from: 2002-05-21T04:00:00+0000
-	     until: 2022-05-21T04:00:00+0000
-	Key usages: 
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
 Subject: /America Online Root Certification Authority 1/C=US/O=America Online
     Inc.
 Issuer: /America Online Root Certification Authority 1/C=US/O=America Online
@@ -1597,36 +1583,6 @@ Details:
 	Key usages: cert sign, content committment, crl sign, data encipherment, digital signature, key agreement, key encipherment
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
-CERTIFICATE
-Subject: /D-TRUST Root Class 2 CA 2007/C=DE/O=D-Trust GmbH
-Issuer: /D-TRUST Root Class 2 CA 2007/C=DE/O=D-Trust GmbH
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 200341
-	SKI: 91:30:AB:F6:F3:C6:44:B7:EB:DD:28:BC:0F:14:9F:52:5D:62:7F:02
-	Valid from: 2007-05-16T05:20:47+0000
-	     until: 2022-05-16T05:20:47+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (1): email:info@d-trust.net
-	OCSP server:
-		- http://users.ocsp.d-trust.net
-CERTIFICATE
-Subject: /D-TRUST Root Class 3 CA 2007/C=DE/O=D-Trust GmbH
-Issuer: /D-TRUST Root Class 3 CA 2007/C=DE/O=D-Trust GmbH
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 200342
-	SKI: 82:2F:36:23:49:78:20:42:D7:B0:52:58:A0:D6:74:54:15:78:BF:AA
-	Valid from: 2007-05-16T05:20:47+0000
-	     until: 2022-05-16T05:20:47+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (1): email:info@d-trust.net
-	OCSP server:
-		- http://users.ocsp.d-trust.net
 CERTIFICATE
 Subject: /DigiNotar Root CA/C=NL/O=DigiNotar
 Issuer: /DigiNotar Root CA/C=NL/O=DigiNotar
