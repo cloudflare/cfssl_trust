@@ -31,7 +31,7 @@ jobs:
           echo "LATEST_RELEASE=$(cfssl-trust -d cert.db releases | awk ' NR==1 { print $2 }')" >> $GITHUB_ENV
           echo "CREATE_PR=$(git branch --show-current | grep -q release && echo true)" >> $GITHUB_ENV
       - name: Create pull request
-        if: env.CREATE_PR == true
+        if:  ${{ env.CREATE_PR == 'true'}}
         uses: repo-sync/pull-request@v2
         with:
           source_branch: "release/${{ env.LATEST_RELEASE }}"
