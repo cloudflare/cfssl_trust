@@ -1937,20 +1937,6 @@ Details:
 	Basic constraints: valid, is a CA certificate
 	SANs (1): email:ec_gencat@catcert.net
 CERTIFICATE
-Subject: /TWCA InfoSec User CA/C=TW/O=TAIWAN-CA Inc./OU=User CA
-Issuer: /TWCA Root Certification Authority/C=TW/O=TAIWAN-CA/OU=Root CA
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 85076818756799107300004196292259487059
-	AKI: 6A:38:5B:26:8D:DE:8B:5A:F2:4F:7A:54:83:19:18:E3:08:35:A6:BA
-	SKI: 21:20:6A:92:E9:69:5B:AC:C8:63:EB:64:CE:82:C1:51:66:2A:87:E2
-	Valid from: 2012-06-08T01:51:19+0000
-	     until: 2022-06-08T15:59:59+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-CERTIFICATE
 Subject: /GIS CA/C=RU/O=GAZINFORMSERVICE Company limited/OU=CA
 Issuer: /Certum Global Services CA/C=PL/O=Unizeto Technologies S.A./OU=Certum
     Certification Authority
