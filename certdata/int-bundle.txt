@@ -1937,44 +1937,6 @@ Details:
 	Basic constraints: valid, is a CA certificate
 	SANs (1): email:ec_gencat@catcert.net
 CERTIFICATE
-Subject: /GIS CA/C=RU/O=GAZINFORMSERVICE Company limited/OU=CA
-Issuer: /Certum Global Services CA/C=PL/O=Unizeto Technologies S.A./OU=Certum
-    Certification Authority
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 80085179540313719565396810649083686685
-	AKI: 45:C5:B2:86:4E:CC:DD:29:97:E4:DD:14:C4:6E:AE:4D:B8:C1:77:F8
-	SKI: A8:2C:00:DA:85:41:8D:5F:61:C0:FE:44:D5:10:F6:A5:FD:60:06:00
-	Valid from: 2012-06-14T12:22:51+0000
-	     until: 2022-06-12T12:22:51+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://repository.certum.pl/gsca.cer
-	OCSP server:
-		- http://subca.ocsp-certum.com
-CERTIFICATE
-Subject: /Shoper® SSL/C=PL/O=Dreamcommerce S.A./OU=Dreamcommerce S.A.
-Issuer: /Certum Global Services CA/C=PL/O=Unizeto Technologies S.A./OU=Certum
-    Certification Authority
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 339650326531778533069450969237151350989
-	AKI: 45:C5:B2:86:4E:CC:DD:29:97:E4:DD:14:C4:6E:AE:4D:B8:C1:77:F8
-	SKI: F2:B4:11:F6:ED:39:2A:1D:4A:76:9F:03:9D:28:08:26:96:C1:5C:DF
-	Valid from: 2012-06-15T12:13:09+0000
-	     until: 2022-06-13T12:13:09+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://repository.certum.pl/gsca.cer
-	OCSP server:
-		- http://subca.ocsp-certum.com
-CERTIFICATE
 Subject: /nazwaSSL/C=PL/O=NetArt Spółka Akcyjna S.K.A./OU=http://nazwa.pl
 Issuer: /Certum Global Services CA/C=PL/O=Unizeto Technologies S.A./OU=Certum
     Certification Authority
@@ -13926,26 +13888,6 @@ Details:
 	SANs (0):
 	OCSP server:
 		- http://ocsp.entrust.net
-CERTIFICATE
-Subject: /Prodrive Technologies B.V. OV SSL Issuing CA/C=NL/O=Prodrive
-    Technologies B.V./OU=IT Services/L=Son/ST=Noord-Brabant
-Issuer: /Trusted Root CA SHA256 G2/C=BE/O=GlobalSign nv-sa/OU=Trusted Root
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 149310462917249690445839080463
-	AKI: C8:63:9B:08:69:54:C2:98:C8:D9:CD:E3:33:B7:50:5E:F8:C9:01:9B
-	SKI: 75:96:B6:84:C9:B7:0B:91:E7:8E:E0:C6:EF:DF:EA:A3:C2:FF:E0:B8
-	Valid from: 2017-06-21T00:00:00+0000
-	     until: 2022-06-21T00:00:00+0000
-	Key usages: cert sign, crl sign
-	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://secure.globalsign.com/cacert/trustrootsha2g2.crt
-	OCSP server:
-		- http://ocsp2.globalsign.com/trustrootsha2g2
 CERTIFICATE
 Subject: /GlobalSign ECC CloudSSL CA - SHA384 - G3/C=BE/O=GlobalSign nv-sa
 Issuer: /GlobalSign/O=GlobalSign/OU=GlobalSign Root CA - R3
@@ -28452,26 +28394,6 @@ Details:
 		http://secure.globalsign.com/cacert/root-r3.crt
 	OCSP server:
 		- http://ocsp.globalsign.com/rootr3
-CERTIFICATE
-Subject: /Prodrive Technologies B.V. OV SSL Issuing CA/C=NL/O=Prodrive
-    Technologies B.V.
-Issuer: /Trusted Root TLS CA SHA256 G3/C=BE/O=GlobalSign nv-sa
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 159159749408963978775319924281435349477
-	AKI: DE:4F:D7:DD:27:AE:D5:7F:58:81:E1:2C:47:AC:23:B7:C6:7B:57:EF
-	SKI: 75:96:B6:84:C9:B7:0B:91:E7:8E:E0:C6:EF:DF:EA:A3:C2:FF:E0:B8
-	Valid from: 2020-07-05T00:00:00+0000
-	     until: 2022-06-21T00:00:00+0000
-	Key usages: cert sign, crl sign
-	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://secure.globalsign.com/cacert/trustroottlssha2g3.crt
-	OCSP server:
-		- http://ocsp.globalsign.com/trustroottlssha2g3
 CERTIFICATE
 Subject: /Soluti CA - DV/C=BR/O=SOLUTI - SOLUCOES EM NEGOCIOS INTELIGENTES S/A
 Issuer: /Trusted Root TLS CA SHA256 G3/C=BE/O=GlobalSign nv-sa
