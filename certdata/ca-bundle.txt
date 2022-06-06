@@ -358,21 +358,6 @@ Details:
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
-Subject: /Visa eCommerce Root/C=US/O=VISA/OU=Visa International Service
-    Association
-Issuer: /Visa eCommerce Root/C=US/O=VISA/OU=Visa International Service
-    Association
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 25952180776285836048024890241505565794
-	SKI: 15:38:83:0F:3F:2C:3F:70:33:1E:CD:46:FE:07:8C:20:E0:D7:C3:B7
-	Valid from: 2002-06-26T02:18:36+0000
-	     until: 2022-06-24T00:16:12+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
 Subject: /C=TW/O=Government Root Certification Authority
 Issuer: /C=TW/O=Government Root Certification Authority
 	Signature algorithm: RSA / SHA1
@@ -2192,21 +2177,6 @@ Details:
 	Key usages: cert sign, crl sign
 	Basic constraints: valid, is a CA certificate
 	SANs (1): email:info@e-szigno.hu
-CERTIFICATE
-Subject: /Actalis Authentication CA G1/C=IT/O=Actalis
-    S.p.A./03358520967/L=Milano
-Issuer: /Actalis Authentication CA G1/C=IT/O=Actalis
-    S.p.A./03358520967/L=Milano
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 1
-	SKI: 01:BB:D6:9B:56:B4:7E:E6:C5:58:DD:2C:98:F4:CA:72:F6:5F:33:86
-	Valid from: 2009-06-23T14:06:00+0000
-	     until: 2022-06-25T14:06:00+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
 CERTIFICATE
 Subject: /Entrust Root Certification Authority - G2/C=US/O=Entrust,
     Inc./OU=See www.entrust.net/legal-terms/OU=(c) 2009 Entrust, Inc. - for
