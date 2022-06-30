@@ -1281,23 +1281,6 @@ Details:
 	1 AIA:
 		http://swisssign.net/cgi-bin/authority/download/50AFCC078715476F38C5B465D1DE95AAE9DF9CCC
 CERTIFICATE
-Subject: /AC Firmaprofesional - AAPP/C=ES/O=Firmaprofesional
-    SA/OU=Certificados Digitales para la Administracion Publica
-Issuer: /Autoridad de Certificacion Firmaprofesional CIF A62634068/C=ES
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 6439481296531745112
-	AKI: 65:CD:EB:AB:35:1E:00:3E:7E:D5:74:C0:1C:B4:73:47:0E:1A:64:2F
-	SKI: A6:2E:EA:4D:25:2B:25:BA:A4:B5:DA:20:D2:1D:AE:E7:96:FD:99:F7
-	Valid from: 2010-07-07T09:35:43+0000
-	     until: 2022-07-07T09:35:43+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://servicios.firmaprofesional.com/ocsp
-CERTIFICATE
 Subject: /Herritar eta Erakundeen CA - CA de Ciudadanos y Entidades
     (4)/C=ES/O=IZENPE S.A./OU=NZZ Ziurtagiri publikoa - Certificado publico
     SCI
@@ -1936,42 +1919,6 @@ Details:
 	Key usages: cert sign, crl sign
 	Basic constraints: valid, is a CA certificate
 	SANs (1): email:ec_gencat@catcert.net
-CERTIFICATE
-Subject: /nazwaSSL/C=PL/O=NetArt Spółka Akcyjna S.K.A./OU=http://nazwa.pl
-Issuer: /Certum Global Services CA/C=PL/O=Unizeto Technologies S.A./OU=Certum
-    Certification Authority
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 93480523492086952196220687199031457932
-	AKI: 45:C5:B2:86:4E:CC:DD:29:97:E4:DD:14:C4:6E:AE:4D:B8:C1:77:F8
-	SKI: 9D:CE:F0:5A:B4:CB:25:CF:36:A5:82:5D:8F:F7:7F:98:46:19:37:2E
-	Valid from: 2012-07-06T10:31:40+0000
-	     until: 2022-07-04T10:31:40+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://repository.certum.pl/gsca.cer
-CERTIFICATE
-Subject: /nazwaSSL/C=PL/O=NetArt Spółka Akcyjna S.K.A./OU=http://nazwa.pl
-Issuer: /Certum Global Services CA/C=PL/O=Unizeto Technologies S.A./OU=Certum
-    Certification Authority
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 89499776404990724467734509767484693199
-	AKI: 45:C5:B2:86:4E:CC:DD:29:97:E4:DD:14:C4:6E:AE:4D:B8:C1:77:F8
-	SKI: 9D:CE:F0:5A:B4:CB:25:CF:36:A5:82:5D:8F:F7:7F:98:46:19:37:2E
-	Valid from: 2012-07-06T10:31:40+0000
-	     until: 2022-07-04T10:31:40+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://repository.certum.pl/gsca.cer
-	OCSP server:
-		- http://subca.ocsp-certum.com
 CERTIFICATE
 Subject: /NetLock Közjegyzői (Class A) Tanúsítványkiadó/C=HU/O=NetLock
     Kft./OU=Tanúsítványkiadók (Certification Services)/L=Budapest
@@ -4488,25 +4435,6 @@ Details:
 		http://ocsp.affirmtrust.com/ntwkca.crt
 	OCSP server:
 		- http://ocsp.trendmicro.com/ntwk
-CERTIFICATE
-Subject: /nazwaSSL/C=PL/O=nazwa.pl S.A./OU=http://nazwa.pl
-Issuer: /Certum Global Services CA/C=PL/O=Unizeto Technologies S.A./OU=Certum
-    Certification Authority
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 35676914867970567676728390945185475794
-	AKI: 45:C5:B2:86:4E:CC:DD:29:97:E4:DD:14:C4:6E:AE:4D:B8:C1:77:F8
-	SKI: 9D:CE:F0:5A:B4:CB:25:CF:36:A5:82:5D:8F:F7:7F:98:46:19:37:2E
-	Valid from: 2014-05-06T12:00:00+0000
-	     until: 2022-07-04T10:31:40+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://repository.certum.pl/gsca.cer
-	OCSP server:
-		- http://subca.ocsp-certum.com
 CERTIFICATE
 Subject: /Verizon Global Root CA/C=US/O=Verizon Business/OU=OmniRoot
 Issuer: /Baltimore CyberTrust Root/C=IE/O=Baltimore/OU=CyberTrust
@@ -12360,25 +12288,6 @@ Details:
 		http://crt.ensuredca.com/EnsuredRootCA_3.crt
 	OCSP server:
 		- http://ocsp.ensuredca.com
-CERTIFICATE
-Subject: /AC Firmaprofesional - AAPP/C=ES/O=Firmaprofesional
-    SA/OU=Certificados Digitales para la Administracion Publica
-Issuer: /Autoridad de Certificacion Firmaprofesional CIF A62634068/C=ES
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 7893570382112079418
-	AKI: 65:CD:EB:AB:35:1E:00:3E:7E:D5:74:C0:1C:B4:73:47:0E:1A:64:2F
-	SKI: A6:2E:EA:4D:25:2B:25:BA:A4:B5:DA:20:D2:1D:AE:E7:96:FD:99:F7
-	Valid from: 2016-10-25T15:08:03+0000
-	     until: 2022-07-07T08:35:43+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://crl.firmaprofesional.com/caroot.crt
-	OCSP server:
-		- http://ocsp.firmaprofesional.com
 CERTIFICATE
 Subject: /Ensured Root CA/C=NL/O=Ensured B.V./L=Heerhugowaard/ST=Noord-Holland
 Issuer: /USERTrust RSA Certification Authority/C=US/O=The USERTRUST

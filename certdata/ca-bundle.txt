@@ -1611,20 +1611,6 @@ Details:
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
-Subject: /Post.Trust Root CA/C=IE/O=An Post/OU=Post.Trust Ltd.
-Issuer: /Post.Trust Root CA/C=IE/O=An Post/OU=Post.Trust Ltd.
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 967218965
-	AKI: 8E:A1:73:F9:3A:03:21:F0:2C:57:8B:0E:02:0B:E3:9E:0B:B3:9D:97
-	SKI: 8E:A1:73:F9:3A:03:21:F0:2C:57:8B:0E:02:0B:E3:9E:0B:B3:9D:97
-	Valid from: 2007-07-05T09:14:08+0000
-	     until: 2022-07-05T09:12:33+0000
-	Key usages: cert sign, content committment, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
 Subject: /Common Policy/C=us/O=U.S. Government/OU=FBCA
 Issuer: /Common Policy/C=us/O=U.S. Government/OU=FBCA
 	Signature algorithm: RSA / SHA1
