@@ -3895,48 +3895,6 @@ Details:
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
-Subject: /CA DATEV BT 03/C=DE/O=DATEV eG
-Issuer: /CA DATEV BT 03/C=DE/O=DATEV eG
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 152104075352750229022802674966549670297
-	AKI: F4:B4:BE:6F:7C:12:8D:15:76:87:38:D9:7F:4D:7C:87:C2:29:F9:C3
-	SKI: F4:B4:BE:6F:7C:12:8D:15:76:87:38:D9:7F:4D:7C:87:C2:29:F9:C3
-	Valid from: 2014-05-02T05:40:59+0000
-	     until: 2022-08-02T07:40:59+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-CERTIFICATE
-Subject: /CA DATEV STD 03/C=DE/O=DATEV eG
-Issuer: /CA DATEV STD 03/C=DE/O=DATEV eG
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 165824233158689007801486926645737658657
-	AKI: 22:A1:86:3B:26:BD:5B:14:FF:6A:91:85:F5:22:92:FA:71:BE:DA:FC
-	SKI: 22:A1:86:3B:26:BD:5B:14:FF:6A:91:85:F5:22:92:FA:71:BE:DA:FC
-	Valid from: 2014-05-02T05:40:59+0000
-	     until: 2022-08-02T07:40:59+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-CERTIFICATE
-Subject: /CA DATEV INT 03/C=DE/O=DATEV eG
-Issuer: /CA DATEV INT 03/C=DE/O=DATEV eG
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 121593696459097403780156404688336058058
-	AKI: 7D:D7:5E:A6:1A:36:D6:9B:E0:D0:4C:96:F7:AA:CE:57:9E:28:F2:23
-	SKI: 7D:D7:5E:A6:1A:36:D6:9B:E0:D0:4C:96:F7:AA:CE:57:9E:28:F2:23
-	Valid from: 2014-05-02T05:40:59+0000
-	     until: 2022-08-02T07:40:59+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-CERTIFICATE
 Subject: /CAEDICOM Root/C=ES/O=EDICOM
 Issuer: /CAEDICOM Root/C=ES/O=EDICOM
 	Signature algorithm: RSA / SHA256
