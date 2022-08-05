@@ -11704,26 +11704,6 @@ Details:
 	OCSP server:
 		- http://ocsp.harica.gr
 CERTIFICATE
-Subject: /Siemens Issuing CA Internet Server 2016/C=DE/O=Siemens/OU=Siemens
-    Trust Center/L=Muenchen/ST=Bayern
-Issuer: /QuoVadis Enterprise Trust CA 2 G3/C=BM/O=QuoVadis Limited
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-4096
-	Serial number: 631705695804794010171112902589367831539893351233
-	AKI: 64:E3:05:8B:26:BE:F3:35:F5:9F:31:12:08:F8:E4:16:9C:2A:A8:62
-	SKI: E8:61:5C:D4:04:65:CD:95:BA:0A:15:D7:9D:17:5C:FA:0D:08:7F:DC
-	Valid from: 2016-08-05T06:10:42+0000
-	     until: 2022-08-05T06:10:42+0000
-	Key usages: cert sign, crl sign
-	Extended usages: client auth, ocsp signing, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://trust.quovadisglobal.com/qventca2g3.crt
-	OCSP server:
-		- http://qventca2g3.ocsp.quovadisglobal.com
-CERTIFICATE
 Subject: /TrustAsia DV SSL CA - G5/C=CN/O=TrustAsia Technologies,
     Inc./OU=Symantec Trust Network/OU=Domain Validated SSL
 Issuer: /VeriSign Class 3 Public Primary Certification Authority -
