@@ -1970,22 +1970,6 @@ Details:
 	OCSP server:
 		- http://ocsp.cfca.com.cn/ocsp
 CERTIFICATE
-Subject: /GeoTrust Extended Validation SSL CA - G2/C=US/O=GeoTrust Inc.
-Issuer: /GeoTrust Primary Certification Authority/C=US/O=GeoTrust Inc.
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 14775687946620941165736687089507790015
-	AKI: 2C:D5:50:41:97:15:8B:F0:8F:36:61:5B:4A:FB:6B:D9:99:C9:33:92
-	SKI: 6F:26:56:D9:5C:E7:F7:C9:04:20:F8:1E:BA:7C:91:27:2F:8C:FA:07
-	Valid from: 2012-08-23T00:00:00+0000
-	     until: 2022-08-22T23:59:59+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://EVSecure-ocsp.geotrust.com
-CERTIFICATE
 Subject: /TWCA Global EVSSL Certification Authority/C=TW/O=TAIWAN-CA/OU=Global
     EVSSL Sub-CA
 Issuer: /TWCA Global Root CA/C=TW/O=TAIWAN-CA/OU=Root CA
