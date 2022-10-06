@@ -31856,40 +31856,6 @@ Details:
 	OCSP server:
 		- http://ocsp.usertrust.com
 CERTIFICATE
-Subject: /GeoTrust TLS DV RSA Mixed SHA256 2021 CA-1/C=US/O=DigiCert Inc
-Issuer: /DigiCert Global Root CA/C=US/O=DigiCert Inc/OU=www.digicert.com
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 3793493425711796203820386127145572862
-	AKI: 03:DE:50:35:56:D1:4C:BB:66:F0:A3:E2:1B:1B:C3:97:B2:3D:D1:55
-	SKI: FE:5D:95:05:ED:FB:BE:89:3C:2C:6B:81:3E:C8:BE:6A:F7:CC:F9:80
-	Valid from: 2021-01-01T23:59:59+0000
-	     until: 2022-09-30T23:59:59+0000
-	Key usages: cert sign, crl sign, digital signature
-	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://ocsp.digicert.com
-CERTIFICATE
-Subject: /RapidSSL TLS DV RSA Mixed SHA256 2021 CA-1/C=US/O=DigiCert Inc
-Issuer: /DigiCert Global Root CA/C=US/O=DigiCert Inc/OU=www.digicert.com
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 20678909405119032039883658349624519250
-	AKI: 03:DE:50:35:56:D1:4C:BB:66:F0:A3:E2:1B:1B:C3:97:B2:3D:D1:55
-	SKI: CD:4E:2D:2E:AD:33:90:0D:DB:3E:11:40:FD:4F:C7:FD:38:AD:EA:BB
-	Valid from: 2021-01-01T23:59:59+0000
-	     until: 2022-09-30T23:59:59+0000
-	Key usages: cert sign, crl sign, digital signature
-	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://ocsp.digicert.com
-CERTIFICATE
 Subject: /DigiCert QuoVadis TLS ICA QV Root CA 1 G3/C=US/O=DigiCert, Inc
 Issuer: /QuoVadis Root CA 1 G3/C=BM/O=QuoVadis Limited
 	Signature algorithm: RSA / SHA256
