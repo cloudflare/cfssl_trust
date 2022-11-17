@@ -1971,22 +1971,6 @@ Details:
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
-Subject: /SECOM Passport for Web SR 2.0 CA/C=JP/O=SECOM Trust Systems CO.,LTD.
-Issuer: /C=JP/O=SECOM Trust.net/OU=Security Communication RootCA1
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 314159333
-	AKI: A0:73:49:99:68:DC:85:5B:65:E3:9B:28:2F:57:9F:BD:33:BC:07:48
-	SKI: 30:9A:00:57:99:44:63:6B:C9:B2:F2:3D:8D:83:6B:3B:D7:9D:EF:64
-	Valid from: 2012-11-13T05:11:09+0000
-	     until: 2022-11-13T05:11:09+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://scrootca1.ocsp.secomtrust.net
-CERTIFICATE
 Subject: /Atos TrustedRoot Client-CA 2012/C=DE/O=Atos
 Issuer: /Atos TrustedRoot 2011/C=DE/O=Atos
 	Signature algorithm: RSA / SHA256
