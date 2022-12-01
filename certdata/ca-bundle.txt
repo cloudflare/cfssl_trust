@@ -2752,19 +2752,6 @@ Details:
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
-Subject: /Staat der Nederlanden EV Root CA/C=NL/O=Staat der Nederlanden
-Issuer: /Staat der Nederlanden EV Root CA/C=NL/O=Staat der Nederlanden
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-4096
-	Serial number: 10000013
-	SKI: FE:AB:00:90:98:9E:24:FC:A9:CC:1A:8A:FB:27:B8:BF:30:6E:A8:3B
-	Valid from: 2010-12-08T11:19:29+0000
-	     until: 2022-12-08T11:10:28+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
 Subject: /Autoridad de Certificacion Raiz del Estado Venezolano/C=VE/O=Sistema
     Nacional de Certificacion Electronica/OU=Superintendencia de Servicios de
     Certificacion Electronica/L=Caracas/ST=Distrito Capital
