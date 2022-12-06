@@ -14963,25 +14963,6 @@ Details:
 	OCSP server:
 		- http://ocsp.digicert.com
 CERTIFICATE
-Subject: /DigiCert Universal Transition Root/C=US/O=DigiCert,
-    Inc/OU=www.digicert.com
-Issuer: /VeriSign Universal Root Certification Authority/C=US/O=VeriSign,
-    Inc./OU=VeriSign Trust Network/OU=(c) 2008 VeriSign, Inc. - For authorized
-    use only
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 158219680520102766689712826821782015535
-	AKI: B6:77:FA:69:48:47:9F:53:12:D5:C2:EA:07:32:76:07:D1:97:07:19
-	SKI: 9B:5D:F8:52:54:D0:E6:B1:2C:BC:8F:2A:73:D9:64:3C:BE:52:FC:E2
-	Valid from: 2017-12-08T00:00:00+0000
-	     until: 2022-12-07T23:59:59+0000
-	Key usages: cert sign, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-	OCSP server:
-		- http://s.symcd.com
-CERTIFICATE
 Subject: /TrustAsia TLS RSA CA/C=CN/O=TrustAsia Technologies, Inc./OU=Domain
     Validated SSL
 Issuer: /DigiCert Global Root CA/C=US/O=DigiCert Inc/OU=www.digicert.com
@@ -29240,86 +29221,6 @@ Details:
 	SANs (0):
 	OCSP server:
 		- http://ocsp.entrust.net
-CERTIFICATE
-Subject: /Staat der Nederlanden Domein Server CA 2020/C=NL/O=Staat der
-    Nederlanden
-Issuer: /Staat der Nederlanden EV Root CA/C=NL/O=Staat der Nederlanden
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-4096
-	Serial number: 525441290765089516486887856618729111225828668600
-	AKI: FE:AB:00:90:98:9E:24:FC:A9:CC:1A:8A:FB:27:B8:BF:30:6E:A8:3B
-	SKI: 5A:5D:34:25:C1:88:91:73:F9:DE:E1:0C:D5:F4:EA:18:BF:30:34:6E
-	Valid from: 2020-07-29T17:26:24+0000
-	     until: 2022-12-06T00:00:00+0000
-	Key usages: cert sign, crl sign
-	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-	1 AIA:
-		http://cert.pkioverheid.nl/EVRootCA.cer
-	OCSP server:
-		- http://evrootocsp.pkioverheid.nl
-CERTIFICATE
-Subject: /KPN PKIoverheid Server CA 2020/C=NL/O=KPN B.V.
-Issuer: /Staat der Nederlanden Domein Server CA 2020/C=NL/O=Staat der
-    Nederlanden
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-4096
-	Serial number: 665647295010691963802221771201985143649427249885
-	AKI: 5A:5D:34:25:C1:88:91:73:F9:DE:E1:0C:D5:F4:EA:18:BF:30:34:6E
-	SKI: 08:4A:AA:BB:99:24:6F:BE:5B:07:F1:A5:8A:99:5B:2D:47:EF:B9:3C
-	Valid from: 2020-07-29T18:23:54+0000
-	     until: 2022-12-05T00:00:00+0000
-	Key usages: cert sign, crl sign
-	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://cert.pkioverheid.nl/DomeinServerCA2020.cer
-	OCSP server:
-		- http://domserver2020ocsp.pkioverheid.nl
-CERTIFICATE
-Subject: /QuoVadis PKIoverheid Server CA 2020/C=NL/O=QuoVadis Trustlink B.V.
-Issuer: /Staat der Nederlanden Domein Server CA 2020/C=NL/O=Staat der
-    Nederlanden
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-4096
-	Serial number: 230197535934897450883470206474967883330573391735
-	AKI: 5A:5D:34:25:C1:88:91:73:F9:DE:E1:0C:D5:F4:EA:18:BF:30:34:6E
-	SKI: 22:B7:3D:C0:4E:66:6F:58:A8:73:B0:12:DF:FF:BB:D3:8E:13:98:E7
-	Valid from: 2020-07-29T18:30:06+0000
-	     until: 2022-12-05T00:00:00+0000
-	Key usages: cert sign, crl sign
-	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://cert.pkioverheid.nl/DomeinServerCA2020.cer
-	OCSP server:
-		- http://domserver2020ocsp.pkioverheid.nl
-CERTIFICATE
-Subject: /Digidentity PKIoverheid Server CA 2020/C=NL/O=Digidentity B.V.
-Issuer: /Staat der Nederlanden Domein Server CA 2020/C=NL/O=Staat der
-    Nederlanden
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-4096
-	Serial number: 112235102268220067413451913016579794209367045807
-	AKI: 5A:5D:34:25:C1:88:91:73:F9:DE:E1:0C:D5:F4:EA:18:BF:30:34:6E
-	SKI: 80:89:13:10:A0:2C:F7:FD:E6:4B:24:9B:D6:FB:0E:19:9E:CD:45:13
-	Valid from: 2020-07-29T18:34:42+0000
-	     until: 2022-12-05T00:00:00+0000
-	Key usages: cert sign, crl sign
-	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://cert.pkioverheid.nl/DomeinServerCA2020.cer
-	OCSP server:
-		- http://domserver2020ocsp.pkioverheid.nl
 CERTIFICATE
 Subject: /Entrust Certification Authority - DE QWAC1/C=DE/O=Entrust Datacard
     Deutschland GmbH
