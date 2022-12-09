@@ -1971,34 +1971,6 @@ Details:
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
-Subject: /Atos TrustedRoot Client-CA 2012/C=DE/O=Atos
-Issuer: /Atos TrustedRoot 2011/C=DE/O=Atos
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 2372566777666978270
-	AKI: A7:A5:06:B1:2C:A6:09:60:EE:D1:97:E9:70:AE:BC:3B:19:6C:DB:21
-	SKI: 25:DD:1C:35:6C:C1:1F:05:8C:4A:2C:25:39:BB:AA:96:F9:C0:DD:7C
-	Valid from: 2012-12-13T14:21:50+0000
-	     until: 2022-12-13T14:21:50+0000
-	Key usages: cert sign, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
-Subject: /XiPS CA/C=JP/O=XiPS
-Issuer: /C=JP/O=SECOM Trust.net/OU=Security Communication RootCA1
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 314159335
-	AKI: A0:73:49:99:68:DC:85:5B:65:E3:9B:28:2F:57:9F:BD:33:BC:07:48
-	SKI: 2B:C9:08:D7:C0:A8:D6:E9:41:5D:CD:E1:6B:B0:D8:90:01:0E:63:7C
-	Valid from: 2012-12-14T04:34:34+0000
-	     until: 2022-12-14T04:34:34+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-CERTIFICATE
 Subject: /Symantec Class 3 ECC 256 bit Extended Validation CA/C=US/O=Symantec
     Corporation/OU=Symantec Trust Network
 Issuer: /VeriSign Class 3 Public Primary Certification Authority -
@@ -31295,82 +31267,6 @@ Details:
 		http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt
 	OCSP server:
 		- http://ocsp.digicert.com
-CERTIFICATE
-Subject: /GlobalSign Atlas ECCR5 OV TLS CA 2020-12/C=BE/O=GlobalSign nv-sa
-Issuer: /GlobalSign/O=GlobalSign/OU=GlobalSign ECC Root CA - R5
-	Signature algorithm: ECDSA / SHA384
-Details:
-	Public key: ECDSA-secp384r1
-	Serial number: 159895048132695073417247693802560134078
-	AKI: 3D:E6:29:48:9B:EA:07:CA:21:44:4A:26:DE:6E:DE:D2:83:D0:9F:59
-	SKI: 50:C3:25:D6:58:1C:C1:35:94:B3:43:7E:D5:B4:9D:CF:7D:C3:BA:9D
-	Valid from: 2020-12-09T00:00:00+0000
-	     until: 2022-12-09T00:00:00+0000
-	Key usages: cert sign, crl sign, digital signature
-	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://secure.globalsign.com/cacert/root-r5.crt
-	OCSP server:
-		- http://ocsp2.globalsign.com/rootr5
-CERTIFICATE
-Subject: /GlobalSign Atlas R3 DV TLS CA 2020-12/C=BE/O=GlobalSign nv-sa
-Issuer: /GlobalSign/O=GlobalSign/OU=GlobalSign Root CA - R3
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 159895047823567250512472118495881536727
-	AKI: 8F:F0:4B:7F:A8:2E:45:24:AE:4D:50:FA:63:9A:8B:DE:E2:DD:1B:BC
-	SKI: FC:8D:BA:F3:5B:0B:C4:5E:D4:3A:CC:53:3D:3F:11:B7:74:4C:DE:DB
-	Valid from: 2020-12-09T00:00:00+0000
-	     until: 2022-12-09T00:00:00+0000
-	Key usages: cert sign, crl sign, digital signature
-	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://secure.globalsign.com/cacert/root-r3.crt
-	OCSP server:
-		- http://ocsp2.globalsign.com/rootr3
-CERTIFICATE
-Subject: /GlobalSign Atlas ECCR5 DV TLS CA 2020-12/C=BE/O=GlobalSign nv-sa
-Issuer: /GlobalSign/O=GlobalSign/OU=GlobalSign ECC Root CA - R5
-	Signature algorithm: ECDSA / SHA384
-Details:
-	Public key: ECDSA-secp384r1
-	Serial number: 159895048039344282838740503343223937894
-	AKI: 3D:E6:29:48:9B:EA:07:CA:21:44:4A:26:DE:6E:DE:D2:83:D0:9F:59
-	SKI: C7:1D:C2:27:62:6B:AE:06:7A:DC:85:F9:4E:8B:C5:EC:59:89:17:08
-	Valid from: 2020-12-09T00:00:00+0000
-	     until: 2022-12-09T00:00:00+0000
-	Key usages: cert sign, crl sign, digital signature
-	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://secure.globalsign.com/cacert/root-r5.crt
-	OCSP server:
-		- http://ocsp2.globalsign.com/rootr5
-CERTIFICATE
-Subject: /GlobalSign Atlas R3 OV TLS CA 2020-12/C=BE/O=GlobalSign nv-sa
-Issuer: /GlobalSign/O=GlobalSign/OU=GlobalSign Root CA - R3
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 159895047956210552369879132453073713462
-	AKI: 8F:F0:4B:7F:A8:2E:45:24:AE:4D:50:FA:63:9A:8B:DE:E2:DD:1B:BC
-	SKI: D1:41:E9:10:35:A6:97:A0:A0:1B:4C:88:1B:7A:B0:D8:75:46:0C:FA
-	Valid from: 2020-12-09T00:00:00+0000
-	     until: 2022-12-09T00:00:00+0000
-	Key usages: cert sign, crl sign, digital signature
-	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://secure.globalsign.com/cacert/root-r3.crt
-	OCSP server:
-		- http://ocsp2.globalsign.com/rootr3
 CERTIFICATE
 Subject: /NII Open Domain CA - G7 RSA/C=JP/O=SECOM Trust Systems CO.,LTD.
 Issuer: /C=JP/O=SECOM Trust Systems CO.,LTD./OU=Security Communication RootCA2
