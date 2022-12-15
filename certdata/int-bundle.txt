@@ -1971,69 +1971,6 @@ Details:
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
-Subject: /Symantec Class 3 ECC 256 bit Extended Validation CA/C=US/O=Symantec
-    Corporation/OU=Symantec Trust Network
-Issuer: /VeriSign Class 3 Public Primary Certification Authority -
-    G4/C=US/O=VeriSign, Inc./OU=VeriSign Trust Network/OU=(c) 2007 VeriSign,
-    Inc. - For authorized use only
-	Signature algorithm: ECDSA / SHA384
-Details:
-	Public key: ECDSA-prime256v1
-	Serial number: 103126096761076143969236239221835325321
-	AKI: B3:16:91:FD:EE:A6:6E:E4:B5:2E:49:8F:87:78:81:80:EC:E5:B1:B5
-	SKI: 48:13:65:17:94:EC:9E:16:2A:2A:74:5C:E8:53:2D:B4:FB:83:EB:8E
-	Valid from: 2012-12-20T00:00:00+0000
-	     until: 2022-12-19T23:59:59+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://ocsp.ws.symantec.com
-CERTIFICATE
-Subject: /YourNet SSL for domain/C=JP/O=FreeBit Co.,Ltd.
-Issuer: /C=JP/O=SECOM Trust.net/OU=Security Communication RootCA1
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 314159336
-	AKI: A0:73:49:99:68:DC:85:5B:65:E3:9B:28:2F:57:9F:BD:33:BC:07:48
-	SKI: 8D:CF:08:23:03:CA:16:D8:D5:52:60:30:E4:35:1F:95:10:81:7E:B7
-	Valid from: 2012-12-20T06:07:08+0000
-	     until: 2022-12-20T06:07:08+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-CERTIFICATE
-Subject: /YourNet SSL for business/C=JP/O=FreeBit Co.,Ltd.
-Issuer: /C=JP/O=SECOM Trust.net/OU=Security Communication RootCA1
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 314159337
-	AKI: A0:73:49:99:68:DC:85:5B:65:E3:9B:28:2F:57:9F:BD:33:BC:07:48
-	SKI: 3D:12:09:BD:0D:AA:A9:DB:F7:73:AA:04:22:81:2F:10:CB:01:84:10
-	Valid from: 2012-12-20T06:17:28+0000
-	     until: 2022-12-20T06:17:28+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-CERTIFICATE
-Subject: /KAGOYA JAPAN Certification Authority/C=JP/O=KAGOYA JAPAN Inc.
-Issuer: /C=JP/O=SECOM Trust.net/OU=Security Communication RootCA1
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 314159338
-	AKI: A0:73:49:99:68:DC:85:5B:65:E3:9B:28:2F:57:9F:BD:33:BC:07:48
-	SKI: D8:77:D6:6D:51:49:07:83:60:07:B9:45:15:7F:61:C1:8A:1F:F2:5E
-	Valid from: 2012-12-20T06:25:07+0000
-	     until: 2022-12-20T06:25:07+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://scrootca1.ocsp.secomtrust.net
-CERTIFICATE
 Subject: /Certum Extended Validation CA/C=PL/O=Unizeto Technologies
     S.A./OU=Certum Certification Authority
 Issuer: /Certum Trusted Network CA 2/C=PL/O=Unizeto Technologies
