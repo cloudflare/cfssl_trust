@@ -3370,42 +3370,6 @@ Details:
 	OCSP server:
 		- http://ocsp.starfieldtech.com/
 CERTIFICATE
-Subject: /DigiCert Federated ID L3 CA/C=US/O=DigiCert Inc/OU=www.digicert.com
-Issuer: /DigiCert Federated Trust CA/C=US/O=DigiCert Inc/OU=www.digicert.com
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 12554541120588041717503843816621521321
-	AKI: 46:08:38:5A:A9:8E:20:BB:0C:AF:5E:31:BA:89:B3:28:BF:AC:8C:36
-	SKI: 8F:23:D3:C4:9C:EB:C2:A6:96:4E:3A:F1:CE:88:B2:8B:E2:93:54:12
-	Valid from: 2014-01-07T12:00:00+0000
-	     until: 2023-01-07T12:00:00+0000
-	Key usages: cert sign, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://cacerts.digicert.com/aiaDigiCertFederatedIDL3CApt.p7c
-	OCSP server:
-		- http://ocsp.digicert.com
-CERTIFICATE
-Subject: /DigiCert Federated ID L2 CA/C=US/O=DigiCert Inc/OU=www.digicert.com
-Issuer: /DigiCert Federated Trust CA/C=US/O=DigiCert Inc/OU=www.digicert.com
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 14680703213059204722471791952697300595
-	AKI: 46:08:38:5A:A9:8E:20:BB:0C:AF:5E:31:BA:89:B3:28:BF:AC:8C:36
-	SKI: 0A:26:20:51:17:91:0D:71:DB:3B:3E:5E:02:00:A0:E8:03:B6:55:19
-	Valid from: 2014-01-07T12:00:00+0000
-	     until: 2023-01-07T12:00:00+0000
-	Key usages: cert sign, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://cacerts.digicert.com/aiaDigiCertFederatedIDL2CApt.p7c
-	OCSP server:
-		- http://ocsp.digicert.com
-CERTIFICATE
 Subject: /Cybertrust Global Root/O=Cybertrust, Inc
 Issuer: /Cybertrust Global Root/O=Cybertrust, Inc
 	Signature algorithm: RSA / SHA256
@@ -3512,25 +3476,6 @@ Details:
 	SANs (0):
 	1 AIA:
 		http://cacerts.digicert.com/aiaMHINDirectCA.p7c
-	OCSP server:
-		- http://ocsp.digicert.com
-CERTIFICATE
-Subject: /DigiCert Federated ID US L3 CA/C=US/O=DigiCert
-    Inc/OU=www.digicert.com
-Issuer: /DigiCert Federated Trust CA/C=US/O=DigiCert Inc/OU=www.digicert.com
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 6002530423886891359595814625439909618
-	AKI: 46:08:38:5A:A9:8E:20:BB:0C:AF:5E:31:BA:89:B3:28:BF:AC:8C:36
-	SKI: 0A:8F:EE:01:66:73:5D:E2:23:ED:A8:29:E8:55:92:52:5A:D0:BE:88
-	Valid from: 2014-01-08T12:00:00+0000
-	     until: 2023-01-08T12:00:00+0000
-	Key usages: cert sign, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://cacerts.digicert.com/aiaDigiCertFederatedIDUSL3CApt.p7c
 	OCSP server:
 		- http://ocsp.digicert.com
 CERTIFICATE
