@@ -11879,26 +11879,6 @@ Details:
 	OCSP server:
 		- http://ocsp.ensuredca.com
 CERTIFICATE
-Subject: /Ensured Root CA/C=NL/O=Ensured B.V./L=Heerhugowaard/ST=Noord-Holland
-Issuer: /USERTrust RSA Certification Authority/C=US/O=The USERTRUST
-    Network/L=Jersey City/ST=New Jersey
-	Signature algorithm: RSA / SHA384
-Details:
-	Public key: RSA-4096
-	Serial number: 83569999647285597530259398446403690441
-	AKI: 53:79:BF:5A:AA:2B:4A:CF:54:80:E1:D8:9B:C0:9D:F2:B2:03:66:CB
-	SKI: 88:D4:98:EA:FA:66:50:F8:93:85:DF:60:4B:97:FE:2F:A9:30:DD:50
-	Valid from: 2016-11-02T00:00:00+0000
-	     until: 2023-01-21T23:59:59+0000
-	Key usages: cert sign, crl sign, digital signature
-	Extended usages: client auth, s/mime, timestamping
-	Basic constraints: valid, is a CA certificate, max path length 1
-	SANs (0):
-	1 AIA:
-		http://crt.usertrust.com/USERTrustRSAAddTrustCA.crt
-	OCSP server:
-		- http://ocsp.usertrust.com
-CERTIFICATE
 Subject: /QuoVadis PKIoverheid Organisatie Persoon CA - G3/C=NL/O=QuoVadis
     Trustlink B.V.
 Issuer: /Staat der Nederlanden Organisatie Persoon CA - G3/C=NL/O=Staat der
