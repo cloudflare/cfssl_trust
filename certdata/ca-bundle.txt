@@ -405,20 +405,6 @@ Details:
 	Basic constraints: valid, is a CA certificate
 	SANs (1): email:ec_acc@catcert.net
 CERTIFICATE
-Subject: /C=SI/O=POSTA/OU=POSTArCA
-Issuer: /C=SI/O=POSTA/OU=POSTArCA
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 1044616010
-	AKI: 3F:BD:CD:8E:DF:BE:D1:6B:65:44:3F:60:EC:EA:42:2E:30:70:1F:68
-	SKI: 3F:BD:CD:8E:DF:BE:D1:6B:65:44:3F:60:EC:EA:42:2E:30:70:1F:68
-	Valid from: 2003-02-07T10:36:58+0000
-	     until: 2023-02-07T11:06:58+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
 Subject: /TDC OCES CA/C=DK/O=TDC
 Issuer: /TDC OCES CA/C=DK/O=TDC
 	Signature algorithm: RSA / SHA1
