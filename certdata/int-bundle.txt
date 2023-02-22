@@ -6968,25 +6968,6 @@ Details:
 	OCSP server:
 		- http://ocsp.digicert.com
 CERTIFICATE
-Subject: /TrustID CA A12/C=US/O=IdenTrust
-Issuer: /IdenTrust Commercial Root CA 1/C=US/O=IdenTrust
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 332132215264540970575710729977816814907
-	AKI: ED:44:19:C0:D3:F0:06:8B:EE:A4:7B:BE:42:E7:26:54:C8:8E:36:76
-	SKI: A4:73:DA:EF:69:35:8A:75:CC:A0:19:7B:08:32:F8:6B:89:E4:42:EC
-	Valid from: 2015-02-18T22:25:19+0000
-	     until: 2023-02-18T22:25:19+0000
-	Key usages: cert sign, crl sign, digital signature
-	Extended usages: client auth, s/mime
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-	1 AIA:
-		http://validation.identrust.com/roots/commercialrootca1.p7c
-	OCSP server:
-		- http://commercial.ocsp.identrust.com
-CERTIFICATE
 Subject: /FR03/C=FR/O=DHIMYOTIS/OU=0002 48146308100036
 Issuer: /Certigna Root CA/C=FR/O=Dhimyotis/OU=0002 48146308100036
 	Signature algorithm: RSA / SHA256
@@ -7002,23 +6983,6 @@ Details:
 	SANs (0):
 	1 AIA:
 		http://autorite.certigna.fr/certignarootca.crt
-CERTIFICATE
-Subject: /NII Open Domain Code Signing CA/C=JP/O=National Institute of
-    Informatics/L=Academe
-Issuer: /C=JP/O=SECOM Trust.net/OU=Security Communication RootCA1
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 314159352
-	AKI: A0:73:49:99:68:DC:85:5B:65:E3:9B:28:2F:57:9F:BD:33:BC:07:48
-	SKI: 10:F8:38:D2:3C:2A:D4:A1:DB:28:34:88:6F:B3:B6:78:1E:05:DD:9E
-	Valid from: 2015-02-26T05:53:41+0000
-	     until: 2023-02-22T05:53:41+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://scrootca1.ocsp.secomtrust.net
 CERTIFICATE
 Subject: /XiPS CA2/C=JP/O=XiPS
 Issuer: /C=JP/O=SECOM Trust Systems CO.,LTD./OU=Security Communication RootCA2
