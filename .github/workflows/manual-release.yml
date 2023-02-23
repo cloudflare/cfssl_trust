@@ -36,7 +36,7 @@ jobs:
         run: |
           go install github.com/kisom/goutils/cmd/certdump@latest
           go install github.com/cloudflare/cfssl/cmd/...@latest
-          go install github.com/cloudflare/cfssl_trust/...@latest
+          go install github.com/cloudflare/cfssl_trust/...
       - name: Setup git user
         run: |
           git config --global user.name "$(git --no-pager log --format=format:'%an' -n 1)"
