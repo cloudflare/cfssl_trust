@@ -12,7 +12,7 @@ import (
 	"time"
 
 	"github.com/getsentry/raven-go"
-	"github.com/prometheus/client_golang/prometheus"
+	"github.com/prometheus/client_golang/prometheus/promhttp"
 )
 
 var (
@@ -127,7 +127,7 @@ func main() {
 	log.Printf("starting HTTP server on %s", address)
 
 	http.HandleFunc("/", index)
-	http.Handle("/prometheus", prometheus.Handler())
+	http.Handle("/prometheus", promhttp.Handler())
 	log.Fatal(http.ListenAndServe(address, nil))
 }
 
