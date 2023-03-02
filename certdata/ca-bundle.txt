@@ -3393,24 +3393,6 @@ Details:
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
-Subject: /E-Tugra Certification Authority/C=TR/O=E-Tuğra EBG Bilişim
-    Teknolojileri ve Hizmetleri A.Ş./OU=E-Tugra Sertifikasyon
-    Merkezi/L=Ankara
-Issuer: /E-Tugra Certification Authority/C=TR/O=E-Tuğra EBG Bilişim
-    Teknolojileri ve Hizmetleri A.Ş./OU=E-Tugra Sertifikasyon
-    Merkezi/L=Ankara
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-4096
-	Serial number: 7667447206703254355
-	AKI: 2E:E3:DB:B2:49:D0:9C:54:79:5C:FA:27:2A:FE:CC:4E:D2:E8:4E:54
-	SKI: 2E:E3:DB:B2:49:D0:9C:54:79:5C:FA:27:2A:FE:CC:4E:D2:E8:4E:54
-	Valid from: 2013-03-05T12:09:48+0000
-	     until: 2023-03-03T12:09:48+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
 Subject: /E-GUVEN Kok Elektronik Sertifika Hizmet Saglayicisi
     S2/C=TR/O=Elektronik Bilgi Guvenligi A.S.
 Issuer: /E-GUVEN Kok Elektronik Sertifika Hizmet Saglayicisi
