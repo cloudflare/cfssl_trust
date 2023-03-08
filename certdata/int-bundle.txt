@@ -2015,42 +2015,6 @@ Details:
 	OCSP server:
 		- http://ocsp.camerfirma.com
 CERTIFICATE
-Subject: /Symantec Class 2 SSP CA - G2/C=US/O=Symantec Corporation/OU=Symantec
-    Trust Network
-Issuer: /Symantec Class 2 Public Primary Certification Authority -
-    G6/C=US/O=Symantec Corporation/OU=Symantec Trust Network
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 7102422721846900149069984049577257623
-	AKI: 87:8C:20:95:C8:98:4A:D1:D6:80:06:4A:90:34:44:DF:1C:4D:BF:B0
-	SKI: 2E:02:E6:62:05:FB:EF:E7:54:23:2F:93:10:5C:01:63:BD:43:80:68
-	Valid from: 2013-03-21T00:00:00+0000
-	     until: 2023-03-20T23:59:59+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
-Subject: /NRC Basic CA G2/C=US/O=U.S. Nuclear Regulatory
-    Commission/OU=External Basic
-Issuer: /Symantec Class 2 SSP CA - G2/C=US/O=Symantec Corporation/OU=Symantec
-    Trust Network
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 124880359532855938148089228198279432474
-	AKI: 2E:02:E6:62:05:FB:EF:E7:54:23:2F:93:10:5C:01:63:BD:43:80:68
-	SKI: 8B:56:03:76:EA:83:8D:FC:F3:8E:94:2C:EA:13:9F:13:50:00:97:D0
-	Valid from: 2013-03-21T00:00:00+0000
-	     until: 2023-03-19T23:59:59+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://ssp-aia.symauth.com/Class2SSPCAG2/Certs_issued_to_Class2SSPCAG2.p7c
-	OCSP server:
-		- http://ssp-ocsp.symauth.com
-CERTIFICATE
 Subject: /SECOM Passport for Member PUB CA1/C=JP/O=SECOM Trust Systems
     CO.,LTD./OU=SECOM Passport for Member 2.0 PUB
 Issuer: /C=JP/O=SECOM Trust.net/OU=Security Communication RootCA1
@@ -7035,26 +6999,6 @@ Details:
 		http://ldap2.sheca.com/root/ucaevroot.der
 	OCSP server:
 		- http://ocsp3.sheca.com/evroot/ev.ocsp
-CERTIFICATE
-Subject: /Technical University of Crete CA R1/C=GR/O=Hellenic Academic and
-    Research Institutions Cert. Authority
-Issuer: /Hellenic Academic and Research Institutions RootCA
-    2011/C=GR/O=Hellenic Academic and Research Institutions Cert. Authority
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 1791737408682440309
-	AKI: A6:91:42:FD:13:61:4A:23:9E:08:A4:29:E5:D8:13:04:23:EE:41:25
-	SKI: 98:EA:0A:FD:65:31:EE:02:95:A7:AD:C8:7E:8F:55:0A:BC:60:5D:21
-	Valid from: 2015-03-18T12:50:53+0000
-	     until: 2023-03-16T12:50:53+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-	1 AIA:
-		http://www.harica.gr/certs/HaricaRootCA2011.crt
-	OCSP server:
-		- http://ocsp.harica.gr
 CERTIFICATE
 Subject: /C=JP/O=SECOM Trust Systems CO.,LTD./OU=Security Communication
     RootCA2

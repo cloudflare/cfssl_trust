@@ -3393,36 +3393,6 @@ Details:
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
-Subject: /E-GUVEN Kok Elektronik Sertifika Hizmet Saglayicisi
-    S2/C=TR/O=Elektronik Bilgi Guvenligi A.S.
-Issuer: /E-GUVEN Kok Elektronik Sertifika Hizmet Saglayicisi
-    S2/C=TR/O=Elektronik Bilgi Guvenligi A.S.
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 247828036233582610519939116134009799830
-	SKI: 96:3D:AD:18:3A:3F:D8:02:A4:B9:6D:3F:F5:07:B9:60:9C:DC:3F:03
-	Valid from: 2013-03-11T14:32:08+0000
-	     until: 2023-03-10T14:32:09+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
-Subject: /E-GUVEN Kok Elektronik Sertifika Hizmet Saglayicisi
-    S3/C=TR/O=Elektronik Bilgi Guvenligi A.S.
-Issuer: /E-GUVEN Kok Elektronik Sertifika Hizmet Saglayicisi
-    S3/C=TR/O=Elektronik Bilgi Guvenligi A.S.
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 143644933340692903688666041236524302807
-	SKI: E2:74:33:FF:1A:56:79:05:45:D8:21:C7:B0:2A:8A:87:E7:A4:78:B0
-	Valid from: 2013-03-11T14:39:35+0000
-	     until: 2023-03-10T14:39:35+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
 Subject: /ApplicationCA2 Root/C=JP/O=Japanese Government/OU=GPKI
 Issuer: /ApplicationCA2 Root/C=JP/O=Japanese Government/OU=GPKI
 	Signature algorithm: RSA / SHA256
