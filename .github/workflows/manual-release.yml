@@ -3,8 +3,8 @@ on:
   workflow_dispatch:
     inputs:
       expirationWindow:
-        description: 'Remove certs that expire in a forward looking window of N hours. e.g. Defaults to: "168h" (1 week)'
-        default: '168h'
+        description: 'Remove certs that expire in a forward looking window of N hours. e.g. Defaults to: "504h" (3 weeks)'
+        default: '504h'
         required: false
       addIntermediates:
         description: 'Adds certificates to the intermediates bundle'
@@ -34,8 +34,8 @@ jobs:
       - run: go version
       - name: Install dependencies
         run: |
-          go install github.com/kisom/goutils/cmd/certdump@latest
-          go install github.com/cloudflare/cfssl/cmd/...@latest
+          go install github.com/kisom/goutils/cmd/certdump
+          go install github.com/cloudflare/cfssl/cmd/...
           go install github.com/cloudflare/cfssl_trust/...
       - name: Setup git user
         run: |
@@ -60,6 +60,13 @@ jobs:
         with:
           source_branch: "release/${{ env.LATEST_RELEASE }}"
           destination_branch: "master"
-          pr_reviewer: "lgarofalo,maxnystrom,mihirjham,mitalirawat,nickysemenza"
-          pr_assignee: "lgarofalo,maxnystrom,mihirjham,mitalirawat,nickysemenza"
+          pr_reviewer: "lgarofalo,maxnystrom,mihirjham,vasilzhigilei,nickysemenza"
+          pr_assignee: "lgarofalo,maxnystrom,mihirjham,vasilzhigilei,nickysemenza"
           github_token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Google Chat Notification
+        uses: Co-qn/google-chat-notification@releases/v1
+        with:
+          name: Build
+          url: ${{ secrets.SSL_TEAM_GOOGLE_CHAT_WEBHOOK }}
+          status: ${{ job.status }}
+          if: always()
