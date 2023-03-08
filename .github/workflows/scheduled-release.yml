@@ -1,7 +1,7 @@
 name: Scheduled Release
 on:
   schedule:
-    - cron:  '0 16 * * 4' # every Thursday at 16:00 UTC
+    - cron:  '14 3 * * 0' # every Sunday at 03:14 UTC
 jobs:
   create_release:
     env:
@@ -18,16 +18,17 @@ jobs:
       - run: go version
       - name: Install dependencies
         run: |
-          go install github.com/kisom/goutils/cmd/certdump@latest
-          go install github.com/cloudflare/cfssl/cmd/...@latest
-          go install github.com/cloudflare/cfssl_trust/...@latest
+          go install github.com/kisom/goutils/cmd/certdump
+          go install github.com/cloudflare/cfssl/cmd/...
+          go install github.com/cloudflare/cfssl_trust/...
       - name: Setup git user
         run: |
           git config --global user.name "$(git --no-pager log --format=format:'%an' -n 1)"
           git config --global user.email "$(git --no-pager log --format=format:'%ae' -n 1)"
       - name: Run release
+      # 504h is 21d or 3w
         run: |
-          EXPIRATION_WINDOW=168h ALLOW_SKIP_PR=true ./release.sh
+          EXPIRATION_WINDOW=504h ALLOW_SKIP_PR=true ./release.sh 
           echo "LATEST_RELEASE=$(cfssl-trust -d cert.db releases | awk ' NR==1 { print $2 }')" >> $GITHUB_ENV
           echo "CREATE_PR=$(git branch --show-current | grep -q release && echo true)" >> $GITHUB_ENV
       - name: Create pull request
@@ -39,3 +40,10 @@ jobs:
           pr_reviewer: "lgarofalo,maxnystrom,mihirjham,vasilzhigilei,nickysemenza"
           pr_assignee: "lgarofalo,maxnystrom,mihirjham,vasilzhigilei,nickysemenza"
           github_token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Google Chat Notification
+        uses: Co-qn/google-chat-notification@releases/v1
+        with:
+          name: Build
+          url: ${{ secrets.SSL_TEAM_GOOGLE_CHAT_WEBHOOK }}
+          status: ${{ job.status }}
+          if: always()
