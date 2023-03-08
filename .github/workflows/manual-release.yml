@@ -55,6 +55,7 @@ jobs:
           echo "LATEST_RELEASE=$(cfssl-trust -d cert.db releases | awk ' NR==1 { print $2 }')" >> $GITHUB_ENV
           echo "CREATE_PR=$(git branch --show-current | grep -q release && echo true)" >> $GITHUB_ENV
       - name: Create pull request
+        id: open-pr
         if: ${{ env.CREATE_PR == 'true'}}
         uses: repo-sync/pull-request@v2
         with:
@@ -66,7 +67,7 @@ jobs:
       - name: Google Chat Notification
         uses: Co-qn/google-chat-notification@releases/v1
         with:
-          name: Build
+          name: Manual Release ${{steps.open-pr.outputs.pr_url}}
           url: ${{ secrets.SSL_TEAM_GOOGLE_CHAT_WEBHOOK }}
           status: ${{ job.status }}
           if: always()
