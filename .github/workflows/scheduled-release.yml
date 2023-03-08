@@ -36,6 +36,6 @@ jobs:
         with:
           source_branch: "release/${{ env.LATEST_RELEASE }}"
           destination_branch: "master"
-          pr_reviewer: "lgarofalo,maxnystrom,mihirjham,mitalirawat,nickysemenza"
-          pr_assignee: "lgarofalo,maxnystrom,mihirjham,mitalirawat,nickysemenza"
+          pr_reviewer: "lgarofalo,maxnystrom,mihirjham,vasilzhigilei,nickysemenza"
+          pr_assignee: "lgarofalo,maxnystrom,mihirjham,vasilzhigilei,nickysemenza"
           github_token: ${{ secrets.GITHUB_TOKEN }}
