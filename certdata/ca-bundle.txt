@@ -3424,23 +3424,6 @@ Details:
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
-Subject: /TÜRKTRUST Elektronik Sertifika Hizmet Sağlayıcısı
-    H5/C=TR/O=TÜRKTRUST Bilgi İletişim ve Bilişim Güvenliği Hizmetleri
-    A.Ş./L=Ankara
-Issuer: /TÜRKTRUST Elektronik Sertifika Hizmet Sağlayıcısı
-    H5/C=TR/O=TÜRKTRUST Bilgi İletişim ve Bilişim Güvenliği Hizmetleri
-    A.Ş./L=Ankara
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 156233699172481
-	SKI: 56:99:07:1E:D3:AC:0C:69:64:B4:0C:50:47:DE:43:2C:BE:20:C0:FB
-	Valid from: 2013-04-30T08:07:01+0000
-	     until: 2023-04-28T08:07:01+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
 Subject: /Signet Root CA/C=PL/O=Telekomunikacja Polska S.A./OU=Signet
     Certification Authority
 Issuer: /Signet Root CA/C=PL/O=Telekomunikacja Polska S.A./OU=Signet
