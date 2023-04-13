@@ -2035,48 +2035,6 @@ Details:
 	OCSP server:
 		- http://ocsp.comodoca.com
 CERTIFICATE
-Subject: /Atos TrustedRoot CodeSigning-CA 2013/C=DE/O=Atos
-Issuer: /Atos TrustedRoot 2011/C=DE/O=Atos
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 5248787350327669134
-	AKI: A7:A5:06:B1:2C:A6:09:60:EE:D1:97:E9:70:AE:BC:3B:19:6C:DB:21
-	SKI: 39:E2:B7:6D:C0:D1:7C:1C:DE:E1:3B:CF:F2:88:9F:FC:AA:73:B1:28
-	Valid from: 2013-05-02T13:28:00+0000
-	     until: 2023-04-30T13:28:00+0000
-	Key usages: cert sign, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
-Subject: /Atos TrustedRoot Server-CA 2013/C=DE/O=Atos
-Issuer: /Atos TrustedRoot 2011/C=DE/O=Atos
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 3527573743682962884
-	AKI: A7:A5:06:B1:2C:A6:09:60:EE:D1:97:E9:70:AE:BC:3B:19:6C:DB:21
-	SKI: 89:DB:0C:4B:E3:4E:4D:FF:21:2D:0F:E6:23:12:36:22:8E:3E:6F:0C
-	Valid from: 2013-05-02T13:30:07+0000
-	     until: 2023-04-30T13:30:07+0000
-	Key usages: cert sign, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
-Subject: /Atos TrustedRoot Client-CA 2013/C=DE/O=Atos
-Issuer: /Atos TrustedRoot 2011/C=DE/O=Atos
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 8086240280928858394
-	AKI: A7:A5:06:B1:2C:A6:09:60:EE:D1:97:E9:70:AE:BC:3B:19:6C:DB:21
-	SKI: 90:ED:73:C3:E8:52:D1:5B:0C:EC:49:3B:89:C9:BC:2D:3A:65:BE:93
-	Valid from: 2013-05-02T13:56:14+0000
-	     until: 2023-04-30T13:56:14+0000
-	Key usages: cert sign, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
 Subject: /GeoTrust SHA256 SSL CA/C=US/O=GeoTrust Inc.
 Issuer: /GeoTrust Primary Certification Authority - G3/C=US/O=GeoTrust
     Inc./OU=(c) 2008 GeoTrust Inc. - For authorized use only
@@ -2293,36 +2251,6 @@ Details:
 		http://cacerts.digicert.com/aiaDigiCertAccreditedDirectMedCA.p7c
 	OCSP server:
 		- http://ocsp.digicert.com
-CERTIFICATE
-Subject: /SECOM Passport for Member PUB CA2/C=JP/O=SECOM Trust Systems
-    CO.,LTD./OU=SECOM Passport for Member 2.0 PUB
-Issuer: /C=JP/O=SECOM Trust.net/OU=Security Communication RootCA1
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 314159342
-	AKI: A0:73:49:99:68:DC:85:5B:65:E3:9B:28:2F:57:9F:BD:33:BC:07:48
-	SKI: 2B:70:F9:FC:29:A6:CD:B3:F8:3B:0F:2C:AE:E8:93:ED:F0:3F:16:B5
-	Valid from: 2013-08-20T01:21:11+0000
-	     until: 2023-08-20T01:21:11+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-CERTIFICATE
-Subject: /SECOM Passport for Member PUB CA3/C=JP/O=SECOM Trust Systems
-    CO.,LTD./OU=SECOM Passport for Member 2.0 PUB
-Issuer: /C=JP/O=SECOM Trust.net/OU=Security Communication RootCA1
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 314159343
-	AKI: A0:73:49:99:68:DC:85:5B:65:E3:9B:28:2F:57:9F:BD:33:BC:07:48
-	SKI: AC:5C:9A:59:73:AC:FA:24:F8:72:68:45:30:3F:59:87:1B:A9:D4:26
-	Valid from: 2013-08-20T01:29:56+0000
-	     until: 2023-08-20T01:29:56+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
 CERTIFICATE
 Subject: /D-TRUST Application Certificates CA 3-1 2013/C=DE/O=D-Trust GmbH
 Issuer: /D-TRUST Root CA 3 2013/C=DE/O=D-Trust GmbH
@@ -2872,20 +2800,6 @@ Details:
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
 CERTIFICATE
-Subject: /SECOM Passport for Web SR 3.0 CA/C=JP/O=SECOM Trust Systems CO.,LTD.
-Issuer: /C=JP/O=SECOM Trust Systems CO.,LTD./OU=Security Communication RootCA2
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 582594749
-	AKI: 0A:85:A9:77:65:05:98:7C:40:81:F8:0F:97:2C:38:F1:0A:EC:3C:CF
-	SKI: C7:8C:C6:0E:E6:00:AF:74:B9:65:3A:FC:26:09:E5:13:03:C6:D8:2F
-	Valid from: 2013-12-06T04:37:14+0000
-	     until: 2023-12-06T04:37:14+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-CERTIFICATE
 Subject: /Symantec Class 3 SHA256 Code Signing CA/C=US/O=Symantec
     Corporation/OU=Symantec Trust Network
 Issuer: /VeriSign Class 3 Public Primary Certification Authority -
@@ -3023,22 +2937,6 @@ Details:
 		http://trust.quovadisglobal.com/qvrca2.crt
 	OCSP server:
 		- http://ocsp.quovadisglobal.com
-CERTIFICATE
-Subject: /EINS/PKI Public Certification Authority V2/C=JP/O=INTEC INC.
-Issuer: /C=JP/O=SECOM Trust.net/OU=Security Communication RootCA1
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 314159345
-	AKI: A0:73:49:99:68:DC:85:5B:65:E3:9B:28:2F:57:9F:BD:33:BC:07:48
-	SKI: DC:FE:B5:80:98:19:14:AC:8D:AA:B3:80:43:C5:20:75:65:26:CE:8F
-	Valid from: 2013-12-24T05:23:04+0000
-	     until: 2023-12-24T05:23:04+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://scrootca1.ocsp.secomtrust.net
 CERTIFICATE
 Subject: /Go Daddy Root Certificate Authority - G2/C=US/O=GoDaddy.com,
     Inc./L=Scottsdale/ST=Arizona
@@ -3943,23 +3841,6 @@ Details:
 		- http://rootca2009-ocsp2.e-szigno.hu
 		- http://rootca2009-ocsp3.e-szigno.hu
 CERTIFICATE
-Subject: /SECOM Passport for Code Signing CA/C=JP/O=SECOM Trust Systems
-    CO.,LTD.
-Issuer: /C=JP/O=SECOM Trust.net/OU=Security Communication RootCA1
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 314159348
-	AKI: A0:73:49:99:68:DC:85:5B:65:E3:9B:28:2F:57:9F:BD:33:BC:07:48
-	SKI: 36:F8:37:0C:7D:12:B8:4A:BE:D0:3D:48:B1:86:93:3F:58:B9:8F:D6
-	Valid from: 2014-07-23T05:44:00+0000
-	     until: 2024-07-23T05:44:00+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://scrootca1.ocsp.secomtrust.net
-CERTIFICATE
 Subject: /NCC Group Secure Server CA G2/C=US/O=NCC Group
 Issuer: /DigiCert High Assurance EV Root CA/C=US/O=DigiCert
     Inc/OU=www.digicert.com
@@ -4130,38 +4011,6 @@ Details:
 	SANs (0):
 	OCSP server:
 		- http://ocsp.entrust.net
-CERTIFICATE
-Subject: /SECOM Passport for Web EV 2.0 CA/C=JP/O=SECOM Trust Systems CO.,LTD.
-Issuer: /C=JP/O=SECOM Trust Systems CO.,LTD./OU=Security Communication RootCA2
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 582594758
-	AKI: 0A:85:A9:77:65:05:98:7C:40:81:F8:0F:97:2C:38:F1:0A:EC:3C:CF
-	SKI: 16:4B:FB:0C:97:38:8A:18:5A:54:A1:46:CF:89:24:47:CC:C4:76:B3
-	Valid from: 2014-09-03T04:39:52+0000
-	     until: 2024-09-03T04:39:52+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://scrootca2.ocsp.secomtrust.net
-CERTIFICATE
-Subject: /SECOM Passport for Web SR 3.0 CA/C=JP/O=SECOM Trust Systems CO.,LTD.
-Issuer: /C=JP/O=SECOM Trust Systems CO.,LTD./OU=Security Communication RootCA2
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 582594759
-	AKI: 0A:85:A9:77:65:05:98:7C:40:81:F8:0F:97:2C:38:F1:0A:EC:3C:CF
-	SKI: C7:8C:C6:0E:E6:00:AF:74:B9:65:3A:FC:26:09:E5:13:03:C6:D8:2F
-	Valid from: 2014-09-03T04:47:25+0000
-	     until: 2024-09-03T04:47:25+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://scrootca2.ocsp.secomtrust.net
 CERTIFICATE
 Subject: /SSL Blindado 2/C=BR/O=Site Blindado S.A./OU=Certificação
     Digital/L=São Paulo/ST=SP
@@ -6340,22 +6189,6 @@ Details:
 	OCSP server:
 		- http://scrootca2.ocsp.secomtrust.net
 CERTIFICATE
-Subject: /EINS/PKI Public Certification Authority V3/C=JP/O=INTEC INC.
-Issuer: /C=JP/O=SECOM Trust Systems CO.,LTD./OU=Security Communication RootCA2
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 582594762
-	AKI: 0A:85:A9:77:65:05:98:7C:40:81:F8:0F:97:2C:38:F1:0A:EC:3C:CF
-	SKI: 62:39:30:D5:7C:64:3D:88:16:FB:9E:1D:8B:BE:73:87:02:5B:2E:0D
-	Valid from: 2014-12-16T07:16:00+0000
-	     until: 2024-12-16T07:16:00+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://scrootca2.ocsp.secomtrust.net
-CERTIFICATE
 Subject: /Camerfirma AAPP II - 2014/C=ES/O=AC Camerfirma
     S.A./OU=AC CAMERFIRMA/L=Madrid (see current address at
     https://www.camerfirma.com/address)
@@ -6377,55 +6210,6 @@ Details:
 		http://www.camerfirma.com/certs/root_chambers-2008.crt
 	OCSP server:
 		- http://ocsp.camerfirma.com
-CERTIFICATE
-Subject: /NII Open Domain CA - G4/C=JP/O=National Institute of
-    Informatics/L=Academe
-Issuer: /C=JP/O=SECOM Trust Systems CO.,LTD./OU=Security Communication RootCA2
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 582594764
-	AKI: 0A:85:A9:77:65:05:98:7C:40:81:F8:0F:97:2C:38:F1:0A:EC:3C:CF
-	SKI: 19:0B:6F:39:1F:31:03:34:5F:E4:D2:40:1F:37:E6:8D:E7:62:39:7C
-	Valid from: 2014-12-25T05:29:42+0000
-	     until: 2024-12-25T05:29:42+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://scrootca2.ocsp.secomtrust.net
-CERTIFICATE
-Subject: /CrossTrust OV CA3/C=JP/O=CrossTrust
-Issuer: /C=JP/O=SECOM Trust Systems CO.,LTD./OU=Security Communication RootCA2
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 582594765
-	AKI: 0A:85:A9:77:65:05:98:7C:40:81:F8:0F:97:2C:38:F1:0A:EC:3C:CF
-	SKI: AC:C2:A9:B5:D9:A6:96:84:E7:93:2D:BE:14:96:AA:AD:4C:1D:49:8C
-	Valid from: 2014-12-25T05:36:22+0000
-	     until: 2024-12-25T05:36:22+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://scrootca2.ocsp.secomtrust.net
-CERTIFICATE
-Subject: /CrossTrust DV CA3/C=JP/O=CrossTrust
-Issuer: /C=JP/O=SECOM Trust Systems CO.,LTD./OU=Security Communication RootCA2
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 582594766
-	AKI: 0A:85:A9:77:65:05:98:7C:40:81:F8:0F:97:2C:38:F1:0A:EC:3C:CF
-	SKI: BD:CB:C5:95:E3:7C:BD:44:C7:56:2D:88:37:18:C9:0D:01:85:0C:4F
-	Valid from: 2014-12-25T05:42:22+0000
-	     until: 2024-12-25T05:42:22+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://scrootca2.ocsp.secomtrust.net
 CERTIFICATE
 Subject: /HydrantID EV SSL ICA G1/C=US/O=HydrantID (Avalanche Cloud
     Corporation)
@@ -6690,22 +6474,6 @@ Details:
 	1 AIA:
 		http://autorite.certigna.fr/certignarootca.crt
 CERTIFICATE
-Subject: /XiPS CA2/C=JP/O=XiPS
-Issuer: /C=JP/O=SECOM Trust Systems CO.,LTD./OU=Security Communication RootCA2
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 582594775
-	AKI: 0A:85:A9:77:65:05:98:7C:40:81:F8:0F:97:2C:38:F1:0A:EC:3C:CF
-	SKI: E9:D0:6C:0F:67:4A:A4:4D:15:E6:E8:98:06:C7:55:36:6C:C6:62:FF
-	Valid from: 2015-02-26T06:36:20+0000
-	     until: 2025-02-26T06:36:20+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://scrootca2.ocsp.secomtrust.net
-CERTIFICATE
 Subject: /The University of Texas Health Science Center at Houston
     RSA CA/C=US/O=The University of Texas Health Science Center at
     Houston/L=Houston/ST=TX
@@ -6894,23 +6662,6 @@ Details:
 	OCSP server:
 		- http://ocsp3.sheca.com/evroot/ev.ocsp
 CERTIFICATE
-Subject: /C=JP/O=SECOM Trust Systems CO.,LTD./OU=Security Communication
-    RootCA2
-Issuer: /C=JP/O=SECOM Trust.net/OU=Security Communication RootCA1
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 345421863190995159238
-	AKI: A0:73:49:99:68:DC:85:5B:65:E3:9B:28:2F:57:9F:BD:33:BC:07:48
-	SKI: 0A:85:A9:77:65:05:98:7C:40:81:F8:0F:97:2C:38:F1:0A:EC:3C:CF
-	Valid from: 2015-03-24T02:22:35+0000
-	     until: 2023-09-29T02:22:35+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-	OCSP server:
-		- http://scrootca1.ocsp.secomtrust.net
-CERTIFICATE
 Subject: /CFCA OV OCA/C=CN/O=China Financial Certification Authority
 Issuer: /CFCA EV ROOT/C=CN/O=China Financial Certification Authority
 	Signature algorithm: RSA / SHA256
@@ -6927,23 +6678,6 @@ Details:
 	SANs (0):
 	OCSP server:
 		- http://ocsp.cfca.com.cn/ocsp
-CERTIFICATE
-Subject: /KDDI Web Communications Certification Authority/C=JP/O=KDDI Web
-    Communications Inc.
-Issuer: /C=JP/O=SECOM Trust Systems CO.,LTD./OU=Security Communication RootCA2
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 582594776
-	AKI: 0A:85:A9:77:65:05:98:7C:40:81:F8:0F:97:2C:38:F1:0A:EC:3C:CF
-	SKI: 6D:9D:1F:00:11:1A:4D:00:AA:B4:4A:44:60:22:CA:EE:F2:5D:EB:F2
-	Valid from: 2015-03-26T06:45:34+0000
-	     until: 2025-03-26T06:45:34+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://scrootca2.ocsp.secomtrust.net
 CERTIFICATE
 Subject: /AffirmTrust Networking Extended Validation
     CA/C=US/O=AffirmTrust/OU=http://www.affirmtrust.com/resources
@@ -7124,66 +6858,6 @@ Details:
 	SANs (0):
 	OCSP server:
 		- http://ocsp2.globalsign.com/rootr5
-CERTIFICATE
-Subject: /National and Kapodistrian University of Athens CA R2/C=GR/O=Hellenic
-    Academic and Research Institutions Cert. Authority
-Issuer: /Hellenic Academic and Research Institutions RootCA
-    2011/C=GR/O=Hellenic Academic and Research Institutions Cert. Authority
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 1791737408682440311
-	AKI: A6:91:42:FD:13:61:4A:23:9E:08:A4:29:E5:D8:13:04:23:EE:41:25
-	SKI: 5C:FB:C3:CE:48:83:FC:91:49:F6:92:10:EA:72:47:61:F2:23:BE:62
-	Valid from: 2015-05-05T13:24:53+0000
-	     until: 2023-05-03T13:24:53+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-	1 AIA:
-		http://www.harica.gr/certs/HaricaRootCA2011.crt
-	OCSP server:
-		- http://ocsp.harica.gr
-CERTIFICATE
-Subject: /Greek Academic Network CA R2/C=GR/O=Hellenic Academic and Research
-    Institutions Cert. Authority
-Issuer: /Hellenic Academic and Research Institutions RootCA
-    2011/C=GR/O=Hellenic Academic and Research Institutions Cert. Authority
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 1791737408682440312
-	AKI: A6:91:42:FD:13:61:4A:23:9E:08:A4:29:E5:D8:13:04:23:EE:41:25
-	SKI: AA:74:EC:F1:8A:27:4E:19:42:08:37:09:94:54:64:CE:D8:AC:9A:9C
-	Valid from: 2015-05-05T13:26:44+0000
-	     until: 2023-05-03T13:26:44+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-	1 AIA:
-		http://www.harica.gr/certs/HaricaRootCA2011.crt
-	OCSP server:
-		- http://ocsp.harica.gr
-CERTIFICATE
-Subject: /Aristotle University of Thessaloniki Central CA R5/C=GR/O=Aristotle
-    University of Thessaloniki
-Issuer: /Hellenic Academic and Research Institutions RootCA
-    2011/C=GR/O=Hellenic Academic and Research Institutions Cert. Authority
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 1791737408682440313
-	AKI: A6:91:42:FD:13:61:4A:23:9E:08:A4:29:E5:D8:13:04:23:EE:41:25
-	SKI: 74:91:84:CD:8F:9B:C5:C8:FB:3E:A3:74:F2:4E:74:BB:F9:9A:EE:46
-	Valid from: 2015-05-05T13:35:54+0000
-	     until: 2023-05-03T13:35:54+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-	1 AIA:
-		http://www.harica.gr/certs/HaricaRootCA2011.crt
-	OCSP server:
-		- http://ocsp.harica.gr
 CERTIFICATE
 Subject: /ACCVCA-110/C=ES/O=ACCV/OU=PKIACCV
 Issuer: /ACCVRAIZ1/C=ES/O=ACCV/OU=PKIACCV
@@ -7458,38 +7132,6 @@ Details:
 		http://crt.rootg2.amazontrust.com/rootg2.cer
 	OCSP server:
 		- http://ocsp.rootg2.amazontrust.com
-CERTIFICATE
-Subject: /YourNet SSL for business2/C=JP/O=FreeBit Co.,Ltd.
-Issuer: /C=JP/O=SECOM Trust Systems CO.,LTD./OU=Security Communication RootCA2
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 582594779
-	AKI: 0A:85:A9:77:65:05:98:7C:40:81:F8:0F:97:2C:38:F1:0A:EC:3C:CF
-	SKI: 0B:26:26:EE:BE:EB:D6:13:CF:4F:07:09:DD:2B:A4:DD:B0:92:D7:EC
-	Valid from: 2015-05-27T05:27:17+0000
-	     until: 2025-05-27T05:27:17+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://scrootca2.ocsp.secomtrust.net
-CERTIFICATE
-Subject: /YourNet SSL for domain2/C=JP/O=FreeBit Co.,Ltd.
-Issuer: /C=JP/O=SECOM Trust Systems CO.,LTD./OU=Security Communication RootCA2
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 582594780
-	AKI: 0A:85:A9:77:65:05:98:7C:40:81:F8:0F:97:2C:38:F1:0A:EC:3C:CF
-	SKI: 14:B3:91:65:50:06:79:6B:E8:9D:5D:06:46:66:B3:A9:F3:81:1A:CF
-	Valid from: 2015-05-27T05:33:50+0000
-	     until: 2025-05-27T05:33:50+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://scrootca2.ocsp.secomtrust.net
 CERTIFICATE
 Subject: /AAMC Direct Intermediate CA/C=US/O=Anne Arundel Medical
     Center/OU=AAMC Direct Messaging
@@ -8237,54 +7879,6 @@ Details:
 	OCSP server:
 		- http://ocsp.affirmtrust.com/prem
 CERTIFICATE
-Subject: /FUJIFILM Fnet CA - S/C=JP/O=FUJIFILM
-Issuer: /C=JP/O=SECOM Trust Systems CO.,LTD./OU=Security Communication RootCA2
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 640569744967407541966
-	AKI: 0A:85:A9:77:65:05:98:7C:40:81:F8:0F:97:2C:38:F1:0A:EC:3C:CF
-	SKI: AD:D0:89:0F:2A:16:3B:36:D1:04:7E:8F:BA:D5:7C:30:97:0B:17:4A
-	Valid from: 2015-09-18T04:51:07+0000
-	     until: 2025-09-18T04:51:07+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://scrootca2.ocsp.secomtrust.net
-CERTIFICATE
-Subject: /Fuji Xerox Xnet CA - S/C=JP/O=Fuji Xerox
-Issuer: /C=JP/O=SECOM Trust Systems CO.,LTD./OU=Security Communication RootCA2
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 640569746029131582998
-	AKI: 0A:85:A9:77:65:05:98:7C:40:81:F8:0F:97:2C:38:F1:0A:EC:3C:CF
-	SKI: F4:2B:E7:9D:57:27:8D:0A:85:E0:1C:29:9A:F8:98:CA:39:93:EF:3D
-	Valid from: 2015-09-18T04:57:25+0000
-	     until: 2025-09-18T04:57:25+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://scrootca2.ocsp.secomtrust.net
-CERTIFICATE
-Subject: /Fuji Xerox Product CA - S/C=JP/O=Fuji Xerox
-Issuer: /C=JP/O=SECOM Trust Systems CO.,LTD./OU=Security Communication RootCA2
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 640569746986847444293
-	AKI: 0A:85:A9:77:65:05:98:7C:40:81:F8:0F:97:2C:38:F1:0A:EC:3C:CF
-	SKI: FB:1E:32:D0:74:12:4F:71:F6:9B:9D:58:D8:31:84:1B:9E:31:20:E3
-	Valid from: 2015-09-18T05:03:21+0000
-	     until: 2025-09-18T05:03:21+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://scrootca2.ocsp.secomtrust.net
-CERTIFICATE
 Subject: /Mass HIway CA/C=US/O=Massachusetts Health Information Highway (Mass
     HIway)/OU=Orion Health Direct Secure Messaging
 Issuer: /Orion Health Direct Secure Messaging CA/C=US/O=Orion Health
@@ -8891,23 +8485,6 @@ Details:
 		http://www.camerfirma.com/certs/root_chambersign-2008.crt
 	OCSP server:
 		- http://ocsp.camerfirma.com
-CERTIFICATE
-Subject: /SMBC Certificate Authority CA2/C=JP/O=Sumitomo Mitsui Banking
-    Corporation/OU=SMBC Authority
-Issuer: /C=JP/O=SECOM Trust Systems CO.,LTD./OU=Security Communication RootCA2
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 640569751077190511124
-	AKI: 0A:85:A9:77:65:05:98:7C:40:81:F8:0F:97:2C:38:F1:0A:EC:3C:CF
-	SKI: 5F:2B:8D:9D:BA:6B:0C:AD:E1:5F:17:61:64:48:A0:95:2A:96:F0:87
-	Valid from: 2015-11-25T06:38:29+0000
-	     until: 2025-11-25T06:38:29+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://scrootca2.ocsp.secomtrust.net
 CERTIFICATE
 Subject: /DigitalSign Primary CA/C=PT/O=DigitalSign Certificadora
     Digital/L=Guimaraes (see current address at www.digitalsign.pt)
@@ -9530,22 +9107,6 @@ Details:
 	OCSP server:
 		- http://ocsp.harica.gr
 CERTIFICATE
-Subject: /SECOM Passport for Web MH CA/C=JP/O=SECOM Trust Systems CO.,LTD.
-Issuer: /C=JP/O=SECOM Trust Systems CO.,LTD./OU=Security Communication RootCA2
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 640569755622985098515
-	AKI: 0A:85:A9:77:65:05:98:7C:40:81:F8:0F:97:2C:38:F1:0A:EC:3C:CF
-	SKI: 20:04:51:36:1D:CB:D1:2F:79:89:AD:8B:C9:B2:DE:FA:EB:95:2A:4D
-	Valid from: 2015-12-30T05:04:08+0000
-	     until: 2025-12-30T05:04:08+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://scrootca2.ocsp.secomtrust.net
-CERTIFICATE
 Subject: /nazwaSSL/C=PL/O=nazwa.pl sp. z o.o./OU=http://nazwa.pl
 Issuer: /Certum Global Services CA SHA2/C=PL/O=Unizeto Technologies
     S.A./OU=Certum Certification Authority
@@ -10074,22 +9635,6 @@ Details:
 	OCSP server:
 		- http://ocsp.comodoca.com
 CERTIFICATE
-Subject: /SECOM TimeStamping CA2/C=JP/O=SECOM Trust Systems CO.,LTD.
-Issuer: /C=JP/O=SECOM Trust Systems CO.,LTD./OU=Security Communication RootCA2
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 640569762469797213578
-	AKI: 0A:85:A9:77:65:05:98:7C:40:81:F8:0F:97:2C:38:F1:0A:EC:3C:CF
-	SKI: 07:4D:13:7D:EA:B7:FA:ED:93:D4:93:77:3F:58:13:00:CB:E1:23:89
-	Valid from: 2016-03-29T05:18:39+0000
-	     until: 2026-03-29T05:18:39+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://scrootca2.ocsp.secomtrust.net
-CERTIFICATE
 Subject: /GDCA TrustAUTH R4 DV SSL CA/C=CN/O=Global Digital Cybersecurity
     Authority Co., Ltd.
 Issuer: /GDCA TrustAUTH R5 ROOT/C=CN/O=GUANG DONG CERTIFICATE AUTHORITY
@@ -10231,40 +9776,6 @@ Details:
 		http://www.gdca.com.cn/cert/GDCA_TrustAUTH_R5_ROOT.der
 	OCSP server:
 		- http://ocsp3.gdca.com.cn/ev
-CERTIFICATE
-Subject: /JPRS Organization Validation Authority - G1/C=JP/O=Japan Registry
-    Services Co., Ltd.
-Issuer: /C=JP/O=SECOM Trust Systems CO.,LTD./OU=Security Communication RootCA2
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 640569764194986017730
-	AKI: 0A:85:A9:77:65:05:98:7C:40:81:F8:0F:97:2C:38:F1:0A:EC:3C:CF
-	SKI: 65:C5:05:EE:38:C9:FD:64:32:FB:08:17:07:F6:6B:F9:85:8F:99:B0
-	Valid from: 2016-04-06T05:33:46+0000
-	     until: 2026-04-06T05:33:46+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://scrootca2.ocsp.secomtrust.net
-CERTIFICATE
-Subject: /JPRS Domain Validation Authority - G1/C=JP/O=Japan Registry Services
-    Co., Ltd.
-Issuer: /C=JP/O=SECOM Trust Systems CO.,LTD./OU=Security Communication RootCA2
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 640569764704540192396
-	AKI: 0A:85:A9:77:65:05:98:7C:40:81:F8:0F:97:2C:38:F1:0A:EC:3C:CF
-	SKI: 4B:74:3D:00:CB:EF:F6:57:5C:B6:B6:F1:5A:91:22:7B:A4:C9:87:B3
-	Valid from: 2016-04-06T05:43:13+0000
-	     until: 2026-04-06T05:43:13+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://scrootca2.ocsp.secomtrust.net
 CERTIFICATE
 Subject: /GDCA TrustAUTH R4 EV CodeSigning CA/C=CN/O=Global Digital
     Cybersecurity Authority Co., Ltd.
@@ -11051,22 +10562,6 @@ Details:
 	OCSP server:
 		- http://s.symcd.com
 CERTIFICATE
-Subject: /FujiSSL Public Certification Authority - G1/C=JP/O=Nijimo, Inc.
-Issuer: /C=JP/O=SECOM Trust Systems CO.,LTD./OU=Security Communication RootCA2
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 640569770989854145344
-	AKI: 0A:85:A9:77:65:05:98:7C:40:81:F8:0F:97:2C:38:F1:0A:EC:3C:CF
-	SKI: 82:2E:30:32:24:87:93:5F:02:21:56:07:D7:47:40:9B:06:9F:FB:5A
-	Valid from: 2016-08-16T05:13:31+0000
-	     until: 2026-08-16T05:13:31+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://scrootca2.ocsp.secomtrust.net
-CERTIFICATE
 Subject: /Beame.io CA 2/C=IL/O=Beame.io Ltd/L=Tel Aviv-Jaffa/ST=Tel Aviv
 Issuer: /Trusted Root CA SHA256 G2/C=BE/O=GlobalSign nv-sa/OU=Trusted Root
 	Signature algorithm: RSA / SHA256
@@ -11254,38 +10749,6 @@ Details:
 		http://ssl.trustwave.com/issuers/STCA.crt
 	OCSP server:
 		- http://ocsp.trustwave.com
-CERTIFICATE
-Subject: /Fuji Xerox Xnet CA - C/C=JP/O=Fuji Xerox
-Issuer: /C=JP/O=SECOM Trust Systems CO.,LTD./OU=Security Communication RootCA2
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 640569771183952838694
-	AKI: 0A:85:A9:77:65:05:98:7C:40:81:F8:0F:97:2C:38:F1:0A:EC:3C:CF
-	SKI: C1:C4:E2:A9:18:B9:63:7B:1F:5E:2F:F8:0E:A7:63:D3:57:7A:31:30
-	Valid from: 2016-09-08T04:58:20+0000
-	     until: 2026-09-08T04:58:20+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://scrootca2.ocsp.secomtrust.net
-CERTIFICATE
-Subject: /FUJIFILM Fnet CA - C/C=JP/O=FUJIFILM
-Issuer: /C=JP/O=SECOM Trust Systems CO.,LTD./OU=Security Communication RootCA2
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 640569772858450736076
-	AKI: 0A:85:A9:77:65:05:98:7C:40:81:F8:0F:97:2C:38:F1:0A:EC:3C:CF
-	SKI: 79:0C:38:64:9F:35:42:E4:EC:42:7A:24:C2:33:2D:FB:E0:B3:5C:96
-	Valid from: 2016-09-08T05:08:05+0000
-	     until: 2026-09-08T05:08:05+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://scrootca2.ocsp.secomtrust.net
 CERTIFICATE
 Subject: /SwissSign Qualified Platinum CA G22 16-1/C=CH/O=SwissSign AG
 Issuer: /SwissSign Platinum CA - G2/C=CH/O=SwissSign AG
@@ -12244,23 +11707,6 @@ Details:
 	OCSP server:
 		- http://ocsp.usertrust.com
 CERTIFICATE
-Subject: /NII Open Domain S/MIME CA/C=JP/O=National Institute of
-    Informatics/L=Academe
-Issuer: /C=JP/O=SECOM Trust Systems CO.,LTD./OU=Security Communication RootCA2
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 640569783150099471823
-	AKI: 0A:85:A9:77:65:05:98:7C:40:81:F8:0F:97:2C:38:F1:0A:EC:3C:CF
-	SKI: F3:30:D2:3A:C2:18:D8:BC:3F:F7:2B:5E:2D:34:60:C0:A7:5F:4F:B2
-	Valid from: 2016-12-21T06:38:33+0000
-	     until: 2026-12-21T06:38:33+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://scrootca2.ocsp.secomtrust.net
-CERTIFICATE
 Subject: /DigiCert EV Server CA G4/C=US/O=DigiCert  Inc/OU=www.digicert.com
 Issuer: /DigiCert Trusted Root G4/C=US/O=DigiCert Inc/OU=www.digicert.com
 	Signature algorithm: RSA / SHA384
@@ -12389,40 +11835,6 @@ Details:
 	SANs (0):
 	1 AIA:
 		https://pki.adacom.com/repository/en/certs/production/files/pca-2-g6-en.crt
-CERTIFICATE
-Subject: /SECOM Passport for Member PUB CA7/C=JP/O=SECOM Trust Systems
-    CO.,LTD./OU=SECOM Passport for Member 2.0 PUB
-Issuer: /C=JP/O=SECOM Trust Systems CO.,LTD./OU=Security Communication RootCA2
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 640569791061895180759
-	AKI: 0A:85:A9:77:65:05:98:7C:40:81:F8:0F:97:2C:38:F1:0A:EC:3C:CF
-	SKI: BD:08:5E:25:84:9C:FD:35:24:D8:1D:C7:30:6C:78:9D:C1:A4:BB:20
-	Valid from: 2017-03-24T06:30:31+0000
-	     until: 2027-03-24T06:30:31+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://scrootca2.ocsp.secomtrust.net
-CERTIFICATE
-Subject: /Certification Authority/C=JP/O=Japanese Government/OU=Ministry of
-    Defense
-Issuer: /C=JP/O=SECOM Trust Systems CO.,LTD./OU=Security Communication RootCA2
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 640569792091083301432
-	AKI: 0A:85:A9:77:65:05:98:7C:40:81:F8:0F:97:2C:38:F1:0A:EC:3C:CF
-	SKI: 92:70:06:9D:B9:28:3F:C8:31:E6:EA:59:9F:4F:3F:33:7F:C7:36:5E
-	Valid from: 2017-03-24T06:40:14+0000
-	     until: 2027-03-24T06:40:14+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://scrootca2.ocsp.secomtrust.net
 CERTIFICATE
 Subject: /SSL.com EV Root Certification Authority RSA R2/C=US/O=SSL
     Corporation/L=Houston/ST=Texas
@@ -15562,40 +14974,6 @@ Details:
 	OCSP server:
 		- http://ocsp.emsign.com
 CERTIFICATE
-Subject: /JPRS Organization Validation Authority - G2/C=JP/O=Japan Registry
-    Services Co., Ltd.
-Issuer: /C=JP/O=SECOM Trust Systems CO.,LTD./OU=Security Communication RootCA2
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 640569823981372509236
-	AKI: 0A:85:A9:77:65:05:98:7C:40:81:F8:0F:97:2C:38:F1:0A:EC:3C:CF
-	SKI: E2:5D:36:4D:26:BA:EC:17:C6:26:90:F4:C8:B8:FF:37:7D:5A:00:02
-	Valid from: 2018-03-09T05:43:03+0000
-	     until: 2028-03-09T05:43:03+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://scrootca2.ocsp.secomtrust.net
-CERTIFICATE
-Subject: /JPRS Domain Validation Authority - G2/C=JP/O=Japan Registry Services
-    Co., Ltd.
-Issuer: /C=JP/O=SECOM Trust Systems CO.,LTD./OU=Security Communication RootCA2
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 640569825071551228908
-	AKI: 0A:85:A9:77:65:05:98:7C:40:81:F8:0F:97:2C:38:F1:0A:EC:3C:CF
-	SKI: BB:3A:EA:57:62:78:0C:32:AD:1F:B2:7B:F6:1D:06:22:96:E1:AB:F0
-	Valid from: 2018-03-09T05:54:22+0000
-	     until: 2028-03-09T05:54:22+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://scrootca2.ocsp.secomtrust.net
-CERTIFICATE
 Subject: /Gehirn Managed Certification Authority - RSA DV/C=JP/O=Gehirn
     Inc./L=Chiyoda-ku/ST=Tokyo
 Issuer: /USERTrust RSA Certification Authority/C=US/O=The USERTRUST
@@ -15761,22 +15139,6 @@ Details:
 	OCSP server:
 		- http://scrootca2.ocsp.secomtrust.net
 CERTIFICATE
-Subject: /EINS/PKI Public Certification Authority V3/C=JP/O=INTEC INC.
-Issuer: /C=JP/O=SECOM Trust Systems CO.,LTD./OU=Security Communication RootCA2
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 640569827276394225854
-	AKI: 0A:85:A9:77:65:05:98:7C:40:81:F8:0F:97:2C:38:F1:0A:EC:3C:CF
-	SKI: 05:E0:7E:5F:7C:06:66:0E:EB:B3:ED:D4:6A:21:17:D3:6A:18:75:C1
-	Valid from: 2018-03-22T06:23:20+0000
-	     until: 2028-03-22T06:23:20+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://scrootca2.ocsp.secomtrust.net
-CERTIFICATE
 Subject: /NII Open Domain CA - G5/C=JP/O=National Institute of Informatics
 Issuer: /C=JP/O=SECOM Trust Systems CO.,LTD./OU=Security Communication RootCA2
 	Signature algorithm: RSA / SHA256
@@ -15787,23 +15149,6 @@ Details:
 	SKI: 67:3A:3A:C1:6B:B7:1C:A6:41:46:39:30:84:C8:69:00:59:11:58:C1
 	Valid from: 2018-03-22T06:33:29+0000
 	     until: 2028-03-22T06:33:29+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://scrootca2.ocsp.secomtrust.net
-CERTIFICATE
-Subject: /KDDI Web Communications Certification Authority 2/C=JP/O=KDDI Web
-    Communications Inc.
-Issuer: /C=JP/O=SECOM Trust Systems CO.,LTD./OU=Security Communication RootCA2
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 640569834417311492754
-	AKI: 0A:85:A9:77:65:05:98:7C:40:81:F8:0F:97:2C:38:F1:0A:EC:3C:CF
-	SKI: 09:91:88:DB:80:BA:6B:CB:86:AA:3D:9D:EC:47:EE:1C:3C:33:96:78
-	Valid from: 2018-04-10T01:03:15+0000
-	     until: 2028-04-10T01:03:15+0000
 	Key usages: cert sign, crl sign
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
@@ -15903,102 +15248,6 @@ Details:
 	SANs (0):
 	OCSP server:
 		- http://ocsp2.globalsign.com/rootr6
-CERTIFICATE
-Subject: /CrossTrust OV CA4/C=JP/O=CrossTrust
-Issuer: /C=JP/O=SECOM Trust Systems CO.,LTD./OU=Security Communication RootCA2
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 640569835172293588750
-	AKI: 0A:85:A9:77:65:05:98:7C:40:81:F8:0F:97:2C:38:F1:0A:EC:3C:CF
-	SKI: 41:A1:DC:2E:85:0A:3D:A5:CE:AE:90:90:B9:58:68:16:3E:AE:C0:80
-	Valid from: 2018-04-18T05:52:37+0000
-	     until: 2028-04-18T05:52:37+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://scrootca2.ocsp.secomtrust.net
-CERTIFICATE
-Subject: /CrossTrust DV CA4/C=JP/O=CrossTrust
-Issuer: /C=JP/O=SECOM Trust Systems CO.,LTD./OU=Security Communication RootCA2
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 640569838011890075974
-	AKI: 0A:85:A9:77:65:05:98:7C:40:81:F8:0F:97:2C:38:F1:0A:EC:3C:CF
-	SKI: BD:07:8F:1E:60:64:42:A0:F6:35:CF:A5:64:C0:41:89:72:E5:D8:06
-	Valid from: 2018-04-18T06:15:46+0000
-	     until: 2028-04-18T06:15:46+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://scrootca2.ocsp.secomtrust.net
-CERTIFICATE
-Subject: /Fuji Xerox Xnet CA - S2/C=JP/O=Fuji Xerox
-Issuer: /C=JP/O=SECOM Trust Systems CO.,LTD./OU=Security Communication RootCA2
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 640569839288731366278
-	AKI: 0A:85:A9:77:65:05:98:7C:40:81:F8:0F:97:2C:38:F1:0A:EC:3C:CF
-	SKI: 00:71:6B:D4:0D:11:6C:14:78:B3:49:25:8C:0F:F7:7E:DD:A0:F1:6B
-	Valid from: 2018-04-18T06:24:51+0000
-	     until: 2028-04-18T06:24:51+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://scrootca2.ocsp.secomtrust.net
-CERTIFICATE
-Subject: /Fuji Xerox Product CA 2 - S/C=JP/O=Fuji Xerox
-Issuer: /C=JP/O=SECOM Trust Systems CO.,LTD./OU=Security Communication RootCA2
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 640569839896298767361
-	AKI: 0A:85:A9:77:65:05:98:7C:40:81:F8:0F:97:2C:38:F1:0A:EC:3C:CF
-	SKI: D6:6B:31:DD:FD:6C:B2:8A:41:77:E5:D7:E0:54:CF:53:4F:DA:2F:7F
-	Valid from: 2018-04-18T06:34:14+0000
-	     until: 2028-04-18T06:34:14+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://scrootca2.ocsp.secomtrust.net
-CERTIFICATE
-Subject: /FUJIFILM Fnet CA - S2/C=JP/O=FUJIFILM
-Issuer: /C=JP/O=SECOM Trust Systems CO.,LTD./OU=Security Communication RootCA2
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 640569841463702488069
-	AKI: 0A:85:A9:77:65:05:98:7C:40:81:F8:0F:97:2C:38:F1:0A:EC:3C:CF
-	SKI: 9D:E3:69:26:8E:B2:3C:72:84:7C:23:A4:8D:3A:68:5E:76:A1:3A:D0
-	Valid from: 2018-04-18T06:44:14+0000
-	     until: 2028-04-18T06:44:14+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://scrootca2.ocsp.secomtrust.net
-CERTIFICATE
-Subject: /FujiSSL Public Certification Authority - G2/C=JP/O=Nijimo, Inc.
-Issuer: /C=JP/O=SECOM Trust Systems CO.,LTD./OU=Security Communication RootCA2
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 640569842172247980994
-	AKI: 0A:85:A9:77:65:05:98:7C:40:81:F8:0F:97:2C:38:F1:0A:EC:3C:CF
-	SKI: 3A:D8:5F:BE:A9:00:13:54:3D:24:F4:82:34:5D:F7:02:2E:F6:DA:53
-	Valid from: 2018-04-18T06:53:32+0000
-	     until: 2028-04-18T06:53:32+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://scrootca2.ocsp.secomtrust.net
 CERTIFICATE
 Subject: /TrustAsia OV TLS Pro CA/C=CN/O=TrustAsia Technologies, Inc.
 Issuer: /DigiCert Global Root CA/C=US/O=DigiCert Inc/OU=www.digicert.com
@@ -16598,24 +15847,6 @@ Details:
 		- http://rootca2009-ocsp2.e-szigno.hu
 		- http://rootca2009-ocsp3.e-szigno.hu
 CERTIFICATE
-Subject: /SECOM Passport for Member PUB CA10/C=JP/O=SECOM Trust Systems
-    CO.,LTD./OU=SECOM Passport for Member 2.0 PUB
-Issuer: /C=JP/O=SECOM Trust Systems CO.,LTD./OU=Security Communication RootCA2
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 640569861440904722082
-	AKI: 0A:85:A9:77:65:05:98:7C:40:81:F8:0F:97:2C:38:F1:0A:EC:3C:CF
-	SKI: DA:31:F4:F0:4C:BE:61:8A:80:5F:A8:A7:52:50:B1:FB:EF:CD:B0:6E
-	Valid from: 2018-08-10T05:48:01+0000
-	     until: 2028-08-10T05:48:01+0000
-	Key usages: cert sign, crl sign
-	Extended usages: s/mime
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://scrootca2.ocsp.secomtrust.net
-CERTIFICATE
 Subject: /GlobalSign Partners Timestamping CA - SHA384 - G4/C=BE/O=GlobalSign
     nv-sa
 Issuer: /GlobalSign/O=GlobalSign/OU=GlobalSign Root CA - R6
@@ -16650,24 +15881,6 @@ Details:
 		http://secure.globalsign.com/cacert/gsaatlsha2g4.crt
 	OCSP server:
 		- http://ocsp.globalsign.com/ca/gsaatlsha2g4
-CERTIFICATE
-Subject: /KDDI Web Communications Certification Authority 3/C=JP/O=SECOM Trust
-    Systems CO.,LTD.
-Issuer: /C=JP/O=SECOM Trust Systems CO.,LTD./OU=Security Communication RootCA2
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 640569863476338853549
-	AKI: 0A:85:A9:77:65:05:98:7C:40:81:F8:0F:97:2C:38:F1:0A:EC:3C:CF
-	SKI: D5:85:07:1E:68:1B:A7:2F:8F:D5:CA:92:60:52:D1:71:08:5D:70:B0
-	Valid from: 2018-08-22T07:05:32+0000
-	     until: 2028-08-22T07:05:32+0000
-	Key usages: cert sign, crl sign
-	Extended usages: server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://scrootca2.ocsp.secomtrust.net
 CERTIFICATE
 Subject: /Abitab SSL Domain Validated/C=UY/O=Abitab S.A./OU=IDdigital
 Issuer: /Certum Global Services CA SHA2/C=PL/O=Unizeto Technologies
@@ -21745,26 +20958,6 @@ Details:
 	AKI: 0A:85:A9:77:65:05:98:7C:40:81:F8:0F:97:2C:38:F1:0A:EC:3C:CF
 	SKI: A1:10:15:D8:1B:FE:9E:4E:9A:4E:1D:F2:B6:5F:41:13:82:1D:41:53
 	Valid from: 2019-07-11T04:35:04+0000
-	     until: 2029-05-29T05:00:39+0000
-	Key usages: cert sign, crl sign
-	Extended usages: ocsp signing, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://repository.secomtrust.net/SC-Root2/SCRoot2ca.cer
-	OCSP server:
-		- http://scrootca2.ocsp.secomtrust.net
-CERTIFICATE
-Subject: /JPRS Domain Validation Authority - G3/C=JP/O=Japan Registry Services
-    Co., Ltd.
-Issuer: /C=JP/O=SECOM Trust Systems CO.,LTD./OU=Security Communication RootCA2
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 46157924204469234594500137112528113696
-	AKI: 0A:85:A9:77:65:05:98:7C:40:81:F8:0F:97:2C:38:F1:0A:EC:3C:CF
-	SKI: D0:17:FF:A0:61:BD:50:8C:27:6B:C9:96:C1:4E:18:5E:EF:78:62:D9
-	Valid from: 2019-07-11T04:45:52+0000
 	     until: 2029-05-29T05:00:39+0000
 	Key usages: cert sign, crl sign
 	Extended usages: ocsp signing, server auth
@@ -27707,26 +26900,6 @@ Details:
 	OCSP server:
 		- http://scrootca2.ocsp.secomtrust.net
 CERTIFICATE
-Subject: /JPRS Domain Validation Authority - G3/C=JP/O=Japan Registry Services
-    Co., Ltd.
-Issuer: /C=JP/O=SECOM Trust Systems CO.,LTD./OU=Security Communication RootCA2
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 640569903004581195499
-	AKI: 0A:85:A9:77:65:05:98:7C:40:81:F8:0F:97:2C:38:F1:0A:EC:3C:CF
-	SKI: D0:17:FF:A0:61:BD:50:8C:27:6B:C9:96:C1:4E:18:5E:EF:78:62:D9
-	Valid from: 2020-07-10T05:09:35+0000
-	     until: 2029-05-29T05:00:39+0000
-	Key usages: cert sign, crl sign
-	Extended usages: server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://repository.secomtrust.net/SC-Root2/SCRoot2ca.cer
-	OCSP server:
-		- http://scrootca2.ocsp.secomtrust.net
-CERTIFICATE
 Subject: /JPRS Organization Validation Authority - G3/C=JP/O=Japan Registry
     Services Co., Ltd.
 Issuer: /C=JP/O=SECOM Trust Systems CO.,LTD./OU=Security Communication RootCA2
@@ -27737,26 +26910,6 @@ Details:
 	AKI: 0A:85:A9:77:65:05:98:7C:40:81:F8:0F:97:2C:38:F1:0A:EC:3C:CF
 	SKI: A1:10:15:D8:1B:FE:9E:4E:9A:4E:1D:F2:B6:5F:41:13:82:1D:41:53
 	Valid from: 2020-07-10T12:47:41+0000
-	     until: 2029-05-29T05:00:39+0000
-	Key usages: cert sign, crl sign
-	Extended usages: server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://repository.secomtrust.net/SC-Root2/SCRoot2ca.cer
-	OCSP server:
-		- http://scrootca2.ocsp.secomtrust.net
-CERTIFICATE
-Subject: /JPRS Domain Validation Authority - G3/C=JP/O=Japan Registry Services
-    Co., Ltd.
-Issuer: /C=JP/O=SECOM Trust Systems CO.,LTD./OU=Security Communication RootCA2
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 46157926151015252775669954349892384447
-	AKI: 0A:85:A9:77:65:05:98:7C:40:81:F8:0F:97:2C:38:F1:0A:EC:3C:CF
-	SKI: D0:17:FF:A0:61:BD:50:8C:27:6B:C9:96:C1:4E:18:5E:EF:78:62:D9
-	Valid from: 2020-07-10T12:58:45+0000
 	     until: 2029-05-29T05:00:39+0000
 	Key usages: cert sign, crl sign
 	Extended usages: server auth
