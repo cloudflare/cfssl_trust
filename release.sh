@@ -21,6 +21,10 @@
 #   will check for one in the standard places.
 # - TRUST_DATABASE_PATH: the path to the cfssl-trust cert database. This
 #   must either be specified here or in a configuration file.
+# - NEW_ROOTS: this is a space-delimited list of absolute paths to roots to 
+#   include
+# - NEW_INTERMEDIATES: this is a space-delimited list of absolute paths to 
+#   intermediates to include
 
 # Fail on errors and undefined expansions; print what is being executed
 # at every step.

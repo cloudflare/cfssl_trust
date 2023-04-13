@@ -7,8 +7,8 @@ github.com/certifi/gocertifi
 # github.com/cespare/xxhash/v2 v2.1.2
 ## explicit; go 1.11
 github.com/cespare/xxhash/v2
-# github.com/cloudflare/cfssl v0.0.0-20180323000720-5d63dbd981b5
-## explicit
+# github.com/cloudflare/cfssl v1.6.4
+## explicit; go 1.18
 github.com/cloudflare/cfssl/auth
 github.com/cloudflare/cfssl/certdb
 github.com/cloudflare/cfssl/config
@@ -20,11 +20,12 @@ github.com/cloudflare/cfssl/helpers/derhelpers
 github.com/cloudflare/cfssl/info
 github.com/cloudflare/cfssl/log
 github.com/cloudflare/cfssl/ocsp/config
+github.com/cloudflare/cfssl/revoke
 github.com/cloudflare/cfssl/signer
 github.com/cloudflare/cfssl/ubiquity
 # github.com/cznic/ql v1.2.0
 ## explicit
-# github.com/fsnotify/fsnotify v1.4.3-0.20170329110642-4da3e2cfbabc
+# github.com/fsnotify/fsnotify v1.4.7
 ## explicit
 github.com/fsnotify/fsnotify
 # github.com/getsentry/raven-go v0.0.0-20170310193735-b68337dbf03e
@@ -34,30 +35,32 @@ github.com/getsentry/raven-go
 ## explicit; go 1.9
 github.com/golang/protobuf/proto
 github.com/golang/protobuf/ptypes/timestamp
-# github.com/google/certificate-transparency-go v1.0.10-0.20180222191210-5ab67e519c93
-## explicit
+# github.com/google/certificate-transparency-go v1.1.4
+## explicit; go 1.17
 github.com/google/certificate-transparency-go
 github.com/google/certificate-transparency-go/asn1
 github.com/google/certificate-transparency-go/tls
 github.com/google/certificate-transparency-go/x509
 github.com/google/certificate-transparency-go/x509/pkix
-# github.com/hashicorp/hcl v0.0.0-20170420231434-7fa7fff964d0
+# github.com/hashicorp/hcl v1.0.0
 ## explicit
 github.com/hashicorp/hcl
 github.com/hashicorp/hcl/hcl/ast
 github.com/hashicorp/hcl/hcl/parser
+github.com/hashicorp/hcl/hcl/printer
 github.com/hashicorp/hcl/hcl/scanner
 github.com/hashicorp/hcl/hcl/strconv
 github.com/hashicorp/hcl/hcl/token
 github.com/hashicorp/hcl/json/parser
 github.com/hashicorp/hcl/json/scanner
 github.com/hashicorp/hcl/json/token
-# github.com/inconshreveable/mousetrap v1.0.0
-## explicit
+# github.com/inconshreveable/mousetrap v1.0.1
+## explicit; go 1.18
 github.com/inconshreveable/mousetrap
-# github.com/lib/pq v1.2.0
-## explicit
-# github.com/magiconair/properties v1.7.3-0.20170321093039-51463bfca257
+# github.com/jmoiron/sqlx v1.3.3
+## explicit; go 1.10
+github.com/jmoiron/sqlx/types
+# github.com/magiconair/properties v1.8.0
 ## explicit
 github.com/magiconair/properties
 # github.com/mattes/migrate v1.3.1
@@ -68,19 +71,16 @@ github.com/mattes/migrate/file
 github.com/mattes/migrate/migrate
 github.com/mattes/migrate/migrate/direction
 github.com/mattes/migrate/pipe
-# github.com/mattn/go-sqlite3 v1.2.0
-## explicit
+# github.com/mattn/go-sqlite3 v1.14.15
+## explicit; go 1.16
 github.com/mattn/go-sqlite3
-# github.com/matttproud/golang_protobuf_extensions v1.0.1
-## explicit
+# github.com/matttproud/golang_protobuf_extensions v1.0.2
+## explicit; go 1.9
 github.com/matttproud/golang_protobuf_extensions/pbutil
-# github.com/mitchellh/mapstructure v0.0.0-20170422000251-cc8532a8e9a5
+# github.com/mitchellh/mapstructure v1.1.2
 ## explicit
 github.com/mitchellh/mapstructure
-# github.com/pelletier/go-buffruneio v0.2.0
-## explicit
-github.com/pelletier/go-buffruneio
-# github.com/pelletier/go-toml v0.5.1-0.20170405014105-fe206efb84b2
+# github.com/pelletier/go-toml v1.2.0
 ## explicit
 github.com/pelletier/go-toml
 # github.com/prometheus/client_golang v1.14.0
@@ -101,29 +101,54 @@ github.com/prometheus/common/model
 github.com/prometheus/procfs
 github.com/prometheus/procfs/internal/fs
 github.com/prometheus/procfs/internal/util
-# github.com/spf13/afero v0.0.0-20170217164146-9be650865eab
+# github.com/spf13/afero v1.1.2
 ## explicit
 github.com/spf13/afero
 github.com/spf13/afero/mem
-# github.com/spf13/cast v1.1.0
+# github.com/spf13/cast v1.3.0
 ## explicit
 github.com/spf13/cast
-# github.com/spf13/cobra v0.0.0-20170425164442-6ed17b5128e8
-## explicit
+# github.com/spf13/cobra v1.6.0
+## explicit; go 1.15
 github.com/spf13/cobra
-# github.com/spf13/jwalterweatherman v0.0.0-20170109133355-fa7ca7e836cf
+# github.com/spf13/jwalterweatherman v1.0.0
 ## explicit
 github.com/spf13/jwalterweatherman
-# github.com/spf13/pflag v0.0.0-20170418052314-2300d0f8576f
-## explicit
+# github.com/spf13/pflag v1.0.5
+## explicit; go 1.12
 github.com/spf13/pflag
-# github.com/spf13/viper v0.0.0-20170417080815-0967fc9aceab
+# github.com/spf13/viper v1.3.2
 ## explicit
 github.com/spf13/viper
-# golang.org/x/crypto v0.0.0-20220314234659-1baeb1ce4c0b
+# github.com/weppos/publicsuffix-go v0.15.1-0.20210511084619-b1f36a2d6c0b
+## explicit; go 1.11
+github.com/weppos/publicsuffix-go/publicsuffix
+# github.com/zmap/zcrypto v0.0.0-20210511125630-18f1e0152cfc
+## explicit; go 1.16
+github.com/zmap/zcrypto/dsa
+github.com/zmap/zcrypto/internal/randutil
+github.com/zmap/zcrypto/json
+github.com/zmap/zcrypto/util
+github.com/zmap/zcrypto/x509
+github.com/zmap/zcrypto/x509/ct
+github.com/zmap/zcrypto/x509/pkix
+# github.com/zmap/zlint/v3 v3.1.0
+## explicit; go 1.15
+github.com/zmap/zlint/v3
+github.com/zmap/zlint/v3/lint
+github.com/zmap/zlint/v3/lints/apple
+github.com/zmap/zlint/v3/lints/cabf_br
+github.com/zmap/zlint/v3/lints/cabf_ev
+github.com/zmap/zlint/v3/lints/community
+github.com/zmap/zlint/v3/lints/etsi
+github.com/zmap/zlint/v3/lints/mozilla
+github.com/zmap/zlint/v3/lints/rfc
+github.com/zmap/zlint/v3/util
+# golang.org/x/crypto v0.8.0
 ## explicit; go 1.17
 golang.org/x/crypto/cryptobyte
 golang.org/x/crypto/cryptobyte/asn1
+golang.org/x/crypto/ed25519
 golang.org/x/crypto/ocsp
 golang.org/x/crypto/pkcs12
 golang.org/x/crypto/pkcs12/internal/rc2
@@ -131,24 +156,27 @@ golang.org/x/crypto/pkcs12/internal/rc2
 ## explicit; go 1.11
 golang.org/x/lint
 golang.org/x/lint/golint
-# golang.org/x/net v0.7.0
+# golang.org/x/net v0.9.0
 ## explicit; go 1.17
-golang.org/x/net/context
-# golang.org/x/sys v0.5.0
+golang.org/x/net/idna
+# golang.org/x/sys v0.7.0
 ## explicit; go 1.17
 golang.org/x/sys/internal/unsafeheader
 golang.org/x/sys/unix
 golang.org/x/sys/windows
-# golang.org/x/text v0.7.0
+# golang.org/x/text v0.9.0
 ## explicit; go 1.17
+golang.org/x/text/secure/bidirule
 golang.org/x/text/transform
+golang.org/x/text/unicode/bidi
 golang.org/x/text/unicode/norm
-# golang.org/x/tools v0.1.12
+# golang.org/x/tools v0.6.0
 ## explicit; go 1.18
 golang.org/x/tools/go/ast/astutil
 golang.org/x/tools/go/gcexportdata
-golang.org/x/tools/go/internal/gcimporter
-golang.org/x/tools/go/internal/pkgbits
+golang.org/x/tools/internal/gcimporter
+golang.org/x/tools/internal/pkgbits
+golang.org/x/tools/internal/tokeninternal
 golang.org/x/tools/internal/typeparams
 # google.golang.org/protobuf v1.28.1
 ## explicit; go 1.11

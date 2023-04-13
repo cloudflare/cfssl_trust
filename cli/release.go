@@ -7,6 +7,8 @@ import (
 	"os"
 	"time"
 
+	"github.com/cloudflare/cfssl/revoke"
+
 	"github.com/cloudflare/cfssl_trust/common"
 	"github.com/cloudflare/cfssl_trust/model/certdb"
 	"github.com/cloudflare/cfssl_trust/release"
@@ -139,10 +141,11 @@ func copyCertificates(db *sql.DB, from, to *certdb.Release, window time.Duration
 	var skipped, included int
 	releaseWindow := to.ReleasedAt + int64(window.Seconds())
 	for _, cert := range certs {
+		// Check for local db revocation here
 		if isRevoked, err := cert.Revoked(tx, releaseWindow); err != nil {
 			return err
 		} else if isRevoked {
-			showSkippedCert(cert, "revoked certificate")
+			showSkippedCert(cert, "locally revoked certificate")
 			skipped++
 			continue
 		}
@@ -155,6 +158,15 @@ func copyCertificates(db *sql.DB, from, to *certdb.Release, window time.Duration
 
 		if cert.NotBefore > to.ReleasedAt {
 			showSkippedCert(cert, "certificate that isn't valid at the time of release")
+			skipped++
+			continue
+		}
+
+		// Check for CA revocation here
+		if isRevoked, _, err := revoke.VerifyCertificateError(cert.X509()); err != nil {
+			return err
+		} else if isRevoked {
+			showSkippedCert(cert, "ca revoked certificate")
 			skipped++
 			continue
 		}
