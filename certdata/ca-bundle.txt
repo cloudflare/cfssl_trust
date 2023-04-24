@@ -419,32 +419,6 @@ Details:
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
-Subject: /Hongkong Post Root CA 1/C=HK/O=Hongkong Post
-Issuer: /Hongkong Post Root CA 1/C=HK/O=Hongkong Post
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 1000
-	Valid from: 2003-05-15T05:13:14+0000
-	     until: 2023-05-15T04:52:29+0000
-	Key usages: cert sign, content committment, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate, max path length 3
-	SANs (0):
-CERTIFICATE
-Subject: /C=SI/O=ACNLB
-Issuer: /C=SI/O=ACNLB
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 1053001358
-	AKI: CC:BB:BB:86:D6:6F:F8:BE:B4:47:22:77:B3:B6:AD:D7:01:59:96:4D
-	SKI: CC:BB:BB:86:D6:6F:F8:BE:B4:47:22:77:B3:B6:AD:D7:01:59:96:4D
-	Valid from: 2003-05-15T11:52:45+0000
-	     until: 2023-05-15T12:22:45+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
 Subject: /C=JP/O=SECOM Trust.net/OU=Security Communication RootCA1
 Issuer: /C=JP/O=SECOM Trust.net/OU=Security Communication RootCA1
 	Signature algorithm: RSA / SHA1
