@@ -1056,18 +1056,6 @@ Details:
 	OCSP server:
 		- http://subca.ocsp-certum.com
 CERTIFICATE
-Subject: /Hongkong Post e-Cert CA 1 - 10/C=HK/O=Hongkong Post
-Issuer: /Hongkong Post Root CA 1/C=HK/O=Hongkong Post
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 1145
-	Valid from: 2010-01-09T14:09:23+0000
-	     until: 2023-05-15T04:52:29+0000
-	Key usages: cert sign, content committment, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-CERTIFICATE
 Subject: /SwissSign SuisseID Platinum CA 2010 - G2/C=CH/O=SwissSign AG
 Issuer: /SwissSign Platinum CA - G2/C=CH/O=SwissSign AG
 	Signature algorithm: RSA / SHA1
@@ -5949,21 +5937,6 @@ Details:
 	OCSP server:
 		- http://www.gdca.com.cn/TrustAUTH/ocsp
 CERTIFICATE
-Subject: /Hongkong Post e-Cert CA 1 - 14/C=HK/O=Hongkong Post
-Issuer: /Hongkong Post Root CA 1/C=HK/O=Hongkong Post
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 1275
-	SKI: 5B:37:7D:2D:B2:98:96:27:92:F7:1A:44:FC:37:A6:93:9E:5D:50:E4
-	Valid from: 2014-11-30T02:48:32+0000
-	     until: 2023-05-15T04:52:29+0000
-	Key usages: cert sign, content committment, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://www1.hongkongpost.gov.hk/root/root_ca_1.crt
-CERTIFICATE
 Subject: /DOMENY SSL DV Certification Authority/C=PL/O=DOMENY.PL sp. z
     o.o/L=Kraków/ST=Małopolskie
 Issuer: /USERTrust RSA Certification Authority/C=US/O=The USERTRUST
@@ -7281,24 +7254,6 @@ Details:
 		http://www.cert.fnmt.es/certs/ACRAIZFNMTRCM.crt
 	OCSP server:
 		- http://ocspfnmtrcmca.cert.fnmt.es/ocspfnmtrcmca/OcspResponder
-CERTIFICATE
-Subject: /Hongkong Post e-Cert CA 1 - 15/C=HK/O=Hongkong Post/L=Hong
-    Kong/ST=Hong Kong
-Issuer: /Hongkong Post Root CA 1/C=HK/O=Hongkong Post
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 1285
-	SKI: 4C:EF:77:AD:23:4A:D6:45:48:28:D7:98:2C:FE:21:1A:65:F4:4A:1D
-	Valid from: 2015-07-04T02:53:48+0000
-	     until: 2023-05-15T04:52:29+0000
-	Key usages: cert sign, content committment, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://www1.hongkongpost.gov.hk/root/root_ca_1.crt
-	OCSP server:
-		- http://ocsp1.hongkongpost.gov.hk
 CERTIFICATE
 Subject: /GlobalSign CloudSSL CA - SHA256 - G3/C=BE/O=GlobalSign nv-sa
 Issuer: /GlobalSign Root CA/C=BE/O=GlobalSign nv-sa/OU=Root CA
@@ -12546,25 +12501,6 @@ Details:
 	SANs (0):
 	OCSP server:
 		- http://ocsp.digicert.com
-CERTIFICATE
-Subject: /Hongkong Post Root CA 3/C=HK/O=Hongkong Post/L=Hong Kong/ST=Hong
-    Kong
-Issuer: /Hongkong Post Root CA 1/C=HK/O=Hongkong Post
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-4096
-	Serial number: 464721447274176181814240747386970568663453171430
-	AKI: 06:90:0C:E4:71:DD:4C:2C:A7:64:69:BB:51:D0:DD:7E:42:64:44:21
-	SKI: 17:9D:CD:1E:8B:D6:39:2B:70:D3:5C:D4:A0:B8:1F:B0:00:FC:C5:61
-	Valid from: 2017-08-12T03:09:02+0000
-	     until: 2023-05-15T04:52:29+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-	1 AIA:
-		http://www1.hongkongpost.gov.hk/root/root_ca_1.crt
-	OCSP server:
-		- http://ocsp1.hongkongpost.gov.hk
 CERTIFICATE
 Subject: /NAVER Secure Certification Authority 1/C=KR/O=NAVER BUSINESS
     PLATFORM Corp.
