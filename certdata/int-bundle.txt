@@ -2023,58 +2023,6 @@ Details:
 	OCSP server:
 		- http://ocsp.comodoca.com
 CERTIFICATE
-Subject: /GeoTrust SHA256 SSL CA/C=US/O=GeoTrust Inc.
-Issuer: /GeoTrust Primary Certification Authority - G3/C=US/O=GeoTrust
-    Inc./OU=(c) 2008 GeoTrust Inc. - For authorized use only
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 87075193310356244756131655259219296440
-	AKI: C4:79:CA:8E:A1:4E:03:1D:1C:DC:6B:DB:31:5B:94:3E:3F:30:7F:2D
-	SKI: 14:67:8E:ED:83:4F:D6:1E:9D:40:04:0C:04:46:A1:70:34:B2:0F:72
-	Valid from: 2013-05-23T00:00:00+0000
-	     until: 2023-05-22T23:59:59+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://pca-g3-ocsp.geotrust.com
-CERTIFICATE
-Subject: /thawte SHA256 SSL CA/C=US/O=thawte, Inc.
-Issuer: /thawte Primary Root CA - G3/C=US/O=thawte, Inc./OU=Certification
-    Services Division/OU=(c) 2008 thawte, Inc. - For authorized use only
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 72051517793617806281683710734116942130
-	AKI: AD:6C:AA:94:60:9C:ED:E4:FF:FA:3E:0A:74:2B:63:03:F7:B6:59:BF
-	SKI: 2B:9A:35:AE:01:18:38:30:E1:70:7A:05:E0:11:76:A3:CE:BD:90:14
-	Valid from: 2013-05-23T00:00:00+0000
-	     until: 2023-05-22T23:59:59+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://ocsp.thawte.com
-CERTIFICATE
-Subject: /QuoVadis Global SSL ICA G2/C=BM/O=QuoVadis Limited
-Issuer: /QuoVadis Root CA 2/C=BM/O=QuoVadis Limited
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 414441045951046581292119350263127430575186018901
-	AKI: 1A:84:62:BC:48:4C:33:25:04:D4:EE:D0:F6:03:C4:19:46:D1:94:6B
-	SKI: 91:19:62:AD:5B:17:A7:30:FB:F0:DE:39:25:B1:BD:8C:B9:B8:51:27
-	Valid from: 2013-06-01T13:35:05+0000
-	     until: 2023-06-01T13:35:05+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://trust.quovadisglobal.com/qvrca2.crt
-	OCSP server:
-		- http://ocsp.quovadisglobal.com
-CERTIFICATE
 Subject: /C=ES/O=FNMT-RCM/OU=AC Componentes Informáticos
 Issuer: /C=ES/O=FNMT-RCM/OU=AC RAIZ FNMT-RCM
 	Signature algorithm: RSA / SHA256
@@ -26875,40 +26823,6 @@ Details:
 	OCSP server:
 		- http://ocsp.globalsign.com/rootr3
 CERTIFICATE
-Subject: /GeoTrust TLS DV RSA Mixed SHA256 2020 CA-1/C=US/O=DigiCert Inc
-Issuer: /DigiCert Global Root CA/C=US/O=DigiCert Inc/OU=www.digicert.com
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 15995324704398902386293046919426293948
-	AKI: 03:DE:50:35:56:D1:4C:BB:66:F0:A3:E2:1B:1B:C3:97:B2:3D:D1:55
-	SKI: 12:C9:88:9B:2F:C9:44:7A:7D:12:F1:DF:40:03:42:98:92:C7:24:D6
-	Valid from: 2020-07-16T12:21:44+0000
-	     until: 2023-05-31T23:59:59+0000
-	Key usages: cert sign, crl sign, digital signature
-	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://ocsp.digicert.com
-CERTIFICATE
-Subject: /RapidSSL TLS DV RSA Mixed SHA256 2020 CA-1/C=US/O=DigiCert Inc
-Issuer: /DigiCert Global Root CA/C=US/O=DigiCert Inc/OU=www.digicert.com
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 10094920634610845175072226827329899116
-	AKI: 03:DE:50:35:56:D1:4C:BB:66:F0:A3:E2:1B:1B:C3:97:B2:3D:D1:55
-	SKI: A4:8D:E5:BE:7C:79:E4:70:23:6D:2E:29:34:AD:23:58:DC:F5:31:7F
-	Valid from: 2020-07-16T12:25:27+0000
-	     until: 2023-05-31T23:59:59+0000
-	Key usages: cert sign, crl sign, digital signature
-	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://ocsp.digicert.com
-CERTIFICATE
 Subject: /Saudi Basic Industries Corporation Issuing CA/C=SA/O=Saudi Basic
     Industries Corporation (SABIC)
 Issuer: /DigiCert Assured ID Root G2/C=US/O=DigiCert Inc/OU=www.digicert.com
@@ -28553,25 +28467,6 @@ Details:
 		http://secure.globalsign.com/cacert/root-r3.crt
 	OCSP server:
 		- http://ocsp.globalsign.com/rootr3
-CERTIFICATE
-Subject: /QuoVadis Global SSL ICA G2/C=BM/O=QuoVadis Limited
-Issuer: /QuoVadis Root CA 2/C=BM/O=QuoVadis Limited
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 150907102344907134694768572252401005400244006676
-	AKI: 1A:84:62:BC:48:4C:33:25:04:D4:EE:D0:F6:03:C4:19:46:D1:94:6B
-	SKI: 91:19:62:AD:5B:17:A7:30:FB:F0:DE:39:25:B1:BD:8C:B9:B8:51:27
-	Valid from: 2020-09-22T19:15:59+0000
-	     until: 2023-06-01T13:35:05+0000
-	Key usages: cert sign, crl sign
-	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://trust.quovadisglobal.com/qvrca2.crt
-	OCSP server:
-		- http://ocsp.quovadisglobal.com
 CERTIFICATE
 Subject: /QuoVadis Grid ICA G2/C=BM/O=QuoVadis Limited
 Issuer: /QuoVadis Root CA 2/C=BM/O=QuoVadis Limited
