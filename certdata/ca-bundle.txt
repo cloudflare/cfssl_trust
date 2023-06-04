@@ -2461,24 +2461,6 @@ Details:
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
-Subject: /Autoridade Certificadora Raiz Brasileira
-    v2/C=BR/O=ICP-Brasil/OU=Instituto Nacional de Tecnologia da Informacao -
-    ITI
-Issuer: /Autoridade Certificadora Raiz Brasileira
-    v2/C=BR/O=ICP-Brasil/OU=Instituto Nacional de Tecnologia da Informacao -
-    ITI
-	Signature algorithm: RSA / SHA512
-Details:
-	Public key: RSA-4096
-	Serial number: 1
-	AKI: 0C:39:20:3A:B7:01:1F:CB:D7:28:7D:41:A0:C7:FA:4A:AD:32:24:BE
-	SKI: 0C:39:20:3A:B7:01:1F:CB:D7:28:7D:41:A0:C7:FA:4A:AD:32:24:BE
-	Valid from: 2010-06-21T19:04:57+0000
-	     until: 2023-06-21T19:04:57+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
 Subject: /Microsoft Root Certificate Authority 2010/C=US/O=Microsoft
     Corporation/L=Redmond/ST=Washington
 Issuer: /Microsoft Root Certificate Authority 2010/C=US/O=Microsoft
