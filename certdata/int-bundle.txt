@@ -323,54 +323,6 @@ Details:
 	Basic constraints: valid, is a CA certificate, max path length 11
 	SANs (1): email:cmfecs2@camerfirma.com
 CERTIFICATE
-Subject: /SwissSign Server Gold CA 2008 - G2/C=CH/O=SwissSign AG
-Issuer: /SwissSign Gold CA - G2/C=CH/O=SwissSign AG
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 6831110066917287919
-	AKI: 5B:25:7B:96:A4:65:51:7E:B8:39:F3:C0:78:66:5E:E8:3A:E7:F0:EE
-	SKI: 97:76:DE:0A:34:E5:10:9A:40:C4:EB:D8:9D:5A:53:7B:21:CC:47:3E
-	Valid from: 2008-07-07T17:06:03+0000
-	     until: 2023-07-07T17:06:03+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://swisssign.net/cgi-bin/authority/download/5B257B96A465517EB839F3C078665EE83AE7F0EE
-CERTIFICATE
-Subject: /SwissSign Server Silver CA 2008 - G2/C=CH/O=SwissSign AG
-Issuer: /SwissSign Silver CA - G2/C=CH/O=SwissSign AG
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 11319039208318542030
-	AKI: 17:A0:CD:C1:E4:41:B6:3A:5B:3B:CB:45:9D:BD:1C:C2:98:FA:86:58
-	SKI: D3:44:6F:D9:FE:7A:FC:DE:AC:1C:7A:A2:21:0D:64:FA:65:B0:D7:82
-	Valid from: 2008-07-07T17:07:16+0000
-	     until: 2023-07-07T17:07:16+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://swisssign.net/cgi-bin/authority/download/17A0CDC1E441B63A5B3BCB459DBD1CC298FA8658
-CERTIFICATE
-Subject: /SwissSign Personal Gold CA 2008 - G2/C=CH/O=SwissSign AG
-Issuer: /SwissSign Gold CA - G2/C=CH/O=SwissSign AG
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 4119425992764998490
-	AKI: 5B:25:7B:96:A4:65:51:7E:B8:39:F3:C0:78:66:5E:E8:3A:E7:F0:EE
-	SKI: AE:7A:8B:15:F8:25:3E:F4:1A:EF:43:6B:25:C0:A6:E1:1A:3C:A6:AB
-	Valid from: 2008-07-07T17:24:18+0000
-	     until: 2023-07-07T17:24:18+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://swisssign.net/cgi-bin/authority/download/5B257B96A465517EB839F3C078665EE83AE7F0EE
-CERTIFICATE
 Subject: /SwissSign Personal Silver CA 2008 - G2/C=CH/O=SwissSign AG
 Issuer: /SwissSign Silver CA - G2/C=CH/O=SwissSign AG
 	Signature algorithm: RSA / SHA1
