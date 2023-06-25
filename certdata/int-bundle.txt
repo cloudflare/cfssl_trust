@@ -323,22 +323,6 @@ Details:
 	Basic constraints: valid, is a CA certificate, max path length 11
 	SANs (1): email:cmfecs2@camerfirma.com
 CERTIFICATE
-Subject: /SwissSign Personal Silver CA 2008 - G2/C=CH/O=SwissSign AG
-Issuer: /SwissSign Silver CA - G2/C=CH/O=SwissSign AG
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 16309424670219400792
-	AKI: 17:A0:CD:C1:E4:41:B6:3A:5B:3B:CB:45:9D:BD:1C:C2:98:FA:86:58
-	SKI: EB:35:B1:56:6D:15:60:58:F4:E1:22:CD:1C:46:1C:AE:D0:04:00:65
-	Valid from: 2008-07-09T11:11:09+0000
-	     until: 2023-07-09T11:11:09+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://swisssign.net/cgi-bin/authority/download/17A0CDC1E441B63A5B3BCB459DBD1CC298FA8658
-CERTIFICATE
 Subject: /TC TrustCenter Class 1 L1 CA VII/C=DE/O=TC TrustCenter GmbH/OU=TC
     TrustCenter Class 1 L1 CA
 Issuer: /C=DE/O=TC TrustCenter for Security in Data Networks GmbH/OU=TC
