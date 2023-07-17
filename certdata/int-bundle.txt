@@ -27294,26 +27294,6 @@ Details:
 	OCSP server:
 		- http://ocsp.entrust.net
 CERTIFICATE
-Subject: /AC Firmaprofesional - Secure Web 2020/C=ES/O=Firmaprofesional
-    S.A./OU=Security Services
-Issuer: /Autoridad de Certificacion Firmaprofesional CIF A62634068/C=ES
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 133529187700912422781168782320038630024
-	AKI: 65:CD:EB:AB:35:1E:00:3E:7E:D5:74:C0:1C:B4:73:47:0E:1A:64:2F
-	SKI: BD:97:0E:67:88:68:ED:29:1B:9B:AB:6A:0A:8A:36:8A:8D:2E:16:29
-	Valid from: 2020-07-30T08:58:14+0000
-	     until: 2023-07-30T08:58:14+0000
-	Key usages: cert sign, crl sign
-	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://crl.firmaprofesional.com/caroot.crt
-	OCSP server:
-		- http://ocsp.firmaprofesional.com
-CERTIFICATE
 Subject: /SIGNE Autoridad de Certificacion - 2020/C=ES/O=SIGNE
     S.A./OU=Autoridad de Certificacion
 Issuer: /Autoridad de Certificacion Firmaprofesional CIF A62634068/C=ES
