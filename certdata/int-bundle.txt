@@ -2105,25 +2105,6 @@ Details:
 	OCSP server:
 		- http://ocsp.digicert.com
 CERTIFICATE
-Subject: /DigiCert Accredited Direct Med CA/C=US/O=DigiCert
-    Inc/OU=www.digicert.com
-Issuer: /DigiCert Federated Trust CA/C=US/O=DigiCert Inc/OU=www.digicert.com
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 12401601467175061331292809541566097214
-	AKI: 46:08:38:5A:A9:8E:20:BB:0C:AF:5E:31:BA:89:B3:28:BF:AC:8C:36
-	SKI: 77:AE:03:56:6D:12:50:15:7F:FE:10:AB:79:BA:2C:B6:8C:6F:49:D6
-	Valid from: 2013-08-06T12:00:00+0000
-	     until: 2023-08-06T12:00:00+0000
-	Key usages: cert sign, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://cacerts.digicert.com/aiaDigiCertAccreditedDirectMedCA.p7c
-	OCSP server:
-		- http://ocsp.digicert.com
-CERTIFICATE
 Subject: /D-TRUST Application Certificates CA 3-1 2013/C=DE/O=D-Trust GmbH
 Issuer: /D-TRUST Root CA 3 2013/C=DE/O=D-Trust GmbH
 	Signature algorithm: RSA / SHA256
