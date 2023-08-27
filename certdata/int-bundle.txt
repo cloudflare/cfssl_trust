@@ -15833,46 +15833,6 @@ Details:
 		- http://rootca2009-ocsp2.e-szigno.hu
 		- http://rootca2009-ocsp3.e-szigno.hu
 CERTIFICATE
-Subject: /SSL.com Root Certification Authority RSA/C=US/O=SSL
-    Corporation/L=Houston/ST=Texas
-Issuer: /Certum Trusted Network CA/C=PL/O=Unizeto Technologies S.A./OU=Certum
-    Certification Authority
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-4096
-	Serial number: 303266575627381557268243422400141909788
-	AKI: 08:76:CD:CB:07:FF:24:F6:C5:CD:ED:BB:90:BC:E2:84:37:46:75:F7
-	SKI: DD:04:09:07:A2:F5:7A:7D:52:53:12:92:95:EE:38:80:25:0D:A6:59
-	Valid from: 2018-09-11T09:26:47+0000
-	     until: 2023-09-11T09:26:47+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 2
-	SANs (0):
-	1 AIA:
-		http://sslcom.repository.certum.pl/ctnca.cer
-	OCSP server:
-		- http://sslcom.ocsp-certum.com
-CERTIFICATE
-Subject: /SSL.com EV Root Certification Authority RSA R2/C=US/O=SSL
-    Corporation/L=Houston/ST=Texas
-Issuer: /Certum Trusted Network CA/C=PL/O=Unizeto Technologies S.A./OU=Certum
-    Certification Authority
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-4096
-	Serial number: 131552411234902850882120600305221191555
-	AKI: 08:76:CD:CB:07:FF:24:F6:C5:CD:ED:BB:90:BC:E2:84:37:46:75:F7
-	SKI: F9:60:BB:D4:E3:D5:34:F6:B8:F5:06:80:25:A7:73:DB:46:69:A8:9E
-	Valid from: 2018-09-11T09:28:20+0000
-	     until: 2023-09-11T09:28:20+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 2
-	SANs (0):
-	1 AIA:
-		http://sslcom.repository.certum.pl/ctnca.cer
-	OCSP server:
-		- http://sslcom.ocsp-certum.com
-CERTIFICATE
 Subject: /Valid Certificadora Digital SSL EV CA 2018/C=BR/O=VALID
     CERTIFICADORA DIGITAL/OU=VALID SSL EV/L=SÃO PAULO/ST=SÃO PAULO
 Issuer: /Trusted Root CA SHA256 G2/C=BE/O=GlobalSign nv-sa/OU=Trusted Root
