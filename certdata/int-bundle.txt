@@ -15833,46 +15833,6 @@ Details:
 		- http://rootca2009-ocsp2.e-szigno.hu
 		- http://rootca2009-ocsp3.e-szigno.hu
 CERTIFICATE
-Subject: /Valid Certificadora Digital SSL EV CA 2018/C=BR/O=VALID
-    CERTIFICADORA DIGITAL/OU=VALID SSL EV/L=SÃO PAULO/ST=SÃO PAULO
-Issuer: /Trusted Root CA SHA256 G2/C=BE/O=GlobalSign nv-sa/OU=Trusted Root
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 153000551518256684876309871880
-	AKI: C8:63:9B:08:69:54:C2:98:C8:D9:CD:E3:33:B7:50:5E:F8:C9:01:9B
-	SKI: A9:D8:A2:F6:91:98:72:8D:75:E5:6E:0F:DE:4B:DD:6B:89:6A:EC:AE
-	Valid from: 2018-09-19T00:00:00+0000
-	     until: 2023-09-19T00:00:00+0000
-	Key usages: cert sign, crl sign
-	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://secure.globalsign.com/cacert/trustrootsha2g2.crt
-	OCSP server:
-		- http://ocsp2.globalsign.com/trustrootsha2g2
-CERTIFICATE
-Subject: /Valid Certificadora Digital AlphaSSL CA 2018/C=BR/O=VALID
-    CERTIFICADORA DIGITAL/OU=VALID AlphaSSL/L=SÃO PAULO/ST=SÃO PAULO
-Issuer: /Trusted Root CA SHA256 G2/C=BE/O=GlobalSign nv-sa/OU=Trusted Root
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 153000549810087163323551854546
-	AKI: C8:63:9B:08:69:54:C2:98:C8:D9:CD:E3:33:B7:50:5E:F8:C9:01:9B
-	SKI: 88:07:EE:19:0A:28:60:48:A6:CE:58:AB:E7:86:AC:7D:C5:46:26:32
-	Valid from: 2018-09-19T00:00:00+0000
-	     until: 2023-09-19T00:00:00+0000
-	Key usages: cert sign, crl sign
-	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://secure.globalsign.com/cacert/trustrootsha2g2.crt
-	OCSP server:
-		- http://ocsp2.globalsign.com/trustrootsha2g2
-CERTIFICATE
 Subject: /GlobalSign/O=GlobalSign/OU=GlobalSign Root CA - R3
 Issuer: /GlobalSign Root CA/C=BE/O=GlobalSign nv-sa/OU=Root CA
 	Signature algorithm: RSA / SHA256
@@ -15888,46 +15848,6 @@ Details:
 	SANs (0):
 	OCSP server:
 		- http://ocsp.globalsign.com/rootr1
-CERTIFICATE
-Subject: /Valid Certificadora Digital SSL OV CA 2018/C=BR/O=VALID
-    CERTIFICADORA DIGITAL/OU=VALID SSL OV/L=SÃO PAULO/ST=SÃO PAULO
-Issuer: /Trusted Root CA SHA256 G2/C=BE/O=GlobalSign nv-sa/OU=Trusted Root
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 153000551411895688308337717268
-	AKI: C8:63:9B:08:69:54:C2:98:C8:D9:CD:E3:33:B7:50:5E:F8:C9:01:9B
-	SKI: 10:B0:14:80:D5:59:47:49:AB:CB:DF:89:8B:1D:0A:8B:A6:66:58:4F
-	Valid from: 2018-09-19T00:00:00+0000
-	     until: 2023-09-19T00:00:00+0000
-	Key usages: cert sign, crl sign
-	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://secure.globalsign.com/cacert/trustrootsha2g2.crt
-	OCSP server:
-		- http://ocsp2.globalsign.com/trustrootsha2g2
-CERTIFICATE
-Subject: /Valid Certificadora Digital SSL DV CA 2018/C=BR/O=VALID
-    CERTIFICADORA DIGITAL/OU=VALID SSL DV/L=SÃO PAULO/ST=SÃO PAULO
-Issuer: /Trusted Root CA SHA256 G2/C=BE/O=GlobalSign nv-sa/OU=Trusted Root
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 153000550014263852823142896084
-	AKI: C8:63:9B:08:69:54:C2:98:C8:D9:CD:E3:33:B7:50:5E:F8:C9:01:9B
-	SKI: 32:E0:19:3C:A2:63:99:C7:A2:AB:A7:2D:1A:FC:64:F6:4A:BF:43:0F
-	Valid from: 2018-09-19T00:00:00+0000
-	     until: 2023-09-19T00:00:00+0000
-	Key usages: cert sign, crl sign
-	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://secure.globalsign.com/cacert/trustrootsha2g2.crt
-	OCSP server:
-		- http://ocsp2.globalsign.com/trustrootsha2g2
 CERTIFICATE
 Subject: /SECOM Passport for Member PUB CA4/C=JP/O=SECOM Trust Systems
     CO.,LTD./OU=SECOM Passport for Member 2.0 PUB
@@ -26030,26 +25950,6 @@ Details:
 	OCSP server:
 		- http://ocsp.wisekey.com/
 CERTIFICATE
-Subject: /Valid Certificadora Digital AlphaSSL CA 2018/C=BR/O=VALID
-    CERTIFICADORA DIGITAL
-Issuer: /Trusted Root TLS CA SHA256 G3/C=BE/O=GlobalSign nv-sa
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 159159751336925506103539925545438372294
-	AKI: DE:4F:D7:DD:27:AE:D5:7F:58:81:E1:2C:47:AC:23:B7:C6:7B:57:EF
-	SKI: 88:07:EE:19:0A:28:60:48:A6:CE:58:AB:E7:86:AC:7D:C5:46:26:32
-	Valid from: 2020-07-05T00:00:00+0000
-	     until: 2023-09-19T00:00:00+0000
-	Key usages: cert sign, crl sign
-	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://secure.globalsign.com/cacert/trustroottlssha2g3.crt
-	OCSP server:
-		- http://ocsp.globalsign.com/trustroottlssha2g3
-CERTIFICATE
 Subject: /Soluti CA - EV/C=BR/O=SOLUTI - SOLUCOES EM NEGOCIOS INTELIGENTES S/A
 Issuer: /Trusted Root TLS CA SHA256 G3/C=BE/O=GlobalSign nv-sa
 	Signature algorithm: RSA / SHA256
@@ -26107,26 +26007,6 @@ Details:
 	OCSP server:
 		- http://ocsp.globalsign.com/trustroottlssha2g3
 CERTIFICATE
-Subject: /Valid Certificadora Digital SSL OV CA 2018/C=BR/O=VALID
-    CERTIFICADORA DIGITAL
-Issuer: /Trusted Root TLS CA SHA256 G3/C=BE/O=GlobalSign nv-sa
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 159159751949431911126092521240942022765
-	AKI: DE:4F:D7:DD:27:AE:D5:7F:58:81:E1:2C:47:AC:23:B7:C6:7B:57:EF
-	SKI: 10:B0:14:80:D5:59:47:49:AB:CB:DF:89:8B:1D:0A:8B:A6:66:58:4F
-	Valid from: 2020-07-05T00:00:00+0000
-	     until: 2023-09-19T00:00:00+0000
-	Key usages: cert sign, crl sign
-	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://secure.globalsign.com/cacert/trustroottlssha2g3.crt
-	OCSP server:
-		- http://ocsp.globalsign.com/trustroottlssha2g3
-CERTIFICATE
 Subject: /RNP ICPEdu OV SSL CA 2019/C=BR/O=Rede Nacional de Ensino e Pesquisa
     - RNP
 Issuer: /Trusted Root TLS CA SHA256 G3/C=BE/O=GlobalSign nv-sa
@@ -26139,26 +26019,6 @@ Details:
 	Valid from: 2020-07-05T00:00:00+0000
 	     until: 2026-05-15T00:00:00+0000
 	Key usages: cert sign, crl sign, digital signature
-	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://secure.globalsign.com/cacert/trustroottlssha2g3.crt
-	OCSP server:
-		- http://ocsp.globalsign.com/trustroottlssha2g3
-CERTIFICATE
-Subject: /Valid Certificadora Digital SSL EV CA 2018/C=BR/O=VALID
-    CERTIFICADORA DIGITAL
-Issuer: /Trusted Root TLS CA SHA256 G3/C=BE/O=GlobalSign nv-sa
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 159159752347784367056902171369438605990
-	AKI: DE:4F:D7:DD:27:AE:D5:7F:58:81:E1:2C:47:AC:23:B7:C6:7B:57:EF
-	SKI: A9:D8:A2:F6:91:98:72:8D:75:E5:6E:0F:DE:4B:DD:6B:89:6A:EC:AE
-	Valid from: 2020-07-05T00:00:00+0000
-	     until: 2023-09-19T00:00:00+0000
-	Key usages: cert sign, crl sign
 	Extended usages: client auth, server auth
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
@@ -26236,26 +26096,6 @@ Details:
 	Valid from: 2020-07-05T00:00:00+0000
 	     until: 2024-02-20T00:00:00+0000
 	Key usages: cert sign, crl sign, digital signature
-	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://secure.globalsign.com/cacert/trustroottlssha2g3.crt
-	OCSP server:
-		- http://ocsp.globalsign.com/trustroottlssha2g3
-CERTIFICATE
-Subject: /Valid Certificadora Digital SSL DV CA 2018/C=BR/O=VALID
-    CERTIFICADORA DIGITAL
-Issuer: /Trusted Root TLS CA SHA256 G3/C=BE/O=GlobalSign nv-sa
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 159159751607866220568622538724133040249
-	AKI: DE:4F:D7:DD:27:AE:D5:7F:58:81:E1:2C:47:AC:23:B7:C6:7B:57:EF
-	SKI: 32:E0:19:3C:A2:63:99:C7:A2:AB:A7:2D:1A:FC:64:F6:4A:BF:43:0F
-	Valid from: 2020-07-05T00:00:00+0000
-	     until: 2023-09-19T00:00:00+0000
-	Key usages: cert sign, crl sign
 	Extended usages: client auth, server auth
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
