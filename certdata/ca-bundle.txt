@@ -419,19 +419,6 @@ Details:
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
-Subject: /C=JP/O=SECOM Trust.net/OU=Security Communication RootCA1
-Issuer: /C=JP/O=SECOM Trust.net/OU=Security Communication RootCA1
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 0
-	SKI: A0:73:49:99:68:DC:85:5B:65:E3:9B:28:2F:57:9F:BD:33:BC:07:48
-	Valid from: 2003-09-30T04:20:49+0000
-	     until: 2023-09-30T04:20:49+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
 Subject: /Chambers of Commerce Root/C=EU/O=AC Camerfirma SA CIF
     A82743287/OU=http://www.chambersign.org
 Issuer: /Chambers of Commerce Root/C=EU/O=AC Camerfirma SA CIF
