@@ -2121,26 +2121,6 @@ Details:
 	OCSP server:
 		- http://root-ca-3-2013.ocsp.d-trust.net
 CERTIFICATE
-Subject: /BEKB - BCBE Issuing CA G2/C=CH/O=Berner Kantonalbank AG/OU=Issuing
-    Certification Authority
-Issuer: /QuoVadis Root CA 3/C=BM/O=QuoVadis Limited
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-4096
-	Serial number: 231922094327584175777436617845495409522405766402
-	AKI: F2:C0:13:E0:82:43:3E:FB:EE:2F:67:32:96:35:5C:DB:B8:CB:02:D0
-	SKI: B9:26:4F:30:1B:15:37:F0:46:2B:B5:16:99:00:A5:F1:4F:26:1D:30
-	Valid from: 2013-10-10T15:50:31+0000
-	     until: 2023-10-10T15:50:31+0000
-	Key usages: cert sign, crl sign
-	Extended usages: client auth, s/mime
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://trust.quovadisglobal.com/qvrca3.crt
-	OCSP server:
-		- http://ocsp.quovadisglobal.com
-CERTIFICATE
 Subject: /Orion Health Direct Secure Messaging CA/C=US/O=Orion Health
     Inc./OU=Orion Health Direct Secure Messaging
 Issuer: /DigiCert Federated Trust CA/C=US/O=DigiCert Inc/OU=www.digicert.com
