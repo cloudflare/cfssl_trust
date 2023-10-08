@@ -2009,22 +2009,6 @@ Details:
 	OCSP server:
 		- http://ocspfnmtrcmca.cert.fnmt.es/ocspfnmtrcmca/OcspResponder
 CERTIFICATE
-Subject: /DigiCert Trusted Root G4/C=US/O=DigiCert Inc/OU=www.digicert.com
-Issuer: /DigiCert Global Root CA/C=US/O=DigiCert Inc/OU=www.digicert.com
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-4096
-	Serial number: 3210528394028037539049256322277596743
-	AKI: 03:DE:50:35:56:D1:4C:BB:66:F0:A3:E2:1B:1B:C3:97:B2:3D:D1:55
-	SKI: EC:D7:E3:82:D2:71:5D:64:4C:DF:2E:67:3F:E7:BA:98:AE:1C:0F:4F
-	Valid from: 2013-07-01T12:00:00+0000
-	     until: 2023-10-22T12:00:00+0000
-	Key usages: cert sign, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate, max path length 1
-	SANs (0):
-	OCSP server:
-		- http://ocsp.digicert.com
-CERTIFICATE
 Subject: /DigiCert Assured ID CA G3/C=US/O=DigiCert Inc
 Issuer: /DigiCert Assured ID Root G3/C=US/O=DigiCert Inc/OU=www.digicert.com
 	Signature algorithm: ECDSA / SHA384
@@ -2121,25 +2105,6 @@ Details:
 	OCSP server:
 		- http://root-ca-3-2013.ocsp.d-trust.net
 CERTIFICATE
-Subject: /Orion Health Direct Secure Messaging CA/C=US/O=Orion Health
-    Inc./OU=Orion Health Direct Secure Messaging
-Issuer: /DigiCert Federated Trust CA/C=US/O=DigiCert Inc/OU=www.digicert.com
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 1596357116226781132199139003842784259
-	AKI: 46:08:38:5A:A9:8E:20:BB:0C:AF:5E:31:BA:89:B3:28:BF:AC:8C:36
-	SKI: A5:6E:22:FF:39:69:3A:23:FB:89:24:17:C6:60:94:00:1A:DA:8E:9E
-	Valid from: 2013-10-21T12:00:00+0000
-	     until: 2023-10-23T12:00:00+0000
-	Key usages: cert sign, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate, max path length 1
-	SANs (0):
-	1 AIA:
-		http://cacerts.digicert.com/aiaOrionHealthDirectSecureMessagingCA.p7c
-	OCSP server:
-		- http://ocsp.digicert.com
-CERTIFICATE
 Subject: /DigiCert SHA2 Extended Validation Server CA/C=US/O=DigiCert
     Inc/OU=www.digicert.com
 Issuer: /DigiCert High Assurance EV Root CA/C=US/O=DigiCert
@@ -2175,87 +2140,6 @@ Details:
 	Extended usages: client auth, server auth
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
-	OCSP server:
-		- http://ocsp.digicert.com
-CERTIFICATE
-Subject: /New Hampshire Health Information Organization CA/C=US/O=New
-    Hampshire Health Information Organization Corporation/OU=Orion Health
-    Direct Secure Messaging
-Issuer: /Orion Health Direct Secure Messaging CA/C=US/O=Orion Health
-    Inc./OU=Orion Health Direct Secure Messaging
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 20974606466155109602200592651066051679
-	AKI: A5:6E:22:FF:39:69:3A:23:FB:89:24:17:C6:60:94:00:1A:DA:8E:9E
-	SKI: 13:CA:A0:50:FE:DE:AE:9E:4F:DC:AA:61:FD:DC:81:3C:4B:D7:D6:95
-	Valid from: 2013-10-22T12:00:00+0000
-	     until: 2023-10-22T12:00:00+0000
-	Key usages: cert sign, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://cacerts.digicert.com/aiaOrionHealthIssuingCAs.p7c
-	OCSP server:
-		- http://ocsp.digicert.com
-CERTIFICATE
-Subject: /Louisiana Health Care Quality Forum CA/C=US/O=Louisiana Health Care
-    Quality Forum/OU=Orion Health Direct Secure Messaging
-Issuer: /Orion Health Direct Secure Messaging CA/C=US/O=Orion Health
-    Inc./OU=Orion Health Direct Secure Messaging
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 6072169368006194154584822023203911786
-	AKI: A5:6E:22:FF:39:69:3A:23:FB:89:24:17:C6:60:94:00:1A:DA:8E:9E
-	SKI: FB:88:E1:E7:C1:23:C6:EB:6B:11:D3:F2:24:D4:2F:11:96:2D:DC:9C
-	Valid from: 2013-10-22T12:00:00+0000
-	     until: 2023-10-22T12:00:00+0000
-	Key usages: cert sign, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://cacerts.digicert.com/aiaOrionHealthIssuingCAs.p7c
-	OCSP server:
-		- http://ocsp.digicert.com
-CERTIFICATE
-Subject: /Alaska eHealth Network CA/C=US/O=Alaska eHealth Network,
-    Inc./OU=Orion Health Direct Secure Messaging
-Issuer: /Orion Health Direct Secure Messaging CA/C=US/O=Orion Health
-    Inc./OU=Orion Health Direct Secure Messaging
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 10157026234195672072779843916546495352
-	AKI: A5:6E:22:FF:39:69:3A:23:FB:89:24:17:C6:60:94:00:1A:DA:8E:9E
-	SKI: 3F:C5:4C:A2:05:FF:8E:1C:0E:F1:F6:E9:C3:6F:05:FC:71:CF:29:77
-	Valid from: 2013-10-22T12:00:00+0000
-	     until: 2023-10-22T12:00:00+0000
-	Key usages: cert sign, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://cacerts.digicert.com/aiaOrionHealthIssuingCAs.p7c
-	OCSP server:
-		- http://ocsp.digicert.com
-CERTIFICATE
-Subject: /Orion Health Direct Secure Messaging Public HISP CA/C=US/O=Orion
-    Health Inc./OU=Orion Health Direct Secure Messaging
-Issuer: /Orion Health Direct Secure Messaging CA/C=US/O=Orion Health
-    Inc./OU=Orion Health Direct Secure Messaging
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 8309926333604083431613695461612223913
-	AKI: A5:6E:22:FF:39:69:3A:23:FB:89:24:17:C6:60:94:00:1A:DA:8E:9E
-	SKI: FB:C2:F9:B4:15:95:9A:38:4D:55:74:A0:DF:BD:87:3B:D5:78:3D:38
-	Valid from: 2013-10-22T12:00:00+0000
-	     until: 2023-10-22T12:00:00+0000
-	Key usages: cert sign, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://cacerts.digicert.com/aiaOrionHealthIssuingCAs.p7c
 	OCSP server:
 		- http://ocsp.digicert.com
 CERTIFICATE
