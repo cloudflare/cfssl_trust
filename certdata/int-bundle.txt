@@ -426,22 +426,6 @@ Details:
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
-Subject: /SwissSign EV Gold CA 2008 - G2/C=CH/O=SwissSign AG
-Issuer: /SwissSign Gold CA - G2/C=CH/O=SwissSign AG
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 3657629624094031998
-	AKI: 5B:25:7B:96:A4:65:51:7E:B8:39:F3:C0:78:66:5E:E8:3A:E7:F0:EE
-	SKI: 88:2D:D1:EC:66:43:10:04:C7:54:4B:2B:ED:12:6D:FF:9A:79:DD:51
-	Valid from: 2008-11-13T14:24:15+0000
-	     until: 2023-11-13T14:24:15+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://swisssign.net/cgi-bin/authority/download/5B257B96A465517EB839F3C078665EE83AE7F0EE
-CERTIFICATE
 Subject: /Trustwave Organization Validation CA, Level 2/C=US/O=Trustwave
     Holdings, Inc./L=Chicago/ST=Illinois
 Issuer: /SecureTrust CA/C=US/O=SecureTrust Corporation
