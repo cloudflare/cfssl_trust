@@ -2362,21 +2362,6 @@ Details:
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
-Subject: /SECOM Passport for Member PUB CA4/C=JP/O=SECOM Trust Systems
-    CO.,LTD./OU=SECOM Passport for Member 2.0 PUB
-Issuer: /C=JP/O=SECOM Trust Systems CO.,LTD./OU=Security Communication RootCA2
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 582594748
-	AKI: 0A:85:A9:77:65:05:98:7C:40:81:F8:0F:97:2C:38:F1:0A:EC:3C:CF
-	SKI: 48:8C:65:76:D2:1E:AB:F5:FF:38:24:B6:C4:36:D9:0A:9F:A0:BC:AE
-	Valid from: 2013-11-20T02:18:46+0000
-	     until: 2023-11-20T02:18:46+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-CERTIFICATE
 Subject: /Symantec Class 3 SHA256 Code Signing CA/C=US/O=Symantec
     Corporation/OU=Symantec Trust Network
 Issuer: /VeriSign Class 3 Public Primary Certification Authority -
