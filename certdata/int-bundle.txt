@@ -50,24 +50,6 @@ Details:
 	Basic constraints: valid, is a CA certificate, max path length 11
 	SANs (1): email:ac_camerfirma@camerfirma.com
 CERTIFICATE
-Subject: /RACER/C=ES/O=AC Camerfirma SA/L=Madrid (see current address at
-    www.camerfirma.com/address)
-Issuer: /AC Camerfirma/C=ES/O=AC Camerfirma SA/L=Madrid (see current address
-    at www.camerfirma.com/address)
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2047
-	Serial number: 1
-	AKI: 70:C1:95:FA:5D:A5:16:BE:62:E8:A4:7D:E3:D4:64:5F:C4:E1:3E:9D
-	SKI: BE:BC:08:D4:2E:BA:00:4C:80:DC:26:67:B4:A5:D8:DD:C3:4A:1A:F9
-	Valid from: 2003-12-04T17:26:41+0000
-	     until: 2023-12-04T17:26:41+0000
-	Key usages: cert sign, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate, max path length 10
-	SANs (1): email:caracer@camerfirma.com
-	1 AIA:
-		http://www.camerfirma.com/certs/ac_camerfirma.crt
-CERTIFICATE
 Subject: /COMODO RSA Certification Authority/C=GB/O=COMODO CA
     Limited/L=Salford/ST=Greater Manchester
 Issuer: /AAA Certificate Services/C=GB/O=Comodo CA
@@ -2361,26 +2343,6 @@ Details:
 	Key usages: cert sign, crl sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
-CERTIFICATE
-Subject: /Symantec Class 3 SHA256 Code Signing CA/C=US/O=Symantec
-    Corporation/OU=Symantec Trust Network
-Issuer: /VeriSign Class 3 Public Primary Certification Authority -
-    G5/C=US/O=VeriSign, Inc./OU=VeriSign Trust Network/OU=(c) 2006 VeriSign,
-    Inc. - For authorized use only
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 81710363848389238104995526639509734954
-	AKI: 7F:D3:65:A7:C2:DD:EC:BB:F0:30:09:F3:43:39:FA:02:AF:33:31:33
-	SKI: 96:3B:53:F0:79:33:97:AF:7D:83:EF:2E:2B:CC:CA:B7:86:1E:72:66
-	Valid from: 2013-12-10T00:00:00+0000
-	     until: 2023-12-09T23:59:59+0000
-	Key usages: cert sign, crl sign
-	Extended usages: client auth, code signing
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://s2.symcb.com
 CERTIFICATE
 Subject: /E.ON Group CA 2 2013/C=DE/O=D-Trust GmbH
 Issuer: /D-TRUST Root CA 3 2013/C=DE/O=D-Trust GmbH
