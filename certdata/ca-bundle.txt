@@ -3613,23 +3613,6 @@ Details:
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
-Subject: /TÜRKTRUST Elektronik Sertifika Hizmet Sağlayıcısı
-    H6/C=TR/O=TÜRKTRUST Bilgi İletişim ve Bilişim Güvenliği Hizmetleri
-    A.Ş./L=Ankara
-Issuer: /TÜRKTRUST Elektronik Sertifika Hizmet Sağlayıcısı
-    H6/C=TR/O=TÜRKTRUST Bilgi İletişim ve Bilişim Güvenliği Hizmetleri
-    A.Ş./L=Ankara
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 138134509972618
-	SKI: DD:55:17:13:F6:AC:E8:48:21:CA:EF:B5:AF:D1:00:32:ED:9E:8C:B5
-	Valid from: 2013-12-18T09:04:10+0000
-	     until: 2023-12-16T09:04:10+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
 Subject: /IdenTrust Public Sector Root CA 1/C=US/O=IdenTrust
 Issuer: /IdenTrust Public Sector Root CA 1/C=US/O=IdenTrust
 	Signature algorithm: RSA / SHA256
