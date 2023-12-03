@@ -371,21 +371,6 @@ Details:
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
-Subject: /VRK Gov. Root CA/C=FI/O=Vaestorekisterikeskus CA/OU=Certification
-    Authority Services/OU=Varmennepalvelut/ST=Finland
-Issuer: /VRK Gov. Root CA/C=FI/O=Vaestorekisterikeskus CA/OU=Certification
-    Authority Services/OU=Varmennepalvelut/ST=Finland
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 100000
-	SKI: DB:E9:E1:9B:D2:D1:24:0B:FC:AB:E3:A0:67:EA:AE:9C:4B:77:F4:B0
-	Valid from: 2002-12-18T13:53:00+0000
-	     until: 2023-12-18T13:51:08+0000
-	Key usages: cert sign, content committment, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
 Subject: /EC-ACC/C=ES/O=Agencia Catalana de Certificacio
     (NIF Q-0801176-I)/OU=Serveis Publics de Certificacio/OU=Vegeu
     https://www.catcert.net/verarrel (c)03/OU=Jerarquia Entitats de
