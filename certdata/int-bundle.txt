@@ -103,24 +103,6 @@ Details:
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
-Subject: /Starfield Secure Certification
-    Authority/C=US/O=Starfield Technologies,
-    Inc./OU=http://www.starfieldtech.com/repository/L=Scottsdale/ST=Arizona
-Issuer: /http://www.valicert.com//O=ValiCert, Inc./OU=ValiCert Class 2 Policy
-    Validation Authority/L=ValiCert Validation Network
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-1024
-	Serial number: 260
-	SKI: AC:55:DE:B7:EA:13:EB:FC:98:68:E2:53:60:1E:F1:25:3E:8C:EE:E7
-	Valid from: 2004-01-14T21:05:21+0000
-	     until: 2024-01-09T21:05:21+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-	OCSP server:
-		- http://ocsp.starfieldtech.com
-CERTIFICATE
 Subject: /AC Camerfirma Certificados Camerales/C=ES/O=AC Camerfirma
     SA/L=Madrid (see current address at www.camerfirma.com/address)
 Issuer: /Chambers of Commerce Root/C=EU/O=AC Camerfirma SA CIF
@@ -2494,46 +2476,6 @@ Details:
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
-Subject: /Mississippi Division of Medicaid CA/C=US/O=Mississippi Division of
-    Medicaid/OU=Orion Health Direct Secure Messaging
-Issuer: /Orion Health Direct Secure Messaging CA/C=US/O=Orion Health
-    Inc./OU=Orion Health Direct Secure Messaging
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 10230950925783192973828243403347888349
-	AKI: A5:6E:22:FF:39:69:3A:23:FB:89:24:17:C6:60:94:00:1A:DA:8E:9E
-	SKI: B4:76:B6:92:CF:0A:F4:37:BA:26:17:FA:BF:20:11:98:5A:81:92:71
-	Valid from: 2014-01-08T12:00:00+0000
-	     until: 2024-01-08T12:00:00+0000
-	Key usages: cert sign, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://cacerts.digicert.com/aiaOrionHealthIssuingCAs.p7c
-	OCSP server:
-		- http://ocsp.digicert.com
-CERTIFICATE
-Subject: /Inland Empire Health Information Exchange/C=US/O=Inland Empire EHR
-    Resource Center/OU=Inland Empire Health Information Exchange
-Issuer: /Orion Health Direct Secure Messaging CA/C=US/O=Orion Health
-    Inc./OU=Orion Health Direct Secure Messaging
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 20505250284676744808837860209086763805
-	AKI: A5:6E:22:FF:39:69:3A:23:FB:89:24:17:C6:60:94:00:1A:DA:8E:9E
-	SKI: 0C:95:F0:47:52:DB:4B:A4:EB:E7:47:D2:89:B6:5C:D1:AF:3A:30:10
-	Valid from: 2014-01-08T12:00:00+0000
-	     until: 2024-01-08T12:00:00+0000
-	Key usages: cert sign, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://cacerts.digicert.com/aiaOrionHealthIssuingCAs.p7c
-	OCSP server:
-		- http://ocsp.digicert.com
-CERTIFICATE
 Subject: /DigiCert Grid Trust CA G2/C=US/O=DigiCert Grid/OU=www.digicert.com
 Issuer: /DigiCert Assured ID Root CA/C=US/O=DigiCert Inc/OU=www.digicert.com
 	Signature algorithm: RSA / SHA256
@@ -2549,64 +2491,6 @@ Details:
 	SANs (0):
 	1 AIA:
 		http://cacerts.digicert.com/DigiCertAssuredIDRootCA.p7c
-	OCSP server:
-		- http://ocsp.digicert.com
-CERTIFICATE
-Subject: /Axesson Direct CA/C=US/O=Axesson Inc./OU=www.axesson.com
-Issuer: /DigiCert Federated Trust CA/C=US/O=DigiCert Inc/OU=www.digicert.com
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 11378505099043354181342906116176933320
-	AKI: 46:08:38:5A:A9:8E:20:BB:0C:AF:5E:31:BA:89:B3:28:BF:AC:8C:36
-	SKI: BE:8F:47:06:EA:5D:BF:84:41:C3:8E:05:51:11:DA:A3:47:EF:9C:CB
-	Valid from: 2014-01-08T12:00:00+0000
-	     until: 2024-01-08T12:00:00+0000
-	Key usages: cert sign, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://cacerts.digicert.com/aiaAxessonDirectCA.p7c
-	OCSP server:
-		- http://ocsp.digicert.com
-CERTIFICATE
-Subject: /MHIN Direct CA/C=US/O=Michiana Health Information
-    Network/OU=www.mhin.com
-Issuer: /DigiCert Federated Trust CA/C=US/O=DigiCert Inc/OU=www.digicert.com
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 3487598923614931858165713286896948911
-	AKI: 46:08:38:5A:A9:8E:20:BB:0C:AF:5E:31:BA:89:B3:28:BF:AC:8C:36
-	SKI: 39:62:9D:94:AC:F8:73:DD:B2:FD:A4:D1:5C:20:86:41:A4:97:C6:C9
-	Valid from: 2014-01-08T12:00:00+0000
-	     until: 2024-01-08T12:00:00+0000
-	Key usages: cert sign, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://cacerts.digicert.com/aiaMHINDirectCA.p7c
-	OCSP server:
-		- http://ocsp.digicert.com
-CERTIFICATE
-Subject: /North Dakota Information Technology Department CA/C=US/O=North
-    Dakota Information Technology Department/OU=Orion Health Direct Secure
-    Messaging
-Issuer: /Orion Health Direct Secure Messaging CA/C=US/O=Orion Health
-    Inc./OU=Orion Health Direct Secure Messaging
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 5594655699675919760560490246001715233
-	AKI: A5:6E:22:FF:39:69:3A:23:FB:89:24:17:C6:60:94:00:1A:DA:8E:9E
-	SKI: 95:C5:DF:F9:17:28:28:E1:3F:F2:67:EA:D9:11:3D:43:38:1C:4B:E1
-	Valid from: 2014-01-10T12:00:00+0000
-	     until: 2024-01-10T12:00:00+0000
-	Key usages: cert sign, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://cacerts.digicert.com/aiaOrionHealthIssuingCAs.p7c
 	OCSP server:
 		- http://ocsp.digicert.com
 CERTIFICATE
