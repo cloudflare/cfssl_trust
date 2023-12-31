@@ -4561,22 +4561,6 @@ Details:
 	OCSP server:
 		- http://ocsp.trust.teliasonera.com
 CERTIFICATE
-Subject: /C=GB/O=Trustis Limited/OU=Trustis FPS FF Issuing Authority
-Issuer: /C=GB/O=Trustis Limited/OU=Trustis FPS Root CA
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 320774741021724367023096365110384157241
-	AKI: BA:FA:71:25:79:8B:57:41:25:21:86:0B:71:EB:B2:64:0E:8B:21:67
-	SKI: 89:28:4D:D1:24:A4:ED:DA:78:14:A6:61:82:12:8E:FB:3D:4C:DE:A7
-	Valid from: 2014-10-20T13:11:46+0000
-	     until: 2024-01-18T11:57:22+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-	1 AIA:
-		http://www.trustis.com/pki/fps/root.crt
-CERTIFICATE
 Subject: /MobileMD Direct Intermediate CA/C=US/O=MobileMD Health
     Services/OU=MobileMD
 Issuer: /DigiCert Federated Trust CA/C=US/O=DigiCert Inc/OU=www.digicert.com
@@ -16522,26 +16506,6 @@ Details:
 	SANs (0):
 	1 AIA:
 		http://www.ssl.com/repository/SSLcomRootCertificationAuthorityRSA.crt
-	OCSP server:
-		- http://ocsps.ssl.com
-CERTIFICATE
-Subject: /MilleniumSign for ClientCert RSA/C=MU/O=MilleniumSign Limited
-Issuer: /InterCloud Ventures CA for ClientCert RSA/C=SC/O=InterCloud Ventures
-    Inc
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-4096
-	Serial number: 5313214817009575974
-	AKI: 78:A1:D7:59:38:A9:48:6C:8A:E1:54:6C:97:80:0D:98:62:A8:A0:76
-	SKI: 32:2C:4D:24:40:64:1E:10:11:DA:9B:78:96:28:D8:4F:64:95:46:B7
-	Valid from: 2019-01-18T19:19:48+0000
-	     until: 2024-01-17T19:19:48+0000
-	Key usages: cert sign, crl sign, digital signature
-	Extended usages: client auth, s/mime
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://www.ssl.com/repository/IntercloudVentures-Intermediate-clientCert-RSA-4096-R1.crt
 	OCSP server:
 		- http://ocsps.ssl.com
 CERTIFICATE
