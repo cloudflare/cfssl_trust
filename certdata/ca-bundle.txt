@@ -434,20 +434,6 @@ Details:
 	Basic constraints: valid, is a CA certificate, max path length 12
 	SANs (1): email:chambersignroot@chambersign.org
 CERTIFICATE
-Subject: /C=GB/O=Trustis Limited/OU=Trustis FPS Root CA
-Issuer: /C=GB/O=Trustis Limited/OU=Trustis FPS Root CA
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 36053640375399034304724988975563710553
-	AKI: BA:FA:71:25:79:8B:57:41:25:21:86:0B:71:EB:B2:64:0E:8B:21:67
-	SKI: BA:FA:71:25:79:8B:57:41:25:21:86:0B:71:EB:B2:64:0E:8B:21:67
-	Valid from: 2003-12-23T12:14:06+0000
-	     until: 2024-01-21T11:36:54+0000
-	Key usages: 
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
 Subject: /AAA Certificate Services/C=GB/O=Comodo CA
     Limited/L=Salford/ST=Greater Manchester
 Issuer: /AAA Certificate Services/C=GB/O=Comodo CA
