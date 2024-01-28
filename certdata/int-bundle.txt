@@ -2494,63 +2494,6 @@ Details:
 	OCSP server:
 		- http://ocsp.digicert.com
 CERTIFICATE
-Subject: /DigiCert Direct Non-Provider CA/C=US/O=DigiCert
-    Inc/OU=www.digicert.com
-Issuer: /DigiCert Federated Trust CA/C=US/O=DigiCert Inc/OU=www.digicert.com
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 3071190370563768828038079018789515602
-	AKI: 46:08:38:5A:A9:8E:20:BB:0C:AF:5E:31:BA:89:B3:28:BF:AC:8C:36
-	SKI: F9:88:66:88:26:57:FB:27:63:7B:3F:63:43:D1:8B:01:CA:3A:12:F3
-	Valid from: 2014-02-11T12:00:00+0000
-	     until: 2024-02-11T12:00:00+0000
-	Key usages: cert sign, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://cacerts.digicert.com/aiaDigiCertDirectNon-ProviderCA.p7c
-	OCSP server:
-		- http://ocsp.digicert.com
-CERTIFICATE
-Subject: /DigiCert Federated Healthcare CA/C=US/O=DigiCert
-    Inc/OU=www.digicert.com
-Issuer: /DigiCert Federated Trust CA/C=US/O=DigiCert Inc/OU=www.digicert.com
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 8426820733904467744026088221148951786
-	AKI: 46:08:38:5A:A9:8E:20:BB:0C:AF:5E:31:BA:89:B3:28:BF:AC:8C:36
-	SKI: 82:4D:97:86:7C:04:CF:D3:11:44:D2:1C:12:63:C8:89:41:7E:2D:3E
-	Valid from: 2014-02-11T12:00:00+0000
-	     until: 2024-02-11T12:00:00+0000
-	Key usages: cert sign, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://cacerts.digicert.com/aiaDigiCertFederatedHealthcareCA.p7c
-	OCSP server:
-		- http://ocsp.digicert.com
-CERTIFICATE
-Subject: /TeleSec ServerPass Extended Validation Class 3 CA/C=DE/O=T-Systems
-    International GmbH/OU=T-Systems Trust Center/L=Netphen/ST=Nordrhein
-    Westfalen
-Issuer: /T-TeleSec GlobalRoot Class 3/C=DE/O=T-Systems Enterprise Services
-    GmbH/OU=T-Systems Trust Center
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 1679047331148872718
-	AKI: B5:03:F7:76:3B:61:82:6A:12:AA:18:53:EB:03:21:94:BF:FE:CE:CA
-	SKI: 30:2C:D5:4F:D2:08:D1:3D:E3:A7:82:92:82:37:89:6D:66:B9:0F:AF
-	Valid from: 2014-02-11T14:44:50+0000
-	     until: 2024-02-11T23:59:59+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://ocsp.telesec.de/ocspr
-CERTIFICATE
 Subject: /COMODO RSA Domain Validation Secure Server CA/C=GB/O=COMODO CA
     Limited/L=Salford/ST=Greater Manchester
 Issuer: /COMODO RSA Certification Authority/C=GB/O=COMODO CA
@@ -2592,42 +2535,6 @@ Details:
 		http://crt.comodoca.com/COMODORSAAddTrustCA.crt
 	OCSP server:
 		- http://ocsp.comodoca.com
-CERTIFICATE
-Subject: /Medicity Direct CA/C=US/O=Medicity Inc./OU=www.medicity.com
-Issuer: /DigiCert Federated Trust CA/C=US/O=DigiCert Inc/OU=www.digicert.com
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 6933957618603006588901816771254659125
-	AKI: 46:08:38:5A:A9:8E:20:BB:0C:AF:5E:31:BA:89:B3:28:BF:AC:8C:36
-	SKI: 59:F4:55:C7:5B:EE:76:66:32:63:17:39:97:F7:9A:74:D8:6C:0E:B7
-	Valid from: 2014-02-13T12:00:00+0000
-	     until: 2024-02-13T12:00:00+0000
-	Key usages: cert sign, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://cacerts.digicert.com/aiaMedicityDirectCA.p7c
-	OCSP server:
-		- http://ocsp.digicert.com
-CERTIFICATE
-Subject: /Actalis Authentication CA G3/C=IT/O=Actalis
-    S.p.A./03358520967/L=Milano/ST=Milano
-Issuer: /Actalis Authentication Root CA/C=IT/O=Actalis
-    S.p.A./03358520967/L=Milan
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 8366940759504193212
-	AKI: 52:D8:88:3A:C8:9F:78:66:ED:89:F3:7B:38:70:94:C9:02:02:36:D0
-	SKI: AA:AA:FD:CA:8C:1D:4D:F1:2E:83:E1:06:FC:FA:8E:EA:0E:23:AE:3D
-	Valid from: 2014-02-13T15:02:23+0000
-	     until: 2024-02-13T15:02:23+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-	OCSP server:
-		- http://portal.actalis.it/VA/AUTH-ROOT
 CERTIFICATE
 Subject: /AlphaSSL CA - SHA256 - G2/C=BE/O=GlobalSign nv-sa
 Issuer: /GlobalSign Root CA/C=BE/O=GlobalSign nv-sa/OU=Root CA
