@@ -493,54 +493,6 @@ Details:
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
-Subject: /ANCERT Certificados Notariales/C=ES/O=Agencia Notarial de
-    Certificacion S.L. Unipersonal - CIF B83395988
-Issuer: /ANCERT Certificados Notariales/C=ES/O=Agencia Notarial de
-    Certificacion S.L. Unipersonal - CIF B83395988
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 325409233719337298112030738776030590596
-	AKI: 84:F7:FA:72:5E:88:64:66:1D:28:8C:B0:77:BD:0C:6A:9F:4C:4D:62
-	SKI: 84:F7:FA:72:5E:88:64:66:1D:28:8C:B0:77:BD:0C:6A:9F:4C:4D:62
-	Valid from: 2004-02-11T15:58:30+0000
-	     until: 2024-02-11T15:58:26+0000
-	Key usages: cert sign, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate
-	SANs (1): email:ancert@ancert.com
-CERTIFICATE
-Subject: /ANCERT Corporaciones de Derecho Publico/C=ES/O=Agencia Notarial de
-    Certificacion S.L. Unipersonal - CIF B83395988
-Issuer: /ANCERT Corporaciones de Derecho Publico/C=ES/O=Agencia Notarial de
-    Certificacion S.L. Unipersonal - CIF B83395988
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 84670256485116394708501439464043806631
-	AKI: 8C:4C:1E:37:0C:B1:9F:D2:AC:44:0B:3A:BE:02:CF:F4:8D:2D:66:95
-	SKI: 8C:4C:1E:37:0C:B1:9F:D2:AC:44:0B:3A:BE:02:CF:F4:8D:2D:66:95
-	Valid from: 2004-02-11T17:22:45+0000
-	     until: 2024-02-11T17:22:45+0000
-	Key usages: cert sign, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate
-	SANs (1): email:ancert@ancert.com
-CERTIFICATE
-Subject: /ANCERT Certificados CGN/C=ES/O=Agencia Notarial de Certificacion
-    S.L. Unipersonal - CIF B83395988
-Issuer: /ANCERT Certificados CGN/C=ES/O=Agencia Notarial de Certificacion S.L.
-    Unipersonal - CIF B83395988
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 355447705768850101265163501012581525
-	AKI: EC:57:9F:C8:76:22:6F:CC:3A:AE:5B:F0:2D:A1:62:58:D1:8D:02:CC
-	SKI: EC:57:9F:C8:76:22:6F:CC:3A:AE:5B:F0:2D:A1:62:58:D1:8D:02:CC
-	Valid from: 2004-02-11T17:27:12+0000
-	     until: 2024-02-11T17:27:12+0000
-	Key usages: cert sign, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate
-	SANs (1): email:ancert@ancert.com
-CERTIFICATE
 Subject: /GeoTrust Universal CA/C=US/O=GeoTrust Inc.
 Issuer: /GeoTrust Universal CA/C=US/O=GeoTrust Inc.
 	Signature algorithm: RSA / SHA1
