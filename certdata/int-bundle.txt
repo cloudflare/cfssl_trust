@@ -2536,72 +2536,6 @@ Details:
 	OCSP server:
 		- http://ocsp.comodoca.com
 CERTIFICATE
-Subject: /AlphaSSL CA - SHA256 - G2/C=BE/O=GlobalSign nv-sa
-Issuer: /GlobalSign Root CA/C=BE/O=GlobalSign nv-sa/OU=Root CA
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 4835703278459909592593969
-	AKI: 60:7B:66:1A:45:0D:97:CA:89:50:2F:7D:04:CD:34:A8:FF:FC:FD:4B
-	SKI: F5:CD:D5:3C:08:50:F9:6A:4F:3A:B7:97:DA:56:83:E6:69:D2:68:F7
-	Valid from: 2014-02-20T10:00:00+0000
-	     until: 2024-02-20T10:00:00+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://ocsp.globalsign.com/rootr1
-CERTIFICATE
-Subject: /GlobalSign Domain Validation CA - SHA256 - G2/C=BE/O=GlobalSign
-    nv-sa
-Issuer: /GlobalSign Root CA/C=BE/O=GlobalSign nv-sa/OU=Root CA
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 4835703278459909592596000
-	AKI: 60:7B:66:1A:45:0D:97:CA:89:50:2F:7D:04:CD:34:A8:FF:FC:FD:4B
-	SKI: EA:4E:7C:D4:80:2D:E5:15:81:86:26:8C:82:6D:C0:98:A4:CF:97:0F
-	Valid from: 2014-02-20T10:00:00+0000
-	     until: 2024-02-20T10:00:00+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://ocsp.globalsign.com/rootr1
-CERTIFICATE
-Subject: /GlobalSign Organization Validation CA - SHA256 -
-    G2/C=BE/O=GlobalSign nv-sa
-Issuer: /GlobalSign Root CA/C=BE/O=GlobalSign nv-sa/OU=Root CA
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 4835703278459909592597063
-	AKI: 60:7B:66:1A:45:0D:97:CA:89:50:2F:7D:04:CD:34:A8:FF:FC:FD:4B
-	SKI: 96:DE:61:F1:BD:1C:16:29:53:1C:C0:CC:7D:3B:83:00:40:E6:1A:7C
-	Valid from: 2014-02-20T10:00:00+0000
-	     until: 2024-02-20T10:00:00+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://ocsp.globalsign.com/rootr1
-CERTIFICATE
-Subject: /AlphaSSL CA - SHA256 - G2/C=BE/O=GlobalSign nv-sa
-Issuer: /GlobalSign Root CA/C=BE/O=GlobalSign nv-sa/OU=Root CA
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 4835703278459909592595000
-	AKI: 60:7B:66:1A:45:0D:97:CA:89:50:2F:7D:04:CD:34:A8:FF:FC:FD:4B
-	SKI: F5:CD:D5:3C:08:50:F9:6A:4F:3A:B7:97:DA:56:83:E6:69:D2:68:F7
-	Valid from: 2014-02-20T10:00:00+0000
-	     until: 2024-02-20T10:00:00+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://ocsp.globalsign.com/rootr1
-CERTIFICATE
 Subject: /GlobalSign CA for AATL - SHA256 - G2/C=BE/O=GlobalSign nv-sa
 Issuer: /GlobalSign/O=GlobalSign/OU=GlobalSign Root CA - R3
 	Signature algorithm: RSA / SHA256
@@ -9736,56 +9670,6 @@ Details:
 	OCSP server:
 		- http://ocsp05.actalis.it/VA/AUTH-ROOT
 CERTIFICATE
-Subject: /AlphaSSL CA - SHA256 - G2/C=BE/O=GlobalSign nv-sa
-Issuer: /GlobalSign/O=GlobalSign/OU=GlobalSign Root CA - R3
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 1476377651309393342279898355642687
-	AKI: 8F:F0:4B:7F:A8:2E:45:24:AE:4D:50:FA:63:9A:8B:DE:E2:DD:1B:BC
-	SKI: F5:CD:D5:3C:08:50:F9:6A:4F:3A:B7:97:DA:56:83:E6:69:D2:68:F7
-	Valid from: 2016-10-14T00:00:00+0000
-	     until: 2024-02-20T10:00:00+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://ocsp2.globalsign.com/rootr3
-CERTIFICATE
-Subject: /GlobalSign Organization Validation CA - SHA256 -
-    G2/C=BE/O=GlobalSign nv-sa
-Issuer: /GlobalSign/O=GlobalSign/OU=GlobalSign Root CA - R3
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 1476377650605500253267734298139927
-	AKI: 8F:F0:4B:7F:A8:2E:45:24:AE:4D:50:FA:63:9A:8B:DE:E2:DD:1B:BC
-	SKI: 96:DE:61:F1:BD:1C:16:29:53:1C:C0:CC:7D:3B:83:00:40:E6:1A:7C
-	Valid from: 2016-10-14T00:00:00+0000
-	     until: 2024-02-20T10:00:00+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://ocsp2.globalsign.com/rootr3
-CERTIFICATE
-Subject: /GlobalSign Domain Validation CA - SHA256 - G2/C=BE/O=GlobalSign
-    nv-sa
-Issuer: /GlobalSign/O=GlobalSign/OU=GlobalSign Root CA - R3
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 1476377607037524434268951195832933
-	AKI: 8F:F0:4B:7F:A8:2E:45:24:AE:4D:50:FA:63:9A:8B:DE:E2:DD:1B:BC
-	SKI: EA:4E:7C:D4:80:2D:E5:15:81:86:26:8C:82:6D:C0:98:A4:CF:97:0F
-	Valid from: 2016-10-14T00:00:00+0000
-	     until: 2024-02-20T10:00:00+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://ocsp2.globalsign.com/rootr3
-CERTIFICATE
 Subject: /GlobalSign CloudSSL CA - SHA256 - G3/C=BE/O=GlobalSign nv-sa
 Issuer: /GlobalSign/O=GlobalSign/OU=GlobalSign Root CA - R3
 	Signature algorithm: RSA / SHA256
@@ -16616,66 +16500,6 @@ Details:
 	OCSP server:
 		- http://ocsp.digicert.com
 CERTIFICATE
-Subject: /SHECA EV Secure Server CA/C=CN/O=Shanghai Electronic Certificate
-    Authority Center Co., Ltd./L=Shanghai/ST=Shanghai
-Issuer: /Trusted Root CA SHA256 G2/C=BE/O=GlobalSign nv-sa/OU=Trusted Root
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 154201219913538077659524845633
-	AKI: C8:63:9B:08:69:54:C2:98:C8:D9:CD:E3:33:B7:50:5E:F8:C9:01:9B
-	SKI: 8C:F7:64:B9:BA:7F:94:C0:79:BF:2E:AD:75:85:C3:7E:2B:B2:41:2B
-	Valid from: 2019-02-20T00:00:00+0000
-	     until: 2024-02-20T00:00:00+0000
-	Key usages: cert sign, crl sign, digital signature
-	Extended usages: client auth, ocsp signing, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://secure.globalsign.com/cacert/trustrootsha2g2.crt
-	OCSP server:
-		- http://ocsp2.globalsign.com/trustrootsha2g2
-CERTIFICATE
-Subject: /SHECA DV Secure Server CA/C=CN/O=Shanghai Electronic Certificate
-    Authority Center Co., Ltd./L=Shanghai/ST=Shanghai
-Issuer: /Trusted Root CA SHA256 G2/C=BE/O=GlobalSign nv-sa/OU=Trusted Root
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 154201219417100416677559727605
-	AKI: C8:63:9B:08:69:54:C2:98:C8:D9:CD:E3:33:B7:50:5E:F8:C9:01:9B
-	SKI: 92:F5:48:E3:B8:6A:02:17:12:3A:71:47:C5:F8:15:4C:3C:F3:0B:41
-	Valid from: 2019-02-20T00:00:00+0000
-	     until: 2024-02-20T00:00:00+0000
-	Key usages: cert sign, crl sign, digital signature
-	Extended usages: client auth, ocsp signing, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://secure.globalsign.com/cacert/trustrootsha2g2.crt
-	OCSP server:
-		- http://ocsp2.globalsign.com/trustrootsha2g2
-CERTIFICATE
-Subject: /SHECA OV Secure Server CA/C=CN/O=Shanghai Electronic Certificate
-    Authority Center Co., Ltd./L=Shanghai/ST=Shanghai
-Issuer: /Trusted Root CA SHA256 G2/C=BE/O=GlobalSign nv-sa/OU=Trusted Root
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 154201219617237576017714580844
-	AKI: C8:63:9B:08:69:54:C2:98:C8:D9:CD:E3:33:B7:50:5E:F8:C9:01:9B
-	SKI: 9D:F7:60:A6:08:EC:60:C9:3E:7F:4D:39:F8:2D:FE:C5:DD:EB:4C:3A
-	Valid from: 2019-02-20T00:00:00+0000
-	     until: 2024-02-20T00:00:00+0000
-	Key usages: cert sign, crl sign, digital signature
-	Extended usages: client auth, ocsp signing, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://secure.globalsign.com/cacert/trustrootsha2g2.crt
-	OCSP server:
-		- http://ocsp2.globalsign.com/trustrootsha2g2
-CERTIFICATE
 Subject: /GlobalSign/O=GlobalSign/OU=GlobalSign Root CA - R6
 Issuer: /GlobalSign/O=GlobalSign/OU=GlobalSign Root CA - R3
 	Signature algorithm: RSA / SHA384
@@ -16735,27 +16559,6 @@ Details:
 		http://repo.harica.gr/certs/HaricaRootCA2015.crt
 	OCSP server:
 		- http://ocsp.harica.gr
-CERTIFICATE
-Subject: /MilleniumSign Client Certificate CA RSA/C=MU/O=MilleniumSign
-    Limited/L=Ebene/ST=Plaines Wilhems
-Issuer: /InterCloud Client Certificate CA RSA/C=SC/O=InterCloud Ventures
-    Inc/L=Victoria/ST=Mahé
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-4096
-	Serial number: 4797765771515423291
-	AKI: 82:2E:64:F2:47:D3:D7:AB:D2:CA:45:7B:08:66:8C:FA:0B:C7:E9:42
-	SKI: 68:79:40:1B:9A:9C:B1:16:C6:3B:6D:18:24:FB:49:CB:EC:DD:13:80
-	Valid from: 2019-02-25T19:20:54+0000
-	     until: 2024-02-24T19:20:54+0000
-	Key usages: cert sign, crl sign, digital signature
-	Extended usages: client auth, s/mime
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://repo.ca.pki.africa/repository/IntercloudVentures-Intermediate-clientCert-RSA-4096-R2.crt
-	OCSP server:
-		- http://ocsp.ca.pki.africa
 CERTIFICATE
 Subject: /WoTrus DV Server CA/C=CN/O=WoTrus CA Limited/OU=Controlled by
     Sectigo exclusively for WoTrus CA Limited/L=Shenzhen/ST=Guangdong
@@ -25284,26 +25087,6 @@ Details:
 	Valid from: 2020-07-05T00:00:00+0000
 	     until: 2026-02-24T00:00:00+0000
 	Key usages: cert sign, crl sign
-	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://secure.globalsign.com/cacert/trustroottlssha2g3.crt
-	OCSP server:
-		- http://ocsp.globalsign.com/trustroottlssha2g3
-CERTIFICATE
-Subject: /SHECA OV Secure Server CA/C=CN/O=Shanghai Electronic Certificate
-    Authority Center Co., Ltd.
-Issuer: /Trusted Root TLS CA SHA256 G3/C=BE/O=GlobalSign nv-sa
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 159159749757881594477896977619819576685
-	AKI: DE:4F:D7:DD:27:AE:D5:7F:58:81:E1:2C:47:AC:23:B7:C6:7B:57:EF
-	SKI: 9D:F7:60:A6:08:EC:60:C9:3E:7F:4D:39:F8:2D:FE:C5:DD:EB:4C:3A
-	Valid from: 2020-07-05T00:00:00+0000
-	     until: 2024-02-20T00:00:00+0000
-	Key usages: cert sign, crl sign, digital signature
 	Extended usages: client auth, server auth
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
