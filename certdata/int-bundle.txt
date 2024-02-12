@@ -2786,26 +2786,6 @@ Details:
 	OCSP server:
 		- http://ocsp.omniroot.com/baltimoreroot
 CERTIFICATE
-Subject: /SpaceSSL CA/C=PL/O=Unizeto Technologies S.A./OU=SpaceSSL
-    Certification Authority
-Issuer: /Certum Global Services CA/C=PL/O=Unizeto Technologies S.A./OU=Certum
-    Certification Authority
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 49479468052669936992520155445763770430
-	AKI: 45:C5:B2:86:4E:CC:DD:29:97:E4:DD:14:C4:6E:AE:4D:B8:C1:77:F8
-	SKI: EF:AC:69:D7:5C:51:5D:7B:76:00:F0:F8:99:B4:2B:CC:19:84:0D:89
-	Valid from: 2014-04-16T14:00:00+0000
-	     until: 2024-03-02T11:00:00+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://repository.certum.pl/gsca.cer
-	OCSP server:
-		- http://subca.ocsp-certum.com
-CERTIFICATE
 Subject: /DigiCert Secure Auth CA/C=US/O=DigiCert Inc/OU=www.digicert.com
 Issuer: /DigiCert Assured ID Root CA/C=US/O=DigiCert Inc/OU=www.digicert.com
 	Signature algorithm: RSA / SHA256
