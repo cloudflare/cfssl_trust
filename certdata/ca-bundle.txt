@@ -3562,19 +3562,6 @@ Details:
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
-Subject: /CCA India 2014/C=IN/O=India PKI
-Issuer: /CCA India 2014/C=IN/O=India PKI
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 10157
-	SKI: 42:B8:C5:CF:6D:B3:57:E1
-	Valid from: 2014-03-05T10:10:49+0000
-	     until: 2024-03-05T10:10:49+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
 Subject: /MULTICERT Root Certification Authority 01/C=PT/O=MULTICERT -
     Serviços de Certificação Electrónica S.A.
 Issuer: /MULTICERT Root Certification Authority 01/C=PT/O=MULTICERT -
