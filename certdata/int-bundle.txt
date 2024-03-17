@@ -2480,43 +2480,6 @@ Details:
 	OCSP server:
 		- http://ocsp.comodoca.com
 CERTIFICATE
-Subject: /RelayHealth Direct CA/C=US/O=RelayHealth
-Issuer: /DigiCert Federated Trust CA/C=US/O=DigiCert Inc/OU=www.digicert.com
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 13452045612868201362524995868654712163
-	AKI: 46:08:38:5A:A9:8E:20:BB:0C:AF:5E:31:BA:89:B3:28:BF:AC:8C:36
-	SKI: 58:E3:21:F3:02:91:4D:72:C6:10:BE:5E:29:F5:F8:72:4D:79:21:F0
-	Valid from: 2014-04-04T12:00:00+0000
-	     until: 2024-04-04T12:00:00+0000
-	Key usages: cert sign, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://cacerts.digicert.com/aiaRelayHealthDirectCA.p7c
-	OCSP server:
-		- http://ocsp.digicert.com
-CERTIFICATE
-Subject: /Indian Health Service-RPMS DIRECT Messaging CA/C=US/O=Indian Health
-    Service/OU=directihs.net
-Issuer: /DigiCert Federated Trust CA/C=US/O=DigiCert Inc/OU=www.digicert.com
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 12232513083103808025653467429174157681
-	AKI: 46:08:38:5A:A9:8E:20:BB:0C:AF:5E:31:BA:89:B3:28:BF:AC:8C:36
-	SKI: 1B:73:DB:51:7E:B2:CD:E1:45:E0:54:E0:6D:2B:98:72:F0:66:C0:2A
-	Valid from: 2014-04-04T12:00:00+0000
-	     until: 2024-04-04T12:00:00+0000
-	Key usages: cert sign, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://cacerts.digicert.com/aiaIndianHealthService-RPMSDIRECTMessagingCA.p7c
-	OCSP server:
-		- http://ocsp.digicert.com
-CERTIFICATE
 Subject: /Verizon Global Root CA/C=US/O=Verizon Business/OU=OmniRoot
 Issuer: /Baltimore CyberTrust Root/C=IE/O=Baltimore/OU=CyberTrust
 	Signature algorithm: RSA / SHA256
