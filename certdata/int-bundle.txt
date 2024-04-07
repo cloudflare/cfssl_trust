@@ -2498,45 +2498,6 @@ Details:
 	OCSP server:
 		- http://ocsp.digicert.com
 CERTIFICATE
-Subject: /Rush Health CA/C=US/O=Rush Health/OU=Orion Health Direct Secure
-    Messaging
-Issuer: /Orion Health Direct Secure Messaging CA/C=US/O=Orion Health
-    Inc./OU=Orion Health Direct Secure Messaging
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 6252724313679620825149470155455970013
-	AKI: A5:6E:22:FF:39:69:3A:23:FB:89:24:17:C6:60:94:00:1A:DA:8E:9E
-	SKI: BE:66:CD:9A:79:84:9F:1B:02:3E:DB:3D:1A:D0:8F:32:16:49:96:E0
-	Valid from: 2014-04-23T12:00:00+0000
-	     until: 2024-04-23T12:00:00+0000
-	Key usages: cert sign, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://cacerts.digicert.com/aiaOrionHealthIssuingCAs.p7c
-	OCSP server:
-		- http://ocsp.digicert.com
-CERTIFICATE
-Subject: /Cybertrust Global Root/O=Cybertrust, Inc
-Issuer: /Baltimore CyberTrust Root/C=IE/O=Baltimore/OU=CyberTrust
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 120039509
-	AKI: E5:9D:59:30:82:47:58:CC:AC:FA:08:54:36:86:7B:3A:B5:04:4D:F0
-	SKI: B6:08:7B:0D:7A:CC:AC:20:4C:86:56:32:5E:CF:AB:6E:85:2D:70:57
-	Valid from: 2014-04-23T16:11:03+0000
-	     until: 2024-04-23T16:10:56+0000
-	Key usages: cert sign, content committment, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate, max path length 2
-	SANs (0):
-	2 AIAs:
-		https://cacert.omniroot.com/baltimoreroot.crt
-		https://cacert.omniroot.com/baltimoreroot.der
-	OCSP server:
-		- http://ocsp.omniroot.com/baltimoreroot
-CERTIFICATE
 Subject: /Trend Micro CA/C=US/O=Trend Micro Inc
 Issuer: /AffirmTrust Networking/C=US/O=AffirmTrust
 	Signature algorithm: RSA / SHA1
@@ -27935,3 +27896,23 @@ Details:
 		http://cacerts.digicert.com/DigiCertRSA4096RootG5.crt
 	OCSP server:
 		- http://ocsp.digicert.com
+CERTIFICATE
+Subject: /Cybertrust Japan SureServer EV CA G3/C=JP/O=Cybertrust Japan Co.,
+    Ltd.
+Issuer: /C=JP/O=SECOM Trust Systems CO.,LTD./OU=Security Communication RootCA2
+	Signature algorithm: RSA / SHA256
+Details:
+	Public key: RSA-2048
+	Serial number: 46157929531853354100488418937468587687
+	AKI: 0A:85:A9:77:65:05:98:7C:40:81:F8:0F:97:2C:38:F1:0A:EC:3C:CF
+	SKI: 82:6C:75:5D:53:F5:45:69:BC:25:2D:A4:4C:89:E6:B2:B7:41:87:A3
+	Valid from: 2023-12-13T06:28:45+0000
+	     until: 2029-05-29T05:00:39+0000
+	Key usages: cert sign, crl sign
+	Extended usages: client auth, server auth
+	Basic constraints: valid, is a CA certificate, max path length 0
+	SANs (0):
+	1 AIA:
+		http://repository.secomtrust.net/SC-Root2/SCRoot2ca.cer
+	OCSP server:
+		- http://scrootca2.ocsp.secomtrust.net
