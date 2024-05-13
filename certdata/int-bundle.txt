@@ -17744,24 +17744,6 @@ Details:
 		- http://ocsp2.netlock.hu/gold.cgi
 		- http://ocsp3.netlock.hu/gold.cgi
 CERTIFICATE
-Subject: /Henkel Secure E-mail CA/C=DE/O=Henkel AG & Co. KGaA/OU=Class 2
-    DigiCert PKI Platform Individual Subscriber CA
-Issuer: /DigiCert Assured ID Root G2/C=US/O=DigiCert Inc/OU=www.digicert.com
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-4096
-	Serial number: 10905861135842523791628165016635761949
-	AKI: CE:C3:4A:B9:99:55:F2:B8:DB:60:BF:A9:7E:BD:56:B5:97:36:A7:D6
-	SKI: D9:8B:B7:48:56:24:9D:33:04:B6:0A:90:DD:62:81:02:81:44:93:25
-	Valid from: 2019-05-29T12:27:01+0000
-	     until: 2024-05-29T12:27:01+0000
-	Key usages: cert sign, crl sign, digital signature
-	Extended usages: s/mime
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://ocsp.digicert.com
-CERTIFICATE
 Subject: /DigiCert PKI Platform Class 3 Shared SMIME Organization
     CA/C=US/O=DigiCert, Inc.
 Issuer: /DigiCert Assured ID Root G2/C=US/O=DigiCert Inc/OU=www.digicert.com
