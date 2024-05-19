@@ -518,24 +518,6 @@ Details:
 		- http://ocsp2.netlock.hu/gold.cgi
 		- http://ocsp3.netlock.hu/gold.cgi
 CERTIFICATE
-Subject: /SwissSign EV Gold CA 2009 - G2/C=CH/O=SwissSign AG
-Issuer: /SwissSign Gold CA - G2/C=CH/O=SwissSign AG
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 17839523128582866008
-	AKI: 5B:25:7B:96:A4:65:51:7E:B8:39:F3:C0:78:66:5E:E8:3A:E7:F0:EE
-	SKI: 88:74:46:6D:C7:7C:B5:FA:72:71:19:DE:BF:27:5E:0D:68:E0:F7:27
-	Valid from: 2009-06-10T09:29:39+0000
-	     until: 2024-06-06T09:29:39+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://swisssign.net/cgi-bin/authority/download/5B257B96A465517EB839F3C078665EE83AE7F0EE
-	OCSP server:
-		- http://ocsp.swisssign.net/5B257B96A465517EB839F3C078665EE83AE7F0EE
-CERTIFICATE
 Subject: /Microsec e-Szigno Root CA 2009/C=HU/O=Microsec Ltd./L=Budapest
 Issuer: /Microsec e-Szigno Root CA 2009/C=HU/O=Microsec Ltd./L=Budapest
 	Signature algorithm: RSA / SHA256
@@ -2515,25 +2497,6 @@ Details:
 		http://ocsp.affirmtrust.com/ntwkca.crt
 	OCSP server:
 		- http://ocsp.trendmicro.com/ntwk
-CERTIFICATE
-Subject: /DigiCert Provisional Direct Med CA/C=US/O=DigiCert
-    Inc/OU=www.digicert.com
-Issuer: /DigiCert Federated Trust CA/C=US/O=DigiCert Inc/OU=www.digicert.com
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 15859694353208028684339222923980680763
-	AKI: 46:08:38:5A:A9:8E:20:BB:0C:AF:5E:31:BA:89:B3:28:BF:AC:8C:36
-	SKI: 75:AE:E4:0F:2E:A9:BE:B2:33:D9:15:9A:C9:94:C1:F7:30:B4:35:AA
-	Valid from: 2014-06-03T12:00:00+0000
-	     until: 2024-06-03T12:00:00+0000
-	Key usages: cert sign, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://cacerts.digicert.com/aiaDigiCertProvisionalDirectMedCA.p7c
-	OCSP server:
-		- http://ocsp.digicert.com
 CERTIFICATE
 Subject: /GeoTrust DV SSL SHA256 CA/C=US/O=GeoTrust Inc./OU=Domain Validated
     SSL
