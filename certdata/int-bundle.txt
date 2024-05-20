@@ -2498,75 +2498,6 @@ Details:
 	OCSP server:
 		- http://ocsp.trendmicro.com/ntwk
 CERTIFICATE
-Subject: /GeoTrust DV SSL SHA256 CA/C=US/O=GeoTrust Inc./OU=Domain Validated
-    SSL
-Issuer: /GeoTrust Primary Certification Authority - G3/C=US/O=GeoTrust
-    Inc./OU=(c) 2008 GeoTrust Inc. - For authorized use only
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 125461920344817614170587321111204124502
-	AKI: C4:79:CA:8E:A1:4E:03:1D:1C:DC:6B:DB:31:5B:94:3E:3F:30:7F:2D
-	SKI: 49:EC:A7:C8:A9:F7:C5:BB:2C:AA:24:E7:F4:43:B3:B1:3C:E8:54:F8
-	Valid from: 2014-06-10T00:00:00+0000
-	     until: 2024-06-09T23:59:59+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://g.symcd.com
-CERTIFICATE
-Subject: /RapidSSL SHA256 CA - G2/C=US/O=GeoTrust Inc.
-Issuer: /GeoTrust Primary Certification Authority - G3/C=US/O=GeoTrust
-    Inc./OU=(c) 2008 GeoTrust Inc. - For authorized use only
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 96917227797452748385619024155305546951
-	AKI: C4:79:CA:8E:A1:4E:03:1D:1C:DC:6B:DB:31:5B:94:3E:3F:30:7F:2D
-	SKI: 4C:F4:BF:E8:3B:BE:C2:24:F3:1B:47:3B:B5:6E:48:8E:16:AB:AF:12
-	Valid from: 2014-06-10T00:00:00+0000
-	     until: 2024-06-09T23:59:59+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://g.symcd.com
-CERTIFICATE
-Subject: /thawte DV SSL CA - G2/C=US/O=thawte, Inc./OU=Domain Validated SSL
-Issuer: /thawte Primary Root CA/C=US/O=thawte, Inc./OU=Certification Services
-    Division/OU=(c) 2006 thawte, Inc. - For authorized use only
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 59035790283496901465862296573075037777
-	AKI: 7B:5B:45:CF:AF:CE:CB:7A:FD:31:92:1A:6A:B6:F3:46:EB:57:48:50
-	SKI: 9F:B8:C1:A9:6C:F2:F5:C0:22:2A:94:ED:5C:99:AC:D4:EC:D7:C6:07
-	Valid from: 2014-06-10T00:00:00+0000
-	     until: 2024-06-09T23:59:59+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://t.symcd.com
-CERTIFICATE
-Subject: /thawte DV SSL SHA256 CA/C=US/O=thawte, Inc./OU=Domain Validated SSL
-Issuer: /thawte Primary Root CA - G3/C=US/O=thawte, Inc./OU=Certification
-    Services Division/OU=(c) 2008 thawte, Inc. - For authorized use only
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 82594928017948708048133982543356432554
-	AKI: AD:6C:AA:94:60:9C:ED:E4:FF:FA:3E:0A:74:2B:63:03:F7:B6:59:BF
-	SKI: 7D:29:31:2F:C1:1E:6E:AE:31:05:6A:B3:EB:1C:CD:A9:DD:AE:80:9A
-	Valid from: 2014-06-10T00:00:00+0000
-	     until: 2024-06-09T23:59:59+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://t.symcd.com
-CERTIFICATE
 Subject: /SSL.com DV CA/C=US/O=SSL.com/OU=www.ssl.com
 Issuer: /USERTrust RSA Certification Authority/C=US/O=The USERTRUST
     Network/L=Jersey City/ST=New Jersey
@@ -27751,6 +27682,42 @@ Details:
 	OCSP server:
 		- http://ocsp.digicert.com
 CERTIFICATE
+Subject: /GTS CA 2P2/C=US/O=Google Trust Services LLC
+Issuer: /GTS Root R4/C=US/O=Google Trust Services LLC
+	Signature algorithm: ECDSA / SHA384
+Details:
+	Public key: ECDSA-prime256v1
+	Serial number: 165390902415987118112848868672
+	AKI: 80:4C:D6:EB:74:FF:49:36:A3:D5:D8:FC:B5:3E:C5:6A:F0:94:1D:8C
+	SKI: 87:23:A9:50:48:0E:07:89:54:0A:71:30:F6:33:D2:0A:47:F6:9D:AC
+	Valid from: 2022-10-05T00:00:42+0000
+	     until: 2027-09-30T00:00:42+0000
+	Key usages: cert sign, crl sign, digital signature
+	Extended usages: client auth, server auth
+	Basic constraints: valid, is a CA certificate, max path length 0
+	SANs (0):
+	1 AIA:
+		http://pki.goog/repo/certs/gtsr4.der
+	OCSP server:
+		- http://ocsp.pki.goog/gtsr4
+CERTIFICATE
+Subject: /GTS Root R4/C=US/O=Google Trust Services LLC
+Issuer: /GlobalSign Root CA/C=BE/O=GlobalSign nv-sa/OU=Root CA
+	Signature algorithm: RSA / SHA256
+Details:
+	Public key: ECDSA-secp384r1
+	Serial number: 170001980149335831901244157168837298715
+	AKI: 60:7B:66:1A:45:0D:97:CA:89:50:2F:7D:04:CD:34:A8:FF:FC:FD:4B
+	SKI: 80:4C:D6:EB:74:FF:49:36:A3:D5:D8:FC:B5:3E:C5:6A:F0:94:1D:8C
+	Valid from: 2023-11-15T03:43:21+0000
+	     until: 2028-01-28T00:00:42+0000
+	Key usages: cert sign, crl sign, digital signature
+	Extended usages: client auth, server auth
+	Basic constraints: valid, is a CA certificate
+	SANs (0):
+	1 AIA:
+		http://i.pki.goog/gsr1.crt
+CERTIFICATE
 Subject: /Cybertrust Japan SureServer EV CA G3/C=JP/O=Cybertrust Japan Co.,
     Ltd.
 Issuer: /C=JP/O=SECOM Trust Systems CO.,LTD./OU=Security Communication RootCA2
@@ -27770,3 +27737,37 @@ Details:
 		http://repository.secomtrust.net/SC-Root2/SCRoot2ca.cer
 	OCSP server:
 		- http://scrootca2.ocsp.secomtrust.net
+CERTIFICATE
+Subject: /WE1/C=US/O=Google Trust Services
+Issuer: /GTS Root R4/C=US/O=Google Trust Services LLC
+	Signature algorithm: ECDSA / SHA384
+Details:
+	Public key: ECDSA-prime256v1
+	Serial number: 170074200136485300614847617070429275619
+	AKI: 80:4C:D6:EB:74:FF:49:36:A3:D5:D8:FC:B5:3E:C5:6A:F0:94:1D:8C
+	SKI: 90:77:92:35:67:C4:FF:A8:CC:A9:E6:7B:D9:80:79:7B:CC:93:F9:38
+	Valid from: 2023-12-13T09:00:00+0000
+	     until: 2029-02-20T14:00:00+0000
+	Key usages: cert sign, crl sign, digital signature
+	Extended usages: client auth, server auth
+	Basic constraints: valid, is a CA certificate, max path length 0
+	SANs (0):
+	1 AIA:
+		http://i.pki.goog/r4.crt
+CERTIFICATE
+Subject: /WR1/C=US/O=Google Trust Services
+Issuer: /GTS Root R1/C=US/O=Google Trust Services LLC
+	Signature algorithm: RSA / SHA256
+Details:
+	Public key: RSA-2048
+	Serial number: 169943283142817666033504407772870502567
+	AKI: E4:AF:2B:26:71:1A:2B:48:27:85:2F:52:66:2C:EF:F0:89:13:71:3E
+	SKI: 66:69:49:D4:DE:2A:9C:91:03:CF:89:0E:24:B8:0E:30:03:6E:88:2E
+	Valid from: 2023-12-13T09:00:00+0000
+	     until: 2029-02-20T14:00:00+0000
+	Key usages: cert sign, crl sign, digital signature
+	Extended usages: client auth, server auth
+	Basic constraints: valid, is a CA certificate, max path length 0
+	SANs (0):
+	1 AIA:
+		http://i.pki.goog/r1.crt
