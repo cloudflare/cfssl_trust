@@ -27650,6 +27650,74 @@ Details:
 	OCSP server:
 		- http://ocsp.pki.goog/gtsr4
 CERTIFICATE
+Subject: /SSL.com TLS Transit ECC CA R2/C=US/O=SSL Corporation
+Issuer: /SSL.com TLS ECC Root CA 2022/C=US/O=SSL Corporation
+	Signature algorithm: ECDSA / SHA384
+Details:
+	Public key: ECDSA-secp384r1
+	Serial number: 128008513138955688728541566246916480814
+	AKI: 89:8F:2F:A3:E8:2B:A0:14:54:7B:F3:56:B8:26:5F:67:38:0B:9C:D0
+	SKI: 32:A2:C7:D8:58:8B:FF:7F:C0:3C:F2:55:69:33:EC:CE:CC:1F:BC:97
+	Valid from: 2022-10-21T17:02:23+0000
+	     until: 2037-10-17T17:02:22+0000
+	Key usages: cert sign, crl sign, digital signature
+	Extended usages: client auth, server auth
+	Basic constraints: valid, is a CA certificate, max path length 1
+	SANs (0):
+	1 AIA:
+		http://cert.ssl.com/SSLcom-TLS-Root-2022-ECC.cer
+CERTIFICATE
+Subject: /SSL.com TLS Transit RSA CA R2/C=US/O=SSL Corporation
+Issuer: /SSL.com TLS RSA Root CA 2022/C=US/O=SSL Corporation
+	Signature algorithm: RSA / SHA256
+Details:
+	Public key: RSA-4096
+	Serial number: 42743592687978439250883924143704817030
+	AKI: FB:2E:37:EE:E3:84:7A:27:2E:CD:19:35:B1:33:7C:FF:D4:44:42:B9
+	SKI: 21:41:34:63:8E:1D:91:0C:C3:DD:B6:24:B0:A8:87:7B:8D:65:60:08
+	Valid from: 2022-10-21T17:02:36+0000
+	     until: 2037-10-17T17:02:35+0000
+	Key usages: cert sign, crl sign, digital signature
+	Extended usages: client auth, server auth
+	Basic constraints: valid, is a CA certificate, max path length 1
+	SANs (0):
+	1 AIA:
+		http://cert.ssl.com/SSLcom-TLS-Root-2022-RSA.cer
+CERTIFICATE
+Subject: /Cloudflare TLS Issuing ECC CA 1/C=US/O=CLOUDFLARE, INC.
+Issuer: /SSL.com TLS Transit ECC CA R2/C=US/O=SSL Corporation
+	Signature algorithm: ECDSA / SHA384
+Details:
+	Public key: ECDSA-prime256v1
+	Serial number: 58816440600561316972292430218889829709
+	AKI: 32:A2:C7:D8:58:8B:FF:7F:C0:3C:F2:55:69:33:EC:CE:CC:1F:BC:97
+	SKI: 9C:C4:09:72:47:18:17:7B:A7:1A:89:B3:92:35:D5:E1:03:8C:FE:92
+	Valid from: 2023-10-31T17:17:49+0000
+	     until: 2033-10-28T17:17:48+0000
+	Key usages: cert sign, crl sign, digital signature
+	Extended usages: client auth, server auth
+	Basic constraints: valid, is a CA certificate, max path length 0
+	SANs (0):
+	1 AIA:
+		http://cert.ssl.com/SSL.com-TLS-T-ECC-R2.cer
+CERTIFICATE
+Subject: /Cloudflare TLS Issuing RSA CA 1/C=US/O=CLOUDFLARE, INC.
+Issuer: /SSL.com TLS Transit RSA CA R2/C=US/O=SSL Corporation
+	Signature algorithm: RSA / SHA256
+Details:
+	Public key: RSA-2048
+	Serial number: 114145198451648563393331670668470694764
+	AKI: 21:41:34:63:8E:1D:91:0C:C3:DD:B6:24:B0:A8:87:7B:8D:65:60:08
+	SKI: 05:6D:B4:D9:C9:58:17:E1:D0:01:A7:F5:2F:20:6A:48:3D:9A:F4:17
+	Valid from: 2023-10-31T17:18:56+0000
+	     until: 2033-10-28T17:18:55+0000
+	Key usages: cert sign, crl sign, digital signature
+	Extended usages: client auth, server auth
+	Basic constraints: valid, is a CA certificate, max path length 0
+	SANs (0):
+	1 AIA:
+		http://cert.ssl.com/SSL.com-TLS-T-RSA-R2.cer
+CERTIFICATE
 Subject: /GTS Root R4/C=US/O=Google Trust Services LLC
 Issuer: /GlobalSign Root CA/C=BE/O=GlobalSign nv-sa/OU=Root CA
 	Signature algorithm: RSA / SHA256

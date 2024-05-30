@@ -5145,3 +5145,31 @@ Details:
 	Key usages: cert sign, crl sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
+CERTIFICATE
+Subject: /SSL.com TLS ECC Root CA 2022/C=US/O=SSL Corporation
+Issuer: /SSL.com TLS ECC Root CA 2022/C=US/O=SSL Corporation
+	Signature algorithm: ECDSA / SHA384
+Details:
+	Public key: ECDSA-secp384r1
+	Serial number: 26605119622390491762507526719404364228
+	AKI: 89:8F:2F:A3:E8:2B:A0:14:54:7B:F3:56:B8:26:5F:67:38:0B:9C:D0
+	SKI: 89:8F:2F:A3:E8:2B:A0:14:54:7B:F3:56:B8:26:5F:67:38:0B:9C:D0
+	Valid from: 2022-08-25T16:33:48+0000
+	     until: 2046-08-19T16:33:47+0000
+	Key usages: cert sign, crl sign, digital signature
+	Basic constraints: valid, is a CA certificate
+	SANs (0):
+CERTIFICATE
+Subject: /SSL.com TLS RSA Root CA 2022/C=US/O=SSL Corporation
+Issuer: /SSL.com TLS RSA Root CA 2022/C=US/O=SSL Corporation
+	Signature algorithm: RSA / SHA256
+Details:
+	Public key: RSA-4096
+	Serial number: 148535279242832292258835760425842727825
+	AKI: FB:2E:37:EE:E3:84:7A:27:2E:CD:19:35:B1:33:7C:FF:D4:44:42:B9
+	SKI: FB:2E:37:EE:E3:84:7A:27:2E:CD:19:35:B1:33:7C:FF:D4:44:42:B9
+	Valid from: 2022-08-25T16:34:22+0000
+	     until: 2046-08-19T16:34:21+0000
+	Key usages: cert sign, crl sign, digital signature
+	Basic constraints: valid, is a CA certificate
+	SANs (0):
