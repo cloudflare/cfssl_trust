@@ -469,55 +469,6 @@ Details:
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
 CERTIFICATE
-Subject: /NetLock Üzleti Eat. (Class B Legal)
-    Tanúsítványkiadó/C=HU/O=NetLock Kft./OU=Tanúsítványkiadók
-    (Certification Services)/L=Budapest
-Issuer: /NetLock Arany (Class Gold) Főtanúsítvány/C=HU/O=NetLock
-    Kft./OU=Tanúsítványkiadók (Certification Services)/L=Budapest
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 80544274841619
-	AKI: CC:FA:67:93:F0:B6:B8:D0:A5:C0:1E:F3:53:FD:8C:53:DF:83:D7:96
-	SKI: 34:1B:2C:C7:B2:3E:4A:72:53:3D:12:7F:40:66:BA:AE:B6:A4:E4:47
-	Valid from: 2009-04-08T23:20:10+0000
-	     until: 2024-06-23T23:20:10+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 4
-	SANs (0):
-	3 AIAs:
-		http://aia1.netlock.hu/index.cgi?ca=gold
-		http://aia2.netlock.hu/index.cgi?ca=gold
-		http://aia3.netlock.hu/index.cgi?ca=gold
-	OCSP servers:
-		- http://ocsp1.netlock.hu/gold.cgi
-		- http://ocsp2.netlock.hu/gold.cgi
-		- http://ocsp3.netlock.hu/gold.cgi
-CERTIFICATE
-Subject: /NetLock Üzleti (Class B) Tanúsítványkiadó/C=HU/O=NetLock
-    Kft./OU=Tanúsítványkiadók (Certification Services)/L=Budapest
-Issuer: /NetLock Arany (Class Gold) Főtanúsítvány/C=HU/O=NetLock
-    Kft./OU=Tanúsítványkiadók (Certification Services)/L=Budapest
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 80544274841620
-	AKI: CC:FA:67:93:F0:B6:B8:D0:A5:C0:1E:F3:53:FD:8C:53:DF:83:D7:96
-	SKI: F1:27:C4:DE:5A:3D:34:29:B8:F3:EA:0F:8D:FE:76:D2:39:08:CF:C1
-	Valid from: 2009-04-08T23:30:29+0000
-	     until: 2024-06-23T23:30:29+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 4
-	SANs (0):
-	3 AIAs:
-		http://aia1.netlock.hu/index.cgi?ca=gold
-		http://aia2.netlock.hu/index.cgi?ca=gold
-		http://aia3.netlock.hu/index.cgi?ca=gold
-	OCSP servers:
-		- http://ocsp1.netlock.hu/gold.cgi
-		- http://ocsp2.netlock.hu/gold.cgi
-		- http://ocsp3.netlock.hu/gold.cgi
-CERTIFICATE
 Subject: /Microsec e-Szigno Root CA 2009/C=HU/O=Microsec Ltd./L=Budapest
 Issuer: /Microsec e-Szigno Root CA 2009/C=HU/O=Microsec Ltd./L=Budapest
 	Signature algorithm: RSA / SHA256
@@ -27788,3 +27739,173 @@ Details:
 	SANs (0):
 	1 AIA:
 		http://i.pki.goog/r1.crt
+CERTIFICATE
+Subject: /E5/C=US/O=Let's Encrypt
+Issuer: /ISRG Root X1/C=US/O=Internet Security Research Group
+	Signature algorithm: RSA / SHA256
+Details:
+	Public key: ECDSA-secp384r1
+	Serial number: 174873564306387906651619802726858882526
+	AKI: 79:B4:59:E6:7B:B6:E5:E4:01:73:80:08:88:C8:1A:58:F6:E9:9B:6E
+	SKI: 9F:2B:5F:CF:3C:21:4F:9D:04:B7:ED:2B:2C:C4:C6:70:8B:D2:D7:0D
+	Valid from: 2024-03-13T00:00:00+0000
+	     until: 2027-03-12T23:59:59+0000
+	Key usages: cert sign, crl sign, digital signature
+	Extended usages: client auth, server auth
+	Basic constraints: valid, is a CA certificate, max path length 0
+	SANs (0):
+	1 AIA:
+		http://x1.i.lencr.org/
+CERTIFICATE
+Subject: /E6/C=US/O=Let's Encrypt
+Issuer: /ISRG Root X1/C=US/O=Internet Security Research Group
+	Signature algorithm: RSA / SHA256
+Details:
+	Public key: ECDSA-secp384r1
+	Serial number: 234397126118090224789023519560838753080
+	AKI: 79:B4:59:E6:7B:B6:E5:E4:01:73:80:08:88:C8:1A:58:F6:E9:9B:6E
+	SKI: 93:27:46:98:03:A9:51:68:8E:98:D6:C4:42:48:DB:23:BF:58:94:D2
+	Valid from: 2024-03-13T00:00:00+0000
+	     until: 2027-03-12T23:59:59+0000
+	Key usages: cert sign, crl sign, digital signature
+	Extended usages: client auth, server auth
+	Basic constraints: valid, is a CA certificate, max path length 0
+	SANs (0):
+	1 AIA:
+		http://x1.i.lencr.org/
+CERTIFICATE
+Subject: /E7/C=US/O=Let's Encrypt
+Issuer: /ISRG Root X1/C=US/O=Internet Security Research Group
+	Signature algorithm: RSA / SHA256
+Details:
+	Public key: ECDSA-secp384r1
+	Serial number: 226581164312556911225609404641709439649
+	AKI: 79:B4:59:E6:7B:B6:E5:E4:01:73:80:08:88:C8:1A:58:F6:E9:9B:6E
+	SKI: AE:48:9E:DC:87:1D:44:A0:6F:DA:A2:E5:60:74:04:78:C2:9C:00:80
+	Valid from: 2024-03-13T00:00:00+0000
+	     until: 2027-03-12T23:59:59+0000
+	Key usages: cert sign, crl sign, digital signature
+	Extended usages: client auth, server auth
+	Basic constraints: valid, is a CA certificate, max path length 0
+	SANs (0):
+	1 AIA:
+		http://x1.i.lencr.org/
+CERTIFICATE
+Subject: /E8/C=US/O=Let's Encrypt
+Issuer: /ISRG Root X1/C=US/O=Internet Security Research Group
+	Signature algorithm: RSA / SHA256
+Details:
+	Public key: ECDSA-secp384r1
+	Serial number: 132370213232563105872410966929454918998
+	AKI: 79:B4:59:E6:7B:B6:E5:E4:01:73:80:08:88:C8:1A:58:F6:E9:9B:6E
+	SKI: 8F:0D:13:A2:F6:2E:7E:D1:50:6C:33:18:38:5D:59:8E:23:72:91:CA
+	Valid from: 2024-03-13T00:00:00+0000
+	     until: 2027-03-12T23:59:59+0000
+	Key usages: cert sign, crl sign, digital signature
+	Extended usages: client auth, server auth
+	Basic constraints: valid, is a CA certificate, max path length 0
+	SANs (0):
+	1 AIA:
+		http://x1.i.lencr.org/
+CERTIFICATE
+Subject: /E9/C=US/O=Let's Encrypt
+Issuer: /ISRG Root X1/C=US/O=Internet Security Research Group
+	Signature algorithm: RSA / SHA256
+Details:
+	Public key: ECDSA-secp384r1
+	Serial number: 83840359685249281117050969311267445779
+	AKI: 79:B4:59:E6:7B:B6:E5:E4:01:73:80:08:88:C8:1A:58:F6:E9:9B:6E
+	SKI: 5D:77:D1:4D:AC:4D:22:78:59:B2:86:59:8E:43:1C:B7:64:59:13:41
+	Valid from: 2024-03-13T00:00:00+0000
+	     until: 2027-03-12T23:59:59+0000
+	Key usages: cert sign, crl sign, digital signature
+	Extended usages: client auth, server auth
+	Basic constraints: valid, is a CA certificate, max path length 0
+	SANs (0):
+	1 AIA:
+		http://x1.i.lencr.org/
+CERTIFICATE
+Subject: /R10/C=US/O=Let's Encrypt
+Issuer: /ISRG Root X1/C=US/O=Internet Security Research Group
+	Signature algorithm: RSA / SHA256
+Details:
+	Public key: RSA-2048
+	Serial number: 100566080436859127493189557861323994576
+	AKI: 79:B4:59:E6:7B:B6:E5:E4:01:73:80:08:88:C8:1A:58:F6:E9:9B:6E
+	SKI: BB:BC:C3:47:A5:E4:BC:A9:C6:C3:A4:72:0C:10:8D:A2:35:E1:C8:E8
+	Valid from: 2024-03-13T00:00:00+0000
+	     until: 2027-03-12T23:59:59+0000
+	Key usages: cert sign, crl sign, digital signature
+	Extended usages: client auth, server auth
+	Basic constraints: valid, is a CA certificate, max path length 0
+	SANs (0):
+	1 AIA:
+		http://x1.i.lencr.org/
+CERTIFICATE
+Subject: /R11/C=US/O=Let's Encrypt
+Issuer: /ISRG Root X1/C=US/O=Internet Security Research Group
+	Signature algorithm: RSA / SHA256
+Details:
+	Public key: RSA-2048
+	Serial number: 184083759606652600789093070426744763640
+	AKI: 79:B4:59:E6:7B:B6:E5:E4:01:73:80:08:88:C8:1A:58:F6:E9:9B:6E
+	SKI: C5:CF:46:A4:EA:F4:C3:C0:7A:6C:95:C4:2D:B0:5E:92:2F:26:E3:B9
+	Valid from: 2024-03-13T00:00:00+0000
+	     until: 2027-03-12T23:59:59+0000
+	Key usages: cert sign, crl sign, digital signature
+	Extended usages: client auth, server auth
+	Basic constraints: valid, is a CA certificate, max path length 0
+	SANs (0):
+	1 AIA:
+		http://x1.i.lencr.org/
+CERTIFICATE
+Subject: /R12/C=US/O=Let's Encrypt
+Issuer: /ISRG Root X1/C=US/O=Internet Security Research Group
+	Signature algorithm: RSA / SHA256
+Details:
+	Public key: RSA-2048
+	Serial number: 257964712623187159666453466812961334844
+	AKI: 79:B4:59:E6:7B:B6:E5:E4:01:73:80:08:88:C8:1A:58:F6:E9:9B:6E
+	SKI: 00:B5:29:F2:2D:8E:6F:31:E8:9B:4C:AD:78:3E:FA:DC:E9:0C:D1:D2
+	Valid from: 2024-03-13T00:00:00+0000
+	     until: 2027-03-12T23:59:59+0000
+	Key usages: cert sign, crl sign, digital signature
+	Extended usages: client auth, server auth
+	Basic constraints: valid, is a CA certificate, max path length 0
+	SANs (0):
+	1 AIA:
+		http://x1.i.lencr.org/
+CERTIFICATE
+Subject: /R13/C=US/O=Let's Encrypt
+Issuer: /ISRG Root X1/C=US/O=Internet Security Research Group
+	Signature algorithm: RSA / SHA256
+Details:
+	Public key: RSA-2048
+	Serial number: 119635429456979344322213464088047616773
+	AKI: 79:B4:59:E6:7B:B6:E5:E4:01:73:80:08:88:C8:1A:58:F6:E9:9B:6E
+	SKI: E7:AB:9F:0F:2C:33:A0:53:D3:5E:4F:78:C8:B2:84:0E:3B:D6:92:33
+	Valid from: 2024-03-13T00:00:00+0000
+	     until: 2027-03-12T23:59:59+0000
+	Key usages: cert sign, crl sign, digital signature
+	Extended usages: client auth, server auth
+	Basic constraints: valid, is a CA certificate, max path length 0
+	SANs (0):
+	1 AIA:
+		http://x1.i.lencr.org/
+CERTIFICATE
+Subject: /R14/C=US/O=Let's Encrypt
+Issuer: /ISRG Root X1/C=US/O=Internet Security Research Group
+	Signature algorithm: RSA / SHA256
+Details:
+	Public key: RSA-2048
+	Serial number: 253817389372370983228917526291991037611
+	AKI: 79:B4:59:E6:7B:B6:E5:E4:01:73:80:08:88:C8:1A:58:F6:E9:9B:6E
+	SKI: E5:10:95:D8:B6:0C:51:D7:A7:72:35:63:0A:54:68:6E:06:53:F8:FB
+	Valid from: 2024-03-13T00:00:00+0000
+	     until: 2027-03-12T23:59:59+0000
+	Key usages: cert sign, crl sign, digital signature
+	Extended usages: client auth, server auth
+	Basic constraints: valid, is a CA certificate, max path length 0
+	SANs (0):
+	1 AIA:
+		http://x1.i.lencr.org/
