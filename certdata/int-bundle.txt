@@ -134,40 +134,6 @@ Details:
 	Basic constraints: valid, is a CA certificate, max path length 11
 	SANs (0):
 CERTIFICATE
-Subject: /C=US/O=The Go Daddy Group, Inc./OU=Go Daddy Class 2 Certification
-    Authority
-Issuer: /http://www.valicert.com//O=ValiCert, Inc./OU=ValiCert Class 2 Policy
-    Validation Authority/L=ValiCert Validation Network
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 269
-	SKI: D2:C4:B0:D2:91:D4:4C:11:71:B3:61:CB:3D:A1:FE:DD:A8:6A:D4:E3
-	Valid from: 2004-06-29T17:06:20+0000
-	     until: 2024-06-29T17:06:20+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-	OCSP server:
-		- http://ocsp.godaddy.com
-CERTIFICATE
-Subject: /C=US/O=Starfield Technologies, Inc./OU=Starfield Class 2
-    Certification Authority
-Issuer: /http://www.valicert.com//O=ValiCert, Inc./OU=ValiCert Class 2 Policy
-    Validation Authority/L=ValiCert Validation Network
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 268
-	SKI: BF:5F:B7:D1:CE:DD:1F:86:F4:5B:55:AC:DC:D7:10:C2:0E:A9:88:E7
-	Valid from: 2004-06-29T17:39:16+0000
-	     until: 2024-06-29T17:39:16+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-	OCSP server:
-		- http://ocsp.starfieldtech.com
-CERTIFICATE
 Subject: /SwissSign Gold CA - G2/C=CH/O=SwissSign AG
 Issuer: /SwissSign Gold CA - G2/C=CH/O=SwissSign AG
 	Signature algorithm: RSA / SHA1
@@ -21024,166 +20990,6 @@ Details:
 	OCSP server:
 		- http://ocsp.usertrust.com
 CERTIFICATE
-Subject: /Microsoft Azure TLS Issuing CA 01/C=US/O=Microsoft Corporation
-Issuer: /Microsoft RSA Root Certificate Authority 2017/C=US/O=Microsoft
-    Corporation
-	Signature algorithm: RSA / SHA384
-Details:
-	Public key: RSA-4096
-	Serial number: 1137338005279503819426134781585396027669610525
-	AKI: 09:CB:59:7F:86:B2:70:8F:1A:C3:39:E3:C0:D9:E9:BF:BB:4D:B2:23
-	SKI: 0F:20:5D:D7:A1:57:95:DB:92:CF:2B:D0:C7:C2:77:04:CE:72:80:76
-	Valid from: 2020-01-17T20:22:47+0000
-	     until: 2024-06-27T20:22:47+0000
-	Key usages: cert sign, crl sign, digital signature
-	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://www.microsoft.com/pkiops/certs/Microsoft%20RSA%20Root%20Certificate%20Authority%202017.crt
-	OCSP server:
-		- http://oneocsp.microsoft.com/ocsp
-CERTIFICATE
-Subject: /Microsoft Azure TLS Issuing CA 02/C=US/O=Microsoft Corporation
-Issuer: /Microsoft RSA Root Certificate Authority 2017/C=US/O=Microsoft
-    Corporation
-	Signature algorithm: RSA / SHA384
-Details:
-	Public key: RSA-4096
-	Serial number: 1137338005284855842757530848906271886764146718
-	AKI: 09:CB:59:7F:86:B2:70:8F:1A:C3:39:E3:C0:D9:E9:BF:BB:4D:B2:23
-	SKI: 00:AB:91:FC:21:62:26:97:9A:A8:79:1B:61:41:90:60:A9:62:67:FD
-	Valid from: 2020-01-17T20:22:48+0000
-	     until: 2024-06-27T20:22:48+0000
-	Key usages: cert sign, crl sign, digital signature
-	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://www.microsoft.com/pkiops/certs/Microsoft%20RSA%20Root%20Certificate%20Authority%202017.crt
-	OCSP server:
-		- http://oneocsp.microsoft.com/ocsp
-CERTIFICATE
-Subject: /Microsoft Azure TLS Issuing CA 05/C=US/O=Microsoft Corporation
-Issuer: /Microsoft RSA Root Certificate Authority 2017/C=US/O=Microsoft
-    Corporation
-	Signature algorithm: RSA / SHA384
-Details:
-	Public key: RSA-4096
-	Serial number: 1137338005289250392174609349020777724701048863
-	AKI: 09:CB:59:7F:86:B2:70:8F:1A:C3:39:E3:C0:D9:E9:BF:BB:4D:B2:23
-	SKI: C7:B2:9C:7F:1C:E3:B8:5A:EF:E9:68:1A:A8:5D:94:C1:26:52:6A:68
-	Valid from: 2020-01-17T20:22:49+0000
-	     until: 2024-06-27T20:22:49+0000
-	Key usages: cert sign, crl sign, digital signature
-	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://www.microsoft.com/pkiops/certs/Microsoft%20RSA%20Root%20Certificate%20Authority%202017.crt
-	OCSP server:
-		- http://oneocsp.microsoft.com/ocsp
-CERTIFICATE
-Subject: /Microsoft Azure TLS Issuing CA 06/C=US/O=Microsoft Corporation
-Issuer: /Microsoft RSA Root Certificate Authority 2017/C=US/O=Microsoft
-    Corporation
-	Signature algorithm: RSA / SHA384
-Details:
-	Public key: RSA-4096
-	Serial number: 1137338005294520146658495788102450591456821280
-	AKI: 09:CB:59:7F:86:B2:70:8F:1A:C3:39:E3:C0:D9:E9:BF:BB:4D:B2:23
-	SKI: D5:C1:67:3A:C2:A3:9D:F4:77:52:5B:59:12:38:29:E6:55:68:BB:A5
-	Valid from: 2020-01-17T20:22:50+0000
-	     until: 2024-06-27T20:22:50+0000
-	Key usages: cert sign, crl sign, digital signature
-	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://www.microsoft.com/pkiops/certs/Microsoft%20RSA%20Root%20Certificate%20Authority%202017.crt
-	OCSP server:
-		- http://oneocsp.microsoft.com/ocsp
-CERTIFICATE
-Subject: /Microsoft Azure ECC TLS Issuing CA 01/C=US/O=Microsoft Corporation
-Issuer: /Microsoft ECC Root Certificate Authority 2017/C=US/O=Microsoft
-    Corporation
-	Signature algorithm: ECDSA / SHA384
-Details:
-	Public key: ECDSA-secp384r1
-	Serial number: 1137338005263496063916979881839483000755060762
-	AKI: C8:CB:99:72:70:52:0C:F8:E6:BE:B2:04:57:29:2A:CF:42:10:ED:35
-	SKI: AA:FD:30:0D:D7:A2:D5:EF:8A:7A:77:31:AA:66:A6:C2:6C:11:BB:6F
-	Valid from: 2020-01-17T20:28:04+0000
-	     until: 2024-06-27T20:28:04+0000
-	Key usages: cert sign, crl sign, digital signature
-	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://www.microsoft.com/pkiops/certs/Microsoft%20ECC%20Root%20Certificate%20Authority%202017.crt
-	OCSP server:
-		- http://oneocsp.microsoft.com/ocsp
-CERTIFICATE
-Subject: /Microsoft Azure ECC TLS Issuing CA 02/C=US/O=Microsoft Corporation
-Issuer: /Microsoft ECC Root Certificate Authority 2017/C=US/O=Microsoft
-    Corporation
-	Signature algorithm: ECDSA / SHA384
-Details:
-	Public key: ECDSA-secp384r1
-	Serial number: 1137338005266745614414101855573744013923057691
-	AKI: C8:CB:99:72:70:52:0C:F8:E6:BE:B2:04:57:29:2A:CF:42:10:ED:35
-	SKI: 9D:E5:0E:77:37:47:9E:09:33:D9:90:BE:2A:09:C2:12:7F:4E:D2:A3
-	Valid from: 2020-01-17T20:28:09+0000
-	     until: 2024-06-27T20:28:09+0000
-	Key usages: cert sign, crl sign, digital signature
-	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://www.microsoft.com/pkiops/certs/Microsoft%20ECC%20Root%20Certificate%20Authority%202017.crt
-	OCSP server:
-		- http://oneocsp.microsoft.com/ocsp
-CERTIFICATE
-Subject: /Microsoft Azure ECC TLS Issuing CA 05/C=US/O=Microsoft Corporation
-Issuer: /Microsoft ECC Root Certificate Authority 2017/C=US/O=Microsoft
-    Corporation
-	Signature algorithm: ECDSA / SHA384
-Details:
-	Public key: ECDSA-secp384r1
-	Serial number: 1137338005274357003509782821265463386052755484
-	AKI: C8:CB:99:72:70:52:0C:F8:E6:BE:B2:04:57:29:2A:CF:42:10:ED:35
-	SKI: 55:DF:EE:1E:27:AC:F2:9E:2B:9E:80:39:35:79:56:47:3A:CE:B3:10
-	Valid from: 2020-01-17T20:28:10+0000
-	     until: 2024-06-27T20:28:10+0000
-	Key usages: cert sign, crl sign, digital signature
-	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://www.microsoft.com/pkiops/certs/Microsoft%20ECC%20Root%20Certificate%20Authority%202017.crt
-	OCSP server:
-		- http://oneocsp.microsoft.com/ocsp
-CERTIFICATE
-Subject: /Microsoft Azure ECC TLS Issuing CA 06/C=US/O=Microsoft Corporation
-Issuer: /Microsoft ECC Root Certificate Authority 2017/C=US/O=Microsoft
-    Corporation
-	Signature algorithm: ECDSA / SHA384
-Details:
-	Public key: ECDSA-secp384r1
-	Serial number: 1137338005275822496498840155172655739535622173
-	AKI: C8:CB:99:72:70:52:0C:F8:E6:BE:B2:04:57:29:2A:CF:42:10:ED:35
-	SKI: 1F:CE:C7:9D:64:53:5F:B6:FC:95:07:AE:95:26:33:51:C1:27:D9:26
-	Valid from: 2020-01-17T20:28:14+0000
-	     until: 2024-06-27T20:28:14+0000
-	Key usages: cert sign, crl sign, digital signature
-	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://www.microsoft.com/pkiops/certs/Microsoft%20ECC%20Root%20Certificate%20Authority%202017.crt
-	OCSP server:
-		- http://oneocsp.microsoft.com/ocsp
-CERTIFICATE
 Subject: /GlobalSign Corporate IT Atlas R45 SMIME CA 2021/C=BE/O=GlobalSign
     nv-sa
 Issuer: /GlobalSign Secure Mail Root R45/C=BE/O=GlobalSign nv-sa
@@ -24987,82 +24793,6 @@ Details:
 	OCSP server:
 		- http://ocsp2.globalsign.com/rootr3
 CERTIFICATE
-Subject: /Microsoft Azure TLS Issuing CA 02/C=US/O=Microsoft Corporation
-Issuer: /DigiCert Global Root G2/C=US/O=DigiCert Inc/OU=www.digicert.com
-	Signature algorithm: RSA / SHA384
-Details:
-	Public key: RSA-4096
-	Serial number: 16505855106165622982523337491647640084
-	AKI: 4E:22:54:20:18:95:E6:E3:6E:E6:0F:FA:FA:B9:12:ED:06:17:8F:39
-	SKI: 00:AB:91:FC:21:62:26:97:9A:A8:79:1B:61:41:90:60:A9:62:67:FD
-	Valid from: 2020-07-29T12:30:00+0000
-	     until: 2024-06-27T23:59:59+0000
-	Key usages: cert sign, crl sign, digital signature
-	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://cacerts.digicert.com/DigiCertGlobalRootG2.crt
-	OCSP server:
-		- http://ocsp.digicert.com
-CERTIFICATE
-Subject: /Microsoft Azure TLS Issuing CA 01/C=US/O=Microsoft Corporation
-Issuer: /DigiCert Global Root G2/C=US/O=DigiCert Inc/OU=www.digicert.com
-	Signature algorithm: RSA / SHA384
-Details:
-	Public key: RSA-4096
-	Serial number: 14204314458671557774215927822652232471
-	AKI: 4E:22:54:20:18:95:E6:E3:6E:E6:0F:FA:FA:B9:12:ED:06:17:8F:39
-	SKI: 0F:20:5D:D7:A1:57:95:DB:92:CF:2B:D0:C7:C2:77:04:CE:72:80:76
-	Valid from: 2020-07-29T12:30:00+0000
-	     until: 2024-06-27T23:59:59+0000
-	Key usages: cert sign, crl sign, digital signature
-	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://cacerts.digicert.com/DigiCertGlobalRootG2.crt
-	OCSP server:
-		- http://ocsp.digicert.com
-CERTIFICATE
-Subject: /Microsoft Azure TLS Issuing CA 06/C=US/O=Microsoft Corporation
-Issuer: /DigiCert Global Root G2/C=US/O=DigiCert Inc/OU=www.digicert.com
-	Signature algorithm: RSA / SHA384
-Details:
-	Public key: RSA-4096
-	Serial number: 3860826545901910642936848779406233792
-	AKI: 4E:22:54:20:18:95:E6:E3:6E:E6:0F:FA:FA:B9:12:ED:06:17:8F:39
-	SKI: D5:C1:67:3A:C2:A3:9D:F4:77:52:5B:59:12:38:29:E6:55:68:BB:A5
-	Valid from: 2020-07-29T12:30:00+0000
-	     until: 2024-06-27T23:59:59+0000
-	Key usages: cert sign, crl sign, digital signature
-	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://cacerts.digicert.com/DigiCertGlobalRootG2.crt
-	OCSP server:
-		- http://ocsp.digicert.com
-CERTIFICATE
-Subject: /Microsoft Azure TLS Issuing CA 05/C=US/O=Microsoft Corporation
-Issuer: /DigiCert Global Root G2/C=US/O=DigiCert Inc/OU=www.digicert.com
-	Signature algorithm: RSA / SHA384
-Details:
-	Public key: RSA-4096
-	Serial number: 17923441888884453276882086283662137533
-	AKI: 4E:22:54:20:18:95:E6:E3:6E:E6:0F:FA:FA:B9:12:ED:06:17:8F:39
-	SKI: C7:B2:9C:7F:1C:E3:B8:5A:EF:E9:68:1A:A8:5D:94:C1:26:52:6A:68
-	Valid from: 2020-07-29T12:30:00+0000
-	     until: 2024-06-27T23:59:59+0000
-	Key usages: cert sign, crl sign, digital signature
-	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://cacerts.digicert.com/DigiCertGlobalRootG2.crt
-	OCSP server:
-		- http://ocsp.digicert.com
-CERTIFICATE
 Subject: /Entrust Class 2 Client CA/C=US/O=Entrust,
     Inc./OU=www.entrust.net/CPS is incorporated by reference/OU=(c) 2010
     Entrust, Inc.
@@ -25178,82 +24908,6 @@ Details:
 	SANs (0):
 	OCSP server:
 		- http://ocsp.entrust.net
-CERTIFICATE
-Subject: /Microsoft Azure ECC TLS Issuing CA 05/C=US/O=Microsoft Corporation
-Issuer: /DigiCert Global Root G3/C=US/O=DigiCert Inc/OU=www.digicert.com
-	Signature algorithm: ECDSA / SHA384
-Details:
-	Public key: ECDSA-secp384r1
-	Serial number: 17142939867321252946263126935027775845
-	AKI: B3:DB:48:A4:F9:A1:C5:D8:AE:36:41:CC:11:63:69:62:29:BC:4B:C6
-	SKI: 55:DF:EE:1E:27:AC:F2:9E:2B:9E:80:39:35:79:56:47:3A:CE:B3:10
-	Valid from: 2020-08-12T00:00:00+0000
-	     until: 2024-06-27T23:59:59+0000
-	Key usages: cert sign, crl sign, digital signature
-	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://cacerts.digicert.com/DigiCertGlobalRootG3.crt
-	OCSP server:
-		- http://ocsp.digicert.com
-CERTIFICATE
-Subject: /Microsoft Azure ECC TLS Issuing CA 06/C=US/O=Microsoft Corporation
-Issuer: /DigiCert Global Root G3/C=US/O=DigiCert Inc/OU=www.digicert.com
-	Signature algorithm: ECDSA / SHA384
-Details:
-	Public key: ECDSA-secp384r1
-	Serial number: 8548991079047371977265526806858480532
-	AKI: B3:DB:48:A4:F9:A1:C5:D8:AE:36:41:CC:11:63:69:62:29:BC:4B:C6
-	SKI: 1F:CE:C7:9D:64:53:5F:B6:FC:95:07:AE:95:26:33:51:C1:27:D9:26
-	Valid from: 2020-08-12T00:00:00+0000
-	     until: 2024-06-27T23:59:59+0000
-	Key usages: cert sign, crl sign, digital signature
-	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://cacerts.digicert.com/DigiCertGlobalRootG3.crt
-	OCSP server:
-		- http://ocsp.digicert.com
-CERTIFICATE
-Subject: /Microsoft Azure ECC TLS Issuing CA 01/C=US/O=Microsoft Corporation
-Issuer: /DigiCert Global Root G3/C=US/O=DigiCert Inc/OU=www.digicert.com
-	Signature algorithm: ECDSA / SHA384
-Details:
-	Public key: ECDSA-secp384r1
-	Serial number: 13106709058587828877023728117574657088
-	AKI: B3:DB:48:A4:F9:A1:C5:D8:AE:36:41:CC:11:63:69:62:29:BC:4B:C6
-	SKI: AA:FD:30:0D:D7:A2:D5:EF:8A:7A:77:31:AA:66:A6:C2:6C:11:BB:6F
-	Valid from: 2020-08-12T00:00:00+0000
-	     until: 2024-06-27T23:59:59+0000
-	Key usages: cert sign, crl sign, digital signature
-	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://cacerts.digicert.com/DigiCertGlobalRootG3.crt
-	OCSP server:
-		- http://ocsp.digicert.com
-CERTIFICATE
-Subject: /Microsoft Azure ECC TLS Issuing CA 02/C=US/O=Microsoft Corporation
-Issuer: /DigiCert Global Root G3/C=US/O=DigiCert Inc/OU=www.digicert.com
-	Signature algorithm: ECDSA / SHA384
-Details:
-	Public key: ECDSA-secp384r1
-	Serial number: 19345166954709147420013803486070636619
-	AKI: B3:DB:48:A4:F9:A1:C5:D8:AE:36:41:CC:11:63:69:62:29:BC:4B:C6
-	SKI: 9D:E5:0E:77:37:47:9E:09:33:D9:90:BE:2A:09:C2:12:7F:4E:D2:A3
-	Valid from: 2020-08-12T00:00:00+0000
-	     until: 2024-06-27T23:59:59+0000
-	Key usages: cert sign, crl sign, digital signature
-	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://cacerts.digicert.com/DigiCertGlobalRootG3.crt
-	OCSP server:
-		- http://ocsp.digicert.com
 CERTIFICATE
 Subject: /QuoVadis EU Issuing Certification Authority G6/C=NL/O=QuoVadis
     Trustlink B.V.
@@ -27739,6 +27393,23 @@ Details:
 	SANs (0):
 	1 AIA:
 		http://i.pki.goog/r1.crt
+CERTIFICATE
+Subject: /AE1/C=US/O=Google Trust Services
+Issuer: /GTS Root R4/C=US/O=Google Trust Services LLC
+	Signature algorithm: ECDSA / SHA384
+Details:
+	Public key: ECDSA-prime256v1
+	Serial number: 170083536907881165107060894147454147452
+	AKI: 80:4C:D6:EB:74:FF:49:36:A3:D5:D8:FC:B5:3E:C5:6A:F0:94:1D:8C
+	SKI: 48:89:60:F9:A3:7D:0C:EA:00:24:A2:DC:9F:07:CE:46:88:A8:32:3A
+	Valid from: 2023-12-13T09:00:00+0000
+	     until: 2029-02-20T14:00:00+0000
+	Key usages: cert sign, crl sign, digital signature
+	Extended usages: server auth
+	Basic constraints: valid, is a CA certificate, max path length 0
+	SANs (0):
+	1 AIA:
+		http://i.pki.goog/r4.crt
 CERTIFICATE
 Subject: /E5/C=US/O=Let's Encrypt
 Issuer: /ISRG Root X1/C=US/O=Internet Security Research Group
