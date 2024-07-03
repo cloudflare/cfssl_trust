@@ -1704,21 +1704,6 @@ Details:
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
-Subject: /VI Registru Centras RCSC (RootCA)/C=LT/O=VI Registru Centras - I.k.
-    124110246/OU=Registru Centro Sertifikavimo Centras
-Issuer: /VI Registru Centras RCSC (RootCA)/C=LT/O=VI Registru Centras - I.k.
-    124110246/OU=Registru Centro Sertifikavimo Centras
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-4096
-	Serial number: 4837361639629141123735958596081358492
-	SKI: BC:73:3E:2F:9C:91:0C:BB:8F:CD:77:99:3E:CC:85:E4:CC:58:68:11
-	Valid from: 2008-07-21T11:47:46+0000
-	     until: 2024-07-21T11:47:46+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
 Subject: /Chambers of Commerce Root - 2008/C=EU/O=AC Camerfirma S.A./L=Madrid
     (see current address at www.camerfirma.com/address)
 Issuer: /Chambers of Commerce Root - 2008/C=EU/O=AC Camerfirma S.A./L=Madrid
