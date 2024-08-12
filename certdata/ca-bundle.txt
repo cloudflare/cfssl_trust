@@ -1007,21 +1007,6 @@ Details:
 	Basic constraints: valid, is a CA certificate
 	SANs (1): email:info@globaltrust.info
 CERTIFICATE
-Subject: /VAS Latvijas Pasts SSI(RCA)/C=LV/O=VAS Latvijas Pasts -
-    Vien.reg.Nr.40003052790/OU=Sertifikacijas pakalpojumi
-Issuer: /VAS Latvijas Pasts SSI(RCA)/C=LV/O=VAS Latvijas Pasts -
-    Vien.reg.Nr.40003052790/OU=Sertifikacijas pakalpojumi
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-4096
-	Serial number: 131627456498883427451709170510772098098
-	SKI: CC:C3:F5:66:FF:73:AC:38:5A:96:1B:21:89:B8:81:4C:1F:CB:5E:25
-	Valid from: 2006-09-13T09:22:10+0000
-	     until: 2024-09-13T09:27:57+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
 Subject: /StartCom Certification Authority/C=IL/O=StartCom Ltd./OU=Secure
     Digital Certificate Signing
 Issuer: /StartCom Certification Authority/C=IL/O=StartCom Ltd./OU=Secure
