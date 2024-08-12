@@ -2628,46 +2628,6 @@ Details:
 	OCSP server:
 		- http://subca.ocsp-certum.com
 CERTIFICATE
-Subject: /Gandi Pro SSL CA 2/C=FR/O=Gandi/L=Paris/ST=Paris
-Issuer: /USERTrust RSA Certification Authority/C=US/O=The USERTRUST
-    Network/L=Jersey City/ST=New Jersey
-	Signature algorithm: RSA / SHA384
-Details:
-	Public key: RSA-2048
-	Serial number: 83693311817565330492531311743862013112
-	AKI: 53:79:BF:5A:AA:2B:4A:CF:54:80:E1:D8:9B:C0:9D:F2:B2:03:66:CB
-	SKI: 80:CD:49:6C:B4:53:84:04:E2:CA:F6:8D:B1:48:DA:D8:0D:95:4B:4E
-	Valid from: 2014-09-12T00:00:00+0000
-	     until: 2024-09-11T23:59:59+0000
-	Key usages: cert sign, crl sign, digital signature
-	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://crt.usertrust.com/USERTrustRSAAddTrustCA.crt
-	OCSP server:
-		- http://ocsp.usertrust.com
-CERTIFICATE
-Subject: /Gandi Standard SSL CA 2/C=FR/O=Gandi/L=Paris/ST=Paris
-Issuer: /USERTrust RSA Certification Authority/C=US/O=The USERTRUST
-    Network/L=Jersey City/ST=New Jersey
-	Signature algorithm: RSA / SHA384
-Details:
-	Public key: RSA-2048
-	Serial number: 7834450513117201695023521987149975779
-	AKI: 53:79:BF:5A:AA:2B:4A:CF:54:80:E1:D8:9B:C0:9D:F2:B2:03:66:CB
-	SKI: B3:90:A7:D8:C9:AF:4E:CD:61:3C:9F:7C:AD:5D:7F:41:FD:69:30:EA
-	Valid from: 2014-09-12T00:00:00+0000
-	     until: 2024-09-11T23:59:59+0000
-	Key usages: cert sign, crl sign, digital signature
-	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://crt.usertrust.com/USERTrustRSAAddTrustCA.crt
-	OCSP server:
-		- http://ocsp.usertrust.com
-CERTIFICATE
 Subject: /USERTrust RSA Client Authentication and Secure Email CA/C=US/O=The
     USERTRUST Network/L=Jersey City/ST=New Jersey
 Issuer: /USERTrust RSA Certification Authority/C=US/O=The USERTRUST
