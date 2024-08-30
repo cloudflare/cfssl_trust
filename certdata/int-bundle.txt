@@ -2825,27 +2825,6 @@ Details:
 	OCSP server:
 		- http://ocsp.firmaprofesional.com
 CERTIFICATE
-Subject: /InCommon RSA Standard Assurance Client
-    CA/C=US/O=Internet2/OU=InCommon/L=Ann Arbor/ST=MI
-Issuer: /USERTrust RSA Certification Authority/C=US/O=The USERTRUST
-    Network/L=Jersey City/ST=New Jersey
-	Signature algorithm: RSA / SHA512
-Details:
-	Public key: RSA-2048
-	Serial number: 84723781756892034807357597507790159460
-	AKI: 53:79:BF:5A:AA:2B:4A:CF:54:80:E1:D8:9B:C0:9D:F2:B2:03:66:CB
-	SKI: 7D:EE:71:D0:1F:EB:A9:61:6D:8F:66:84:AD:0F:2B:07:E2:31:DB:BC
-	Valid from: 2014-09-19T00:00:00+0000
-	     until: 2024-09-18T23:59:59+0000
-	Key usages: cert sign, crl sign, digital signature
-	Extended usages: client auth, s/mime
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://crt.usertrust.com/USERTrustRSAAddTrustCA.crt
-	OCSP server:
-		- http://ocsp.usertrust.com
-CERTIFICATE
 Subject: /SwissSign Server Gold CA 2014 - G22/C=CH/O=SwissSign AG
 Issuer: /SwissSign Gold CA - G2/C=CH/O=SwissSign AG
 	Signature algorithm: RSA / SHA256
@@ -2918,47 +2897,6 @@ Details:
 	OCSP server:
 		- http://ocsp.swisssign.net/17A0CDC1E441B63A5B3BCB459DBD1CC298FA8658
 CERTIFICATE
-Subject: /Entrust Root Certification Authority - G2/C=US/O=Entrust,
-    Inc./OU=See www.entrust.net/legal-terms/OU=(c) 2009 Entrust, Inc. - for
-    authorized use only
-Issuer: /Entrust Root Certification Authority/C=US/O=Entrust,
-    Inc./OU=www.entrust.net/CPS is incorporated by reference/OU=(c) 2006
-    Entrust, Inc.
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 1372799044
-	AKI: 68:90:E4:67:A4:A6:53:80:C7:86:66:A4:F1:F7:4B:43:FB:84:BD:6D
-	SKI: 6A:72:26:7A:D0:1E:EF:7D:E7:3B:69:51:D4:6C:8D:9F:90:12:66:AB
-	Valid from: 2014-09-22T17:14:57+0000
-	     until: 2024-09-23T01:31:53+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 1
-	SANs (0):
-	OCSP server:
-		- http://ocsp.entrust.net
-CERTIFICATE
-Subject: /TBS X509 CA persona 2/C=FR/O=TBS INTERNET/OU=TBS INTERNET
-    CA/L=Caen/ST=Calvados
-Issuer: /USERTrust RSA Certification Authority/C=US/O=The USERTRUST
-    Network/L=Jersey City/ST=New Jersey
-	Signature algorithm: RSA / SHA384
-Details:
-	Public key: RSA-2048
-	Serial number: 291759431475458955059894504793433328438
-	AKI: 53:79:BF:5A:AA:2B:4A:CF:54:80:E1:D8:9B:C0:9D:F2:B2:03:66:CB
-	SKI: 4F:A4:61:21:D7:7B:49:C0:70:7E:BE:CF:48:96:22:A0:E7:F7:CB:9D
-	Valid from: 2014-09-23T00:00:00+0000
-	     until: 2024-09-22T23:59:59+0000
-	Key usages: cert sign, crl sign, digital signature
-	Extended usages: client auth, s/mime
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://crt.usertrust.com/USERTrustRSAAddTrustCA.crt
-	OCSP server:
-		- http://ocsp.usertrust.com
-CERTIFICATE
 Subject: /Autoridad de Certificacion Firmaprofesional CIF A62634068/C=ES
 Issuer: /Autoridad de Certificacion Firmaprofesional CIF A62634068/C=ES
 	Signature algorithm: RSA / SHA256
@@ -2971,27 +2909,6 @@ Details:
 	Key usages: cert sign, crl sign
 	Basic constraints: valid, is a CA certificate, max path length 1
 	SANs (0):
-CERTIFICATE
-Subject: /Network Solutions DV Server CA 2/C=US/O=Network Solutions
-    L.L.C./L=Herndon/ST=VA
-Issuer: /USERTrust RSA Certification Authority/C=US/O=The USERTRUST
-    Network/L=Jersey City/ST=New Jersey
-	Signature algorithm: RSA / SHA384
-Details:
-	Public key: RSA-2048
-	Serial number: 266023820263518691040511119443507202483
-	AKI: 53:79:BF:5A:AA:2B:4A:CF:54:80:E1:D8:9B:C0:9D:F2:B2:03:66:CB
-	SKI: 51:CE:DF:54:1D:B7:2C:57:AB:68:61:48:02:1A:D3:B2:85:EC:40:AA
-	Valid from: 2014-09-24T00:00:00+0000
-	     until: 2024-09-23T23:59:59+0000
-	Key usages: cert sign, crl sign, digital signature
-	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://crt.usertrust.com/USERTrustRSAAddTrustCA.crt
-	OCSP server:
-		- http://ocsp.usertrust.com
 CERTIFICATE
 Subject: /Network Solutions EV Server CA 2/C=US/O=Network Solutions
     L.L.C./L=Herndon/ST=VA
@@ -3013,27 +2930,6 @@ Details:
 		http://crt.usertrust.com/NetworkSolutionsAddTrustEVServerCA.crt
 	OCSP server:
 		- http://ocsp.netsolssl.com
-CERTIFICATE
-Subject: /Network Solutions OV Server CA 2/C=US/O=Network Solutions
-    L.L.C./L=Herndon/ST=VA
-Issuer: /USERTrust RSA Certification Authority/C=US/O=The USERTRUST
-    Network/L=Jersey City/ST=New Jersey
-	Signature algorithm: RSA / SHA384
-Details:
-	Public key: RSA-2048
-	Serial number: 260356681471242070353348860874506689848
-	AKI: 53:79:BF:5A:AA:2B:4A:CF:54:80:E1:D8:9B:C0:9D:F2:B2:03:66:CB
-	SKI: 20:33:CD:B7:61:F6:A5:86:4F:DC:C9:D7:73:6A:BC:0A:51:65:98:EC
-	Valid from: 2014-09-24T00:00:00+0000
-	     until: 2024-09-23T23:59:59+0000
-	Key usages: cert sign, crl sign, digital signature
-	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://crt.usertrust.com/USERTrustRSAAddTrustCA.crt
-	OCSP server:
-		- http://ocsp.usertrust.com
 CERTIFICATE
 Subject: /COMODO ECC Domain Validation Secure Server CA 2/C=GB/O=COMODO CA
     Limited/L=Salford/ST=Greater Manchester
@@ -3076,201 +2972,6 @@ Details:
 		http://crt.comodoca.com/COMODORSAAddTrustCA.crt
 	OCSP server:
 		- http://ocsp.comodoca4.com
-CERTIFICATE
-Subject: /Cerner Corporation Direct Intermediate CA/C=US/O=Cerner
-    Corporation/OU=Cerner Direct
-Issuer: /DigiCert Federated Trust CA/C=US/O=DigiCert Inc/OU=www.digicert.com
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 19735115289490879524178557411903134359
-	AKI: 46:08:38:5A:A9:8E:20:BB:0C:AF:5E:31:BA:89:B3:28:BF:AC:8C:36
-	SKI: 52:B7:2C:85:44:0C:1F:62:F8:7B:1C:62:1A:DD:6C:4D:B9:8F:09:31
-	Valid from: 2014-09-26T12:00:00+0000
-	     until: 2024-09-26T12:00:00+0000
-	Key usages: cert sign, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://cacerts.digicert.com/aiaCernerCorporationDirectIntermediateCA.p7c
-	OCSP server:
-		- http://ocsp.digicert.com
-CERTIFICATE
-Subject: /New Mexico Health Information Collaborative CA/C=US/O=New Mexico
-    Health Information Collaborative/OU=Orion Health Direct Secure Messaging
-Issuer: /Orion Health Direct Secure Messaging CA/C=US/O=Orion Health
-    Inc./OU=Orion Health Direct Secure Messaging
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 7300630270822421909705612658568973326
-	AKI: A5:6E:22:FF:39:69:3A:23:FB:89:24:17:C6:60:94:00:1A:DA:8E:9E
-	SKI: A3:31:DD:14:B6:06:08:53:4B:60:29:42:05:57:2C:40:E1:21:8C:9E
-	Valid from: 2014-09-26T12:00:00+0000
-	     until: 2024-09-26T12:00:00+0000
-	Key usages: cert sign, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://cacerts.digicert.com/aiaOrionHealthIssuingCAs.p7c
-	OCSP server:
-		- http://ocsp.digicert.com
-CERTIFICATE
-Subject: /Mirth Direct Intermediate CA/C=US/O=Mirth/OU=NextGen Share
-Issuer: /DigiCert Federated Trust CA/C=US/O=DigiCert Inc/OU=www.digicert.com
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 12349065825198401402995700907058498383
-	AKI: 46:08:38:5A:A9:8E:20:BB:0C:AF:5E:31:BA:89:B3:28:BF:AC:8C:36
-	SKI: B2:5C:27:C5:6F:79:62:A1:FD:3E:B4:66:83:A4:40:BC:CA:37:E0:7D
-	Valid from: 2014-09-26T12:00:00+0000
-	     until: 2024-09-26T12:00:00+0000
-	Key usages: cert sign, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://cacerts.digicert.com/aiaMirthDirectIntermediateCA.p7c
-	OCSP server:
-		- http://ocsp.digicert.com
-CERTIFICATE
-Subject: /GIS CA/C=RU/O=GAZINFORMSERVICE Company limited/OU=CA
-Issuer: /Certum Global Services CA SHA2/C=PL/O=Unizeto Technologies
-    S.A./OU=Certum Certification Authority
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 81704104348305893392908687684814332342
-	AKI: 54:99:DD:9B:FF:E8:A7:0E:A3:19:9D:5B:BE:42:57:DF:30:FC:8F:32
-	SKI: BD:44:93:CF:24:B3:E5:CE:C7:FC:02:F7:E8:5A:81:B4:59:32:99:CA
-	Valid from: 2014-09-30T11:51:53+0000
-	     until: 2024-09-27T11:51:53+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://repository.certum.pl/gscasha2.cer
-	OCSP server:
-		- http://subca.ocsp-certum.com
-CERTIFICATE
-Subject: /nazwaSSL/C=PL/O=nazwa.pl S.A./OU=http://nazwa.pl
-Issuer: /Certum Global Services CA SHA2/C=PL/O=Unizeto Technologies
-    S.A./OU=Certum Certification Authority
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 109713654563141050441793431733301887681
-	AKI: 54:99:DD:9B:FF:E8:A7:0E:A3:19:9D:5B:BE:42:57:DF:30:FC:8F:32
-	SKI: B2:61:76:82:95:5A:01:37:17:97:C2:77:21:B5:ED:8B:FC:29:F7:67
-	Valid from: 2014-09-30T11:54:18+0000
-	     until: 2024-09-27T11:54:18+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://repository.certum.pl/gscasha2.cer
-	OCSP server:
-		- http://subca.ocsp-certum.com
-CERTIFICATE
-Subject: /Shoper® SSL/C=PL/O=Dreamcommerce S.A./OU=Dreamcommerce S.A.
-Issuer: /Certum Global Services CA SHA2/C=PL/O=Unizeto Technologies
-    S.A./OU=Certum Certification Authority
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 104092041403249996600934805502500293311
-	AKI: 54:99:DD:9B:FF:E8:A7:0E:A3:19:9D:5B:BE:42:57:DF:30:FC:8F:32
-	SKI: 64:D9:7C:E6:02:06:1B:45:0B:3D:75:58:98:4A:46:07:60:35:9D:C1
-	Valid from: 2014-09-30T11:54:40+0000
-	     until: 2024-09-27T11:54:40+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://repository.certum.pl/gscasha2.cer
-	OCSP server:
-		- http://subca.ocsp-certum.com
-CERTIFICATE
-Subject: /SpaceSSL CA/C=PL/O=Unizeto Technologies S.A./OU=SpaceSSL
-    Certification Authority
-Issuer: /Certum Global Services CA SHA2/C=PL/O=Unizeto Technologies
-    S.A./OU=Certum Certification Authority
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 81570982531948244782189636834816737659
-	AKI: 54:99:DD:9B:FF:E8:A7:0E:A3:19:9D:5B:BE:42:57:DF:30:FC:8F:32
-	SKI: 9B:D2:02:D8:92:16:22:C2:68:DC:65:8A:E1:DB:B4:7D:CB:4B:CD:D0
-	Valid from: 2014-09-30T11:55:21+0000
-	     until: 2024-09-27T11:55:21+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://repository.certum.pl/gscasha2.cer
-	OCSP server:
-		- http://subca.ocsp-certum.com
-CERTIFICATE
-Subject: /Trustwave Domain Validation SHA256 CA, Level 1/C=US/O=Trustwave
-    Holdings, Inc./L=Chicago/ST=Illinois
-Issuer: /SecureTrust CA/C=US/O=SecureTrust Corporation
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 294994970407439751251039791549125937295
-	AKI: 42:32:B6:16:FA:04:FD:FE:5D:4B:7A:C3:FD:F7:4C:40:1D:5A:43:AF
-	SKI: F4:1C:E2:3A:AF:B6:A4:E4:D9:E9:9D:FE:EF:1C:77:A5:63:3D:EF:88
-	Valid from: 2014-10-01T19:22:32+0000
-	     until: 2024-09-28T19:22:32+0000
-	Key usages: cert sign, crl sign, digital signature
-	Extended usages: server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://ssl.trustwave.com/issuers/STCA.crt
-	OCSP server:
-		- http://ocsp.trustwave.com
-CERTIFICATE
-Subject: /Trustwave Organization Validation SHA256 CA, Level
-    1/C=US/O=Trustwave Holdings, Inc./L=Chicago/ST=Illinois
-Issuer: /SecureTrust CA/C=US/O=SecureTrust Corporation
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 99922635172972941539105834177318421734
-	AKI: 42:32:B6:16:FA:04:FD:FE:5D:4B:7A:C3:FD:F7:4C:40:1D:5A:43:AF
-	SKI: CA:CE:1D:18:03:77:1E:1C:F3:7C:58:B2:9A:70:A8:08:80:16:F4:AE
-	Valid from: 2014-10-01T19:22:36+0000
-	     until: 2024-09-28T19:22:36+0000
-	Key usages: cert sign, crl sign, digital signature
-	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://ssl.trustwave.com/issuers/STCA.crt
-	OCSP server:
-		- http://ocsp.trustwave.com
-CERTIFICATE
-Subject: /Trustwave S/MIME SHA256 CA, Level 1/C=US/O=Trustwave Holdings,
-    Inc./L=Chicago/ST=Illinois
-Issuer: /XRamp Global Certification Authority/C=US/O=XRamp Security Services
-    Inc/OU=www.xrampsecurity.com
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 77779128771173648737732751869024626410
-	AKI: C6:4F:A2:3D:06:63:84:09:9C:CE:62:E4:04:AC:8D:5C:B5:E9:B6:1B
-	SKI: 0C:33:A3:57:AA:E3:AB:D6:4B:70:1B:36:9E:A3:ED:61:50:E6:AF:74
-	Valid from: 2014-10-01T19:22:38+0000
-	     until: 2024-09-28T19:22:38+0000
-	Key usages: cert sign, crl sign, digital signature
-	Extended usages: s/mime
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://ssl.trustwave.com/issuers/XGCA.crt
-	OCSP server:
-		- http://ocsp.trustwave.com
 CERTIFICATE
 Subject: /CA Disig R2I2 Certification Service/C=SK/O=Disig a.s./L=Bratislava
 Issuer: /CA Disig Root R2/C=SK/O=Disig a.s./L=Bratislava
@@ -8345,66 +8046,6 @@ Details:
 		- http://rootca2009-ocsp1.e-szigno.hu
 		- http://rootca2009-ocsp2.e-szigno.hu
 		- http://rootca2009-ocsp3.e-szigno.hu
-CERTIFICATE
-Subject: /Trustwave Domain Validation SHA256 CA, Level 1/C=US/O=Trustwave
-    Holdings, Inc./L=Chicago/ST=Illinois
-Issuer: /SecureTrust CA/C=US/O=SecureTrust Corporation
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 75819206576121808294975506570077627947
-	AKI: 42:32:B6:16:FA:04:FD:FE:5D:4B:7A:C3:FD:F7:4C:40:1D:5A:43:AF
-	SKI: F4:1C:E2:3A:AF:B6:A4:E4:D9:E9:9D:FE:EF:1C:77:A5:63:3D:EF:88
-	Valid from: 2016-09-01T14:35:32+0000
-	     until: 2024-09-29T14:35:32+0000
-	Key usages: cert sign, crl sign, digital signature
-	Extended usages: server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (1): email:ca@trustwave.com
-	1 AIA:
-		http://ssl.trustwave.com/issuers/STCA.crt
-	OCSP server:
-		- http://ocsp.trustwave.com
-CERTIFICATE
-Subject: /Trustwave Extended Validation SHA256 CA, Level 1/C=US/O=Trustwave
-    Holdings, Inc./L=Chicago/ST=Illinois
-Issuer: /SecureTrust CA/C=US/O=SecureTrust Corporation
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 71228885410165418252786886174984801381
-	AKI: 42:32:B6:16:FA:04:FD:FE:5D:4B:7A:C3:FD:F7:4C:40:1D:5A:43:AF
-	SKI: E5:E4:24:59:15:32:27:C9:20:B3:42:02:6C:B0:EF:32:DE:9B:20:5A
-	Valid from: 2016-09-01T14:35:34+0000
-	     until: 2024-09-29T14:35:34+0000
-	Key usages: cert sign, crl sign, digital signature
-	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (1): email:ca@trustwave.com
-	1 AIA:
-		http://ssl.trustwave.com/issuers/STCA.crt
-	OCSP server:
-		- http://ocsp.trustwave.com
-CERTIFICATE
-Subject: /Trustwave Organization Validation SHA256 CA, Level
-    1/C=US/O=Trustwave Holdings, Inc./L=Chicago/ST=Illinois
-Issuer: /SecureTrust CA/C=US/O=SecureTrust Corporation
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 195025029060328819205916982272218178994
-	AKI: 42:32:B6:16:FA:04:FD:FE:5D:4B:7A:C3:FD:F7:4C:40:1D:5A:43:AF
-	SKI: CA:CE:1D:18:03:77:1E:1C:F3:7C:58:B2:9A:70:A8:08:80:16:F4:AE
-	Valid from: 2016-09-01T14:35:35+0000
-	     until: 2024-09-29T14:35:35+0000
-	Key usages: cert sign, crl sign, digital signature
-	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (1): email:ca@trustwave.com
-	1 AIA:
-		http://ssl.trustwave.com/issuers/STCA.crt
-	OCSP server:
-		- http://ocsp.trustwave.com
 CERTIFICATE
 Subject: /SwissSign Qualified Platinum CA G22 16-1/C=CH/O=SwissSign AG
 Issuer: /SwissSign Platinum CA - G2/C=CH/O=SwissSign AG
@@ -18835,24 +18476,6 @@ Details:
 	OCSP server:
 		- http://ocsp.digicert.com
 CERTIFICATE
-Subject: /Duerr Group Global IT CA/C=DE/O=Duerr IT Service GmbH/OU=Class 2
-    DigiCert PKI Platform Individual Subscriber CA
-Issuer: /DigiCert Assured ID Root G2/C=US/O=DigiCert Inc/OU=www.digicert.com
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 13831462084010044486795517500090595204
-	AKI: CE:C3:4A:B9:99:55:F2:B8:DB:60:BF:A9:7E:BD:56:B5:97:36:A7:D6
-	SKI: A5:C5:71:F6:15:F5:E9:BB:D5:78:7D:85:5E:40:3D:E0:CE:1B:93:21
-	Valid from: 2019-09-23T12:24:29+0000
-	     until: 2024-09-23T12:24:29+0000
-	Key usages: cert sign, crl sign, digital signature
-	Extended usages: client auth, s/mime
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://ocsp.digicert.com
-CERTIFICATE
 Subject: /DigiCert Global Client CA G2/C=US/O=DigiCert Inc/OU=www.digicert.com
 Issuer: /DigiCert Global Root G2/C=US/O=DigiCert Inc/OU=www.digicert.com
 	Signature algorithm: RSA / SHA256
@@ -26756,22 +26379,6 @@ Details:
 		http://trust.quovadisglobal.com/qvrca3g3.crt
 	OCSP server:
 		- http://ocsp.quovadisglobal.com
-CERTIFICATE
-Subject: /ISRG Root X1/C=US/O=Internet Security Research Group
-Issuer: /DST Root CA X3/O=Digital Signature Trust Co.
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-4096
-	Serial number: 85078200265644417569109389142156118711
-	AKI: C4:A7:B1:A4:7B:2C:71:FA:DB:E1:4B:90:75:FF:C4:15:60:85:89:10
-	SKI: 79:B4:59:E6:7B:B6:E5:E4:01:73:80:08:88:C8:1A:58:F6:E9:9B:6E
-	Valid from: 2021-01-20T19:14:03+0000
-	     until: 2024-09-30T18:14:03+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-	1 AIA:
-		http://apps.identrust.com/roots/dstrootcax3.p7c
 CERTIFICATE
 Subject: /DigiCert G5 TLS ECC SHA384 2021 CA1/C=US/O=DigiCert, Inc.
 Issuer: /DigiCert TLS ECC P384 Root G5/C=US/O=DigiCert, Inc.
