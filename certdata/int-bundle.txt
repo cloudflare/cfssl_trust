@@ -449,31 +449,6 @@ Details:
 	Basic constraints: valid, is a CA certificate
 	SANs (1): email:info@e-szigno.hu
 CERTIFICATE
-Subject: /NetLock Minősített Eat. (Class Q Legal)
-    Tanúsítványkiadó/C=HU/O=NetLock Kft./OU=Tanúsítványkiadók
-    (Certification Services)/L=Budapest
-Issuer: /NetLock Arany (Class Gold) Főtanúsítvány/C=HU/O=NetLock
-    Kft./OU=Tanúsítványkiadók (Certification Services)/L=Budapest
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 80544274841623
-	AKI: CC:FA:67:93:F0:B6:B8:D0:A5:C0:1E:F3:53:FD:8C:53:DF:83:D7:96
-	SKI: 64:AF:81:8A:5C:30:B8:57:65:DA:5D:A5:3D:58:6E:47:62:42:34:AB
-	Valid from: 2009-07-31T10:51:20+0000
-	     until: 2024-10-15T10:51:20+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 4
-	SANs (0):
-	3 AIAs:
-		http://aia1.netlock.hu/index.cgi?ca=gold
-		http://aia2.netlock.hu/index.cgi?ca=gold
-		http://aia3.netlock.hu/index.cgi?ca=gold
-	OCSP servers:
-		- http://ocsp1.netlock.hu/gold.cgi
-		- http://ocsp2.netlock.hu/gold.cgi
-		- http://ocsp3.netlock.hu/gold.cgi
-CERTIFICATE
 Subject: /AC Firmaprofesional - CA1/C=ES/O=Firmaprofesional S.A. NIF
     A-62634068/OU=Consulte http://www.firmaprofesional.com/OU=Jerarquia de
     Certificacion Firmaprofesional/L=C/ Muntaner 244 Barcelona
@@ -3008,27 +2983,6 @@ Details:
 		http://www.disig.sk/rootcar2/cert/rootcar2.der
 	OCSP server:
 		- http://rootcar2-ocsp.disig.sk/ocsp/rootcar2
-CERTIFICATE
-Subject: /CertAssure RSA Client Personal ID CA/C=US/O=CertAssure Inc./L=San
-    Jose/ST=CA
-Issuer: /USERTrust RSA Certification Authority/C=US/O=The USERTRUST
-    Network/L=Jersey City/ST=New Jersey
-	Signature algorithm: RSA / SHA384
-Details:
-	Public key: RSA-2048
-	Serial number: 14194773150195931910817278849257691927
-	AKI: 53:79:BF:5A:AA:2B:4A:CF:54:80:E1:D8:9B:C0:9D:F2:B2:03:66:CB
-	SKI: C6:D8:F8:80:72:0C:0C:66:76:08:0A:16:C1:92:4E:51:7E:78:15:A9
-	Valid from: 2014-10-14T00:00:00+0000
-	     until: 2024-10-13T23:59:59+0000
-	Key usages: cert sign, crl sign, digital signature
-	Extended usages: client auth, s/mime
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://crt.usertrust.com/USERTrustRSAAddTrustCA.crt
-	OCSP server:
-		- http://ocsp.usertrust.com
 CERTIFICATE
 Subject: /TeliaSonera Server CA v2/C=FI/O=TeliaSonera
 Issuer: /TeliaSonera Root CA v1/O=TeliaSonera
