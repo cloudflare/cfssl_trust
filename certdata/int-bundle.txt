@@ -3298,39 +3298,6 @@ Details:
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
 CERTIFICATE
-Subject: /TWCA InfoSec User CA/C=TW/O=TAIWAN-CA Inc./OU=User CA
-Issuer: /TWCA Root Certification Authority/C=TW/O=TAIWAN-CA/OU=Root CA
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 85076825076483007851870499652404066464
-	AKI: 6A:38:5B:26:8D:DE:8B:5A:F2:4F:7A:54:83:19:18:E3:08:35:A6:BA
-	SKI: D9:10:F0:DE:C2:A1:99:F5:7E:4B:93:A2:13:C6:D6:46:73:C2:49:DE
-	Valid from: 2014-10-28T06:48:11+0000
-	     until: 2024-10-28T15:59:59+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-CERTIFICATE
-Subject: /TWCA Secure SSL Certification Authority/C=TW/O=TAIWAN-CA/OU=Secure
-    SSL Sub-CA
-Issuer: /TWCA Global Root CA/C=TW/O=TAIWAN-CA/OU=Root CA
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 85076825076483007851870499652303227021
-	AKI: 48:DB:CD:DE:8E:E9:49:72:5A:88:E8:B1:D8:3D:07:B3:B9:6B:66:50
-	SKI: F8:07:C2:68:24:FF:85:95:CB:DB:1E:E3:33:9C:2A:4F:97:20:56:7B
-	Valid from: 2014-10-28T07:27:56+0000
-	     until: 2024-10-28T15:59:59+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://sslserver.twca.com.tw/cacert/root4096.crt
-	OCSP server:
-		- http://rootocsp.twca.com.tw/
-CERTIFICATE
 Subject: /TWCA Global Root CA/C=TW/O=TAIWAN-CA/OU=Root CA
 Issuer: /TWCA Root Certification Authority/C=TW/O=TAIWAN-CA/OU=Root CA
 	Signature algorithm: RSA / SHA256
@@ -18904,25 +18871,6 @@ Details:
 	SKI: 8C:A4:C6:67:B0:32:AD:47:67:17:DE:16:75:64:91:77:07:24:2F:D5
 	Valid from: 2019-10-31T12:52:15+0000
 	     until: 2029-10-31T12:52:15+0000
-	Key usages: cert sign, crl sign, digital signature
-	Extended usages: client auth, s/mime
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://ocsp.digicert.com
-CERTIFICATE
-Subject: /Saudi Enaya Public Issuing CA/C=SA/O=Saudi Enaya Cooperative
-    Insurance Company/OU=Class 2 DigiCert PKI Platform Individual Subscriber
-    CA
-Issuer: /DigiCert Assured ID Root G2/C=US/O=DigiCert Inc/OU=www.digicert.com
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 13088993430995819654219843423247337983
-	AKI: CE:C3:4A:B9:99:55:F2:B8:DB:60:BF:A9:7E:BD:56:B5:97:36:A7:D6
-	SKI: BE:EA:6F:BF:F1:EA:1B:7E:84:33:3D:7A:9B:07:8E:2F:25:12:2A:03
-	Valid from: 2019-10-31T12:52:56+0000
-	     until: 2024-10-31T12:52:56+0000
 	Key usages: cert sign, crl sign, digital signature
 	Extended usages: client auth, s/mime
 	Basic constraints: valid, is a CA certificate, max path length 0
