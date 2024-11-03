@@ -623,48 +623,6 @@ Details:
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
-Subject: /Serasa Certificate Authority II/C=BR/O=Serasa S.A./OU=Serasa CA II
-Issuer: /Serasa Certificate Authority II/C=BR/O=Serasa S.A./OU=Serasa CA II
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 5056230419077763488
-	SKI: 9E:EC:99:10:00:49:6B:CC:8A:3F:DB:6F:06:E5:CA:14:18:72:93:83
-	Valid from: 2004-11-26T12:34:48+0000
-	     until: 2024-11-21T12:44:48+0000
-	Key usages: cert sign, crl sign
-	Extended usages: code signing, server auth, timestamping
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
-Subject: /Serasa Certificate Authority III/C=BR/O=Serasa S.A./OU=Serasa CA III
-Issuer: /Serasa Certificate Authority III/C=BR/O=Serasa S.A./OU=Serasa CA III
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 4276163686201040820
-	SKI: 46:C2:78:AB:54:E0:F8:68:27:39:DF:42:B3:F3:54:C3:06:7D:26:A1
-	Valid from: 2004-11-26T13:14:14+0000
-	     until: 2024-11-21T13:24:14+0000
-	Key usages: cert sign, crl sign
-	Extended usages: client auth, code signing, s/mime, server auth
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
-Subject: /Serasa Certificate Authority I/C=BR/O=Serasa S.A./OU=Serasa CA I
-Issuer: /Serasa Certificate Authority I/C=BR/O=Serasa S.A./OU=Serasa CA I
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 3015013576204765766
-	SKI: F8:38:EE:5C:6E:ED:AB:96:A0:45:EB:36:0F:DC:D9:AB:3A:31:58:FD
-	Valid from: 2004-11-26T14:02:45+0000
-	     until: 2024-11-21T14:12:45+0000
-	Key usages: cert sign, crl sign
-	Extended usages: client auth, s/mime, timestamping
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
 Subject: /DoD Root CA 2/C=US/O=U.S. Government/OU=DoD/OU=PKI
 Issuer: /DoD Root CA 2/C=US/O=U.S. Government/OU=DoD/OU=PKI
 	Signature algorithm: RSA / SHA1
