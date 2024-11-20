@@ -644,44 +644,6 @@ Details:
 	OCSP server:
 		- http://rootocsp2009.e-szigno.hu
 CERTIFICATE
-Subject: /Certum Extended Validation CA/C=PL/O=Unizeto Technologies
-    S.A./OU=Certum Certification Authority
-Issuer: /Certum Trusted Network CA/C=PL/O=Unizeto Technologies S.A./OU=Certum
-    Certification Authority
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 448238
-	AKI: 08:76:CD:CB:07:FF:24:F6:C5:CD:ED:BB:90:BC:E2:84:37:46:75:F7
-	SKI: C0:3B:0A:FA:0F:D9:FE:0F:4E:02:98:65:14:0C:8A:1E:2E:00:8C:03
-	Valid from: 2009-12-03T12:30:51+0000
-	     until: 2024-12-03T12:30:51+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://repository.certum.pl/ctnca.cer
-CERTIFICATE
-Subject: /Certum Extended Validation CA/C=PL/O=Unizeto Technologies
-    S.A./OU=Certum Certification Authority
-Issuer: /Certum Trusted Network CA/C=PL/O=Unizeto Technologies S.A./OU=Certum
-    Certification Authority
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 169232775359562229546558569166134503463
-	AKI: 08:76:CD:CB:07:FF:24:F6:C5:CD:ED:BB:90:BC:E2:84:37:46:75:F7
-	SKI: C0:3B:0A:FA:0F:D9:FE:0F:4E:02:98:65:14:0C:8A:1E:2E:00:8C:03
-	Valid from: 2009-12-03T12:30:51+0000
-	     until: 2024-12-03T12:30:51+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-	1 AIA:
-		http://repository.certum.pl/ctnca.cer
-	OCSP server:
-		- http://subca.ocsp-certum.com
-CERTIFICATE
 Subject: /SwissSign SuisseID Platinum CA 2010 - G2/C=CH/O=SwissSign AG
 Issuer: /SwissSign Platinum CA - G2/C=CH/O=SwissSign AG
 	Signature algorithm: RSA / SHA1
@@ -3509,63 +3471,6 @@ Details:
 		http://www.gdca.com.cn/cert/GDCA_TrustAUTH_R5_ROOT.der
 	OCSP server:
 		- http://www.gdca.com.cn/TrustAUTH/ocsp
-CERTIFICATE
-Subject: /DOMENY SSL DV Certification Authority/C=PL/O=DOMENY.PL sp. z
-    o.o/L=Kraków/ST=Małopolskie
-Issuer: /USERTrust RSA Certification Authority/C=US/O=The USERTRUST
-    Network/L=Jersey City/ST=New Jersey
-	Signature algorithm: RSA / SHA384
-Details:
-	Public key: RSA-2048
-	Serial number: 325944255633948528137959658428468724375
-	AKI: 53:79:BF:5A:AA:2B:4A:CF:54:80:E1:D8:9B:C0:9D:F2:B2:03:66:CB
-	SKI: 56:34:05:BF:44:72:56:3D:96:29:D3:FF:31:7B:EF:9D:45:49:39:A9
-	Valid from: 2014-12-02T00:00:00+0000
-	     until: 2024-12-01T23:59:59+0000
-	Key usages: cert sign, crl sign, digital signature
-	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://crt.usertrust.com/USERTrustRSAAddTrustCA.crt
-	OCSP server:
-		- http://ocsp.usertrust.com
-CERTIFICATE
-Subject: /Cybertrust Global Root/O=Cybertrust, Inc
-Issuer: /Baltimore CyberTrust Root/C=IE/O=Baltimore/OU=CyberTrust
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 120044506
-	AKI: E5:9D:59:30:82:47:58:CC:AC:FA:08:54:36:86:7B:3A:B5:04:4D:F0
-	Valid from: 2014-12-03T19:40:23+0000
-	     until: 2024-12-03T19:39:16+0000
-	Key usages: cert sign, content committment, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate, max path length 2
-	SANs (0):
-	2 AIAs:
-		https://cacert.omniroot.com/baltimoreroot.crt
-		https://cacert.omniroot.com/baltimoreroot.der
-	OCSP server:
-		- http://ocsp.omniroot.com/baltimoreroot
-CERTIFICATE
-Subject: /Cybertrust Global Root/O=Cybertrust, Inc
-Issuer: /Baltimore CyberTrust Root/C=IE/O=Baltimore/OU=CyberTrust
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 120044507
-	AKI: E5:9D:59:30:82:47:58:CC:AC:FA:08:54:36:86:7B:3A:B5:04:4D:F0
-	Valid from: 2014-12-03T19:42:29+0000
-	     until: 2024-12-03T19:42:15+0000
-	Key usages: cert sign, content committment, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate, max path length 2
-	SANs (0):
-	2 AIAs:
-		https://cacert.omniroot.com/baltimoreroot.crt
-		https://cacert.omniroot.com/baltimoreroot.der
-	OCSP server:
-		- http://ocsp.omniroot.com/baltimoreroot
 CERTIFICATE
 Subject: /Aetna Inc. Secure EV CA/C=US/O=Aetna Inc
 Issuer: /DigiCert High Assurance EV Root CA/C=US/O=DigiCert
@@ -7317,21 +7222,6 @@ Details:
 		http://cdp2.pca.dfn.de/global-root-g2-ca/pub/cacert/cacert.crt
 	OCSP server:
 		- http://ocsp.pca.dfn.de/OCSP-Server/OCSP
-CERTIFICATE
-Subject: /ALPHA BANK CA - G2/C=GR/O=ALPHA BANK/OU=Symantec Trust Network
-Issuer: /ADACOM Class 2 CA - G4/C=GR/O=ADACOM S.A./OU=Symantec Trust Network
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 42178929454360827701152766326347668869
-	AKI: A0:39:C4:5F:F0:DC:37:B4:A5:E1:BE:34:89:54:DC:E7:CC:6D:A3:3D
-	SKI: 51:5E:10:3B:56:17:BD:36:FB:7E:E9:69:F1:52:D1:A8:1C:72:BA:CF
-	Valid from: 2016-07-12T00:00:00+0000
-	     until: 2024-12-07T23:59:59+0000
-	Key usages: cert sign, crl sign
-	Extended usages: client auth, s/mime
-	Basic constraints: valid, is a CA certificate, max path length 1
-	SANs (0):
 CERTIFICATE
 Subject: /Abbott Laboratories Secure Server CA/C=US/O=Abbott Laboratories Inc.
 Issuer: /DigiCert Global Root CA/C=US/O=DigiCert Inc/OU=www.digicert.com
