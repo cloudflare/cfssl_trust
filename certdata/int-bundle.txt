@@ -3472,80 +3472,6 @@ Details:
 	OCSP server:
 		- http://www.gdca.com.cn/TrustAUTH/ocsp
 CERTIFICATE
-Subject: /Aetna Inc. Secure EV CA/C=US/O=Aetna Inc
-Issuer: /DigiCert High Assurance EV Root CA/C=US/O=DigiCert
-    Inc/OU=www.digicert.com
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 12529840259371932579259390361542516234
-	AKI: B1:3E:C3:69:03:F8:BF:47:01:D4:98:26:1A:08:02:EF:63:64:2B:C3
-	SKI: B6:C1:C5:D3:E7:2C:97:9C:96:9C:61:72:34:22:DF:43:A5:45:53:5D
-	Valid from: 2014-12-09T00:00:00+0000
-	     until: 2024-12-09T00:00:00+0000
-	Key usages: cert sign, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://cacerts.digicert.com/DigiCertHighAssuranceEVRootCA.crt
-	OCSP server:
-		- http://ocsp.digicert.com
-CERTIFICATE
-Subject: /Aetna Inc. Secure CA2/C=US/O=Aetna Inc
-Issuer: /DigiCert High Assurance EV Root CA/C=US/O=DigiCert
-    Inc/OU=www.digicert.com
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 16959533605233398414842387113711549653
-	AKI: B1:3E:C3:69:03:F8:BF:47:01:D4:98:26:1A:08:02:EF:63:64:2B:C3
-	SKI: B9:AB:44:7A:FC:DA:62:1B:09:1F:CF:3B:AF:10:4B:89:81:14:63:23
-	Valid from: 2014-12-09T12:00:00+0000
-	     until: 2024-12-09T12:00:00+0000
-	Key usages: cert sign, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://cacerts.digicert.com/DigiCertHighAssuranceEVRootCA.crt
-	OCSP server:
-		- http://ocsp.digicert.com
-CERTIFICATE
-Subject: /TERENA Personal CA 3 G3/C=NL/O=TERENA/L=Amsterdam/ST=Noord-Holland
-Issuer: /DigiCert Assured ID Root CA/C=US/O=DigiCert Inc/OU=www.digicert.com
-	Signature algorithm: RSA / SHA384
-Details:
-	Public key: ECDSA-secp384r1
-	Serial number: 7627864206628562049303325725725181169
-	AKI: 45:EB:A2:AF:F4:92:CB:82:31:2D:51:8B:A7:A7:21:9D:F3:6D:C8:0F
-	SKI: 24:EB:4C:D1:CE:F1:24:C6:05:A7:65:83:F2:45:D6:F9:94:AB:19:8B
-	Valid from: 2014-12-09T12:00:00+0000
-	     until: 2024-12-09T12:00:00+0000
-	Key usages: cert sign, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt
-	OCSP server:
-		- http://ocsp.digicert.com
-CERTIFICATE
-Subject: /TERENA SSL CA 3 G3/C=NL/O=TERENA/L=Amsterdam/ST=Noord-Holland
-Issuer: /DigiCert Assured ID Root CA/C=US/O=DigiCert Inc/OU=www.digicert.com
-	Signature algorithm: RSA / SHA384
-Details:
-	Public key: ECDSA-secp384r1
-	Serial number: 6875124983107273423925483010570824045
-	AKI: 45:EB:A2:AF:F4:92:CB:82:31:2D:51:8B:A7:A7:21:9D:F3:6D:C8:0F
-	SKI: 81:9A:46:54:BA:90:CE:94:0C:10:2A:0C:87:32:97:2C:2F:5D:80:51
-	Valid from: 2014-12-09T12:00:00+0000
-	     until: 2024-12-09T12:00:00+0000
-	Key usages: cert sign, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt
-	OCSP server:
-		- http://ocsp.digicert.com
-CERTIFICATE
 Subject: /C=TW/O=Chunghwa Telecom Co., Ltd./OU=Public Certification Authority
     - G2
 Issuer: /C=TW/O=Chunghwa Telecom Co., Ltd./OU=ePKI Root Certification
@@ -3606,39 +3532,6 @@ Details:
 	SANs (0):
 	OCSP server:
 		- http://ocsp.entrust.net
-CERTIFICATE
-Subject: /BT Class 2 CA - G3/C=GB/O=British Telecommunications plc/OU=Symantec
-    Trust Network
-Issuer: /VeriSign Class 2 Public Primary Certification Authority -
-    G3/C=US/O=VeriSign, Inc./OU=VeriSign Trust Network/OU=(c) 1999 VeriSign,
-    Inc. - For authorized use only
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 118346479749543234692324973938636213204
-	SKI: E8:7C:F3:AC:7F:E8:DD:64:04:87:BB:5B:65:BE:8F:90:FD:64:19:5B
-	Valid from: 2014-12-16T00:00:00+0000
-	     until: 2024-12-15T23:59:59+0000
-	Key usages: cert sign, crl sign
-	Extended usages: client auth, s/mime
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
-Subject: /SECOM Passport for Web EV 2.0 CA/C=JP/O=SECOM Trust Systems CO.,LTD.
-Issuer: /C=JP/O=SECOM Trust Systems CO.,LTD./OU=Security Communication RootCA2
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 582594761
-	AKI: 0A:85:A9:77:65:05:98:7C:40:81:F8:0F:97:2C:38:F1:0A:EC:3C:CF
-	SKI: 16:4B:FB:0C:97:38:8A:18:5A:54:A1:46:CF:89:24:47:CC:C4:76:B3
-	Valid from: 2014-12-16T07:04:09+0000
-	     until: 2024-12-16T07:04:09+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://scrootca2.ocsp.secomtrust.net
 CERTIFICATE
 Subject: /Camerfirma AAPP II - 2014/C=ES/O=AC Camerfirma
     S.A./OU=AC CAMERFIRMA/L=Madrid (see current address at
@@ -24397,26 +24290,6 @@ Details:
 	OCSP server:
 		- http://ocsp.digicert.com
 CERTIFICATE
-Subject: /Aetna Inc. Secure EV CA/C=US/O=Aetna Inc
-Issuer: /DigiCert High Assurance EV Root CA/C=US/O=DigiCert
-    Inc/OU=www.digicert.com
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 3823152686021724940418059250213995656
-	AKI: B1:3E:C3:69:03:F8:BF:47:01:D4:98:26:1A:08:02:EF:63:64:2B:C3
-	SKI: B6:C1:C5:D3:E7:2C:97:9C:96:9C:61:72:34:22:DF:43:A5:45:53:5D
-	Valid from: 2020-09-24T00:00:00+0000
-	     until: 2024-12-09T00:00:00+0000
-	Key usages: cert sign, crl sign, digital signature
-	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://cacerts.digicert.com/DigiCertHighAssuranceEVRootCA.crt
-	OCSP server:
-		- http://ocsp.digicert.com
-CERTIFICATE
 Subject: /Cisco Meraki CA2/C=US/O=Cisco Systems, Inc.
 Issuer: /DigiCert Global Root CA/C=US/O=DigiCert Inc/OU=www.digicert.com
 	Signature algorithm: RSA / SHA256
@@ -24452,26 +24325,6 @@ Details:
 	SANs (0):
 	1 AIA:
 		http://cacerts.digicert.com/BaltimoreCyberTrustRoot.crt
-	OCSP server:
-		- http://ocsp.digicert.com
-CERTIFICATE
-Subject: /Aetna Inc. Secure CA2/C=US/O=Aetna Inc
-Issuer: /DigiCert High Assurance EV Root CA/C=US/O=DigiCert
-    Inc/OU=www.digicert.com
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 19621527629954523935101600750952940123
-	AKI: B1:3E:C3:69:03:F8:BF:47:01:D4:98:26:1A:08:02:EF:63:64:2B:C3
-	SKI: B9:AB:44:7A:FC:DA:62:1B:09:1F:CF:3B:AF:10:4B:89:81:14:63:23
-	Valid from: 2020-09-24T00:00:00+0000
-	     until: 2024-12-09T12:00:00+0000
-	Key usages: cert sign, crl sign, digital signature
-	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://cacerts.digicert.com/DigiCertHighAssuranceEVRootCA.crt
 	OCSP server:
 		- http://ocsp.digicert.com
 CERTIFICATE
