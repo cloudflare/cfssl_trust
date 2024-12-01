@@ -19130,46 +19130,6 @@ Details:
 	OCSP server:
 		- http://ocsp.usertrust.com
 CERTIFICATE
-Subject: /vTrus DV SSL CA G1/C=CN/O=iTrusChina Co., Ltd.
-Issuer: /Certum Global Services CA SHA2/C=PL/O=Unizeto Technologies
-    S.A./OU=Certum Certification Authority
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 269856229523197515880030999870338829576
-	AKI: 54:99:DD:9B:FF:E8:A7:0E:A3:19:9D:5B:BE:42:57:DF:30:FC:8F:32
-	SKI: 62:74:1D:64:6D:80:94:D6:DA:C3:82:5F:A2:97:F6:30:7F:E5:C4:C9
-	Valid from: 2019-12-20T11:28:31+0000
-	     until: 2024-12-20T11:28:31+0000
-	Key usages: cert sign, crl sign
-	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://repository.certum.pl/gscasha2.cer
-	OCSP server:
-		- http://subca.ocsp-certum.com
-CERTIFICATE
-Subject: /vTrus OV SSL CA G1/C=CN/O=iTrusChina Co., Ltd.
-Issuer: /Certum Global Services CA SHA2/C=PL/O=Unizeto Technologies
-    S.A./OU=Certum Certification Authority
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 245873800706949391382342709205750746102
-	AKI: 54:99:DD:9B:FF:E8:A7:0E:A3:19:9D:5B:BE:42:57:DF:30:FC:8F:32
-	SKI: 6B:55:C9:82:20:73:E0:35:25:24:E1:48:57:54:B0:79:25:4B:79:A4
-	Valid from: 2019-12-20T11:29:10+0000
-	     until: 2024-12-20T11:29:10+0000
-	Key usages: cert sign, crl sign
-	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://repository.certum.pl/gscasha2.cer
-	OCSP server:
-		- http://subca.ocsp-certum.com
-CERTIFICATE
 Subject: /Global Trust CA - DV (RSA)/C=TW/O=Global Digital Inc.
 Issuer: /USERTrust RSA Certification Authority/C=US/O=The USERTRUST
     Network/L=Jersey City/ST=New Jersey
