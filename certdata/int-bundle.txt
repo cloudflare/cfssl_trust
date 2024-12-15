@@ -19533,40 +19533,6 @@ Details:
 	OCSP server:
 		- http://ocsp2.globalsign.com/rootr3
 CERTIFICATE
-Subject: /Cloudflare Inc RSA CA-2/C=US/O=Cloudflare, Inc.
-Issuer: /Baltimore CyberTrust Root/C=IE/O=Baltimore/OU=CyberTrust
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 3783117303769123487503245124914653447
-	AKI: E5:9D:59:30:82:47:58:CC:AC:FA:08:54:36:86:7B:3A:B5:04:4D:F0
-	SKI: 18:A9:1A:FC:B2:45:49:C1:6F:30:34:08:2B:D9:87:9C:B0:25:57:7A
-	Valid from: 2020-01-27T12:46:39+0000
-	     until: 2024-12-31T23:59:59+0000
-	Key usages: cert sign, crl sign, digital signature
-	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://ocsp.digicert.com
-CERTIFICATE
-Subject: /Cloudflare Inc ECC CA-3/C=US/O=Cloudflare, Inc.
-Issuer: /Baltimore CyberTrust Root/C=IE/O=Baltimore/OU=CyberTrust
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: ECDSA-prime256v1
-	Serial number: 13580602362388610137601344763287833660
-	AKI: E5:9D:59:30:82:47:58:CC:AC:FA:08:54:36:86:7B:3A:B5:04:4D:F0
-	SKI: A5:CE:37:EA:EB:B0:75:0E:94:67:88:B4:45:FA:D9:24:10:87:96:1F
-	Valid from: 2020-01-27T12:48:08+0000
-	     until: 2024-12-31T23:59:59+0000
-	Key usages: cert sign, crl sign, digital signature
-	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://ocsp.digicert.com
-CERTIFICATE
 Subject: /SRI International CA - G3/C=US/O=SRI International
 Issuer: /DigiCert Assured ID Root G2/C=US/O=DigiCert Inc/OU=www.digicert.com
 	Signature algorithm: RSA / SHA256
