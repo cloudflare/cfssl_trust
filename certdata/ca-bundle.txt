@@ -2142,20 +2142,6 @@ Details:
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
-Subject: /PostSignum Root QCA 2/C=CZ/O=Česká pošta, s.p. [IČ 47114983]
-Issuer: /PostSignum Root QCA 2/C=CZ/O=Česká pošta, s.p. [IČ 47114983]
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 100
-	AKI: 15:29:8C:C5:45:69:AB:B8:B3:C3:EA:FE:4B:B8:31:D8:DC:F0:E7:76
-	SKI: 15:29:8C:C5:45:69:AB:B8:B3:C3:EA:FE:4B:B8:31:D8:DC:F0:E7:76
-	Valid from: 2010-01-19T08:04:31+0000
-	     until: 2025-01-19T08:04:31+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 1
-	SANs (0):
-CERTIFICATE
 Subject: /AffirmTrust Commercial/C=US/O=AffirmTrust
 Issuer: /AffirmTrust Commercial/C=US/O=AffirmTrust
 	Signature algorithm: RSA / SHA256
