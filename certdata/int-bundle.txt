@@ -3593,28 +3593,6 @@ Details:
 	OCSP server:
 		- http://ocsp.accv.es
 CERTIFICATE
-Subject: /RU-CENTER High Assurance Services CA 2/C=RU/O=RU-Center (ЗАО
-    Региональный Сетевой Информационный
-    Центр)/L=Moscow/ST=Moscow
-Issuer: /USERTrust RSA Certification Authority/C=US/O=The USERTRUST
-    Network/L=Jersey City/ST=New Jersey
-	Signature algorithm: RSA / SHA384
-Details:
-	Public key: RSA-2048
-	Serial number: 15406540176900952074216105222480925475
-	AKI: 53:79:BF:5A:AA:2B:4A:CF:54:80:E1:D8:9B:C0:9D:F2:B2:03:66:CB
-	SKI: 5A:AC:C2:E1:9F:8E:44:14:9C:09:AA:A7:F6:BB:94:F7:E0:87:DF:45
-	Valid from: 2015-01-21T00:00:00+0000
-	     until: 2025-01-20T23:59:59+0000
-	Key usages: cert sign, crl sign, digital signature
-	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://crt.usertrust.com/USERTrustRSAAddTrustCA.crt
-	OCSP server:
-		- http://ocsp.usertrust.com
-CERTIFICATE
 Subject: /ACCVCA-120/C=ES/O=ACCV/OU=PKIACCV
 Issuer: /ACCVRAIZ1/C=ES/O=ACCV/OU=PKIACCV
 	Signature algorithm: RSA / SHA256
@@ -3630,25 +3608,6 @@ Details:
 	SANs (1): email:accv@accv.es
 	OCSP server:
 		- http://ocsp.accv.es
-CERTIFICATE
-Subject: /www.lh.pl/C=PL/O=LH.pl Sp. z o.o./OU=LH.pl
-Issuer: /Certum Global Services CA SHA2/C=PL/O=Unizeto Technologies
-    S.A./OU=Certum Certification Authority
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 13468007623559662253677767998506786099
-	AKI: 54:99:DD:9B:FF:E8:A7:0E:A3:19:9D:5B:BE:42:57:DF:30:FC:8F:32
-	SKI: 83:6B:0F:87:0F:3F:FF:90:35:1F:8D:13:3E:6F:D3:A5:EB:A6:0C:FC
-	Valid from: 2015-01-28T08:58:34+0000
-	     until: 2025-01-25T08:58:34+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://repository.certum.pl/gscasha2.cer
-	OCSP server:
-		- http://subca.ocsp-certum.com
 CERTIFICATE
 Subject: /Jax HR Saint Vincents HIE CA/C=US/O=Jax Health Records - SV
     HIE/OU=Orion Health Direct Secure Messaging
