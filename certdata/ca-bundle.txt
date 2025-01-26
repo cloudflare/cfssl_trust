@@ -651,24 +651,6 @@ Details:
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
-Subject: /Apple Root Certificate Authority/C=US/O=Apple Computer,
-    Inc./OU=Apple Computer Certificate Authority
-Issuer: /Apple Root Certificate Authority/C=US/O=Apple Computer, Inc./OU=Apple
-    Computer Certificate Authority
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 1
-	AKI: 2B:D0:69:47:94:76:09:FE:F4:6B:8D:2E:40:A6:F7:47:4D:7F:08:5E
-	SKI: 2B:D0:69:47:94:76:09:FE:F4:6B:8D:2E:40:A6:F7:47:4D:7F:08:5E
-	Valid from: 2005-02-10T00:18:14+0000
-	     until: 2025-02-10T00:18:14+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-	1 AIA:
-		https://www.apple.com/certificateauthority/casigners.html
-CERTIFICATE
 Subject: /Autoridad Certificadora Raiz de la Secretaria de
     Economia/C=MX/O=Secretaria de Economia/OU=Direccion General de
     Normatividad Mercantil/L=Alvaro Obregon/ST=Distrito Federal
