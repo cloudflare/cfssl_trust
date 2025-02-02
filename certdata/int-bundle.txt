@@ -3609,46 +3609,6 @@ Details:
 	OCSP server:
 		- http://ocsp.accv.es
 CERTIFICATE
-Subject: /Jax HR Saint Vincents HIE CA/C=US/O=Jax Health Records - SV
-    HIE/OU=Orion Health Direct Secure Messaging
-Issuer: /Orion Health Direct Secure Messaging CA/C=US/O=Orion Health
-    Inc./OU=Orion Health Direct Secure Messaging
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 15969852162245680210709097745690433436
-	AKI: A5:6E:22:FF:39:69:3A:23:FB:89:24:17:C6:60:94:00:1A:DA:8E:9E
-	SKI: 0E:7E:0E:62:F9:F8:B7:2F:4F:C6:F4:78:3E:AC:87:D2:17:90:CE:00
-	Valid from: 2015-02-16T12:00:00+0000
-	     until: 2025-02-16T12:00:00+0000
-	Key usages: cert sign, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://cacerts.digicert.com/aiaOrionHealthIssuingCAs.p7c
-	OCSP server:
-		- http://ocsp.digicert.com
-CERTIFICATE
-Subject: /Oklahoma State Department of Health CA/C=US/O=Oklahoma State
-    Department of Health/OU=Orion Health Direct Secure Messaging
-Issuer: /Orion Health Direct Secure Messaging CA/C=US/O=Orion Health
-    Inc./OU=Orion Health Direct Secure Messaging
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 5946369768001615736775361559429165076
-	AKI: A5:6E:22:FF:39:69:3A:23:FB:89:24:17:C6:60:94:00:1A:DA:8E:9E
-	SKI: 09:72:F7:65:7F:C6:6F:35:3F:B4:CF:13:82:38:95:BE:1D:80:A9:86
-	Valid from: 2015-02-16T12:00:00+0000
-	     until: 2025-02-16T12:00:00+0000
-	Key usages: cert sign, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://cacerts.digicert.com/aiaOrionHealthIssuingCAs.p7c
-	OCSP server:
-		- http://ocsp.digicert.com
-CERTIFICATE
 Subject: /FR03/C=FR/O=DHIMYOTIS/OU=0002 48146308100036
 Issuer: /Certigna Root CA/C=FR/O=Dhimyotis/OU=0002 48146308100036
 	Signature algorithm: RSA / SHA256
@@ -20036,26 +19996,6 @@ Details:
 		http://crt.usertrust.com/USERTrustRSAAddTrustCA.crt
 	OCSP server:
 		- http://ocsp.usertrust.com
-CERTIFICATE
-Subject: /UCA Global G2 Root/C=CN/O=UniTrust
-Issuer: /Certum Trusted Network CA/C=PL/O=Unizeto Technologies S.A./OU=Certum
-    Certification Authority
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-4096
-	Serial number: 248576911729935510111090212791581450174
-	AKI: 08:76:CD:CB:07:FF:24:F6:C5:CD:ED:BB:90:BC:E2:84:37:46:75:F7
-	SKI: 81:C4:8C:CC:F5:E4:30:FF:A5:0C:08:5F:8C:15:67:21:74:01:DF:DF
-	Valid from: 2020-02-21T09:15:50+0000
-	     until: 2025-02-21T09:15:50+0000
-	Key usages: cert sign, crl sign
-	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate, max path length 1
-	SANs (0):
-	1 AIA:
-		http://repository.certum.pl/ctnca.cer
-	OCSP server:
-		- http://subca.ocsp-certum.com
 CERTIFICATE
 Subject: /CrowdStrike Global EV CA/C=US/O=CrowdStrike, Inc.
 Issuer: /DigiCert High Assurance EV Root CA/C=US/O=DigiCert
