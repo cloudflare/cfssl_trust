@@ -3609,27 +3609,6 @@ Details:
 	1 AIA:
 		http://autorite.certigna.fr/certignarootca.crt
 CERTIFICATE
-Subject: /TrustAsia RSA Secure Client and Email CA/C=CN/O=TrustAsia
-    Technologies, Inc./ST=Shanghai
-Issuer: /USERTrust RSA Certification Authority/C=US/O=The USERTRUST
-    Network/L=Jersey City/ST=New Jersey
-	Signature algorithm: RSA / SHA384
-Details:
-	Public key: RSA-2048
-	Serial number: 299328338578164208352571809898573466279
-	AKI: 53:79:BF:5A:AA:2B:4A:CF:54:80:E1:D8:9B:C0:9D:F2:B2:03:66:CB
-	SKI: C8:98:05:5F:CB:E5:43:2D:D7:29:31:E3:78:E3:F5:36:B9:B9:AC:5B
-	Valid from: 2015-03-11T00:00:00+0000
-	     until: 2025-03-10T23:59:59+0000
-	Key usages: cert sign, crl sign, digital signature
-	Extended usages: client auth, s/mime
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://crt.usertrust.com/USERTrustRSAAddTrustCA.crt
-	OCSP server:
-		- http://ocsp.usertrust.com
-CERTIFICATE
 Subject: /SHECA Extended Validation SSL CA/C=CN/O=UniTrust
 Issuer: /UCA Extended Validation Root/C=CN/O=UniTrust
 	Signature algorithm: RSA / SHA256
