@@ -20888,23 +20888,6 @@ Details:
 	OCSP server:
 		- http://ocsp.usertrust.com
 CERTIFICATE
-Subject: /ZIPAIR-Public-CA/C=JP/O=ZIPAIR Tokyo, K.K.
-Issuer: /DigiCert Assured ID Root G2/C=US/O=DigiCert Inc/OU=www.digicert.com
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 19176088103371826035087922574370008925
-	AKI: CE:C3:4A:B9:99:55:F2:B8:DB:60:BF:A9:7E:BD:56:B5:97:36:A7:D6
-	SKI: CC:C9:6C:68:8D:8C:6B:81:B0:12:63:BD:05:25:15:D3:FF:DF:B1:F2
-	Valid from: 2020-03-25T12:03:26+0000
-	     until: 2025-03-25T12:03:26+0000
-	Key usages: cert sign, crl sign, digital signature
-	Extended usages: client auth, s/mime
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://ocsp.digicert.com
-CERTIFICATE
 Subject: /Thomson Reuters Special Services CA - G2/C=US/O=Thomson Reuters
     Special Services LLC
 Issuer: /DigiCert Assured ID Root G2/C=US/O=DigiCert Inc/OU=www.digicert.com
