@@ -644,22 +644,6 @@ Details:
 	OCSP server:
 		- http://rootocsp2009.e-szigno.hu
 CERTIFICATE
-Subject: /SwissSign Qualified Platinum CA 2010 - G2/C=CH/O=SwissSign AG
-Issuer: /SwissSign Platinum CA - G2/C=CH/O=SwissSign AG
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 888913183433941903900774700668947901
-	AKI: 50:AF:CC:07:87:15:47:6F:38:C5:B4:65:D1:DE:95:AA:E9:DF:9C:CC
-	SKI: 72:51:E0:AA:9D:FB:7E:38:44:EA:02:6F:40:C8:9F:CE:28:BF:1C:77
-	Valid from: 2010-04-06T14:03:34+0000
-	     until: 2025-04-02T14:03:34+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://swisssign.net/cgi-bin/authority/download/50AFCC078715476F38C5B465D1DE95AAE9DF9CCC
-CERTIFICATE
 Subject: /GlobalSign Timestamping CA - R3/O=GlobalSign/OU=Timestamping CA
 Issuer: /GlobalSign/O=GlobalSign/OU=GlobalSign Root CA - R3
 	Signature algorithm: RSA / SHA256

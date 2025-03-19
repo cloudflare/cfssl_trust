@@ -1347,19 +1347,6 @@ Details:
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
-Subject: /DigiNotar Root CA/C=NL/O=DigiNotar
-Issuer: /DigiNotar Root CA/C=NL/O=DigiNotar
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-4096
-	Serial number: 16567860948503251126030800461245922380
-	SKI: 88:68:BF:E0:8E:35:C4:3B:38:6B:62:F7:28:3B:84:81:C8:0C:D7:4D
-	Valid from: 2007-05-16T17:19:36+0000
-	     until: 2025-03-31T18:19:21+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
 Subject: /C=JP/O=SECOM Trust Systems CO.,LTD./OU=Security Communication EV
     RootCA1
 Issuer: /C=JP/O=SECOM Trust Systems CO.,LTD./OU=Security Communication EV
