@@ -25088,6 +25088,46 @@ Details:
 	1 AIA:
 		http://cert.ssl.com/SSL.com-TLS-T-RSA-R2.cer
 CERTIFICATE
+Subject: /SSL.com TLS RSA Root CA 2022/C=US/O=SSL Corporation
+Issuer: /SSL.com EV Root Certification Authority RSA R2/C=US/O=SSL
+    Corporation/L=Houston/ST=Texas
+	Signature algorithm: RSA / SHA256
+Details:
+	Public key: RSA-4096
+	Serial number: 67039791476391515341897457957017027838
+	AKI: F9:60:BB:D4:E3:D5:34:F6:B8:F5:06:80:25:A7:73:DB:46:69:A8:9E
+	SKI: FB:2E:37:EE:E3:84:7A:27:2E:CD:19:35:B1:33:7C:FF:D4:44:42:B9
+	Valid from: 2023-11-07T17:25:44+0000
+	     until: 2038-11-03T17:25:43+0000
+	Key usages: cert sign, crl sign, digital signature
+	Extended usages: client auth, server auth
+	Basic constraints: valid, is a CA certificate
+	SANs (0):
+	1 AIA:
+		http://cert.ssl.com/SSLcom-RootCA-EV-RSA-4096-R2.cer
+	OCSP server:
+		- http://ocsps.ssl.com
+CERTIFICATE
+Subject: /SSL.com TLS ECC Root CA 2022/C=US/O=SSL Corporation
+Issuer: /SSL.com EV Root Certification Authority ECC/C=US/O=SSL
+    Corporation/L=Houston/ST=Texas
+	Signature algorithm: ECDSA / SHA384
+Details:
+	Public key: ECDSA-secp384r1
+	Serial number: 78499417860755378313242233845787498908
+	AKI: 5B:CA:5E:E5:DE:D2:81:AA:CD:A8:2D:64:51:B6:D9:72:9B:97:E6:4F
+	SKI: 89:8F:2F:A3:E8:2B:A0:14:54:7B:F3:56:B8:26:5F:67:38:0B:9C:D0
+	Valid from: 2023-11-07T17:26:27+0000
+	     until: 2038-11-03T17:26:26+0000
+	Key usages: cert sign, crl sign, digital signature
+	Extended usages: client auth, server auth
+	Basic constraints: valid, is a CA certificate
+	SANs (0):
+	1 AIA:
+		http://cert.ssl.com/SSLcom-RootCA-EV-ECC-384-R1.cer
+	OCSP server:
+		- http://ocsps.ssl.com
+CERTIFICATE
 Subject: /GTS Root R4/C=US/O=Google Trust Services LLC
 Issuer: /GlobalSign Root CA/C=BE/O=GlobalSign nv-sa/OU=Root CA
 	Signature algorithm: RSA / SHA256
