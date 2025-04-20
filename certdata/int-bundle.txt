@@ -3679,34 +3679,6 @@ Details:
 	OCSP server:
 		- http://ocsp.accv.es
 CERTIFICATE
-Subject: /Atos TrustedRoot Issuing CA for Primetals 2015/C=DE/O=Atos
-Issuer: /Atos TrustedRoot 2011/C=DE/O=Atos
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 6894550082394024587
-	AKI: A7:A5:06:B1:2C:A6:09:60:EE:D1:97:E9:70:AE:BC:3B:19:6C:DB:21
-	SKI: AB:06:E9:7F:39:D7:48:27:AC:7A:15:5F:19:5A:19:63:80:C8:22:89
-	Valid from: 2015-05-07T13:45:04+0000
-	     until: 2025-05-04T13:45:04+0000
-	Key usages: cert sign, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
-Subject: /Atos TrustedRoot Issuing CA for WWE 2015/C=DE/O=Atos
-Issuer: /Atos TrustedRoot 2011/C=DE/O=Atos
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 7185026557894891100
-	AKI: A7:A5:06:B1:2C:A6:09:60:EE:D1:97:E9:70:AE:BC:3B:19:6C:DB:21
-	SKI: 35:29:81:9F:B8:A8:A1:A4:AA:A3:B8:B8:BE:D6:CE:44:71:84:E2:E1
-	Valid from: 2015-05-07T14:12:24+0000
-	     until: 2025-05-04T14:12:24+0000
-	Key usages: cert sign, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
 Subject: /Symantec Class 3 ECC 256 bit EV CA - G2/C=US/O=Symantec
     Corporation/OU=Symantec Trust Network
 Issuer: /VeriSign Class 3 Public Primary Certification Authority -
@@ -4503,38 +4475,6 @@ Details:
 	SANs (0):
 	OCSP server:
 		- http://ocsp.entrust.net
-CERTIFICATE
-Subject: /DigiCert Baltimore CA-1 G2/C=US/O=DigiCert Inc/OU=www.digicert.com
-Issuer: /Baltimore CyberTrust Root/C=IE/O=Baltimore/OU=CyberTrust
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 7778343115005206109878429214030092218
-	AKI: E5:9D:59:30:82:47:58:CC:AC:FA:08:54:36:86:7B:3A:B5:04:4D:F0
-	SKI: B6:F9:48:50:48:6F:F3:9F:EB:BE:53:BA:27:89:4E:75:9A:B4:BD:67
-	Valid from: 2015-10-14T12:00:00+0000
-	     until: 2025-05-10T12:00:00+0000
-	Key usages: cert sign, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://ocsp.digicert.com
-CERTIFICATE
-Subject: /DigiCert Baltimore EV CA/C=US/O=DigiCert Inc/OU=www.digicert.com
-Issuer: /Baltimore CyberTrust Root/C=IE/O=Baltimore/OU=CyberTrust
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 13026755296010417178521242961177920197
-	AKI: E5:9D:59:30:82:47:58:CC:AC:FA:08:54:36:86:7B:3A:B5:04:4D:F0
-	SKI: 16:00:70:98:E1:E8:45:67:C3:9B:AC:54:97:1B:CE:B1:2A:36:1E:79
-	Valid from: 2015-10-14T12:00:00+0000
-	     until: 2025-05-10T12:00:00+0000
-	Key usages: cert sign, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://ocsp.digicert.com
 CERTIFICATE
 Subject: /Amazon Root CA 1/C=US/O=Amazon
 Issuer: /Starfield Services Root Certificate Authority - G2/C=US/O=Starfield
@@ -5354,22 +5294,6 @@ Details:
 		- http://ocsp1.netlock.hu/gold.cgi
 		- http://ocsp2.netlock.hu/gold.cgi
 		- http://ocsp3.netlock.hu/gold.cgi
-CERTIFICATE
-Subject: /DigiCert Baltimore CA-2 G2/C=US/O=DigiCert Inc/OU=www.digicert.com
-Issuer: /Baltimore CyberTrust Root/C=IE/O=Baltimore/OU=CyberTrust
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 2009257382173415943270891635194444207
-	AKI: E5:9D:59:30:82:47:58:CC:AC:FA:08:54:36:86:7B:3A:B5:04:4D:F0
-	SKI: C0:12:B2:28:74:68:46:67:E9:70:25:74:1A:00:45:5B:06:7D:5C:44
-	Valid from: 2015-12-08T12:05:07+0000
-	     until: 2025-05-10T12:00:00+0000
-	Key usages: cert sign, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://ocsp.digicert.com
 CERTIFICATE
 Subject: /Allina Health Connect HIE Intermediate CA/C=US/O=Allina Health
     System/OU=Information Services
@@ -7134,22 +7058,6 @@ Details:
 	OCSP server:
 		- http://subca.ocsp-certum.com
 CERTIFICATE
-Subject: /Cybertrust Japan Public CA G3/C=JP/O=Cybertrust Japan Co., Ltd.
-Issuer: /Baltimore CyberTrust Root/C=IE/O=Baltimore/OU=CyberTrust
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 6995338472493336284910322803597041775
-	AKI: E5:9D:59:30:82:47:58:CC:AC:FA:08:54:36:86:7B:3A:B5:04:4D:F0
-	SKI: 73:A8:08:53:29:B8:15:FB:99:80:E5:C5:37:D8:F8:39:7B:A4:13:06
-	Valid from: 2016-11-15T12:03:31+0000
-	     until: 2025-05-10T12:00:00+0000
-	Key usages: cert sign, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://ocsp.digicert.com
-CERTIFICATE
 Subject: /D-TRUST Application Certificates CA 3-2 2016/C=DE/O=D-Trust GmbH
 Issuer: /D-TRUST Root CA 3 2013/C=DE/O=D-Trust GmbH
 	Signature algorithm: RSA / SHA256
@@ -7405,39 +7313,6 @@ Details:
 	SANs (0):
 	OCSP server:
 		- http://ocsp.affirmtrust.com
-CERTIFICATE
-Subject: /DigiCert High Assurance EV Root CA/C=US/O=DigiCert
-    Inc/OU=www.digicert.com
-Issuer: /Baltimore CyberTrust Root/C=IE/O=Baltimore/OU=CyberTrust
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 4957707019747209370596908002458047931
-	AKI: E5:9D:59:30:82:47:58:CC:AC:FA:08:54:36:86:7B:3A:B5:04:4D:F0
-	SKI: B1:3E:C3:69:03:F8:BF:47:01:D4:98:26:1A:08:02:EF:63:64:2B:C3
-	Valid from: 2016-12-07T12:16:32+0000
-	     until: 2025-05-10T12:00:00+0000
-	Key usages: cert sign, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate, max path length 1
-	SANs (0):
-	OCSP server:
-		- http://ocsp.digicert.com
-CERTIFICATE
-Subject: /DigiCert Global Root CA/C=US/O=DigiCert Inc/OU=www.digicert.com
-Issuer: /Baltimore CyberTrust Root/C=IE/O=Baltimore/OU=CyberTrust
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 20414886813272496981223468780973287348
-	AKI: E5:9D:59:30:82:47:58:CC:AC:FA:08:54:36:86:7B:3A:B5:04:4D:F0
-	SKI: 03:DE:50:35:56:D1:4C:BB:66:F0:A3:E2:1B:1B:C3:97:B2:3D:D1:55
-	Valid from: 2016-12-07T12:17:34+0000
-	     until: 2025-05-10T12:00:00+0000
-	Key usages: cert sign, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate, max path length 1
-	SANs (0):
-	OCSP server:
-		- http://ocsp.digicert.com
 CERTIFICATE
 Subject: /Cybertrust Japan Secure Server CA/C=JP/O=Cybertrust Japan Co., Ltd.
 Issuer: /DigiCert Global Root CA/C=US/O=DigiCert Inc/OU=www.digicert.com
@@ -8579,42 +8454,6 @@ Details:
 		http://public.wisekey.com/crt/owgrgc.crt
 	OCSP server:
 		- http://ocsp.wisekey.com
-CERTIFICATE
-Subject: /Trust Technologies Global CA/C=IT/O=Telecom Italia Trust
-    Technologies S.r.l./OU=Digital Identity and Security
-Issuer: /Baltimore CyberTrust Root/C=IE/O=Baltimore/OU=CyberTrust
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 7907055539374650560334364698666644239
-	AKI: E5:9D:59:30:82:47:58:CC:AC:FA:08:54:36:86:7B:3A:B5:04:4D:F0
-	SKI: C6:07:09:12:A5:36:86:3F:77:59:A1:68:57:10:AA:D8:63:D6:87:C4
-	Valid from: 2017-08-24T12:41:07+0000
-	     until: 2025-05-10T12:00:00+0000
-	Key usages: cert sign, crl sign, digital signature
-	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://ocsp.digicert.com
-CERTIFICATE
-Subject: /Trust Technologies Global Client CA/C=IT/O=Telecom Italia Trust
-    Technologies S.r.l./OU=Digital Identity and Security
-Issuer: /Baltimore CyberTrust Root/C=IE/O=Baltimore/OU=CyberTrust
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 1809208283321898669821198929424351426
-	AKI: E5:9D:59:30:82:47:58:CC:AC:FA:08:54:36:86:7B:3A:B5:04:4D:F0
-	SKI: DC:DF:A3:BE:0D:64:1E:33:2E:12:A4:80:BB:6B:02:BD:E5:3D:06:86
-	Valid from: 2017-08-24T12:42:06+0000
-	     until: 2025-05-10T12:00:00+0000
-	Key usages: cert sign, crl sign, digital signature
-	Extended usages: client auth, s/mime
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://ocsp.digicert.com
 CERTIFICATE
 Subject: /Cybertrust Japan ECC EV CA/C=JP/O=Cybertrust Japan Co., Ltd.
 Issuer: /DigiCert Global Root G3/C=US/O=DigiCert Inc/OU=www.digicert.com
@@ -13321,91 +13160,6 @@ Details:
 		http://crt.usertrust.com/USERTrustECCAddTrustCA.crt
 	OCSP server:
 		- http://ocsp.usertrust.com
-CERTIFICATE
-Subject: /Apple Public Client RSA CA 2 - G1/C=US/O=Apple Inc.
-Issuer: /Baltimore CyberTrust Root/C=IE/O=Baltimore/OU=CyberTrust
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 17686701978486916965940442269368528828
-	AKI: E5:9D:59:30:82:47:58:CC:AC:FA:08:54:36:86:7B:3A:B5:04:4D:F0
-	SKI: 01:9C:76:49:C5:EE:1A:77:A4:8A:53:A0:CC:03:AA:27:BE:2C:48:C7
-	Valid from: 2018-12-12T12:00:00+0000
-	     until: 2025-05-07T12:00:00+0000
-	Key usages: cert sign, crl sign, digital signature
-	Extended usages: client auth, s/mime
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://ocsp.digicert.com
-CERTIFICATE
-Subject: /Apple IST CA 8 - G1/C=US/O=Apple Inc./OU=Certification Authority
-Issuer: /Baltimore CyberTrust Root/C=IE/O=Baltimore/OU=CyberTrust
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: ECDSA-prime256v1
-	Serial number: 13670455340762890388728203980962011364
-	AKI: E5:9D:59:30:82:47:58:CC:AC:FA:08:54:36:86:7B:3A:B5:04:4D:F0
-	SKI: C3:C4:A4:58:05:63:D7:83:06:BA:96:8D:DC:B2:8F:32:F6:BB:B7:41
-	Valid from: 2018-12-12T12:00:00+0000
-	     until: 2025-05-07T12:00:00+0000
-	Key usages: cert sign, crl sign, digital signature
-	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://ocsp.digicert.com
-CERTIFICATE
-Subject: /Apple IST CA 2 - G1/C=US/O=Apple Inc./OU=Certification Authority
-Issuer: /Baltimore CyberTrust Root/C=IE/O=Baltimore/OU=CyberTrust
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 7075963535261096232181710089555514015
-	AKI: E5:9D:59:30:82:47:58:CC:AC:FA:08:54:36:86:7B:3A:B5:04:4D:F0
-	SKI: D8:7A:94:44:7C:90:70:90:16:9E:DD:17:9C:01:44:03:86:D6:2A:29
-	Valid from: 2018-12-12T12:00:00+0000
-	     until: 2025-05-07T12:00:00+0000
-	Key usages: cert sign, crl sign, digital signature
-	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://ocsp.digicert.com
-CERTIFICATE
-Subject: /Apple Public Server ECC CA 2 - G1/C=US/O=Apple Inc.
-Issuer: /Baltimore CyberTrust Root/C=IE/O=Baltimore/OU=CyberTrust
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: ECDSA-prime256v1
-	Serial number: 7553713446582648036865838623122854164
-	AKI: E5:9D:59:30:82:47:58:CC:AC:FA:08:54:36:86:7B:3A:B5:04:4D:F0
-	SKI: B5:64:6F:BC:17:9F:C9:50:65:D8:F5:3F:84:E9:95:09:7A:7C:5F:66
-	Valid from: 2018-12-12T12:00:00+0000
-	     until: 2025-05-07T12:00:00+0000
-	Key usages: cert sign, crl sign, digital signature
-	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://ocsp.digicert.com
-CERTIFICATE
-Subject: /Apple Public Server RSA CA 2 - G1/C=US/O=Apple Inc.
-Issuer: /Baltimore CyberTrust Root/C=IE/O=Baltimore/OU=CyberTrust
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 15252918338384169571910439896136454012
-	AKI: E5:9D:59:30:82:47:58:CC:AC:FA:08:54:36:86:7B:3A:B5:04:4D:F0
-	SKI: 90:61:F3:A3:D7:06:CE:F5:17:B6:57:0E:D9:8C:A7:95:4B:16:32:89
-	Valid from: 2018-12-12T12:00:00+0000
-	     until: 2025-05-07T12:00:00+0000
-	Key usages: cert sign, crl sign, digital signature
-	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://ocsp.digicert.com
 CERTIFICATE
 Subject: /AC Firmaprofesional - CUALIFICADOS/C=ES/O=Firmaprofesional
     S.A./OU=Certificados Cualificados

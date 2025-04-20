@@ -651,22 +651,6 @@ Details:
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
-Subject: /Autoridad Certificadora Raiz de la Secretaria de
-    Economia/C=MX/O=Secretaria de Economia/OU=Direccion General de
-    Normatividad Mercantil/L=Alvaro Obregon/ST=Distrito Federal
-Issuer: /Autoridad Certificadora Raiz de la Secretaria de
-    Economia/C=MX/O=Secretaria de Economia/OU=Direccion General de
-    Normatividad Mercantil/L=Alvaro Obregon/ST=Distrito Federal
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 1
-	Valid from: 2005-05-08T00:00:00+0000
-	     until: 2025-05-08T00:00:00+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
 Subject: /Autoridad de Certificacion de la Abogacia/C=ES/O=Consejo General de
     la Abogacia NIF:Q-2863006I
 Issuer: /Autoridad de Certificacion de la Abogacia/C=ES/O=Consejo General de
