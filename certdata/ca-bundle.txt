@@ -242,19 +242,6 @@ Details:
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
-Subject: /Baltimore CyberTrust Root/C=IE/O=Baltimore/OU=CyberTrust
-Issuer: /Baltimore CyberTrust Root/C=IE/O=Baltimore/OU=CyberTrust
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 33554617
-	SKI: E5:9D:59:30:82:47:58:CC:AC:FA:08:54:36:86:7B:3A:B5:04:4D:F0
-	Valid from: 2000-05-12T18:46:00+0000
-	     until: 2025-05-12T23:59:00+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 3
-	SANs (0):
-CERTIFICATE
 Subject: /SwissSign CA (RSA IK May 6 1999 18:00:58)/C=CH/O=SwissSign
 Issuer: /SwissSign CA (RSA IK May 6 1999 18:00:58)/C=CH/O=SwissSign
 	Signature algorithm: RSA / SHA1
