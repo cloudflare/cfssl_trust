@@ -3679,25 +3679,6 @@ Details:
 	OCSP server:
 		- http://ocsp.accv.es
 CERTIFICATE
-Subject: /Symantec Class 3 ECC 256 bit EV CA - G2/C=US/O=Symantec
-    Corporation/OU=Symantec Trust Network
-Issuer: /VeriSign Class 3 Public Primary Certification Authority -
-    G5/C=US/O=VeriSign, Inc./OU=VeriSign Trust Network/OU=(c) 2006 VeriSign,
-    Inc. - For authorized use only
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: ECDSA-prime256v1
-	Serial number: 150380531644660663365185435806309329501
-	AKI: 7F:D3:65:A7:C2:DD:EC:BB:F0:30:09:F3:43:39:FA:02:AF:33:31:33
-	SKI: 72:72:36:C6:A7:31:9E:87:89:C7:32:7D:EC:3A:F5:A2:64:3F:78:7A
-	Valid from: 2015-05-12T00:00:00+0000
-	     until: 2025-05-11T23:59:59+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://s.symcd.com
-CERTIFICATE
 Subject: /Actalis Extended Validation Server CA G1/C=IT/O=Actalis
     S.p.A./03358520967/L=Milano/ST=Milano
 Issuer: /Actalis Authentication Root CA/C=IT/O=Actalis
@@ -3733,49 +3714,6 @@ Details:
 	SANs (0):
 	OCSP server:
 		- http://ocsp05.actalis.it/VA/AUTH-ROOT
-CERTIFICATE
-Subject: /TUBITAK Kamu SM SSL Sertifika Hizmet Saglayicisi - Surum
-    1/C=TR/O=Turkiye Bilimsel ve Teknolojik Arastirma Kurumu - TUBITAK/OU=Kamu
-    Sertifikasyon Merkezi - Kamu SM/L=Gebze - Kocaeli
-Issuer: /TUBITAK Kamu SM SSL Kok Sertifikasi - Surum 1/C=TR/O=Turkiye Bilimsel
-    ve Teknolojik Arastirma Kurumu - TUBITAK/OU=Kamu Sertifikasyon Merkezi -
-    Kamu SM/L=Gebze - Kocaeli
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 41
-	AKI: 65:3F:C7:8A:86:C6:3C:DD:3C:54:5C:35:F8:3A:ED:52:0C:47:57:C8
-	SKI: F6:35:35:17:AE:2E:FB:B7:7D:F7:76:17:8A:65:64:EB:67:7A:40:AB
-	Valid from: 2015-05-14T13:32:27+0000
-	     until: 2025-05-11T13:32:27+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://depo.kamusm.gov.tr/ssl/SSLKOKSM.S1.cer
-	OCSP server:
-		- http://ocspsslkoks1.kamusm.gov.tr
-CERTIFICATE
-Subject: /cPanel, Inc. Certification Authority/C=US/O=cPanel,
-    Inc./L=Houston/ST=TX
-Issuer: /COMODO RSA Certification Authority/C=GB/O=COMODO CA
-    Limited/L=Salford/ST=Greater Manchester
-	Signature algorithm: RSA / SHA384
-Details:
-	Public key: RSA-2048
-	Serial number: 319166835672517606797004084363566457944
-	AKI: BB:AF:7E:02:3D:FA:A6:F1:3C:84:8E:AD:EE:38:98:EC:D9:32:32:D4
-	SKI: 7E:03:5A:65:41:6B:A7:7E:0A:E1:B8:9D:08:EA:1D:8E:1D:6A:C7:65
-	Valid from: 2015-05-18T00:00:00+0000
-	     until: 2025-05-17T23:59:59+0000
-	Key usages: cert sign, crl sign, digital signature
-	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://crt.comodoca.com/COMODORSAAddTrustCA.crt
-	OCSP server:
-		- http://ocsp.comodoca.com
 CERTIFICATE
 Subject: /Sonavation IoT CA/C=US/O=Sonavation, Inc./OU=sonavation.com
 Issuer: /DigiCert Assured ID Root CA/C=US/O=DigiCert Inc/OU=www.digicert.com
@@ -23277,25 +23215,6 @@ Details:
 	OCSP server:
 		- http://ocsp.digicert.com
 CERTIFICATE
-Subject: /DigiCert Baltimore TLS RSA SHA256 2020 CA1/C=US/O=DigiCert Inc
-Issuer: /Baltimore CyberTrust Root/C=IE/O=Baltimore/OU=CyberTrust
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 13967229389238126287638511701440740160
-	AKI: E5:9D:59:30:82:47:58:CC:AC:FA:08:54:36:86:7B:3A:B5:04:4D:F0
-	SKI: F2:56:9B:07:86:07:99:53:7E:12:2C:F8:7D:2F:E6:D5:26:D8:93:54
-	Valid from: 2020-09-24T00:00:00+0000
-	     until: 2025-05-11T23:59:59+0000
-	Key usages: cert sign, crl sign, digital signature
-	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://cacerts.digicert.com/BaltimoreCyberTrustRoot.crt
-	OCSP server:
-		- http://ocsp.digicert.com
-CERTIFICATE
 Subject: /DigiCert Global G2 TLS RSA SHA256 2020 CA1/C=US/O=DigiCert Inc
 Issuer: /DigiCert Global Root G2/C=US/O=DigiCert Inc/OU=www.digicert.com
 	Signature algorithm: RSA / SHA256
@@ -23369,25 +23288,6 @@ Details:
 	SANs (0):
 	1 AIA:
 		http://cacerts.digicert.com/DigiCertGlobalRootCA.crt
-	OCSP server:
-		- http://ocsp.digicert.com
-CERTIFICATE
-Subject: /DigiCert Baltimore SMIME RSA SHA256 2020 CA1/C=US/O=DigiCert Inc
-Issuer: /Baltimore CyberTrust Root/C=IE/O=Baltimore/OU=CyberTrust
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 14844962113691221641906024777616382421
-	AKI: E5:9D:59:30:82:47:58:CC:AC:FA:08:54:36:86:7B:3A:B5:04:4D:F0
-	SKI: 83:9A:55:DD:42:07:1D:3B:04:F2:C2:48:4A:65:9E:E3:FE:2C:22:B5
-	Valid from: 2020-09-24T00:00:00+0000
-	     until: 2025-05-11T23:59:59+0000
-	Key usages: cert sign, crl sign, digital signature
-	Extended usages: client auth, s/mime
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://cacerts.digicert.com/BaltimoreCyberTrustRoot.crt
 	OCSP server:
 		- http://ocsp.digicert.com
 CERTIFICATE
