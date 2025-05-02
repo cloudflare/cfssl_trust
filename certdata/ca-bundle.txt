@@ -4987,6 +4987,32 @@ Details:
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
+Subject: /Sectigo Public Server Authentication Root E46/C=GB/O=Sectigo Limited
+Issuer: /Sectigo Public Server Authentication Root E46/C=GB/O=Sectigo Limited
+	Signature algorithm: ECDSA / SHA384
+Details:
+	Public key: ECDSA-secp384r1
+	Serial number: 88989738453351742415770396670917916916
+	SKI: D1:22:DA:4C:59:F1:4B:5F:26:38:AA:9D:D6:EE:EB:0D:C3:FB:A9:61
+	Valid from: 2021-03-22T00:00:00+0000
+	     until: 2046-03-21T23:59:59+0000
+	Key usages: cert sign, crl sign, digital signature
+	Basic constraints: valid, is a CA certificate
+	SANs (0):
+CERTIFICATE
+Subject: /Sectigo Public Server Authentication Root R46/C=GB/O=Sectigo Limited
+Issuer: /Sectigo Public Server Authentication Root R46/C=GB/O=Sectigo Limited
+	Signature algorithm: RSA / SHA384
+Details:
+	Public key: RSA-4096
+	Serial number: 156256931880233212765902055439220583700
+	SKI: 56:73:58:64:95:F9:92:1A:B0:12:2A:04:62:79:A1:40:15:88:21:49
+	Valid from: 2021-03-22T00:00:00+0000
+	     until: 2046-03-21T23:59:59+0000
+	Key usages: cert sign, crl sign, digital signature
+	Basic constraints: valid, is a CA certificate
+	SANs (0):
+CERTIFICATE
 Subject: /SSL.com TLS ECC Root CA 2022/C=US/O=SSL Corporation
 Issuer: /SSL.com TLS ECC Root CA 2022/C=US/O=SSL Corporation
 	Signature algorithm: ECDSA / SHA384
