@@ -3715,62 +3715,6 @@ Details:
 	OCSP server:
 		- http://ocsp05.actalis.it/VA/AUTH-ROOT
 CERTIFICATE
-Subject: /Sonavation IoT CA/C=US/O=Sonavation, Inc./OU=sonavation.com
-Issuer: /DigiCert Assured ID Root CA/C=US/O=DigiCert Inc/OU=www.digicert.com
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 15891829346020072667530510194186640188
-	AKI: 45:EB:A2:AF:F4:92:CB:82:31:2D:51:8B:A7:A7:21:9D:F3:6D:C8:0F
-	SKI: 3A:33:60:29:61:42:96:4D:C2:0C:41:4C:96:46:8F:C3:4A:AE:58:D0
-	Valid from: 2015-05-19T12:00:00+0000
-	     until: 2025-05-19T12:00:00+0000
-	Key usages: cert sign, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt
-	OCSP server:
-		- http://ocsp.digicert.com
-CERTIFICATE
-Subject: /Plex Devices High Assurance CA2/C=US/O=Plex, Inc.
-Issuer: /DigiCert High Assurance EV Root CA/C=US/O=DigiCert
-    Inc/OU=www.digicert.com
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 18128748337783537140105524458052821818
-	AKI: B1:3E:C3:69:03:F8:BF:47:01:D4:98:26:1A:08:02:EF:63:64:2B:C3
-	SKI: 94:8B:89:F7:48:72:89:F2:51:4A:D9:88:7B:E5:61:B5:AA:9C:D5:01
-	Valid from: 2015-05-19T12:00:00+0000
-	     until: 2025-05-19T12:00:00+0000
-	Key usages: cert sign, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://cacerts.digicert.com/DigiCertHighAssuranceEVRootCA.crt
-	OCSP server:
-		- http://ocsp.digicert.com
-CERTIFICATE
-Subject: /LAWtrust2048 CA2/C=ZA/O=LAWtrust
-Issuer: /Entrust Root Certification Authority - G2/C=US/O=Entrust, Inc./OU=See
-    www.entrust.net/legal-terms/OU=(c) 2009 Entrust, Inc. - for authorized use
-    only
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 30094058403518122825989976464
-	AKI: 6A:72:26:7A:D0:1E:EF:7D:E7:3B:69:51:D4:6C:8D:9F:90:12:66:AB
-	SKI: 73:DC:15:6D:AB:44:E6:A2:7E:EA:E9:F6:F0:BC:C8:F0:36:16:BB:4B
-	Valid from: 2015-05-20T15:37:57+0000
-	     until: 2025-05-20T16:07:57+0000
-	Key usages: cert sign, crl sign, digital signature
-	Extended usages: client auth, s/mime
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://ocsp.entrust.net
-CERTIFICATE
 Subject: /Amazon Root CA 1/C=US/O=Amazon
 Issuer: /Starfield Services Root Certificate Authority - G2/C=US/O=Starfield
     Technologies, Inc./L=Scottsdale/ST=Arizona
@@ -11257,27 +11201,6 @@ Details:
 		http://repo.harica.gr/certs/HaricaRootCA2015.crt
 	OCSP server:
 		- http://ocsp.harica.gr
-CERTIFICATE
-Subject: /MULTICERT SSL Certification Authority 001/C=PT/O=MULTICERT -
-    Serviços de Certificação Electrónica S.A./OU=Certification Authority
-Issuer: /Global Chambersign Root - 2008/C=EU/O=AC Camerfirma S.A./L=Madrid
-    (see current address at www.camerfirma.com/address)
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-4096
-	Serial number: 118421146543951246
-	AKI: B9:09:CA:9C:1E:DB:D3:6C:3A:6B:AE:ED:54:F1:5B:93:06:35:2E:5E
-	SKI: B0:02:39:52:0A:4F:73:9A:C8:D9:81:45:36:5D:11:9D:5F:23:39:97
-	Valid from: 2018-07-03T12:01:18+0000
-	     until: 2025-05-20T12:01:18+0000
-	Key usages: cert sign, crl sign
-	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://www.camerfirma.com/certs/root_chambersign-2008.crt
-	OCSP server:
-		- http://ocsp.camerfirma.com
 CERTIFICATE
 Subject: /CA de Certificados SSL EV/C=ES/O=IZENPE S.A./OU=BZ Ziurtagiri
     publikoa - Certificado publico EV
@@ -20853,69 +20776,6 @@ Details:
 	OCSP server:
 		- http://ocsp.digicert.com
 CERTIFICATE
-Subject: /XinChaCha Trust SSL Domain Validated/C=CN/O=Beijing Xinchacha Credit
-    Management Co., Ltd.
-Issuer: /Certum Global Services CA SHA2/C=PL/O=Unizeto Technologies
-    S.A./OU=Certum Certification Authority
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 114984953065545483583631457349538893898
-	AKI: 54:99:DD:9B:FF:E8:A7:0E:A3:19:9D:5B:BE:42:57:DF:30:FC:8F:32
-	SKI: 78:6C:05:C3:6F:01:AD:5C:D7:D2:CE:8A:97:0F:72:E9:06:F2:55:4D
-	Valid from: 2020-05-18T11:26:21+0000
-	     until: 2025-05-18T11:26:21+0000
-	Key usages: cert sign, crl sign
-	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://repository.certum.pl/gscasha2.cer
-	OCSP server:
-		- http://subca.ocsp-certum.com
-CERTIFICATE
-Subject: /XinChaCha Trust SSL Extended Validated/C=CN/O=Beijing Xinchacha
-    Credit Management Co., Ltd.
-Issuer: /Certum Global Services CA SHA2/C=PL/O=Unizeto Technologies
-    S.A./OU=Certum Certification Authority
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 88717220792595362313500112280283909803
-	AKI: 54:99:DD:9B:FF:E8:A7:0E:A3:19:9D:5B:BE:42:57:DF:30:FC:8F:32
-	SKI: 1E:A4:B2:FD:18:06:AE:3F:3F:CF:FC:8E:38:1B:67:09:74:DC:7D:01
-	Valid from: 2020-05-18T11:27:33+0000
-	     until: 2025-05-18T11:27:33+0000
-	Key usages: cert sign, crl sign
-	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://repository.certum.pl/gscasha2.cer
-	OCSP server:
-		- http://subca.ocsp-certum.com
-CERTIFICATE
-Subject: /XinChaCha Trust SSL Organization Validated/C=CN/O=Beijing Xinchacha
-    Credit Management Co., Ltd.
-Issuer: /Certum Global Services CA SHA2/C=PL/O=Unizeto Technologies
-    S.A./OU=Certum Certification Authority
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 13319683684481309292027544963801352684
-	AKI: 54:99:DD:9B:FF:E8:A7:0E:A3:19:9D:5B:BE:42:57:DF:30:FC:8F:32
-	SKI: 20:32:83:BF:97:54:79:11:75:8C:FF:A4:67:30:55:0F:40:E7:D3:C4
-	Valid from: 2020-05-18T11:28:05+0000
-	     until: 2025-05-18T11:28:05+0000
-	Key usages: cert sign, crl sign
-	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://repository.certum.pl/gscasha2.cer
-	OCSP server:
-		- http://subca.ocsp-certum.com
-CERTIFICATE
 Subject: /CrowdStrike OV SSL Issuing CA 2020/C=US/O=CrowdStrike Inc.
 Issuer: /Trusted Root CA SHA256 G2/C=BE/O=GlobalSign nv-sa/OU=Trusted Root
 	Signature algorithm: RSA / SHA256
@@ -23288,26 +23148,6 @@ Details:
 	SANs (0):
 	1 AIA:
 		http://cacerts.digicert.com/DigiCertGlobalRootCA.crt
-	OCSP server:
-		- http://ocsp.digicert.com
-CERTIFICATE
-Subject: /Plex Devices High Assurance CA3/C=US/O=Plex, Inc.
-Issuer: /DigiCert High Assurance EV Root CA/C=US/O=DigiCert
-    Inc/OU=www.digicert.com
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 8143011971917168768219355324802373288
-	AKI: B1:3E:C3:69:03:F8:BF:47:01:D4:98:26:1A:08:02:EF:63:64:2B:C3
-	SKI: F0:3F:AD:A1:8D:7B:75:D4:1E:B8:F5:86:62:FF:55:68:BD:E1:8D:5E
-	Valid from: 2020-09-24T00:00:00+0000
-	     until: 2025-05-19T23:59:59+0000
-	Key usages: cert sign, crl sign, digital signature
-	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://cacerts.digicert.com/DigiCertHighAssuranceEVRootCA.crt
 	OCSP server:
 		- http://ocsp.digicert.com
 CERTIFICATE
