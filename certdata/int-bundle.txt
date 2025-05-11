@@ -3791,25 +3791,6 @@ Details:
 	OCSP server:
 		- http://ocsp.rootg2.amazontrust.com
 CERTIFICATE
-Subject: /AAMC Direct Intermediate CA/C=US/O=Anne Arundel Medical
-    Center/OU=AAMC Direct Messaging
-Issuer: /DigiCert Federated Trust CA/C=US/O=DigiCert Inc/OU=www.digicert.com
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 15168481391373240525350642857052435873
-	AKI: 46:08:38:5A:A9:8E:20:BB:0C:AF:5E:31:BA:89:B3:28:BF:AC:8C:36
-	SKI: 4B:32:2E:A7:FD:95:67:26:D5:9C:D8:AE:25:0C:0C:04:28:4D:71:AD
-	Valid from: 2015-05-28T12:00:00+0000
-	     until: 2025-05-28T12:00:00+0000
-	Key usages: cert sign, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://cacerts.digicert.com/aiaAAMCDirectIntermediateCA.p7c
-	OCSP server:
-		- http://ocsp.digicert.com
-CERTIFICATE
 Subject: /certSIGN CA Class 2 G2/C=RO/O=certSIGN/OU=certSIGN CA Class 2 G2
 Issuer: /C=RO/O=certSIGN/OU=certSIGN ROOT CA
 	Signature algorithm: RSA / SHA256
