@@ -4,7 +4,7 @@ Subject: /C=US/O=VeriSign, Inc./OU=Class 3 Public Primary Certification
     Authority
 Issuer: /C=US/O=VeriSign, Inc./OU=Class 3 Public Primary Certification
     Authority
-	Signature algorithm: unknown public key algorithm / unknown hash algorithm
+	Signature algorithm: RSA / MD2
 Details:
 	Public key: RSA-1024
 	Serial number: 149843929435818692848040365716851702463
@@ -18,7 +18,7 @@ Subject: /C=US/O=VeriSign, Inc./OU=Class 1 Public Primary Certification
     Authority
 Issuer: /C=US/O=VeriSign, Inc./OU=Class 1 Public Primary Certification
     Authority
-	Signature algorithm: unknown public key algorithm / unknown hash algorithm
+	Signature algorithm: RSA / MD2
 Details:
 	Public key: RSA-1024
 	Serial number: 273460089105783944861631223625220794965
@@ -46,7 +46,7 @@ Subject: /C=US/O=VeriSign, Inc./OU=Class 2 Public Primary Certification
     Authority
 Issuer: /C=US/O=VeriSign, Inc./OU=Class 2 Public Primary Certification
     Authority
-	Signature algorithm: unknown public key algorithm / unknown hash algorithm
+	Signature algorithm: RSA / MD2
 Details:
 	Public key: RSA-1024
 	Serial number: 59960568862895187107119492226041101835
@@ -4984,6 +4984,32 @@ Details:
 	Valid from: 2020-09-04T00:00:00+0000
 	     until: 2040-09-17T16:00:00+0000
 	Key usages: cert sign, crl sign
+	Basic constraints: valid, is a CA certificate
+	SANs (0):
+CERTIFICATE
+Subject: /DigiCert TLS ECC P384 Root G5/C=US/O=DigiCert, Inc.
+Issuer: /DigiCert TLS ECC P384 Root G5/C=US/O=DigiCert, Inc.
+	Signature algorithm: ECDSA / SHA384
+Details:
+	Public key: ECDSA-secp384r1
+	Serial number: 13129116028163249804115411775095713523
+	SKI: C1:51:45:50:59:AB:3E:E7:2C:5A:FA:20:22:12:07:80:88:7C:11:6A
+	Valid from: 2021-01-15T00:00:00+0000
+	     until: 2046-01-14T23:59:59+0000
+	Key usages: cert sign, crl sign, digital signature
+	Basic constraints: valid, is a CA certificate
+	SANs (0):
+CERTIFICATE
+Subject: /DigiCert TLS RSA4096 Root G5/C=US/O=DigiCert, Inc.
+Issuer: /DigiCert TLS RSA4096 Root G5/C=US/O=DigiCert, Inc.
+	Signature algorithm: RSA / SHA384
+Details:
+	Public key: RSA-4096
+	Serial number: 11930366277458970227240571539258396554
+	SKI: 51:33:1C:ED:36:40:AF:17:D3:25:CD:69:68:F2:AF:4E:23:3E:B3:41
+	Valid from: 2021-01-15T00:00:00+0000
+	     until: 2046-01-14T23:59:59+0000
+	Key usages: cert sign, crl sign, digital signature
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
