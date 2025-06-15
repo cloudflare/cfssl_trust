@@ -733,22 +733,6 @@ Details:
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
-Subject: /SwissSign Personal Platinum CA 2010 - G2/C=CH/O=SwissSign AG
-Issuer: /SwissSign Platinum CA - G2/C=CH/O=SwissSign AG
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 863224707751840589006145159236834541
-	AKI: 50:AF:CC:07:87:15:47:6F:38:C5:B4:65:D1:DE:95:AA:E9:DF:9C:CC
-	SKI: 4A:D4:3B:86:EF:10:53:8E:AF:E4:4C:77:59:47:82:FD:00:11:76:88
-	Valid from: 2010-07-05T12:13:35+0000
-	     until: 2025-07-01T12:13:35+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://swisssign.net/cgi-bin/authority/download/50AFCC078715476F38C5B465D1DE95AAE9DF9CCC
-CERTIFICATE
 Subject: /Herritar eta Erakundeen CA - CA de Ciudadanos y Entidades
     (4)/C=ES/O=IZENPE S.A./OU=NZZ Ziurtagiri publikoa - Certificado publico
     SCI
@@ -3650,43 +3634,6 @@ Details:
 		http://crt.rootg2.amazontrust.com/rootg2.cer
 	OCSP server:
 		- http://ocsp.rootg2.amazontrust.com
-CERTIFICATE
-Subject: /GeoTrust DV SSL SHA256 CA - G2/C=US/O=GeoTrust Inc./OU=Domain
-    Validated SSL
-Issuer: /GeoTrust Primary Certification Authority - G3/C=US/O=GeoTrust
-    Inc./OU=(c) 2008 GeoTrust Inc. - For authorized use only
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 22804125888350606985751078458660925954
-	AKI: C4:79:CA:8E:A1:4E:03:1D:1C:DC:6B:DB:31:5B:94:3E:3F:30:7F:2D
-	SKI: 8B:C3:FA:BC:D9:A8:43:1E:91:FC:08:4F:9A:CD:34:CB:9F:DF:FF:A4
-	Valid from: 2015-06-30T00:00:00+0000
-	     until: 2025-06-29T23:59:59+0000
-	Key usages: cert sign, crl sign
-	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://g.symcd.com
-CERTIFICATE
-Subject: /RapidSSL SHA256 CA - G4/C=US/O=GeoTrust Inc.
-Issuer: /GeoTrust Primary Certification Authority - G3/C=US/O=GeoTrust
-    Inc./OU=(c) 2008 GeoTrust Inc. - For authorized use only
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 53317286113497941736127902649270972083
-	AKI: C4:79:CA:8E:A1:4E:03:1D:1C:DC:6B:DB:31:5B:94:3E:3F:30:7F:2D
-	SKI: F3:B5:56:0C:C4:09:B0:B4:CF:1F:AA:F9:DD:23:56:F0:77:E8:A1:F9
-	Valid from: 2015-06-30T00:00:00+0000
-	     until: 2025-06-29T23:59:59+0000
-	Key usages: cert sign, crl sign
-	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://g.symcd.com
 CERTIFICATE
 Subject: /AC Representación/C=ES/O=FNMT-RCM/OU=CERES
 Issuer: /C=ES/O=FNMT-RCM/OU=AC RAIZ FNMT-RCM

@@ -671,21 +671,6 @@ Details:
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
 CERTIFICATE
-Subject: /Visa Information Delivery Root CA/C=US/O=VISA/OU=Visa International
-    Service Association
-Issuer: /Visa Information Delivery Root CA/C=US/O=VISA/OU=Visa International
-    Service Association
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 121415851495250424066466305397098862306
-	SKI: 4F:8A:DA:76:FF:67:77:23:9A:A6:80:7D:7D:DB:88:75:85:F7:81:7A
-	Valid from: 2005-06-27T17:42:42+0000
-	     until: 2025-06-29T17:42:42+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
 Subject: /Certipost E-Trust TOP Root CA/C=BE/O=Certipost s.a./n.v.
 Issuer: /Certipost E-Trust TOP Root CA/C=BE/O=Certipost s.a./n.v.
 	Signature algorithm: RSA / SHA1
