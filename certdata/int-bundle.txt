@@ -3653,23 +3653,6 @@ Details:
 	OCSP server:
 		- http://ocspfnmtrcmca.cert.fnmt.es/ocspfnmtrcmca/OcspResponder
 CERTIFICATE
-Subject: /GlobalSign CloudSSL CA - SHA256 - G3/C=BE/O=GlobalSign nv-sa
-Issuer: /GlobalSign Root CA/C=BE/O=GlobalSign nv-sa/OU=Root CA
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 1435559231276039379187787810018607
-	AKI: 60:7B:66:1A:45:0D:97:CA:89:50:2F:7D:04:CD:34:A8:FF:FC:FD:4B
-	SKI: A9:2B:87:E1:CE:24:47:3B:1B:BF:CF:85:37:02:55:9D:0D:94:58:E6
-	Valid from: 2015-07-09T00:00:00+0000
-	     until: 2025-07-09T00:00:00+0000
-	Key usages: cert sign, crl sign
-	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://ocsp.globalsign.com/rootr1
-CERTIFICATE
 Subject: /BlackCert, Inc. RSA Client Certification Authority/C=US/O=BlackCert,
     Inc./L=Denver/ST=CO
 Issuer: /USERTrust RSA Certification Authority/C=US/O=The USERTRUST
