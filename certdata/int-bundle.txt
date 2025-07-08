@@ -3653,27 +3653,6 @@ Details:
 	OCSP server:
 		- http://ocspfnmtrcmca.cert.fnmt.es/ocspfnmtrcmca/OcspResponder
 CERTIFICATE
-Subject: /BlackCert, Inc. RSA Client Certification Authority/C=US/O=BlackCert,
-    Inc./L=Denver/ST=CO
-Issuer: /USERTrust RSA Certification Authority/C=US/O=The USERTRUST
-    Network/L=Jersey City/ST=New Jersey
-	Signature algorithm: RSA / SHA384
-Details:
-	Public key: RSA-2048
-	Serial number: 149581395785420404814452296002015155524
-	AKI: 53:79:BF:5A:AA:2B:4A:CF:54:80:E1:D8:9B:C0:9D:F2:B2:03:66:CB
-	SKI: DF:06:0F:63:FB:54:5E:46:CD:45:FE:E3:8C:BB:44:46:0A:74:59:43
-	Valid from: 2015-07-17T00:00:00+0000
-	     until: 2025-07-16T23:59:59+0000
-	Key usages: cert sign, crl sign, digital signature
-	Extended usages: client auth, s/mime
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://crt.usertrust.com/USERTrustRSAAddTrustCA.crt
-	OCSP server:
-		- http://ocsp.usertrust.com
-CERTIFICATE
 Subject: /Ensured Root CA/C=NL/O=Ensured B.V./L=Heerhugowaard/ST=Noord-Holland
 Issuer: /Ensured Root CA/C=NL/O=Ensured B.V./L=Heerhugowaard/ST=Noord-Holland
 	Signature algorithm: RSA / SHA384

@@ -671,19 +671,6 @@ Details:
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
 CERTIFICATE
-Subject: /Certipost E-Trust TOP Root CA/C=BE/O=Certipost s.a./n.v.
-Issuer: /Certipost E-Trust TOP Root CA/C=BE/O=Certipost s.a./n.v.
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 4835703278459639067623829
-	SKI: 4B:DE:BE:05:31:2E:F3:35:C8:D8:CA:A7:56:C5:94:0D:B4:5A:65:C5
-	Valid from: 2005-07-26T10:00:00+0000
-	     until: 2025-07-26T10:00:00+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
 Subject: /Swisscom Root CA 1/C=ch/O=Swisscom/OU=Digital Certificate Services
 Issuer: /Swisscom Root CA 1/C=ch/O=Swisscom/OU=Digital Certificate Services
 	Signature algorithm: RSA / SHA1
