@@ -24819,3 +24819,60 @@ Details:
 	SANs (0):
 	OCSP server:
 		- http://ocsp.comodoca.com
+CERTIFICATE
+Subject: /Entrust OV TLS Issuing RSA CA 2/C=CA/O=Entrust Limited
+Issuer: /Sectigo Public Server Authentication Root R46/C=GB/O=Sectigo Limited
+	Signature algorithm: RSA / SHA384
+Details:
+	Public key: RSA-3072
+	Serial number: 172838154427687735430042424616462326861
+	AKI: 56:73:58:64:95:F9:92:1A:B0:12:2A:04:62:79:A1:40:15:88:21:49
+	SKI: 17:D1:AF:00:74:F9:55:FB:52:37:D8:84:76:0B:5B:12:8A:50:5A:C5
+	Valid from: 2024-12-11T00:00:00+0000
+	     until: 2027-12-10T23:59:59+0000
+	Key usages: cert sign, crl sign, digital signature
+	Extended usages: client auth, server auth
+	Basic constraints: valid, is a CA certificate, max path length 0
+	SANs (0):
+	1 AIA:
+		http://crt.sectigo.com/SectigoPublicServerAuthenticationRootR46.p7c
+	OCSP server:
+		- http://ocsp.sectigo.com
+CERTIFICATE
+Subject: /Entrust DV TLS Issuing RSA CA 2/C=CA/O=Entrust Limited
+Issuer: /Sectigo Public Server Authentication Root R46/C=GB/O=Sectigo Limited
+	Signature algorithm: RSA / SHA384
+Details:
+	Public key: RSA-3072
+	Serial number: 14403217535373145338590986297320592700
+	AKI: 56:73:58:64:95:F9:92:1A:B0:12:2A:04:62:79:A1:40:15:88:21:49
+	SKI: 8D:42:49:37:40:B9:47:95:80:98:BE:A9:B9:3A:6B:F0:CD:96:A1:83
+	Valid from: 2024-12-11T00:00:00+0000
+	     until: 2027-12-10T23:59:59+0000
+	Key usages: cert sign, crl sign, digital signature
+	Extended usages: client auth, server auth
+	Basic constraints: valid, is a CA certificate, max path length 0
+	SANs (0):
+	1 AIA:
+		http://crt.sectigo.com/SectigoPublicServerAuthenticationRootR46.p7c
+	OCSP server:
+		- http://ocsp.sectigo.com
+CERTIFICATE
+Subject: /Entrust EV TLS Issuing RSA CA 2/C=CA/O=Entrust Limited
+Issuer: /Sectigo Public Server Authentication Root R46/C=GB/O=Sectigo Limited
+	Signature algorithm: RSA / SHA384
+Details:
+	Public key: RSA-3072
+	Serial number: 254151669218637103585409482530369551934
+	AKI: 56:73:58:64:95:F9:92:1A:B0:12:2A:04:62:79:A1:40:15:88:21:49
+	SKI: C1:B1:A1:FD:27:35:8E:C8:71:02:9E:7A:93:06:39:64:66:E6:6A:9D
+	Valid from: 2024-12-11T00:00:00+0000
+	     until: 2027-12-10T23:59:59+0000
+	Key usages: cert sign, crl sign, digital signature
+	Extended usages: client auth, server auth
+	Basic constraints: valid, is a CA certificate, max path length 0
+	SANs (0):
+	1 AIA:
+		http://crt.sectigo.com/SectigoPublicServerAuthenticationRootR46.p7c
+	OCSP server:
+		- http://ocsp.sectigo.com
