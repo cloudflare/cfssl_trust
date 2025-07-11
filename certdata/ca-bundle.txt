@@ -4,7 +4,7 @@ Subject: /C=US/O=VeriSign, Inc./OU=Class 3 Public Primary Certification
     Authority
 Issuer: /C=US/O=VeriSign, Inc./OU=Class 3 Public Primary Certification
     Authority
-	Signature algorithm: unknown public key algorithm / unknown hash algorithm
+	Signature algorithm: RSA / MD2
 Details:
 	Public key: RSA-1024
 	Serial number: 149843929435818692848040365716851702463
@@ -18,7 +18,7 @@ Subject: /C=US/O=VeriSign, Inc./OU=Class 1 Public Primary Certification
     Authority
 Issuer: /C=US/O=VeriSign, Inc./OU=Class 1 Public Primary Certification
     Authority
-	Signature algorithm: unknown public key algorithm / unknown hash algorithm
+	Signature algorithm: RSA / MD2
 Details:
 	Public key: RSA-1024
 	Serial number: 273460089105783944861631223625220794965
@@ -46,7 +46,7 @@ Subject: /C=US/O=VeriSign, Inc./OU=Class 2 Public Primary Certification
     Authority
 Issuer: /C=US/O=VeriSign, Inc./OU=Class 2 Public Primary Certification
     Authority
-	Signature algorithm: unknown public key algorithm / unknown hash algorithm
+	Signature algorithm: RSA / MD2
 Details:
 	Public key: RSA-1024
 	Serial number: 59960568862895187107119492226041101835
@@ -5011,6 +5011,24 @@ Details:
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
+Subject: /Sectigo Public Server Authentication Root R46/C=GB/O=Sectigo Limited
+Issuer: /USERTrust RSA Certification Authority/C=US/O=The USERTRUST
+    Network/L=Jersey City/ST=New Jersey
+	Signature algorithm: RSA / SHA384
+Details:
+	Public key: RSA-4096
+	Serial number: 279801108986267997430958846641392622020
+	AKI: 53:79:BF:5A:AA:2B:4A:CF:54:80:E1:D8:9B:C0:9D:F2:B2:03:66:CB
+	SKI: 56:73:58:64:95:F9:92:1A:B0:12:2A:04:62:79:A1:40:15:88:21:49
+	Valid from: 2021-03-22T00:00:00+0000
+	     until: 2038-01-18T23:59:59+0000
+	Key usages: cert sign, crl sign, digital signature
+	Extended usages: client auth, server auth
+	Basic constraints: valid, is a CA certificate
+	SANs (0):
+	OCSP server:
+		- http://ocsp.usertrust.com
+CERTIFICATE
 Subject: /SSL.com TLS ECC Root CA 2022/C=US/O=SSL Corporation
 Issuer: /SSL.com TLS ECC Root CA 2022/C=US/O=SSL Corporation
 	Signature algorithm: ECDSA / SHA384
@@ -5035,19 +5053,6 @@ Details:
 	SKI: FB:2E:37:EE:E3:84:7A:27:2E:CD:19:35:B1:33:7C:FF:D4:44:42:B9
 	Valid from: 2022-08-25T16:34:22+0000
 	     until: 2046-08-19T16:34:21+0000
-	Key usages: cert sign, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
-Subject: /Sectigo Public Server Authentication Root R46/C=GB/O=Sectigo Limited
-Issuer: /Sectigo Public Server Authentication Root R46/C=GB/O=Sectigo Limited
-	Signature algorithm: RSA / SHA384
-Details:
-	Public key: RSA-4096
-	Serial number: 156256931880233212765902055439220583700
-	SKI: 56:73:58:64:95:F9:92:1A:B0:12:2A:04:62:79:A1:40:15:88:21:49
-	Valid from: 2021-03-22T00:00:00+0000
-	     until: 2046-03-21T23:59:59+0000
 	Key usages: cert sign, crl sign, digital signature
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
