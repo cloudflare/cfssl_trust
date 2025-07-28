@@ -3682,38 +3682,6 @@ Details:
 	OCSP server:
 		- http://ocsp.digicert.com
 CERTIFICATE
-Subject: /SECOM Passport for Member PUB CA5/C=JP/O=SECOM Trust Systems
-    CO.,LTD./OU=SECOM Passport for Member 2.0 PUB
-Issuer: /C=JP/O=SECOM Trust Systems CO.,LTD./OU=Security Communication RootCA2
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 640569741292333782980
-	AKI: 0A:85:A9:77:65:05:98:7C:40:81:F8:0F:97:2C:38:F1:0A:EC:3C:CF
-	SKI: 89:39:41:64:91:E9:46:A4:16:59:07:F2:2B:AF:52:7F:7D:4B:DA:92
-	Valid from: 2015-08-12T04:48:29+0000
-	     until: 2025-08-12T04:48:29+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://scrootca2.ocsp.secomtrust.net
-CERTIFICATE
-Subject: /CertiSur Class 2 CA - G3/O=CertiSur S.A./OU=Symantec Trust Network
-Issuer: /VeriSign Class 2 Public Primary Certification Authority -
-    G3/C=US/O=VeriSign, Inc./OU=VeriSign Trust Network/OU=(c) 1999 VeriSign,
-    Inc. - For authorized use only
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 3664114130748528749194313935010737663
-	SKI: E6:01:E1:4B:37:76:D6:A2:0E:76:F3:9D:72:CC:96:F7:CB:1D:A8:CE
-	Valid from: 2015-08-18T00:00:00+0000
-	     until: 2025-08-17T23:59:59+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
 Subject: /GlobalSign CloudSSL CA - SHA256 - G3/C=BE/O=GlobalSign nv-sa
 Issuer: /GlobalSign Root CA/C=BE/O=GlobalSign nv-sa/OU=Root CA
 	Signature algorithm: RSA / SHA256
