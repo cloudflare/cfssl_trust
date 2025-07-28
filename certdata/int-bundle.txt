@@ -3699,47 +3699,6 @@ Details:
 	OCSP server:
 		- http://scrootca2.ocsp.secomtrust.net
 CERTIFICATE
-Subject: /Trustwave Secure Global Extended Validation CA, Level
-    1/C=US/O=Trustwave Holdings, Inc./L=Chicago/ST=Illinois
-Issuer: /Secure Global CA/C=US/O=SecureTrust Corporation
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 328267978012345001083588541062929633520
-	AKI: AF:44:04:C2:41:7E:48:83:DB:4E:39:02:EC:EC:84:7A:E6:CE:C9:A4
-	SKI: C7:7D:EA:5D:19:AB:54:D4:FA:3F:E6:4A:73:DE:7A:B2:3C:1D:6C:2E
-	Valid from: 2015-08-12T20:17:29+0000
-	     until: 2025-08-09T20:17:29+0000
-	Key usages: cert sign, crl sign, digital signature
-	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://ssl.trustwave.com/issuers/SGCA.crt
-	OCSP server:
-		- http://ocsp.trustwave.com
-CERTIFICATE
-Subject: /Trustwave XRamp Global Extended Validation CA, Level
-    1/C=US/O=Trustwave Holdings, Inc./L=Chicago/ST=Illinois
-Issuer: /XRamp Global Certification Authority/C=US/O=XRamp Security Services
-    Inc/OU=www.xrampsecurity.com
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 281573588827361652370864010853525208364
-	AKI: C6:4F:A2:3D:06:63:84:09:9C:CE:62:E4:04:AC:8D:5C:B5:E9:B6:1B
-	SKI: C5:CE:B9:3B:42:45:C0:CD:09:E5:68:E8:48:3A:83:5D:6C:8E:AB:18
-	Valid from: 2015-08-12T20:17:31+0000
-	     until: 2025-08-09T20:17:31+0000
-	Key usages: cert sign, crl sign, digital signature
-	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://ssl.trustwave.com/issuers/XGCA.crt
-	OCSP server:
-		- http://ocsp.trustwave.com
-CERTIFICATE
 Subject: /CertiSur Class 2 CA - G3/O=CertiSur S.A./OU=Symantec Trust Network
 Issuer: /VeriSign Class 2 Public Primary Certification Authority -
     G3/C=US/O=VeriSign, Inc./OU=VeriSign Trust Network/OU=(c) 1999 VeriSign,
