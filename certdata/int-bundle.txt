@@ -3682,23 +3682,6 @@ Details:
 	OCSP server:
 		- http://ocsp.digicert.com
 CERTIFICATE
-Subject: /GlobalSign CloudSSL CA - SHA256 - G3/C=BE/O=GlobalSign nv-sa
-Issuer: /GlobalSign Root CA/C=BE/O=GlobalSign nv-sa/OU=Root CA
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 1438827024893517455116777811697460
-	AKI: 60:7B:66:1A:45:0D:97:CA:89:50:2F:7D:04:CD:34:A8:FF:FC:FD:4B
-	SKI: A9:2B:87:E1:CE:24:47:3B:1B:BF:CF:85:37:02:55:9D:0D:94:58:E6
-	Valid from: 2015-08-19T00:00:00+0000
-	     until: 2025-08-19T00:00:00+0000
-	Key usages: cert sign, crl sign
-	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://ocsp.globalsign.com/rootr1
-CERTIFICATE
 Subject: /Care360 Direct Intermediate CA/C=US/O=Quest Diagnostics
     Care360/OU=Care360 Direct Messaging
 Issuer: /DigiCert Federated Trust CA/C=US/O=DigiCert Inc/OU=www.digicert.com
@@ -6361,23 +6344,6 @@ Details:
 	SANs (0):
 	OCSP server:
 		- http://ocsp05.actalis.it/VA/AUTH-ROOT
-CERTIFICATE
-Subject: /GlobalSign CloudSSL CA - SHA256 - G3/C=BE/O=GlobalSign nv-sa
-Issuer: /GlobalSign/O=GlobalSign/OU=GlobalSign Root CA - R3
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 1476377652285114636243083462915621
-	AKI: 8F:F0:4B:7F:A8:2E:45:24:AE:4D:50:FA:63:9A:8B:DE:E2:DD:1B:BC
-	SKI: A9:2B:87:E1:CE:24:47:3B:1B:BF:CF:85:37:02:55:9D:0D:94:58:E6
-	Valid from: 2016-10-14T00:00:00+0000
-	     until: 2025-08-19T00:00:00+0000
-	Key usages: cert sign, crl sign
-	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://ocsp2.globalsign.com/rootr3
 CERTIFICATE
 Subject: /Ensured Document Signing CA/C=NL/O=Ensured
     B.V./L=Heerhugowaard/ST=Noord-Holland

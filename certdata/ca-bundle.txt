@@ -671,20 +671,6 @@ Details:
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
 CERTIFICATE
-Subject: /Swisscom Root CA 1/C=ch/O=Swisscom/OU=Digital Certificate Services
-Issuer: /Swisscom Root CA 1/C=ch/O=Swisscom/OU=Digital Certificate Services
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-4096
-	Serial number: 122348795730808398873664200247279986742
-	AKI: 03:25:2F:DE:6F:82:01:3A:5C:2C:DC:2B:A1:69:B5:67:D4:8C:D3:FD
-	SKI: 03:25:2F:DE:6F:82:01:3A:5C:2C:DC:2B:A1:69:B5:67:D4:8C:D3:FD
-	Valid from: 2005-08-18T12:06:20+0000
-	     until: 2025-08-18T22:06:20+0000
-	Key usages: cert sign, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate, max path length 7
-	SANs (0):
-CERTIFICATE
 Subject: /KISA RootCA 1/C=KR/O=KISA/OU=Korea Certification Authority Central
 Issuer: /KISA RootCA 1/C=KR/O=KISA/OU=Korea Certification Authority Central
 	Signature algorithm: RSA / SHA1
