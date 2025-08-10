@@ -671,19 +671,6 @@ Details:
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
 CERTIFICATE
-Subject: /KISA RootCA 1/C=KR/O=KISA/OU=Korea Certification Authority Central
-Issuer: /KISA RootCA 1/C=KR/O=KISA/OU=Korea Certification Authority Central
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 4
-	SKI: BF:B6:27:D8:03:5A:76:65:4C:61:01:41:56:31:E5:8B:7B:3A:D9:CC
-	Valid from: 2005-08-24T08:05:46+0000
-	     until: 2025-08-24T08:05:46+0000
-	Key usages: 
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
 Subject: /Echoworx Root CA2/C=CA/O=Echoworx Corporation/OU=Certification
     Services/L=Toronto/ST=Ontario
 Issuer: /Echoworx Root CA2/C=CA/O=Echoworx Corporation/OU=Certification
