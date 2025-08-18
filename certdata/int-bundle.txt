@@ -3682,80 +3682,6 @@ Details:
 	OCSP server:
 		- http://ocsp.digicert.com
 CERTIFICATE
-Subject: /Care360 Direct Intermediate CA/C=US/O=Quest Diagnostics
-    Care360/OU=Care360 Direct Messaging
-Issuer: /DigiCert Federated Trust CA/C=US/O=DigiCert Inc/OU=www.digicert.com
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 18700041124039476198255164019348132057
-	AKI: 46:08:38:5A:A9:8E:20:BB:0C:AF:5E:31:BA:89:B3:28:BF:AC:8C:36
-	SKI: 56:90:1A:6B:F9:F4:42:9A:64:A6:07:2F:15:24:EE:8C:28:0E:2A:63
-	Valid from: 2015-08-25T12:00:00+0000
-	     until: 2025-08-25T12:00:00+0000
-	Key usages: cert sign, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://cacerts.digicert.com/aiaCare360DirectIntermediateCA.p7c
-	OCSP server:
-		- http://ocsp.digicert.com
-CERTIFICATE
-Subject: /Google CA1/C=US/O=Google, Inc./L=Mountain View/ST=CA
-Issuer: /DigiCert Assured ID Root CA/C=US/O=DigiCert Inc/OU=www.digicert.com
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 15707864547634624399031729441762860588
-	AKI: 45:EB:A2:AF:F4:92:CB:82:31:2D:51:8B:A7:A7:21:9D:F3:6D:C8:0F
-	SKI: 15:7F:EF:BD:89:EE:BC:AE:1A:19:89:C5:2A:DE:76:16:CC:26:C6:6E
-	Valid from: 2015-08-25T12:00:00+0000
-	     until: 2025-08-25T12:00:00+0000
-	Key usages: cert sign, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt
-	OCSP server:
-		- http://ocsp.digicert.com
-CERTIFICATE
-Subject: /Data Management Intermediate Certificate Authority/C=US/O=Fresenius
-    Kabi AG/OU=Fresenius Kabi USA
-Issuer: /DigiCert Assured ID Root CA/C=US/O=DigiCert Inc/OU=www.digicert.com
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 19333297106921570230466422307331826112
-	AKI: 45:EB:A2:AF:F4:92:CB:82:31:2D:51:8B:A7:A7:21:9D:F3:6D:C8:0F
-	SKI: D7:DF:92:9A:0E:4A:B8:B7:B9:70:09:BD:76:67:32:77:57:C9:2F:1F
-	Valid from: 2015-08-25T12:00:00+0000
-	     until: 2025-08-25T12:00:00+0000
-	Key usages: cert sign, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt
-	OCSP server:
-		- http://ocsp.digicert.com
-CERTIFICATE
-Subject: /Booz Allen Hamilton BA CA 01/C=US/O=IdenTrust/OU=TrustID
-Issuer: /IdenTrust Commercial Root CA 1/C=US/O=IdenTrust
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 167539670641822701624615479468876032624
-	AKI: ED:44:19:C0:D3:F0:06:8B:EE:A4:7B:BE:42:E7:26:54:C8:8E:36:76
-	SKI: 8C:3D:54:09:C4:80:0A:A1:4B:27:89:B2:39:D8:1C:F3:D7:CA:15:95
-	Valid from: 2015-08-28T16:16:19+0000
-	     until: 2025-08-28T16:16:19+0000
-	Key usages: cert sign, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://validation.identrust.com/roots/commercialrootca1.p7c
-	OCSP server:
-		- http://commercial.ocsp.identrust.com
-CERTIFICATE
 Subject: /InterContinental Hotels Group RSA Client CA/C=US/O=Six Continents
     Hotels, Inc./L=Dunwoody/ST=GA
 Issuer: /COMODO RSA Certification Authority/C=GB/O=COMODO CA
@@ -3776,20 +3702,6 @@ Details:
 		http://crt.comodoca.com/COMODORSAAddTrustCA.crt
 	OCSP server:
 		- http://ocsp.comodoca.com
-CERTIFICATE
-Subject: /Atos TrustedRoot Client Issuing CA 2015/C=DE/O=Atos
-Issuer: /Atos TrustedRoot 2011/C=DE/O=Atos
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 8389317207983247744
-	AKI: A7:A5:06:B1:2C:A6:09:60:EE:D1:97:E9:70:AE:BC:3B:19:6C:DB:21
-	SKI: D8:CD:70:DB:06:22:07:FC:B9:13:6B:79:39:EF:3D:DD:5C:75:D7:FC
-	Valid from: 2015-09-02T07:53:37+0000
-	     until: 2025-08-30T07:53:37+0000
-	Key usages: cert sign, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
 CERTIFICATE
 Subject: /GlobalSign Domain Validation CA - SHA256 - G3/C=BE/O=GlobalSign
     nv-sa
@@ -23333,25 +23245,6 @@ Details:
 	SANs (0):
 	OCSP server:
 		- http://ocsp.securetrust.com/
-CERTIFICATE
-Subject: /Data Management Intermediate CA2/C=US/O=Fresenius Kabi AG
-Issuer: /DigiCert Assured ID Root CA/C=US/O=DigiCert Inc/OU=www.digicert.com
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 11080678570535353315623737611417375470
-	AKI: 45:EB:A2:AF:F4:92:CB:82:31:2D:51:8B:A7:A7:21:9D:F3:6D:C8:0F
-	SKI: 76:E8:44:A7:0B:35:4C:BD:D1:24:0C:BC:4A:DB:F6:31:6C:EC:72:34
-	Valid from: 2020-10-09T00:00:00+0000
-	     until: 2025-08-25T12:00:00+0000
-	Key usages: cert sign, crl sign, digital signature
-	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt
-	OCSP server:
-		- http://ocsp.digicert.com
 CERTIFICATE
 Subject: /DigiCert Secure Auth CA2/C=US/O=DigiCert Inc
 Issuer: /DigiCert Assured ID Root CA/C=US/O=DigiCert Inc/OU=www.digicert.com
