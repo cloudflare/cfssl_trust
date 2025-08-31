@@ -22188,23 +22188,6 @@ Details:
 	OCSP server:
 		- http://ocsp.quovadisglobal.com
 CERTIFICATE
-Subject: /E1/C=US/O=Let's Encrypt
-Issuer: /ISRG Root X2/C=US/O=Internet Security Research Group
-	Signature algorithm: ECDSA / SHA384
-Details:
-	Public key: ECDSA-secp384r1
-	Serial number: 238917698029532949600116015593252145733
-	AKI: 7C:42:96:AE:DE:4B:48:3B:FA:92:F8:9E:8C:CF:6D:8B:A9:72:37:95
-	SKI: 5A:F3:ED:2B:FC:36:C2:37:79:B9:52:30:EA:54:6F:CF:55:CB:2E:AC
-	Valid from: 2020-09-04T00:00:00+0000
-	     until: 2025-09-15T16:00:00+0000
-	Key usages: cert sign, crl sign, digital signature
-	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://x2.i.lencr.org/
-CERTIFICATE
 Subject: /ISRG Root X2/C=US/O=Internet Security Research Group
 Issuer: /ISRG Root X2/C=US/O=Internet Security Research Group
 	Signature algorithm: ECDSA / SHA384
@@ -22217,73 +22200,6 @@ Details:
 	Key usages: cert sign, crl sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
-CERTIFICATE
-Subject: /ISRG Root X2/C=US/O=Internet Security Research Group
-Issuer: /ISRG Root X1/C=US/O=Internet Security Research Group
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: ECDSA-secp384r1
-	Serial number: 10126462700708491348274246233644721251
-	AKI: 79:B4:59:E6:7B:B6:E5:E4:01:73:80:08:88:C8:1A:58:F6:E9:9B:6E
-	SKI: 7C:42:96:AE:DE:4B:48:3B:FA:92:F8:9E:8C:CF:6D:8B:A9:72:37:95
-	Valid from: 2020-09-04T00:00:00+0000
-	     until: 2025-09-15T16:00:00+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-	1 AIA:
-		http://x1.i.lencr.org/
-CERTIFICATE
-Subject: /E2/C=US/O=Let's Encrypt
-Issuer: /ISRG Root X2/C=US/O=Internet Security Research Group
-	Signature algorithm: ECDSA / SHA384
-Details:
-	Public key: ECDSA-secp384r1
-	Serial number: 104771422782942698878324890912429255287
-	AKI: 7C:42:96:AE:DE:4B:48:3B:FA:92:F8:9E:8C:CF:6D:8B:A9:72:37:95
-	SKI: 6D:99:2A:F5:4D:02:EB:E3:11:C1:60:BA:92:6F:8D:3D:2E:F1:EA:44
-	Valid from: 2020-09-04T00:00:00+0000
-	     until: 2025-09-15T16:00:00+0000
-	Key usages: cert sign, crl sign, digital signature
-	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://x2.i.lencr.org/
-CERTIFICATE
-Subject: /R3/C=US/O=Let's Encrypt
-Issuer: /ISRG Root X1/C=US/O=Internet Security Research Group
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 192961496339968674994309121183282847578
-	AKI: 79:B4:59:E6:7B:B6:E5:E4:01:73:80:08:88:C8:1A:58:F6:E9:9B:6E
-	SKI: 14:2E:B3:17:B7:58:56:CB:AE:50:09:40:E6:1F:AF:9D:8B:14:C2:C6
-	Valid from: 2020-09-04T00:00:00+0000
-	     until: 2025-09-15T16:00:00+0000
-	Key usages: cert sign, crl sign, digital signature
-	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://x1.i.lencr.org/
-CERTIFICATE
-Subject: /R4/C=US/O=Let's Encrypt
-Issuer: /ISRG Root X1/C=US/O=Internet Security Research Group
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 184062427331579619898468442554398596450
-	AKI: 79:B4:59:E6:7B:B6:E5:E4:01:73:80:08:88:C8:1A:58:F6:E9:9B:6E
-	SKI: 36:9D:3E:E0:B1:40:F6:27:2C:7C:BF:8D:9D:31:8A:F6:54:A6:46:26
-	Valid from: 2020-09-04T00:00:00+0000
-	     until: 2025-09-15T16:00:00+0000
-	Key usages: cert sign, crl sign, digital signature
-	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://x1.i.lencr.org/
 CERTIFICATE
 Subject: /Root CA - G3/C=US/O=Root Networks, LLC
 Issuer: /Certum Trusted Network CA/C=PL/O=Unizeto Technologies S.A./OU=Certum
