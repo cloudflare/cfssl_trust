@@ -3720,45 +3720,6 @@ Details:
 	OCSP server:
 		- http://ocsp.affirmtrust.com/prem
 CERTIFICATE
-Subject: /Mass HIway CA/C=US/O=Massachusetts Health Information Highway (Mass
-    HIway)/OU=Orion Health Direct Secure Messaging
-Issuer: /Orion Health Direct Secure Messaging CA/C=US/O=Orion Health
-    Inc./OU=Orion Health Direct Secure Messaging
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 7498531878704610227627489146658732915
-	AKI: A5:6E:22:FF:39:69:3A:23:FB:89:24:17:C6:60:94:00:1A:DA:8E:9E
-	SKI: 41:F4:86:F2:9C:43:C5:AA:9C:52:5A:7A:3C:7E:F1:84:31:BC:61:BA
-	Valid from: 2015-09-25T12:00:00+0000
-	     until: 2025-09-25T12:00:00+0000
-	Key usages: cert sign, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://cacerts.digicert.com/aiaOrionHealthIssuingCAs.p7c
-	OCSP server:
-		- http://ocsp.digicert.com
-CERTIFICATE
-Subject: /DigiCert Governmental Direct CA/C=US/O=DigiCert
-    Inc/OU=www.digicert.com
-Issuer: /DigiCert Federated Trust CA/C=US/O=DigiCert Inc/OU=www.digicert.com
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 12080776302334618507873099194241583455
-	AKI: 46:08:38:5A:A9:8E:20:BB:0C:AF:5E:31:BA:89:B3:28:BF:AC:8C:36
-	SKI: 70:2D:4B:A9:84:01:1A:84:75:F7:78:A9:09:49:EC:30:4B:F9:6F:EB
-	Valid from: 2015-09-25T12:00:00+0000
-	     until: 2025-09-25T12:00:00+0000
-	Key usages: cert sign, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://cacerts.digicert.com/aiaDigiCertGovernmentalDirectCA.p7c
-	OCSP server:
-		- http://ocsp.digicert.com
-CERTIFICATE
 Subject: /Entrust Certification Authority - L1K/C=US/O=Entrust, Inc./OU=See
     www.entrust.net/legal-terms/OU=(c) 2012 Entrust, Inc. - for authorized use
     only
