@@ -21664,25 +21664,6 @@ Details:
 	OCSP server:
 		- http://public.ocsp.identrust.com
 CERTIFICATE
-Subject: /GTS CA 2A1/C=US/O=Google Trust Services LLC
-Issuer: /GTS Root R4/C=US/O=Google Trust Services LLC
-	Signature algorithm: ECDSA / SHA384
-Details:
-	Public key: ECDSA-prime256v1
-	Serial number: 158628834716157795786527670340
-	AKI: 80:4C:D6:EB:74:FF:49:36:A3:D5:D8:FC:B5:3E:C5:6A:F0:94:1D:8C
-	SKI: 93:18:63:91:17:76:9A:5A:E6:3B:7F:2E:33:83:84:86:6B:1E:D4:F9
-	Valid from: 2020-08-13T00:00:42+0000
-	     until: 2025-09-30T00:00:42+0000
-	Key usages: cert sign, crl sign, digital signature
-	Extended usages: server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://pki.goog/repo/certs/gtsr4.der
-	OCSP server:
-		- http://ocsp.pki.goog/gtsr4
-CERTIFICATE
 Subject: /GTS CA 1C3/C=US/O=Google Trust Services LLC
 Issuer: /GTS Root R1/C=US/O=Google Trust Services LLC
 	Signature algorithm: RSA / SHA256
