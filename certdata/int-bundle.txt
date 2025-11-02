@@ -4052,23 +4052,6 @@ Details:
 		- http://ocsp.camerfirma.com
 CERTIFICATE
 Subject: /Certigna Identity Plus CA/C=FR/O=DHIMYOTIS/OU=0002 48146308100036
-Issuer: /Certigna/C=FR/O=Dhimyotis
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-4096
-	Serial number: 62576810143279955281785300983390909051
-	AKI: 1A:ED:FE:41:39:90:B4:24:59:BE:01:F2:52:D5:45:F6:5A:39:DC:11
-	SKI: 66:38:F3:C2:5A:8D:DF:AF:37:AD:61:D9:3C:1A:1D:3E:17:67:07:75
-	Valid from: 2015-11-25T09:23:25+0000
-	     until: 2025-11-22T09:23:25+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	2 AIAs:
-		http://autorite.certigna.fr/certigna.der
-		http://autorite.dhimyotis.com/certigna.der
-CERTIFICATE
-Subject: /Certigna Identity Plus CA/C=FR/O=DHIMYOTIS/OU=0002 48146308100036
 Issuer: /Certigna Root CA/C=FR/O=Dhimyotis/OU=0002 48146308100036
 	Signature algorithm: RSA / SHA256
 Details:
@@ -4289,23 +4272,6 @@ Details:
 	SANs (0):
 CERTIFICATE
 Subject: /Certigna Entity CA/C=FR/O=DHIMYOTIS/OU=0002 48146308100036
-Issuer: /Certigna/C=FR/O=Dhimyotis
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-4096
-	Serial number: 331390735146257245090881749240634956198
-	AKI: 1A:ED:FE:41:39:90:B4:24:59:BE:01:F2:52:D5:45:F6:5A:39:DC:11
-	SKI: A5:3F:1E:24:4C:6C:F8:8B:D2:1B:72:98:46:50:CA:E8:86:55:B9:D8
-	Valid from: 2015-11-25T10:24:07+0000
-	     until: 2025-11-22T10:24:07+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	2 AIAs:
-		http://autorite.certigna.fr/certigna.der
-		http://autorite.dhimyotis.com/certigna.der
-CERTIFICATE
-Subject: /Certigna Entity CA/C=FR/O=DHIMYOTIS/OU=0002 48146308100036
 Issuer: /Certigna Root CA/C=FR/O=Dhimyotis/OU=0002 48146308100036
 	Signature algorithm: RSA / SHA256
 Details:
@@ -4323,23 +4289,6 @@ Details:
 		http://autorite.dhimyotis.com/certignarootca.der
 CERTIFICATE
 Subject: /Certigna Wild CA/C=FR/O=DHIMYOTIS/OU=0002 48146308100036
-Issuer: /Certigna/C=FR/O=Dhimyotis
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-4096
-	Serial number: 227337212101947824736581738122015209621
-	AKI: 1A:ED:FE:41:39:90:B4:24:59:BE:01:F2:52:D5:45:F6:5A:39:DC:11
-	SKI: 8E:7C:17:B7:BC:F7:C3:B4:98:D6:B6:35:99:22:2A:C4:C3:9E:24:67
-	Valid from: 2015-11-25T11:06:35+0000
-	     until: 2025-11-22T11:06:35+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	2 AIAs:
-		http://autorite.certigna.fr/certigna.der
-		http://autorite.dhimyotis.com/certigna.der
-CERTIFICATE
-Subject: /Certigna Wild CA/C=FR/O=DHIMYOTIS/OU=0002 48146308100036
 Issuer: /Certigna Root CA/C=FR/O=Dhimyotis/OU=0002 48146308100036
 	Signature algorithm: RSA / SHA256
 Details:
@@ -4355,23 +4304,6 @@ Details:
 	2 AIAs:
 		http://autorite.certigna.fr/certignarootca.der
 		http://autorite.dhimyotis.com/certignarootca.der
-CERTIFICATE
-Subject: /Certigna Services CA/C=FR/O=DHIMYOTIS/OU=0002 48146308100036
-Issuer: /Certigna/C=FR/O=Dhimyotis
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-4096
-	Serial number: 148224379948753903659871811913827706797
-	AKI: 1A:ED:FE:41:39:90:B4:24:59:BE:01:F2:52:D5:45:F6:5A:39:DC:11
-	SKI: AC:EC:86:8F:4B:37:1C:B8:7F:17:1B:19:D0:AE:E8:4E:E3:34:5C:12
-	Valid from: 2015-11-25T11:33:52+0000
-	     until: 2025-11-22T11:33:52+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	2 AIAs:
-		http://autorite.certigna.fr/certigna.der
-		http://autorite.dhimyotis.com/certigna.der
 CERTIFICATE
 Subject: /Certigna Services CA/C=FR/O=DHIMYOTIS/OU=0002 48146308100036
 Issuer: /Certigna Root CA/C=FR/O=Dhimyotis/OU=0002 48146308100036
