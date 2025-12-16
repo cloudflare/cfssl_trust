@@ -253,44 +253,6 @@ Details:
 	Basic constraints: valid, is a CA certificate, max path length 11
 	SANs (1): email:cmfecs2@camerfirma.com
 CERTIFICATE
-Subject: /TC TrustCenter Class 1 L1 CA VII/C=DE/O=TC TrustCenter GmbH/OU=TC
-    TrustCenter Class 1 L1 CA
-Issuer: /C=DE/O=TC TrustCenter for Security in Data Networks GmbH/OU=TC
-    TrustCenter Class 1 CA/L=Hamburg/ST=Hamburg
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 1735334444758909597309683440489490
-	SKI: F4:F9:3D:5E:53:11:7B:9C:69:65:28:3E:8C:6F:2F:00:78:7E:E5:73
-	Valid from: 2008-07-18T11:39:10+0000
-	     until: 2025-12-31T22:59:59+0000
-	Key usages: cert sign, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-	1 AIA:
-		http://www.trustcenter.de/certservices/cacerts/tc_class_1_ca.crt
-	OCSP server:
-		- http://ocsp.tcclass1.trustcenter.de
-CERTIFICATE
-Subject: /TC TrustCenter Class 3 L1 CA VII/C=DE/O=TC TrustCenter GmbH/OU=TC
-    TrustCenter Class 3 L1 CA
-Issuer: /C=DE/O=TC TrustCenter for Security in Data Networks GmbH/OU=TC
-    TrustCenter Class 3 CA/L=Hamburg/ST=Hamburg
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 3216980311938159973284287268626246
-	SKI: 58:57:E2:FC:9A:3B:14:F8:B0:EF:A6:22:94:9E:DE:5D:A4:B2:87:A4
-	Valid from: 2008-07-18T11:39:21+0000
-	     until: 2025-12-31T22:59:59+0000
-	Key usages: cert sign, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-	1 AIA:
-		http://www.trustcenter.de/certservices/cacerts/tc_class_3_ca.crt
-	OCSP server:
-		- http://ocsp.tcclass3.trustcenter.de
-CERTIFICATE
 Subject: /C=TW/O=行政院/OU=醫事憑證管理中心
 Issuer: /C=TW/O=Government Root Certification Authority
 	Signature algorithm: RSA / SHA1
@@ -317,24 +279,6 @@ Details:
 	SKI: 08:76:CD:CB:07:FF:24:F6:C5:CD:ED:BB:90:BC:E2:84:37:46:75:F7
 	Valid from: 2008-10-22T12:07:37+0000
 	     until: 2027-06-10T10:46:39+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-	1 AIA:
-		http://repository.certum.pl/ca.cer
-	OCSP server:
-		- http://subca.ocsp-certum.com
-CERTIFICATE
-Subject: /Certum Trusted Network CA/C=PL/O=Unizeto Technologies S.A./OU=Certum
-    Certification Authority
-Issuer: /Certum CA/C=PL/O=Unizeto Sp. z o.o.
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 47728425367563953368335862826026879003
-	SKI: 08:76:CD:CB:07:FF:24:F6:C5:CD:ED:BB:90:BC:E2:84:37:46:75:F7
-	Valid from: 2008-10-22T12:07:37+0000
-	     until: 2025-12-30T23:59:59+0000
 	Key usages: cert sign, crl sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
@@ -4346,44 +4290,6 @@ Details:
 		- http://ocsp2.netlock.hu/gold.cgi
 		- http://ocsp3.netlock.hu/gold.cgi
 CERTIFICATE
-Subject: /Allina Health Connect HIE Intermediate CA/C=US/O=Allina Health
-    System/OU=Information Services
-Issuer: /DigiCert Federated Trust CA/C=US/O=DigiCert Inc/OU=www.digicert.com
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 13538439173959050390055592225638891297
-	AKI: 46:08:38:5A:A9:8E:20:BB:0C:AF:5E:31:BA:89:B3:28:BF:AC:8C:36
-	SKI: B0:51:F9:7D:55:E4:B8:72:9F:D1:3A:68:0A:D0:85:DA:DA:85:0F:90
-	Valid from: 2015-12-08T12:05:52+0000
-	     until: 2025-12-08T12:05:52+0000
-	Key usages: cert sign, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://cacerts.digicert.com/aiaAllinaHealthConnectHIEIntermediateCA.p7c
-	OCSP server:
-		- http://ocsp.digicert.com
-CERTIFICATE
-Subject: /CompuGroup Medical Certificate Authority/C=US/O=Compugroup Medical,
-    Inc/OU=IT
-Issuer: /DigiCert Federated Trust CA/C=US/O=DigiCert Inc/OU=www.digicert.com
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 11425711187779396239744497887850152405
-	AKI: 46:08:38:5A:A9:8E:20:BB:0C:AF:5E:31:BA:89:B3:28:BF:AC:8C:36
-	SKI: 0D:17:7F:4A:58:6E:B4:0F:15:D1:AA:F3:D1:E4:86:78:6C:67:E2:36
-	Valid from: 2015-12-08T12:05:57+0000
-	     until: 2025-12-08T12:05:57+0000
-	Key usages: cert sign, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://cacerts.digicert.com/aiaCompuGroupMedicalCertificateAuthority.p7c
-	OCSP server:
-		- http://ocsp.digicert.com
-CERTIFICATE
 Subject: /StartCom Class 3 OV Server CA/C=IL/O=StartCom Ltd./OU=StartCom
     Certification Authority
 Issuer: /Certification Authority of WoSign G2/C=CN/O=WoSign CA Limited
@@ -4488,42 +4394,6 @@ Details:
 	OCSP server:
 		- http://ocsp.startssl.com
 CERTIFICATE
-Subject: /nazwaSSL/C=PL/O=nazwa.pl sp. z o.o./OU=http://nazwa.pl
-Issuer: /Certum Global Services CA SHA2/C=PL/O=Unizeto Technologies
-    S.A./OU=Certum Certification Authority
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 128168660809396254797307279296874507737
-	AKI: 54:99:DD:9B:FF:E8:A7:0E:A3:19:9D:5B:BE:42:57:DF:30:FC:8F:32
-	SKI: 54:DC:90:BB:9D:47:19:51:C3:79:68:2C:84:ED:2E:DF:5F:46:BA:C7
-	Valid from: 2015-12-31T10:05:42+0000
-	     until: 2025-12-28T10:05:42+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://repository.certum.pl/gscasha2.cer
-	OCSP server:
-		- http://subca.ocsp-certum.com
-CERTIFICATE
-Subject: /Certigna Identity CA/C=FR/O=DHIMYOTIS/OU=0002 48146308100036
-Issuer: /Certigna/C=FR/O=Dhimyotis
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-4096
-	Serial number: 86493547276155173388489777046356462199
-	AKI: 1A:ED:FE:41:39:90:B4:24:59:BE:01:F2:52:D5:45:F6:5A:39:DC:11
-	SKI: C3:39:FC:67:68:AE:B3:11:D6:19:80:76:B3:D5:BA:08:5E:19:C5:D4
-	Valid from: 2015-12-31T10:42:36+0000
-	     until: 2025-12-28T10:42:36+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	2 AIAs:
-		http://autorite.certigna.fr/certigna.der
-		http://autorite.dhimyotis.com/certigna.der
-CERTIFICATE
 Subject: /Certigna Identity CA/C=FR/O=DHIMYOTIS/OU=0002 48146308100036
 Issuer: /Certigna Root CA/C=FR/O=Dhimyotis/OU=0002 48146308100036
 	Signature algorithm: RSA / SHA256
@@ -4577,24 +4447,6 @@ Details:
 	2 AIAs:
 		http://autorite.certigna.fr/certignarootca.der
 		http://autorite.dhimyotis.com/certignarootca.der
-CERTIFICATE
-Subject: /Certigna Entity Code Signing CA/C=FR/O=DHIMYOTIS/OU=0002
-    48146308100036
-Issuer: /Certigna/C=FR/O=Dhimyotis
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-4096
-	Serial number: 156762549197834556994352785380332204247
-	AKI: 1A:ED:FE:41:39:90:B4:24:59:BE:01:F2:52:D5:45:F6:5A:39:DC:11
-	SKI: 71:90:C5:99:CA:08:12:C9:40:F3:98:D3:A6:B3:0F:C9:FD:AA:C7:D6
-	Valid from: 2016-02-04T11:13:33+0000
-	     until: 2025-12-13T11:13:33+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	2 AIAs:
-		http://autorite.certigna.fr/certigna.der
-		http://autorite.dhimyotis.com/certigna.der
 CERTIFICATE
 Subject: /TrustCor Basic Secure Site (CA1)/C=PA/O=TrustCor Systems S. de
     R.L./OU=TrustCor Network/ST=Panama

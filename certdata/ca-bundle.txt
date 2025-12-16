@@ -4,7 +4,7 @@ Subject: /C=US/O=VeriSign, Inc./OU=Class 3 Public Primary Certification
     Authority
 Issuer: /C=US/O=VeriSign, Inc./OU=Class 3 Public Primary Certification
     Authority
-	Signature algorithm: unknown public key algorithm / unknown hash algorithm
+	Signature algorithm: RSA / MD2
 Details:
 	Public key: RSA-1024
 	Serial number: 149843929435818692848040365716851702463
@@ -18,7 +18,7 @@ Subject: /C=US/O=VeriSign, Inc./OU=Class 1 Public Primary Certification
     Authority
 Issuer: /C=US/O=VeriSign, Inc./OU=Class 1 Public Primary Certification
     Authority
-	Signature algorithm: unknown public key algorithm / unknown hash algorithm
+	Signature algorithm: RSA / MD2
 Details:
 	Public key: RSA-1024
 	Serial number: 273460089105783944861631223625220794965
@@ -46,7 +46,7 @@ Subject: /C=US/O=VeriSign, Inc./OU=Class 2 Public Primary Certification
     Authority
 Issuer: /C=US/O=VeriSign, Inc./OU=Class 2 Public Primary Certification
     Authority
-	Signature algorithm: unknown public key algorithm / unknown hash algorithm
+	Signature algorithm: RSA / MD2
 Details:
 	Public key: RSA-1024
 	Serial number: 59960568862895187107119492226041101835
@@ -702,36 +702,6 @@ Details:
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
-Subject: /TC TrustCenter Class 2 CA II/C=DE/O=TC TrustCenter GmbH/OU=TC
-    TrustCenter Class 2 CA
-Issuer: /TC TrustCenter Class 2 CA II/C=DE/O=TC TrustCenter GmbH/OU=TC
-    TrustCenter Class 2 CA
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 941389028203453866782103406992443
-	SKI: E3:AB:54:4C:80:A1:DB:56:43:B7:91:4A:CB:F3:82:7A:13:5C:08:AB
-	Valid from: 2006-01-12T14:38:43+0000
-	     until: 2025-12-31T22:59:59+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
-Subject: /TC TrustCenter Class 3 CA II/C=DE/O=TC TrustCenter GmbH/OU=TC
-    TrustCenter Class 3 CA
-Issuer: /TC TrustCenter Class 3 CA II/C=DE/O=TC TrustCenter GmbH/OU=TC
-    TrustCenter Class 3 CA
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 1506523511417715638772220530020799
-	SKI: D4:A2:FC:9F:B3:C3:D8:03:D3:57:5C:07:A4:D0:24:A7:C0:F2:00:D4
-	Valid from: 2006-01-12T14:41:57+0000
-	     until: 2025-12-31T22:59:59+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
 Subject: /AC RAIZ DNIE/C=ES/O=DIRECCION GENERAL DE LA POLICIA/OU=DNIE
 Issuer: /AC RAIZ DNIE/C=ES/O=DIRECCION GENERAL DE LA POLICIA/OU=DNIE
 	Signature algorithm: RSA / SHA1
@@ -760,22 +730,6 @@ Details:
 	OCSP server:
 		- http://ocsp.infonotary.com/responder.cgi
 CERTIFICATE
-Subject: /TC TrustCenter Universal CA I/C=DE/O=TC TrustCenter GmbH/OU=TC
-    TrustCenter Universal CA
-Issuer: /TC TrustCenter Universal CA I/C=DE/O=TC TrustCenter GmbH/OU=TC
-    TrustCenter Universal CA
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 601024842042189035295619584734726
-	AKI: 92:A4:75:2C:A4:9E:BE:81:44:EB:79:FC:8A:C5:95:A5:EB:10:75:73
-	SKI: 92:A4:75:2C:A4:9E:BE:81:44:EB:79:FC:8A:C5:95:A5:EB:10:75:73
-	Valid from: 2006-03-22T15:54:28+0000
-	     until: 2025-12-31T22:59:59+0000
-	Key usages: cert sign, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
 Subject: /TC TrustCenter Universal CA II/C=DE/O=TC TrustCenter GmbH/OU=TC
     TrustCenter Universal CA
 Issuer: /TC TrustCenter Universal CA II/C=DE/O=TC TrustCenter GmbH/OU=TC
@@ -788,21 +742,6 @@ Details:
 	SKI: CD:D7:90:A1:6E:A3:BF:DB:30:D6:DA:32:25:90:0C:E6:39:1E:80:65
 	Valid from: 2006-03-22T15:58:34+0000
 	     until: 2030-12-31T22:59:59+0000
-	Key usages: cert sign, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
-Subject: /TC TrustCenter Class 4 CA II/C=DE/O=TC TrustCenter GmbH/OU=TC
-    TrustCenter Class 4 CA
-Issuer: /TC TrustCenter Class 4 CA II/C=DE/O=TC TrustCenter GmbH/OU=TC
-    TrustCenter Class 4 CA
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 116623856429964560337522234651920
-	SKI: 1F:EA:BB:3E:25:1B:06:BD:A5:DD:62:05:7E:C6:4C:5A:BF:E8:0F:43
-	Valid from: 2006-03-23T14:10:23+0000
-	     until: 2025-12-31T22:59:59+0000
 	Key usages: cert sign, crl sign, digital signature
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
