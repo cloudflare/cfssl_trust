@@ -4411,25 +4411,6 @@ Details:
 		http://autorite.certigna.fr/certignarootca.der
 		http://autorite.dhimyotis.com/certignarootca.der
 CERTIFICATE
-Subject: /certSIGN Code Signing CA Class 3 G2/C=RO/O=certSIGN/OU=certSIGN Code
-    Signing CA Class 3 G2
-Issuer: /C=RO/O=certSIGN/OU=certSIGN ROOT CA
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 166275597015633439699191517195204885
-	AKI: E0:8C:9B:DB:25:49:B3:F1:7C:86:D6:B2:42:87:0B:D0:6B:A0:D9:E4
-	SKI: BB:A6:4E:76:6B:AA:84:70:13:C2:A7:E8:68:47:1D:68:C3:7E:3E:6F
-	Valid from: 2016-01-26T13:08:08+0000
-	     until: 2026-01-26T13:08:08+0000
-	Key usages: cert sign, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://www.certsign.ro/certcrl/root.crt
-	OCSP server:
-		- http://ocsp.certsign.ro
-CERTIFICATE
 Subject: /Certigna Entity Code Signing CA/C=FR/O=DHIMYOTIS/OU=0002
     48146308100036
 Issuer: /Certigna Root CA/C=FR/O=Dhimyotis/OU=0002 48146308100036
@@ -17512,23 +17493,6 @@ Details:
 		http://secure.globalsign.com/cacert/r3smr45cross2020.crt
 	OCSP server:
 		- http://ocsp.globalsign.com/smimerootr45
-CERTIFICATE
-Subject: /NAESB Issuing CA - SHA384 - G4/C=US/O=GMO GlobalSign Inc.
-Issuer: /GlobalSign/O=GlobalSign/OU=GlobalSign Root CA - R3
-	Signature algorithm: RSA / SHA384
-Details:
-	Public key: RSA-4096
-	Serial number: 157285019568113588644272931959131615840
-	AKI: 8F:F0:4B:7F:A8:2E:45:24:AE:4D:50:FA:63:9A:8B:DE:E2:DD:1B:BC
-	SKI: 52:C0:AE:29:A2:39:97:17:CB:BD:3E:C9:49:55:E4:41:0E:3E:65:E1
-	Valid from: 2020-01-22T00:00:00+0000
-	     until: 2026-01-22T00:00:00+0000
-	Key usages: cert sign, crl sign, digital signature
-	Extended usages: client auth, ocsp signing, s/mime
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://ocsp2.globalsign.com/rootr3
 CERTIFICATE
 Subject: /SRI International CA - G3/C=US/O=SRI International
 Issuer: /DigiCert Assured ID Root G2/C=US/O=DigiCert Inc/OU=www.digicert.com
