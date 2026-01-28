@@ -4923,24 +4923,6 @@ Details:
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
-Subject: /Sectigo Public Server Authentication Root R46/C=GB/O=Sectigo Limited
-Issuer: /USERTrust RSA Certification Authority/C=US/O=The USERTRUST
-    Network/L=Jersey City/ST=New Jersey
-	Signature algorithm: RSA / SHA384
-Details:
-	Public key: RSA-4096
-	Serial number: 279801108986267997430958846641392622020
-	AKI: 53:79:BF:5A:AA:2B:4A:CF:54:80:E1:D8:9B:C0:9D:F2:B2:03:66:CB
-	SKI: 56:73:58:64:95:F9:92:1A:B0:12:2A:04:62:79:A1:40:15:88:21:49
-	Valid from: 2021-03-22T00:00:00+0000
-	     until: 2038-01-18T23:59:59+0000
-	Key usages: cert sign, crl sign, digital signature
-	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-	OCSP server:
-		- http://ocsp.usertrust.com
-CERTIFICATE
 Subject: /SSL.com TLS ECC Root CA 2022/C=US/O=SSL Corporation
 Issuer: /SSL.com TLS ECC Root CA 2022/C=US/O=SSL Corporation
 	Signature algorithm: ECDSA / SHA384

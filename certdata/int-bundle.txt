@@ -23166,6 +23166,82 @@ Details:
 	OCSP server:
 		- http://ocsp.quovadisglobal.com
 CERTIFICATE
+Subject: /Sectigo Public Server Authentication CA DV E36/C=GB/O=Sectigo
+    Limited
+Issuer: /Sectigo Public Server Authentication Root E46/C=GB/O=Sectigo Limited
+	Signature algorithm: ECDSA / SHA384
+Details:
+	Public key: ECDSA-prime256v1
+	Serial number: 72943210222487927412882101581299817434
+	AKI: D1:22:DA:4C:59:F1:4B:5F:26:38:AA:9D:D6:EE:EB:0D:C3:FB:A9:61
+	SKI: 17:99:A8:04:C1:6F:E4:2D:70:A8:0A:10:3D:03:D3:E9:1A:B8:26:63
+	Valid from: 2021-03-22T00:00:00+0000
+	     until: 2036-03-21T23:59:59+0000
+	Key usages: cert sign, crl sign, digital signature
+	Extended usages: client auth, server auth
+	Basic constraints: valid, is a CA certificate, max path length 0
+	SANs (0):
+	1 AIA:
+		http://crt.sectigo.com/SectigoPublicServerAuthenticationRootE46.p7c
+	OCSP server:
+		- http://ocsp.sectigo.com
+CERTIFICATE
+Subject: /Sectigo Public Server Authentication CA DV R36/C=GB/O=Sectigo
+    Limited
+Issuer: /Sectigo Public Server Authentication Root R46/C=GB/O=Sectigo Limited
+	Signature algorithm: RSA / SHA384
+Details:
+	Public key: RSA-3072
+	Serial number: 76401540956980317967350201603557417905
+	AKI: 56:73:58:64:95:F9:92:1A:B0:12:2A:04:62:79:A1:40:15:88:21:49
+	SKI: 68:C0:12:16:18:0E:AF:CE:F6:87:A6:32:57:A3:46:51:5D:CB:07:27
+	Valid from: 2021-03-22T00:00:00+0000
+	     until: 2036-03-21T23:59:59+0000
+	Key usages: cert sign, crl sign, digital signature
+	Extended usages: client auth, server auth
+	Basic constraints: valid, is a CA certificate, max path length 0
+	SANs (0):
+	1 AIA:
+		http://crt.sectigo.com/SectigoPublicServerAuthenticationRootR46.p7c
+	OCSP server:
+		- http://ocsp.sectigo.com
+CERTIFICATE
+Subject: /Sectigo Public Server Authentication Root E46/C=GB/O=Sectigo Limited
+Issuer: /USERTrust ECC Certification Authority/C=US/O=The USERTRUST
+    Network/L=Jersey City/ST=New Jersey
+	Signature algorithm: ECDSA / SHA384
+Details:
+	Public key: ECDSA-secp384r1
+	Serial number: 35383878947598710128532238071552119005
+	AKI: 3A:E1:09:86:D4:CF:19:C2:96:76:74:49:76:DC:E0:35:C6:63:63:9A
+	SKI: D1:22:DA:4C:59:F1:4B:5F:26:38:AA:9D:D6:EE:EB:0D:C3:FB:A9:61
+	Valid from: 2021-03-22T00:00:00+0000
+	     until: 2038-01-18T23:59:59+0000
+	Key usages: cert sign, crl sign, digital signature
+	Extended usages: client auth, server auth
+	Basic constraints: valid, is a CA certificate
+	SANs (0):
+	OCSP server:
+		- http://ocsp.usertrust.com
+CERTIFICATE
+Subject: /Sectigo Public Server Authentication Root R46/C=GB/O=Sectigo Limited
+Issuer: /USERTrust RSA Certification Authority/C=US/O=The USERTRUST
+    Network/L=Jersey City/ST=New Jersey
+	Signature algorithm: RSA / SHA384
+Details:
+	Public key: RSA-4096
+	Serial number: 279801108986267997430958846641392622020
+	AKI: 53:79:BF:5A:AA:2B:4A:CF:54:80:E1:D8:9B:C0:9D:F2:B2:03:66:CB
+	SKI: 56:73:58:64:95:F9:92:1A:B0:12:2A:04:62:79:A1:40:15:88:21:49
+	Valid from: 2021-03-22T00:00:00+0000
+	     until: 2038-01-18T23:59:59+0000
+	Key usages: cert sign, crl sign, digital signature
+	Extended usages: client auth, server auth
+	Basic constraints: valid, is a CA certificate
+	SANs (0):
+	OCSP server:
+		- http://ocsp.usertrust.com
+CERTIFICATE
 Subject: /DigiCert G5 TLS ECC SHA384 2021 CA1/C=US/O=DigiCert, Inc.
 Issuer: /DigiCert TLS ECC P384 Root G5/C=US/O=DigiCert, Inc.
 	Signature algorithm: ECDSA / SHA384
