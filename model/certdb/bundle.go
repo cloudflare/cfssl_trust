@@ -48,12 +48,11 @@ SELECT certificates.ski, aki, certificates.serial, not_before, not_after, raw
 
 		cert.cert, err = x509.ParseCertificate(cert.Raw)
 		if err != nil {
-			// Skip only certificates with negative serial numbers, which are non-compliant
+			// Tolerate certificates with negative serial numbers, which are non-compliant
 			// but exist in some real-world CA bundles. Return error for other parse failures.
-			if err.Error() == "x509: negative serial number" {
-				continue
+			if err.Error() != "x509: negative serial number" {
+				return nil, err
 			}
-			return nil, err
 		}
 
 		certs = append(certs, cert)

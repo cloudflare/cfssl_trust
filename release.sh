@@ -12,6 +12,7 @@
 #   includes all currently validate certificates. This must be parsable by
 #   Go's time package.
 # - NOPUSH: do not push the release branch upstream.
+# - NOGIT: do not perform any git operations (add, commit, branch switching).
 # - ALLOW_SKIP_PR: allows the script to complete successfully without
 #   creating a release if there are no changes to the bundles.  The
 #   intended use for this is the scheduled cronjob, we only want to
@@ -130,7 +131,10 @@ release () {
 	fi
 
 	# Add the database changes to the release git branch.
-	git add cert.db
+	if [ -z "${NOGIT:-}" ]
+	then
+		git add cert.db
+	fi
 
 	## Step 4: write the trust stores to disk.
 	#
@@ -150,7 +154,10 @@ release () {
     	   exit 0
   	fi
 	
-	git add int-bundle.crt ca-bundle.crt
+	if [ -z "${NOGIT:-}" ]
+	then
+		git add int-bundle.crt ca-bundle.crt
+	fi
 
 	## Step 6: update the human-readable trust store lists.
 	#
@@ -159,10 +166,13 @@ release () {
 	certdump ca-bundle.crt  > certdata/ca-bundle.txt
 	echo "$ certdump int-bundle.crt > certdata/int-bundle.txt"
 	certdump int-bundle.crt > certdata/int-bundle.txt
-	git add certdata/ca-bundle.txt certdata/int-bundle.txt
+	if [ -z "${NOGIT:-}" ]
+	then
+		git add certdata/ca-bundle.txt certdata/int-bundle.txt
 
-	echo "$ git status --porcelain -uno"
-	git status --porcelain -uno
+		echo "$ git status --porcelain -uno"
+		git status --porcelain -uno
+	fi
 }
 
 ####################################
@@ -179,19 +189,28 @@ execute () {
 	fi
 
 	LATEST_RELEASE="$(cfssl-trust ${DATABASE_PATH} ${CONFIG_PATH} releases | awk ' NR==1 { print $2 }')"
-	git checkout -b release/${LATEST_RELEASE}
-	printf "Trust store release ${LATEST_RELEASE}\n\n$(cat ${TEMPFILE})" | git commit -F-
-	rm ${TEMPFILE}
 
-	git tag trust-store-${LATEST_RELEASE}
-
-	if [ -n "${NOPUSH:-}" ]
+	if [ -n "${NOGIT:-}" ]
 	then
+		echo "NOGIT set, skipping git operations."
+		rm ${TEMPFILE}
 		exit 0
 	fi
 
-	git push --set-upstream origin release/${LATEST_RELEASE}
-	git push origin trust-store-${LATEST_RELEASE}
+	if [ -z "${NOGIT:-}" ]
+	then
+		git checkout -b release/${LATEST_RELEASE}
+	fi
+
+	printf "Trust store release ${LATEST_RELEASE}\n\n$(cat ${TEMPFILE})" | git commit -F-
+	rm ${TEMPFILE}
+
+	if [ -z "${NOGIT:-}" ]
+	then
+		git tag trust-store-${LATEST_RELEASE}
+		git push --set-upstream origin release/${LATEST_RELEASE}
+		git push origin trust-store-${LATEST_RELEASE}
+	fi
 }
 
 prologue
