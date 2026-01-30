@@ -830,47 +830,6 @@ Details:
 		- http://ocsp2.netlock.hu/gold.cgi
 		- http://ocsp3.netlock.hu/gold.cgi
 CERTIFICATE
-Subject: /DigiCert Assured ID Code Signing CA-1/C=US/O=DigiCert
-    Inc/OU=www.digicert.com
-Issuer: /DigiCert Assured ID Root CA/C=US/O=DigiCert Inc/OU=www.digicert.com
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 20812206907036738015322008881189383613
-	AKI: 45:EB:A2:AF:F4:92:CB:82:31:2D:51:8B:A7:A7:21:9D:F3:6D:C8:0F
-	SKI: 7B:68:CE:29:AA:C0:17:BE:49:7A:E1:E5:3F:D6:A7:F7:45:8F:35:32
-	Valid from: 2011-02-11T12:00:00+0000
-	     until: 2026-02-10T12:00:00+0000
-	Key usages: cert sign, crl sign, digital signature
-	Extended usages: code signing
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt
-	OCSP server:
-		- http://ocsp.digicert.com
-CERTIFICATE
-Subject: /DigiCert High Assurance Code Signing CA-1/C=US/O=DigiCert
-    Inc/OU=www.digicert.com
-Issuer: /DigiCert High Assurance EV Root CA/C=US/O=DigiCert
-    Inc/OU=www.digicert.com
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 3680403385497920146360574967411527007
-	AKI: B1:3E:C3:69:03:F8:BF:47:01:D4:98:26:1A:08:02:EF:63:64:2B:C3
-	SKI: 97:48:03:EB:15:08:6B:B9:B2:58:23:CC:94:2E:F1:C6:65:D2:64:8E
-	Valid from: 2011-02-11T12:00:00+0000
-	     until: 2026-02-10T12:00:00+0000
-	Key usages: cert sign, crl sign, digital signature
-	Extended usages: code signing
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://cacerts.digicert.com/DigiCertHighAssuranceEVRootCA.crt
-	OCSP server:
-		- http://ocsp.digicert.com
-CERTIFICATE
 Subject: /GlobalSign Timestamping CA - G2/C=BE/O=GlobalSign nv-sa
 Issuer: /GlobalSign Root CA/C=BE/O=GlobalSign nv-sa/OU=Root CA
 	Signature algorithm: RSA / SHA1

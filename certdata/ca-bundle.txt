@@ -4,7 +4,7 @@ Subject: /C=US/O=VeriSign, Inc./OU=Class 3 Public Primary Certification
     Authority
 Issuer: /C=US/O=VeriSign, Inc./OU=Class 3 Public Primary Certification
     Authority
-	Signature algorithm: RSA / MD2
+	Signature algorithm: unknown public key algorithm / unknown hash algorithm
 Details:
 	Public key: RSA-1024
 	Serial number: 149843929435818692848040365716851702463
@@ -18,7 +18,7 @@ Subject: /C=US/O=VeriSign, Inc./OU=Class 1 Public Primary Certification
     Authority
 Issuer: /C=US/O=VeriSign, Inc./OU=Class 1 Public Primary Certification
     Authority
-	Signature algorithm: RSA / MD2
+	Signature algorithm: unknown public key algorithm / unknown hash algorithm
 Details:
 	Public key: RSA-1024
 	Serial number: 273460089105783944861631223625220794965
@@ -46,7 +46,7 @@ Subject: /C=US/O=VeriSign, Inc./OU=Class 2 Public Primary Certification
     Authority
 Issuer: /C=US/O=VeriSign, Inc./OU=Class 2 Public Primary Certification
     Authority
-	Signature algorithm: RSA / MD2
+	Signature algorithm: unknown public key algorithm / unknown hash algorithm
 Details:
 	Public key: RSA-1024
 	Serial number: 59960568862895187107119492226041101835
@@ -357,25 +357,6 @@ Details:
 	Key usages: 
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
-CERTIFICATE
-Subject: /EC-ACC/C=ES/O=Agencia Catalana de Certificacio
-    (NIF Q-0801176-I)/OU=Serveis Publics de Certificacio/OU=Vegeu
-    https://www.catcert.net/verarrel (c)03/OU=Jerarquia Entitats de
-    Certificacio Catalanes
-Issuer: /EC-ACC/C=ES/O=Agencia Catalana de Certificacio (NIF
-    Q-0801176-I)/OU=Serveis Publics de Certificacio/OU=Vegeu
-    https://www.catcert.net/verarrel (c)03/OU=Jerarquia Entitats de
-    Certificacio Catalanes
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: -23701579247955709139626555126524820479
-	SKI: A0:C3:8B:44:AA:37:A5:45:BF:97:80:5A:D1:F1:78:A2:9B:E9:5D:8D
-	Valid from: 2003-01-07T23:00:00+0000
-	     until: 2031-01-07T22:59:59+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (1): email:ec_acc@catcert.net
 CERTIFICATE
 Subject: /TDC OCES CA/C=DK/O=TDC
 Issuer: /TDC OCES CA/C=DK/O=TDC
