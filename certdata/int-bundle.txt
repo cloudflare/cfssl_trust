@@ -830,47 +830,6 @@ Details:
 		- http://ocsp2.netlock.hu/gold.cgi
 		- http://ocsp3.netlock.hu/gold.cgi
 CERTIFICATE
-Subject: /DigiCert Assured ID Code Signing CA-1/C=US/O=DigiCert
-    Inc/OU=www.digicert.com
-Issuer: /DigiCert Assured ID Root CA/C=US/O=DigiCert Inc/OU=www.digicert.com
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 20812206907036738015322008881189383613
-	AKI: 45:EB:A2:AF:F4:92:CB:82:31:2D:51:8B:A7:A7:21:9D:F3:6D:C8:0F
-	SKI: 7B:68:CE:29:AA:C0:17:BE:49:7A:E1:E5:3F:D6:A7:F7:45:8F:35:32
-	Valid from: 2011-02-11T12:00:00+0000
-	     until: 2026-02-10T12:00:00+0000
-	Key usages: cert sign, crl sign, digital signature
-	Extended usages: code signing
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt
-	OCSP server:
-		- http://ocsp.digicert.com
-CERTIFICATE
-Subject: /DigiCert High Assurance Code Signing CA-1/C=US/O=DigiCert
-    Inc/OU=www.digicert.com
-Issuer: /DigiCert High Assurance EV Root CA/C=US/O=DigiCert
-    Inc/OU=www.digicert.com
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 3680403385497920146360574967411527007
-	AKI: B1:3E:C3:69:03:F8:BF:47:01:D4:98:26:1A:08:02:EF:63:64:2B:C3
-	SKI: 97:48:03:EB:15:08:6B:B9:B2:58:23:CC:94:2E:F1:C6:65:D2:64:8E
-	Valid from: 2011-02-11T12:00:00+0000
-	     until: 2026-02-10T12:00:00+0000
-	Key usages: cert sign, crl sign, digital signature
-	Extended usages: code signing
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://cacerts.digicert.com/DigiCertHighAssuranceEVRootCA.crt
-	OCSP server:
-		- http://ocsp.digicert.com
-CERTIFICATE
 Subject: /GlobalSign Timestamping CA - G2/C=BE/O=GlobalSign nv-sa
 Issuer: /GlobalSign Root CA/C=BE/O=GlobalSign nv-sa/OU=Root CA
 	Signature algorithm: RSA / SHA1
@@ -4547,66 +4506,6 @@ Details:
 	OCSP server:
 		- http://ocsps.ssl.com
 CERTIFICATE
-Subject: /Soluti CA - DV/C=BR/O=SOLUTI - SOLUCOES EM NEGOCIOS INTELIGENTES
-    S/A/L=Goiânia/ST=Goiás
-Issuer: /Trusted Root CA SHA256 G2/C=BE/O=GlobalSign nv-sa/OU=Trusted Root
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 1455505521475182705259440521013449
-	AKI: C8:63:9B:08:69:54:C2:98:C8:D9:CD:E3:33:B7:50:5E:F8:C9:01:9B
-	SKI: 87:E1:03:20:65:0B:FA:03:49:A4:F6:73:33:C9:A0:66:BF:D7:87:52
-	Valid from: 2016-02-24T00:00:00+0000
-	     until: 2026-02-24T00:00:00+0000
-	Key usages: cert sign, crl sign
-	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://secure.globalsign.com/cacert/trustrootsha2g2.crt
-	OCSP server:
-		- http://ocsp2.globalsign.com/trustrootsha2g2
-CERTIFICATE
-Subject: /Soluti CA - EV/C=BR/O=SOLUTI - SOLUCOES EM NEGOCIOS INTELIGENTES
-    S/A/L=Goiânia/ST=Goiás
-Issuer: /Trusted Root CA SHA256 G2/C=BE/O=GlobalSign nv-sa/OU=Trusted Root
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 1455505522786975561226704014216671
-	AKI: C8:63:9B:08:69:54:C2:98:C8:D9:CD:E3:33:B7:50:5E:F8:C9:01:9B
-	SKI: 24:08:BC:0A:80:5C:39:BA:B8:16:77:7E:92:91:4A:32:F2:BA:C9:2A
-	Valid from: 2016-02-24T00:00:00+0000
-	     until: 2026-02-24T00:00:00+0000
-	Key usages: cert sign, crl sign
-	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://secure.globalsign.com/cacert/trustrootsha2g2.crt
-	OCSP server:
-		- http://ocsp2.globalsign.com/trustrootsha2g2
-CERTIFICATE
-Subject: /Soluti CA - OV/C=BR/O=SOLUTI - SOLUCOES EM NEGOCIOS INTELIGENTES
-    S/A/L=Goiânia/ST=Goiás
-Issuer: /Trusted Root CA SHA256 G2/C=BE/O=GlobalSign nv-sa/OU=Trusted Root
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 1455505522107102801216410382344309
-	AKI: C8:63:9B:08:69:54:C2:98:C8:D9:CD:E3:33:B7:50:5E:F8:C9:01:9B
-	SKI: 89:74:0B:BB:B1:51:75:11:93:EE:4B:4B:20:EF:61:6E:B8:A1:07:E6
-	Valid from: 2016-02-24T00:00:00+0000
-	     until: 2026-02-24T00:00:00+0000
-	Key usages: cert sign, crl sign
-	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://secure.globalsign.com/cacert/trustrootsha2g2.crt
-	OCSP server:
-		- http://ocsp2.globalsign.com/trustrootsha2g2
-CERTIFICATE
 Subject: /Entrust Class 3 Client CA - SHA256/C=US/O=Entrust, Inc./OU=See
     www.entrust.net/legal-terms/OU=(c) 2015 Entrust, Inc. - for authorized use
     only
@@ -4627,27 +4526,6 @@ Details:
 	SANs (0):
 	OCSP server:
 		- http://ocsp.entrust.net
-CERTIFICATE
-Subject: /United Parcel Service, Inc. RSA Client CA/C=US/O=United Parcel
-    Service, Inc./L=Atlanta/ST=GA
-Issuer: /COMODO RSA Certification Authority/C=GB/O=COMODO CA
-    Limited/L=Salford/ST=Greater Manchester
-	Signature algorithm: RSA / SHA384
-Details:
-	Public key: RSA-2048
-	Serial number: 269848883876928263566383392334479268351
-	AKI: BB:AF:7E:02:3D:FA:A6:F1:3C:84:8E:AD:EE:38:98:EC:D9:32:32:D4
-	SKI: 4C:D9:C5:31:93:D6:46:E7:9B:A9:4D:30:8E:0C:B4:76:83:1E:3F:5E
-	Valid from: 2016-02-26T00:00:00+0000
-	     until: 2026-02-25T23:59:59+0000
-	Key usages: cert sign, crl sign, digital signature
-	Extended usages: client auth, s/mime
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://crt.comodoca.com/COMODORSAAddTrustCA.crt
-	OCSP server:
-		- http://ocsp.comodoca.com
 CERTIFICATE
 Subject: /Optioncare CA/C=US/O=Optioncare/OU=Orion Health Direct Secure
     Messaging
@@ -20174,25 +20052,6 @@ Details:
 	OCSP server:
 		- http://ocsp.wisekey.com/
 CERTIFICATE
-Subject: /Soluti CA - EV/C=BR/O=SOLUTI - SOLUCOES EM NEGOCIOS INTELIGENTES S/A
-Issuer: /Trusted Root TLS CA SHA256 G3/C=BE/O=GlobalSign nv-sa
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 159159750753635697499434586775294712474
-	AKI: DE:4F:D7:DD:27:AE:D5:7F:58:81:E1:2C:47:AC:23:B7:C6:7B:57:EF
-	SKI: 24:08:BC:0A:80:5C:39:BA:B8:16:77:7E:92:91:4A:32:F2:BA:C9:2A
-	Valid from: 2020-07-05T00:00:00+0000
-	     until: 2026-02-24T00:00:00+0000
-	Key usages: cert sign, crl sign
-	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://secure.globalsign.com/cacert/trustroottlssha2g3.crt
-	OCSP server:
-		- http://ocsp.globalsign.com/trustroottlssha2g3
-CERTIFICATE
 Subject: /Trusted Root nonTLS CA SHA256 G3/C=BE/O=GlobalSign nv-sa
 Issuer: /GlobalSign/O=GlobalSign/OU=GlobalSign Root CA - R3
 	Signature algorithm: RSA / SHA256
@@ -20211,25 +20070,6 @@ Details:
 		http://secure.globalsign.com/cacert/root-r3.crt
 	OCSP server:
 		- http://ocsp.globalsign.com/rootr3
-CERTIFICATE
-Subject: /Soluti CA - DV/C=BR/O=SOLUTI - SOLUCOES EM NEGOCIOS INTELIGENTES S/A
-Issuer: /Trusted Root TLS CA SHA256 G3/C=BE/O=GlobalSign nv-sa
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 159159750043654717501606097123747732643
-	AKI: DE:4F:D7:DD:27:AE:D5:7F:58:81:E1:2C:47:AC:23:B7:C6:7B:57:EF
-	SKI: 87:E1:03:20:65:0B:FA:03:49:A4:F6:73:33:C9:A0:66:BF:D7:87:52
-	Valid from: 2020-07-05T00:00:00+0000
-	     until: 2026-02-24T00:00:00+0000
-	Key usages: cert sign, crl sign
-	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://secure.globalsign.com/cacert/trustroottlssha2g3.crt
-	OCSP server:
-		- http://ocsp.globalsign.com/trustroottlssha2g3
 CERTIFICATE
 Subject: /RNP ICPEdu OV SSL CA 2019/C=BR/O=Rede Nacional de Ensino e Pesquisa
     - RNP
@@ -20288,25 +20128,6 @@ Details:
 		http://secure.globalsign.com/cacert/trustrootnontlssha2g3.crt
 	OCSP server:
 		- http://ocsp.globalsign.com/trustrootnontlssha2g3
-CERTIFICATE
-Subject: /Soluti CA - OV/C=BR/O=SOLUTI - SOLUCOES EM NEGOCIOS INTELIGENTES S/A
-Issuer: /Trusted Root TLS CA SHA256 G3/C=BE/O=GlobalSign nv-sa
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 159159750355625473828539721604600426500
-	AKI: DE:4F:D7:DD:27:AE:D5:7F:58:81:E1:2C:47:AC:23:B7:C6:7B:57:EF
-	SKI: 89:74:0B:BB:B1:51:75:11:93:EE:4B:4B:20:EF:61:6E:B8:A1:07:E6
-	Valid from: 2020-07-05T00:00:00+0000
-	     until: 2026-02-24T00:00:00+0000
-	Key usages: cert sign, crl sign
-	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://secure.globalsign.com/cacert/trustroottlssha2g3.crt
-	OCSP server:
-		- http://ocsp.globalsign.com/trustroottlssha2g3
 CERTIFICATE
 Subject: /Actalis Domain Validation Server CA G3/C=IT/O=Actalis S.p.A./L=Ponte
     San Pietro/ST=Bergamo
