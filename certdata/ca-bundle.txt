@@ -255,20 +255,6 @@ Details:
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
-Subject: /O=RSA Security Inc/OU=RSA Security 2048 V3
-Issuer: /O=RSA Security Inc/OU=RSA Security 2048 V3
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 13297492616345471454730593562152402946
-	AKI: 07:C3:51:30:A4:AA:E9:45:AE:35:24:FA:FF:24:2C:33:D0:B1:9D:8C
-	SKI: 07:C3:51:30:A4:AA:E9:45:AE:35:24:FA:FF:24:2C:33:D0:B1:9D:8C
-	Valid from: 2001-02-22T20:39:23+0000
-	     until: 2026-02-22T20:39:23+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
 Subject: /America Online Root Certification Authority 1/C=US/O=America Online
     Inc.
 Issuer: /America Online Root Certification Authority 1/C=US/O=America Online

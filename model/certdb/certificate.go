@@ -60,7 +60,9 @@ SELECT aki, serial, not_before, not_after, raw
 		}
 
 		cert.cert, err = x509.ParseCertificate(cert.Raw)
-		if err != nil {
+		// Tolerate certificates with negative serial numbers, which are non-compliant
+		// but exist in some real-world CA bundles.
+		if err != nil && err.Error() != "x509: negative serial number" {
 			return nil, err
 		}
 
@@ -87,7 +89,9 @@ func AllCertificates(tx *sql.Tx) ([]*Certificate, error) {
 		}
 
 		cert.cert, err = x509.ParseCertificate(cert.Raw)
-		if err != nil {
+		// Tolerate certificates with negative serial numbers, which are non-compliant
+		// but exist in some real-world CA bundles.
+		if err != nil && err.Error() != "x509: negative serial number" {
 			return nil, err
 		}
 
@@ -158,6 +162,11 @@ func (cert *Certificate) Select(tx *sql.Tx) error {
 	}
 
 	cert.cert, err = x509.ParseCertificate(cert.Raw)
+	// Tolerate certificates with negative serial numbers, which are non-compliant
+	// but exist in some real-world CA bundles.
+	if err != nil && err.Error() == "x509: negative serial number" {
+		return nil
+	}
 	return err
 }
 
