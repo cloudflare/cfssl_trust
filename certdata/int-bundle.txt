@@ -23925,3 +23925,41 @@ Details:
 		http://crt.sectigo.com/SectigoPublicServerAuthenticationRootR46.p7c
 	OCSP server:
 		- http://ocsp.sectigo.com
+CERTIFICATE
+Subject: /Microsoft TLS ECC Root G2/C=US/O=Microsoft Corporation
+Issuer: /DigiCert Global Root G3/C=US/O=DigiCert Inc/OU=www.digicert.com
+	Signature algorithm: ECDSA / SHA384
+Details:
+	Public key: ECDSA-secp384r1
+	Serial number: 11733431000592060034876541703193624502
+	AKI: B3:DB:48:A4:F9:A1:C5:D8:AE:36:41:CC:11:63:69:62:29:BC:4B:C6
+	SKI: 6F:AB:7E:DA:FF:97:43:72:EC:3B:67:77:DE:82:61:35:88:47:42:85
+	Valid from: 2025-05-21T00:00:00+0000
+	     until: 2029-06-19T23:59:59+0000
+	Key usages: cert sign, crl sign, digital signature
+	Extended usages: server auth
+	Basic constraints: valid, is a CA certificate
+	SANs (0):
+	1 AIA:
+		http://cacerts.digicert.com/DigiCertGlobalRootG3.crt
+	OCSP server:
+		- http://ocsp.digicert.com
+CERTIFICATE
+Subject: /Microsoft TLS RSA Root G2/C=US/O=Microsoft Corporation
+Issuer: /DigiCert Global Root G2/C=US/O=DigiCert Inc/OU=www.digicert.com
+	Signature algorithm: RSA / SHA384
+Details:
+	Public key: RSA-4096
+	Serial number: 14685989241594233654608890750483546312
+	AKI: 4E:22:54:20:18:95:E6:E3:6E:E6:0F:FA:FA:B9:12:ED:06:17:8F:39
+	SKI: DE:91:86:48:B7:A1:31:59:31:F1:4B:5F:07:A9:DC:88:79:DA:A8:76
+	Valid from: 2025-05-21T00:00:00+0000
+	     until: 2029-06-19T23:59:59+0000
+	Key usages: cert sign, crl sign, digital signature
+	Extended usages: server auth
+	Basic constraints: valid, is a CA certificate
+	SANs (0):
+	1 AIA:
+		http://cacerts.digicert.com/DigiCertGlobalRootG2.crt
+	OCSP server:
+		- http://ocsp.digicert.com
