@@ -4527,26 +4527,6 @@ Details:
 	OCSP server:
 		- http://ocsp.entrust.net
 CERTIFICATE
-Subject: /Optioncare CA/C=US/O=Optioncare/OU=Orion Health Direct Secure
-    Messaging
-Issuer: /Orion Health Direct Secure Messaging CA/C=US/O=Orion Health
-    Inc./OU=Orion Health Direct Secure Messaging
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 9715700501489671649253548320029012687
-	AKI: A5:6E:22:FF:39:69:3A:23:FB:89:24:17:C6:60:94:00:1A:DA:8E:9E
-	SKI: AD:75:8E:FB:A5:15:8B:51:56:51:95:45:0D:1A:71:4B:EC:4F:3E:63
-	Valid from: 2016-03-01T12:34:05+0000
-	     until: 2026-03-01T12:34:05+0000
-	Key usages: cert sign, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://cacerts.digicert.com/aiaOrionHealthIssuingCAs.p7c
-	OCSP server:
-		- http://ocsp.digicert.com
-CERTIFICATE
 Subject: /SHECA Global G3 SSL/C=CN/O=UniTrust/ST=Shanghai
 Issuer: /UCA Global G2 Root/C=CN/O=UniTrust
 	Signature algorithm: RSA / SHA256
