@@ -4,7 +4,7 @@ Subject: /C=US/O=VeriSign, Inc./OU=Class 3 Public Primary Certification
     Authority
 Issuer: /C=US/O=VeriSign, Inc./OU=Class 3 Public Primary Certification
     Authority
-	Signature algorithm: RSA / MD2
+	Signature algorithm: unknown public key algorithm / unknown hash algorithm
 Details:
 	Public key: RSA-1024
 	Serial number: 149843929435818692848040365716851702463
@@ -18,7 +18,7 @@ Subject: /C=US/O=VeriSign, Inc./OU=Class 1 Public Primary Certification
     Authority
 Issuer: /C=US/O=VeriSign, Inc./OU=Class 1 Public Primary Certification
     Authority
-	Signature algorithm: RSA / MD2
+	Signature algorithm: unknown public key algorithm / unknown hash algorithm
 Details:
 	Public key: RSA-1024
 	Serial number: 273460089105783944861631223625220794965
@@ -46,7 +46,7 @@ Subject: /C=US/O=VeriSign, Inc./OU=Class 2 Public Primary Certification
     Authority
 Issuer: /C=US/O=VeriSign, Inc./OU=Class 2 Public Primary Certification
     Authority
-	Signature algorithm: RSA / MD2
+	Signature algorithm: unknown public key algorithm / unknown hash algorithm
 Details:
 	Public key: RSA-1024
 	Serial number: 59960568862895187107119492226041101835
@@ -700,21 +700,6 @@ Details:
 	Key usages: cert sign, crl sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
-CERTIFICATE
-Subject: /InfoNotary CSP Root/C=BG/O=InfoNotary PLC/OU=InfoNotary CSP Root
-Issuer: /InfoNotary CSP Root/C=BG/O=InfoNotary PLC/OU=InfoNotary CSP Root
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-4096
-	Serial number: 1922916560873434976
-	SKI: DD:D4:4E:67:43:3F:D3:EA:62:E8:DA:89:6E:8E:3B:6E:0B:BB:95:9F
-	Valid from: 2006-03-06T17:33:05+0000
-	     until: 2026-03-06T17:33:05+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-	OCSP server:
-		- http://ocsp.infonotary.com/responder.cgi
 CERTIFICATE
 Subject: /TC TrustCenter Universal CA II/C=DE/O=TC TrustCenter GmbH/OU=TC
     TrustCenter Universal CA
