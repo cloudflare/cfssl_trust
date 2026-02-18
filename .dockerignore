@@ -1,0 +1,16 @@
+# Git
+.git
+.gitignore
+
+# IDE
+.idea
+.vscode
+*.swp
+*.swo
+
+# Build artifacts that will be regenerated
+vendor/
+
+# Docker files
+Dockerfile
+.dockerignore
