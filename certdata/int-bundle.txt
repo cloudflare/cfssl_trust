@@ -781,55 +781,6 @@ Details:
 	OCSP server:
 		- http://ocsp.buypass.no/ocsp/BPOcsp
 CERTIFICATE
-Subject: /NetLock Expressz (Class C) Tanúsítványkiadó/C=HU/O=NetLock
-    Kft./OU=Tanúsítványkiadók (Certification Services)/L=Budapest
-Issuer: /NetLock Arany (Class Gold) Főtanúsítvány/C=HU/O=NetLock
-    Kft./OU=Tanúsítványkiadók (Certification Services)/L=Budapest
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 80544274841625
-	AKI: CC:FA:67:93:F0:B6:B8:D0:A5:C0:1E:F3:53:FD:8C:53:DF:83:D7:96
-	SKI: 49:BF:21:40:F3:53:BD:36:2B:22:65:A8:26:12:FF:E4:DF:71:F6:CA
-	Valid from: 2010-12-27T15:24:39+0000
-	     until: 2026-03-13T15:24:39+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 4
-	SANs (0):
-	3 AIAs:
-		http://aia1.netlock.hu/index.cgi?ca=gold
-		http://aia2.netlock.hu/index.cgi?ca=gold
-		http://aia3.netlock.hu/index.cgi?ca=gold
-	OCSP servers:
-		- http://ocsp1.netlock.hu/gold.cgi
-		- http://ocsp2.netlock.hu/gold.cgi
-		- http://ocsp3.netlock.hu/gold.cgi
-CERTIFICATE
-Subject: /NetLock Expressz Eat. (Class C Legal)
-    Tanúsítványkiadó/C=HU/O=NetLock Kft./OU=Tanúsítványkiadók
-    (Certification Services)/L=Budapest
-Issuer: /NetLock Arany (Class Gold) Főtanúsítvány/C=HU/O=NetLock
-    Kft./OU=Tanúsítványkiadók (Certification Services)/L=Budapest
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 80544274841626
-	AKI: CC:FA:67:93:F0:B6:B8:D0:A5:C0:1E:F3:53:FD:8C:53:DF:83:D7:96
-	SKI: 71:49:6E:81:87:D1:08:AD:F1:28:04:A1:F3:BF:FF:46:6F:7F:B5:DA
-	Valid from: 2010-12-27T15:25:11+0000
-	     until: 2026-03-13T15:25:11+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 4
-	SANs (0):
-	3 AIAs:
-		http://aia1.netlock.hu/index.cgi?ca=gold
-		http://aia2.netlock.hu/index.cgi?ca=gold
-		http://aia3.netlock.hu/index.cgi?ca=gold
-	OCSP servers:
-		- http://ocsp1.netlock.hu/gold.cgi
-		- http://ocsp2.netlock.hu/gold.cgi
-		- http://ocsp3.netlock.hu/gold.cgi
-CERTIFICATE
 Subject: /GlobalSign Timestamping CA - G2/C=BE/O=GlobalSign nv-sa
 Issuer: /GlobalSign Root CA/C=BE/O=GlobalSign nv-sa/OU=Root CA
 	Signature algorithm: RSA / SHA1
@@ -4526,26 +4477,6 @@ Details:
 	SANs (0):
 	OCSP server:
 		- http://ocsp.entrust.net
-CERTIFICATE
-Subject: /Optioncare CA/C=US/O=Optioncare/OU=Orion Health Direct Secure
-    Messaging
-Issuer: /Orion Health Direct Secure Messaging CA/C=US/O=Orion Health
-    Inc./OU=Orion Health Direct Secure Messaging
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 9715700501489671649253548320029012687
-	AKI: A5:6E:22:FF:39:69:3A:23:FB:89:24:17:C6:60:94:00:1A:DA:8E:9E
-	SKI: AD:75:8E:FB:A5:15:8B:51:56:51:95:45:0D:1A:71:4B:EC:4F:3E:63
-	Valid from: 2016-03-01T12:34:05+0000
-	     until: 2026-03-01T12:34:05+0000
-	Key usages: cert sign, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://cacerts.digicert.com/aiaOrionHealthIssuingCAs.p7c
-	OCSP server:
-		- http://ocsp.digicert.com
 CERTIFICATE
 Subject: /SHECA Global G3 SSL/C=CN/O=UniTrust/ST=Shanghai
 Issuer: /UCA Global G2 Root/C=CN/O=UniTrust
