@@ -1,6 +1,6 @@
 module github.com/cloudflare/cfssl_trust
 
-go 1.24.0
+go 1.20
 
 require (
 	github.com/cloudflare/cfssl v0.0.0-20180323000720-5d63dbd981b5
