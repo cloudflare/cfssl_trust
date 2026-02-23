@@ -120,8 +120,8 @@ github.com/spf13/pflag
 # github.com/spf13/viper v0.0.0-20170417080815-0967fc9aceab
 ## explicit
 github.com/spf13/viper
-# golang.org/x/crypto v0.45.0
-## explicit; go 1.24
+# golang.org/x/crypto v0.33.0
+## explicit; go 1.20
 golang.org/x/crypto/cryptobyte
 golang.org/x/crypto/cryptobyte/asn1
 golang.org/x/crypto/ocsp
@@ -131,30 +131,27 @@ golang.org/x/crypto/pkcs12/internal/rc2
 ## explicit; go 1.11
 golang.org/x/lint
 golang.org/x/lint/golint
-# golang.org/x/net v0.47.0
-## explicit; go 1.24
+# golang.org/x/net v0.35.0
+## explicit; go 1.18
 golang.org/x/net/context
-# golang.org/x/sys v0.38.0
-## explicit; go 1.24
+# golang.org/x/sys v0.30.0
+## explicit; go 1.18
 golang.org/x/sys/unix
 golang.org/x/sys/windows
-# golang.org/x/text v0.31.0
-## explicit; go 1.24
+# golang.org/x/text v0.22.0
+## explicit; go 1.18
 golang.org/x/text/transform
 golang.org/x/text/unicode/norm
-# golang.org/x/tools v0.38.0
-## explicit; go 1.24
+# golang.org/x/tools v0.24.1
+## explicit; go 1.19
 golang.org/x/tools/go/ast/astutil
-golang.org/x/tools/go/ast/edge
-golang.org/x/tools/go/ast/inspector
 golang.org/x/tools/go/gcexportdata
 golang.org/x/tools/go/types/objectpath
-golang.org/x/tools/go/types/typeutil
 golang.org/x/tools/internal/aliases
 golang.org/x/tools/internal/gcimporter
 golang.org/x/tools/internal/pkgbits
 golang.org/x/tools/internal/stdlib
-golang.org/x/tools/internal/typeparams
+golang.org/x/tools/internal/tokeninternal
 golang.org/x/tools/internal/typesinternal
 golang.org/x/tools/internal/versions
 # google.golang.org/protobuf v1.33.0

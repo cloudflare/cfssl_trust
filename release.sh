@@ -148,7 +148,7 @@ release () {
   	#
   	# if we are allowing the script to silently complete without a release, we want see
   	# any changes to bundles and if not, exit with the "No_Changes" code for the caller
-  	if [ "${ALLOW_SKIP_PR}" = "true" ] && [ -z "`git diff int-bundle.crt ca-bundle.crt | cat`" ]
+  	if [ "${ALLOW_SKIP_PR:-}" = "true" ] && [ -z "`git diff int-bundle.crt ca-bundle.crt | cat`" ]
   	then
     	   echo "No_Changes"
     	   exit 0
