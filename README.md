@@ -53,9 +53,9 @@ systems. Currently, we have trust stores from
 #### Prerequisites
 
 ```
-$ go get -u github.com/kisom/goutils/cmd/certdump@v1.7.7
-$ go get -u github.com/cloudflare/cfssl/cmd/...
-$ go get -u github.com/cloudflare/cfssl_trust/...
+$ go install git.wntrmute.dev/kyle/goutils/cmd/certdump@v1.7.7
+$ go install github.com/cloudflare/cfssl/cmd/...@latest
+$ go install github.com/cloudflare/cfssl_trust/...@latest
 ```
 
 #### Build
