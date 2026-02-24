@@ -1,7 +1,8 @@
-# Dockerfile for cfssl_trust release environment
-# Provides Go 1.24, certdump, cfssl tools, and cfssl-trust
+# Dockerfile to run the cfssl_trust release script locally.
+# WARP must be turned off to run the script.
+# Provides Go 1.21, certdump, cfssl tools, and cfssl-trust
 
-FROM golang:1.24-bookworm
+FROM golang:1.21-bookworm
 
 # Install git and update CA certificates
 RUN apt-get update && apt-get install -y \
@@ -18,6 +19,9 @@ RUN go install git.wntrmute.dev/kyle/goutils/cmd/certdump@v1.7.7
 
 # Install cfssl tools
 RUN go install github.com/cloudflare/cfssl/cmd/...
+
+# Install cfssl tools
+RUN go install github.com/cloudflare/cfssl_trust/...
 
 # Set working directory
 WORKDIR /cfssl_trust
