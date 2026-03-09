@@ -4496,27 +4496,6 @@ Details:
 	OCSP server:
 		- http://ocsp3.sheca.com/ucaglobalg2root/ucaglobalg2root.ocsp
 CERTIFICATE
-Subject: /Oregon State Treasury RSA Client CA/C=US/O=Oregon State
-    Treasury/OU=Office of the State Treasurer/L=Salem/ST=Oregon
-Issuer: /COMODO RSA Certification Authority/C=GB/O=COMODO CA
-    Limited/L=Salford/ST=Greater Manchester
-	Signature algorithm: RSA / SHA384
-Details:
-	Public key: RSA-2048
-	Serial number: 78923098834610617407073345864376032185
-	AKI: BB:AF:7E:02:3D:FA:A6:F1:3C:84:8E:AD:EE:38:98:EC:D9:32:32:D4
-	SKI: 34:E3:55:6B:CC:9B:60:98:3E:B1:FF:17:36:3C:38:72:2D:26:E2:45
-	Valid from: 2016-03-23T00:00:00+0000
-	     until: 2026-03-23T23:59:59+0000
-	Key usages: cert sign, crl sign, digital signature
-	Extended usages: client auth, s/mime
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://crt.comodoca.com/COMODORSAAddTrustCA.crt
-	OCSP server:
-		- http://ocsp.comodoca.com
-CERTIFICATE
 Subject: /UbiquiTLS™ DV RSA Server CA/C=GB/O=COMODO CA
     Limited/L=Salford/ST=Greater Manchester
 Issuer: /COMODO RSA Certification Authority/C=GB/O=COMODO CA
