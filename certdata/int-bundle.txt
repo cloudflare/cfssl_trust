@@ -13688,26 +13688,6 @@ Details:
 	OCSP server:
 		- http://ocsp.usertrust.com
 CERTIFICATE
-Subject: /RNP ICPEdu OV SSL CA 2019/C=BR/O=Rede Nacional de Ensino e Pesquisa
-    - RNP/OU=Gerencia de Servicos (GSer)/L=Rio de Janeiro/ST=Rio de Janeiro
-Issuer: /Trusted Root CA SHA256 G2/C=BE/O=GlobalSign nv-sa/OU=Trusted Root
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 155676720264933326879546714380700803998
-	AKI: C8:63:9B:08:69:54:C2:98:C8:D9:CD:E3:33:B7:50:5E:F8:C9:01:9B
-	SKI: AB:30:C7:07:28:4B:CB:7A:8E:5B:FE:61:69:F7:D4:7A:B2:85:9B:48
-	Valid from: 2019-05-15T00:00:00+0000
-	     until: 2026-05-15T00:00:00+0000
-	Key usages: cert sign, crl sign, digital signature
-	Extended usages: client auth, ocsp signing, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://secure.globalsign.com/cacert/trustrootsha2g2.crt
-	OCSP server:
-		- http://ocsp2.globalsign.com/trustrootsha2g2
-CERTIFICATE
 Subject: /FujiSSL SHA2 Domain Secure Site CA/C=JP/O=Nijimo
     K.K./L=Shibuya-ku/ST=Tokyo
 Issuer: /USERTrust RSA Certification Authority/C=US/O=The USERTRUST
@@ -19980,26 +19960,6 @@ Details:
 		http://secure.globalsign.com/cacert/root-r3.crt
 	OCSP server:
 		- http://ocsp.globalsign.com/rootr3
-CERTIFICATE
-Subject: /RNP ICPEdu OV SSL CA 2019/C=BR/O=Rede Nacional de Ensino e Pesquisa
-    - RNP
-Issuer: /Trusted Root TLS CA SHA256 G3/C=BE/O=GlobalSign nv-sa
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 159159753038136977038031716638737865952
-	AKI: DE:4F:D7:DD:27:AE:D5:7F:58:81:E1:2C:47:AC:23:B7:C6:7B:57:EF
-	SKI: AB:30:C7:07:28:4B:CB:7A:8E:5B:FE:61:69:F7:D4:7A:B2:85:9B:48
-	Valid from: 2020-07-05T00:00:00+0000
-	     until: 2026-05-15T00:00:00+0000
-	Key usages: cert sign, crl sign, digital signature
-	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://secure.globalsign.com/cacert/trustroottlssha2g3.crt
-	OCSP server:
-		- http://ocsp.globalsign.com/trustroottlssha2g3
 CERTIFICATE
 Subject: /Trusted Root TLS CA SHA256 G3/C=BE/O=GlobalSign nv-sa
 Issuer: /GlobalSign/O=GlobalSign/OU=GlobalSign Root CA - R3
