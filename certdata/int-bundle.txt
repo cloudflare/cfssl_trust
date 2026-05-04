@@ -21532,25 +21532,6 @@ Details:
 	OCSP server:
 		- http://ocsp.globalsign.com/rootr3
 CERTIFICATE
-Subject: /QuoVadis Grid ICA G2/C=BM/O=QuoVadis Limited
-Issuer: /QuoVadis Root CA 2/C=BM/O=QuoVadis Limited
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-4096
-	Serial number: 249406476567665652502945234089824306973284547796
-	AKI: 1A:84:62:BC:48:4C:33:25:04:D4:EE:D0:F6:03:C4:19:46:D1:94:6B
-	SKI: B7:5D:75:82:97:2C:B2:FB:6E:FE:1C:19:50:E0:2B:6F:E4:DF:BA:30
-	Valid from: 2020-09-22T19:21:12+0000
-	     until: 2026-05-23T15:27:02+0000
-	Key usages: cert sign, crl sign
-	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://trust.quovadisglobal.com/qvrca2.crt
-	OCSP server:
-		- http://ocsp.quovadisglobal.com
-CERTIFICATE
 Subject: /QuoVadis Enterprise Trust CA 2 G3/C=BM/O=QuoVadis Limited
 Issuer: /QuoVadis Root CA 2 G3/C=BM/O=QuoVadis Limited
 	Signature algorithm: RSA / SHA256
