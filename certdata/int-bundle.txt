@@ -4861,46 +4861,6 @@ Details:
 	OCSP server:
 		- http://ocsp.quovadisglobal.com
 CERTIFICATE
-Subject: /Symantec Basic DV SSL CA - G1/C=US/O=Symantec
-    Corporation/OU=Symantec Trust Network/OU=Domain Validated SSL
-Issuer: /VeriSign Class 3 Public Primary Certification Authority -
-    G5/C=US/O=VeriSign, Inc./OU=VeriSign Trust Network/OU=(c) 2006 VeriSign,
-    Inc. - For authorized use only
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 101420335995969480143319253857931811463
-	AKI: 7F:D3:65:A7:C2:DD:EC:BB:F0:30:09:F3:43:39:FA:02:AF:33:31:33
-	SKI: 5C:61:9E:B0:76:41:A9:6A:AA:43:0B:E1:C7:6E:30:29:6E:B1:CD:36
-	Valid from: 2016-06-07T00:00:00+0000
-	     until: 2026-06-06T23:59:59+0000
-	Key usages: cert sign, crl sign
-	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://s.symcd.com
-CERTIFICATE
-Subject: /Symantec Basic DV SSL CA - G2/C=US/O=Symantec
-    Corporation/OU=Symantec Trust Network/OU=Domain Validated SSL
-Issuer: /VeriSign Universal Root Certification Authority/C=US/O=VeriSign,
-    Inc./OU=VeriSign Trust Network/OU=(c) 2008 VeriSign, Inc. - For authorized
-    use only
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 32524352732199486691836788658242728919
-	AKI: B6:77:FA:69:48:47:9F:53:12:D5:C2:EA:07:32:76:07:D1:97:07:19
-	SKI: CA:AC:5D:E1:90:2F:F1:EF:8C:D4:9F:35:01:E1:01:3B:A0:CE:C1:77
-	Valid from: 2016-06-07T00:00:00+0000
-	     until: 2026-06-06T23:59:59+0000
-	Key usages: cert sign, crl sign
-	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://s.symcd.com
-CERTIFICATE
 Subject: /SCHIEx Direct CA/C=US/O=SCHIEx/OU=SCHIEx Direct Messaging/ST=SC
 Issuer: /DigiCert Federated Trust CA/C=US/O=DigiCert Inc/OU=www.digicert.com
 	Signature algorithm: RSA / SHA256
@@ -4918,25 +4878,6 @@ Details:
 		http://cacerts.digicert.com/aiaSCHIExDirectCA.p7c
 	OCSP server:
 		- http://ocsp.digicert.com
-CERTIFICATE
-Subject: /Certyfikat SSL/C=PL/O=home.pl S.A.
-Issuer: /Certum Global Services CA SHA2/C=PL/O=Unizeto Technologies
-    S.A./OU=Certum Certification Authority
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 255020787367701009965542807920061370
-	AKI: 54:99:DD:9B:FF:E8:A7:0E:A3:19:9D:5B:BE:42:57:DF:30:FC:8F:32
-	SKI: 3D:91:B6:CC:11:7B:EB:E4:66:11:AC:D2:D2:07:CB:A9:A4:80:73:31
-	Valid from: 2016-06-08T08:01:29+0000
-	     until: 2026-06-06T08:01:29+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://repository.certum.pl/gscasha2.cer
-	OCSP server:
-		- http://subca.ocsp-certum.com
 CERTIFICATE
 Subject: /Apple IST CA 8 - G1/C=US/O=Apple Inc./OU=Certification Authority
 Issuer: /GeoTrust Primary Certification Authority - G2/C=US/O=GeoTrust
