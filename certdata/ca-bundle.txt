@@ -2408,20 +2408,6 @@ Details:
 	OCSP server:
 		- http://ocsp.accv.es
 CERTIFICATE
-Subject: /C=CN/O=CFCA GT CA
-Issuer: /C=CN/O=CFCA GT CA
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 429472831
-	AKI: 8C:76:50:CE:25:D3:79:2B:3C:F4:6D:9D:9A:E1:9E:05:4F:E8:3D:25
-	SKI: 8C:76:50:CE:25:D3:79:2B:3C:F4:6D:9D:9A:E1:9E:05:4F:E8:3D:25
-	Valid from: 2011-06-13T08:15:09+0000
-	     until: 2026-06-09T08:15:09+0000
-	Key usages: cert sign, content committment, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
 Subject: /Swisscom Root CA 2/C=ch/O=Swisscom/OU=Digital Certificate Services
 Issuer: /Swisscom Root CA 2/C=ch/O=Swisscom/OU=Digital Certificate Services
 	Signature algorithm: RSA / SHA256

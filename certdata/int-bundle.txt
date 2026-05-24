@@ -4861,24 +4861,6 @@ Details:
 	OCSP server:
 		- http://ocsp.quovadisglobal.com
 CERTIFICATE
-Subject: /SCHIEx Direct CA/C=US/O=SCHIEx/OU=SCHIEx Direct Messaging/ST=SC
-Issuer: /DigiCert Federated Trust CA/C=US/O=DigiCert Inc/OU=www.digicert.com
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 7820237957879429007089365361252433592
-	AKI: 46:08:38:5A:A9:8E:20:BB:0C:AF:5E:31:BA:89:B3:28:BF:AC:8C:36
-	SKI: CE:E9:02:34:7D:AA:06:38:41:6D:04:D5:CF:BA:F2:F0:3A:A4:43:5C
-	Valid from: 2016-06-07T12:26:54+0000
-	     until: 2026-06-07T12:26:54+0000
-	Key usages: cert sign, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://cacerts.digicert.com/aiaSCHIExDirectCA.p7c
-	OCSP server:
-		- http://ocsp.digicert.com
-CERTIFICATE
 Subject: /Apple IST CA 8 - G1/C=US/O=Apple Inc./OU=Certification Authority
 Issuer: /GeoTrust Primary Certification Authority - G2/C=US/O=GeoTrust
     Inc./OU=(c) 2007 GeoTrust Inc. - For authorized use only
