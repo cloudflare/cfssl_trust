@@ -23839,3 +23839,156 @@ Details:
 	SANs (0):
 	1 AIA:
 		http://cert.ssl.com/SSL.com-TLS-T-RSA-R2.cer
+CERTIFICATE
+Subject: /YE1/C=US/O=Let's Encrypt
+Issuer: /Root YE/C=US/O=ISRG
+	Signature algorithm: ECDSA / SHA384
+Details:
+	Public key: ECDSA-secp384r1
+	Serial number: 124767990368497485228327191697811835646
+	AKI: A3:C8:26:5A:8E:A1:4C:D0:35:63:FC:9B:23:C8:3A:AE:56:F3:4F:56
+	SKI: BB:20:CA:47:0B:FE:D7:E5:9C:F9:8F:09:2A:A3:8C:37:45:B1:BC:D8
+	Valid from: 2025-09-03T00:00:00+0000
+	     until: 2028-09-02T23:59:59+0000
+	Key usages: cert sign, crl sign, digital signature
+	Extended usages: server auth
+	Basic constraints: valid, is a CA certificate, max path length 0
+	SANs (0):
+	1 AIA:
+		http://ye.i.lencr.org/
+CERTIFICATE
+Subject: /YE2/C=US/O=Let's Encrypt
+Issuer: /Root YE/C=US/O=ISRG
+	Signature algorithm: ECDSA / SHA384
+Details:
+	Public key: ECDSA-secp384r1
+	Serial number: 103615881233243919450438579527522644245
+	AKI: A3:C8:26:5A:8E:A1:4C:D0:35:63:FC:9B:23:C8:3A:AE:56:F3:4F:56
+	SKI: B9:59:F2:8E:CF:22:F0:86:D3:37:48:FF:76:14:18:BA:82:D8:55:87
+	Valid from: 2025-09-03T00:00:00+0000
+	     until: 2028-09-02T23:59:59+0000
+	Key usages: cert sign, crl sign, digital signature
+	Extended usages: server auth
+	Basic constraints: valid, is a CA certificate, max path length 0
+	SANs (0):
+	1 AIA:
+		http://ye.i.lencr.org/
+CERTIFICATE
+Subject: /YR1/C=US/O=Let's Encrypt
+Issuer: /Root YR/C=US/O=ISRG
+	Signature algorithm: RSA / SHA256
+Details:
+	Public key: RSA-2048
+	Serial number: 215347022474305413497868275612454275662
+	AKI: DE:E7:5B:60:D0:22:6D:40:28:7D:3F:0D:01:FE:A4:B5:52:B4:51:94
+	SKI: 1F:2F:35:BE:46:14:82:CD:40:B1:AE:79:2C:55:78:FA:F7:D4:68:FB
+	Valid from: 2025-09-03T00:00:00+0000
+	     until: 2028-09-02T23:59:59+0000
+	Key usages: cert sign, crl sign, digital signature
+	Extended usages: server auth
+	Basic constraints: valid, is a CA certificate, max path length 0
+	SANs (0):
+	1 AIA:
+		http://yr.i.lencr.org/
+CERTIFICATE
+Subject: /YR2/C=US/O=Let's Encrypt
+Issuer: /Root YR/C=US/O=ISRG
+	Signature algorithm: RSA / SHA256
+Details:
+	Public key: RSA-2048
+	Serial number: 104661869709039935805224238423219745561
+	AKI: DE:E7:5B:60:D0:22:6D:40:28:7D:3F:0D:01:FE:A4:B5:52:B4:51:94
+	SKI: 40:15:2D:26:79:ED:32:20:9E:DF:9A:72:1D:D6:32:1F:81:0C:81:0C
+	Valid from: 2025-09-03T00:00:00+0000
+	     until: 2028-09-02T23:59:59+0000
+	Key usages: cert sign, crl sign, digital signature
+	Extended usages: server auth
+	Basic constraints: valid, is a CA certificate, max path length 0
+	SANs (0):
+	1 AIA:
+		http://yr.i.lencr.org/
+CERTIFICATE
+Subject: /YE3/C=US/O=Let's Encrypt
+Issuer: /Root YE/C=US/O=ISRG
+	Signature algorithm: ECDSA / SHA384
+Details:
+	Public key: ECDSA-secp384r1
+	Serial number: 60081272758411248330649987755436683367
+	AKI: A3:C8:26:5A:8E:A1:4C:D0:35:63:FC:9B:23:C8:3A:AE:56:F3:4F:56
+	SKI: F6:A2:7E:D6:5E:23:6F:DD:DD:45:46:61:1E:82:15:75:CD:F1:E6:8E
+	Valid from: 2025-09-03T00:00:00+0000
+	     until: 2028-09-02T23:59:59+0000
+	Key usages: cert sign, crl sign, digital signature
+	Extended usages: server auth
+	Basic constraints: valid, is a CA certificate, max path length 0
+	SANs (0):
+	1 AIA:
+		http://ye.i.lencr.org/
+CERTIFICATE
+Subject: /YR3/C=US/O=Let's Encrypt
+Issuer: /Root YR/C=US/O=ISRG
+	Signature algorithm: RSA / SHA256
+Details:
+	Public key: RSA-2048
+	Serial number: 158166420673596786463586322972401701886
+	AKI: DE:E7:5B:60:D0:22:6D:40:28:7D:3F:0D:01:FE:A4:B5:52:B4:51:94
+	SKI: 69:65:29:F9:33:F8:09:B6:42:D5:E1:F3:B5:B5:9D:1F:5F:7A:22:7C
+	Valid from: 2025-09-03T00:00:00+0000
+	     until: 2028-09-02T23:59:59+0000
+	Key usages: cert sign, crl sign, digital signature
+	Extended usages: server auth
+	Basic constraints: valid, is a CA certificate, max path length 0
+	SANs (0):
+	1 AIA:
+		http://yr.i.lencr.org/
+CERTIFICATE
+Subject: /Root YE/C=US/O=ISRG
+Issuer: /ISRG Root X2/C=US/O=Internet Security Research Group
+	Signature algorithm: ECDSA / SHA384
+Details:
+	Public key: ECDSA-secp384r1
+	Serial number: 179619193732476545641173103431506703674
+	AKI: 7C:42:96:AE:DE:4B:48:3B:FA:92:F8:9E:8C:CF:6D:8B:A9:72:37:95
+	SKI: A3:C8:26:5A:8E:A1:4C:D0:35:63:FC:9B:23:C8:3A:AE:56:F3:4F:56
+	Valid from: 2026-05-13T00:00:00+0000
+	     until: 2032-09-02T23:59:59+0000
+	Key usages: cert sign, crl sign
+	Extended usages: server auth
+	Basic constraints: valid, is a CA certificate
+	SANs (0):
+	1 AIA:
+		http://x2.i.lencr.org/
+CERTIFICATE
+Subject: /Root YR/C=US/O=ISRG
+Issuer: /ISRG Root X1/C=US/O=Internet Security Research Group
+	Signature algorithm: RSA / SHA256
+Details:
+	Public key: RSA-4096
+	Serial number: 322064809926559212792997219556942571935
+	AKI: 79:B4:59:E6:7B:B6:E5:E4:01:73:80:08:88:C8:1A:58:F6:E9:9B:6E
+	SKI: DE:E7:5B:60:D0:22:6D:40:28:7D:3F:0D:01:FE:A4:B5:52:B4:51:94
+	Valid from: 2026-05-13T00:00:00+0000
+	     until: 2032-09-02T23:59:59+0000
+	Key usages: cert sign, crl sign
+	Extended usages: server auth
+	Basic constraints: valid, is a CA certificate
+	SANs (0):
+	1 AIA:
+		http://x1.i.lencr.org/
+CERTIFICATE
+Subject: /ISRG Root X2/C=US/O=Internet Security Research Group
+Issuer: /ISRG Root X1/C=US/O=Internet Security Research Group
+	Signature algorithm: RSA / SHA256
+Details:
+	Public key: ECDSA-secp384r1
+	Serial number: 144299725964134815114551462777128548813
+	AKI: 79:B4:59:E6:7B:B6:E5:E4:01:73:80:08:88:C8:1A:58:F6:E9:9B:6E
+	SKI: 7C:42:96:AE:DE:4B:48:3B:FA:92:F8:9E:8C:CF:6D:8B:A9:72:37:95
+	Valid from: 2026-05-13T00:00:00+0000
+	     until: 2032-09-02T23:59:59+0000
+	Key usages: cert sign, crl sign
+	Extended usages: client auth, server auth
+	Basic constraints: valid, is a CA certificate
+	SANs (0):
+	1 AIA:
+		http://x1.i.lencr.org/
