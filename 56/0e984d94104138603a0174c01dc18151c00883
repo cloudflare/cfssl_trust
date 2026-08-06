@@ -1,0 +1,23 @@
+certdata/ca-bundle.txt
+  s_bbb82f166bf968::t_10bcbdbe12706f 7,21,49
+certdata/int-bundle.txt
+  s_bbb82f166bf968::t_9f971b2e37594d 23236-23271
+int-bundle.crt
+  s_bbb82f166bf968::t_2bc2a033d8911f 38575-38629
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "560e984d94104138603a0174c01dc18151c00883",
+  "prompts": {},
+  "sessions": {
+    "s_bbb82f166bf968": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_02820c902ffezJ5uYwiGEtIMPy",
+        "model": "claude-opus-4-7"
+      },
+      "human_author": "Andrew Mitchell <amitchell@cloudflare.com>"
+    }
+  }
+}
