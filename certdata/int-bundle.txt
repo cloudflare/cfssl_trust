@@ -11651,25 +11651,6 @@ Details:
 	OCSP server:
 		- http://ocsp.comodoca.com
 CERTIFICATE
-Subject: /TrustID SAIC Public Email Issuing CA/C=US/O=SAIC
-Issuer: /IdenTrust Commercial Root CA 1/C=US/O=IdenTrust
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-4096
-	Serial number: 85077917875688397503450781753860327804
-	AKI: ED:44:19:C0:D3:F0:06:8B:EE:A4:7B:BE:42:E7:26:54:C8:8E:36:76
-	SKI: CA:91:74:23:4B:A3:2D:02:2A:42:8F:B5:E8:E9:E8:43:50:F2:6F:4C
-	Valid from: 2019-02-28T16:34:01+0000
-	     until: 2026-10-13T08:16:49+0000
-	Key usages: cert sign, crl sign, digital signature
-	Extended usages: client auth, s/mime
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://validation.identrust.com/roots/commercialrootca1.p7c
-	OCSP server:
-		- http://commercial.ocsp.identrust.com
-CERTIFICATE
 Subject: /HARICA Qualified Legal Entities ECC SubCA R2/C=GR/O=Hellenic
     Academic and Research Institutions Cert. Authority/L=Athens
 Issuer: /Hellenic Academic and Research Institutions ECC RootCA
