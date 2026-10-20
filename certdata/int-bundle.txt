@@ -3505,46 +3505,6 @@ Details:
 	OCSP server:
 		- http://uniper-group-ca-2-2015.ocsp.d-trust.net
 CERTIFICATE
-Subject: /C=TW/O=Chunghwa Telecom Co., Ltd./OU=ePKI Root Certification
-    Authority
-Issuer: /ePKI Root Certification Authority - G2/C=TW/O=Chunghwa Telecom Co.,
-    Ltd.
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-4096
-	Serial number: 7083007561045021846628119216699988972
-	AKI: 72:5B:BA:AA:72:38:EE:25:90:24:B5:94:22:FA:09:88:CA:8B:0A:FB
-	SKI: 1E:0C:F7:B6:67:F2:E1:92:26:09:45:C0:55:39:2E:77:3F:42:4A:A2
-	Valid from: 2015-11-17T08:31:41+0000
-	     until: 2034-12-20T02:31:27+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-	1 AIA:
-		http://eca.hinet.net/repository/Certs/IssuedToThisCA.p7b
-	OCSP server:
-		- http://ocsp.eca.hinet.net/OCSP/ocspG2sha2
-CERTIFICATE
-Subject: /C=TW/O=Chunghwa Telecom Co., Ltd./OU=ePKI Root Certification
-    Authority
-Issuer: /ePKI Root Certification Authority - G2/C=TW/O=Chunghwa Telecom Co.,
-    Ltd.
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-4096
-	Serial number: 269677336687240111117627827670483958575
-	AKI: 72:5B:BA:AA:72:38:EE:25:90:24:B5:94:22:FA:09:88:CA:8B:0A:FB
-	SKI: 1E:0C:F7:B6:67:F2:E1:92:26:09:45:C0:55:39:2E:77:3F:42:4A:A2
-	Valid from: 2015-11-17T08:31:41+0000
-	     until: 2034-12-20T02:31:27+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-	1 AIA:
-		http://eca.hinet.net/repository/Certs/IssuedToThisCA.p7b
-	OCSP server:
-		- http://ocsp.eca.hinet.net/OCSP/ocspG2sha2
-CERTIFICATE
 Subject: /ePKI Root Certification Authority - G2/C=TW/O=Chunghwa Telecom Co.,
     Ltd.
 Issuer: /C=TW/O=Chunghwa Telecom Co., Ltd./OU=ePKI Root Certification
