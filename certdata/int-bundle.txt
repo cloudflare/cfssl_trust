@@ -4579,26 +4579,6 @@ Details:
 	OCSP server:
 		- http://g.symcd.com
 CERTIFICATE
-Subject: /Entrust Root Certification Authority - EC1/C=US/O=Entrust,
-    Inc./OU=See www.entrust.net/legal-terms/OU=(c) 2012 Entrust, Inc. - for
-    authorized use only
-Issuer: /Entrust Root Certification Authority/C=US/O=Entrust,
-    Inc./OU=www.entrust.net/CPS is incorporated by reference/OU=(c) 2006
-    Entrust, Inc.
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: ECDSA-secp384r1
-	Serial number: 170229968274379685601515880367357384542
-	AKI: 68:90:E4:67:A4:A6:53:80:C7:86:66:A4:F1:F7:4B:43:FB:84:BD:6D
-	SKI: B7:63:E7:1A:DD:8D:E9:08:A6:55:83:A4:E0:6A:50:41:65:11:42:49
-	Valid from: 2016-06-10T14:58:55+0000
-	     until: 2026-11-10T15:28:55+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 1
-	SANs (0):
-	OCSP server:
-		- http://ocsp.entrust.net
-CERTIFICATE
 Subject: /TU Dortmund Chipcard CA 2/C=DE/O=Technische Universitaet Dortmund
 Issuer: /DFN-Verein Certification Authority 2/C=DE/O=Verein zur Foerderung
     eines Deutschen Forschungsnetzes e. V./OU=DFN-PKI
@@ -5112,46 +5092,6 @@ Details:
 		http://cdp2.pca.dfn.de/global-root-g2-ca/pub/cacert/cacert.crt
 	OCSP server:
 		- http://ocsp.pca.dfn.de/OCSP-Server/OCSP
-CERTIFICATE
-Subject: /WoSign OV SSL CA/C=CN/O=WoSign CA Limited
-Issuer: /Certum Trusted Network CA/C=PL/O=Unizeto Technologies S.A./OU=Certum
-    Certification Authority
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 317711989018086482558835888959192382619
-	AKI: 08:76:CD:CB:07:FF:24:F6:C5:CD:ED:BB:90:BC:E2:84:37:46:75:F7
-	SKI: A1:13:54:DC:56:73:2C:27:82:CA:C8:84:EF:EE:BF:00:FD:5F:AB:56
-	Valid from: 2016-11-09T08:33:44+0000
-	     until: 2026-11-09T08:33:44+0000
-	Key usages: cert sign, crl sign
-	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://repository.certum.pl/ctnca.cer
-	OCSP server:
-		- http://subca.ocsp-certum.com
-CERTIFICATE
-Subject: /WoSign EV SSL CA/C=CN/O=WoSign CA Limited
-Issuer: /Certum Trusted Network CA/C=PL/O=Unizeto Technologies S.A./OU=Certum
-    Certification Authority
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 109049800597290668594627629663994031093
-	AKI: 08:76:CD:CB:07:FF:24:F6:C5:CD:ED:BB:90:BC:E2:84:37:46:75:F7
-	SKI: DE:97:08:59:BF:94:69:1D:25:68:DC:EC:76:D0:26:7A:4C:97:FB:1A
-	Valid from: 2016-11-10T11:03:19+0000
-	     until: 2026-11-10T11:03:19+0000
-	Key usages: cert sign, crl sign
-	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://repository.certum.pl/ctnca.cer
-	OCSP server:
-		- http://subca.ocsp-certum.com
 CERTIFICATE
 Subject: /D-TRUST Application Certificates CA 3-2 2016/C=DE/O=D-Trust GmbH
 Issuer: /D-TRUST Root CA 3 2013/C=DE/O=D-Trust GmbH
