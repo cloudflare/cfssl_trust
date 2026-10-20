@@ -1,8 +1,8 @@
 # Dockerfile to run the cfssl_trust release script locally.
 # WARP must be turned off to run the script.
-# Provides Go 1.21, certdump, cfssl tools, and cfssl-trust
+# Provides Go 1.27.3, certdump, cfssl tools, and cfssl-trust
 
-FROM golang:1.21-bookworm
+FROM golang:1.27.3-trixie
 
 # Install git and update CA certificates
 RUN apt-get update && apt-get install -y \

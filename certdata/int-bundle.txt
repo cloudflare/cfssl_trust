@@ -50,42 +50,6 @@ Details:
 	Basic constraints: valid, is a CA certificate, max path length 11
 	SANs (1): email:ac_camerfirma@camerfirma.com
 CERTIFICATE
-Subject: /COMODO RSA Certification Authority/C=GB/O=COMODO CA
-    Limited/L=Salford/ST=Greater Manchester
-Issuer: /AAA Certificate Services/C=GB/O=Comodo CA
-    Limited/L=Salford/ST=Greater Manchester
-	Signature algorithm: RSA / SHA384
-Details:
-	Public key: RSA-4096
-	Serial number: 138068127363266052427974132567073013892
-	AKI: A0:11:0A:23:3E:96:F1:07:EC:E2:AF:29:EF:82:A5:7F:D0:30:A4:B4
-	SKI: BB:AF:7E:02:3D:FA:A6:F1:3C:84:8E:AD:EE:38:98:EC:D9:32:32:D4
-	Valid from: 2004-01-01T00:00:00+0000
-	     until: 2028-12-31T23:59:59+0000
-	Key usages: cert sign, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-	OCSP server:
-		- http://ocsp.comodoca.com
-CERTIFICATE
-Subject: /COMODO ECC Certification Authority/C=GB/O=COMODO CA
-    Limited/L=Salford/ST=Greater Manchester
-Issuer: /AAA Certificate Services/C=GB/O=Comodo CA
-    Limited/L=Salford/ST=Greater Manchester
-	Signature algorithm: RSA / SHA384
-Details:
-	Public key: ECDSA-secp384r1
-	Serial number: 30434779307599757625323899518303222751
-	AKI: A0:11:0A:23:3E:96:F1:07:EC:E2:AF:29:EF:82:A5:7F:D0:30:A4:B4
-	SKI: 75:71:A7:19:48:19:BC:9D:9D:EA:41:47:DF:94:C4:48:77:99:D3:79
-	Valid from: 2004-01-01T00:00:00+0000
-	     until: 2028-12-31T23:59:59+0000
-	Key usages: cert sign, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-	OCSP server:
-		- http://ocsp.comodoca.com
-CERTIFICATE
 Subject: /UTN-USERFirst-Client Authentication and Email/C=US/O=The USERTRUST
     Network/OU=http://www.usertrust.com/L=Salt Lake City/ST=UT
 Issuer: /AAA Certificate Services/C=GB/O=Comodo CA
@@ -11843,42 +11807,6 @@ Details:
 		http://www.ssl.com/repository/SSLcom-RootCA-ECC-384-R1.crt
 	OCSP server:
 		- http://ocsps.ssl.com
-CERTIFICATE
-Subject: /USERTrust RSA Certification Authority/C=US/O=The USERTRUST
-    Network/L=Jersey City/ST=New Jersey
-Issuer: /AAA Certificate Services/C=GB/O=Comodo CA
-    Limited/L=Salford/ST=Greater Manchester
-	Signature algorithm: RSA / SHA384
-Details:
-	Public key: RSA-4096
-	Serial number: 76359301477803385872276235234032301461
-	AKI: A0:11:0A:23:3E:96:F1:07:EC:E2:AF:29:EF:82:A5:7F:D0:30:A4:B4
-	SKI: 53:79:BF:5A:AA:2B:4A:CF:54:80:E1:D8:9B:C0:9D:F2:B2:03:66:CB
-	Valid from: 2019-03-12T00:00:00+0000
-	     until: 2028-12-31T23:59:59+0000
-	Key usages: cert sign, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-	OCSP server:
-		- http://ocsp.comodoca.com
-CERTIFICATE
-Subject: /USERTrust ECC Certification Authority/C=US/O=The USERTRUST
-    Network/L=Jersey City/ST=New Jersey
-Issuer: /AAA Certificate Services/C=GB/O=Comodo CA
-    Limited/L=Salford/ST=Greater Manchester
-	Signature algorithm: RSA / SHA384
-Details:
-	Public key: ECDSA-secp384r1
-	Serial number: 114849002793238729640937462275813569940
-	AKI: A0:11:0A:23:3E:96:F1:07:EC:E2:AF:29:EF:82:A5:7F:D0:30:A4:B4
-	SKI: 3A:E1:09:86:D4:CF:19:C2:96:76:74:49:76:DC:E0:35:C6:63:63:9A
-	Valid from: 2019-03-12T00:00:00+0000
-	     until: 2028-12-31T23:59:59+0000
-	Key usages: cert sign, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-	OCSP server:
-		- http://ocsp.comodoca.com
 CERTIFICATE
 Subject: /HARICA SSL RSA SubCA R3/C=GR/O=Hellenic Academic and Research
     Institutions Cert. Authority/L=Athens
