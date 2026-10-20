@@ -52,6 +52,8 @@ systems. Currently, we have trust stores from
 
 #### Prerequisites
 
+Use Go 1.27.3 or a later patched release for the release tools.
+
 ```
 $ go install git.wntrmute.dev/kyle/goutils/cmd/certdump@v1.7.7
 $ go install github.com/cloudflare/cfssl/cmd/...@latest
@@ -105,3 +107,20 @@ These calls to the `expiring` command will provide an output showing if there ar
 1 certificates expiring.
 0 certificates revoked.
 ```
+
+### eMudhra compromise mitigation (October 2026)
+
+Following the [eMudhra intermediate key compromise](https://blog.mozilla.org/security/2026/10/20/protecting-firefox-users-following-the-compromise-of-emudhra-intermediate-certificates/),
+AAA Certificate Services and emSign ECC Root CA - G3 have been removed from
+the root bundle in release `2026.10.0`. Dated distrust records prevent future
+release rolls from including them. Historical releases and platform snapshots
+are preserved for reproducibility. emSign Root TLS CA - G3 and the eight
+compromised intermediate keys were absent from the bundles. The unaffected
+emSign C1, C3, and G1 roots remain trusted.
+
+Removing these roots can also reject legitimate certificate chains.
+Replacement intermediates are not included.
+
+Consumers must deploy the updated bundle and restart services that load roots
+at startup. Rebuild Go services with Go 1.27.3 or Go 1.26.10 (or a later
+patched release) to also block the compromised keys during path validation.

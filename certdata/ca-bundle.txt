@@ -407,21 +407,6 @@ Details:
 	Basic constraints: valid, is a CA certificate, max path length 12
 	SANs (1): email:chambersignroot@chambersign.org
 CERTIFICATE
-Subject: /AAA Certificate Services/C=GB/O=Comodo CA
-    Limited/L=Salford/ST=Greater Manchester
-Issuer: /AAA Certificate Services/C=GB/O=Comodo CA
-    Limited/L=Salford/ST=Greater Manchester
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 1
-	SKI: A0:11:0A:23:3E:96:F1:07:EC:E2:AF:29:EF:82:A5:7F:D0:30:A4:B4
-	Valid from: 2004-01-01T00:00:00+0000
-	     until: 2028-12-31T23:59:59+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
 Subject: /Secure Certificate Services/C=GB/O=Comodo CA
     Limited/L=Salford/ST=Greater Manchester
 Issuer: /Secure Certificate Services/C=GB/O=Comodo CA
@@ -4403,21 +4388,6 @@ Details:
 	Public key: RSA-2048
 	Serial number: 235931866688319308814040
 	SKI: FB:EF:0D:86:9E:B0:E3:DD:A9:B9:F1:21:17:7F:3E:FC:F0:77:2B:1A
-	Valid from: 2018-02-18T18:30:00+0000
-	     until: 2043-02-18T18:30:00+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
-Subject: /emSign ECC Root CA - G3/C=IN/O=eMudhra Technologies
-    Limited/OU=emSign PKI
-Issuer: /emSign ECC Root CA - G3/C=IN/O=eMudhra Technologies Limited/OU=emSign
-    PKI
-	Signature algorithm: ECDSA / SHA384
-Details:
-	Public key: ECDSA-secp384r1
-	Serial number: 287880440101571086945156
-	SKI: 7C:5D:02:84:13:D4:CC:8A:9B:81:CE:17:1C:2E:29:1E:9C:48:63:42
 	Valid from: 2018-02-18T18:30:00+0000
 	     until: 2043-02-18T18:30:00+0000
 	Key usages: cert sign, crl sign
