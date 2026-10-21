@@ -50,23 +50,6 @@ Details:
 	Basic constraints: valid, is a CA certificate, max path length 11
 	SANs (1): email:ac_camerfirma@camerfirma.com
 CERTIFICATE
-Subject: /UTN-USERFirst-Client Authentication and Email/C=US/O=The USERTRUST
-    Network/OU=http://www.usertrust.com/L=Salt Lake City/ST=UT
-Issuer: /AAA Certificate Services/C=GB/O=Comodo CA
-    Limited/L=Salford/ST=Greater Manchester
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 150965947980182260189135672189403666599
-	AKI: A0:11:0A:23:3E:96:F1:07:EC:E2:AF:29:EF:82:A5:7F:D0:30:A4:B4
-	SKI: 89:82:67:7D:C4:9D:26:70:00:4B:B4:50:48:7C:DE:3D:AE:04:6E:7D
-	Valid from: 2004-01-01T00:00:00+0000
-	     until: 2028-12-31T23:59:59+0000
-	Key usages: cert sign, crl sign
-	Extended usages: client auth, s/mime
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
 Subject: /AC Camerfirma Certificados Camerales/C=ES/O=AC Camerfirma
     SA/L=Madrid (see current address at www.camerfirma.com/address)
 Issuer: /Chambers of Commerce Root/C=EU/O=AC Camerfirma SA CIF
@@ -3900,26 +3883,6 @@ Details:
 		- http://ocsp2.netlock.hu/gold.cgi
 		- http://ocsp3.netlock.hu/gold.cgi
 CERTIFICATE
-Subject: /StartCom Class 3 OV Server CA/C=IL/O=StartCom Ltd./OU=StartCom
-    Certification Authority
-Issuer: /Certification Authority of WoSign G2/C=CN/O=WoSign CA Limited
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 131507321505835480915737962268449512296
-	AKI: FA:60:A9:EB:65:C5:DD:16:14:08:4E:0C:0F:8D:9B:E0:F7:64:AF:67
-	SKI: B1:3F:1C:92:7B:92:B0:5A:25:B3:38:FB:9C:07:A4:26:50:32:E3:51
-	Valid from: 2015-12-16T01:00:01+0000
-	     until: 2030-12-16T01:00:01+0000
-	Key usages: cert sign, crl sign
-	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://aia1.wosign.com/ca6-st-server3.cer
-	OCSP server:
-		- http://ocsp1.wosign.com
-CERTIFICATE
 Subject: /StartCom Class 1 DV Server CA/C=IL/O=StartCom Ltd./OU=StartCom
     Certification Authority
 Issuer: /StartCom Certification Authority/C=IL/O=StartCom Ltd./OU=Secure
@@ -5683,25 +5646,6 @@ Details:
 	OCSP server:
 		- http://ocsp.certsign.ro
 CERTIFICATE
-Subject: /JCAN Public CA1 - G4/C=JP/O=JIPDEC/OU=JCAN Public CA1 - G4
-Issuer: /Trusted Root CA SHA256 G2/C=BE/O=GlobalSign nv-sa/OU=Trusted Root
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 1479799948140408368275204572446989
-	AKI: C8:63:9B:08:69:54:C2:98:C8:D9:CD:E3:33:B7:50:5E:F8:C9:01:9B
-	SKI: B9:8E:CD:F1:EC:7A:2E:9C:B9:EB:6F:0B:1C:C4:D4:AC:19:AE:A1:54
-	Valid from: 2017-02-22T00:00:00+0000
-	     until: 2027-02-22T00:00:00+0000
-	Key usages: cert sign, crl sign
-	Extended usages: client auth, ipsec user, ocsp signing, s/mime
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://secure.globalsign.com/cacert/trustrootsha2g2.crt
-	OCSP server:
-		- http://ocsp2.globalsign.com/trustrootsha2g2
-CERTIFICATE
 Subject: /SSL.com EV Root Certification Authority RSA R2/C=US/O=SSL
     Corporation/L=Houston/ST=Texas
 Issuer: /SSL.com EV Root Certification Authority RSA R2/C=US/O=SSL
@@ -6253,25 +6197,6 @@ Details:
 	SANs (0):
 	OCSP server:
 		- http://ocsp2.globalsign.com/rootr3
-CERTIFICATE
-Subject: /COMODO SHA-256 Client Authentication and Secure Email CA
-    3/C=GB/O=COMODO CA Limited/L=Salford/ST=Greater Manchester
-Issuer: /AAA Certificate Services/C=GB/O=Comodo CA
-    Limited/L=Salford/ST=Greater Manchester
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 338557675202063134740279581908924563587
-	AKI: A0:11:0A:23:3E:96:F1:07:EC:E2:AF:29:EF:82:A5:7F:D0:30:A4:B4
-	SKI: 6C:97:B5:98:F5:17:B8:F9:BD:62:6C:0F:4A:4E:79:49:CD:82:B5:67
-	Valid from: 2017-07-06T00:00:00+0000
-	     until: 2028-12-31T23:59:59+0000
-	Key usages: cert sign, crl sign, digital signature
-	Extended usages: client auth, s/mime
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://ocsp.comodoca.com
 CERTIFICATE
 Subject: /InfoCert Organization Validation CA 3/C=IT/O=InfoCert S.p.A./OU=WSA
     Trust Service Provider
@@ -8334,25 +8259,6 @@ Details:
 	OCSP server:
 		- http://ocsp.usertrust.com
 CERTIFICATE
-Subject: /emSign ECC EV SSL CA - G3/C=IN/O=eMudhra Technologies
-    Limited/OU=emSign PKI
-Issuer: /emSign ECC Root CA - G3/C=IN/O=eMudhra Technologies Limited/OU=emSign
-    PKI
-	Signature algorithm: ECDSA / SHA384
-Details:
-	Public key: ECDSA-secp384r1
-	Serial number: 9412337563025552451134
-	AKI: 7C:5D:02:84:13:D4:CC:8A:9B:81:CE:17:1C:2E:29:1E:9C:48:63:42
-	SKI: D1:AA:B4:D2:D2:25:82:4E:B3:F0:93:60:17:4A:9B:63:7A:F9:1F:0D
-	Valid from: 2018-02-18T18:30:00+0000
-	     until: 2033-02-18T18:30:00+0000
-	Key usages: cert sign, crl sign
-	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://ocsp.emsign.com
-CERTIFICATE
 Subject: /emSign Class 2 CA - C1/C=US/O=eMudhra Inc/OU=emSign PKI
 Issuer: /emSign Root CA - C1/C=US/O=eMudhra Inc/OU=emSign PKI
 	Signature algorithm: RSA / SHA256
@@ -8470,24 +8376,6 @@ Details:
 	OCSP server:
 		- http://ocsp.emsign.com
 CERTIFICATE
-Subject: /emSign ECC Class 2 CA - G3/C=IN/O=eMudhra Technologies
-    Limited/OU=emSign PKI
-Issuer: /emSign ECC Root CA - G3/C=IN/O=eMudhra Technologies Limited/OU=emSign
-    PKI
-	Signature algorithm: ECDSA / SHA384
-Details:
-	Public key: ECDSA-secp384r1
-	Serial number: 169446747838701918809565
-	AKI: 7C:5D:02:84:13:D4:CC:8A:9B:81:CE:17:1C:2E:29:1E:9C:48:63:42
-	SKI: E0:16:FE:BD:C4:E1:65:C6:A5:99:4C:89:5E:71:8E:D4:5D:67:F1:FD
-	Valid from: 2018-02-18T18:30:00+0000
-	     until: 2033-02-18T18:30:00+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://ocsp.emsign.com
-CERTIFICATE
 Subject: /emSign ECC Class 3 CA - C3/C=US/O=eMudhra Inc/OU=emSign PKI
 Issuer: /emSign ECC Root CA - C3/C=US/O=eMudhra Inc/OU=emSign PKI
 	Signature algorithm: ECDSA / SHA384
@@ -8537,61 +8425,6 @@ Details:
 	OCSP server:
 		- http://ocsp.emsign.com
 CERTIFICATE
-Subject: /emSign ECC SSL CA - G3/C=IN/O=eMudhra Technologies Limited/OU=emSign
-    PKI
-Issuer: /emSign ECC Root CA - G3/C=IN/O=eMudhra Technologies Limited/OU=emSign
-    PKI
-	Signature algorithm: ECDSA / SHA384
-Details:
-	Public key: ECDSA-secp384r1
-	Serial number: 542440914775208739274695
-	AKI: 7C:5D:02:84:13:D4:CC:8A:9B:81:CE:17:1C:2E:29:1E:9C:48:63:42
-	SKI: 13:8D:4C:28:99:E1:62:B7:D2:E0:53:E3:18:D1:62:DC:1C:CA:66:FA
-	Valid from: 2018-02-18T18:30:00+0000
-	     until: 2033-02-18T18:30:00+0000
-	Key usages: cert sign, crl sign
-	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://ocsp.emsign.com
-CERTIFICATE
-Subject: /emSign ECC Class 3 CA - G3/C=IN/O=eMudhra Technologies
-    Limited/OU=emSign PKI
-Issuer: /emSign ECC Root CA - G3/C=IN/O=eMudhra Technologies Limited/OU=emSign
-    PKI
-	Signature algorithm: ECDSA / SHA384
-Details:
-	Public key: ECDSA-secp384r1
-	Serial number: 873253120750060978356981
-	AKI: 7C:5D:02:84:13:D4:CC:8A:9B:81:CE:17:1C:2E:29:1E:9C:48:63:42
-	SKI: 22:62:4A:BC:7E:6D:A1:30:B7:2A:C9:95:7E:2A:23:DE:3D:27:F3:8D
-	Valid from: 2018-02-18T18:30:00+0000
-	     until: 2033-02-18T18:30:00+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://ocsp.emsign.com
-CERTIFICATE
-Subject: /emSign ECC Device CA - G3/C=IN/O=eMudhra Technologies
-    Limited/OU=emSign PKI
-Issuer: /emSign ECC Root CA - G3/C=IN/O=eMudhra Technologies Limited/OU=emSign
-    PKI
-	Signature algorithm: ECDSA / SHA384
-Details:
-	Public key: ECDSA-secp384r1
-	Serial number: 639336671160327963483843
-	AKI: 7C:5D:02:84:13:D4:CC:8A:9B:81:CE:17:1C:2E:29:1E:9C:48:63:42
-	SKI: A5:AC:F9:1F:5A:25:8E:10:B0:29:DA:19:00:26:86:E8:A1:E6:E8:D9
-	Valid from: 2018-02-18T18:30:00+0000
-	     until: 2033-02-18T18:30:00+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://ocsp.emsign.com
-CERTIFICATE
 Subject: /emSign ECC SSL CA - C3/C=US/O=eMudhra Inc/OU=emSign PKI
 Issuer: /emSign ECC Root CA - C3/C=US/O=eMudhra Inc/OU=emSign PKI
 	Signature algorithm: ECDSA / SHA384
@@ -8604,24 +8437,6 @@ Details:
 	     until: 2033-02-18T18:30:00+0000
 	Key usages: cert sign, crl sign
 	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://ocsp.emsign.com
-CERTIFICATE
-Subject: /emSign ECC Class 1 CA - G3/C=IN/O=eMudhra Technologies
-    Limited/OU=emSign PKI
-Issuer: /emSign ECC Root CA - G3/C=IN/O=eMudhra Technologies Limited/OU=emSign
-    PKI
-	Signature algorithm: ECDSA / SHA384
-Details:
-	Public key: ECDSA-secp384r1
-	Serial number: 1185869810258632733645093
-	AKI: 7C:5D:02:84:13:D4:CC:8A:9B:81:CE:17:1C:2E:29:1E:9C:48:63:42
-	SKI: 46:BE:80:C3:C8:27:FE:EC:9B:58:2B:1A:62:5D:B2:D5:D1:02:38:68
-	Valid from: 2018-02-18T18:30:00+0000
-	     until: 2033-02-18T18:30:00+0000
-	Key usages: cert sign, crl sign
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
 	OCSP server:
@@ -13701,24 +13516,6 @@ Details:
 	SANs (0):
 	OCSP server:
 		- http://ocsp.globalsign.com/rootr1
-CERTIFICATE
-Subject: /Apple Public Client RSA CA 12 - G1/C=US/O=Apple Inc./ST=California
-Issuer: /AAA Certificate Services/C=GB/O=Comodo CA
-    Limited/L=Salford/ST=Greater Manchester
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 270463198999897041386963064417266587490
-	AKI: A0:11:0A:23:3E:96:F1:07:EC:E2:AF:29:EF:82:A5:7F:D0:30:A4:B4
-	SKI: CA:06:F0:92:12:3D:7B:00:5A:E9:28:47:A8:25:1B:F0:D0:80:42:CC
-	Valid from: 2019-06-19T00:00:00+0000
-	     until: 2028-12-06T23:59:59+0000
-	Key usages: cert sign, crl sign, digital signature
-	Extended usages: client auth, s/mime
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://ocsp.comodoca.com
 CERTIFICATE
 Subject: /GlobalSign/O=GlobalSign/OU=GlobalSign ECC Root CA - R5
 Issuer: /GlobalSign Root CA/C=BE/O=GlobalSign nv-sa/OU=Root CA
