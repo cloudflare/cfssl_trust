@@ -23137,6 +23137,25 @@ Details:
 	OCSP server:
 		- http://ocsp.digicert.com
 CERTIFICATE
+Subject: /DigiCert TLS ECC P384 Root G5/C=US/O=DigiCert, Inc.
+Issuer: /DigiCert Global Root G3/C=US/O=DigiCert Inc/OU=www.digicert.com
+	Signature algorithm: ECDSA / SHA384
+Details:
+	Public key: ECDSA-secp384r1
+	Serial number: 18539909719201106601661290138344010236
+	AKI: B3:DB:48:A4:F9:A1:C5:D8:AE:36:41:CC:11:63:69:62:29:BC:4B:C6
+	SKI: C1:51:45:50:59:AB:3E:E7:2C:5A:FA:20:22:12:07:80:88:7C:11:6A
+	Valid from: 2026-03-31T00:00:00+0000
+	     until: 2036-03-30T23:59:59+0000
+	Key usages: cert sign, crl sign, digital signature
+	Extended usages: client auth, server auth
+	Basic constraints: valid, is a CA certificate
+	SANs (0):
+	1 AIA:
+		http://cacerts.digicert.com/DigiCertGlobalRootG3.crt
+	OCSP server:
+		- http://ocsp.digicert.com
+CERTIFICATE
 Subject: /Root YE/C=US/O=ISRG
 Issuer: /ISRG Root X2/C=US/O=Internet Security Research Group
 	Signature algorithm: ECDSA / SHA384
