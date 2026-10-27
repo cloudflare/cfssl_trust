@@ -22781,6 +22781,42 @@ Details:
 	1 AIA:
 		http://x1.i.lencr.org/
 CERTIFICATE
+Subject: /Entrust OV TLS Issuing RSA CA 1/C=US/O=SSL Corporation
+Issuer: /SSL.com TLS RSA Root CA 2022/C=US/O=SSL Corporation
+	Signature algorithm: RSA / SHA256
+Details:
+	Public key: RSA-4096
+	Serial number: 148739810937271483215740372140588406125
+	AKI: FB:2E:37:EE:E3:84:7A:27:2E:CD:19:35:B1:33:7C:FF:D4:44:42:B9
+	SKI: 68:0D:45:CA:35:C2:E7:9A:1B:F0:B3:84:DD:D5:DA:7F:0B:89:C1:11
+	Valid from: 2024-08-22T17:53:38+0000
+	     until: 2027-08-22T17:53:37+0000
+	Key usages: cert sign, crl sign, digital signature
+	Extended usages: client auth, server auth
+	Basic constraints: valid, is a CA certificate, max path length 0
+	SANs (0):
+	1 AIA:
+		http://cert.ssl.com/SSLcom-TLS-Root-2022-RSA.cer
+CERTIFICATE
+Subject: /Entrust EV TLS Issuing RSA CA 1/C=US/O=SSL Corporation
+Issuer: /SSL.com TLS RSA Root CA 2022/C=US/O=SSL Corporation
+	Signature algorithm: RSA / SHA256
+Details:
+	Public key: RSA-4096
+	Serial number: 131837064514734363387413724372700771960
+	AKI: FB:2E:37:EE:E3:84:7A:27:2E:CD:19:35:B1:33:7C:FF:D4:44:42:B9
+	SKI: 73:6C:21:C3:17:3F:B5:94:B0:7B:4A:82:49:44:90:88:CF:7E:60:44
+	Valid from: 2024-08-22T17:54:46+0000
+	     until: 2027-08-22T17:54:45+0000
+	Key usages: cert sign, crl sign, digital signature
+	Extended usages: client auth, server auth
+	Basic constraints: valid, is a CA certificate, max path length 0
+	SANs (0):
+	1 AIA:
+		http://cert.ssl.com/SSLcom-TLS-Root-2022-RSA.cer
+	OCSP server:
+		- http://ocsps.ssl.com
+CERTIFICATE
 Subject: /Entrust OV TLS Issuing RSA CA 2/C=CA/O=Entrust Limited
 Issuer: /Sectigo Public Server Authentication Root R46/C=GB/O=Sectigo Limited
 	Signature algorithm: RSA / SHA384
