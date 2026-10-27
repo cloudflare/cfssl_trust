@@ -27,7 +27,8 @@ Files:
 ├── README.md
 ```
 
-The `ca-bundle.crt` file contains the trusted roots. CFSSL uses the
+The `ca-bundle.crt` file contains trust anchors, including selected
+non-self-signed CA certificates. CFSSL uses the
 `ca-bundle.crt.metadata` when building bundles to assist in building
 bundles that need to verified in the maximum number of trust stores
 on different systems. The `int-bundle.crt` file contains a number of
@@ -52,6 +53,8 @@ systems. Currently, we have trust stores from
 
 #### Prerequisites
 
+Use Go 1.27.3 or a later patched release for the release tools.
+
 ```
 $ go install git.wntrmute.dev/kyle/goutils/cmd/certdump@v1.7.7
 $ go install github.com/cloudflare/cfssl/cmd/...@latest
@@ -67,8 +70,14 @@ built as follows:
 $ ./release.sh
 ```
 
-This command automatically removes expiring certificates, and pushes the
-changes to a new release branch.
+Run this command from an up-to-date checkout containing the changes to
+publish, with no unrelated tracked or staged changes. It rolls new root and
+intermediate database snapshots, filters revoked and expiring certificates,
+and regenerates the bundles. It then commits the changes on a new
+`release/<version>` branch and immediately pushes both the branch and a
+`trust-store-<version>` tag to `origin`. Branch and tag push permission is
+required. Open a pull request for the release branch afterward; the script
+does not create one.
 
 The content of 'ca-bundle.crt.metadata' is crucial to building
 ubiquitous bundle. Feel free to tune its content. Make sure the paths to
@@ -105,3 +114,26 @@ These calls to the `expiring` command will provide an output showing if there ar
 1 certificates expiring.
 0 certificates revoked.
 ```
+
+### eMudhra compromise mitigation (October 2026)
+
+Following the [eMudhra intermediate key compromise](https://blog.mozilla.org/security/2026/10/20/protecting-firefox-users-following-the-compromise-of-emudhra-intermediate-certificates/),
+AAA Certificate Services and emSign ECC Root CA - G3 were removed from
+database snapshot `2026.10.0`, first published in tagged release
+`trust-store-2026.10.1`. Dated distrust records prevent future release rolls
+from including them. Historical releases and platform snapshots
+are preserved for reproducibility. emSign Root TLS CA - G3 and the eight
+compromised intermediate keys were absent from the bundles. The unaffected
+emSign C1, C3, and G1 roots remain trusted.
+
+Removing these roots can also reject legitimate certificate chains.
+Database snapshot `2026.10.2` explicitly trusts 17 selected AAA-issued
+server-authentication CA certificates as non-self-signed anchors in
+`ca-bundle.crt`, preserving selected paths without restoring trust in the
+AAA root. Consumers must support terminating verification at these anchors
+(for example, OpenSSL requires `-partial_chain`); loading them only as
+untrusted intermediates is insufficient.
+
+Consumers must deploy the updated bundle and restart services that load roots
+at startup. Rebuild Go services with Go 1.27.3 or Go 1.26.10 (or a later
+patched release) to also block the compromised keys during path validation.

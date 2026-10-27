@@ -4,7 +4,7 @@ Subject: /C=US/O=VeriSign, Inc./OU=Class 3 Public Primary Certification
     Authority
 Issuer: /C=US/O=VeriSign, Inc./OU=Class 3 Public Primary Certification
     Authority
-	Signature algorithm: RSA / MD2
+	Signature algorithm: unknown public key algorithm / unknown hash algorithm
 Details:
 	Public key: RSA-1024
 	Serial number: 149843929435818692848040365716851702463
@@ -18,7 +18,7 @@ Subject: /C=US/O=VeriSign, Inc./OU=Class 1 Public Primary Certification
     Authority
 Issuer: /C=US/O=VeriSign, Inc./OU=Class 1 Public Primary Certification
     Authority
-	Signature algorithm: RSA / MD2
+	Signature algorithm: unknown public key algorithm / unknown hash algorithm
 Details:
 	Public key: RSA-1024
 	Serial number: 273460089105783944861631223625220794965
@@ -46,7 +46,7 @@ Subject: /C=US/O=VeriSign, Inc./OU=Class 2 Public Primary Certification
     Authority
 Issuer: /C=US/O=VeriSign, Inc./OU=Class 2 Public Primary Certification
     Authority
-	Signature algorithm: RSA / MD2
+	Signature algorithm: unknown public key algorithm / unknown hash algorithm
 Details:
 	Public key: RSA-1024
 	Serial number: 59960568862895187107119492226041101835
@@ -406,21 +406,6 @@ Details:
 	Key usages: cert sign, crl sign
 	Basic constraints: valid, is a CA certificate, max path length 12
 	SANs (1): email:chambersignroot@chambersign.org
-CERTIFICATE
-Subject: /AAA Certificate Services/C=GB/O=Comodo CA
-    Limited/L=Salford/ST=Greater Manchester
-Issuer: /AAA Certificate Services/C=GB/O=Comodo CA
-    Limited/L=Salford/ST=Greater Manchester
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 1
-	SKI: A0:11:0A:23:3E:96:F1:07:EC:E2:AF:29:EF:82:A5:7F:D0:30:A4:B4
-	Valid from: 2004-01-01T00:00:00+0000
-	     until: 2028-12-31T23:59:59+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
 CERTIFICATE
 Subject: /Secure Certificate Services/C=GB/O=Comodo CA
     Limited/L=Salford/ST=Greater Manchester
@@ -3412,6 +3397,25 @@ Details:
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
+Subject: /COMODO SHA-2 Pro Series Secure Server CA/C=GB/O=COMODO CA
+    Limited/L=Salford/ST=Greater Manchester
+Issuer: /AAA Certificate Services/C=GB/O=Comodo CA
+    Limited/L=Salford/ST=Greater Manchester
+	Signature algorithm: RSA / SHA384
+Details:
+	Public key: RSA-2048
+	Serial number: 184858721663017272285092440656930223752
+	AKI: A0:11:0A:23:3E:96:F1:07:EC:E2:AF:29:EF:82:A5:7F:D0:30:A4:B4
+	SKI: 80:B6:2B:0D:40:0A:0F:DF:3F:A4:BF:BF:03:F4:B1:76:6B:D5:E7:8F
+	Valid from: 2014-09-16T00:00:00+0000
+	     until: 2029-09-15T23:59:59+0000
+	Key usages: cert sign, crl sign, digital signature
+	Extended usages: client auth, server auth
+	Basic constraints: valid, is a CA certificate, max path length 0
+	SANs (0):
+	OCSP server:
+		- http://ocsp.comodoca.com
+CERTIFICATE
 Subject: /Microsoft Time Stamp Root Certificate Authority
     2014/C=US/O=Microsoft Corporation/L=Redmond/ST=Washington
 Issuer: /Microsoft Time Stamp Root Certificate Authority 2014/C=US/O=Microsoft
@@ -3484,6 +3488,25 @@ Details:
 	Key usages: cert sign, crl sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
+CERTIFICATE
+Subject: /COMODO SHA-2 Pro Series Secure Server CA/C=GB/O=COMODO CA
+    Limited/L=Salford/ST=Greater Manchester
+Issuer: /AAA Certificate Services/C=GB/O=Comodo CA
+    Limited/L=Salford/ST=Greater Manchester
+	Signature algorithm: RSA / SHA384
+Details:
+	Public key: RSA-2048
+	Serial number: 246883634746357637939162446578486023875
+	AKI: A0:11:0A:23:3E:96:F1:07:EC:E2:AF:29:EF:82:A5:7F:D0:30:A4:B4
+	SKI: 80:B6:2B:0D:40:0A:0F:DF:3F:A4:BF:BF:03:F4:B1:76:6B:D5:E7:8F
+	Valid from: 2015-02-12T00:00:00+0000
+	     until: 2030-02-11T23:59:59+0000
+	Key usages: cert sign, crl sign, digital signature
+	Extended usages: client auth, server auth
+	Basic constraints: valid, is a CA certificate, max path length 0
+	SANs (0):
+	OCSP server:
+		- http://ocsp.comodoca.com
 CERTIFICATE
 Subject: /UCA Extended Validation Root/C=CN/O=UniTrust
 Issuer: /UCA Extended Validation Root/C=CN/O=UniTrust
@@ -4409,21 +4432,6 @@ Details:
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
-Subject: /emSign ECC Root CA - G3/C=IN/O=eMudhra Technologies
-    Limited/OU=emSign PKI
-Issuer: /emSign ECC Root CA - G3/C=IN/O=eMudhra Technologies Limited/OU=emSign
-    PKI
-	Signature algorithm: ECDSA / SHA384
-Details:
-	Public key: ECDSA-secp384r1
-	Serial number: 287880440101571086945156
-	SKI: 7C:5D:02:84:13:D4:CC:8A:9B:81:CE:17:1C:2E:29:1E:9C:48:63:42
-	Valid from: 2018-02-18T18:30:00+0000
-	     until: 2043-02-18T18:30:00+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
 Subject: /emSign Root CA - C2/C=US/O=eMudhra Inc/OU=emSign PKI
 Issuer: /emSign Root CA - C2/C=US/O=eMudhra Inc/OU=emSign PKI
 	Signature algorithm: RSA / SHA384
@@ -4497,6 +4505,25 @@ Details:
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
+Subject: /Comodo Japan RSA DV CA/C=JP/O=Comodo Japan,
+    Inc./L=Chiyoda-ku/ST=Tokyo
+Issuer: /AAA Certificate Services/C=GB/O=Comodo CA
+    Limited/L=Salford/ST=Greater Manchester
+	Signature algorithm: RSA / SHA256
+Details:
+	Public key: RSA-2048
+	Serial number: 118558298467631452769222351567230513713
+	AKI: A0:11:0A:23:3E:96:F1:07:EC:E2:AF:29:EF:82:A5:7F:D0:30:A4:B4
+	SKI: 21:91:01:CC:88:1F:B3:E6:2E:43:F4:7C:F1:30:89:8B:41:6C:1D:4A
+	Valid from: 2018-06-14T00:00:00+0000
+	     until: 2028-06-13T23:59:59+0000
+	Key usages: cert sign, crl sign, digital signature
+	Extended usages: client auth, server auth
+	Basic constraints: valid, is a CA certificate, max path length 0
+	SANs (0):
+	OCSP server:
+		- http://ocsp.comodoca.com
+CERTIFICATE
 Subject: /Digidentity Services Root CA/C=NL/O=Digidentity B.V.
 Issuer: /Digidentity Services Root CA/C=NL/O=Digidentity B.V.
 	Signature algorithm: RSA / SHA256
@@ -4523,6 +4550,25 @@ Details:
 	Key usages: cert sign, crl sign
 	Basic constraints: valid, is a CA certificate, max path length 1
 	SANs (0):
+CERTIFICATE
+Subject: /Sectigo RSA Pro Series Secure Server CA/C=GB/O=Sectigo
+    Limited/L=Salford/ST=Greater Manchester
+Issuer: /AAA Certificate Services/C=GB/O=Comodo CA
+    Limited/L=Salford/ST=Greater Manchester
+	Signature algorithm: RSA / SHA256
+Details:
+	Public key: RSA-2048
+	Serial number: 27622012235424977087809069238306234677
+	AKI: A0:11:0A:23:3E:96:F1:07:EC:E2:AF:29:EF:82:A5:7F:D0:30:A4:B4
+	SKI: 81:C5:BA:1D:B3:02:7D:C1:BF:56:F1:68:0C:E8:07:86:9C:7A:80:C6
+	Valid from: 2018-11-06T00:00:00+0000
+	     until: 2030-12-31T23:59:59+0000
+	Key usages: cert sign, crl sign, digital signature
+	Extended usages: client auth, server auth
+	Basic constraints: valid, is a CA certificate, max path length 0
+	SANs (0):
+	OCSP server:
+		- http://ocsp.comodoca.com
 CERTIFICATE
 Subject: /Telia Root CA v2/C=FI/O=Telia Finland Oyj
 Issuer: /Telia Root CA v2/C=FI/O=Telia Finland Oyj
@@ -4605,6 +4651,42 @@ Details:
 	Key usages: cert sign, crl sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
+CERTIFICATE
+Subject: /Apple Public Server ECC CA 12 - G1/C=US/O=Apple Inc./ST=California
+Issuer: /AAA Certificate Services/C=GB/O=Comodo CA
+    Limited/L=Salford/ST=Greater Manchester
+	Signature algorithm: RSA / SHA256
+Details:
+	Public key: ECDSA-prime256v1
+	Serial number: 152062101864786254270275607527185217712
+	AKI: A0:11:0A:23:3E:96:F1:07:EC:E2:AF:29:EF:82:A5:7F:D0:30:A4:B4
+	SKI: 5F:E3:2E:8A:94:97:DE:D3:5C:E1:B7:D4:BC:98:8E:31:29:C9:90:3A
+	Valid from: 2019-06-19T00:00:00+0000
+	     until: 2028-12-06T23:59:59+0000
+	Key usages: cert sign, crl sign, digital signature
+	Extended usages: client auth, server auth
+	Basic constraints: valid, is a CA certificate, max path length 0
+	SANs (0):
+	OCSP server:
+		- http://ocsp.comodoca.com
+CERTIFICATE
+Subject: /Apple Public Server RSA CA 12 - G1/C=US/O=Apple Inc./ST=California
+Issuer: /AAA Certificate Services/C=GB/O=Comodo CA
+    Limited/L=Salford/ST=Greater Manchester
+	Signature algorithm: RSA / SHA256
+Details:
+	Public key: RSA-2048
+	Serial number: 14479026799522096511860671249994321176
+	AKI: A0:11:0A:23:3E:96:F1:07:EC:E2:AF:29:EF:82:A5:7F:D0:30:A4:B4
+	SKI: 1E:5C:17:91:05:57:02:FC:77:5C:E3:70:43:EC:6B:FD:DD:D2:D8:69
+	Valid from: 2019-06-19T00:00:00+0000
+	     until: 2028-12-06T23:59:59+0000
+	Key usages: cert sign, crl sign, digital signature
+	Extended usages: client auth, server auth
+	Basic constraints: valid, is a CA certificate, max path length 0
+	SANs (0):
+	OCSP server:
+		- http://ocsp.comodoca.com
 CERTIFICATE
 Subject: /Autoridade Certificadora Raiz Brasileira
     v10/C=BR/O=ICP-Brasil/OU=Instituto Nacional de Tecnologia da Informacao -
@@ -4815,6 +4897,96 @@ Details:
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
+Subject: /Sectigo SHA-256 DV Secure Server CA/C=GB/O=Sectigo Limited
+Issuer: /AAA Certificate Services/C=GB/O=Comodo CA
+    Limited/L=Salford/ST=Greater Manchester
+	Signature algorithm: RSA / SHA256
+Details:
+	Public key: RSA-2048
+	Serial number: 266016311018522150455829563466279248411
+	AKI: A0:11:0A:23:3E:96:F1:07:EC:E2:AF:29:EF:82:A5:7F:D0:30:A4:B4
+	SKI: 66:52:B8:65:2E:AA:B4:F2:41:7B:0A:74:FF:98:C2:03:68:E7:CE:80
+	Valid from: 2020-04-01T00:00:00+0000
+	     until: 2028-12-31T23:59:59+0000
+	Key usages: cert sign, crl sign, digital signature
+	Extended usages: client auth, server auth
+	Basic constraints: valid, is a CA certificate, max path length 0
+	SANs (0):
+	OCSP server:
+		- http://ocsp.comodoca.com
+CERTIFICATE
+Subject: /Sectigo SHA-256 EV Secure Server CA/C=GB/O=Sectigo Limited
+Issuer: /AAA Certificate Services/C=GB/O=Comodo CA
+    Limited/L=Salford/ST=Greater Manchester
+	Signature algorithm: RSA / SHA256
+Details:
+	Public key: RSA-2048
+	Serial number: 307961839245138452512505926569982412473
+	AKI: A0:11:0A:23:3E:96:F1:07:EC:E2:AF:29:EF:82:A5:7F:D0:30:A4:B4
+	SKI: 01:DB:94:A8:62:B4:60:08:53:95:F6:D4:A8:1E:FB:F6:04:A3:46:AA
+	Valid from: 2020-04-01T00:00:00+0000
+	     until: 2028-12-31T23:59:59+0000
+	Key usages: cert sign, crl sign, digital signature
+	Extended usages: client auth, server auth
+	Basic constraints: valid, is a CA certificate, max path length 0
+	SANs (0):
+	OCSP server:
+		- http://ocsp.comodoca.com
+CERTIFICATE
+Subject: /Sectigo SHA-256 OV Secure Server CA/C=GB/O=Sectigo Limited
+Issuer: /AAA Certificate Services/C=GB/O=Comodo CA
+    Limited/L=Salford/ST=Greater Manchester
+	Signature algorithm: RSA / SHA256
+Details:
+	Public key: RSA-2048
+	Serial number: 302202452222994912622522195440533407321
+	AKI: A0:11:0A:23:3E:96:F1:07:EC:E2:AF:29:EF:82:A5:7F:D0:30:A4:B4
+	SKI: 62:15:1F:89:16:38:18:5E:34:EB:FA:DC:86:07:10:8A:D4:ED:56:6A
+	Valid from: 2020-04-01T00:00:00+0000
+	     until: 2028-12-31T23:59:59+0000
+	Key usages: cert sign, crl sign, digital signature
+	Extended usages: client auth, server auth
+	Basic constraints: valid, is a CA certificate, max path length 0
+	SANs (0):
+	OCSP server:
+		- http://ocsp.comodoca.com
+CERTIFICATE
+Subject: /KICA RSA DV CA/C=KR/O=KICA
+Issuer: /AAA Certificate Services/C=GB/O=Comodo CA
+    Limited/L=Salford/ST=Greater Manchester
+	Signature algorithm: RSA / SHA256
+Details:
+	Public key: RSA-2048
+	Serial number: 105960198079834400438571125947849808061
+	AKI: A0:11:0A:23:3E:96:F1:07:EC:E2:AF:29:EF:82:A5:7F:D0:30:A4:B4
+	SKI: 00:B2:85:88:F1:A6:E5:F5:EF:82:25:04:4E:F9:65:CE:46:C1:11:0B
+	Valid from: 2020-05-27T00:00:00+0000
+	     until: 2028-12-31T23:59:59+0000
+	Key usages: cert sign, crl sign, digital signature
+	Extended usages: client auth, server auth
+	Basic constraints: valid, is a CA certificate, max path length 0
+	SANs (0):
+	OCSP server:
+		- http://ocsp.comodoca.com
+CERTIFICATE
+Subject: /KICA RSA OV CA/C=KR/O=KICA
+Issuer: /AAA Certificate Services/C=GB/O=Comodo CA
+    Limited/L=Salford/ST=Greater Manchester
+	Signature algorithm: RSA / SHA256
+Details:
+	Public key: RSA-2048
+	Serial number: 85121046095479263451870928983159891601
+	AKI: A0:11:0A:23:3E:96:F1:07:EC:E2:AF:29:EF:82:A5:7F:D0:30:A4:B4
+	SKI: 00:59:CD:A0:BB:D2:92:F0:BE:EE:6F:52:8B:A9:CE:37:74:C1:20:48
+	Valid from: 2020-05-27T00:00:00+0000
+	     until: 2028-12-31T23:59:59+0000
+	Key usages: cert sign, crl sign, digital signature
+	Extended usages: client auth, server auth
+	Basic constraints: valid, is a CA certificate, max path length 0
+	SANs (0):
+	OCSP server:
+		- http://ocsp.comodoca.com
+CERTIFICATE
 Subject: /ISRG Root X2/C=US/O=Internet Security Research Group
 Issuer: /ISRG Root X2/C=US/O=Internet Security Research Group
 	Signature algorithm: ECDSA / SHA384
@@ -4909,6 +5081,114 @@ Details:
 	Key usages: cert sign, crl sign, digital signature
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
+CERTIFICATE
+Subject: /TrustAsia ECC DV TLS CA G2/C=CN/O=TrustAsia Technologies, Inc.
+Issuer: /AAA Certificate Services/C=GB/O=Comodo CA
+    Limited/L=Salford/ST=Greater Manchester
+	Signature algorithm: RSA / SHA256
+Details:
+	Public key: ECDSA-prime256v1
+	Serial number: 279277416845205507684913506772718254861
+	AKI: A0:11:0A:23:3E:96:F1:07:EC:E2:AF:29:EF:82:A5:7F:D0:30:A4:B4
+	SKI: 01:A6:B0:FD:96:C7:4A:A8:69:22:B2:11:9E:60:DB:6A:34:C6:14:52
+	Valid from: 2022-01-10T00:00:00+0000
+	     until: 2028-12-31T23:59:59+0000
+	Key usages: cert sign, crl sign, digital signature
+	Extended usages: client auth, server auth
+	Basic constraints: valid, is a CA certificate, max path length 0
+	SANs (0):
+	OCSP server:
+		- http://ocsp.comodoca.com
+CERTIFICATE
+Subject: /TrustAsia ECC EV TLS CA G2/C=CN/O=TrustAsia Technologies, Inc.
+Issuer: /AAA Certificate Services/C=GB/O=Comodo CA
+    Limited/L=Salford/ST=Greater Manchester
+	Signature algorithm: RSA / SHA256
+Details:
+	Public key: ECDSA-prime256v1
+	Serial number: 52501319304020675217365520945744352240
+	AKI: A0:11:0A:23:3E:96:F1:07:EC:E2:AF:29:EF:82:A5:7F:D0:30:A4:B4
+	SKI: 37:64:23:A6:E3:D6:39:FA:CD:A6:C2:5C:8C:F0:4F:57:F2:DC:C3:F0
+	Valid from: 2022-01-10T00:00:00+0000
+	     until: 2028-12-31T23:59:59+0000
+	Key usages: cert sign, crl sign, digital signature
+	Extended usages: client auth, server auth
+	Basic constraints: valid, is a CA certificate, max path length 0
+	SANs (0):
+	OCSP server:
+		- http://ocsp.comodoca.com
+CERTIFICATE
+Subject: /TrustAsia ECC OV TLS CA G2/C=CN/O=TrustAsia Technologies, Inc.
+Issuer: /AAA Certificate Services/C=GB/O=Comodo CA
+    Limited/L=Salford/ST=Greater Manchester
+	Signature algorithm: RSA / SHA256
+Details:
+	Public key: ECDSA-prime256v1
+	Serial number: 171254659210531622743029271671596486219
+	AKI: A0:11:0A:23:3E:96:F1:07:EC:E2:AF:29:EF:82:A5:7F:D0:30:A4:B4
+	SKI: 87:F8:36:1E:A2:0C:CC:5F:74:94:58:DF:16:ED:09:FA:38:D9:C4:17
+	Valid from: 2022-01-10T00:00:00+0000
+	     until: 2028-12-31T23:59:59+0000
+	Key usages: cert sign, crl sign, digital signature
+	Extended usages: client auth, server auth
+	Basic constraints: valid, is a CA certificate, max path length 0
+	SANs (0):
+	OCSP server:
+		- http://ocsp.comodoca.com
+CERTIFICATE
+Subject: /TrustAsia RSA DV TLS CA G2/C=CN/O=TrustAsia Technologies, Inc.
+Issuer: /AAA Certificate Services/C=GB/O=Comodo CA
+    Limited/L=Salford/ST=Greater Manchester
+	Signature algorithm: RSA / SHA256
+Details:
+	Public key: RSA-3072
+	Serial number: 236669704491783629389451010103532317099
+	AKI: A0:11:0A:23:3E:96:F1:07:EC:E2:AF:29:EF:82:A5:7F:D0:30:A4:B4
+	SKI: 5F:3A:7C:11:10:7E:0C:67:71:61:DC:8B:A3:B5:00:03:67:F5:57:1C
+	Valid from: 2022-01-10T00:00:00+0000
+	     until: 2028-12-31T23:59:59+0000
+	Key usages: cert sign, crl sign, digital signature
+	Extended usages: client auth, server auth
+	Basic constraints: valid, is a CA certificate, max path length 0
+	SANs (0):
+	OCSP server:
+		- http://ocsp.comodoca.com
+CERTIFICATE
+Subject: /TrustAsia RSA EV TLS CA G2/C=CN/O=TrustAsia Technologies, Inc.
+Issuer: /AAA Certificate Services/C=GB/O=Comodo CA
+    Limited/L=Salford/ST=Greater Manchester
+	Signature algorithm: RSA / SHA256
+Details:
+	Public key: RSA-3072
+	Serial number: 158513861205979756874655378547292748468
+	AKI: A0:11:0A:23:3E:96:F1:07:EC:E2:AF:29:EF:82:A5:7F:D0:30:A4:B4
+	SKI: 3C:BE:A1:AD:58:BD:44:72:5D:FF:4E:74:5A:C3:7B:94:27:A8:7C:80
+	Valid from: 2022-01-10T00:00:00+0000
+	     until: 2028-12-31T23:59:59+0000
+	Key usages: cert sign, crl sign, digital signature
+	Extended usages: client auth, server auth
+	Basic constraints: valid, is a CA certificate, max path length 0
+	SANs (0):
+	OCSP server:
+		- http://ocsp.comodoca.com
+CERTIFICATE
+Subject: /TrustAsia RSA OV TLS CA G2/C=CN/O=TrustAsia Technologies, Inc.
+Issuer: /AAA Certificate Services/C=GB/O=Comodo CA
+    Limited/L=Salford/ST=Greater Manchester
+	Signature algorithm: RSA / SHA256
+Details:
+	Public key: RSA-3072
+	Serial number: 181816488413943754384486977852475317710
+	AKI: A0:11:0A:23:3E:96:F1:07:EC:E2:AF:29:EF:82:A5:7F:D0:30:A4:B4
+	SKI: CA:31:21:37:0C:DE:39:B7:D2:2B:2D:55:9A:5C:A9:A9:5C:50:FA:26
+	Valid from: 2022-01-10T00:00:00+0000
+	     until: 2028-12-31T23:59:59+0000
+	Key usages: cert sign, crl sign, digital signature
+	Extended usages: client auth, server auth
+	Basic constraints: valid, is a CA certificate, max path length 0
+	SANs (0):
+	OCSP server:
+		- http://ocsp.comodoca.com
 CERTIFICATE
 Subject: /SSL.com TLS ECC Root CA 2022/C=US/O=SSL Corporation
 Issuer: /SSL.com TLS ECC Root CA 2022/C=US/O=SSL Corporation

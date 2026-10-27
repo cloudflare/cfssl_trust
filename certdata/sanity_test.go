@@ -1,9 +1,11 @@
 package main
 
 import (
+	"io/ioutil"
 	"os"
 	"path/filepath"
 	"testing"
+	"time"
 
 	"github.com/cloudflare/cfssl/helpers"
 	"github.com/cloudflare/cfssl/ubiquity"
@@ -30,6 +32,40 @@ func TestParseBundles(t *testing.T) {
 	for _, file := range bundleFiles {
 		if _, err := helpers.LoadPEMCertPool(file); err != nil {
 			t.Fatal(err)
+		}
+	}
+}
+
+func TestBundleCertificatesAreValid(t *testing.T) {
+	now := time.Now()
+	for _, file := range bundleFiles {
+		contents, err := ioutil.ReadFile(file)
+		if err != nil {
+			t.Fatal(err)
+		}
+
+		certificates, err := helpers.ParseCertificatesPEM(contents)
+		if err != nil {
+			t.Fatal(err)
+		}
+
+		for _, certificate := range certificates {
+			if now.Before(certificate.NotBefore) {
+				t.Errorf(
+					"%s contains certificate %q that is not valid until %s",
+					file,
+					certificate.Subject.String(),
+					certificate.NotBefore,
+				)
+			}
+			if !now.Before(certificate.NotAfter) {
+				t.Errorf(
+					"%s contains certificate %q that expired at %s",
+					file,
+					certificate.Subject.String(),
+					certificate.NotAfter,
+				)
+			}
 		}
 	}
 }
