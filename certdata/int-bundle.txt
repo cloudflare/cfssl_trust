@@ -23118,6 +23118,25 @@ Details:
 	1 AIA:
 		http://yr.i.lencr.org/
 CERTIFICATE
+Subject: /DigiCert TLS RSA4096 Root G5/C=US/O=DigiCert, Inc.
+Issuer: /DigiCert Global Root G2/C=US/O=DigiCert Inc/OU=www.digicert.com
+	Signature algorithm: RSA / SHA384
+Details:
+	Public key: RSA-4096
+	Serial number: 10141357722440787320450027978971368270
+	AKI: 4E:22:54:20:18:95:E6:E3:6E:E6:0F:FA:FA:B9:12:ED:06:17:8F:39
+	SKI: 51:33:1C:ED:36:40:AF:17:D3:25:CD:69:68:F2:AF:4E:23:3E:B3:41
+	Valid from: 2026-03-31T00:00:00+0000
+	     until: 2036-03-30T23:59:59+0000
+	Key usages: cert sign, crl sign, digital signature
+	Extended usages: client auth, server auth
+	Basic constraints: valid, is a CA certificate
+	SANs (0):
+	1 AIA:
+		http://cacerts.digicert.com/DigiCertGlobalRootG2.crt
+	OCSP server:
+		- http://ocsp.digicert.com
+CERTIFICATE
 Subject: /Root YE/C=US/O=ISRG
 Issuer: /ISRG Root X2/C=US/O=Internet Security Research Group
 	Signature algorithm: ECDSA / SHA384
