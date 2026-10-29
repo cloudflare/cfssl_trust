@@ -30,7 +30,7 @@ Files:
 The `ca-bundle.crt` file contains trust anchors, including selected
 non-self-signed CA certificates. CFSSL uses the
 `ca-bundle.crt.metadata` when building bundles to assist in building
-bundles that need to verified in the maximum number of trust stores
+bundles that need to be verified in the maximum number of trust stores
 on different systems. The `int-bundle.crt` file contains a number of
 known intermediates; these are preloaded for performance reasons and
 occasionally updated as CFSSL finds more intermediates. If an intermediate
@@ -79,7 +79,7 @@ and regenerates the bundles. It then commits the changes on a new
 required. Open a pull request for the release branch afterward; the script
 does not create one.
 
-The content of 'ca-bundle.crt.metadata' is crucial to building
+The content of 'ca-bundle.crt.metadata' is crucial to building a
 ubiquitous bundle. Feel free to tune its content. Make sure the paths to
 individual trust root stores are correctly specified.
 
