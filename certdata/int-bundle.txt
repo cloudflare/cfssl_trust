@@ -95,43 +95,6 @@ Details:
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
-Subject: /Starfield Secure Certification
-    Authority/C=US/O=Starfield Technologies,
-    Inc./OU=http://certificates.starfieldtech.com/repository/L=Scottsdale/ST=Arizona
-Issuer: /C=US/O=Starfield Technologies, Inc./OU=Starfield Class 2
-    Certification Authority
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 513
-	AKI: BF:5F:B7:D1:CE:DD:1F:86:F4:5B:55:AC:DC:D7:10:C2:0E:A9:88:E7
-	SKI: 49:4B:52:27:D1:1B:BC:F2:A1:21:6A:62:7B:51:42:7A:8A:D7:D5:56
-	Valid from: 2006-11-16T01:15:40+0000
-	     until: 2026-11-16T01:15:40+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://ocsp.starfieldtech.com
-CERTIFICATE
-Subject: /Go Daddy Secure Certification Authority/C=US/O=GoDaddy.com,
-    Inc./OU=http://certificates.godaddy.com/repository/L=Scottsdale/ST=Arizona
-Issuer: /C=US/O=The Go Daddy Group, Inc./OU=Go Daddy Class 2 Certification
-    Authority
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 769
-	AKI: D2:C4:B0:D2:91:D4:4C:11:71:B3:61:CB:3D:A1:FE:DD:A8:6A:D4:E3
-	SKI: FD:AC:61:32:93:6C:45:D6:E2:EE:85:5F:9A:BA:E7:76:99:68:CC:E7
-	Valid from: 2006-11-16T01:54:37+0000
-	     until: 2026-11-16T01:54:37+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://ocsp.godaddy.com
-CERTIFICATE
 Subject: /GlobalSign/O=GlobalSign/OU=GlobalSign Root CA - R2
 Issuer: /GlobalSign Root CA/C=BE/O=GlobalSign nv-sa/OU=Root CA
 	Signature algorithm: RSA / SHA1
@@ -13532,27 +13495,6 @@ Details:
 	SANs (0):
 	OCSP server:
 		- http://ocsp.globalsign.com/rootr1
-CERTIFICATE
-Subject: /Entrust Certification Authority - L1E/C=US/O=Entrust,
-    Inc./OU=www.entrust.net/rpa is incorporated by reference/OU=(c) 2009
-    Entrust, Inc.
-Issuer: /Entrust Root Certification Authority/C=US/O=Entrust,
-    Inc./OU=www.entrust.net/CPS is incorporated by reference/OU=(c) 2006
-    Entrust, Inc.
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 178649738806398764376594600103549032604
-	AKI: 68:90:E4:67:A4:A6:53:80:C7:86:66:A4:F1:F7:4B:43:FB:84:BD:6D
-	SKI: 5B:41:8A:B2:C4:43:C1:BD:BF:C8:54:41:55:9D:E0:96:AD:FF:B9:A1
-	Valid from: 2019-06-19T16:52:08+0000
-	     until: 2026-11-19T17:22:08+0000
-	Key usages: cert sign, crl sign, digital signature
-	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	OCSP server:
-		- http://ocsp.entrust.net
 CERTIFICATE
 Subject: /Secure Site CA G2/C=US/O=DigiCert Inc/OU=www.digicert.com
 Issuer: /DigiCert Global Root CA/C=US/O=DigiCert Inc/OU=www.digicert.com
