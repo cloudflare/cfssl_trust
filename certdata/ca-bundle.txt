@@ -974,24 +974,6 @@ Details:
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
-Subject: /Entrust Root Certification Authority/C=US/O=Entrust,
-    Inc./OU=www.entrust.net/CPS is incorporated by reference/OU=(c) 2006
-    Entrust, Inc.
-Issuer: /Entrust Root Certification Authority/C=US/O=Entrust,
-    Inc./OU=www.entrust.net/CPS is incorporated by reference/OU=(c) 2006
-    Entrust, Inc.
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 1164660820
-	AKI: 68:90:E4:67:A4:A6:53:80:C7:86:66:A4:F1:F7:4B:43:FB:84:BD:6D
-	SKI: 68:90:E4:67:A4:A6:53:80:C7:86:66:A4:F1:F7:4B:43:FB:84:BD:6D
-	Valid from: 2006-11-27T20:23:42+0000
-	     until: 2026-11-27T20:53:42+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
 Subject: /AC Raíz Certicámara S.A./C=CO/O=Sociedad Cameral de Certificación
     Digital - Certicámara S.A.
 Issuer: /AC Raíz Certicámara S.A./C=CO/O=Sociedad Cameral de Certificación
