@@ -38,13 +38,12 @@ jobs:
         with:
           source_branch: "release/${{ env.LATEST_RELEASE }}"
           destination_branch: "master"
-          pr_reviewer: "cloudflare/ssltls"
           pr_assignee: "lgarofalo"
           github_token: ${{ secrets.GITHUB_TOKEN }}
       - name: Google Chat Notification
+        if: always()
         uses: Co-qn/google-chat-notification@releases/v1
         with:
           name: Scheduled Release ${{steps.open-pr.outputs.pr_url}}
           url: ${{ secrets.SSL_TEAM_GOOGLE_CHAT_WEBHOOK }}
           status: ${{ job.status }}
-          if: always()
