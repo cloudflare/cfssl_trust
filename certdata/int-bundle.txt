@@ -14628,45 +14628,6 @@ Details:
 	OCSP server:
 		- http://ocsp.digicert.com
 CERTIFICATE
-Subject: /Cybertrust Japan SureServer CA G4/C=JP/O=Cybertrust Japan Co., Ltd.
-Issuer: /C=JP/O=SECOM Trust Systems CO.,LTD./OU=Security Communication RootCA2
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 640569883381181201454
-	AKI: 0A:85:A9:77:65:05:98:7C:40:81:F8:0F:97:2C:38:F1:0A:EC:3C:CF
-	SKI: 62:A7:D2:DA:DE:85:B6:92:F1:85:BC:F6:E8:95:9D:75:A0:FA:4E:1F
-	Valid from: 2019-09-27T01:54:23+0000
-	     until: 2029-05-29T05:00:39+0000
-	Key usages: cert sign, crl sign
-	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://repository.secomtrust.net/SC-Root2/SCRoot2ca.cer
-	OCSP server:
-		- http://scrootca2.ocsp.secomtrust.net
-CERTIFICATE
-Subject: /Cybertrust Japan SureServer EV CA G3/C=JP/O=Cybertrust Japan Co.,
-    Ltd.
-Issuer: /C=JP/O=SECOM Trust Systems CO.,LTD./OU=Security Communication RootCA2
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 640569885012466767356
-	AKI: 0A:85:A9:77:65:05:98:7C:40:81:F8:0F:97:2C:38:F1:0A:EC:3C:CF
-	SKI: 82:6C:75:5D:53:F5:45:69:BC:25:2D:A4:4C:89:E6:B2:B7:41:87:A3
-	Valid from: 2019-09-27T02:04:20+0000
-	     until: 2029-05-29T05:00:39+0000
-	Key usages: cert sign, crl sign
-	Extended usages: client auth, server auth
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-	1 AIA:
-		http://repository.secomtrust.net/SC-Root2/SCRoot2ca.cer
-	OCSP server:
-		- http://scrootca2.ocsp.secomtrust.net
-CERTIFICATE
 Subject: /Cybertrust Japan SureMail CA G4/C=JP/O=Cybertrust Japan Co., Ltd.
 Issuer: /C=JP/O=SECOM Trust Systems CO.,LTD./OU=Security Communication RootCA2
 	Signature algorithm: RSA / SHA256
@@ -22441,6 +22402,25 @@ Details:
 	SANs (0):
 	1 AIA:
 		http://i.pki.goog/gsr1.crt
+CERTIFICATE
+Subject: /Cybertrust Japan SureServer CA G4/C=JP/O=Cybertrust Japan Co., Ltd.
+Issuer: /C=JP/O=SECOM Trust Systems CO.,LTD./OU=Security Communication RootCA2
+	Signature algorithm: RSA / SHA256
+Details:
+	Public key: RSA-2048
+	Serial number: 46157929474543200098709732507498232300
+	AKI: 0A:85:A9:77:65:05:98:7C:40:81:F8:0F:97:2C:38:F1:0A:EC:3C:CF
+	SKI: 62:A7:D2:DA:DE:85:B6:92:F1:85:BC:F6:E8:95:9D:75:A0:FA:4E:1F
+	Valid from: 2023-12-13T05:57:30+0000
+	     until: 2029-05-29T05:00:39+0000
+	Key usages: cert sign, crl sign
+	Extended usages: client auth, server auth
+	Basic constraints: valid, is a CA certificate, max path length 0
+	SANs (0):
+	1 AIA:
+		http://repository.secomtrust.net/SC-Root2/SCRoot2ca.cer
+	OCSP server:
+		- http://scrootca2.ocsp.secomtrust.net
 CERTIFICATE
 Subject: /Cybertrust Japan SureServer EV CA G3/C=JP/O=Cybertrust Japan Co.,
     Ltd.
