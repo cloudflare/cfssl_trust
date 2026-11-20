@@ -4969,6 +4969,21 @@ Details:
 	OCSP server:
 		- http://ocsp.comodoca.com
 CERTIFICATE
+Subject: /Telekom Security TLS ECC Root 2020/C=DE/O=Deutsche Telekom Security
+    GmbH
+Issuer: /Telekom Security TLS ECC Root 2020/C=DE/O=Deutsche Telekom Security
+    GmbH
+	Signature algorithm: ECDSA / SHA384
+Details:
+	Public key: ECDSA-secp384r1
+	Serial number: 72082518505882327255703894282316633856
+	SKI: E3:72:CC:6E:95:99:47:B1:E6:B3:61:4C:D1:CB:AB:E3:BA:CD:DE:9F
+	Valid from: 2020-08-25T07:48:20+0000
+	     until: 2045-08-25T23:59:59+0000
+	Key usages: cert sign, crl sign
+	Basic constraints: valid, is a CA certificate
+	SANs (0):
+CERTIFICATE
 Subject: /ISRG Root X2/C=US/O=Internet Security Research Group
 Issuer: /ISRG Root X2/C=US/O=Internet Security Research Group
 	Signature algorithm: ECDSA / SHA384
@@ -5197,5 +5212,21 @@ Details:
 	Valid from: 2022-08-25T16:34:22+0000
 	     until: 2046-08-19T16:34:21+0000
 	Key usages: cert sign, crl sign, digital signature
+	Basic constraints: valid, is a CA certificate
+	SANs (0):
+CERTIFICATE
+Subject: /Telekom Security TLS RSA Root 2023/C=DE/O=Deutsche Telekom Security
+    GmbH
+Issuer: /Telekom Security TLS RSA Root 2023/C=DE/O=Deutsche Telekom Security
+    GmbH
+	Signature algorithm: RSA / SHA384
+Details:
+	Public key: RSA-4096
+	Serial number: 44676229530606711399881795178081572759
+	AKI: B6:A7:97:82:3D:74:85:9B:F7:3C:9F:93:9A:95:79:75:52:8C:6D:47
+	SKI: B6:A7:97:82:3D:74:85:9B:F7:3C:9F:93:9A:95:79:75:52:8C:6D:47
+	Valid from: 2023-03-28T12:16:45+0000
+	     until: 2048-03-27T23:59:59+0000
+	Key usages: cert sign, crl sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
