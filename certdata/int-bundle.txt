@@ -23074,6 +23074,25 @@ Details:
 	OCSP server:
 		- http://ocsp.sslsecuretrust.com/
 CERTIFICATE
+Subject: /Telekom Security TLS RSA Root 2023/C=DE/O=Deutsche Telekom Security
+    GmbH
+Issuer: /T-TeleSec GlobalRoot Class 3/C=DE/O=T-Systems Enterprise Services
+    GmbH/OU=T-Systems Trust Center
+	Signature algorithm: RSA / SHA256
+Details:
+	Public key: RSA-4096
+	Serial number: 47245804954558627339220129206663348659
+	AKI: B5:03:F7:76:3B:61:82:6A:12:AA:18:53:EB:03:21:94:BF:FE:CE:CA
+	SKI: B6:A7:97:82:3D:74:85:9B:F7:3C:9F:93:9A:95:79:75:52:8C:6D:47
+	Valid from: 2026-03-19T12:03:19+0000
+	     until: 2033-09-30T23:59:59+0000
+	Key usages: cert sign, crl sign
+	Extended usages: server auth
+	Basic constraints: valid, is a CA certificate
+	SANs (0):
+	1 AIA:
+		http://grcl3.crt.telesec.de/crt/T-TeleSec_GlobalRoot_Class_3.crt
+CERTIFICATE
 Subject: /DigiCert TLS RSA4096 Root G5/C=US/O=DigiCert, Inc.
 Issuer: /DigiCert Global Root G2/C=US/O=DigiCert Inc/OU=www.digicert.com
 	Signature algorithm: RSA / SHA384
